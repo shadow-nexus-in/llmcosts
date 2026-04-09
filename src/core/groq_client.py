@@ -123,13 +123,18 @@ class GroqEngine:
                 self._save_checkpoint()
                 return response
             except _RateLimitError as e:
-                wait = BASE_BACKOFF ** (attempt + 1)
                 is_daily = "per day" in str(e).lower()
                 limit_type = "Daily" if is_daily else "Per-Minute"
-                logger.warning(f"429 {limit_type} limit on key {key_state.index + 1}. Rotating. Backoff {wait}s. ({e})")
+                
+                # Use precise API reset header if available, otherwise fallback to backoff
+                exact_wait = e.retry_after if e.retry_after > 0 else (BASE_BACKOFF ** (attempt + 1))
+                wait = exact_wait if not is_daily else 0
+                
+                logger.warning(f"429 {limit_type} limit on key {key_state.index + 1}. Rotating. Backoff {wait:.1f}s.")
                 if is_daily:
                     key_state.exhausted = True
-                time.sleep(wait)
+                else:
+                    time.sleep(wait)
             except _ServerError as e:
                 wait = BASE_BACKOFF ** (attempt + 1)
                 logger.warning(f"5xx on key {key_state.index + 1}. Backoff {wait}s. ({e})")
@@ -189,7 +194,13 @@ class GroqEngine:
         resp = requests.post(GROQ_API_URL, headers=headers, json=payload, timeout=60)
 
         if resp.status_code == 429:
-            raise _RateLimitError(resp.text)
+            # Extract exact reset time from headers directly (format like "4.5s")
+            reset_str = resp.headers.get("x-ratelimit-reset-tokens", "") or resp.headers.get("x-ratelimit-reset-requests", "")
+            try:
+                wait_sec = float(reset_str.replace("s", "")) if reset_str else float(resp.headers.get("Retry-After", 2.0))
+            except ValueError:
+                wait_sec = 2.0
+            raise _RateLimitError(resp.text, wait_sec)
         if resp.status_code >= 500:
             raise _ServerError(f"HTTP {resp.status_code}: {resp.text[:200]}")
         resp.raise_for_status()
@@ -236,7 +247,9 @@ class GroqEngine:
 
 
 class _RateLimitError(Exception):
-    pass
+    def __init__(self, message: str, retry_after: float = 0.0):
+        super().__init__(message)
+        self.retry_after = retry_after
 
 
 class _ServerError(Exception):
