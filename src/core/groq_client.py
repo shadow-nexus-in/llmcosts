@@ -124,8 +124,11 @@ class GroqEngine:
                 return response
             except _RateLimitError as e:
                 wait = BASE_BACKOFF ** (attempt + 1)
-                logger.warning(f"429 on key {key_state.index + 1}. Rotating. Backoff {wait}s. ({e})")
-                key_state.exhausted = True
+                is_daily = "per day" in str(e).lower()
+                limit_type = "Daily" if is_daily else "Per-Minute"
+                logger.warning(f"429 {limit_type} limit on key {key_state.index + 1}. Rotating. Backoff {wait}s. ({e})")
+                if is_daily:
+                    key_state.exhausted = True
                 time.sleep(wait)
             except _ServerError as e:
                 wait = BASE_BACKOFF ** (attempt + 1)
