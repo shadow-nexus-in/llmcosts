@@ -21,7 +21,7 @@ GITHUB_API_BASE = "https://api.github.com"
 GITHUB_PAT = os.getenv("GITHUB_PAT", "")
 MAX_PRS_PER_DAY = 5
 PR_STATE_PATH = Path("pr_state.json")
-MODELS_JSON_PATH = Path("models.json")
+MODELS_JSON_PATH = Path("data/models.json")
 SITE_URL = "https://llmcosts.dev"
 AFFILIATE_BASE = "https://openrouter.ai/?ref=llmcosts"
 

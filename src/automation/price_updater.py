@@ -17,7 +17,7 @@ import requests
 
 logger = logging.getLogger(__name__)
 
-MODELS_JSON_PATH = Path("models.json")
+MODELS_JSON_PATH = Path("data/models.json")
 OPENROUTER_PRICES_URL = "https://openrouter.ai/api/v1/models"
 LITELLM_PRICES_URL = (
     "https://raw.githubusercontent.com/BerriAI/litellm/main/"

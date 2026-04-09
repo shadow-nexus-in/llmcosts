@@ -13,7 +13,7 @@ from pathlib import Path
 
 logger = logging.getLogger(__name__)
 
-MODELS_JSON_PATH = Path("models.json")
+MODELS_JSON_PATH = Path("data/models.json")
 DIST_DIR = Path("dist")
 SITE_URL = os.getenv("SITE_URL", "https://llmcosts.dev")
 AFFILIATE_BASE = "https://openrouter.ai/?ref=llmcosts"

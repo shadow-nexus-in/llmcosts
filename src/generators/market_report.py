@@ -12,11 +12,11 @@ import time
 from pathlib import Path
 from typing import Optional
 
-from src.groq_engine import GroqEngine
+from src.core.groq_client import GroqEngine
 
 logger = logging.getLogger(__name__)
 
-MODELS_JSON_PATH = Path("models.json")
+MODELS_JSON_PATH = Path("data/models.json")
 DIST_REPORT_DIR = Path("dist/daily-report")
 SITE_URL = os.getenv("SITE_URL", "https://llmcosts.dev")
 AFFILIATE_BASE = "https://openrouter.ai/?ref=llmcosts"

@@ -20,11 +20,11 @@ import time
 from pathlib import Path
 from typing import Optional
 
-from src.groq_engine import GroqEngine
+from src.core.groq_client import GroqEngine
 
 logger = logging.getLogger(__name__)
 
-MODELS_JSON_PATH = Path("models.json")
+MODELS_JSON_PATH = Path("data/models.json")
 DIST_MODELS_DIR = Path("dist/models")
 DIST_COMPARE_DIR = Path("dist/compare")
 TEMPLATE_PATH = Path("templates/model_page.html")

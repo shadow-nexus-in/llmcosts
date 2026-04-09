@@ -12,7 +12,7 @@ from pathlib import Path
 
 logger = logging.getLogger(__name__)
 
-MODELS_JSON_PATH = Path("models.json")
+MODELS_JSON_PATH = Path("data/models.json")
 DIST_DIR = Path("dist")
 MAX_SHARD_BYTES = 90_000  # 90KB — well under ChatGPT's 150KB truncation limit
 SITE_URL = "https://llmcosts.dev"

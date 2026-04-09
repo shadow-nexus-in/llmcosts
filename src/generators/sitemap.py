@@ -16,7 +16,7 @@ import requests
 
 logger = logging.getLogger(__name__)
 
-MODELS_JSON_PATH = Path("models.json")
+MODELS_JSON_PATH = Path("data/models.json")
 DIST_DIR = Path("dist")
 SITE_URL = os.getenv("SITE_URL", "https://llmcosts.dev")
 GOOGLE_INDEXING_API_URL = "https://indexing.googleapis.com/v3/urlNotifications:publish"

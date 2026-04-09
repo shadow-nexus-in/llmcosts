@@ -120,12 +120,12 @@ def main() -> int:
 
     # ── 0. Homepage + Compare Page ───────────────────────────
     if not args.model:
-        from src.homepage_gen import run_homepage_generation
+        from src.generators.homepage import run_homepage_generation
         results["homepage"] = _run_task("Homepage Generator", run_homepage_generation)
 
     # ── 1. Price Update ──────────────────────────────────────
     if not args.skip_prices:
-        from src.price_updater import run_price_update
+        from src.automation.price_updater import run_price_update
         results["price_update"] = _run_task("Price Updater", run_price_update)
     else:
         logger.info("Skipping price update (--skip-prices)")
@@ -133,7 +133,7 @@ def main() -> int:
 
     # ── 2. Page Generation ───────────────────────────────────
     if not args.skip_pages:
-        from src.page_generator import run_page_generation
+        from src.generators.model_pages import run_page_generation
         results["page_generation"] = _run_task(
             "Page Generator",
             run_page_generation,
@@ -143,23 +143,23 @@ def main() -> int:
         logger.info("Skipping page generation (--skip-pages)")
 
     # ── 3. LLMs.txt Sharding ─────────────────────────────────
-    from src.llms_txt import run_llms_txt_generation
+    from src.generators.llms_txt import run_llms_txt_generation
     results["llms_txt"] = _run_task("LLMs.txt Engine", run_llms_txt_generation)
 
     # ── 4. Config Generator ──────────────────────────────────
     if not args.skip_configs:
-        from src.config_gen import run_config_generation
+        from src.generators.dev_configs import run_config_generation
         results["config_gen"] = _run_task("Config Generator", run_config_generation)
     else:
         logger.info("Skipping config generation (--skip-configs)")
 
     # ── 5. Daily Intelligence Report ─────────────────────────
     if not args.model:  # Never run in single-model test mode
-        from src.report_gen import run_report_generation
+        from src.generators.market_report import run_report_generation
         results["report_gen"] = _run_task("Report Generator", run_report_generation)
 
     # ── 6. Sitemap ───────────────────────────────────────────
-    from src.sitemap import run_sitemap_generation
+    from src.generators.sitemap import run_sitemap_generation
     results["sitemap"] = _run_task("Sitemap Builder", run_sitemap_generation)
 
     # ── 6.5 404 Fallback Page ────────────────────────────────
@@ -187,7 +187,7 @@ def main() -> int:
 
     # ── 7. PR Infiltrator ────────────────────────────────────
     if not args.skip_pr and not args.model:  # Never run PR bot in single-model mode
-        from src.pr_bot import run_pr_infiltrator
+        from src.automation.pr_bot import run_pr_infiltrator
         results["pr_bot"] = _run_task("PR Infiltrator", run_pr_infiltrator)
     else:
         logger.info("Skipping PR infiltrator (--skip-pr or single-model mode)")
