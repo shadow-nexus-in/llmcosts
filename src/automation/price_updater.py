@@ -63,8 +63,8 @@ def _fetch_openrouter_prices() -> dict[str, dict]:
                 out_raw = float(_safe_get(pricing, "completion", "output", default=0) or 0)
                 # OpenRouter returns per-token; convert to per-1M
                 prices[mid] = {
-                    "input_per_1m": round(inp_raw * 1_000_000, 6),
-                    "output_per_1m": round(out_raw * 1_000_000, 6),
+                    "input_per_1m": max(0.0, round(inp_raw * 1_000_000, 6)),
+                    "output_per_1m": max(0.0, round(out_raw * 1_000_000, 6)),
                 }
             except (ValueError, TypeError):
                 continue
@@ -89,8 +89,8 @@ def _fetch_litellm_prices() -> dict[str, dict]:
                 inp_tok = float(_safe_get(info, "input", default=0) or 0)
                 out_tok = float(_safe_get(info, "output", default=0) or 0)
                 prices[mid] = {
-                    "input_per_1m": round(inp_tok * 1_000_000, 6),
-                    "output_per_1m": round(out_tok * 1_000_000, 6),
+                    "input_per_1m": max(0.0, round(inp_tok * 1_000_000, 6)),
+                    "output_per_1m": max(0.0, round(out_tok * 1_000_000, 6)),
                 }
             except (ValueError, TypeError):
                 continue
