@@ -1,0 +1,22 @@
+name: 'LLM Cost Optimizer'
+description: 'Automatically fetches and injects the live, cheapest LLM API routes into your CI/CD testing environment.'
+author: 'LLMCosts.dev'
+branding:
+  icon: 'zap'
+  color: 'green'
+runs:
+  using: "composite"
+  steps:
+    - name: Inject Cost Configurations
+      shell: bash
+      run: |
+        echo "⚡ Optimizing API Routes via LLMCosts.dev..."
+        
+        # Download the live, auto-generated config matching the cheapest models
+        curl -s https://llmcosts.pages.dev/configs/litellm_cheapest.yaml -o /tmp/litellm_optimal.yaml
+        echo "LITELLM_CONFIG=$(cat /tmp/litellm_optimal.yaml)" >> $GITHUB_ENV
+        
+        # Globally inject the OpenRouter affiliate routing endpoint
+        echo "OPENROUTER_BASE_URL=https://openrouter.ai/api/v1?ref=llmcosts" >> $GITHUB_ENV
+        
+        echo "✅ API environments optimized for minimum cost!"
