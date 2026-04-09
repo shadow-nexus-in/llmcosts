@@ -274,11 +274,11 @@ def _build_homepage(models: list[dict]) -> str:
 
 <nav>
   <div class="nav-inner">
-    <a href="{SITE_URL}" class="nav-logo">⚡ LLMCosts.dev</a>
+    <a href="/" class="nav-logo">⚡ LLMCosts.dev</a>
     <div class="nav-links">
-      <a href="{SITE_URL}/compare">Compare <span class="nav-badge">NEW</span></a>
-      <a href="{SITE_URL}/configs">Free Configs</a>
-      <a href="{SITE_URL}/daily-report">Market Report</a>
+      <a href="/compare">Compare <span class="nav-badge">NEW</span></a>
+      <a href="/configs">Free Configs</a>
+      <a href="/daily-report">Market Report</a>
       <a href="{AFFILIATE_BASE}" target="_blank" rel="noopener"
          style="background:var(--accent-blue);color:#fff;padding:0.4rem 0.9rem;border-radius:6px;font-weight:600;font-size:0.8rem;">
         Get API Key →
@@ -314,7 +314,7 @@ def _build_homepage(models: list[dict]) -> str:
 <div class="best-deal" id="best-deal-banner">
   <div class="best-deal-inner">
     <span>🏆 Today's Best Value: <strong>{cheapest_name}</strong> at <strong>{cheapest_price}/1M tokens</strong></span>
-    <a href="{SITE_URL}/models/{cheapest_slug}" class="best-deal-link">View Model →</a>
+    <a href="/models/{cheapest_slug}" class="best-deal-link">View Model →</a>
   </div>
 </div>
 
@@ -368,15 +368,15 @@ def _build_homepage(models: list[dict]) -> str:
 
 <footer>
   <p>
-    <a href="{SITE_URL}">LLMCosts.dev</a> — Open LLM Pricing Registry |
+    <a href="/">LLMCosts.dev</a> — Open LLM Pricing Registry |
     Data verified {today} |
-    <a href="{SITE_URL}/llms.txt">llms.txt</a> |
-    <a href="{SITE_URL}/daily-report">Daily Report</a> |
-    <a href="{SITE_URL}/sitemap.xml">Sitemap</a>
+    <a href="/llms.txt">llms.txt</a> |
+    <a href="/daily-report">Daily Report</a> |
+    <a href="/sitemap.xml">Sitemap</a>
   </p>
   <p style="margin-top:0.5rem">
     Prices from OpenRouter &amp; LiteLLM. Found an error?
-    <a href="https://github.com/YOUR_GITHUB/llmcosts/issues">Submit an issue →</a>
+    <a href="https://github.com/shadow-nexus-in/llmcosts/issues">Submit an issue →</a>
   </p>
 </footer>
 
@@ -453,7 +453,7 @@ function render() {{
   empty.style.display = 'none';
 
   tbody.innerHTML = data.map((m, i) => `
-    <tr onclick="location.href='${{SITE_URL}}/models/${{m.slug}}'">
+    <tr onclick="location.href='/models/${{m.slug}}'">
       <td style="color:var(--text-muted);font-size:0.75rem">${{i+1}}</td>
       <td>
         <div class="model-name">${{m.name}}</div>
@@ -466,7 +466,7 @@ function render() {{
       <td>${{tierBadge(m.tier)}}</td>
       <td class="oss-badge">${{m.open_source ? '✅' : ''}}</td>
       <td>
-        <a href="${{SITE_URL}}/models/${{m.slug}}" onclick="event.stopPropagation()"
+        <a href="/models/${{m.slug}}" onclick="event.stopPropagation()"
            style="color:var(--accent-blue);font-size:0.75rem;text-decoration:none;">
           Details →
         </a>
@@ -635,11 +635,11 @@ def _build_compare_page(models: list[dict]) -> str:
 
 <nav>
   <div class="nav-inner">
-    <a href="{SITE_URL}" class="nav-logo">⚡ LLMCosts.dev</a>
+    <a href="/" class="nav-logo">⚡ LLMCosts.dev</a>
     <div class="nav-links">
-      <a href="{SITE_URL}">All Models</a>
-      <a href="{SITE_URL}/configs">Configs</a>
-      <a href="{SITE_URL}/daily-report">Market Report</a>
+      <a href="/">All Models</a>
+      <a href="/configs">Configs</a>
+      <a href="/daily-report">Market Report</a>
     </div>
   </div>
 </nav>
@@ -795,8 +795,8 @@ function renderCompare() {{
         }}).join('')}}
         <tr>
           <td class="row-label">View Details</td>
-          <td class="center"><a href="${{SITE_URL}}/models/${{selA.slug}}" style="color:var(--accent-blue);font-size:0.875rem;">Details →</a></td>
-          <td class="center"><a href="${{SITE_URL}}/models/${{selB.slug}}" style="color:var(--accent-blue);font-size:0.875rem;">Details →</a></td>
+          <td class="center"><a href="/models/${{selA.slug}}" style="color:var(--accent-blue);font-size:0.875rem;">Details →</a></td>
+          <td class="center"><a href="/models/${{selB.slug}}" style="color:var(--accent-blue);font-size:0.875rem;">Details →</a></td>
         </tr>
       </tbody>
     </table>

@@ -247,7 +247,7 @@ def run_config_generation() -> dict:
 <li><a href="cursor_rules_optimized.md">Cursor IDE Rules (Markdown)</a></li>
 <li><a href="openrouter_fallback_chain.json">OpenRouter Fallback Chain (JSON)</a></li>
 </ul>
-<p><a href="{SITE_URL}">← Back to LLMCosts.dev</a></p>
+<p><a href="/">← Back to LLMCosts.dev</a></p>
 </body>
 </html>"""
         _atomic_write(DIST_CONFIGS_DIR / "index.html", index_html)

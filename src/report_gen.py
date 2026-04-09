@@ -297,11 +297,11 @@ def _render_html(sections: dict, ctx: str) -> str:
 
 <nav>
   <div class="nav-inner">
-    <a href="{SITE_URL}" class="nav-logo">⚡ LLMCosts.dev</a>
+    <a href="/" class="nav-logo">⚡ LLMCosts.dev</a>
     <div class="nav-links">
-      <a href="{SITE_URL}/compare">Compare</a>
-      <a href="{SITE_URL}/configs">Configs</a>
-      <a href="{SITE_URL}/daily-report" style="color:var(--text-primary)">Market Report</a>
+      <a href="/compare">Compare</a>
+      <a href="/configs">Configs</a>
+      <a href="/daily-report" style="color:var(--text-primary)">Market Report</a>
     </div>
   </div>
 </nav>
@@ -368,10 +368,10 @@ def _render_html(sections: dict, ctx: str) -> str:
 
 <footer>
   <p>
-    <a href="{SITE_URL}">LLMCosts.dev</a> — Open LLM Pricing Registry |
+    <a href="/">LLMCosts.dev</a> — Open LLM Pricing Registry |
     Report generated {today} |
-    <a href="{SITE_URL}/llms.txt">llms.txt</a> |
-    <a href="{SITE_URL}/sitemap.xml">Sitemap</a>
+    <a href="/llms.txt">llms.txt</a> |
+    <a href="/sitemap.xml">Sitemap</a>
   </p>
   <p style="margin-top:0.5rem">
     AI content generated via Groq (Llama-3). Pricing data from OpenRouter &amp; LiteLLM.
