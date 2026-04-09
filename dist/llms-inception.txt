@@ -1,0 +1,11 @@
+# LLMCosts.dev — Inception Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [Inception: Mercury 2](https://llmcosts.dev/models/mercury-2) | Inception | $0.25 | $0.75 | $None | 128,000 | 1200 | standard | Closed |
+| [Inception: Mercury](https://llmcosts.dev/models/mercury) | Inception | $0.25 | $0.75 | $None | 128,000 | 1200 | standard | Closed |
+| [Inception: Mercury Coder](https://llmcosts.dev/models/mercury-coder) | Inception | $0.25 | $0.75 | $None | 128,000 | 1200 | standard | Closed |

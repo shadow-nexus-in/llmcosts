@@ -1,0 +1,12 @@
+# LLMCosts.dev — Bytedance-Seed Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [ByteDance Seed: Seed-2.0-Lite](https://llmcosts.dev/models/seed-2.0-lite) | Bytedance-seed | $0.25 | $2.0 | $None | 262,144 | 1200 | standard | Closed |
+| [ByteDance Seed: Seed-2.0-Mini](https://llmcosts.dev/models/seed-2.0-mini) | Bytedance-seed | $0.1 | $0.4 | $None | 262,144 | 1200 | standard | Closed |
+| [ByteDance Seed: Seed 1.6 Flash](https://llmcosts.dev/models/seed-1.6-flash) | Bytedance-seed | $0.075 | $0.3 | $None | 262,144 | 1200 | standard | Closed |
+| [ByteDance Seed: Seed 1.6](https://llmcosts.dev/models/seed-1.6) | Bytedance-seed | $0.25 | $2.0 | $None | 262,144 | 1200 | standard | Closed |

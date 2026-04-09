@@ -1,0 +1,21 @@
+# LLMCosts.dev — Anthropic Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [Claude 3.5 Haiku](https://llmcosts.dev/models/claude-3-5-haiku) | Anthropic | $0.8 | $4.0 | $0.08 | 200,000 | 1220 | standard | Closed |
+| [Claude 3 Haiku](https://llmcosts.dev/models/claude-3-haiku) | Anthropic | $0.25 | $1.25 | $0.03 | 200,000 | 1178 | budget | Closed |
+| [Claude Opus 4](https://llmcosts.dev/models/claude-opus-4) | Anthropic | $15.0 | $75.0 | $1.5 | 200,000 | 1380 | premium | Closed |
+| [Claude Sonnet 4](https://llmcosts.dev/models/claude-sonnet-4) | Anthropic | $3.0 | $15.0 | $0.3 | 200,000 | 1340 | premium | Closed |
+| [Anthropic: Claude Opus 4.6 (Fast)](https://llmcosts.dev/models/claude-opus-4.6-fast) | Anthropic | $30.0 | $150.0 | $None | 1,000,000 | 1300 | standard | Closed |
+| [Anthropic: Claude Sonnet 4.6](https://llmcosts.dev/models/claude-sonnet-4.6) | Anthropic | $3.0 | $15.0 | $0.3 | 1,000,000 | 1200 | standard | Closed |
+| [Anthropic: Claude Opus 4.6](https://llmcosts.dev/models/claude-opus-4.6) | Anthropic | $5.0 | $25.0 | $0.5 | 1,000,000 | 1300 | standard | Closed |
+| [Anthropic: Claude Opus 4.5](https://llmcosts.dev/models/claude-opus-4.5) | Anthropic | $5.0 | $25.0 | $None | 200,000 | 1300 | standard | Closed |
+| [Anthropic: Claude Haiku 4.5](https://llmcosts.dev/models/claude-haiku-4.5) | Anthropic | $1.0 | $5.0 | $0.1 | 200,000 | 1200 | standard | Closed |
+| [Anthropic: Claude Sonnet 4.5](https://llmcosts.dev/models/claude-sonnet-4.5) | Anthropic | $3.0 | $15.0 | $None | 1,000,000 | 1200 | standard | Closed |
+| [Anthropic: Claude Opus 4.1](https://llmcosts.dev/models/claude-opus-4.1) | Anthropic | $15.0 | $75.0 | $None | 200,000 | 1300 | standard | Closed |
+| [Anthropic: Claude 3.7 Sonnet](https://llmcosts.dev/models/claude-3.7-sonnet) | Anthropic | $3.0 | $15.0 | $None | 200,000 | 1200 | standard | Closed |
+| [Anthropic: Claude 3.7 Sonnet (thinking)](https://llmcosts.dev/models/claude-3.7-sonnet:thinking) | Anthropic | $3.0 | $15.0 | $None | 200,000 | 1200 | standard | Closed |

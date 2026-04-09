@@ -1,0 +1,9 @@
+# LLMCosts.dev — Alfredpros Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [AlfredPros: CodeLLaMa 7B Instruct Solidity](https://llmcosts.dev/models/codellama-7b-instruct-solidity) | Alfredpros | $0.8 | $1.2 | $None | 4,096 | 1200 | standard | Closed |

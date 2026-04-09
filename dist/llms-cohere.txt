@@ -1,0 +1,10 @@
+# LLMCosts.dev — Cohere Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [Command A](https://llmcosts.dev/models/command-a) | Cohere | $2.5 | $10.0 | $None | 256,000 | 1220 | premium | Closed |
+| [Command R+ 2025](https://llmcosts.dev/models/command-r-plus-2025) | Cohere | $2.5 | $10.0 | $1.25 | 128,000 | 1230 | mid | Closed |

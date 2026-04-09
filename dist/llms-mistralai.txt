@@ -1,0 +1,32 @@
+# LLMCosts.dev — Mistralai Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [Mistral Large 2](https://llmcosts.dev/models/mistral-large-2407) | Mistral AI | $3.0 | $9.0 | $None | 131,072 | 1225 | premium | Closed |
+| [Mixtral 8x7B Instruct](https://llmcosts.dev/models/mixtral-8x7b-instruct) | Mistral AI | $0.24 | $0.24 | $None | 32,768 | 1114 | budget | Open |
+| [Mistral Nemo](https://llmcosts.dev/models/mistral-nemo) | Mistral AI | $0.15 | $0.15 | $None | 128,000 | 1090 | budget | Open |
+| [Mistral Large 2411](https://llmcosts.dev/models/mistral-large-2411) | Mistral AI | $2.0 | $6.0 | $None | 131,072 | 1251 | standard | Closed |
+| [Mistral Medium 3](https://llmcosts.dev/models/mistral-medium-3) | Mistral AI | $0.4 | $2.0 | $None | 131,072 | 1200 | mid | Closed |
+| [Mistral: Mistral Small 4](https://llmcosts.dev/models/mistral-small-2603) | Mistralai | $0.15 | $0.6 | $None | 262,144 | 1200 | standard | Closed |
+| [Mistral: Mistral Small Creative](https://llmcosts.dev/models/mistral-small-creative) | Mistralai | $0.1 | $0.3 | $None | 32,768 | 1200 | standard | Closed |
+| [Mistral: Devstral 2 2512](https://llmcosts.dev/models/devstral-2512) | Mistralai | $0.4 | $2.0 | $None | 262,144 | 1200 | standard | Closed |
+| [Mistral: Ministral 3 14B 2512](https://llmcosts.dev/models/ministral-14b-2512) | Mistralai | $0.2 | $0.2 | $None | 262,144 | 1200 | standard | Closed |
+| [Mistral: Ministral 3 8B 2512](https://llmcosts.dev/models/ministral-8b-2512) | Mistralai | $0.15 | $0.15 | $None | 262,144 | 1200 | standard | Closed |
+| [Mistral: Ministral 3 3B 2512](https://llmcosts.dev/models/ministral-3b-2512) | Mistralai | $0.1 | $0.1 | $None | 131,072 | 1200 | standard | Closed |
+| [Mistral: Mistral Large 3 2512](https://llmcosts.dev/models/mistral-large-2512) | Mistralai | $0.5 | $1.5 | $None | 262,144 | 1200 | standard | Closed |
+| [Mistral: Voxtral Small 24B 2507](https://llmcosts.dev/models/voxtral-small-24b-2507) | Mistralai | $0.1 | $0.3 | $None | 32,000 | 1200 | standard | Closed |
+| [Mistral: Mistral Medium 3.1](https://llmcosts.dev/models/mistral-medium-3.1) | Mistralai | $0.4 | $2.0 | $None | 131,072 | 1200 | standard | Closed |
+| [Mistral: Codestral 2508](https://llmcosts.dev/models/codestral-2508) | Mistralai | $0.3 | $0.9 | $None | 256,000 | 1200 | standard | Closed |
+| [Mistral: Devstral Medium](https://llmcosts.dev/models/devstral-medium) | Mistralai | $0.4 | $2.0 | $None | 131,072 | 1200 | standard | Closed |
+| [Mistral: Devstral Small 1.1](https://llmcosts.dev/models/devstral-small) | Mistralai | $0.1 | $0.3 | $None | 131,072 | 1200 | standard | Closed |
+| [Mistral: Mistral Small 3.2 24B](https://llmcosts.dev/models/mistral-small-3.2-24b-instruct) | Mistralai | $0.075 | $0.2 | $None | 128,000 | 1200 | standard | Closed |
+| [Mistral: Mistral Small 3.1 24B](https://llmcosts.dev/models/mistral-small-3.1-24b-instruct) | Mistralai | $0.03 | $0.11 | $None | 131,072 | 1200 | standard | Closed |
+| [Mistral: Saba](https://llmcosts.dev/models/mistral-saba) | Mistralai | $0.2 | $0.6 | $None | 32,768 | 1200 | standard | Closed |
+| [Mistral Large 3](https://llmcosts.dev/models/mistral-large-3) | Mistral AI | $0.5 | $1.5 | $0.25 | 131,072 | 1270 | mid | Closed |
+| [Codestral 2025](https://llmcosts.dev/models/codestral-2025) | Mistral AI | $0.3 | $0.9 | $0.15 | 256,000 | None | standard | Closed |
+| [Mistral Small 3](https://llmcosts.dev/models/mistral-small-3) | Mistral AI | $0.1 | $0.3 | $0.05 | 32,768 | 1195 | budget | Closed |
+| [Mistral NeMo 2025](https://llmcosts.dev/models/mistral-nemo-2025) | Mistral AI | $0.05 | $0.2 | $0.025 | 128,000 | None | budget | Open |

@@ -1,0 +1,9 @@
+# LLMCosts.dev — Cognitivecomputations Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [Venice: Uncensored (free)](https://llmcosts.dev/models/dolphin-mistral-24b-venice-edition:free) | Cognitivecomputations | $0.0 | $0.0 | $None | 32,768 | 1200 | standard | Closed |

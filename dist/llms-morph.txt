@@ -1,0 +1,10 @@
+# LLMCosts.dev — Morph Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [Morph: Morph V3 Large](https://llmcosts.dev/models/morph-v3-large) | Morph | $0.9 | $1.9 | $None | 262,144 | 1200 | standard | Closed |
+| [Morph: Morph V3 Fast](https://llmcosts.dev/models/morph-v3-fast) | Morph | $0.8 | $1.2 | $None | 81,920 | 1200 | standard | Closed |

@@ -1,0 +1,10 @@
+# LLMCosts.dev — Alibaba Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [Qwen 2.5 Coder 32B](https://llmcosts.dev/models/qwen-2.5-coder-32b-instruct) | Alibaba Cloud | $0.8 | $1.5 | $None | 32,768 | 1210 | mid | Open |
+| [Tongyi DeepResearch 30B A3B](https://llmcosts.dev/models/tongyi-deepresearch-30b-a3b) | Alibaba | $0.09 | $0.45 | $None | 131,072 | 1200 | standard | Closed |

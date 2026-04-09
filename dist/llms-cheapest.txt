@@ -1,0 +1,105 @@
+# LLMCosts.dev — Cheapest LLM APIs (Under $0.20/1M Tokens)
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [Body Builder (beta)](https://llmcosts.dev/models/bodybuilder) | Openrouter | $-1000000.0 | $-1000000.0 | $None | 128,000 | 1200 | standard | Closed |
+| [Llama 3.2 1B Instruct](https://llmcosts.dev/models/llama-3-2-1b-instruct) | Meta | $0.01 | $0.01 | $None | 131,072 | 1270 | budget | Open |
+| [IBM: Granite 4.0 Micro](https://llmcosts.dev/models/granite-4.0-h-micro) | Ibm-granite | $0.017 | $0.11 | $None | 131,000 | 1200 | standard | Closed |
+| [Google: Gemma 3n 4B](https://llmcosts.dev/models/gemma-3n-e4b-it) | Google | $0.02 | $0.04 | $None | 32,768 | 1200 | standard | Closed |
+| [Gemma 3 4B Instruct](https://llmcosts.dev/models/gemma-3-4b-it) | Google DeepMind | $0.03 | $0.03 | $None | 131,072 | 1200 | budget | Open |
+| [LiquidAI: LFM2-24B-A2B](https://llmcosts.dev/models/lfm-2-24b-a2b) | Liquid | $0.03 | $0.12 | $None | 32,768 | 1200 | standard | Closed |
+| [OpenAI: gpt-oss-20b](https://llmcosts.dev/models/gpt-oss-20b) | Openai | $0.03 | $0.11 | $None | 131,072 | 1200 | standard | Closed |
+| [Qwen: Qwen2.5 Coder 7B Instruct](https://llmcosts.dev/models/qwen2.5-coder-7b-instruct) | Qwen | $0.03 | $0.09 | $None | 32,768 | 1200 | standard | Closed |
+| [Mistral: Mistral Small 3.1 24B](https://llmcosts.dev/models/mistral-small-3.1-24b-instruct) | Mistralai | $0.03 | $0.11 | $None | 131,072 | 1200 | standard | Closed |
+| [OpenAI: gpt-oss-120b](https://llmcosts.dev/models/gpt-oss-120b) | Openai | $0.039 | $0.19 | $None | 131,072 | 1200 | standard | Closed |
+| [NVIDIA: Nemotron Nano 9B V2](https://llmcosts.dev/models/nemotron-nano-9b-v2) | Nvidia | $0.04 | $0.16 | $None | 131,072 | 1200 | standard | Closed |
+| [Google: Gemma 3 12B](https://llmcosts.dev/models/gemma-3-12b-it) | Google | $0.04 | $0.13 | $None | 131,072 | 1200 | standard | Closed |
+| [Arcee AI: Trinity Mini](https://llmcosts.dev/models/trinity-mini) | Arcee-ai | $0.045 | $0.15 | $None | 131,072 | 1200 | standard | Closed |
+| [Qwen: Qwen3.5-9B](https://llmcosts.dev/models/qwen3.5-9b) | Qwen | $0.05 | $0.15 | $None | 256,000 | 1270 | standard | Closed |
+| [NVIDIA: Nemotron 3 Nano 30B A3B](https://llmcosts.dev/models/nemotron-3-nano-30b-a3b) | Nvidia | $0.05 | $0.2 | $None | 262,144 | 1200 | standard | Closed |
+| [OpenAI: GPT-5 Nano](https://llmcosts.dev/models/gpt-5-nano) | Openai | $0.05 | $0.4 | $None | 400,000 | 1350 | standard | Closed |
+| [Qwen: Qwen3 8B](https://llmcosts.dev/models/qwen3-8b) | Qwen | $0.05 | $0.2 | $None | 40,960 | 1270 | standard | Closed |
+| [AllenAI: Olmo 2 32B Instruct](https://llmcosts.dev/models/olmo-2-0325-32b-instruct) | Allenai | $0.05 | $0.2 | $None | 128,000 | 1200 | standard | Closed |
+| [Mistral NeMo 2025](https://llmcosts.dev/models/mistral-nemo-2025) | Mistral AI | $0.05 | $0.2 | $0.025 | 128,000 | None | budget | Open |
+| [Llama 3.2 11B Vision Instruct](https://llmcosts.dev/models/llama-3-2-11b-vision-instruct) | Meta | $0.055 | $0.055 | $None | 131,072 | 1270 | budget | Open |
+| [Llama 3.2 3B Instruct](https://llmcosts.dev/models/llama-3-2-3b-instruct) | Meta | $0.06 | $0.06 | $None | 131,072 | 1270 | budget | Open |
+| [Qwen: Qwen3 14B](https://llmcosts.dev/models/qwen3-14b) | Qwen | $0.06 | $0.24 | $None | 40,960 | 1270 | standard | Closed |
+| [Amazon Nova Lite](https://llmcosts.dev/models/nova-lite) | Amazon Web Services | $0.06 | $0.24 | $0.03 | 300,000 | 1150 | budget | Closed |
+| [Qwen: Qwen3.5-Flash](https://llmcosts.dev/models/qwen3.5-flash-02-23) | Qwen | $0.065 | $0.26 | $None | 1,000,000 | 1270 | standard | Closed |
+| [Llama 3.1 8B Instruct](https://llmcosts.dev/models/llama-3-1-8b-instruct) | Meta | $0.07 | $0.07 | $None | 131,072 | 1147 | budget | Open |
+| [Phi-4](https://llmcosts.dev/models/phi-4) | Microsoft | $0.07 | $0.14 | $None | 16,384 | 1200 | budget | Open |
+| [Qwen2.5 Coder 32B Instruct](https://llmcosts.dev/models/qwen-2-5-coder-32b-instruct) | Alibaba Cloud | $0.07 | $0.21 | $None | 131,072 | 1248 | budget | Open |
+| [Baidu: ERNIE 4.5 21B A3B Thinking](https://llmcosts.dev/models/ernie-4.5-21b-a3b-thinking) | Baidu | $0.07 | $0.28 | $None | 131,072 | 1200 | standard | Closed |
+| [Baidu: ERNIE 4.5 21B A3B](https://llmcosts.dev/models/ernie-4.5-21b-a3b) | Baidu | $0.07 | $0.28 | $None | 120,000 | 1200 | standard | Closed |
+| [Qwen: Qwen3 Coder 30B A3B Instruct](https://llmcosts.dev/models/qwen3-coder-30b-a3b-instruct) | Qwen | $0.07 | $0.27 | $None | 160,000 | 1270 | standard | Closed |
+| [Qwen: Qwen3 235B A22B Instruct 2507](https://llmcosts.dev/models/qwen3-235b-a22b-2507) | Qwen | $0.071 | $0.1 | $None | 262,144 | 1270 | standard | Closed |
+| [ByteDance Seed: Seed 1.6 Flash](https://llmcosts.dev/models/seed-1.6-flash) | Bytedance-seed | $0.075 | $0.3 | $None | 262,144 | 1200 | standard | Closed |
+| [OpenAI: gpt-oss-safeguard-20b](https://llmcosts.dev/models/gpt-oss-safeguard-20b) | Openai | $0.075 | $0.3 | $None | 131,072 | 1200 | standard | Closed |
+| [Mistral: Mistral Small 3.2 24B](https://llmcosts.dev/models/mistral-small-3.2-24b-instruct) | Mistralai | $0.075 | $0.2 | $None | 128,000 | 1200 | standard | Closed |
+| [Google: Gemini 2.0 Flash Lite](https://llmcosts.dev/models/gemini-2.0-flash-lite-001) | Google | $0.075 | $0.3 | $None | 1,048,576 | 1200 | standard | Closed |
+| [Qwen: Qwen3 VL 8B Instruct](https://llmcosts.dev/models/qwen3-vl-8b-instruct) | Qwen | $0.08 | $0.5 | $None | 131,072 | 1270 | standard | Closed |
+| [Qwen: Qwen3 30B A3B Thinking 2507](https://llmcosts.dev/models/qwen3-30b-a3b-thinking-2507) | Qwen | $0.08 | $0.4 | $None | 131,072 | 1270 | standard | Closed |
+| [Qwen: Qwen3 30B A3B](https://llmcosts.dev/models/qwen3-30b-a3b) | Qwen | $0.08 | $0.28 | $None | 40,960 | 1270 | standard | Closed |
+| [Qwen: Qwen3 32B](https://llmcosts.dev/models/qwen3-32b) | Qwen | $0.08 | $0.24 | $None | 40,960 | 1270 | standard | Closed |
+| [Llama 4 Scout](https://llmcosts.dev/models/llama-4-scout) | Meta | $0.08 | $0.3 | $0.04 | 10,000,000 | 1240 | budget | Open |
+| [Tongyi DeepResearch 30B A3B](https://llmcosts.dev/models/tongyi-deepresearch-30b-a3b) | Alibaba | $0.09 | $0.45 | $None | 131,072 | 1200 | standard | Closed |
+| [Qwen: Qwen3 Next 80B A3B Instruct](https://llmcosts.dev/models/qwen3-next-80b-a3b-instruct) | Qwen | $0.09 | $1.1 | $None | 262,144 | 1270 | standard | Closed |
+| [Qwen: Qwen3 30B A3B Instruct 2507](https://llmcosts.dev/models/qwen3-30b-a3b-instruct-2507) | Qwen | $0.09 | $0.3 | $None | 262,144 | 1270 | standard | Closed |
+| [Qwen: Qwen3 Next 80B A3B Thinking](https://llmcosts.dev/models/qwen3-next-80b-a3b-thinking) | Qwen | $0.0975 | $0.78 | $None | 131,072 | 1270 | standard | Closed |
+| [GPT-4.1 Nano](https://llmcosts.dev/models/gpt-4-1-nano) | OpenAI | $0.1 | $0.4 | $0.025 | 1,047,576 | 1195 | budget | Closed |
+| [Gemma 3 27B IT](https://llmcosts.dev/models/gemma-3-27b-it) | Google | $0.1 | $0.2 | $None | 131,072 | 1190 | budget | Open |
+| [Qwen2.5 7B Instruct](https://llmcosts.dev/models/qwen-2-5-7b-instruct) | Alibaba Cloud | $0.1 | $0.2 | $None | 131,072 | 1200 | budget | Open |
+| [Gemma 2 9B Instruct](https://llmcosts.dev/models/gemma-2-9b-it) | Google DeepMind | $0.1 | $0.1 | $None | 8,192 | 1190 | budget | Open |
+| [Reka Edge](https://llmcosts.dev/models/reka-edge) | Rekaai | $0.1 | $0.1 | $None | 16,384 | 1200 | standard | Closed |
+| [NVIDIA: Nemotron 3 Super](https://llmcosts.dev/models/nemotron-3-super-120b-a12b) | Nvidia | $0.1 | $0.5 | $None | 262,144 | 1200 | standard | Closed |
+| [ByteDance Seed: Seed-2.0-Mini](https://llmcosts.dev/models/seed-2.0-mini) | Bytedance-seed | $0.1 | $0.4 | $None | 262,144 | 1200 | standard | Closed |
+| [StepFun: Step 3.5 Flash](https://llmcosts.dev/models/step-3.5-flash) | Stepfun | $0.1 | $0.3 | $None | 262,144 | 1200 | standard | Closed |
+| [Mistral: Mistral Small Creative](https://llmcosts.dev/models/mistral-small-creative) | Mistralai | $0.1 | $0.3 | $None | 32,768 | 1200 | standard | Closed |
+| [Mistral: Ministral 3 3B 2512](https://llmcosts.dev/models/ministral-3b-2512) | Mistralai | $0.1 | $0.1 | $None | 131,072 | 1200 | standard | Closed |
+| [Mistral: Voxtral Small 24B 2507](https://llmcosts.dev/models/voxtral-small-24b-2507) | Mistralai | $0.1 | $0.3 | $None | 32,000 | 1200 | standard | Closed |
+| [NVIDIA: Llama 3.3 Nemotron Super 49B V1.5](https://llmcosts.dev/models/llama-3.3-nemotron-super-49b-v1.5) | Nvidia | $0.1 | $0.4 | $None | 131,072 | 1270 | standard | Closed |
+| [Google: Gemini 2.5 Flash Lite Preview 09-2025](https://llmcosts.dev/models/gemini-2.5-flash-lite-preview-09-2025) | Google | $0.1 | $0.4 | $None | 1,048,576 | 1200 | standard | Closed |
+| [Z.ai: GLM 4 32B ](https://llmcosts.dev/models/glm-4-32b) | Z-ai | $0.1 | $0.1 | $None | 128,000 | 1200 | standard | Closed |
+| [ByteDance: UI-TARS 7B ](https://llmcosts.dev/models/ui-tars-1.5-7b) | Bytedance | $0.1 | $0.2 | $None | 128,000 | 1200 | standard | Closed |
+| [Google: Gemini 2.5 Flash Lite](https://llmcosts.dev/models/gemini-2.5-flash-lite) | Google | $0.1 | $0.4 | $0.01 | 1,048,576 | 1200 | standard | Closed |
+| [Mistral: Devstral Small 1.1](https://llmcosts.dev/models/devstral-small) | Mistralai | $0.1 | $0.3 | $None | 131,072 | 1200 | standard | Closed |
+| [Reka Flash 3](https://llmcosts.dev/models/reka-flash-3) | Rekaai | $0.1 | $0.2 | $None | 65,536 | 1200 | standard | Closed |
+| [Google: Gemini 2.0 Flash](https://llmcosts.dev/models/gemini-2.0-flash-001) | Google | $0.1 | $0.4 | $None | 1,048,576 | 1200 | standard | Closed |
+| [Gemini 2.0 Flash](https://llmcosts.dev/models/gemini-20-flash) | Google | $0.1 | $0.4 | $0.01 | 1,000,000 | 1200 | budget | Closed |
+| [Mistral Small 3](https://llmcosts.dev/models/mistral-small-3) | Mistral AI | $0.1 | $0.3 | $0.05 | 32,768 | 1195 | budget | Closed |
+| [Qwen: Qwen3 VL 32B Instruct](https://llmcosts.dev/models/qwen3-vl-32b-instruct) | Qwen | $0.104 | $0.416 | $None | 131,072 | 1270 | standard | Closed |
+| [Llama 4 Scout](https://llmcosts.dev/models/llama-4-scout) | Meta | $0.11 | $0.34 | $None | 10,485,760 | 1235 | budget | Open |
+| [Qwen: Qwen3 VL 8B Thinking](https://llmcosts.dev/models/qwen3-vl-8b-thinking) | Qwen | $0.117 | $1.365 | $None | 131,072 | 1270 | standard | Closed |
+| [MiniMax: MiniMax M2.5](https://llmcosts.dev/models/minimax-m2.5) | Minimax | $0.118 | $0.99 | $None | 196,608 | 1200 | standard | Closed |
+| [QwQ 32B](https://llmcosts.dev/models/qwq-32b) | Alibaba Cloud | $0.12 | $0.18 | $None | 131,072 | 1253 | budget | Open |
+| [Qwen: Qwen3 Coder Next](https://llmcosts.dev/models/qwen3-coder-next) | Qwen | $0.12 | $0.75 | $None | 262,144 | 1270 | standard | Closed |
+| [Llama 3.3 70B Instruct](https://llmcosts.dev/models/llama-33-70b-instruct) | Meta | $0.12 | $0.4 | $0.06 | 128,000 | 1270 | standard | Open |
+| [Google: Gemma 4 26B A4B ](https://llmcosts.dev/models/gemma-4-26b-a4b-it) | Google | $0.13 | $0.4 | $None | 262,144 | 1270 | standard | Closed |
+| [Qwen: Qwen3 VL 30B A3B Thinking](https://llmcosts.dev/models/qwen3-vl-30b-a3b-thinking) | Qwen | $0.13 | $1.56 | $None | 131,072 | 1270 | standard | Closed |
+| [Qwen: Qwen3 VL 30B A3B Instruct](https://llmcosts.dev/models/qwen3-vl-30b-a3b-instruct) | Qwen | $0.13 | $0.52 | $None | 131,072 | 1270 | standard | Closed |
+| [Nous: Hermes 4 70B](https://llmcosts.dev/models/hermes-4-70b) | Nousresearch | $0.13 | $0.4 | $None | 131,072 | 1200 | standard | Closed |
+| [Z.ai: GLM 4.5 Air](https://llmcosts.dev/models/glm-4.5-air) | Z-ai | $0.13 | $0.85 | $None | 131,072 | 1200 | standard | Closed |
+| [Nex AGI: DeepSeek V3.1 Nex N1](https://llmcosts.dev/models/deepseek-v3.1-nex-n1) | Nex-agi | $0.135 | $0.5 | $None | 131,072 | 1200 | standard | Closed |
+| [Qwen: Qwen VL Plus](https://llmcosts.dev/models/qwen-vl-plus) | Qwen | $0.1365 | $0.4095 | $None | 131,072 | 1200 | standard | Closed |
+| [Google: Gemma 4 31B](https://llmcosts.dev/models/gemma-4-31b-it) | Google | $0.14 | $0.4 | $None | 262,144 | 1270 | standard | Closed |
+| [Baidu: ERNIE 4.5 VL 28B A3B](https://llmcosts.dev/models/ernie-4.5-vl-28b-a3b) | Baidu | $0.14 | $0.56 | $None | 30,000 | 1200 | standard | Closed |
+| [Tencent: Hunyuan A13B Instruct](https://llmcosts.dev/models/hunyuan-a13b-instruct) | Tencent | $0.14 | $0.57 | $None | 131,072 | 1200 | standard | Closed |
+| [Qwen: Qwen3 235B A22B Thinking 2507](https://llmcosts.dev/models/qwen3-235b-a22b-thinking-2507) | Qwen | $0.1495 | $1.495 | $None | 131,072 | 1270 | standard | Closed |
+| [GPT-4o Mini](https://llmcosts.dev/models/gpt-4o-mini) | OpenAI | $0.15 | $0.6 | $0.075 | 128,000 | 1218 | budget | Closed |
+| [Mistral Nemo](https://llmcosts.dev/models/mistral-nemo) | Mistral AI | $0.15 | $0.15 | $None | 128,000 | 1090 | budget | Open |
+| [Mistral: Mistral Small 4](https://llmcosts.dev/models/mistral-small-2603) | Mistralai | $0.15 | $0.6 | $None | 262,144 | 1200 | standard | Closed |
+| [Upstage: Solar Pro 3](https://llmcosts.dev/models/solar-pro-3) | Upstage | $0.15 | $0.6 | $None | 128,000 | 1200 | standard | Closed |
+| [EssentialAI: Rnj 1 Instruct](https://llmcosts.dev/models/rnj-1-instruct) | Essentialai | $0.15 | $0.15 | $None | 32,768 | 1200 | standard | Closed |
+| [Mistral: Ministral 3 8B 2512](https://llmcosts.dev/models/ministral-8b-2512) | Mistralai | $0.15 | $0.15 | $None | 262,144 | 1200 | standard | Closed |
+| [AllenAI: Olmo 3 32B Think](https://llmcosts.dev/models/olmo-3-32b-think) | Allenai | $0.15 | $0.5 | $None | 65,536 | 1200 | standard | Closed |
+| [DeepSeek: DeepSeek V3.1](https://llmcosts.dev/models/deepseek-chat-v3.1) | Deepseek | $0.15 | $0.75 | $None | 32,768 | 1200 | standard | Closed |
+| [OpenAI: GPT-4o-mini Search Preview](https://llmcosts.dev/models/gpt-4o-mini-search-preview) | Openai | $0.15 | $0.6 | $None | 128,000 | 1300 | standard | Closed |
+| [Qwen: Qwen3.5-35B-A3B](https://llmcosts.dev/models/qwen3.5-35b-a3b) | Qwen | $0.1625 | $1.3 | $None | 262,144 | 1270 | standard | Closed |
+| [Arcee AI: Spotlight](https://llmcosts.dev/models/spotlight) | Arcee-ai | $0.18 | $0.18 | $None | 131,072 | 1200 | standard | Closed |
+| [Meta: Llama Guard 4 12B](https://llmcosts.dev/models/llama-guard-4-12b) | Meta-llama | $0.18 | $0.18 | $None | 163,840 | 1200 | standard | Closed |
+| [Qwen: Qwen3.5-27B](https://llmcosts.dev/models/qwen3.5-27b) | Qwen | $0.195 | $1.56 | $None | 262,144 | 1270 | standard | Closed |
+| [Qwen: Qwen3 Coder Flash](https://llmcosts.dev/models/qwen3-coder-flash) | Qwen | $0.195 | $0.975 | $None | 1,000,000 | 1270 | standard | Closed |

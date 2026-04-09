@@ -1,0 +1,11 @@
+# LLMCosts.dev — Liquid Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [LiquidAI: LFM2-24B-A2B](https://llmcosts.dev/models/lfm-2-24b-a2b) | Liquid | $0.03 | $0.12 | $None | 32,768 | 1200 | standard | Closed |
+| [LiquidAI: LFM2.5-1.2B-Thinking (free)](https://llmcosts.dev/models/lfm-2.5-1.2b-thinking:free) | Liquid | $0.0 | $0.0 | $None | 32,768 | 1200 | standard | Closed |
+| [LiquidAI: LFM2.5-1.2B-Instruct (free)](https://llmcosts.dev/models/lfm-2.5-1.2b-instruct:free) | Liquid | $0.0 | $0.0 | $None | 32,768 | 1200 | standard | Closed |

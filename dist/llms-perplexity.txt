@@ -1,0 +1,12 @@
+# LLMCosts.dev — Perplexity Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [Perplexity: Sonar Pro Search](https://llmcosts.dev/models/sonar-pro-search) | Perplexity | $3.0 | $15.0 | $None | 200,000 | 1200 | standard | Closed |
+| [Perplexity: Sonar Reasoning Pro](https://llmcosts.dev/models/sonar-reasoning-pro) | Perplexity | $2.0 | $8.0 | $None | 128,000 | 1200 | standard | Closed |
+| [Perplexity: Sonar Pro](https://llmcosts.dev/models/sonar-pro) | Perplexity | $3.0 | $15.0 | $None | 200,000 | 1200 | standard | Closed |
+| [Perplexity: Sonar Deep Research](https://llmcosts.dev/models/sonar-deep-research) | Perplexity | $2.0 | $8.0 | $None | 128,000 | 1200 | standard | Closed |

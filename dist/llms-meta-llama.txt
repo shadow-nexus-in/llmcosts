@@ -1,0 +1,17 @@
+# LLMCosts.dev — Meta-Llama Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [Llama 3.1 70B Instruct](https://llmcosts.dev/models/llama-3-1-70b-instruct) | Meta | $0.52 | $0.75 | $None | 131,072 | 1200 | standard | Open |
+| [Llama 3.1 8B Instruct](https://llmcosts.dev/models/llama-3-1-8b-instruct) | Meta | $0.07 | $0.07 | $None | 131,072 | 1147 | budget | Open |
+| [Llama 3.2 11B Vision Instruct](https://llmcosts.dev/models/llama-3-2-11b-vision-instruct) | Meta | $0.055 | $0.055 | $None | 131,072 | 1270 | budget | Open |
+| [Llama 3.3 70B Instruct](https://llmcosts.dev/models/llama-3-3-70b-instruct) | Meta | $0.59 | $0.79 | $None | 131,072 | 1248 | standard | Open |
+| [Llama 3.2 3B Instruct](https://llmcosts.dev/models/llama-3-2-3b-instruct) | Meta | $0.06 | $0.06 | $None | 131,072 | 1270 | budget | Open |
+| [Llama 4 Maverick](https://llmcosts.dev/models/llama-4-maverick) | Meta | $0.27 | $0.85 | $None | 1,048,576 | 1300 | standard | Open |
+| [Llama 4 Scout](https://llmcosts.dev/models/llama-4-scout) | Meta | $0.11 | $0.34 | $None | 10,485,760 | 1235 | budget | Open |
+| [Llama 3.2 1B Instruct](https://llmcosts.dev/models/llama-3-2-1b-instruct) | Meta | $0.01 | $0.01 | $None | 131,072 | 1270 | budget | Open |
+| [Meta: Llama Guard 4 12B](https://llmcosts.dev/models/llama-guard-4-12b) | Meta-llama | $0.18 | $0.18 | $None | 163,840 | 1200 | standard | Closed |

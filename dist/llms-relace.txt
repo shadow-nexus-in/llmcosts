@@ -1,0 +1,10 @@
+# LLMCosts.dev — Relace Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [Relace: Relace Search](https://llmcosts.dev/models/relace-search) | Relace | $1.0 | $3.0 | $None | 256,000 | 1200 | standard | Closed |
+| [Relace: Relace Apply 3](https://llmcosts.dev/models/relace-apply-3) | Relace | $0.85 | $1.25 | $None | 256,000 | 1200 | standard | Closed |

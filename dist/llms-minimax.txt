@@ -1,0 +1,15 @@
+# LLMCosts.dev — Minimax Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [MiniMax: MiniMax M2.7](https://llmcosts.dev/models/minimax-m2.7) | Minimax | $0.3 | $1.2 | $None | 204,800 | 1200 | standard | Closed |
+| [MiniMax: MiniMax M2.5 (free)](https://llmcosts.dev/models/minimax-m2.5:free) | Minimax | $0.0 | $0.0 | $None | 196,608 | 1200 | standard | Closed |
+| [MiniMax: MiniMax M2.5](https://llmcosts.dev/models/minimax-m2.5) | Minimax | $0.118 | $0.99 | $None | 196,608 | 1200 | standard | Closed |
+| [MiniMax: MiniMax M2-her](https://llmcosts.dev/models/minimax-m2-her) | Minimax | $0.3 | $1.2 | $None | 65,536 | 1200 | standard | Closed |
+| [MiniMax: MiniMax M2.1](https://llmcosts.dev/models/minimax-m2.1) | Minimax | $0.27 | $0.95 | $None | 196,608 | 1200 | standard | Closed |
+| [MiniMax: MiniMax M2](https://llmcosts.dev/models/minimax-m2) | Minimax | $0.255 | $1.0 | $None | 196,608 | 1200 | standard | Closed |
+| [MiniMax: MiniMax M1](https://llmcosts.dev/models/minimax-m1) | Minimax | $0.4 | $2.2 | $None | 1,000,000 | 1200 | standard | Closed |

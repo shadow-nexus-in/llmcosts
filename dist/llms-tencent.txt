@@ -1,0 +1,9 @@
+# LLMCosts.dev — Tencent Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [Tencent: Hunyuan A13B Instruct](https://llmcosts.dev/models/hunyuan-a13b-instruct) | Tencent | $0.14 | $0.57 | $None | 131,072 | 1200 | standard | Closed |

@@ -1,0 +1,9 @@
+# LLMCosts.dev — Ibm-Granite Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [IBM: Granite 4.0 Micro](https://llmcosts.dev/models/granite-4.0-h-micro) | Ibm-granite | $0.017 | $0.11 | $None | 131,000 | 1200 | standard | Closed |

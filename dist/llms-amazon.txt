@@ -1,0 +1,12 @@
+# LLMCosts.dev — Amazon Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [Amazon: Nova 2 Lite](https://llmcosts.dev/models/nova-2-lite-v1) | Amazon | $0.3 | $2.5 | $None | 1,000,000 | 1200 | standard | Closed |
+| [Amazon: Nova Premier 1.0](https://llmcosts.dev/models/nova-premier-v1) | Amazon | $2.5 | $12.5 | $None | 1,000,000 | 1200 | standard | Closed |
+| [Amazon Nova Pro](https://llmcosts.dev/models/nova-pro) | Amazon Web Services | $0.8 | $3.2 | $0.4 | 300,000 | 1215 | standard | Closed |
+| [Amazon Nova Lite](https://llmcosts.dev/models/nova-lite) | Amazon Web Services | $0.06 | $0.24 | $0.03 | 300,000 | 1150 | budget | Closed |

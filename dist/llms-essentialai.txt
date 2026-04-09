@@ -1,0 +1,9 @@
+# LLMCosts.dev — Essentialai Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [EssentialAI: Rnj 1 Instruct](https://llmcosts.dev/models/rnj-1-instruct) | Essentialai | $0.15 | $0.15 | $None | 32,768 | 1200 | standard | Closed |

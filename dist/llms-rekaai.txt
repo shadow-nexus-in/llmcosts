@@ -1,0 +1,10 @@
+# LLMCosts.dev — Rekaai Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [Reka Edge](https://llmcosts.dev/models/reka-edge) | Rekaai | $0.1 | $0.1 | $None | 16,384 | 1200 | standard | Closed |
+| [Reka Flash 3](https://llmcosts.dev/models/reka-flash-3) | Rekaai | $0.1 | $0.2 | $None | 65,536 | 1200 | standard | Closed |

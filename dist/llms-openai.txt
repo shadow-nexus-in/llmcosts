@@ -1,0 +1,56 @@
+# LLMCosts.dev — Openai Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [GPT-4o](https://llmcosts.dev/models/gpt-4o) | OpenAI | $2.5 | $10.0 | $1.25 | 128,000 | 1295 | premium | Closed |
+| [GPT-4o Mini](https://llmcosts.dev/models/gpt-4o-mini) | OpenAI | $0.15 | $0.6 | $0.075 | 128,000 | 1218 | budget | Closed |
+| [OpenAI o1](https://llmcosts.dev/models/o1) | OpenAI | $15.0 | $60.0 | $7.5 | 200,000 | 1330 | premium | Closed |
+| [OpenAI o3-mini](https://llmcosts.dev/models/o3-mini) | OpenAI | $1.1 | $4.4 | $0.55 | 200,000 | 1305 | standard | Closed |
+| [OpenAI o3](https://llmcosts.dev/models/o3) | OpenAI | $2.0 | $8.0 | $1.0 | 200,000 | 1390 | premium | Closed |
+| [GPT-4.1](https://llmcosts.dev/models/gpt-4-1) | OpenAI | $2.0 | $8.0 | $0.5 | 1,047,576 | 1320 | premium | Closed |
+| [GPT-4.1 Mini](https://llmcosts.dev/models/gpt-4-1-mini) | OpenAI | $0.4 | $1.6 | $0.1 | 1,047,576 | 1260 | budget | Closed |
+| [OpenAI o4-mini](https://llmcosts.dev/models/o4-mini) | OpenAI | $1.1 | $4.4 | $0.55 | 200,000 | 1320 | standard | Closed |
+| [GPT-4.1 Nano](https://llmcosts.dev/models/gpt-4-1-nano) | OpenAI | $0.1 | $0.4 | $0.025 | 1,047,576 | 1195 | budget | Closed |
+| [OpenAI o1 Pro](https://llmcosts.dev/models/o1-pro) | OpenAI | $150.0 | $600.0 | $None | 200,000 | 1300 | ultra | Closed |
+| [OpenAI: GPT-5.4 Nano](https://llmcosts.dev/models/gpt-5.4-nano) | Openai | $0.2 | $1.25 | $None | 400,000 | 1350 | standard | Closed |
+| [OpenAI: GPT-5.4 Mini](https://llmcosts.dev/models/gpt-5.4-mini) | Openai | $0.75 | $4.5 | $None | 400,000 | 1350 | standard | Closed |
+| [OpenAI: GPT-5.4 Pro](https://llmcosts.dev/models/gpt-5.4-pro) | Openai | $30.0 | $180.0 | $None | 1,050,000 | 1350 | standard | Closed |
+| [OpenAI: GPT-5.4](https://llmcosts.dev/models/gpt-5.4) | Openai | $2.5 | $15.0 | $1.25 | 1,050,000 | 1350 | standard | Closed |
+| [OpenAI: GPT-5.3 Chat](https://llmcosts.dev/models/gpt-5.3-chat) | Openai | $1.75 | $14.0 | $None | 128,000 | 1350 | standard | Closed |
+| [OpenAI: GPT-5.3-Codex](https://llmcosts.dev/models/gpt-5.3-codex) | Openai | $1.75 | $14.0 | $None | 400,000 | 1350 | standard | Closed |
+| [OpenAI: GPT Audio](https://llmcosts.dev/models/gpt-audio) | Openai | $2.5 | $10.0 | $None | 128,000 | 1200 | standard | Closed |
+| [OpenAI: GPT Audio Mini](https://llmcosts.dev/models/gpt-audio-mini) | Openai | $0.6 | $2.4 | $None | 128,000 | 1200 | standard | Closed |
+| [OpenAI: GPT-5.2-Codex](https://llmcosts.dev/models/gpt-5.2-codex) | Openai | $1.75 | $14.0 | $None | 400,000 | 1350 | standard | Closed |
+| [OpenAI: GPT-5.2 Chat](https://llmcosts.dev/models/gpt-5.2-chat) | Openai | $1.75 | $14.0 | $None | 128,000 | 1350 | standard | Closed |
+| [OpenAI: GPT-5.2 Pro](https://llmcosts.dev/models/gpt-5.2-pro) | Openai | $21.0 | $168.0 | $None | 400,000 | 1350 | standard | Closed |
+| [OpenAI: GPT-5.2](https://llmcosts.dev/models/gpt-5.2) | Openai | $1.75 | $14.0 | $None | 400,000 | 1350 | standard | Closed |
+| [OpenAI: GPT-5.1-Codex-Max](https://llmcosts.dev/models/gpt-5.1-codex-max) | Openai | $1.25 | $10.0 | $None | 400,000 | 1350 | standard | Closed |
+| [OpenAI: GPT-5.1](https://llmcosts.dev/models/gpt-5.1) | Openai | $1.25 | $10.0 | $None | 400,000 | 1350 | standard | Closed |
+| [OpenAI: GPT-5.1 Chat](https://llmcosts.dev/models/gpt-5.1-chat) | Openai | $1.25 | $10.0 | $None | 128,000 | 1350 | standard | Closed |
+| [OpenAI: GPT-5.1-Codex](https://llmcosts.dev/models/gpt-5.1-codex) | Openai | $1.25 | $10.0 | $None | 400,000 | 1350 | standard | Closed |
+| [OpenAI: GPT-5.1-Codex-Mini](https://llmcosts.dev/models/gpt-5.1-codex-mini) | Openai | $0.25 | $2.0 | $None | 400,000 | 1350 | standard | Closed |
+| [OpenAI: gpt-oss-safeguard-20b](https://llmcosts.dev/models/gpt-oss-safeguard-20b) | Openai | $0.075 | $0.3 | $None | 131,072 | 1200 | standard | Closed |
+| [OpenAI: GPT-5 Image Mini](https://llmcosts.dev/models/gpt-5-image-mini) | Openai | $2.5 | $2.0 | $None | 400,000 | 1350 | standard | Closed |
+| [OpenAI: GPT-5 Image](https://llmcosts.dev/models/gpt-5-image) | Openai | $10.0 | $10.0 | $None | 400,000 | 1350 | standard | Closed |
+| [OpenAI: o3 Deep Research](https://llmcosts.dev/models/o3-deep-research) | Openai | $10.0 | $40.0 | $None | 200,000 | 1350 | standard | Closed |
+| [OpenAI: o4 Mini Deep Research](https://llmcosts.dev/models/o4-mini-deep-research) | Openai | $2.0 | $8.0 | $None | 200,000 | 1350 | standard | Closed |
+| [OpenAI: GPT-5 Pro](https://llmcosts.dev/models/gpt-5-pro) | Openai | $15.0 | $120.0 | $None | 400,000 | 1350 | standard | Closed |
+| [OpenAI: GPT-5 Codex](https://llmcosts.dev/models/gpt-5-codex) | Openai | $1.25 | $10.0 | $None | 400,000 | 1350 | standard | Closed |
+| [OpenAI: GPT-4o Audio](https://llmcosts.dev/models/gpt-4o-audio-preview) | Openai | $2.5 | $10.0 | $None | 128,000 | 1300 | standard | Closed |
+| [OpenAI: GPT-5 Chat](https://llmcosts.dev/models/gpt-5-chat) | Openai | $1.25 | $10.0 | $None | 128,000 | 1350 | standard | Closed |
+| [OpenAI: GPT-5](https://llmcosts.dev/models/gpt-5) | Openai | $1.25 | $10.0 | $None | 400,000 | 1350 | standard | Closed |
+| [OpenAI: GPT-5 Mini](https://llmcosts.dev/models/gpt-5-mini) | Openai | $0.25 | $2.0 | $None | 400,000 | 1350 | standard | Closed |
+| [OpenAI: GPT-5 Nano](https://llmcosts.dev/models/gpt-5-nano) | Openai | $0.05 | $0.4 | $None | 400,000 | 1350 | standard | Closed |
+| [OpenAI: gpt-oss-120b (free)](https://llmcosts.dev/models/gpt-oss-120b:free) | Openai | $0.0 | $0.0 | $None | 131,072 | 1200 | standard | Closed |
+| [OpenAI: gpt-oss-120b](https://llmcosts.dev/models/gpt-oss-120b) | Openai | $0.039 | $0.19 | $None | 131,072 | 1200 | standard | Closed |
+| [OpenAI: gpt-oss-20b (free)](https://llmcosts.dev/models/gpt-oss-20b:free) | Openai | $0.0 | $0.0 | $None | 131,072 | 1200 | standard | Closed |
+| [OpenAI: gpt-oss-20b](https://llmcosts.dev/models/gpt-oss-20b) | Openai | $0.03 | $0.11 | $None | 131,072 | 1200 | standard | Closed |
+| [OpenAI: o3 Pro](https://llmcosts.dev/models/o3-pro) | Openai | $20.0 | $80.0 | $None | 200,000 | 1350 | standard | Closed |
+| [OpenAI: o4 Mini High](https://llmcosts.dev/models/o4-mini-high) | Openai | $1.1 | $4.4 | $None | 200,000 | 1350 | standard | Closed |
+| [OpenAI: GPT-4o-mini Search Preview](https://llmcosts.dev/models/gpt-4o-mini-search-preview) | Openai | $0.15 | $0.6 | $None | 128,000 | 1300 | standard | Closed |
+| [OpenAI: GPT-4o Search Preview](https://llmcosts.dev/models/gpt-4o-search-preview) | Openai | $2.5 | $10.0 | $None | 128,000 | 1300 | standard | Closed |
+| [OpenAI: o3 Mini High](https://llmcosts.dev/models/o3-mini-high) | Openai | $1.1 | $4.4 | $None | 200,000 | 1350 | standard | Closed |

@@ -1,0 +1,9 @@
+# LLMCosts.dev — Tngtech Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [TNG: DeepSeek R1T2 Chimera](https://llmcosts.dev/models/deepseek-r1t2-chimera) | Tngtech | $0.3 | $1.1 | $None | 163,840 | 1200 | standard | Closed |

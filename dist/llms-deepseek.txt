@@ -1,0 +1,17 @@
+# LLMCosts.dev — Deepseek Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [DeepSeek R1](https://llmcosts.dev/models/deepseek-r1) | DeepSeek | $0.55 | $2.19 | $None | 64,000 | 1358 | standard | Open |
+| [DeepSeek: DeepSeek V3.2 Speciale](https://llmcosts.dev/models/deepseek-v3.2-speciale) | Deepseek | $0.4 | $1.2 | $None | 163,840 | 1200 | standard | Closed |
+| [DeepSeek: DeepSeek V3.2](https://llmcosts.dev/models/deepseek-v3.2) | Deepseek | $0.28 | $0.42 | $0.028 | 163,840 | 1200 | standard | Closed |
+| [DeepSeek: DeepSeek V3.2 Exp](https://llmcosts.dev/models/deepseek-v3.2-exp) | Deepseek | $0.27 | $0.41 | $None | 163,840 | 1200 | standard | Closed |
+| [DeepSeek: DeepSeek V3.1 Terminus](https://llmcosts.dev/models/deepseek-v3.1-terminus) | Deepseek | $0.21 | $0.79 | $None | 163,840 | 1200 | standard | Closed |
+| [DeepSeek: DeepSeek V3.1](https://llmcosts.dev/models/deepseek-chat-v3.1) | Deepseek | $0.15 | $0.75 | $None | 32,768 | 1200 | standard | Closed |
+| [DeepSeek: R1 0528](https://llmcosts.dev/models/deepseek-r1-0528) | Deepseek | $0.45 | $2.15 | $None | 163,840 | 1200 | standard | Closed |
+| [DeepSeek: DeepSeek V3 0324](https://llmcosts.dev/models/deepseek-chat-v3-0324) | Deepseek | $0.2 | $0.77 | $None | 163,840 | 1200 | standard | Closed |
+| [DeepSeek R2](https://llmcosts.dev/models/deepseek-r2) | DeepSeek | $0.55 | $2.19 | $0.055 | 163,000 | 1360 | mid | Open |

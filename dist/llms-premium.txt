@@ -1,0 +1,18 @@
+# LLMCosts.dev — Premium Tier Models
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [GPT-4o](https://llmcosts.dev/models/gpt-4o) | OpenAI | $2.5 | $10.0 | $1.25 | 128,000 | 1295 | premium | Closed |
+| [OpenAI o1](https://llmcosts.dev/models/o1) | OpenAI | $15.0 | $60.0 | $7.5 | 200,000 | 1330 | premium | Closed |
+| [Mistral Large 2](https://llmcosts.dev/models/mistral-large-2407) | Mistral AI | $3.0 | $9.0 | $None | 131,072 | 1225 | premium | Closed |
+| [Claude Opus 4](https://llmcosts.dev/models/claude-opus-4) | Anthropic | $15.0 | $75.0 | $1.5 | 200,000 | 1380 | premium | Closed |
+| [Claude Sonnet 4](https://llmcosts.dev/models/claude-sonnet-4) | Anthropic | $3.0 | $15.0 | $0.3 | 200,000 | 1340 | premium | Closed |
+| [OpenAI o3](https://llmcosts.dev/models/o3) | OpenAI | $2.0 | $8.0 | $1.0 | 200,000 | 1390 | premium | Closed |
+| [GPT-4.1](https://llmcosts.dev/models/gpt-4-1) | OpenAI | $2.0 | $8.0 | $0.5 | 1,047,576 | 1320 | premium | Closed |
+| [Gemini 2.5 Pro](https://llmcosts.dev/models/gemini-2-5-pro) | Google | $1.25 | $10.0 | $0.125 | 1,048,576 | 1376 | premium | Closed |
+| [Command A](https://llmcosts.dev/models/command-a) | Cohere | $2.5 | $10.0 | $None | 256,000 | 1220 | premium | Closed |
+| [Llama 3.1 405B Instruct](https://llmcosts.dev/models/llama-31-405b) | Meta | $3.0 | $3.0 | $1.5 | 128,000 | None | premium | Open |

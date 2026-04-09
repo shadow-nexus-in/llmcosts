@@ -1,0 +1,10 @@
+# LLMCosts.dev — Aion-Labs Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [AionLabs: Aion-2.0](https://llmcosts.dev/models/aion-2.0) | Aion-labs | $0.8 | $1.6 | $None | 131,072 | 1200 | standard | Closed |
+| [AionLabs: Aion-RP 1.0 (8B)](https://llmcosts.dev/models/aion-rp-llama-3.1-8b) | Aion-labs | $0.8 | $1.6 | $None | 32,768 | 1270 | standard | Closed |

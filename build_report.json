@@ -1,0 +1,30 @@
+{
+  "build_date": "2026-04-09T13:55:35Z",
+  "tasks": {
+    "homepage": {
+      "status": "ok",
+      "elapsed": 0.02,
+      "files_written": 2,
+      "errors": 0
+    },
+    "llms_txt": {
+      "status": "ok",
+      "elapsed": 0.13,
+      "files_written": 57,
+      "errors": 0
+    },
+    "report_gen": {
+      "status": "ok",
+      "elapsed": 0.01,
+      "report_generated": false,
+      "errors": 1
+    },
+    "sitemap": {
+      "status": "ok",
+      "elapsed": 0.02,
+      "urls_in_sitemap": 304,
+      "google_pings_sent": 0,
+      "errors": 0
+    }
+  }
+}

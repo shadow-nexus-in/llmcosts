@@ -1,0 +1,9 @@
+# LLMCosts.dev — Xiaomi Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [Xiaomi: MiMo-V2-Omni](https://llmcosts.dev/models/mimo-v2-omni) | Xiaomi | $0.4 | $2.0 | $None | 262,144 | 1200 | standard | Closed |

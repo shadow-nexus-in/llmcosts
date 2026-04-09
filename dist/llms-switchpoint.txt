@@ -1,0 +1,9 @@
+# LLMCosts.dev — Switchpoint Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [Switchpoint Router](https://llmcosts.dev/models/router) | Switchpoint | $0.85 | $3.4 | $None | 131,072 | 1200 | standard | Closed |

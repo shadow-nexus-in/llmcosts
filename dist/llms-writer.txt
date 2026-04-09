@@ -1,0 +1,9 @@
+# LLMCosts.dev — Writer Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [Writer: Palmyra X5](https://llmcosts.dev/models/palmyra-x5) | Writer | $0.6 | $6.0 | $None | 1,040,000 | 1200 | standard | Closed |

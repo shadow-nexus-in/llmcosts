@@ -1,0 +1,10 @@
+# LLMCosts.dev — Stepfun Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [StepFun: Step 3.5 Flash (free)](https://llmcosts.dev/models/step-3.5-flash:free) | Stepfun | $0.0 | $0.0 | $None | 256,000 | 1200 | standard | Closed |
+| [StepFun: Step 3.5 Flash](https://llmcosts.dev/models/step-3.5-flash) | Stepfun | $0.1 | $0.3 | $None | 262,144 | 1200 | standard | Closed |

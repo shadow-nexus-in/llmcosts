@@ -1,0 +1,16 @@
+# LLMCosts.dev — Z-Ai Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [Z.ai: GLM 5.1](https://llmcosts.dev/models/glm-5.1) | Z-ai | $1.26 | $3.96 | $None | 202,752 | 1200 | standard | Closed |
+| [Z.ai: GLM 5](https://llmcosts.dev/models/glm-5) | Z-ai | $0.72 | $2.3 | $None | 80,000 | 1200 | standard | Closed |
+| [Z.ai: GLM 4.6V](https://llmcosts.dev/models/glm-4.6v) | Z-ai | $0.3 | $0.9 | $None | 131,072 | 1200 | standard | Closed |
+| [Z.ai: GLM 4.6](https://llmcosts.dev/models/glm-4.6) | Z-ai | $0.39 | $1.9 | $None | 204,800 | 1200 | standard | Closed |
+| [Z.ai: GLM 4.5V](https://llmcosts.dev/models/glm-4.5v) | Z-ai | $0.6 | $1.8 | $None | 65,536 | 1200 | standard | Closed |
+| [Z.ai: GLM 4.5](https://llmcosts.dev/models/glm-4.5) | Z-ai | $0.6 | $2.2 | $None | 131,072 | 1200 | standard | Closed |
+| [Z.ai: GLM 4.5 Air](https://llmcosts.dev/models/glm-4.5-air) | Z-ai | $0.13 | $0.85 | $None | 131,072 | 1200 | standard | Closed |
+| [Z.ai: GLM 4 32B ](https://llmcosts.dev/models/glm-4-32b) | Z-ai | $0.1 | $0.1 | $None | 128,000 | 1200 | standard | Closed |

@@ -1,0 +1,9 @@
+# LLMCosts.dev — Prime-Intellect Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [Prime Intellect: INTELLECT-3](https://llmcosts.dev/models/intellect-3) | Prime-intellect | $0.2 | $1.1 | $None | 131,072 | 1200 | standard | Closed |

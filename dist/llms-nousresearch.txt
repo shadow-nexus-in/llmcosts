@@ -1,0 +1,10 @@
+# LLMCosts.dev — Nousresearch Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [Nous: Hermes 4 70B](https://llmcosts.dev/models/hermes-4-70b) | Nousresearch | $0.13 | $0.4 | $None | 131,072 | 1200 | standard | Closed |
+| [Nous: Hermes 4 405B](https://llmcosts.dev/models/hermes-4-405b) | Nousresearch | $1.0 | $3.0 | $None | 131,072 | 1200 | standard | Closed |

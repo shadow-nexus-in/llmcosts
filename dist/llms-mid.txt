@@ -1,0 +1,13 @@
+# LLMCosts.dev — Mid Tier Models
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [Mistral Medium 3](https://llmcosts.dev/models/mistral-medium-3) | Mistral AI | $0.4 | $2.0 | $None | 131,072 | 1200 | mid | Closed |
+| [Qwen 2.5 Coder 32B](https://llmcosts.dev/models/qwen-2.5-coder-32b-instruct) | Alibaba Cloud | $0.8 | $1.5 | $None | 32,768 | 1210 | mid | Open |
+| [Mistral Large 3](https://llmcosts.dev/models/mistral-large-3) | Mistral AI | $0.5 | $1.5 | $0.25 | 131,072 | 1270 | mid | Closed |
+| [Command R+ 2025](https://llmcosts.dev/models/command-r-plus-2025) | Cohere | $2.5 | $10.0 | $1.25 | 128,000 | 1230 | mid | Closed |
+| [DeepSeek R2](https://llmcosts.dev/models/deepseek-r2) | DeepSeek | $0.55 | $2.19 | $0.055 | 163,000 | 1360 | mid | Open |

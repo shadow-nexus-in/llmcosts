@@ -1,0 +1,18 @@
+# LLMCosts.dev — X-Ai Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [xAI: Grok 4.20 Multi-Agent](https://llmcosts.dev/models/grok-4.20-multi-agent) | X-ai | $2.0 | $6.0 | $None | 2,000,000 | 1200 | standard | Closed |
+| [xAI: Grok 4.20](https://llmcosts.dev/models/grok-4.20) | X-ai | $2.0 | $6.0 | $None | 2,000,000 | 1200 | standard | Closed |
+| [xAI: Grok 4.1 Fast](https://llmcosts.dev/models/grok-4.1-fast) | X-ai | $0.2 | $0.5 | $None | 2,000,000 | 1200 | standard | Closed |
+| [xAI: Grok 4 Fast](https://llmcosts.dev/models/grok-4-fast) | X-ai | $0.2 | $0.5 | $None | 2,000,000 | 1200 | standard | Closed |
+| [xAI: Grok Code Fast 1](https://llmcosts.dev/models/grok-code-fast-1) | X-ai | $0.2 | $1.5 | $None | 256,000 | 1200 | standard | Closed |
+| [xAI: Grok 4](https://llmcosts.dev/models/grok-4) | X-ai | $3.0 | $15.0 | $None | 256,000 | 1200 | standard | Closed |
+| [xAI: Grok 3 Mini](https://llmcosts.dev/models/grok-3-mini) | X-ai | $0.3 | $0.5 | $None | 131,072 | 1200 | standard | Closed |
+| [xAI: Grok 3](https://llmcosts.dev/models/grok-3) | X-ai | $3.0 | $15.0 | $None | 131,072 | 1200 | standard | Closed |
+| [xAI: Grok 3 Mini Beta](https://llmcosts.dev/models/grok-3-mini-beta) | X-ai | $0.3 | $0.5 | $None | 131,072 | 1200 | standard | Closed |
+| [xAI: Grok 3 Beta](https://llmcosts.dev/models/grok-3-beta) | X-ai | $3.0 | $15.0 | $None | 131,072 | 1200 | standard | Closed |

@@ -1,0 +1,9 @@
+# LLMCosts.dev — Eleutherai Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [EleutherAI: Llemma 7b](https://llmcosts.dev/models/llemma_7b) | Eleutherai | $0.8 | $1.2 | $None | 4,096 | 1200 | standard | Closed |

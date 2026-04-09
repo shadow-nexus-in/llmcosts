@@ -1,0 +1,9 @@
+# LLMCosts.dev — Microsoft Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [Phi-4](https://llmcosts.dev/models/phi-4) | Microsoft | $0.07 | $0.14 | $None | 16,384 | 1200 | budget | Open |

@@ -1,0 +1,19 @@
+# LLMCosts.dev — Nvidia Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [Llama 3.1 Nemotron 70B Instruct](https://llmcosts.dev/models/llama-3-1-nemotron-70b-instruct) | NVIDIA | $0.35 | $0.4 | $None | 131,072 | 1260 | standard | Open |
+| [NVIDIA: Nemotron 3 Super (free)](https://llmcosts.dev/models/nemotron-3-super-120b-a12b:free) | Nvidia | $0.0 | $0.0 | $None | 262,144 | 1200 | standard | Closed |
+| [NVIDIA: Nemotron 3 Super](https://llmcosts.dev/models/nemotron-3-super-120b-a12b) | Nvidia | $0.1 | $0.5 | $None | 262,144 | 1200 | standard | Closed |
+| [NVIDIA: Nemotron 3 Nano 30B A3B (free)](https://llmcosts.dev/models/nemotron-3-nano-30b-a3b:free) | Nvidia | $0.0 | $0.0 | $None | 256,000 | 1200 | standard | Closed |
+| [NVIDIA: Nemotron 3 Nano 30B A3B](https://llmcosts.dev/models/nemotron-3-nano-30b-a3b) | Nvidia | $0.05 | $0.2 | $None | 262,144 | 1200 | standard | Closed |
+| [NVIDIA: Nemotron Nano 12B 2 VL (free)](https://llmcosts.dev/models/nemotron-nano-12b-v2-vl:free) | Nvidia | $0.0 | $0.0 | $None | 128,000 | 1200 | standard | Closed |
+| [NVIDIA: Nemotron Nano 12B 2 VL](https://llmcosts.dev/models/nemotron-nano-12b-v2-vl) | Nvidia | $0.2 | $0.6 | $None | 131,072 | 1200 | standard | Closed |
+| [NVIDIA: Llama 3.3 Nemotron Super 49B V1.5](https://llmcosts.dev/models/llama-3.3-nemotron-super-49b-v1.5) | Nvidia | $0.1 | $0.4 | $None | 131,072 | 1270 | standard | Closed |
+| [NVIDIA: Nemotron Nano 9B V2 (free)](https://llmcosts.dev/models/nemotron-nano-9b-v2:free) | Nvidia | $0.0 | $0.0 | $None | 128,000 | 1200 | standard | Closed |
+| [NVIDIA: Nemotron Nano 9B V2](https://llmcosts.dev/models/nemotron-nano-9b-v2) | Nvidia | $0.04 | $0.16 | $None | 131,072 | 1200 | standard | Closed |
+| [NVIDIA: Llama 3.1 Nemotron Ultra 253B v1](https://llmcosts.dev/models/llama-3.1-nemotron-ultra-253b-v1) | Nvidia | $0.6 | $1.8 | $None | 131,072 | 1270 | standard | Closed |

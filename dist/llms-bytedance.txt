@@ -1,0 +1,9 @@
+# LLMCosts.dev — Bytedance Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [ByteDance: UI-TARS 7B ](https://llmcosts.dev/models/ui-tars-1.5-7b) | Bytedance | $0.1 | $0.2 | $None | 128,000 | 1200 | standard | Closed |

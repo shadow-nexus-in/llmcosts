@@ -1,0 +1,13 @@
+# LLMCosts.dev — Baidu Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [Baidu: ERNIE 4.5 21B A3B Thinking](https://llmcosts.dev/models/ernie-4.5-21b-a3b-thinking) | Baidu | $0.07 | $0.28 | $None | 131,072 | 1200 | standard | Closed |
+| [Baidu: ERNIE 4.5 21B A3B](https://llmcosts.dev/models/ernie-4.5-21b-a3b) | Baidu | $0.07 | $0.28 | $None | 120,000 | 1200 | standard | Closed |
+| [Baidu: ERNIE 4.5 VL 28B A3B](https://llmcosts.dev/models/ernie-4.5-vl-28b-a3b) | Baidu | $0.14 | $0.56 | $None | 30,000 | 1200 | standard | Closed |
+| [Baidu: ERNIE 4.5 VL 424B A47B ](https://llmcosts.dev/models/ernie-4.5-vl-424b-a47b) | Baidu | $0.42 | $1.25 | $None | 123,000 | 1200 | standard | Closed |
+| [Baidu: ERNIE 4.5 300B A47B ](https://llmcosts.dev/models/ernie-4.5-300b-a47b) | Baidu | $0.28 | $1.1 | $None | 123,000 | 1200 | standard | Closed |

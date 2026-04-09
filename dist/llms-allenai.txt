@@ -1,0 +1,11 @@
+# LLMCosts.dev — Allenai Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [AllenAI: Olmo 3.1 32B Instruct](https://llmcosts.dev/models/olmo-3.1-32b-instruct) | Allenai | $0.2 | $0.6 | $None | 65,536 | 1200 | standard | Closed |
+| [AllenAI: Olmo 3 32B Think](https://llmcosts.dev/models/olmo-3-32b-think) | Allenai | $0.15 | $0.5 | $None | 65,536 | 1200 | standard | Closed |
+| [AllenAI: Olmo 2 32B Instruct](https://llmcosts.dev/models/olmo-2-0325-32b-instruct) | Allenai | $0.05 | $0.2 | $None | 128,000 | 1200 | standard | Closed |

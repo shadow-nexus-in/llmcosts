@@ -1,0 +1,9 @@
+# LLMCosts.dev — Deepcogito Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [Deep Cogito: Cogito v2.1 671B](https://llmcosts.dev/models/cogito-v2.1-671b) | Deepcogito | $1.25 | $1.25 | $None | 128,000 | 1200 | standard | Closed |

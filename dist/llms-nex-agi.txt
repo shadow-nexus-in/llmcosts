@@ -1,0 +1,9 @@
+# LLMCosts.dev — Nex-Agi Models Pricing
+> Source: LLMCosts.dev — https://llmcosts.dev
+> Updated: 2026-04-09
+> Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
+(Part 1)
+
+| Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
+|-------|----------|----------|---------|---------|---------|-----|------|------|
+| [Nex AGI: DeepSeek V3.1 Nex N1](https://llmcosts.dev/models/deepseek-v3.1-nex-n1) | Nex-agi | $0.135 | $0.5 | $None | 131,072 | 1200 | standard | Closed |
