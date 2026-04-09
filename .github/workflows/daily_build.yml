@@ -68,7 +68,7 @@ jobs:
         run: |
           git config user.name "LLMCosts Bot"
           git config user.email "bot@llmcosts.dev"
-          git add dist/ models.json checkpoint.json build_report.json sitemap.xml || true
+          git add dist/ data/ logs/build_report.json || true
           git add dist/_redirects dist/_headers dist/index.html dist/compare/ dist/daily-report/ || true
           git diff --cached --quiet || git commit -m "chore: daily build $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push origin main

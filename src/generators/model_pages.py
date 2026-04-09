@@ -28,7 +28,7 @@ MODELS_JSON_PATH = Path("data/models.json")
 DIST_MODELS_DIR = Path("dist/models")
 DIST_COMPARE_DIR = Path("dist/compare")
 TEMPLATE_PATH = Path("templates/model_page.html")
-BUILD_STATE_PATH = Path("checkpoint.json")
+BUILD_STATE_PATH = Path("data/checkpoint.json")
 SITE_URL = os.getenv("SITE_URL", "https://llmcosts.dev")
 AFFILIATE_BASE = "https://openrouter.ai/?ref=llmcosts"
 

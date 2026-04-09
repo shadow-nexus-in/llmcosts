@@ -17,7 +17,7 @@ import requests
 
 logger = logging.getLogger(__name__)
 
-CHECKPOINT_PATH = Path("checkpoint.json")
+CHECKPOINT_PATH = Path("data/checkpoint.json")
 DAILY_REQUEST_LIMIT = 13_500        # Per key (leave 1.8% headroom from 13750)
 DAILY_TOKEN_LIMIT = 950_000         # Per key (50k safety margin from 1M)
 TOKENS_PER_REQUEST_SOFT_CAP = 800   # Output tokens per generation call
