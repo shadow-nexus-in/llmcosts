@@ -61,11 +61,14 @@ def _build_market_context(models: list[dict]) -> str:
 
     # Find best value (cheapest per ELO point)
     def value_score(m):
-        inp = m.get("pricing", {}).get("input_per_1m", 9999)
-        elo = m.get("benchmarks", {}).get("arena_elo", 0)
-        if inp <= 0 or not elo:
+        try:
+            inp = float(m.get("pricing", {}).get("input_per_1m") or 9999)
+            elo = float(m.get("benchmarks", {}).get("arena_elo") or 0)
+            if inp <= 0 or elo <= 0:
+                return 9999
+            return inp / elo
+        except (ValueError, TypeError):
             return 9999
-        return inp / elo
 
     ranked_value = sorted(
         [m for m in models if m.get("benchmarks", {}).get("arena_elo")],

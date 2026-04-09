@@ -50,8 +50,8 @@ def _get_cheapest_by_usecase(models: list[dict]) -> dict[str, dict]:
 
     for m in models:
         inp = m.get("pricing", {}).get("input_per_1m", 9999)
-        use_cases = m.get("use_cases", [])
-        capabilities = m.get("capabilities", [])
+        use_cases = m.get("use_cases") or []
+        capabilities = m.get("capabilities") or []
 
         for uc in use_case_map:
             # Check if model supports this use case
