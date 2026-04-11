@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import json
 import logging
+import os
 import time
 from pathlib import Path
 from typing import Optional
@@ -17,7 +18,7 @@ logger = logging.getLogger(__name__)
 
 MODELS_JSON_PATH = Path("data/models.json")
 DIST_CONFIGS_DIR = Path("dist/configs")
-SITE_URL = "https://llmcosts.dev"
+SITE_URL = os.getenv("SITE_URL", "https://llmcosts.dev")
 AFFILIATE_OPENROUTER = "https://openrouter.ai/api/v1"
 AFFILIATE_REF = "?ref=llmcosts"
 

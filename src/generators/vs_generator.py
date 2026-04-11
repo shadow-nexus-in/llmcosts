@@ -109,7 +109,7 @@ def run_vs_generation() -> dict:
     
     try:
         state = json.loads(VS_STATE_PATH.read_text(encoding="utf-8"))
-    except:
+    except Exception:
         state = {"completed": []}
 
     try:
