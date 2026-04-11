@@ -16,3 +16,8 @@
 # ── Sitemap & Robots ──
 /sitemap.xml  /sitemap.xml  200
 /robots.txt   /robots.txt   200
+
+# ── Affiliate Dynamic Proxy Routes ──
+/out/cloud  https://m.do.co/c/your_your_digitalocean_affiliate_id_here  301
+/out/api    https://openrouter.ai/api/v1?ref=llmcosts                   301
+

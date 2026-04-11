@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 
 MODELS_JSON = "data/models.json"
 DEVTO_API_URL = "https://dev.to/api/articles"
-AFFILIATE_URL = "https://m.do.co/c/your_digitalocean_affiliate_id_here" # Placeholder until user sets it up
+AFFILIATE_URL = os.getenv("SITE_URL", "https://llmcosts.dev") + "/out/cloud"
 AFFILIATE_LINK_TEXT = "For deploying these models in production, we strictly recommend spinning up an isolated Vultr or DigitalOcean droplet to minimize latency. [Get $200 free credit here](" + AFFILIATE_URL + ")."
 
 

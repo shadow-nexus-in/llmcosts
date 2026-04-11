@@ -50,14 +50,31 @@ def _atomic_write(path: Path, content: str) -> None:
         logger.error(f"Atomic write failed for {path}: {e}")
 
 def _get_top_50(models: list[dict]) -> list[dict]:
-    """Return top 50 models based on tier and ELO."""
+    """Return top 50 models based on tier and dynamically decayed ELO."""
+    from datetime import datetime
+    
     def score(m):
         base = 1000 if m.get("tier") == "premium" else 500 if m.get("tier") == "standard" else 0
         try:
             elo = float(m.get("benchmarks", {}).get("arena_elo") or 0)
         except (ValueError, TypeError):
             elo = 0.0
+
+        # ELO Decay & Hype Surge calculations
+        try:
+            rd_str = m.get("release_date", "")
+            if rd_str:
+                rd = datetime.strptime(rd_str, "%Y-%m-%d")
+                age_days = (datetime.now() - rd).days
+                if age_days < 14:
+                    elo += 2000  # Hype Surge for brand new models
+                elif age_days > 120:
+                    elo *= 0.85  # 15% ELO penalty for models older than 4 months
+        except Exception:
+            pass # Malformed date, ignore algorithm modifiers
+            
         return base + elo
+        
     return sorted(models, key=score, reverse=True)[:50]
 
 def _generate_showdown_text(groq: GroqEngine, ma: dict, mb: dict) -> str:

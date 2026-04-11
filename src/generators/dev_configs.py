@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 MODELS_JSON_PATH = Path("data/models.json")
 DIST_CONFIGS_DIR = Path("dist/configs")
 SITE_URL = os.getenv("SITE_URL", "https://llmcosts.dev")
-AFFILIATE_OPENROUTER = "https://openrouter.ai/api/v1"
+AFFILIATE_OPENROUTER = os.getenv("SITE_URL", "https://llmcosts.dev") + "/out/api"
 AFFILIATE_REF = "?ref=llmcosts"
 
 SYSTEM_PROMPT = (

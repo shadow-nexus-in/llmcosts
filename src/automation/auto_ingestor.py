@@ -87,7 +87,16 @@ def _generate_ai_schema(groq: GroqEngine, mid: str, name: str, desc: str) -> dic
     res = groq.generate("OUTPUT PURE JSON.", prompt, max_tokens=300, response_format={"type": "json_object"})
     try:
         if res:
-            return json.loads(res.strip())
+            data = json.loads(res.strip())
+            
+            # Omega Protocol: Provider Hardcoding Rule-Set
+            mid_lower = mid.lower()
+            if "openai/" in mid_lower or "anthropic/" in mid_lower or "google/" in mid_lower:
+                data["tier"] = "premium"
+                if any(x in mid_lower for x in ["-mini", "-flash", "haiku", "nano"]):
+                    data["tier"] = "standard"
+                    
+            return data
     except Exception as e:
         logger.warning(f"Groq API hallucinated JSON for {mid}: {e}")
     return {}
