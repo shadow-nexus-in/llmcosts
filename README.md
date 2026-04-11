@@ -111,4 +111,16 @@ llmcosts/
 - **JSON Validation**: All atomic writes to `models.json` validate the JSON output before replacing the live file.
 
 ---
+
+## 🏆 The "Omega Protocol" Monetization Engine
+
+The V10 architecture is engineered not just for data, but for completely passive SEO domination and high-ticket affiliate conversion:
+
+1.  **Dev.to Parasite Pipeline**: By targeting Dev.to (Domain Rating 93), we bypass the Google Sandbox entirely. The system strictly selects Top 50 Premium models, writes CTO-level Showdowns using Llama-3, and publishes them natively to Dev.to.
+2.  **Dynamic Affiliate Routing**: To prevent the 5,000+ generated articles from suffering "link rot", the bot injects `llmcosts.dev/out/cloud`. On Cloudflare, this is dynamically proxied to your preferred affiliate program (Fiverr, PartnerStack, or DigitalOcean). Changing the redirect in Cloudflare instantly updates thousands of articles globally.
+3.  **The "Hype Surge" Algorithm**: Any model ingested within the last 14 days receives a temporary **+2000 ELO score boost**, mathematically forcing it to the top of the leaderboard to capture "Zero-Day" search traffic before competitors.
+4.  **The ELO Decay Penalty**: Models older than 120 days automatically receive a **-15% ELO penalty** in the sorting logic, ensuring the Top 50 stays entirely fresh and cutting-edge.
+5.  **Provider Hardcoding Array**: Immune to LLM hallucinations. Any model dropping from `["openai", "anthropic", "google", "meta", "mistral", "x-ai", "cohere", "deepseek"]` is mathematically forced into the Premium Elite category.
+
+---
 *Maintained autonomously by LLMCosts.dev. All inference routed through [OpenRouter](https://openrouter.ai/?ref=llmcosts) is tracking-enabled for infrastructure maintenance.*
