@@ -169,18 +169,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://llmcosts.dev/models/llama-4-maverick</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://llmcosts.dev/models/llama-4-scout</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://llmcosts.dev/models/o4-mini</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>daily</changefreq>
@@ -290,30 +278,6 @@
   </url>
   <url>
     <loc>https://llmcosts.dev/models/glm-5.1</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://llmcosts.dev/models/gemma-4-26b-a4b-it:free</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://llmcosts.dev/models/gemma-4-26b-a4b-it</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://llmcosts.dev/models/gemma-4-31b-it:free</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://llmcosts.dev/models/gemma-4-31b-it</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -740,12 +704,6 @@
   </url>
   <url>
     <loc>https://llmcosts.dev/models/rnj-1-instruct</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://llmcosts.dev/models/bodybuilder</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -1742,18 +1700,6 @@
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen2.5-vl-72b-instruct</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://llmcosts.dev/models/llama-4-scout</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://llmcosts.dev/models/llama-4-maverick</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>

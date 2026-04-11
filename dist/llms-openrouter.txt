@@ -17,4 +17,3 @@ License: CC BY 4.0
 | Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
 |-------|----------|----------|---------|---------|---------|-----|------|------|
 | [Free Models Router](https://llmcosts.dev/models/free) | Openrouter | $0.0 | $0.0 | $None | 200,000 | 1200 | standard | Closed |
-| [Body Builder (beta)](https://llmcosts.dev/models/bodybuilder) | Openrouter | $-1000000.0 | $-1000000.0 | $None | 128,000 | 1200 | standard | Closed |

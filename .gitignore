@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.pyc
+logs/
+data/checkpoint.json
+data/indexing_state.json
+data/vs_checkpoint.json
+data/models.tmp
+build_report.json
+*.tmp
+venv/
+.DS_Store

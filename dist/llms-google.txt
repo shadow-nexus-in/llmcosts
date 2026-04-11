@@ -22,10 +22,6 @@ License: CC BY 4.0
 | [Gemma 3 27B IT](https://llmcosts.dev/models/gemma-3-27b-it) | Google | $0.1 | $0.2 | $None | 131,072 | 1190 | budget | Open |
 | [Gemma 2 9B Instruct](https://llmcosts.dev/models/gemma-2-9b-it) | Google DeepMind | $0.1 | $0.1 | $None | 8,192 | 1190 | budget | Open |
 | [Gemma 3 4B Instruct](https://llmcosts.dev/models/gemma-3-4b-it) | Google DeepMind | $0.03 | $0.03 | $None | 131,072 | 1200 | budget | Open |
-| [Google: Gemma 4 26B A4B  (free)](https://llmcosts.dev/models/gemma-4-26b-a4b-it:free) | Google | $0.0 | $0.0 | $None | 262,144 | 1270 | standard | Closed |
-| [Google: Gemma 4 26B A4B ](https://llmcosts.dev/models/gemma-4-26b-a4b-it) | Google | $0.13 | $0.4 | $None | 262,144 | 1270 | standard | Closed |
-| [Google: Gemma 4 31B (free)](https://llmcosts.dev/models/gemma-4-31b-it:free) | Google | $0.0 | $0.0 | $None | 262,144 | 1270 | standard | Closed |
-| [Google: Gemma 4 31B](https://llmcosts.dev/models/gemma-4-31b-it) | Google | $0.14 | $0.4 | $None | 262,144 | 1270 | standard | Closed |
 | [Google: Lyria 3 Pro Preview](https://llmcosts.dev/models/lyria-3-pro-preview) | Google | $0.0 | $0.0 | $None | 1,048,576 | 1200 | standard | Closed |
 | [Google: Lyria 3 Clip Preview](https://llmcosts.dev/models/lyria-3-clip-preview) | Google | $0.0 | $0.0 | $None | 1,048,576 | 1200 | standard | Closed |
 | [Google: Gemini 3.1 Flash Lite Preview](https://llmcosts.dev/models/gemini-3.1-flash-lite-preview) | Google | $0.25 | $1.5 | $None | 1,048,576 | 1200 | standard | Closed |
