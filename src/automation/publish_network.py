@@ -138,8 +138,18 @@ def run_pipeline():
         logger.warning("Not enough models loaded to run VS pipeline.")
         sys.exit(0)
         
-    # Pick two random valid models
-    m1, m2 = random.sample(models, 2)
+    try:
+        from src.generators.vs_generator import _get_top_50
+        top_models = _get_top_50(models)
+    except Exception as e:
+        logger.error(f"Failed to load Top 50 matrix: {e}. Falling back to random selection.")
+        top_models = models
+        
+    if len(top_models) < 2:
+        top_models = models
+
+    # Pick two random models strictly from the Top 50 Premium list
+    m1, m2 = random.sample(top_models, 2)
     
     article_data = generate_devto_article(m1, m2)
     if article_data:

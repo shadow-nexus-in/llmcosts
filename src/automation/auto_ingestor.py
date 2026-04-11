@@ -91,7 +91,8 @@ def _generate_ai_schema(groq: GroqEngine, mid: str, name: str, desc: str) -> dic
             
             # Omega Protocol: Provider Hardcoding Rule-Set
             mid_lower = mid.lower()
-            if "openai/" in mid_lower or "anthropic/" in mid_lower or "google/" in mid_lower:
+            elite_providers = ["openai/", "anthropic/", "google/", "meta/", "mistral/", "x-ai/", "cohere/", "deepseek/"]
+            if any(p in mid_lower for p in elite_providers):
                 data["tier"] = "premium"
                 if any(x in mid_lower for x in ["-mini", "-flash", "haiku", "nano"]):
                     data["tier"] = "standard"
