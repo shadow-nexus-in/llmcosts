@@ -5,7 +5,7 @@
     "updated": "2026-04-11",
     "description": "Cost-optimized model routing chain with automatic fallbacks"
   },
-  "api_base": "https://openrouter.ai/api/v1",
+  "api_base": "https://llmcosts.dev/out/api",
   "routes": [
     {
       "use_case": "coding",
@@ -18,12 +18,12 @@
     },
     {
       "use_case": "reasoning",
-      "primary_model": "microsoft/phi-4",
-      "model_name": "Phi-4",
-      "input_per_1m_usd": 0.07,
-      "output_per_1m_usd": 0.14,
+      "primary_model": "cohere/command-r7b-12-2024",
+      "model_name": "Cohere: Command R7B (12-2024)",
+      "input_per_1m_usd": 0.0375,
+      "output_per_1m_usd": 0.15,
       "fallback_model": "openai/gpt-4o-mini",
-      "pricing_source": "https://llmcosts.dev/models/phi-4"
+      "pricing_source": "https://llmcosts.dev/models/cohere-command-r7b-12-2024"
     },
     {
       "use_case": "rag",

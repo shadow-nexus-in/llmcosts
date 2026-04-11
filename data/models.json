@@ -1,7 +1,7 @@
 {
   "version": "6.0",
-  "updated_at": "2026-04-09T15:51:16Z",
-  "total_models": 300,
+  "updated_at": "2026-04-11T12:54:11Z",
+  "total_models": 323,
   "schema_version": "v5",
   "description": "LLMCosts.dev — Open LLM Pricing Registry. Single source of truth for LLM pricing, benchmarks, and performance data. Updated daily by automated pipeline.",
   "data_sources": [
@@ -31895,6 +31895,1533 @@
       "tier": "budget",
       "open_source": true,
       "self_hostable": true
+    },
+    {
+      "id": "qwen/qwen-turbo",
+      "name": "Qwen: Qwen-Turbo",
+      "slug": "qwen-qwen-turbo",
+      "provider": "qwen",
+      "provider_name": "Qwen",
+      "version": "",
+      "release_date": "2026-04-11",
+      "pricing": {
+        "input_per_1m": 0.0325,
+        "output_per_1m": 0.13,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 131072,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "simple text classification",
+        "language translation",
+        "text summarization"
+      ],
+      "not_good_for": [
+        "complex tasks",
+        "multimodal understanding"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-04-11",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "fast",
+        "low-cost",
+        "simple"
+      ],
+      "tier": "budget",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "qwen/qwen-plus",
+      "name": "Qwen: Qwen-Plus",
+      "slug": "qwen-qwen-plus",
+      "provider": "qwen",
+      "provider_name": "Qwen",
+      "version": "",
+      "release_date": "2026-04-11",
+      "pricing": {
+        "input_per_1m": 0.26,
+        "output_per_1m": 0.78,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 1000000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "conversational dialogue",
+        "text summarization",
+        "language translation"
+      ],
+      "not_good_for": [
+        "multimodal tasks",
+        "highly specialized domains"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-04-11",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "balanced",
+        "cost-effective"
+      ],
+      "tier": "mid",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "qwen/qwen-max",
+      "name": "Qwen: Qwen-Max ",
+      "slug": "qwen-qwen-max",
+      "provider": "qwen",
+      "provider_name": "Qwen",
+      "version": "",
+      "release_date": "2026-04-11",
+      "pricing": {
+        "input_per_1m": 1.04,
+        "output_per_1m": 4.16,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 32768,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text",
+        "complex reasoning"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "multi-step tasks",
+        "complex problem solving",
+        "inference performance"
+      ],
+      "not_good_for": [
+        "real-time applications",
+        "low-resource devices"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-04-11",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "large-scale",
+        "pretrained",
+        "state-of-the-art"
+      ],
+      "tier": "premium",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "deepseek/deepseek-r1-distill-qwen-32b",
+      "name": "DeepSeek: R1 Distill Qwen 32B",
+      "slug": "deepseek-deepseek-r1-distill-qwen-32b",
+      "provider": "deepseek",
+      "provider_name": "Deepseek",
+      "version": "",
+      "release_date": "2026-04-11",
+      "pricing": {
+        "input_per_1m": 0.29,
+        "output_per_1m": 0.29,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 32768,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text",
+        "coding"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "conversational AI",
+        "language translation",
+        "text summarization"
+      ],
+      "not_good_for": [
+        "multimodal tasks",
+        "real-time vision tasks"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-04-11",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "frontier",
+        "large language model",
+        "distilled"
+      ],
+      "tier": "premium",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "deepseek/deepseek-r1-distill-llama-70b",
+      "name": "DeepSeek: R1 Distill Llama 70B",
+      "slug": "deepseek-deepseek-r1-distill-llama-70b",
+      "provider": "deepseek",
+      "provider_name": "Deepseek",
+      "version": "",
+      "release_date": "2026-04-11",
+      "pricing": {
+        "input_per_1m": 0.7,
+        "output_per_1m": 0.8,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 131072,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text",
+        "conversational",
+        "coding"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "Advanced natural language understanding",
+        "High-level text generation",
+        "Conversational AI systems"
+      ],
+      "not_good_for": [
+        "Real-time vision tasks",
+        "Multimodal processing"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-04-11",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "large language model",
+        "distilled",
+        "high-performance"
+      ],
+      "tier": "premium",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "deepseek/deepseek-chat",
+      "name": "DeepSeek: DeepSeek V3",
+      "slug": "deepseek-deepseek-chat",
+      "provider": "deepseek",
+      "provider_name": "Deepseek",
+      "version": "",
+      "release_date": "2026-04-11",
+      "pricing": {
+        "input_per_1m": 0.32,
+        "output_per_1m": 0.89,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 163840,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text",
+        "coding"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "Complex coding tasks",
+        "Advanced text analysis",
+        "Instruction following"
+      ],
+      "not_good_for": [
+        "Vision tasks",
+        "Multimodal understanding"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-04-11",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "frontier",
+        "large-scale",
+        "pre-trained"
+      ],
+      "tier": "premium",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "cohere/command-r7b-12-2024",
+      "name": "Cohere: Command R7B (12-2024)",
+      "slug": "cohere-command-r7b-12-2024",
+      "provider": "cohere",
+      "provider_name": "Cohere",
+      "version": "",
+      "release_date": "2026-04-11",
+      "pricing": {
+        "input_per_1m": 0.0375,
+        "output_per_1m": 0.15,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 128000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text",
+        "reasoning",
+        "tool_use"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "RAG tasks",
+        "Complex reasoning",
+        "Agent-based tasks"
+      ],
+      "not_good_for": [
+        "Simple text generation",
+        "Vision-based tasks"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-04-11",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "fast",
+        "frontier",
+        "closed-source"
+      ],
+      "tier": "premium",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "openai/gpt-4o-2024-11-20",
+      "name": "OpenAI: GPT-4o (2024-11-20)",
+      "slug": "openai-gpt-4o-2024-11-20",
+      "provider": "openai",
+      "provider_name": "Openai",
+      "version": "",
+      "release_date": "2026-04-11",
+      "pricing": {
+        "input_per_1m": 2.5,
+        "output_per_1m": 10.0,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 128000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text",
+        "creative writing",
+        "coding"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "content creation",
+        "copywriting",
+        "conversational dialogue"
+      ],
+      "not_good_for": [
+        "highly specialized domain knowledge",
+        "extremely large dataset processing"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-04-11",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "frontier",
+        "fast",
+        "state-of-the-art"
+      ],
+      "tier": "premium",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "cohere/command-r-plus-08-2024",
+      "name": "Cohere: Command R+ (08-2024)",
+      "slug": "cohere-command-r-plus-08-2024",
+      "provider": "cohere",
+      "provider_name": "Cohere",
+      "version": "",
+      "release_date": "2026-04-11",
+      "pricing": {
+        "input_per_1m": 2.5,
+        "output_per_1m": 10.0,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 128000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text",
+        "coding"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "High-performance text generation",
+        "Low-latency conversational AI",
+        "Automated content creation"
+      ],
+      "not_good_for": [
+        "Vision-based tasks",
+        "Edge cases with limited training data"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-04-11",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "frontier",
+        "fast",
+        "high-throughput"
+      ],
+      "tier": "premium",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "cohere/command-r-08-2024",
+      "name": "Cohere: Command R (08-2024)",
+      "slug": "cohere-command-r-08-2024",
+      "provider": "cohere",
+      "provider_name": "Cohere",
+      "version": "",
+      "release_date": "2026-04-11",
+      "pricing": {
+        "input_per_1m": 0.15,
+        "output_per_1m": 0.6,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 128000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text",
+        "coding",
+        "math"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "multilingual retrieval-augmented generation",
+        "code generation",
+        "mathematical reasoning"
+      ],
+      "not_good_for": [
+        "real-time vision tasks",
+        "emotional understanding"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-04-11",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "frontier",
+        "fast",
+        "multilingual"
+      ],
+      "tier": "premium",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "openai/gpt-4o-2024-08-06",
+      "name": "OpenAI: GPT-4o (2024-08-06)",
+      "slug": "openai-gpt-4o-2024-08-06",
+      "provider": "openai",
+      "provider_name": "Openai",
+      "version": "",
+      "release_date": "2026-04-11",
+      "pricing": {
+        "input_per_1m": 2.5,
+        "output_per_1m": 10.0,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 128000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text",
+        "coding",
+        "structured outputs"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "Data analysis and visualization",
+        "Automated content generation",
+        "Complex text-based tasks"
+      ],
+      "not_good_for": [
+        "Real-time vision tasks",
+        "Emotionally sensitive applications"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-04-11",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "state-of-the-art",
+        "large language model",
+        "structured outputs"
+      ],
+      "tier": "premium",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "openai/gpt-4o-mini-2024-07-18",
+      "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+      "slug": "openai-gpt-4o-mini-2024-07-18",
+      "provider": "openai",
+      "provider_name": "Openai",
+      "version": "",
+      "release_date": "2026-04-11",
+      "pricing": {
+        "input_per_1m": 0.15,
+        "output_per_1m": 0.6,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 128000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text",
+        "vision"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "conversational interfaces",
+        "image description",
+        "text generation"
+      ],
+      "not_good_for": [
+        "highly specialized domains",
+        "extremely large images"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-04-11",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "frontier",
+        "affordable",
+        "state-of-the-art"
+      ],
+      "tier": "standard",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "openai/gpt-4o-2024-05-13",
+      "name": "OpenAI: GPT-4o (2024-05-13)",
+      "slug": "openai-gpt-4o-2024-05-13",
+      "provider": "openai",
+      "provider_name": "Openai",
+      "version": "",
+      "release_date": "2026-04-11",
+      "pricing": {
+        "input_per_1m": 5.0,
+        "output_per_1m": 15.0,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 128000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text",
+        "vision"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "multimodal understanding",
+        "text and image generation",
+        "conversational AI"
+      ],
+      "not_good_for": [
+        "extremely low-latency applications",
+        "highly specialized domain knowledge"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-04-11",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "frontier",
+        "fast",
+        "state-of-the-art"
+      ],
+      "tier": "premium",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "openai/gpt-4o:extended",
+      "name": "OpenAI: GPT-4o (extended)",
+      "slug": "openai-gpt-4o:extended",
+      "provider": "openai",
+      "provider_name": "Openai",
+      "version": "",
+      "release_date": "2026-04-11",
+      "pricing": {
+        "input_per_1m": 6.0,
+        "output_per_1m": 18.0,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 128000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text",
+        "vision",
+        "coding"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "Multimodal understanding and generation",
+        "Creative writing and art",
+        "Advanced chatbots and conversational AI"
+      ],
+      "not_good_for": [
+        "Real-time video processing",
+        "Extremely large-scale data analysis"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-04-11",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "frontier",
+        "state-of-the-art",
+        "omni-modal"
+      ],
+      "tier": "premium",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "openai/gpt-4-turbo",
+      "name": "OpenAI: GPT-4 Turbo",
+      "slug": "openai-gpt-4-turbo",
+      "provider": "openai",
+      "provider_name": "Openai",
+      "version": "",
+      "release_date": "2026-04-11",
+      "pricing": {
+        "input_per_1m": 10.0,
+        "output_per_1m": 30.0,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 128000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text",
+        "vision",
+        "coding"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "Complex text and image analysis",
+        "Multimodal conversational AI",
+        "Advanced content generation"
+      ],
+      "not_good_for": [
+        "Real-time video processing",
+        "Low-latency applications"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-04-11",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "frontier",
+        "fast",
+        "state-of-the-art"
+      ],
+      "tier": "premium",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "openai/gpt-4-turbo-preview",
+      "name": "OpenAI: GPT-4 Turbo Preview",
+      "slug": "openai-gpt-4-turbo-preview",
+      "provider": "openai",
+      "provider_name": "Openai",
+      "version": "",
+      "release_date": "2026-04-11",
+      "pricing": {
+        "input_per_1m": 10.0,
+        "output_per_1m": 30.0,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 128000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text",
+        "coding",
+        "conversational"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "Complex text generation",
+        "Advanced coding assistance",
+        "Conversational AI systems"
+      ],
+      "not_good_for": [
+        "Real-time applications",
+        "High-volume requests"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-04-11",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "frontier",
+        "large-language-model",
+        "rate-limited"
+      ],
+      "tier": "premium",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "openai/gpt-3.5-turbo-0613",
+      "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
+      "slug": "openai-gpt-3.5-turbo-0613",
+      "provider": "openai",
+      "provider_name": "Openai",
+      "version": "",
+      "release_date": "2026-04-11",
+      "pricing": {
+        "input_per_1m": 1.0,
+        "output_per_1m": 2.0,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 4095,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text",
+        "coding"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "chat",
+        "language translation",
+        "code completion"
+      ],
+      "not_good_for": [
+        "multimodal tasks",
+        "tasks requiring very recent knowledge"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-04-11",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "fast",
+        "proprietary"
+      ],
+      "tier": "premium",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "openai/gpt-4-1106-preview",
+      "name": "OpenAI: GPT-4 Turbo (older v1106)",
+      "slug": "openai-gpt-4-1106-preview",
+      "provider": "openai",
+      "provider_name": "Openai",
+      "version": "",
+      "release_date": "2026-04-11",
+      "pricing": {
+        "input_per_1m": 10.0,
+        "output_per_1m": 30.0,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 128000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text",
+        "vision",
+        "coding"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "Complex text analysis",
+        "Multimodal understanding",
+        "Advanced content generation"
+      ],
+      "not_good_for": [
+        "Real-time data processing",
+        "Extremely large-scale data analysis"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-04-11",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "frontier",
+        "fast",
+        "state-of-the-art"
+      ],
+      "tier": "premium",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "openai/gpt-3.5-turbo-instruct",
+      "name": "OpenAI: GPT-3.5 Turbo Instruct",
+      "slug": "openai-gpt-3.5-turbo-instruct",
+      "provider": "openai",
+      "provider_name": "Openai",
+      "version": "",
+      "release_date": "2026-04-11",
+      "pricing": {
+        "input_per_1m": 1.5,
+        "output_per_1m": 2.0,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 4095,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text",
+        "conversational",
+        "coding"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "Complex text generation",
+        "Instructional content creation",
+        "Conversational dialogue systems"
+      ],
+      "not_good_for": [
+        "Multimodal tasks",
+        "Real-time data processing"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-04-11",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "state-of-the-art",
+        "large-language-model",
+        "instructional-tuned"
+      ],
+      "tier": "premium",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "openai/gpt-3.5-turbo-16k",
+      "name": "OpenAI: GPT-3.5 Turbo 16k",
+      "slug": "openai-gpt-3.5-turbo-16k",
+      "provider": "openai",
+      "provider_name": "Openai",
+      "version": "",
+      "release_date": "2026-04-11",
+      "pricing": {
+        "input_per_1m": 3.0,
+        "output_per_1m": 4.0,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 16385,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text",
+        "coding",
+        "conversational"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "long-form content generation",
+        "in-depth text analysis",
+        "advanced conversational AI"
+      ],
+      "not_good_for": [
+        "real-time applications",
+        "low-latency tasks"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-04-11",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "frontier",
+        "large-context",
+        "high-cost"
+      ],
+      "tier": "premium",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "openai/gpt-4-0314",
+      "name": "OpenAI: GPT-4 (older v0314)",
+      "slug": "openai-gpt-4-0314",
+      "provider": "openai",
+      "provider_name": "Openai",
+      "version": "",
+      "release_date": "2026-04-11",
+      "pricing": {
+        "input_per_1m": 30.0,
+        "output_per_1m": 60.0,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 8191,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text",
+        "coding",
+        "conversational"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "Content creation",
+        "Conversational AI",
+        "Language translation"
+      ],
+      "not_good_for": [
+        "Real-time data analysis",
+        "Multimodal understanding"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-04-11",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "large language model",
+        "state-of-the-art",
+        "closed-source"
+      ],
+      "tier": "premium",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "openai/gpt-4",
+      "name": "OpenAI: GPT-4",
+      "slug": "openai-gpt-4",
+      "provider": "openai",
+      "provider_name": "Openai",
+      "version": "",
+      "release_date": "2026-04-11",
+      "pricing": {
+        "input_per_1m": 30.0,
+        "output_per_1m": 60.0,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 8191,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text",
+        "reasoning",
+        "coding"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "Complex problem solving",
+        "Advanced language translation",
+        "Content generation"
+      ],
+      "not_good_for": [
+        "Real-time applications",
+        "Extremely domain-specific tasks"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-04-11",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "frontier",
+        "large-scale",
+        "multimodal"
+      ],
+      "tier": "premium",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "openai/gpt-3.5-turbo",
+      "name": "OpenAI: GPT-3.5 Turbo",
+      "slug": "openai-gpt-3.5-turbo",
+      "provider": "openai",
+      "provider_name": "Openai",
+      "version": "",
+      "release_date": "2026-04-11",
+      "pricing": {
+        "input_per_1m": 0.5,
+        "output_per_1m": 1.5,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 16385,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text",
+        "coding"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "chat",
+        "traditional completion tasks",
+        "code generation"
+      ],
+      "not_good_for": [
+        "multimodal tasks",
+        "tasks requiring knowledge after Sep 2021"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-04-11",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "fast",
+        "state-of-the-art",
+        "closed-source"
+      ],
+      "tier": "premium",
+      "open_source": false,
+      "self_hostable": false
     }
   ]
 }

@@ -62,3 +62,6 @@ License: CC BY 4.0
 | [Qwen: Qwen VL Plus](https://llmcosts.dev/models/qwen-vl-plus) | Qwen | $0.1365 | $0.4095 | $None | 131,072 | 1200 | standard | Closed |
 | [Qwen: Qwen VL Max](https://llmcosts.dev/models/qwen-vl-max) | Qwen | $0.52 | $2.08 | $None | 131,072 | 1200 | standard | Closed |
 | [Qwen: Qwen2.5 VL 72B Instruct](https://llmcosts.dev/models/qwen2.5-vl-72b-instruct) | Qwen | $0.8 | $0.8 | $None | 32,768 | 1200 | standard | Closed |
+| [Qwen: Qwen-Turbo](https://llmcosts.dev/models/qwen-qwen-turbo) | Qwen | $0.0325 | $0.13 | $None | 131,072 | None | budget | Closed |
+| [Qwen: Qwen-Plus](https://llmcosts.dev/models/qwen-qwen-plus) | Qwen | $0.26 | $0.78 | $None | 1,000,000 | None | mid | Closed |
+| [Qwen: Qwen-Max ](https://llmcosts.dev/models/qwen-qwen-max) | Qwen | $1.04 | $4.16 | $None | 32,768 | None | premium | Closed |

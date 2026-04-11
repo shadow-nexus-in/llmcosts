@@ -64,3 +64,17 @@ License: CC BY 4.0
 | [OpenAI: GPT-4o-mini Search Preview](https://llmcosts.dev/models/gpt-4o-mini-search-preview) | Openai | $0.15 | $0.6 | $None | 128,000 | 1300 | standard | Closed |
 | [OpenAI: GPT-4o Search Preview](https://llmcosts.dev/models/gpt-4o-search-preview) | Openai | $2.5 | $10.0 | $None | 128,000 | 1300 | standard | Closed |
 | [OpenAI: o3 Mini High](https://llmcosts.dev/models/o3-mini-high) | Openai | $1.1 | $4.4 | $None | 200,000 | 1350 | standard | Closed |
+| [OpenAI: GPT-4o (2024-11-20)](https://llmcosts.dev/models/openai-gpt-4o-2024-11-20) | Openai | $2.5 | $10.0 | $None | 128,000 | None | premium | Closed |
+| [OpenAI: GPT-4o (2024-08-06)](https://llmcosts.dev/models/openai-gpt-4o-2024-08-06) | Openai | $2.5 | $10.0 | $None | 128,000 | None | premium | Closed |
+| [OpenAI: GPT-4o-mini (2024-07-18)](https://llmcosts.dev/models/openai-gpt-4o-mini-2024-07-18) | Openai | $0.15 | $0.6 | $None | 128,000 | None | standard | Closed |
+| [OpenAI: GPT-4o (2024-05-13)](https://llmcosts.dev/models/openai-gpt-4o-2024-05-13) | Openai | $5.0 | $15.0 | $None | 128,000 | None | premium | Closed |
+| [OpenAI: GPT-4o (extended)](https://llmcosts.dev/models/openai-gpt-4o:extended) | Openai | $6.0 | $18.0 | $None | 128,000 | None | premium | Closed |
+| [OpenAI: GPT-4 Turbo](https://llmcosts.dev/models/openai-gpt-4-turbo) | Openai | $10.0 | $30.0 | $None | 128,000 | None | premium | Closed |
+| [OpenAI: GPT-4 Turbo Preview](https://llmcosts.dev/models/openai-gpt-4-turbo-preview) | Openai | $10.0 | $30.0 | $None | 128,000 | None | premium | Closed |
+| [OpenAI: GPT-3.5 Turbo (older v0613)](https://llmcosts.dev/models/openai-gpt-3.5-turbo-0613) | Openai | $1.0 | $2.0 | $None | 4,095 | None | premium | Closed |
+| [OpenAI: GPT-4 Turbo (older v1106)](https://llmcosts.dev/models/openai-gpt-4-1106-preview) | Openai | $10.0 | $30.0 | $None | 128,000 | None | premium | Closed |
+| [OpenAI: GPT-3.5 Turbo Instruct](https://llmcosts.dev/models/openai-gpt-3.5-turbo-instruct) | Openai | $1.5 | $2.0 | $None | 4,095 | None | premium | Closed |
+| [OpenAI: GPT-3.5 Turbo 16k](https://llmcosts.dev/models/openai-gpt-3.5-turbo-16k) | Openai | $3.0 | $4.0 | $None | 16,385 | None | premium | Closed |
+| [OpenAI: GPT-4 (older v0314)](https://llmcosts.dev/models/openai-gpt-4-0314) | Openai | $30.0 | $60.0 | $None | 8,191 | None | premium | Closed |
+| [OpenAI: GPT-4](https://llmcosts.dev/models/openai-gpt-4) | Openai | $30.0 | $60.0 | $None | 8,191 | None | premium | Closed |
+| [OpenAI: GPT-3.5 Turbo](https://llmcosts.dev/models/openai-gpt-3.5-turbo) | Openai | $0.5 | $1.5 | $None | 16,385 | None | premium | Closed |

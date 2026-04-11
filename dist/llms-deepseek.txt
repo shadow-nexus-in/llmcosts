@@ -25,3 +25,6 @@ License: CC BY 4.0
 | [DeepSeek: R1 0528](https://llmcosts.dev/models/deepseek-r1-0528) | Deepseek | $0.45 | $2.15 | $None | 163,840 | 1200 | standard | Closed |
 | [DeepSeek: DeepSeek V3 0324](https://llmcosts.dev/models/deepseek-chat-v3-0324) | Deepseek | $0.2 | $0.77 | $None | 163,840 | 1200 | standard | Closed |
 | [DeepSeek R2](https://llmcosts.dev/models/deepseek-r2) | DeepSeek | $0.55 | $2.19 | $0.055 | 163,000 | 1360 | mid | Open |
+| [DeepSeek: R1 Distill Qwen 32B](https://llmcosts.dev/models/deepseek-deepseek-r1-distill-qwen-32b) | Deepseek | $0.29 | $0.29 | $None | 32,768 | None | premium | Closed |
+| [DeepSeek: R1 Distill Llama 70B](https://llmcosts.dev/models/deepseek-deepseek-r1-distill-llama-70b) | Deepseek | $0.7 | $0.8 | $None | 131,072 | None | premium | Closed |
+| [DeepSeek: DeepSeek V3](https://llmcosts.dev/models/deepseek-deepseek-chat) | Deepseek | $0.32 | $0.89 | $None | 163,840 | None | premium | Closed |

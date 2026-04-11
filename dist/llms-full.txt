@@ -1,4 +1,4 @@
-# LLMCosts.dev — Standard Tier Models
+# LLMCosts.dev — COMPLETE LLM Pricing Registry (Un-Sharded Master)
 > Source: LLMCosts.dev — https://llmcosts.dev
 > Updated: 2026-04-11
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
@@ -12,21 +12,53 @@ CitationTemplate: "{title} — LLMCosts.dev, retrieved from https://llmcosts.dev
 Author: LLMCosts.dev Automated Registry
 License: CC BY 4.0
 
-(Part 1)
+Total Models: 323 | This file is NOT sharded. For ChatGPT-sized ingestion, use /llms.txt instead.
 
 | Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
 |-------|----------|----------|---------|---------|---------|-----|------|------|
+| [GPT-4o](https://llmcosts.dev/models/gpt-4o) | OpenAI | $2.5 | $10.0 | $1.25 | 128,000 | 1295 | premium | Closed |
+| [GPT-4o Mini](https://llmcosts.dev/models/gpt-4o-mini) | OpenAI | $0.15 | $0.6 | $0.075 | 128,000 | 1218 | budget | Closed |
+| [OpenAI o1](https://llmcosts.dev/models/o1) | OpenAI | $15.0 | $60.0 | $7.5 | 200,000 | 1330 | premium | Closed |
 | [OpenAI o3-mini](https://llmcosts.dev/models/o3-mini) | OpenAI | $1.1 | $4.4 | $0.55 | 200,000 | 1305 | standard | Closed |
 | [Claude 3.5 Haiku](https://llmcosts.dev/models/claude-3-5-haiku) | Anthropic | $0.8 | $4.0 | $0.08 | 200,000 | 1220 | standard | Closed |
+| [Claude 3 Haiku](https://llmcosts.dev/models/claude-3-haiku) | Anthropic | $0.25 | $1.25 | $0.03 | 200,000 | 1178 | budget | Closed |
 | [Llama 3.1 70B Instruct](https://llmcosts.dev/models/llama-3-1-70b-instruct) | Meta | $0.52 | $0.75 | $None | 131,072 | 1200 | standard | Open |
+| [Llama 3.1 8B Instruct](https://llmcosts.dev/models/llama-3-1-8b-instruct) | Meta | $0.07 | $0.07 | $None | 131,072 | 1147 | budget | Open |
+| [Mistral Large 2](https://llmcosts.dev/models/mistral-large-2407) | Mistral AI | $3.0 | $9.0 | $None | 131,072 | 1225 | premium | Closed |
+| [Mixtral 8x7B Instruct](https://llmcosts.dev/models/mixtral-8x7b-instruct) | Mistral AI | $0.24 | $0.24 | $None | 32,768 | 1114 | budget | Open |
+| [Llama 3.2 11B Vision Instruct](https://llmcosts.dev/models/llama-3-2-11b-vision-instruct) | Meta | $0.055 | $0.055 | $None | 131,072 | 1270 | budget | Open |
 | [Llama 3.3 70B Instruct](https://llmcosts.dev/models/llama-3-3-70b-instruct) | Meta | $0.59 | $0.79 | $None | 131,072 | 1248 | standard | Open |
+| [Llama 3.2 3B Instruct](https://llmcosts.dev/models/llama-3-2-3b-instruct) | Meta | $0.06 | $0.06 | $None | 131,072 | 1270 | budget | Open |
 | [DeepSeek R1](https://llmcosts.dev/models/deepseek-r1) | DeepSeek | $0.55 | $2.19 | $None | 64,000 | 1358 | standard | Open |
+| [Mistral Nemo](https://llmcosts.dev/models/mistral-nemo) | Mistral AI | $0.15 | $0.15 | $None | 128,000 | 1090 | budget | Open |
+| [Phi-4](https://llmcosts.dev/models/phi-4) | Microsoft | $0.07 | $0.14 | $None | 16,384 | 1200 | budget | Open |
 | [Qwen 2.5 72B Instruct](https://llmcosts.dev/models/qwen-2-5-72b-instruct) | Alibaba (Qwen) | $0.35 | $0.4 | $None | 131,072 | 1238 | standard | Open |
+| [Gemma 2 27B IT](https://llmcosts.dev/models/gemma-2-27b-it) | Google | $0.27 | $0.27 | $None | 8,192 | 1153 | budget | Open |
+| [Claude Opus 4](https://llmcosts.dev/models/claude-opus-4) | Anthropic | $15.0 | $75.0 | $1.5 | 200,000 | 1380 | premium | Closed |
+| [Claude Sonnet 4](https://llmcosts.dev/models/claude-sonnet-4) | Anthropic | $3.0 | $15.0 | $0.3 | 200,000 | 1340 | premium | Closed |
+| [OpenAI o3](https://llmcosts.dev/models/o3) | OpenAI | $2.0 | $8.0 | $1.0 | 200,000 | 1390 | premium | Closed |
+| [GPT-4.1](https://llmcosts.dev/models/gpt-4-1) | OpenAI | $2.0 | $8.0 | $0.5 | 1,047,576 | 1320 | premium | Closed |
+| [GPT-4.1 Mini](https://llmcosts.dev/models/gpt-4-1-mini) | OpenAI | $0.4 | $1.6 | $0.1 | 1,047,576 | 1260 | budget | Closed |
+| [Gemini 2.5 Pro](https://llmcosts.dev/models/gemini-2-5-pro) | Google | $1.25 | $10.0 | $0.125 | 1,048,576 | 1376 | premium | Closed |
 | [Llama 4 Maverick](https://llmcosts.dev/models/llama-4-maverick) | Meta | $0.27 | $0.85 | $None | 1,048,576 | 1300 | standard | Open |
+| [Llama 4 Scout](https://llmcosts.dev/models/llama-4-scout) | Meta | $0.11 | $0.34 | $None | 10,485,760 | 1235 | budget | Open |
 | [OpenAI o4-mini](https://llmcosts.dev/models/o4-mini) | OpenAI | $1.1 | $4.4 | $0.55 | 200,000 | 1320 | standard | Closed |
+| [GPT-4.1 Nano](https://llmcosts.dev/models/gpt-4-1-nano) | OpenAI | $0.1 | $0.4 | $0.025 | 1,047,576 | 1195 | budget | Closed |
 | [Gemini 2.5 Flash](https://llmcosts.dev/models/gemini-2-5-flash) | Google | $0.3 | $2.5 | $0.03 | 1,048,576 | 1330 | standard | Closed |
 | [Mistral Large 2411](https://llmcosts.dev/models/mistral-large-2411) | Mistral AI | $2.0 | $6.0 | $None | 131,072 | 1251 | standard | Closed |
+| [Command A](https://llmcosts.dev/models/command-a) | Cohere | $2.5 | $10.0 | $None | 256,000 | 1220 | premium | Closed |
+| [Llama 3.2 1B Instruct](https://llmcosts.dev/models/llama-3-2-1b-instruct) | Meta | $0.01 | $0.01 | $None | 131,072 | 1270 | budget | Open |
+| [Qwen2.5 Coder 32B Instruct](https://llmcosts.dev/models/qwen-2-5-coder-32b-instruct) | Alibaba Cloud | $0.07 | $0.21 | $None | 131,072 | 1248 | budget | Open |
 | [Llama 3.1 Nemotron 70B Instruct](https://llmcosts.dev/models/llama-3-1-nemotron-70b-instruct) | NVIDIA | $0.35 | $0.4 | $None | 131,072 | 1260 | standard | Open |
+| [Gemma 3 27B IT](https://llmcosts.dev/models/gemma-3-27b-it) | Google | $0.1 | $0.2 | $None | 131,072 | 1190 | budget | Open |
+| [QwQ 32B](https://llmcosts.dev/models/qwq-32b) | Alibaba Cloud | $0.12 | $0.18 | $None | 131,072 | 1253 | budget | Open |
+| [Qwen2.5 7B Instruct](https://llmcosts.dev/models/qwen-2-5-7b-instruct) | Alibaba Cloud | $0.1 | $0.2 | $None | 131,072 | 1200 | budget | Open |
+| [Gemma 2 9B Instruct](https://llmcosts.dev/models/gemma-2-9b-it) | Google DeepMind | $0.1 | $0.1 | $None | 8,192 | 1190 | budget | Open |
+| [Mistral Medium 3](https://llmcosts.dev/models/mistral-medium-3) | Mistral AI | $0.4 | $2.0 | $None | 131,072 | 1200 | mid | Closed |
+| [Gemma 3 4B Instruct](https://llmcosts.dev/models/gemma-3-4b-it) | Google DeepMind | $0.03 | $0.03 | $None | 131,072 | 1200 | budget | Open |
+| [OpenAI o1 Pro](https://llmcosts.dev/models/o1-pro) | OpenAI | $150.0 | $600.0 | $None | 200,000 | 1300 | ultra | Closed |
+| [Llama Guard 3 8B](https://llmcosts.dev/models/llama-guard-3-8b) | Meta | $0.2 | $0.2 | $None | 8,192 | 1200 | budget | Open |
+| [Qwen 2.5 Coder 32B](https://llmcosts.dev/models/qwen-2.5-coder-32b-instruct) | Alibaba Cloud | $0.8 | $1.5 | $None | 32,768 | 1210 | mid | Open |
 | [Anthropic: Claude Opus 4.6 (Fast)](https://llmcosts.dev/models/claude-opus-4.6-fast) | Anthropic | $30.0 | $150.0 | $None | 1,000,000 | 1300 | standard | Closed |
 | [Z.ai: GLM 5.1](https://llmcosts.dev/models/glm-5.1) | Z-ai | $1.26 | $3.96 | $None | 202,752 | 1200 | standard | Closed |
 | [Google: Gemma 4 26B A4B  (free)](https://llmcosts.dev/models/gemma-4-26b-a4b-it:free) | Google | $0.0 | $0.0 | $None | 262,144 | 1270 | standard | Closed |
@@ -271,8 +303,39 @@ License: CC BY 4.0
 | [AionLabs: Aion-RP 1.0 (8B)](https://llmcosts.dev/models/aion-rp-llama-3.1-8b) | Aion-labs | $0.8 | $1.6 | $None | 32,768 | 1270 | standard | Closed |
 | [Qwen: Qwen VL Max](https://llmcosts.dev/models/qwen-vl-max) | Qwen | $0.52 | $2.08 | $None | 131,072 | 1200 | standard | Closed |
 | [Qwen: Qwen2.5 VL 72B Instruct](https://llmcosts.dev/models/qwen2.5-vl-72b-instruct) | Qwen | $0.8 | $0.8 | $None | 32,768 | 1200 | standard | Closed |
+| [Llama 4 Scout](https://llmcosts.dev/models/llama-4-scout) | Meta | $0.08 | $0.3 | $0.04 | 10,000,000 | 1240 | budget | Open |
 | [Llama 4 Maverick](https://llmcosts.dev/models/llama-4-maverick) | Meta | $0.2 | $0.8 | $0.1 | 1,000,000 | 1285 | standard | Open |
+| [Mistral Large 3](https://llmcosts.dev/models/mistral-large-3) | Mistral AI | $0.5 | $1.5 | $0.25 | 131,072 | 1270 | mid | Closed |
+| [Command R+ 2025](https://llmcosts.dev/models/command-r-plus-2025) | Cohere | $2.5 | $10.0 | $1.25 | 128,000 | 1230 | mid | Closed |
 | [Llama 3.3 70B Instruct](https://llmcosts.dev/models/llama-33-70b-instruct) | Meta | $0.12 | $0.4 | $0.06 | 128,000 | 1270 | standard | Open |
+| [Gemini 2.0 Flash](https://llmcosts.dev/models/gemini-20-flash) | Google | $0.1 | $0.4 | $0.01 | 1,000,000 | 1200 | budget | Closed |
 | [Codestral 2025](https://llmcosts.dev/models/codestral-2025) | Mistral AI | $0.3 | $0.9 | $0.15 | 256,000 | None | standard | Closed |
 | [Amazon Nova Pro](https://llmcosts.dev/models/nova-pro) | Amazon Web Services | $0.8 | $3.2 | $0.4 | 300,000 | 1215 | standard | Closed |
+| [Amazon Nova Lite](https://llmcosts.dev/models/nova-lite) | Amazon Web Services | $0.06 | $0.24 | $0.03 | 300,000 | 1150 | budget | Closed |
+| [DeepSeek R2](https://llmcosts.dev/models/deepseek-r2) | DeepSeek | $0.55 | $2.19 | $0.055 | 163,000 | 1360 | mid | Open |
+| [Mistral Small 3](https://llmcosts.dev/models/mistral-small-3) | Mistral AI | $0.1 | $0.3 | $0.05 | 32,768 | 1195 | budget | Closed |
+| [Llama 3.1 405B Instruct](https://llmcosts.dev/models/llama-31-405b) | Meta | $3.0 | $3.0 | $1.5 | 128,000 | None | premium | Open |
+| [Mistral NeMo 2025](https://llmcosts.dev/models/mistral-nemo-2025) | Mistral AI | $0.05 | $0.2 | $0.025 | 128,000 | None | budget | Open |
+| [Qwen: Qwen-Turbo](https://llmcosts.dev/models/qwen-qwen-turbo) | Qwen | $0.0325 | $0.13 | $None | 131,072 | None | budget | Closed |
+| [Qwen: Qwen-Plus](https://llmcosts.dev/models/qwen-qwen-plus) | Qwen | $0.26 | $0.78 | $None | 1,000,000 | None | mid | Closed |
+| [Qwen: Qwen-Max ](https://llmcosts.dev/models/qwen-qwen-max) | Qwen | $1.04 | $4.16 | $None | 32,768 | None | premium | Closed |
+| [DeepSeek: R1 Distill Qwen 32B](https://llmcosts.dev/models/deepseek-deepseek-r1-distill-qwen-32b) | Deepseek | $0.29 | $0.29 | $None | 32,768 | None | premium | Closed |
+| [DeepSeek: R1 Distill Llama 70B](https://llmcosts.dev/models/deepseek-deepseek-r1-distill-llama-70b) | Deepseek | $0.7 | $0.8 | $None | 131,072 | None | premium | Closed |
+| [DeepSeek: DeepSeek V3](https://llmcosts.dev/models/deepseek-deepseek-chat) | Deepseek | $0.32 | $0.89 | $None | 163,840 | None | premium | Closed |
+| [Cohere: Command R7B (12-2024)](https://llmcosts.dev/models/cohere-command-r7b-12-2024) | Cohere | $0.0375 | $0.15 | $None | 128,000 | None | premium | Closed |
+| [OpenAI: GPT-4o (2024-11-20)](https://llmcosts.dev/models/openai-gpt-4o-2024-11-20) | Openai | $2.5 | $10.0 | $None | 128,000 | None | premium | Closed |
+| [Cohere: Command R+ (08-2024)](https://llmcosts.dev/models/cohere-command-r-plus-08-2024) | Cohere | $2.5 | $10.0 | $None | 128,000 | None | premium | Closed |
+| [Cohere: Command R (08-2024)](https://llmcosts.dev/models/cohere-command-r-08-2024) | Cohere | $0.15 | $0.6 | $None | 128,000 | None | premium | Closed |
+| [OpenAI: GPT-4o (2024-08-06)](https://llmcosts.dev/models/openai-gpt-4o-2024-08-06) | Openai | $2.5 | $10.0 | $None | 128,000 | None | premium | Closed |
 | [OpenAI: GPT-4o-mini (2024-07-18)](https://llmcosts.dev/models/openai-gpt-4o-mini-2024-07-18) | Openai | $0.15 | $0.6 | $None | 128,000 | None | standard | Closed |
+| [OpenAI: GPT-4o (2024-05-13)](https://llmcosts.dev/models/openai-gpt-4o-2024-05-13) | Openai | $5.0 | $15.0 | $None | 128,000 | None | premium | Closed |
+| [OpenAI: GPT-4o (extended)](https://llmcosts.dev/models/openai-gpt-4o:extended) | Openai | $6.0 | $18.0 | $None | 128,000 | None | premium | Closed |
+| [OpenAI: GPT-4 Turbo](https://llmcosts.dev/models/openai-gpt-4-turbo) | Openai | $10.0 | $30.0 | $None | 128,000 | None | premium | Closed |
+| [OpenAI: GPT-4 Turbo Preview](https://llmcosts.dev/models/openai-gpt-4-turbo-preview) | Openai | $10.0 | $30.0 | $None | 128,000 | None | premium | Closed |
+| [OpenAI: GPT-3.5 Turbo (older v0613)](https://llmcosts.dev/models/openai-gpt-3.5-turbo-0613) | Openai | $1.0 | $2.0 | $None | 4,095 | None | premium | Closed |
+| [OpenAI: GPT-4 Turbo (older v1106)](https://llmcosts.dev/models/openai-gpt-4-1106-preview) | Openai | $10.0 | $30.0 | $None | 128,000 | None | premium | Closed |
+| [OpenAI: GPT-3.5 Turbo Instruct](https://llmcosts.dev/models/openai-gpt-3.5-turbo-instruct) | Openai | $1.5 | $2.0 | $None | 4,095 | None | premium | Closed |
+| [OpenAI: GPT-3.5 Turbo 16k](https://llmcosts.dev/models/openai-gpt-3.5-turbo-16k) | Openai | $3.0 | $4.0 | $None | 16,385 | None | premium | Closed |
+| [OpenAI: GPT-4 (older v0314)](https://llmcosts.dev/models/openai-gpt-4-0314) | Openai | $30.0 | $60.0 | $None | 8,191 | None | premium | Closed |
+| [OpenAI: GPT-4](https://llmcosts.dev/models/openai-gpt-4) | Openai | $30.0 | $60.0 | $None | 8,191 | None | premium | Closed |
+| [OpenAI: GPT-3.5 Turbo](https://llmcosts.dev/models/openai-gpt-3.5-turbo) | Openai | $0.5 | $1.5 | $None | 16,385 | None | premium | Closed |

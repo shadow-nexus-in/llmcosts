@@ -191,7 +191,7 @@
       <a href="/daily-report">Market Report</a>
       <a href="https://openrouter.ai/?ref=llmcosts" target="_blank" rel="noopener"
          style="background:var(--accent-blue);color:#fff;padding:0.4rem 0.9rem;border-radius:6px;font-weight:600;font-size:0.8rem;">
-        Get API Key →
+        Get API Key ->
       </a>
     </div>
   </div>
@@ -224,7 +224,7 @@
 <div class="best-deal" id="best-deal-banner">
   <div class="best-deal-inner">
     <span>🏆 Today's Best Value: <strong>Body Builder (beta)</strong> at <strong>$-1000000.0000/1M tokens</strong></span>
-    <a href="/models/bodybuilder" class="best-deal-link">View Model →</a>
+    <a href="/models/bodybuilder" class="best-deal-link">View Model -></a>
   </div>
 </div>
 
@@ -286,7 +286,7 @@
   </p>
   <p style="margin-top:0.5rem">
     Prices from OpenRouter &amp; LiteLLM. Found an error?
-    <a href="https://github.com/shadow-nexus-in/llmcosts/issues">Submit an issue →</a>
+    <a href="https://github.com/shadow-nexus-in/llmcosts/issues">Submit an issue -></a>
   </p>
 </footer>
 
@@ -374,11 +374,11 @@ function render() {
       <td>${fmtCtx(m.context)}</td>
       <td>${fmtElo(m.elo)}</td>
       <td>${tierBadge(m.tier)}</td>
-      <td class="oss-badge">${m.open_source ? '✅' : ''}</td>
+      <td class="oss-badge">${m.open_source ? '[PASS]' : ''}</td>
       <td>
         <a href="/models/${m.slug}" onclick="event.stopPropagation()"
            style="color:var(--accent-blue);font-size:0.75rem;text-decoration:none;">
-          Details →
+          Details ->
         </a>
       </td>
     </tr>

@@ -21,3 +21,4 @@ License: CC BY 4.0
 | [Mistral Large 3](https://llmcosts.dev/models/mistral-large-3) | Mistral AI | $0.5 | $1.5 | $0.25 | 131,072 | 1270 | mid | Closed |
 | [Command R+ 2025](https://llmcosts.dev/models/command-r-plus-2025) | Cohere | $2.5 | $10.0 | $1.25 | 128,000 | 1230 | mid | Closed |
 | [DeepSeek R2](https://llmcosts.dev/models/deepseek-r2) | DeepSeek | $0.55 | $2.19 | $0.055 | 163,000 | 1360 | mid | Open |
+| [Qwen: Qwen-Plus](https://llmcosts.dev/models/qwen-qwen-plus) | Qwen | $0.26 | $0.78 | $None | 1,000,000 | None | mid | Closed |

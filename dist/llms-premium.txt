@@ -26,3 +26,23 @@ License: CC BY 4.0
 | [Gemini 2.5 Pro](https://llmcosts.dev/models/gemini-2-5-pro) | Google | $1.25 | $10.0 | $0.125 | 1,048,576 | 1376 | premium | Closed |
 | [Command A](https://llmcosts.dev/models/command-a) | Cohere | $2.5 | $10.0 | $None | 256,000 | 1220 | premium | Closed |
 | [Llama 3.1 405B Instruct](https://llmcosts.dev/models/llama-31-405b) | Meta | $3.0 | $3.0 | $1.5 | 128,000 | None | premium | Open |
+| [Qwen: Qwen-Max ](https://llmcosts.dev/models/qwen-qwen-max) | Qwen | $1.04 | $4.16 | $None | 32,768 | None | premium | Closed |
+| [DeepSeek: R1 Distill Qwen 32B](https://llmcosts.dev/models/deepseek-deepseek-r1-distill-qwen-32b) | Deepseek | $0.29 | $0.29 | $None | 32,768 | None | premium | Closed |
+| [DeepSeek: R1 Distill Llama 70B](https://llmcosts.dev/models/deepseek-deepseek-r1-distill-llama-70b) | Deepseek | $0.7 | $0.8 | $None | 131,072 | None | premium | Closed |
+| [DeepSeek: DeepSeek V3](https://llmcosts.dev/models/deepseek-deepseek-chat) | Deepseek | $0.32 | $0.89 | $None | 163,840 | None | premium | Closed |
+| [Cohere: Command R7B (12-2024)](https://llmcosts.dev/models/cohere-command-r7b-12-2024) | Cohere | $0.0375 | $0.15 | $None | 128,000 | None | premium | Closed |
+| [OpenAI: GPT-4o (2024-11-20)](https://llmcosts.dev/models/openai-gpt-4o-2024-11-20) | Openai | $2.5 | $10.0 | $None | 128,000 | None | premium | Closed |
+| [Cohere: Command R+ (08-2024)](https://llmcosts.dev/models/cohere-command-r-plus-08-2024) | Cohere | $2.5 | $10.0 | $None | 128,000 | None | premium | Closed |
+| [Cohere: Command R (08-2024)](https://llmcosts.dev/models/cohere-command-r-08-2024) | Cohere | $0.15 | $0.6 | $None | 128,000 | None | premium | Closed |
+| [OpenAI: GPT-4o (2024-08-06)](https://llmcosts.dev/models/openai-gpt-4o-2024-08-06) | Openai | $2.5 | $10.0 | $None | 128,000 | None | premium | Closed |
+| [OpenAI: GPT-4o (2024-05-13)](https://llmcosts.dev/models/openai-gpt-4o-2024-05-13) | Openai | $5.0 | $15.0 | $None | 128,000 | None | premium | Closed |
+| [OpenAI: GPT-4o (extended)](https://llmcosts.dev/models/openai-gpt-4o:extended) | Openai | $6.0 | $18.0 | $None | 128,000 | None | premium | Closed |
+| [OpenAI: GPT-4 Turbo](https://llmcosts.dev/models/openai-gpt-4-turbo) | Openai | $10.0 | $30.0 | $None | 128,000 | None | premium | Closed |
+| [OpenAI: GPT-4 Turbo Preview](https://llmcosts.dev/models/openai-gpt-4-turbo-preview) | Openai | $10.0 | $30.0 | $None | 128,000 | None | premium | Closed |
+| [OpenAI: GPT-3.5 Turbo (older v0613)](https://llmcosts.dev/models/openai-gpt-3.5-turbo-0613) | Openai | $1.0 | $2.0 | $None | 4,095 | None | premium | Closed |
+| [OpenAI: GPT-4 Turbo (older v1106)](https://llmcosts.dev/models/openai-gpt-4-1106-preview) | Openai | $10.0 | $30.0 | $None | 128,000 | None | premium | Closed |
+| [OpenAI: GPT-3.5 Turbo Instruct](https://llmcosts.dev/models/openai-gpt-3.5-turbo-instruct) | Openai | $1.5 | $2.0 | $None | 4,095 | None | premium | Closed |
+| [OpenAI: GPT-3.5 Turbo 16k](https://llmcosts.dev/models/openai-gpt-3.5-turbo-16k) | Openai | $3.0 | $4.0 | $None | 16,385 | None | premium | Closed |
+| [OpenAI: GPT-4 (older v0314)](https://llmcosts.dev/models/openai-gpt-4-0314) | Openai | $30.0 | $60.0 | $None | 8,191 | None | premium | Closed |
+| [OpenAI: GPT-4](https://llmcosts.dev/models/openai-gpt-4) | Openai | $30.0 | $60.0 | $None | 8,191 | None | premium | Closed |
+| [OpenAI: GPT-3.5 Turbo](https://llmcosts.dev/models/openai-gpt-3.5-turbo) | Openai | $0.5 | $1.5 | $None | 16,385 | None | premium | Closed |

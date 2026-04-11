@@ -249,7 +249,7 @@ function renderCompare() {
     ['LMSYS Arena ELO', selA.elo || 'N/A', selB.elo || 'N/A', 'elo', 'higher'],
     ['MMLU Score', selA.mmlu || 'N/A', selB.mmlu || 'N/A', 'mmlu', 'higher'],
     ['Tier', selA.tier || 'N/A', selB.tier || 'N/A', null, null],
-    ['Open Source', selA.open_source ? '✅ Yes' : '❌ No', selB.open_source ? '✅ Yes' : '❌ No', null, null],
+    ['Open Source', selA.open_source ? '[PASS] Yes' : '[FAIL] No', selB.open_source ? '[PASS] Yes' : '[FAIL] No', null, null],
   ];
 
   function cellClass(field, prefer, aVal, bVal) {
@@ -281,8 +281,8 @@ function renderCompare() {
         }).join('')}
         <tr>
           <td class="row-label">View Details</td>
-          <td class="center"><a href="/models/${selA.slug}" style="color:var(--accent-blue);font-size:0.875rem;">Details →</a></td>
-          <td class="center"><a href="/models/${selB.slug}" style="color:var(--accent-blue);font-size:0.875rem;">Details →</a></td>
+          <td class="center"><a href="/models/${selA.slug}" style="color:var(--accent-blue);font-size:0.875rem;">Details -></a></td>
+          <td class="center"><a href="/models/${selB.slug}" style="color:var(--accent-blue);font-size:0.875rem;">Details -></a></td>
         </tr>
       </tbody>
     </table>
