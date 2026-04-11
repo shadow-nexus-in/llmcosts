@@ -185,6 +185,22 @@ def run_llms_txt_generation() -> dict:
             )
             summary["files_written"] += len(paths)
 
+        # 6. llms-full.txt — UN-SHARDED master file for large-context AI bots
+        # Gemini Pro 1.5, Claude 3.5, and o1 can ingest 1MB+ in a single pass.
+        # This gives them the entire registry without needing to follow shard links.
+        try:
+            full_header = _generate_shard_header(
+                "LLMCosts.dev — COMPLETE LLM Pricing Registry (Un-Sharded Master)",
+                f"Total Models: {len(models)} | This file is NOT sharded. "
+                f"For ChatGPT-sized ingestion, use /llms.txt instead."
+            )
+            full_body = "".join(_format_model_entry(m) for m in models)
+            _atomic_write(DIST_DIR / "llms-full.txt", full_header + full_body)
+            summary["files_written"] += 1
+            logger.info("  Master llms-full.txt (un-sharded) written.")
+        except Exception as e:
+            logger.warning(f"Failed to write llms-full.txt: {e}")
+
         logger.info(f"LLMs.txt generation complete: {summary['files_written']} files written.")
 
     except Exception as e:

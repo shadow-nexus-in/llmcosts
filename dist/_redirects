@@ -9,8 +9,10 @@
 /daily-report  /daily-report/index.html  200
 
 # ── LLMs.txt shards ──
-/llms.txt    /llms.txt    200
-/llms-*.txt  /:splat      200
+/llms.txt      /llms.txt      200
+/llms-full.txt /llms-full.txt 200
+/llms-*.txt    /:splat        200
 
-# ── Sitemap ──
+# ── Sitemap & Robots ──
 /sitemap.xml  /sitemap.xml  200
+/robots.txt   /robots.txt   200
