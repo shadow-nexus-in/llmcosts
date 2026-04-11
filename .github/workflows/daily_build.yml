@@ -50,6 +50,12 @@ jobs:
           SITE_URL: ${{ secrets.SITE_URL || 'https://llmcosts.dev' }}
         run: python build.py
 
+      # ── 5.5 Run Dev.to Parasite Pipeline ─────────────────────────────
+      - name: Dev.to API Syndication
+        env:
+          GROQ_API_KEY_1: ${{ secrets.GROQ_API_KEY_1 }}
+          DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }}
+        run: python src/automation/publish_network.py
       # ── 6. Commit & Push Changes ─────────────────────────────────────
       - name: Commit and push updated site
         run: |
