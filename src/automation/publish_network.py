@@ -118,7 +118,7 @@ def publish_to_devto(article_dict: dict, devto_key: str):
     try:
         response = requests.post(DEVTO_API_URL, headers=headers, json=payload, timeout=30)
         if response.status_code == 201:
-            logger.info("✅ Successfully published to Dev.to!")
+            logger.info("[PASS] Successfully published to Dev.to!")
             logger.info(f"URL: {response.json().get('url')}")
         else:
             logger.error(f"Failed to publish. Status: {response.status_code}. Response: {response.text}")

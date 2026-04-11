@@ -154,7 +154,7 @@ def run_sitemap_generation() -> dict:
     try:
         sitemap_xml = _build_sitemap_xml(urls)
         _atomic_write(DIST_DIR / "sitemap.xml", sitemap_xml)
-        logger.info(f"  ✅ sitemap.xml with {len(urls)} URLs")
+        logger.info(f"  [PASS] sitemap.xml with {len(urls)} URLs")
     except Exception as e:
         logger.error(f"Sitemap write failed: {e}")
         summary["errors"] += 1

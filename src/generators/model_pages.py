@@ -314,8 +314,8 @@ def _render_html(model: dict, sections: dict, template: str, model_map: dict) ->
         "{{PROVIDER_NAME}}": provider,
         "{{MODEL_ID}}": _sanitize(model.get("id", "")),
         "{{TIER}}": _sanitize(model.get("tier", "N/A")),
-        "{{OPEN_SOURCE}}": "Yes ✅" if model.get("open_source") else "No ❌",
-        "{{SELF_HOSTABLE}}": "Yes ✅" if model.get("self_hostable") else "No ❌",
+        "{{OPEN_SOURCE}}": "Yes [PASS]" if model.get("open_source") else "No [FAIL]",
+        "{{SELF_HOSTABLE}}": "Yes [PASS]" if model.get("self_hostable") else "No [FAIL]",
         "{{RELEASE_DATE}}": _sanitize(model.get("release_date", "N/A")),
         "{{KNOWLEDGE_CUTOFF}}": _sanitize(model.get("knowledge_cutoff", "N/A")),
         "{{CONTEXT_WINDOW}}": f"{model.get('context_window') or 0:,}" if model.get('context_window') else "Pending",
@@ -507,7 +507,7 @@ def run_page_generation(single_model: Optional[str] = None) -> dict:
             _save_build_state(build_state)
 
             summary["generated"] += 1
-            logger.info(f"  ✅ Done: dist/models/{slug}.html + .md")
+            logger.info(f"  [PASS] Done: dist/models/{slug}.html + .md")
 
         except Exception as e:
             logger.error(f"Failed to generate page for {mid}: {e}", exc_info=True)

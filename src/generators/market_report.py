@@ -324,7 +324,7 @@ def _render_html(sections: dict, ctx: str) -> str:
     <div class="report-meta">
       <span>📅 Published: <strong>{date_human}</strong></span>
       <span>🤖 AI-Generated via Groq</span>
-      <span>✅ Dual-source verified</span>
+      <span>[PASS] Dual-source verified</span>
       <span><a href="{SITE_URL}/daily-report/index.md" style="color:var(--accent-blue)">📄 Raw .md</a></span>
     </div>
   </div>
@@ -367,7 +367,7 @@ def _render_html(sections: dict, ctx: str) -> str:
     <h3>Route All Your API Calls Through OpenRouter</h3>
     <p>Automatically get the cheapest price for every model, every day. No lock-in.</p>
     <a href="{AFFILIATE_BASE}" class="cta-btn" id="cta-openrouter-report" target="_blank" rel="noopener">
-      ⚡ Start Saving on API Costs →
+      ⚡ Start Saving on API Costs ->
     </a>
   </div>
 
@@ -453,7 +453,7 @@ def run_report_generation() -> dict:
         _atomic_write(DIST_REPORT_DIR / "index.md", md_content)
 
         summary["report_generated"] = True
-        logger.info("  ✅ dist/daily-report/index.html + index.md")
+        logger.info("  [PASS] dist/daily-report/index.html + index.md")
     except Exception as e:
         logger.error(f"Report generation failed: {e}", exc_info=True)
         summary["errors"] += 1

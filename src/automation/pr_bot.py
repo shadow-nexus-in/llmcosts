@@ -245,7 +245,7 @@ def _fork_and_pr(owner: str, repo: str, readme_sha: str,
         )
         if pr_resp.status_code in (200, 201):
             pr_url = pr_resp.json().get("html_url", "")
-            logger.info(f"  ✅ PR submitted: {pr_url}")
+            logger.info(f"  [PASS] PR submitted: {pr_url}")
             return True
         logger.warning(f"PR creation failed: {pr_resp.status_code} — {pr_resp.text[:200]}")
         return False
@@ -312,7 +312,7 @@ def run_pr_infiltrator() -> dict:
 
             # Build changes summary for PR body
             changes_summary = "\n".join(
-                f"- Updated `{item['old']}` → current verified price for `{item['model_hint']}`"
+                f"- Updated `{item['old']}` -> current verified price for `{item['model_hint']}`"
                 for item in outdated
             )
 

@@ -94,7 +94,7 @@ def _write_build_report(results: dict) -> None:
     Path("build_report.json").write_text(
         json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8"
     )
-    logger.info("Build report saved → build_report.json")
+    logger.info("Build report saved -> build_report.json")
 
 
 # ──────────────────────────────────────────────────────────────
@@ -189,7 +189,7 @@ def main() -> int:
 </body>
 </html>"""
         Path("dist/404.html").write_text(html_404, encoding="utf-8")
-        logger.info("  ✅ dist/404.html fallback generated")
+        logger.info("  [PASS] dist/404.html fallback generated")
     except Exception as e:
         logger.error(f"Failed to write 404.html: {e}")
 

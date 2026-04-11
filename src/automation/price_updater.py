@@ -209,7 +209,7 @@ def run_price_update() -> dict:
                 })
                 summary["updated"] += 1
                 changed = True
-                logger.info(f"  UPDATED: {mid} → ${new_inp}/${new_out} per 1M")
+                logger.info(f"  UPDATED: {mid} -> ${new_inp}/${new_out} per 1M")
             else:
                 summary["unchanged"] += 1
         elif or_inp > 0:

@@ -1,5 +1,5 @@
 {
-  "build_date": "2026-04-09T17:15:57Z",
+  "build_date": "2026-04-11T12:08:23Z",
   "tasks": {
     "homepage": {
       "status": "ok",
@@ -9,22 +9,43 @@
     },
     "price_update": {
       "status": "ok",
-      "elapsed": 3.92,
+      "elapsed": 7.35,
       "updated": 0,
       "unchanged": 47,
       "unverified": 253,
       "new_detected": 2422,
       "errors": 0
     },
+    "auto_ingestor": {
+      "status": "ok",
+      "elapsed": 0.44,
+      "ingested": 0,
+      "skipped_spam": 0,
+      "errors": 0
+    },
+    "page_generation": {
+      "status": "ok",
+      "elapsed": 0.01,
+      "generated": 0,
+      "skipped": 0,
+      "failed": 1,
+      "keys_exhausted": false
+    },
+    "vs_generation": {
+      "status": "ok",
+      "elapsed": 0.01,
+      "generated": 0,
+      "skipped_limit": false
+    },
     "llms_txt": {
       "status": "ok",
-      "elapsed": 0.19,
-      "files_written": 57,
+      "elapsed": 0.17,
+      "files_written": 58,
       "errors": 0
     },
     "config_gen": {
       "status": "ok",
-      "elapsed": 0.03,
+      "elapsed": 0.02,
       "configs_written": 3,
       "errors": 0
     },
@@ -39,6 +60,13 @@
       "elapsed": 0.02,
       "urls_in_sitemap": 304,
       "google_pings_sent": 0,
+      "errors": 0
+    },
+    "pr_bot": {
+      "status": "ok",
+      "elapsed": 0.0,
+      "prs_submitted": 0,
+      "repos_scanned": 0,
       "errors": 0
     }
   }

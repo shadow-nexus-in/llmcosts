@@ -219,7 +219,7 @@ def run_config_generation() -> dict:
         content = _generate_litellm_config(cheapest)
         _atomic_write(DIST_CONFIGS_DIR / "litellm_cheapest.yaml", content)
         summary["configs_written"] += 1
-        logger.info("  ✅ litellm_cheapest.yaml")
+        logger.info("  [PASS] litellm_cheapest.yaml")
 
         # 2. Cursor Rules (requires Groq for AI tips)
         if groq and not groq.all_keys_exhausted():
@@ -227,13 +227,13 @@ def run_config_generation() -> dict:
             if content:
                 _atomic_write(DIST_CONFIGS_DIR / "cursor_rules_optimized.md", content)
                 summary["configs_written"] += 1
-                logger.info("  ✅ cursor_rules_optimized.md")
+                logger.info("  [PASS] cursor_rules_optimized.md")
 
         # 3. OpenRouter Fallback Chain
         content = _generate_openrouter_fallback(cheapest)
         _atomic_write(DIST_CONFIGS_DIR / "openrouter_fallback_chain.json", content)
         summary["configs_written"] += 1
-        logger.info("  ✅ openrouter_fallback_chain.json")
+        logger.info("  [PASS] openrouter_fallback_chain.json")
 
         # 4. Index page for /configs
         today = time.strftime("%Y-%m-%d")

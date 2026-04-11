@@ -288,7 +288,7 @@ def _build_homepage(models: list[dict]) -> str:
       <a href="/daily-report">Market Report</a>
       <a href="{AFFILIATE_BASE}" target="_blank" rel="noopener"
          style="background:var(--accent-blue);color:#fff;padding:0.4rem 0.9rem;border-radius:6px;font-weight:600;font-size:0.8rem;">
-        Get API Key →
+        Get API Key ->
       </a>
     </div>
   </div>
@@ -321,7 +321,7 @@ def _build_homepage(models: list[dict]) -> str:
 <div class="best-deal" id="best-deal-banner">
   <div class="best-deal-inner">
     <span>🏆 Today's Best Value: <strong>{cheapest_name}</strong> at <strong>{cheapest_price}/1M tokens</strong></span>
-    <a href="/models/{cheapest_slug}" class="best-deal-link">View Model →</a>
+    <a href="/models/{cheapest_slug}" class="best-deal-link">View Model -></a>
   </div>
 </div>
 
@@ -383,7 +383,7 @@ def _build_homepage(models: list[dict]) -> str:
   </p>
   <p style="margin-top:0.5rem">
     Prices from OpenRouter &amp; LiteLLM. Found an error?
-    <a href="https://github.com/shadow-nexus-in/llmcosts/issues">Submit an issue →</a>
+    <a href="https://github.com/shadow-nexus-in/llmcosts/issues">Submit an issue -></a>
   </p>
 </footer>
 
@@ -471,11 +471,11 @@ function render() {{
       <td>${{fmtCtx(m.context)}}</td>
       <td>${{fmtElo(m.elo)}}</td>
       <td>${{tierBadge(m.tier)}}</td>
-      <td class="oss-badge">${{m.open_source ? '✅' : ''}}</td>
+      <td class="oss-badge">${{m.open_source ? '[PASS]' : ''}}</td>
       <td>
         <a href="/models/${{m.slug}}" onclick="event.stopPropagation()"
            style="color:var(--accent-blue);font-size:0.75rem;text-decoration:none;">
-          Details →
+          Details ->
         </a>
       </td>
     </tr>
@@ -770,7 +770,7 @@ function renderCompare() {{
     ['LMSYS Arena ELO', selA.elo || 'N/A', selB.elo || 'N/A', 'elo', 'higher'],
     ['MMLU Score', selA.mmlu || 'N/A', selB.mmlu || 'N/A', 'mmlu', 'higher'],
     ['Tier', selA.tier || 'N/A', selB.tier || 'N/A', null, null],
-    ['Open Source', selA.open_source ? '✅ Yes' : '❌ No', selB.open_source ? '✅ Yes' : '❌ No', null, null],
+    ['Open Source', selA.open_source ? '[PASS] Yes' : '[FAIL] No', selB.open_source ? '[PASS] Yes' : '[FAIL] No', null, null],
   ];
 
   function cellClass(field, prefer, aVal, bVal) {{
@@ -802,8 +802,8 @@ function renderCompare() {{
         }}).join('')}}
         <tr>
           <td class="row-label">View Details</td>
-          <td class="center"><a href="/models/${{selA.slug}}" style="color:var(--accent-blue);font-size:0.875rem;">Details →</a></td>
-          <td class="center"><a href="/models/${{selB.slug}}" style="color:var(--accent-blue);font-size:0.875rem;">Details →</a></td>
+          <td class="center"><a href="/models/${{selA.slug}}" style="color:var(--accent-blue);font-size:0.875rem;">Details -></a></td>
+          <td class="center"><a href="/models/${{selB.slug}}" style="color:var(--accent-blue);font-size:0.875rem;">Details -></a></td>
         </tr>
       </tbody>
     </table>
@@ -873,12 +873,12 @@ def run_homepage_generation() -> dict:
         homepage = _build_homepage(models)
         _atomic_write(DIST_DIR / "index.html", homepage)
         summary["files_written"] += 1
-        logger.info("  ✅ dist/index.html")
+        logger.info("  [PASS] dist/index.html")
 
         compare = _build_compare_page(models)
         _atomic_write(DIST_DIR / "compare" / "index.html", compare)
         summary["files_written"] += 1
-        logger.info("  ✅ dist/compare/index.html")
+        logger.info("  [PASS] dist/compare/index.html")
     except Exception as e:
         logger.error(f"Homepage generation failed: {e}", exc_info=True)
         summary["errors"] += 1
