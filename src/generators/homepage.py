@@ -122,58 +122,60 @@ def _build_homepage(models: list[dict]) -> str:
     "keywords": ["LLM pricing", "GPT-4 cost", "Claude API price", "AI token cost", "language model comparison"],
     "dateModified": "{today}",
     "publisher": {{"@type": "Organization", "name": "LLMCosts.dev", "url": "{SITE_URL}"}}
-  }}</script>
-
-  <style>
+  }}</scrip    <style>
     *, *::before, *::after {{ box-sizing: border-box; margin: 0; padding: 0; }}
     :root {{
-      --bg-primary: #0a0a0f; --bg-secondary: #111118; --bg-card: #16161f;
-      --bg-card-hover: #1d1d2a; --border: #1e1e2e; --border-bright: #2d2d45;
-      --text-primary: #e8e8f0; --text-secondary: #8888aa; --text-muted: #555577;
-      --accent-blue: #5b8af5; --accent-purple: #9b59f5; --accent-green: #3effa0;
-      --accent-orange: #ff9f43; --accent-red: #ff4757;
+      --bg-primary: #050508; --bg-secondary: #0d0d14; --bg-card: rgba(20, 20, 30, 0.4);
+      --bg-card-hover: rgba(35, 35, 50, 0.6); --border: rgba(255, 255, 255, 0.08); 
+      --border-bright: rgba(255, 255, 255, 0.15);
+      --text-primary: #f8f8fc; --text-secondary: #9a9ab5; --text-muted: #656588;
+      --accent-blue: #6d9efa; --accent-purple: #b37afc; --accent-green: #4effb0;
+      --accent-orange: #ffb15c; --accent-red: #ff5e70;
       --font-mono: 'JetBrains Mono', monospace;
-      --radius: 12px; --radius-sm: 8px;
-      --shadow-card: 0 4px 24px rgba(0,0,0,0.4);
+      --radius: 16px; --radius-sm: 10px;
+      --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.6);
+      --shadow-neon: 0 0 20px rgba(109, 158, 250, 0.2);
     }}
     body {{ font-family: 'Inter', -apple-system, sans-serif; background: var(--bg-primary);
       color: var(--text-primary); line-height: 1.6; min-height: 100vh; }}
 
-    /* ── Nav ── */
-    nav {{ position: sticky; top: 0; z-index: 100; background: rgba(10,10,15,0.92);
-      backdrop-filter: blur(20px); border-bottom: 1px solid var(--border); padding: 0 1.5rem; }}
+    /* ── Nav (Glassmorphism) ── */
+    nav {{ position: sticky; top: 0; z-index: 100; background: rgba(5,5,8,0.7);
+      backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px); border-bottom: 1px solid var(--border); padding: 0 1.5rem; }}
     .nav-inner {{ max-width: 1400px; margin: 0 auto; display: flex; align-items: center;
       justify-content: space-between; height: 60px; }}
-    .nav-logo {{ font-size: 1.15rem; font-weight: 700;
-      background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+    .nav-logo {{ font-size: 1.25rem; font-weight: 800; letter-spacing: -0.02em;
+      background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple), var(--accent-green));
+      background-size: 200% auto; animation: gradientShift 4s linear infinite;
       -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-decoration: none; }}
+    @keyframes gradientShift {{ 0% {{background-position: 0% 50%;}} 50% {{background-position: 100% 50%;}} 100% {{background-position: 0% 50%;}} }}
     .nav-links {{ display: flex; gap: 1.5rem; align-items: center; }}
     .nav-links a {{ color: var(--text-secondary); text-decoration: none; font-size: 0.875rem;
-      transition: color 0.2s; }}
-    .nav-links a:hover {{ color: var(--text-primary); }}
-    .nav-badge {{ background: var(--accent-green); color: #000; font-size: 0.65rem;
-      font-weight: 700; padding: 0.15rem 0.4rem; border-radius: 3px; margin-left: 0.25rem; }}
+      transition: color 0.3s; font-weight: 500; }}
+    .nav-links a:hover {{ color: var(--text-primary); text-shadow: 0 0 10px rgba(255,255,255,0.3); }}
+    .nav-badge {{ background: rgba(78,255,176,0.15); border: 1px solid rgba(78,255,176,0.3); color: var(--accent-green); font-size: 0.65rem;
+      font-weight: 700; padding: 0.2rem 0.5rem; border-radius: 4px; margin-left: 0.4rem; box-shadow: 0 0 10px rgba(78,255,176,0.1); }}
 
-    /* ── Hero ── */
-    .hero {{ background: linear-gradient(135deg, #0d0d1a 0%, #111827 40%, #0f1f3d 100%);
-      padding: 5rem 1.5rem 4rem; text-align: center; border-bottom: 1px solid var(--border);
+    /* ── Hero (God-Tier Overhaul) ── */
+    .hero {{ background: radial-gradient(circle at 50% -20%, rgba(109,158,250,0.15), transparent 60%), radial-gradient(circle at 100% 10%, rgba(179,122,252,0.1), transparent 50%), transparent;
+      padding: 6rem 1.5rem 5rem; text-align: center; border-bottom: 1px solid var(--border);
       position: relative; overflow: hidden; }}
     .hero::before {{ content: ''; position: absolute; inset: 0;
-      background: radial-gradient(ellipse 80% 50% at 50% 0%, rgba(91,138,245,0.12) 0%, transparent 70%);
-      pointer-events: none; }}
-    .hero-badge {{ display: inline-flex; align-items: center; gap: 0.4rem;
-      background: rgba(62,255,160,0.1); border: 1px solid rgba(62,255,160,0.25);
-      border-radius: 999px; padding: 0.3rem 0.9rem; font-size: 0.75rem;
-      color: var(--accent-green); margin-bottom: 1.75rem; }}
-    .pulse {{ width: 6px; height: 6px; border-radius: 50%; background: var(--accent-green);
-      animation: pulse 2s infinite; }}
-    @keyframes pulse {{ 0%,100%{{opacity:1;transform:scale(1)}} 50%{{opacity:0.5;transform:scale(0.8)}} }}
-    h1 {{ font-size: clamp(2.25rem, 6vw, 3.75rem); font-weight: 800; line-height: 1.15;
-      letter-spacing: -0.02em; margin-bottom: 1.25rem; }}
-    h1 .gradient {{ background: linear-gradient(135deg, var(--accent-blue) 0%, var(--accent-purple) 50%, var(--accent-green) 100%);
-      -webkit-background-clip: text; -webkit-text-fill-color: transparent; }}
-    .hero-sub {{ font-size: clamp(1rem, 2vw, 1.2rem); color: var(--text-secondary);
-      max-width: 580px; margin: 0 auto 2.5rem; }}
+      background: url('data:image/svg+xml;utf8,<svg width="40" height="40" xmlns="http://www.w3.org/2000/svg"><circle cx="2" cy="2" r="1" fill="rgba(255,255,255,0.03)"/></svg>');
+      pointer-events: none; z-index: 0; }}
+    .hero-badge {{ display: inline-flex; align-items: center; gap: 0.5rem;
+      background: rgba(78,255,176,0.1); border: 1px solid rgba(78,255,176,0.3);
+      border-radius: 999px; padding: 0.4rem 1.1rem; font-size: 0.75rem; font-weight: 600;
+      color: var(--accent-green); margin-bottom: 2rem; position: relative; z-index: 1; box-shadow: 0 0 20px rgba(78,255,176,0.1); }}
+    .pulse {{ width: 8px; height: 8px; border-radius: 50%; background: var(--accent-green);
+      animation: pulseObj 2s infinite; box-shadow: 0 0 8px var(--accent-green); }}
+    @keyframes pulseObj {{ 0%{{transform:scale(0.95);box-shadow:0 0 0 0 rgba(78,255,176,0.7);}} 70%{{transform:scale(1);box-shadow:0 0 0 6px rgba(78,255,176,0);}} 100%{{transform:scale(0.95);box-shadow:0 0 0 0 rgba(78,255,176,0);}} }}
+    h1 {{ font-size: clamp(2.5rem, 6vw, 4.5rem); font-weight: 800; line-height: 1.1;
+      letter-spacing: -0.03em; margin-bottom: 1.5rem; position: relative; z-index: 1; }}
+    h1 .gradient {{ background: linear-gradient(135deg, #ffffff 0%, var(--accent-blue) 40%, var(--accent-purple) 80%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-shadow: 0 4px 30px rgba(109,158,250,0.2); }}
+    .hero-sub {{ font-size: clamp(1.1rem, 2vw, 1.3rem); color: var(--text-secondary);
+      max-width: 640px; margin: 0 auto 3rem; line-height: 1.7; position: relative; z-index: 1; text-shadow: 0 2px 4px rgba(0,0,0,0.5); }}gin: 0 auto 2.5rem; }}
 
     /* ── Search ── */
     .search-wrap {{ max-width: 640px; margin: 0 auto 1.5rem; position: relative; }}
@@ -213,29 +215,32 @@ def _build_homepage(models: list[dict]) -> str:
       font-size: 0.8rem; cursor: pointer; font-family: inherit; outline: none; }}
     .results-count {{ margin-left: auto; font-size: 0.8rem; color: var(--text-muted); }}
 
-    /* ── Table ── */
+    /* ── Table (Glassmorphism & Physics) ── */
     .table-wrap {{ max-width: 1400px; margin: 0 auto; padding: 0 1.5rem 4rem; }}
-    .data-table {{ width: 100%; border-collapse: collapse; font-size: 0.875rem; }}
+    .data-table {{ width: 100%; border-collapse: separate; border-spacing: 0; font-size: 0.875rem; }}
     .data-table thead {{ position: sticky; top: 60px; z-index: 10; }}
-    .data-table th {{ background: var(--bg-secondary); border-bottom: 1px solid var(--border-bright);
-      padding: 0.75rem 1rem; text-align: left; font-size: 0.7rem; font-weight: 600;
-      text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted);
-      cursor: pointer; white-space: nowrap; user-select: none; }}
+    .data-table th {{ background: rgba(5,5,8,0.9); backdrop-filter: blur(8px);
+      border-bottom: 2px solid var(--border-bright);
+      padding: 1rem; text-align: left; font-size: 0.75rem; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-secondary);
+      cursor: pointer; white-space: nowrap; user-select: none; transition: color 0.2s; }}
     .data-table th:hover {{ color: var(--text-primary); }}
     .data-table th .sort-arrow {{ margin-left: 0.25rem; opacity: 0.4; }}
     .data-table th.sorted .sort-arrow {{ opacity: 1; color: var(--accent-blue); }}
-    .data-table td {{ padding: 0.8rem 1rem; border-bottom: 1px solid var(--border);
-      vertical-align: middle; white-space: nowrap; }}
-    .data-table tbody tr {{ transition: background 0.1s; cursor: pointer; }}
-    .data-table tbody tr:hover td {{ background: var(--bg-card-hover); }}
-    .data-table a {{ color: inherit; text-decoration: none; }}
-    .data-table a:hover {{ color: var(--accent-blue); }}
-    .model-name {{ font-weight: 600; color: var(--text-primary); }}
-    .provider-tag {{ font-size: 0.7rem; color: var(--text-muted); }}
-    .price-val {{ font-family: var(--font-mono); font-weight: 500;
-      color: var(--accent-green); font-size: 0.85rem; }}
-    .price-na {{ color: var(--text-muted); font-size: 0.8rem; }}
-    .elo-val {{ font-family: var(--font-mono); color: var(--accent-blue); font-size: 0.85rem; }}
+    .data-table td {{ padding: 1rem; border-bottom: 1px solid var(--border);
+      vertical-align: middle; white-space: nowrap; transition: background 0.3s; }}
+    
+    .hover-row {{ transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); cursor: pointer; }}
+    .hover-row:hover {{ transform: scale(1.01) translateY(-2px); box-shadow: var(--shadow-card), var(--shadow-neon); background: var(--bg-card-hover); z-index: 2; position: relative; border-radius: var(--radius-sm); border: 1px solid var(--border-bright); }}
+    .hover-row td {{ transition: border-color 0.3s; }}
+    .hover-row:hover td {{ border-bottom-color: transparent; }}
+
+    .model-name {{ font-weight: 700; color: var(--text-primary); font-size: 0.95rem; letter-spacing: -0.01em; }}
+    .provider-tag {{ font-size: 0.75rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600; margin-top: 0.2rem; }}
+    .price-val {{ font-family: var(--font-mono); font-weight: 600;
+      color: var(--accent-green); font-size: 0.85rem; text-shadow: 0 0 10px rgba(78,255,176,0.2); }}
+    .price-na {{ color: var(--text-muted); font-size: 0.8rem; font-style: italic; }}
+    .elo-val {{ font-family: var(--font-mono); color: var(--accent-blue); font-size: 0.9rem; font-weight: 600; text-shadow: 0 0 10px rgba(109,158,250,0.2); }}
     .tier-badge {{ display: inline-block; padding: 0.2rem 0.5rem; border-radius: 4px;
       font-size: 0.65rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }}
     .tier-budget {{ background: rgba(62,255,160,0.15); color: var(--accent-green); }}
@@ -460,7 +465,7 @@ function render() {{
   empty.style.display = 'none';
 
   tbody.innerHTML = data.map((m, i) => `
-    <tr onclick="location.href='/models/${{m.slug}}'">
+    <tr class="hover-row glsp-card" onclick="location.href='./models/${{m.slug}}.html'">
       <td style="color:var(--text-muted);font-size:0.75rem">${{i+1}}</td>
       <td>
         <div class="model-name">${{m.name}}</div>
@@ -473,7 +478,7 @@ function render() {{
       <td>${{tierBadge(m.tier)}}</td>
       <td class="oss-badge">${{m.open_source ? '[PASS]' : ''}}</td>
       <td>
-        <a href="/models/${{m.slug}}" onclick="event.stopPropagation()"
+        <a href="./models/${{m.slug}}.html" onclick="event.stopPropagation()"
            style="color:var(--accent-blue);font-size:0.75rem;text-decoration:none;">
           Details ->
         </a>
@@ -802,8 +807,8 @@ function renderCompare() {{
         }}).join('')}}
         <tr>
           <td class="row-label">View Details</td>
-          <td class="center"><a href="/models/${{selA.slug}}" style="color:var(--accent-blue);font-size:0.875rem;">Details -></a></td>
-          <td class="center"><a href="/models/${{selB.slug}}" style="color:var(--accent-blue);font-size:0.875rem;">Details -></a></td>
+          <td class="center"><a href="./models/${{selA.slug}}.html" style="color:var(--accent-blue);font-size:0.875rem;">Details -></a></td>
+          <td class="center"><a href="./models/${{selB.slug}}.html" style="color:var(--accent-blue);font-size:0.875rem;">Details -></a></td>
         </tr>
       </tbody>
     </table>
