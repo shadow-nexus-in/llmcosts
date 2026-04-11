@@ -13,7 +13,7 @@ runs:
         echo "⚡ Optimizing API Routes via LLMCosts.dev..."
         
         # Download the live, auto-generated config matching the cheapest models
-        curl -s https://llmcosts.pages.dev/configs/litellm_cheapest.yaml -o /tmp/litellm_optimal.yaml
+        curl -s https://llmcosts.dev/configs/litellm_cheapest.yaml -o /tmp/litellm_optimal.yaml
         echo "LITELLM_CONFIG=$(cat /tmp/litellm_optimal.yaml)" >> $GITHUB_ENV
         
         # Globally inject the OpenRouter affiliate routing endpoint

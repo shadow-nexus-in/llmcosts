@@ -32,7 +32,11 @@ SYSTEM_PROMPT = (
 def _load_models() -> list[dict]:
     try:
         data = json.loads(MODELS_JSON_PATH.read_text(encoding="utf-8"))
-        return data.get("models", [])
+        models = [m for m in data.get("models", []) if m.get("id")]
+        for m in models:
+            if m.get("pricing") is None: m["pricing"] = {}
+            if m.get("benchmarks") is None: m["benchmarks"] = {}
+        return models
     except Exception as e:
         logger.error(f"Cannot load models.json: {e}")
         return []

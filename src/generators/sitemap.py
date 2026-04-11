@@ -9,6 +9,7 @@ import json
 import logging
 import os
 import time
+import xml.sax.saxutils as saxutils
 from pathlib import Path
 from typing import Optional
 
@@ -22,7 +23,7 @@ SITE_URL = os.getenv("SITE_URL", "https://llmcosts.dev")
 GOOGLE_INDEXING_API_URL = "https://indexing.googleapis.com/v3/urlNotifications:publish"
 GOOGLE_API_KEY = os.getenv("GOOGLE_INDEXING_API_KEY", "")
 MAX_GOOGLE_PINGS_PER_DAY = 200
-INDEXING_STATE_PATH = Path("indexing_state.json")
+INDEXING_STATE_PATH = Path("data/indexing_state.json")
 
 
 def _load_models() -> list[dict]:
@@ -96,12 +97,27 @@ def _generate_all_urls(models: list[dict]) -> list[dict]:
     ]
 
     for m in models:
-        slug = m.get("slug", m["id"].replace("/", "-"))
+        mid = m.get("id")
+        if not mid:
+            continue  # skip malformed entries
+        slug = m.get("slug") or mid.replace("/", "-")
         urls.append({
             "loc": f"{SITE_URL}/models/{slug}",
             "priority": "0.8",
             "changefreq": "daily",
         })
+
+    # Add VS Pages from Checkpoint
+    try:
+        vs_state = json.loads(Path("data/vs_checkpoint.json").read_text(encoding="utf-8"))
+        for vs_slug in vs_state.get("completed", []):
+            urls.append({
+                "loc": f"{SITE_URL}/compare/{vs_slug}",
+                "priority": "0.8",
+                "changefreq": "weekly",
+            })
+    except Exception:
+        pass
 
     return urls
 
@@ -110,8 +126,10 @@ def _build_sitemap_xml(urls: list[dict]) -> str:
     today = time.strftime("%Y-%m-%d")
     entries = ""
     for u in urls:
+        # XML-escape the URL to prevent malformed XML on special chars
+        safe_loc = saxutils.escape(u["loc"])
         entries += f"""  <url>
-    <loc>{u['loc']}</loc>
+    <loc>{safe_loc}</loc>
     <lastmod>{today}</lastmod>
     <changefreq>{u['changefreq']}</changefreq>
     <priority>{u['priority']}</priority>

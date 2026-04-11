@@ -22,7 +22,11 @@ AFFILIATE_BASE = "https://openrouter.ai/?ref=llmcosts"
 def _load_models() -> list[dict]:
     try:
         data = json.loads(MODELS_JSON_PATH.read_text(encoding="utf-8"))
-        return data.get("models", [])
+        models = [m for m in data.get("models", []) if m.get("id")]
+        for m in models:
+            if m.get("pricing") is None: m["pricing"] = {}
+            if m.get("benchmarks") is None: m["benchmarks"] = {}
+        return models
     except Exception as e:
         logger.error(f"Cannot load models.json: {e}")
         return []
@@ -30,15 +34,20 @@ def _load_models() -> list[dict]:
 
 def _format_model_entry(model: dict) -> str:
     """Format a single model as a Markdown table row string."""
-    p = model.get("pricing", {})
-    b = model.get("benchmarks", {})
+    p = model.get("pricing") or {}
+    b = model.get("benchmarks") or {}
+    ctx = model.get("context_window")
+    try:
+        ctx_str = f"{int(ctx):,}" if ctx is not None else "N/A"
+    except (ValueError, TypeError):
+        ctx_str = "N/A"
     return (
         f"| [{model.get('name', 'N/A')}]({SITE_URL}/models/{model.get('slug', '')}) "
         f"| {model.get('provider_name', 'N/A')} "
         f"| ${p.get('input_per_1m', 'N/A')} "
         f"| ${p.get('output_per_1m', 'N/A')} "
         f"| ${p.get('cached_input_per_1m', 'N/A')} "
-        f"| {model.get('context_window', 'N/A'):,} "
+        f"| {ctx_str} "
         f"| {b.get('arena_elo', 'N/A')} "
         f"| {model.get('tier', 'N/A')} "
         f"| {'Open' if model.get('open_source') else 'Closed'} |\n"
@@ -158,8 +167,9 @@ def run_llms_txt_generation() -> dict:
 
         # 5. Ultra-cheap models (input < $0.20/1M)
         cheap_models = sorted(
-            [m for m in models if (m.get("pricing", {}).get("input_per_1m") or 999) < 0.20],
-            key=lambda x: x.get("pricing", {}).get("input_per_1m", 999),
+            [m for m in models if (m.get("pricing") or {}).get("input_per_1m") is not None
+             and (m.get("pricing") or {}).get("input_per_1m", 999) < 0.20],
+            key=lambda x: (x.get("pricing") or {}).get("input_per_1m", 999),
         )
         if cheap_models:
             paths = _write_sharded(

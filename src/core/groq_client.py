@@ -106,6 +106,7 @@ class GroqEngine:
         user_prompt: str,
         max_tokens: int = TOKENS_PER_REQUEST_SOFT_CAP,
         temperature: float = 0.4,
+        response_format: Optional[dict] = None,
     ) -> Optional[str]:
         """
         Send a generation request. Returns text or None on total failure.
@@ -119,7 +120,10 @@ class GroqEngine:
                 return None
 
             try:
-                response = self._call_api(key_state, system_prompt, user_prompt, max_tokens, temperature)
+                response = self._call_api(
+                    key_state, system_prompt, user_prompt,
+                    max_tokens, temperature, response_format
+                )
                 self._save_checkpoint()
                 return response
             except _RateLimitError as e:
@@ -176,6 +180,7 @@ class GroqEngine:
         user_prompt: str,
         max_tokens: int,
         temperature: float,
+        response_format: Optional[dict] = None,
     ) -> str:
         headers = {
             "Authorization": f"Bearer {key_state.key}",
@@ -191,6 +196,8 @@ class GroqEngine:
             "temperature": temperature,
             "stream": False,
         }
+        if response_format:
+            payload["response_format"] = response_format
         resp = requests.post(GROQ_API_URL, headers=headers, json=payload, timeout=60)
 
         if resp.status_code == 429:
@@ -206,7 +213,10 @@ class GroqEngine:
         resp.raise_for_status()
 
         data = resp.json()
-        content = data["choices"][0]["message"]["content"]
+        choices = data.get("choices")
+        if not choices or not isinstance(choices, list):
+            raise ValueError(f"Malformed API response: no choices found. {str(data)[:200]}")
+        content = choices[0].get("message", {}).get("content", "")
         tokens_used = data.get("usage", {}).get("total_tokens", max_tokens)
         key_state.record_usage(tokens_used)
         logger.debug(f"Key {key_state.index + 1}: {tokens_used} tokens used. "

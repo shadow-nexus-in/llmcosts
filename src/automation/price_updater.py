@@ -156,7 +156,7 @@ def run_price_update() -> dict:
         return summary
 
     models = registry.get("models", [])
-    existing_ids = {m["id"] for m in models}
+    existing_ids = {m["id"] for m in models if m.get("id")}
 
     # 2. Fetch from both sources
     or_prices = _fetch_openrouter_prices()
@@ -169,7 +169,9 @@ def run_price_update() -> dict:
     # 4. Update existing model prices
     changed = False
     for model in models:
-        mid = model["id"]
+        mid = model.get("id")
+        if not mid:
+            continue
         or_data = or_prices.get(mid) or {}
         ll_data = ll_prices.get(mid) or {}
 

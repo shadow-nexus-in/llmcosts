@@ -2,9 +2,10 @@
 # Serves dist/ as root. These rules enable clean URLs without .html extensions.
 
 # ── Clean URL rewrites ──
-/models/*    /models/:splat.html    200
-/compare     /compare/index.html    200
-/configs     /configs/index.html    200
+/models/*      /models/:splat.html       200
+/compare/*     /compare/:splat.html      200
+/compare       /compare/index.html       200
+/configs       /configs/index.html       200
 /daily-report  /daily-report/index.html  200
 
 # ── LLMs.txt shards ──

@@ -37,19 +37,6 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # ── 4. Inject Secrets as Environment Variables ───────────────────
-      - name: Configure environment
-        env:
-          GROQ_API_KEY_1: ${{ secrets.GROQ_API_KEY_1 }}
-          GROQ_API_KEY_2: ${{ secrets.GROQ_API_KEY_2 }}
-          GROQ_API_KEY_3: ${{ secrets.GROQ_API_KEY_3 }}
-          GROQ_API_KEY_4: ${{ secrets.GROQ_API_KEY_4 }}
-          GITHUB_PAT: ${{ secrets.BOT_GITHUB_PAT }}
-          GITHUB_BOT_USERNAME: ${{ secrets.GITHUB_BOT_USERNAME }}
-          GOOGLE_INDEXING_API_KEY: ${{ secrets.GOOGLE_INDEXING_API_KEY }}
-          SITE_URL: ${{ secrets.SITE_URL || 'https://llmcosts.dev' }}
-        run: echo "Environment configured"
-
       # ── 5. Run the Full Build Pipeline ───────────────────────────────
       - name: Run build pipeline
         env:
@@ -60,7 +47,7 @@ jobs:
           GITHUB_PAT: ${{ secrets.BOT_GITHUB_PAT }}
           GITHUB_BOT_USERNAME: ${{ secrets.GITHUB_BOT_USERNAME }}
           GOOGLE_INDEXING_API_KEY: ${{ secrets.GOOGLE_INDEXING_API_KEY }}
-          SITE_URL: "https://llmcosts.dev"
+          SITE_URL: ${{ secrets.SITE_URL || 'https://llmcosts.dev' }}
         run: python build.py
 
       # ── 6. Commit & Push Changes ─────────────────────────────────────
@@ -68,8 +55,9 @@ jobs:
         run: |
           git config user.name "LLMCosts Bot"
           git config user.email "bot@llmcosts.dev"
-          git add dist/ data/ logs/build_report.json || true
+          git add dist/ data/ logs/ build_report.json || true
           git add dist/_redirects dist/_headers dist/index.html dist/compare/ dist/daily-report/ || true
+          git add data/models.json data/vs_checkpoint.json data/checkpoint.json || true
           git diff --cached --quiet || git commit -m "chore: daily build $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push origin main
         continue-on-error: true     # Don't fail the workflow if nothing changed

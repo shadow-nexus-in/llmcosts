@@ -10,6 +10,9 @@
 /models/*.html
   Cache-Control: public, max-age=86400, stale-while-revalidate=3600
 
+/compare/*.html
+  Cache-Control: public, max-age=86400, stale-while-revalidate=3600
+
 /compare/index.html
   Cache-Control: public, max-age=86400, stale-while-revalidate=3600
 

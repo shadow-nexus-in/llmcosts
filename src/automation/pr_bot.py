@@ -59,9 +59,13 @@ def _load_models() -> dict[str, dict]:
         data = json.loads(MODELS_JSON_PATH.read_text(encoding="utf-8"))
         result = {}
         for m in data.get("models", []):
+            if not m.get("id"):
+                continue  # skip malformed models
             result[m["id"]] = m
-            result[m.get("name", "").lower()] = m
-            result[m.get("slug", "")] = m
+            if m.get("name"):
+                result[m["name"].lower()] = m
+            if m.get("slug"):
+                result[m["slug"]] = m
         return result
     except Exception as e:
         logger.error(f"Cannot load models.json: {e}")
@@ -234,7 +238,8 @@ def _fork_and_pr(owner: str, repo: str, readme_sha: str,
                 "title": "chore: update outdated LLM pricing data",
                 "body": pr_body,
                 "head": f"{bot_owner}:{branch_name}",
-                "base": "main",
+                # Detect actual default branch instead of hardcoding 'main'
+                "base": main_ref.json().get("ref", "refs/heads/main").replace("refs/heads/", ""),
             },
             timeout=30,
         )
@@ -331,7 +336,7 @@ def run_pr_infiltrator() -> dict:
                 summary["prs_submitted"] += 1
                 time.sleep(2)  # Gentle pacing
 
-    state["submitted_repos"] = list(submitted_repos)
+    state["submitted_repos"] = list(submitted_repos)[-500:]  # cap list to last 500 to prevent file bloat
     _save_pr_state(state)
     logger.info(f"PR Infiltrator complete: {summary}")
     return summary

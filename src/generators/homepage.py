@@ -22,7 +22,11 @@ AFFILIATE_BASE = "https://openrouter.ai/?ref=llmcosts"
 def _load_models() -> list[dict]:
     try:
         data = json.loads(MODELS_JSON_PATH.read_text(encoding="utf-8"))
-        return data.get("models", [])
+        models = [m for m in data.get("models", []) if m.get("id")]
+        for m in models:
+            if m.get("pricing") is None: m["pricing"] = {}
+            if m.get("benchmarks") is None: m["benchmarks"] = {}
+        return models
     except Exception as e:
         logger.error(f"Cannot load models.json: {e}")
         return []
@@ -52,8 +56,8 @@ def _build_models_json_embed(models: list[dict]) -> str:
     """Serialise a compact version of models for the JS search engine."""
     compact = []
     for m in models:
-        p = m.get("pricing", {})
-        b = m.get("benchmarks", {})
+        p = m.get("pricing") or {}
+        b = m.get("benchmarks") or {}
         compact.append({
             "id": m.get("id", ""),
             "name": m.get("name", ""),
@@ -61,13 +65,13 @@ def _build_models_json_embed(models: list[dict]) -> str:
             "provider": m.get("provider_name", ""),
             "tier": m.get("tier", ""),
             "open_source": m.get("open_source", False),
-            "context": m.get("context_window", 0),
+            "context": m.get("context_window") or 0,
             "inp": p.get("input_per_1m"),
             "out": p.get("output_per_1m"),
             "cached": p.get("cached_input_per_1m"),
             "elo": b.get("arena_elo"),
             "mmlu": b.get("mmlu"),
-            "capabilities": m.get("capabilities", []),
+            "capabilities": m.get("capabilities") or [],
         })
     return json.dumps(compact, ensure_ascii=False, separators=(",", ":"))
 
@@ -77,13 +81,16 @@ def _build_homepage(models: list[dict]) -> str:
     total = len(models)
 
     # Stats
-    priced = [m for m in models if m.get("pricing", {}).get("input_per_1m") is not None]
-    cheapest = min(priced, key=lambda m: m["pricing"]["input_per_1m"]) if priced else None
-    providers = len({m.get("provider_name") for m in models})
+    priced = [m for m in models if (m.get("pricing") or {}).get("input_per_1m") is not None]
+    try:
+        cheapest = min(priced, key=lambda m: float(m["pricing"]["input_per_1m"])) if priced else None
+    except (ValueError, TypeError):
+        cheapest = priced[0] if priced else None
+    providers = len({m.get("provider_name") for m in models if m.get("provider_name")})
     oss_count = sum(1 for m in models if m.get("open_source"))
 
     cheapest_name = cheapest.get("name", "N/A") if cheapest else "N/A"
-    cheapest_price = _safe_price(cheapest.get("pricing", {}).get("input_per_1m")) if cheapest else "N/A"
+    cheapest_price = _safe_price((cheapest.get("pricing") or {}).get("input_per_1m")) if cheapest else "N/A"
     cheapest_slug = cheapest.get("slug", "") if cheapest else ""
 
     models_json = _build_models_json_embed(models)

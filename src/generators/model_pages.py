@@ -48,7 +48,11 @@ def _sanitize(value) -> str:
 def _load_models() -> list[dict]:
     try:
         data = json.loads(MODELS_JSON_PATH.read_text(encoding="utf-8"))
-        return data.get("models", [])
+        models = [m for m in data.get("models", []) if m.get("id")]
+        for m in models:
+            if m.get("pricing") is None: m["pricing"] = {}
+            if m.get("benchmarks") is None: m["benchmarks"] = {}
+        return models
     except Exception as e:
         logger.error(f"Cannot load models.json: {e}")
         return []
@@ -73,14 +77,18 @@ def _save_build_state(state: dict) -> None:
 
 
 def _page_needs_rebuild(model: dict, state: dict) -> bool:
-    mid = model["id"]
-    slug = model.get("slug", mid.replace("/", "-"))
+    mid = model.get("id") or ""
+    slug = model.get("slug") or mid.replace("/", "-")
     html_path = DIST_MODELS_DIR / f"{slug}.html"
+    # Always build if page doesn't exist yet
     if not html_path.exists():
         return True
     # Rebuild if pricing changed since last build
     last_price = state.get("prices", {}).get(mid)
-    current_price = model.get("pricing", {}).get("input_per_1m", 0)
+    current_price = (model.get("pricing") or {}).get("input_per_1m")
+    # If both are None (unpried model), treat as unchanged to avoid rebuilding every run
+    if last_price is None and current_price is None:
+        return False
     return last_price != current_price
 
 
@@ -95,17 +103,17 @@ def _format_price(value) -> str:
 
 def _build_model_context(model: dict, all_models: list[dict]) -> str:
     """Build a rich, structured data context string to feed Groq."""
-    p = model.get("pricing", {})
-    b = model.get("benchmarks", {})
-    comps = model.get("competing_models", [])
+    p = model.get("pricing") or {}
+    b = model.get("benchmarks") or {}
+    comps = model.get("competing_models") or []
 
     # Build competitor pricing table
     comp_rows = []
-    model_map = {m["id"]: m for m in all_models}
+    model_map = {m["id"]: m for m in all_models if m.get("id")}
     for cid in comps[:5]:
         cm = model_map.get(cid)
         if cm:
-            cp = cm.get("pricing", {})
+            cp = cm.get("pricing") or {}
             comp_rows.append(
                 f"- {cm.get('name', cid)}: "
                 f"${cp.get('input_per_1m', 'N/A')}/1M input, "
@@ -126,8 +134,8 @@ PRICING:
 - Batch Input: ${p.get('batch_input_per_1m', 'N/A')} per 1M tokens
 
 CONTEXT & LIMITS:
-- Context Window: {model.get('context_window', 'N/A'):,} tokens
-- Max Output: {model.get('max_output_tokens', 'N/A'):,} tokens
+- Context Window: {f"{model.get('context_window'):,}" if model.get('context_window') else 'Pending'} tokens
+- Max Output: {f"{model.get('max_output_tokens'):,}" if model.get('max_output_tokens') else 'Pending'} tokens
 - Knowledge Cutoff: {model.get('knowledge_cutoff', 'N/A')}
 
 BENCHMARKS:
@@ -136,14 +144,14 @@ BENCHMARKS:
 - LMSYS Arena ELO: {b.get('arena_elo', 'N/A')}
 - GSM8K: {b.get('gsm8k', 'N/A')}
 
-CAPABILITIES: {', '.join(model.get('capabilities', []))}
-BEST FOR: {', '.join(model.get('use_cases', []))}
-NOT GOOD FOR: {', '.join(model.get('not_good_for', []))}
+CAPABILITIES: {', '.join(str(c) for c in (model.get('capabilities') or []) if c)}
+BEST FOR: {', '.join(str(u) for u in (model.get('use_cases') or []) if u)}
+NOT GOOD FOR: {', '.join(str(n) for n in (model.get('not_good_for') or []) if n)}
 
 COST EXAMPLES:
-- 1,000 calls (avg 500 tokens): ${model.get('cost_examples', {}).get('1k_calls_avg_500_tokens', 'N/A')}
-- 10,000 calls: ${model.get('cost_examples', {}).get('10k_calls_avg_500_tokens', 'N/A')}
-- 100,000 calls: ${model.get('cost_examples', {}).get('100k_calls_avg_500_tokens', 'N/A')}
+- 1,000 calls (avg 500 tokens): ${(model.get('cost_examples') or {}).get('1k_calls_avg_500_tokens', 'N/A')}
+- 10,000 calls: ${(model.get('cost_examples') or {}).get('10k_calls_avg_500_tokens', 'N/A')}
+- 100,000 calls: ${(model.get('cost_examples') or {}).get('100k_calls_avg_500_tokens', 'N/A')}
 
 TOP COMPETITORS:
 {comp_table}
@@ -241,13 +249,13 @@ def _parse_faqs(raw: str) -> list[dict]:
     return faqs[:25]
 
 
-def _render_html(model: dict, sections: dict, template: str) -> str:
+def _render_html(model: dict, sections: dict, template: str, model_map: dict) -> str:
     """Renders the model HTML page using the template."""
-    p = model.get("pricing", {})
-    b = model.get("benchmarks", {})
+    p = model.get("pricing") or {}
+    b = model.get("benchmarks") or {}
     name = _sanitize(model.get("name", "Unknown"))
     provider = _sanitize(model.get("provider_name", "Unknown"))
-    slug = model.get("slug", model["id"].replace("/", "-"))
+    slug = model.get("slug") or model["id"].replace("/", "-")
 
     faqs = _parse_faqs(sections.get("faqs_raw", ""))
 
@@ -283,21 +291,20 @@ def _render_html(model: dict, sections: dict, template: str) -> str:
         "mainEntity": faq_schema_items,
     }
 
-    # Competitor table rows
+    # Competitor table rows — use pre-loaded model_map, NOT disk re-read
     comp_rows_html = ""
-    model_data = json.loads(MODELS_JSON_PATH.read_text(encoding="utf-8"))
-    model_map = {m["id"]: m for m in model_data.get("models", [])}
-    for cid in model.get("competing_models", [])[:5]:
-        cm = model_map.get(cid, {})
+    for cid in model.get("competing_models") or []:
+        if len(comp_rows_html) > 4: break  # limit to 5
+        cm = model_map.get(cid) or {}
         if cm:
-            cp = cm.get("pricing", {})
-            cslug = cm.get("slug", cid.replace("/", "-"))
+            cp = cm.get("pricing") or {}
+            cslug = cm.get("slug") or cid.replace("/", "-")
             comp_rows_html += f"""
             <tr>
                 <td><a href="/models/{_sanitize(cslug)}">{_sanitize(cm.get('name', cid))}</a></td>
                 <td>{_format_price(cp.get('input_per_1m'))}</td>
                 <td>{_format_price(cp.get('output_per_1m'))}</td>
-                <td>{cm.get('benchmarks', {}).get('arena_elo', 'N/A')}</td>
+                <td>{(cm.get('benchmarks') or {}).get('arena_elo', 'N/A')}</td>
                 <td>{_sanitize(cm.get('tier', 'N/A'))}</td>
             </tr>"""
 
@@ -311,8 +318,8 @@ def _render_html(model: dict, sections: dict, template: str) -> str:
         "{{SELF_HOSTABLE}}": "Yes ✅" if model.get("self_hostable") else "No ❌",
         "{{RELEASE_DATE}}": _sanitize(model.get("release_date", "N/A")),
         "{{KNOWLEDGE_CUTOFF}}": _sanitize(model.get("knowledge_cutoff", "N/A")),
-        "{{CONTEXT_WINDOW}}": f"{model.get('context_window', 0):,}",
-        "{{MAX_OUTPUT}}": f"{model.get('max_output_tokens', 0):,}",
+        "{{CONTEXT_WINDOW}}": f"{model.get('context_window') or 0:,}" if model.get('context_window') else "Pending",
+        "{{MAX_OUTPUT}}": f"{model.get('max_output_tokens') or 0:,}" if model.get('max_output_tokens') else "Pending",
         "{{INPUT_PRICE}}": _format_price(p.get("input_per_1m")),
         "{{OUTPUT_PRICE}}": _format_price(p.get("output_per_1m")),
         "{{CACHED_PRICE}}": _format_price(p.get("cached_input_per_1m")),
@@ -330,13 +337,16 @@ def _render_html(model: dict, sections: dict, template: str) -> str:
         "{{SCHEMA_DATASET}}": json.dumps(schema_dataset, ensure_ascii=False),
         "{{SCHEMA_FAQ}}": json.dumps(schema_faq, ensure_ascii=False),
         "{{COMPETITOR_ROWS}}": comp_rows_html,
-        "{{CAPABILITIES}}": ", ".join(model.get("capabilities", [])),
+        "{{CAPABILITIES}}": " ".join(
+            f'<span class="cap-tag">{html.escape(str(c))}</span>'
+            for c in (model.get("capabilities") or []) if c
+        ),
         "{{AFFILIATE_LINK}}": AFFILIATE_BASE,
         "{{SITE_URL}}": SITE_URL,
         "{{LAST_VERIFIED}}": _sanitize(model.get("last_verified", "N/A")),
-        "{{COST_1K}}": str(model.get("cost_examples", {}).get("1k_calls_avg_500_tokens", "N/A")),
-        "{{COST_10K}}": str(model.get("cost_examples", {}).get("10k_calls_avg_500_tokens", "N/A")),
-        "{{COST_100K}}": str(model.get("cost_examples", {}).get("100k_calls_avg_500_tokens", "N/A")),
+        "{{COST_1K}}": str((model.get("cost_examples") or {}).get("1k_calls_avg_500_tokens", "N/A")),
+        "{{COST_10K}}": str((model.get("cost_examples") or {}).get("10k_calls_avg_500_tokens", "N/A")),
+        "{{COST_100K}}": str((model.get("cost_examples") or {}).get("100k_calls_avg_500_tokens", "N/A")),
         "{{PRICE_TREND}}": _sanitize(model.get("price_trend", "N/A")),
         "{{DATA_CONFIDENCE}}": _sanitize(model.get("data_confidence", "N/A")),
     }
@@ -451,6 +461,9 @@ def run_page_generation(single_model: Optional[str] = None) -> dict:
 
     build_state = _load_build_state()
 
+    # Build model_map ONCE here — not per model inside _render_html
+    model_map = {m["id"]: m for m in models}
+
     try:
         groq = GroqEngine()
     except EnvironmentError as e:
@@ -482,7 +495,7 @@ def run_page_generation(single_model: Optional[str] = None) -> dict:
                 continue
 
             # Write HTML
-            html_content = _render_html(model, sections, template)
+            html_content = _render_html(model, sections, template, model_map)
             _atomic_write(DIST_MODELS_DIR / f"{slug}.html", html_content)
 
             # Write Markdown phantom route
@@ -490,7 +503,7 @@ def run_page_generation(single_model: Optional[str] = None) -> dict:
             _atomic_write(DIST_MODELS_DIR / f"{slug}.md", md_content)
 
             # Save price to build state for incremental detection
-            build_state.setdefault("prices", {})[mid] = model.get("pricing", {}).get("input_per_1m")
+            build_state.setdefault("prices", {})[mid] = (model.get("pricing") or {}).get("input_per_1m")
             _save_build_state(build_state)
 
             summary["generated"] += 1

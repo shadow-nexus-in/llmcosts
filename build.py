@@ -127,10 +127,11 @@ def main() -> int:
     if not args.skip_prices:
         from src.automation.price_updater import run_price_update
         results["price_update"] = _run_task("Price Updater", run_price_update)
+
+        from src.automation.auto_ingestor import run_ingestion
+        results["auto_ingestor"] = _run_task("Auto Ingestor", run_ingestion)
     else:
         logger.info("Skipping price update (--skip-prices)")
-
-
     # ── 2. Page Generation ───────────────────────────────────
     if not args.skip_pages:
         from src.generators.model_pages import run_page_generation
@@ -139,6 +140,13 @@ def main() -> int:
             run_page_generation,
             single_model=args.model,
         )
+
+        total_files = len(list(Path("dist").glob("**/*.html")))
+        if total_files > 19000:
+            logger.warning(f"Cloudflare threshold hit ({total_files} files). Skipping Versus Engine.")
+        else:
+            from src.generators.vs_generator import run_vs_generation
+            results["vs_generation"] = _run_task("Versus Engine", run_vs_generation)
     else:
         logger.info("Skipping page generation (--skip-pages)")
 
