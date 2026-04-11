@@ -74,15 +74,7 @@ jobs:
           git push origin main
         continue-on-error: true     # Don't fail the workflow if nothing changed
 
-      # ── 7. Deploy to Cloudflare Pages ────────────────────────────────
-      - name: Deploy to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: llmcosts
-          directory: dist
-          branch: main
+
 
       # ── 8. Upload Build Log as Artifact ──────────────────────────────
       - name: Upload build logs
