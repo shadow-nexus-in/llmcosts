@@ -264,3 +264,17 @@ class _RateLimitError(Exception):
 
 class _ServerError(Exception):
     pass
+
+
+_engine: Optional[GroqEngine] = None
+
+def get_groq_client() -> Optional[GroqEngine]:
+    """Singleton factory for GroqEngine."""
+    global _engine
+    if _engine is None:
+        try:
+            _engine = GroqEngine()
+        except EnvironmentError as e:
+            logger.error(str(e))
+            return None
+    return _engine

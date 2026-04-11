@@ -12,7 +12,7 @@ import requests
 from typing import Optional
 
 # Setup Pathing (running from repo root)
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__name__), "..", "..")))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
 from src.core.groq_client import get_groq_client
 
@@ -29,9 +29,10 @@ def load_models() -> list[dict]:
     try:
         with open(MODELS_JSON, "r", encoding="utf-8") as f:
             data = json.load(f)
-            # Filter for models that have proper IDs and pricing
+            # data is a dict with a 'models' key — NOT a list itself
+            raw = data.get('models', []) if isinstance(data, dict) else data
             valid_models = []
-            for m in data:
+            for m in raw:
                 if m.get('id') and m.get('pricing'):
                     valid_models.append(m)
             return valid_models
@@ -70,8 +71,8 @@ def generate_devto_article(model_a: dict, model_b: dict) -> Optional[dict]:
     # The client.generate returns a string (the text content of the response) for standard usage in LLMCosts.
     try:
         content = client.generate(
-            prompt=prompt,
-            model="llama-3.3-70b-versatile"
+            system_prompt="You are a Staff Software Engineer and CTO at a major tech firm.",
+            user_prompt=prompt
         )
         if not content:
             return None
@@ -96,13 +97,19 @@ def publish_to_devto(article_dict: dict, devto_key: str):
         "Content-Type": "application/json"
     }
     
+    # Build a URL-safe slug: lowercase, spaces to dashes, strip special chars
+    import re
+    raw_slug = article_dict['title'].lower()
+    raw_slug = re.sub(r'[^a-z0-9\s-]', '', raw_slug)  # strip colons, dots, etc.
+    clean_slug = re.sub(r'\s+', '-', raw_slug).strip('-')
+    site_url = os.getenv('SITE_URL', 'https://llmcosts.dev')
     payload = {
         "article": {
             "title": article_dict["title"],
             "body_markdown": article_dict["body"],
             "published": True,
             "tags": ["ai", "llm", "machinelearning", "programming"],
-            "canonical_url": f"https://llmcosts.dev/compare/{article_dict['title'].lower().replace(' ', '-')}"
+            "canonical_url": f"{site_url}/compare/{clean_slug}"
         }
     }
 
