@@ -1,9 +1,9 @@
 {
   "version": "6.0",
-  "updated_at": "2026-04-11T12:54:11Z",
-  "total_models": 323,
+  "updated_at": "2026-04-12T05:58:54Z",
+  "total_models": 318,
   "schema_version": "v5",
-  "description": "LLMCosts.dev \u2014 Open LLM Pricing Registry. Single source of truth for LLM pricing, benchmarks, and performance data. Updated daily by automated pipeline.",
+  "description": "LLMCosts.dev — Open LLM Pricing Registry. Single source of truth for LLM pricing, benchmarks, and performance data. Updated daily by automated pipeline.",
   "data_sources": [
     "openrouter_api",
     "lmsys_arena",
@@ -246,7 +246,7 @@
           "date": "2024-07-18",
           "input_per_1m": 0.15,
           "output_per_1m": 0.6,
-          "note": "Launch pricing \u2014 remained stable"
+          "note": "Launch pricing — remained stable"
         }
       ],
       "cost_examples": {
@@ -371,7 +371,7 @@
           "date": "2024-12-17",
           "input_per_1m": 15.0,
           "output_per_1m": 60.0,
-          "note": "o1 full release \u2014 pricing confirmed"
+          "note": "o1 full release — pricing confirmed"
         }
       ],
       "cost_examples": {
@@ -719,7 +719,7 @@
           "date": "2024-03-13",
           "input_per_1m": 0.25,
           "output_per_1m": 1.25,
-          "note": "Launch pricing \u2014 remained stable"
+          "note": "Launch pricing — remained stable"
         }
       ],
       "cost_examples": {
@@ -3189,7 +3189,7 @@
           "date": "2025-03-25",
           "input_per_1m": 0.15,
           "output_per_1m": 0.6,
-          "note": "Launch pricing \u2014 preview"
+          "note": "Launch pricing — preview"
         }
       ],
       "cost_examples": {
@@ -4586,7 +4586,7 @@
           "date": "2024-12-17",
           "input_per_1m": 150.0,
           "output_per_1m": 600.0,
-          "note": "Launch pricing \u2014 API access"
+          "note": "Launch pricing — API access"
         }
       ],
       "cost_examples": {
@@ -32441,6 +32441,275 @@
         "fast",
         "state-of-the-art",
         "closed-source"
+      ],
+      "tier": "premium",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "google/gemma-4-26b-a4b-it:free",
+      "name": "Google: Gemma 4 26B A4B  (free)",
+      "slug": "google-gemma-4-26b-a4b-it:free",
+      "provider": "google",
+      "provider_name": "Google",
+      "version": "",
+      "release_date": "2026-04-12",
+      "pricing": {
+        "input_per_1m": 0.0,
+        "output_per_1m": 0.0,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 262144,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text",
+        "conversational",
+        "coding"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "Advanced natural language understanding",
+        "Complex text generation",
+        "Conversational AI systems"
+      ],
+      "not_good_for": [
+        "Real-time vision tasks",
+        "Low-resource devices"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-04-12",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "frontier",
+        "large-model",
+        "instruction-tuned"
+      ],
+      "tier": "premium",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "google/gemma-4-26b-a4b-it",
+      "name": "Google: Gemma 4 26B A4B ",
+      "slug": "google-gemma-4-26b-a4b-it",
+      "provider": "google",
+      "provider_name": "Google",
+      "version": "",
+      "release_date": "2026-04-12",
+      "pricing": {
+        "input_per_1m": 0.12,
+        "output_per_1m": 0.4,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 262144,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text",
+        "conversational",
+        "coding"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "Complex Conversations",
+        "Code Generation",
+        "Advanced Text Analysis"
+      ],
+      "not_good_for": [
+        "Real-time Vision Tasks",
+        "Low-Latency Applications"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-04-12",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "frontier",
+        "large-model",
+        "instruction-tuned"
+      ],
+      "tier": "premium",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "google/gemma-4-31b-it:free",
+      "name": "Google: Gemma 4 31B (free)",
+      "slug": "google-gemma-4-31b-it:free",
+      "provider": "google",
+      "provider_name": "Google",
+      "version": "",
+      "release_date": "2026-04-12",
+      "pricing": {
+        "input_per_1m": 0.0,
+        "output_per_1m": 0.0,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 262144,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text",
+        "vision",
+        "reasoning",
+        "coding"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "multimodal understanding",
+        "text and image generation",
+        "complex reasoning tasks"
+      ],
+      "not_good_for": [
+        "low-resource computing",
+        "real-time applications"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-04-12",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "frontier",
+        "multimodal",
+        "large-model"
+      ],
+      "tier": "premium",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "google/gemma-4-31b-it",
+      "name": "Google: Gemma 4 31B",
+      "slug": "google-gemma-4-31b-it",
+      "provider": "google",
+      "provider_name": "Google",
+      "version": "",
+      "release_date": "2026-04-12",
+      "pricing": {
+        "input_per_1m": 0.14,
+        "output_per_1m": 0.4,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 262144,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text",
+        "vision",
+        "multimodal"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "complex question answering",
+        "image-based text generation",
+        "creative writing with visual context"
+      ],
+      "not_good_for": [
+        "low-resource computing environments",
+        "real-time applications requiring ultra-low latency"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-04-12",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "multimodal",
+        "large model",
+        "state-of-the-art"
       ],
       "tier": "premium",
       "open_source": false,

@@ -2,37 +2,37 @@
   "_meta": {
     "generated_by": "LLMCosts.dev",
     "source": "https://llmcosts.dev",
-    "updated": "2026-04-11",
+    "updated": "2026-04-12",
     "description": "Cost-optimized model routing chain with automatic fallbacks"
   },
   "api_base": "https://llmcosts.dev/out/api",
   "routes": [
     {
       "use_case": "coding",
-      "primary_model": "openrouter/bodybuilder",
-      "model_name": "Body Builder (beta)",
-      "input_per_1m_usd": -1000000.0,
-      "output_per_1m_usd": -1000000.0,
+      "primary_model": "google/lyria-3-pro-preview",
+      "model_name": "Google: Lyria 3 Pro Preview",
+      "input_per_1m_usd": 0.0,
+      "output_per_1m_usd": 0.0,
       "fallback_model": "openai/gpt-4o-mini",
-      "pricing_source": "https://llmcosts.dev/models/bodybuilder"
+      "pricing_source": "https://llmcosts.dev/models/lyria-3-pro-preview"
     },
     {
       "use_case": "reasoning",
-      "primary_model": "cohere/command-r7b-12-2024",
-      "model_name": "Cohere: Command R7B (12-2024)",
-      "input_per_1m_usd": 0.0375,
-      "output_per_1m_usd": 0.15,
+      "primary_model": "google/gemma-4-31b-it:free",
+      "model_name": "Google: Gemma 4 31B (free)",
+      "input_per_1m_usd": 0.0,
+      "output_per_1m_usd": 0.0,
       "fallback_model": "openai/gpt-4o-mini",
-      "pricing_source": "https://llmcosts.dev/models/cohere-command-r7b-12-2024"
+      "pricing_source": "https://llmcosts.dev/models/google-gemma-4-31b-it:free"
     },
     {
       "use_case": "rag",
-      "primary_model": "openrouter/bodybuilder",
-      "model_name": "Body Builder (beta)",
-      "input_per_1m_usd": -1000000.0,
-      "output_per_1m_usd": -1000000.0,
+      "primary_model": "google/lyria-3-pro-preview",
+      "model_name": "Google: Lyria 3 Pro Preview",
+      "input_per_1m_usd": 0.0,
+      "output_per_1m_usd": 0.0,
       "fallback_model": "openai/gpt-4o-mini",
-      "pricing_source": "https://llmcosts.dev/models/bodybuilder"
+      "pricing_source": "https://llmcosts.dev/models/lyria-3-pro-preview"
     },
     {
       "use_case": "chatbot",

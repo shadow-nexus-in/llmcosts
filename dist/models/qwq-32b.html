@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QwQ 32B API Pricing & Analysis 2026 | LLMCosts.dev</title>
+  <meta name="description" content="Complete QwQ 32B pricing, benchmarks, and API cost analysis. Input: $0.1200/1M tokens. Updated daily by LLMCosts.dev.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://llmcosts.dev/models/qwq-32b">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="QwQ 32B API Pricing | LLMCosts.dev">
+  <meta property="og:description" content="Input: $0.1200/1M | Output: $0.1800/1M. Full benchmark analysis.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://llmcosts.dev/models/qwq-32b">
+
+  <!-- Schema.org: Dataset -->
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "QwQ 32B API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for QwQ 32B by Alibaba Cloud.", "url": "https://llmcosts.dev/models/qwq-32b", "keywords": ["QwQ 32B", "Alibaba Cloud", "open-source", "self-hostable", "reasoning", "math", "budget", "qwen", "alibaba"], "dateModified": "2026-04-12", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <!-- Schema.org: FAQ -->
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
+
+  <!-- Schema.org: SoftwareApplication (SEO Parasite Trap) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "LLMCosts API Routing Config with $200 DO Promo",
+    "operatingSystem": "All",
+    "applicationCategory": "DeveloperApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "0.00",
+      "priceCurrency": "USD",
+      "url": "https://m.do.co/c/0c99ee"
+    }
+  }
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg-primary: #050508;
+      --bg-secondary: #0d0d14;
+      --bg-card: rgba(20, 20, 30, 0.4);
+      --bg-card-hover: rgba(35, 35, 50, 0.6);
+      --border: rgba(255, 255, 255, 0.08);
+      --border-bright: rgba(255, 255, 255, 0.15);
+      --text-primary: #f8f8fc;
+      --text-secondary: #9a9ab5;
+      --text-muted: #656588;
+      --accent-blue: #6d9efa;
+      --accent-purple: #b37afc;
+      --accent-green: #4effb0;
+      --accent-orange: #ffb15c;
+      --accent-red: #ff5e70;
+      --gradient-hero: radial-gradient(circle at 50% -20%, rgba(109,158,250,0.15), transparent 60%), radial-gradient(circle at 100% 10%, rgba(179,122,252,0.1), transparent 50%), transparent;
+      --gradient-card: linear-gradient(135deg, rgba(109,158,250,0.05) 0%, rgba(179,122,252,0.05) 100%);
+      --shadow-card: 0 8px 32px rgba(0,0,0,0.6);
+      --radius: 16px;
+      --radius-sm: 10px;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    /* ── Navigation (Glassmorphism) ── */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(5,5,8,0.7);
+      backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 1.5rem;
+    }
+    .nav-inner {
+      max-width: 1200px; margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 60px;
+    }
+    .nav-logo {
+      font-size: 1.25rem; font-weight: 800; letter-spacing: -0.02em;
+      background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple), var(--accent-green));
+      background-size: 200% auto; animation: gradientShift 4s linear infinite;
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      text-decoration: none;
+    }
+    @keyframes gradientShift { 0% {background-position: 0% 50%;} 50% {background-position: 100% 50%;} 100% {background-position: 0% 50%;} }
+    .nav-links { display: flex; gap: 1.5rem; }
+    .nav-links a {
+      color: var(--text-secondary); text-decoration: none; font-size: 0.875rem;
+      transition: color 0.3s; font-weight: 500;
+    }
+    .nav-links a:hover { color: var(--text-primary); text-shadow: 0 0 10px rgba(255,255,255,0.3); }
+
+    /* ── Hero ── */
+    .hero {
+      background: var(--gradient-hero);
+      padding: 4rem 1.5rem 3rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .hero-inner { max-width: 1200px; margin: 0 auto; }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      background: rgba(91,138,245,0.15);
+      border: 1px solid rgba(91,138,245,0.3);
+      border-radius: 999px; padding: 0.25rem 0.75rem;
+      font-size: 0.75rem; color: var(--accent-blue);
+      margin-bottom: 1.5rem;
+    }
+    .hero-badge::before { content: "●"; animation: pulse 2s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+    h1 {
+      font-size: clamp(2rem, 5vw, 3rem); font-weight: 700; line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+    h1 span {
+      background: linear-gradient(135deg, var(--accent-blue) 0%, var(--accent-purple) 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .hero-meta {
+      display: flex; flex-wrap: wrap; gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    .meta-pill {
+      display: flex; align-items: center; gap: 0.375rem;
+      background: rgba(255,255,255,0.05); border: 1px solid var(--border-bright);
+      border-radius: var(--radius-sm); padding: 0.375rem 0.75rem;
+      font-size: 0.8rem; color: var(--text-secondary);
+    }
+    .meta-pill strong { color: var(--text-primary); }
+
+    /* ── Layout ── */
+    .page-body { max-width: 1200px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+    .two-col { display: grid; grid-template-columns: 1fr 340px; gap: 2rem; align-items: start; }
+    @media (max-width: 900px) { .two-col { grid-template-columns: 1fr; } }
+
+    /* ── Cards ── */
+    .card {
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 1.75rem;
+      box-shadow: var(--shadow-card);
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .card:hover { border-color: var(--border-bright); transform: translateY(-1px); }
+    .card + .card { margin-top: 1.5rem; }
+    .card-title {
+      font-size: 0.7rem; font-weight: 600; letter-spacing: 0.1em;
+      text-transform: uppercase; color: var(--text-muted);
+      margin-bottom: 1.25rem;
+    }
+
+    /* ── Pricing Table ── */
+    .price-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 1rem; margin-bottom: 1.5rem;
+    }
+    .price-cell {
+      background: var(--gradient-card);
+      border: 1px solid var(--border-bright);
+      border-radius: var(--radius-sm); padding: 1rem; text-align: center;
+    }
+    .price-label { font-size: 0.7rem; color: var(--text-muted); margin-bottom: 0.5rem; }
+    .price-value {
+      font-family: var(--font-mono); font-size: 1.25rem; font-weight: 600;
+      color: var(--accent-green);
+    }
+
+    /* ── Stats Row ── */
+    .stats-row {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+      gap: 0.75rem; margin-bottom: 1.5rem;
+    }
+    .stat-cell {
+      background: var(--bg-secondary); border: 1px solid var(--border);
+      border-radius: var(--radius-sm); padding: 0.875rem; text-align: center;
+    }
+    .stat-label { font-size: 0.65rem; color: var(--text-muted); margin-bottom: 0.25rem; }
+    .stat-value { font-family: var(--font-mono); font-size: 0.9rem; font-weight: 600; color: var(--accent-blue); }
+
+    /* ── Cost Examples ── */
+    .cost-table { width: 100%; border-collapse: collapse; font-size: 0.875rem; }
+    .cost-table th, .cost-table td {
+      padding: 0.75rem 1rem; text-align: left;
+      border-bottom: 1px solid var(--border);
+    }
+    .cost-table th { color: var(--text-muted); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; }
+    .cost-table tr:last-child td { border-bottom: none; }
+    .cost-table td:last-child { font-family: var(--font-mono); color: var(--accent-green); text-align: right; }
+
+    /* ── Data Table ── */
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.875rem; overflow-x: auto; display: block; }
+    .data-table th, .data-table td {
+      padding: 0.75rem 1rem; text-align: left;
+      border-bottom: 1px solid var(--border); white-space: nowrap;
+    }
+    .data-table th { color: var(--text-muted); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; background: var(--bg-secondary); }
+    .data-table tr:hover td { background: var(--bg-card-hover); }
+    .data-table a { color: var(--accent-blue); text-decoration: none; }
+    .data-table a:hover { text-decoration: underline; }
+
+    /* ── Content Sections ── */
+    .content-section { margin-bottom: 2rem; }
+    .content-section h2 {
+      font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem;
+      color: var(--text-primary);
+      padding-bottom: 0.5rem; border-bottom: 1px solid var(--border);
+    }
+    .content-section p { color: var(--text-secondary); margin-bottom: 0.75rem; font-size: 0.9375rem; }
+
+    /* ── FAQ Section ── */
+    .faq-section { margin-top: 2.5rem; }
+    .faq-section h2 { font-size: 1.5rem; font-weight: 700; margin-bottom: 1.5rem; }
+    .faq-item {
+      border-bottom: 1px solid var(--border); padding: 1.25rem 0;
+    }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-question { font-size: 1rem; font-weight: 600; color: var(--text-primary); margin-bottom: 0.5rem; }
+    .faq-answer { font-size: 0.9rem; color: var(--text-secondary); }
+
+    /* ── Sidebar ── */
+    .sidebar-card {
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 1.5rem;
+      box-shadow: var(--shadow-card);
+    }
+    .sidebar-card + .sidebar-card { margin-top: 1.25rem; }
+
+    /* ── CTA Button ── */
+    .cta-btn {
+      display: block; width: 100%; padding: 0.875rem 1.5rem;
+      background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+      color: #fff; font-weight: 600; font-size: 0.9rem;
+      text-align: center; text-decoration: none;
+      border-radius: var(--radius-sm); border: none; cursor: pointer;
+      transition: opacity 0.2s, transform 0.15s;
+      margin-bottom: 0.75rem;
+    }
+    .cta-btn:hover { opacity: 0.88; transform: translateY(-1px); }
+    .cta-secondary {
+      display: block; width: 100%; padding: 0.75rem 1.5rem;
+      background: transparent;
+      border: 1px solid var(--border-bright);
+      color: var(--text-secondary); font-size: 0.875rem;
+      text-align: center; text-decoration: none;
+      border-radius: var(--radius-sm);
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .cta-secondary:hover { border-color: var(--accent-blue); color: var(--text-primary); }
+
+    /* ── Badges ── */
+    .badge {
+      display: inline-block; padding: 0.2rem 0.5rem;
+      border-radius: 4px; font-size: 0.7rem; font-weight: 600;
+    }
+    .badge-green { background: rgba(62,255,160,0.15); color: var(--accent-green); }
+    .badge-blue { background: rgba(91,138,245,0.15); color: var(--accent-blue); }
+    .badge-orange { background: rgba(255,159,67,0.15); color: var(--accent-orange); }
+    .badge-red { background: rgba(255,71,87,0.15); color: var(--accent-red); }
+
+    /* ── Capabilities ── */
+    .cap-list { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .cap-tag {
+      background: rgba(91,138,245,0.1); border: 1px solid rgba(91,138,245,0.2);
+      border-radius: 999px; padding: 0.25rem 0.625rem;
+      font-size: 0.7rem; color: var(--accent-blue);
+    }
+
+    /* ── Verified Badge ── */
+    .verified-row {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 0.5rem; font-size: 0.75rem; color: var(--text-muted);
+      margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border);
+    }
+    .verified-row .dot-green { color: var(--accent-green); }
+
+    /* ── Footer ── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 2rem 1.5rem; text-align: center;
+      color: var(--text-muted); font-size: 0.8rem;
+    }
+    footer a { color: var(--text-secondary); text-decoration: none; }
+    footer a:hover { color: var(--text-primary); }
+
+    /* ── Trend Arrow ── */
+    .trend-down { color: var(--accent-green); }
+    .trend-up { color: var(--accent-red); }
+    .trend-stable { color: var(--text-muted); }
+
+    /* ── Responsive ── */
+    @media (max-width: 640px) {
+      .price-grid { grid-template-columns: 1fr 1fr; }
+      .hero { padding: 2.5rem 1rem 2rem; }
+      .page-body { padding: 1.5rem 1rem 3rem; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">⚡ LLMCosts.dev</a>
+    <div class="nav-links">
+      <a href="/compare">Compare</a>
+      <a href="/configs">Configs</a>
+      <a href="/daily-report">Market Report</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-inner">
+    <div class="hero-badge">Live Pricing · Updated 2026-04-08</div>
+    <h1>QwQ 32B <span>API Pricing</span></h1>
+    <p style="color:var(--text-secondary); font-size:1.0625rem; max-width:600px;">
+      Complete pricing breakdown, benchmark analysis, and competitor comparison for
+      QwQ 32B by Alibaba Cloud. Confidence: medium.
+    </p>
+    <div class="hero-meta">
+      <div class="meta-pill">Input <strong>$0.1200/1M</strong></div>
+      <div class="meta-pill">Output <strong>$0.1800/1M</strong></div>
+      <div class="meta-pill">Context <strong>131,072 tokens</strong></div>
+      <div class="meta-pill">ELO <strong>1253</strong></div>
+      <div class="meta-pill">Tier <strong>budget</strong></div>
+    </div>
+  </div>
+</div>
+
+<!-- PAGE BODY -->
+<div class="page-body">
+  <div class="two-col">
+
+    <!-- LEFT COLUMN -->
+    <div class="main-content">
+
+      <!-- OVERVIEW -->
+      <div class="card content-section">
+        <div class="card-title">Overview</div>
+        <div>### Introduction to QwQ 32B
+The QwQ 32B model, released by Alibaba Cloud on 2025-03-05, is an open-source, budget-friendly language model designed for developers. With its architecture based on the `qwen/qwq-32b` model, it offers a unique blend of capabilities, including text, streaming, system prompts, and extended thinking. This model is particularly suited for tasks that require complex reasoning, math, coding, science, research, and analysis.
+
+### Technical Specifications and Pricing
+QwQ 32B boasts a context window of 131,072 tokens and a maximum output of 8,192 tokens, with a knowledge cutoff date of 2024-09. The pricing model is straightforward, with input costs at $0.12 per 1M tokens and output costs at $0.18 per 1M tokens. Notably, cached input and batch input are offered at no additional cost. The model's performance is backed by impressive benchmarks, including an MMLU score of 84.8, HumanEval score of 91.0, LMSYS Arena ELO of 1253, and a GSM8K score of 97.0. With its competitive pricing, QwQ 32B offers a cost-effective solution for developers, with examples including 1,000 calls (avg 500 tokens) at $0.15, 10,000 calls at $1.5, and 100,000 calls at $15.0.
+
+### Use Cases and Competitors
+QwQ 32B is best utilized for complex tasks such as coding, math, and science, making it an ideal choice for research and analysis applications. However, it is not recommended for tasks that involve vision, audio, simple tasks, or require real-time responses under 100ms. In comparison to its competitors, QwQ 32B offers a significant cost advantage, with</div>
+      </div>
+
+      <!-- PRICING -->
+      <div class="card">
+        <div class="card-title">Pricing Breakdown</div>
+        <div class="price-grid">
+          <div class="price-cell">
+            <div class="price-label">Input</div>
+            <div class="price-value">$0.1200</div>
+            <div style="font-size:0.65rem;color:var(--text-muted);margin-top:0.25rem">per 1M tokens</div>
+          </div>
+          <div class="price-cell">
+            <div class="price-label">Output</div>
+            <div class="price-value">$0.1800</div>
+            <div style="font-size:0.65rem;color:var(--text-muted);margin-top:0.25rem">per 1M tokens</div>
+          </div>
+          <div class="price-cell">
+            <div class="price-label">Cached Input</div>
+            <div class="price-value" style="color:var(--accent-purple)">N/A</div>
+            <div style="font-size:0.65rem;color:var(--text-muted);margin-top:0.25rem">per 1M tokens</div>
+          </div>
+          <div class="price-cell">
+            <div class="price-label">Batch Input</div>
+            <div class="price-value" style="color:var(--accent-orange)">N/A</div>
+            <div style="font-size:0.65rem;color:var(--text-muted);margin-top:0.25rem">per 1M tokens</div>
+          </div>
+        </div>
+
+        <div class="card-title" style="margin-top:1.5rem">Cost at Scale</div>
+        <table class="cost-table">
+          <thead><tr><th>Volume</th><th>Avg 500 tokens/call</th><th>Total Cost</th></tr></thead>
+          <tbody>
+            <tr><td>1,000 API calls</td><td>500K tokens</td><td>$0.15</td></tr>
+            <tr><td>10,000 API calls</td><td>5M tokens</td><td>$1.5</td></tr>
+            <tr><td>100,000 API calls</td><td>50M tokens</td><td>$15.0</td></tr>
+          </tbody>
+        </table>
+
+        <div style="margin-top:1.5rem">### QwQ 32B Pricing Analysis
+#### Overview
+The QwQ 32B model, provided by Alibaba Cloud, offers a competitive pricing structure for businesses and individuals looking to leverage its capabilities in complex reasoning, math, coding, science, research, and analysis. Released on 2025-03-05, this open-source model is classified under the budget tier.
+
+#### Cost Structure
+The cost structure for QwQ 32B is as follows:
+* **Input**: $0.12 per 1M tokens
+* **Output**: $0.18 per 1M tokens
+* **Cached Input**: $0.00 per 1M tokens (free)
+* **Batch Input**: $0.00 per 1M tokens (free)
+
+#### When to Use Cached Tokens
+Cached tokens can be used to reduce costs when the same input is used multiple times. Since cached input is free, it is recommended to use cached tokens whenever possible to minimize expenses.
+
+#### Batch API Savings
+Batching API calls can also help reduce costs. Although the pricing data does not provide a direct discount for batch input, the lack of cost for batch input suggests that batching can be an effective way to save on input costs.
+
+#### Cost at Scale
+The cost of using QwQ 32B at scale is as follows:
+* **1,000 API calls** (avg 500 tokens): $0.15
+* **10,000 API calls**: $1.5
+* **100,000 API calls**: $15.0
+
+These costs demonstrate a linear scaling of expenses with the number of API calls, indicating that the cost per call remains consistent regardless of the volume.
+
+#### Comparison to Competitors
+QwQ 32B's pricing is competitive compared to its top competitors:
+* **DeepSeek R1**: $0.55/1M input, $2.19/1M output
+* **OpenAI o3-mini**: $</div>
+      </div>
+
+      <!-- BENCHMARKS -->
+      <div class="card">
+        <div class="card-title">Benchmarks</div>
+        <div class="stats-row">
+          <div class="stat-cell"><div class="stat-label">MMLU</div><div class="stat-value">84.8</div></div>
+          <div class="stat-cell"><div class="stat-label">HumanEval</div><div class="stat-value">91.0</div></div>
+          <div class="stat-cell"><div class="stat-label">LMSYS ELO</div><div class="stat-value">1253</div></div>
+        </div>
+        <div>### QwQ 32B Benchmark Performance Analysis
+The QwQ 32B model, released by Alibaba Cloud on 2025-03-05, is a budget-friendly, open-source option with a tier classification of "budget". This analysis will delve into the model's benchmark performance, focusing on the MMLU, HumanEval, and Arena ELO scores, to understand its real-world applications.
+
+#### Benchmark Scores
+The QwQ 32B model has achieved the following benchmark scores:
+* **MMLU: 84.8** - The MMLU (Massive Multitask Language Understanding) benchmark evaluates a model's ability to perform a wide range of natural language processing tasks. A score of 84.8 indicates that QwQ 32B has a strong foundation in language understanding, making it suitable for tasks that require complex reasoning and analysis.
+* **HumanEval: 91.0** - The HumanEval benchmark assesses a model's ability to evaluate and execute code. With a score of 91.0, QwQ 32B demonstrates exceptional coding capabilities, making it an excellent choice for tasks involving math, coding, and science.
+* **LMSYS Arena ELO: 1253** - The LMSYS Arena ELO score measures a model's overall performance in a competitive environment. An ELO score of 1253 indicates that QwQ 32B is a strong competitor, capable of handling complex tasks and adapting to various scenarios.
+
+#### Real-World Implications
+The benchmark scores suggest that QwQ 32B is well-suited for:
+* **Complex reasoning and analysis**: With a high MMLU score, QwQ 32</div>
+      </div>
+
+      <!-- COMPETITOR TABLE -->
+      <div class="card">
+        <div class="card-title">Competitor Comparison</div>
+        <div style="overflow-x:auto;">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Model</th>
+                <th>Input/1M</th>
+                <th>Output/1M</th>
+                <th>ELO</th>
+                <th>Tier</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="background:rgba(91,138,245,0.08)">
+                <td><strong>QwQ 32B</strong> <span class="badge badge-blue">This Model</span></td>
+                <td style="font-family:var(--font-mono);color:var(--accent-green)">$0.1200</td>
+                <td style="font-family:var(--font-mono);color:var(--accent-green)">$0.1800</td>
+                <td>1253</td>
+                <td>budget</td>
+              </tr>
+              
+            <tr>
+                <td><a href="/models/deepseek-r1">DeepSeek R1</a></td>
+                <td>$0.5500</td>
+                <td>$2.1900</td>
+                <td>1358</td>
+                <td>standard</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+        <div style="margin-top:1.5rem">### QwQ 32B Comparison Against Top Competitors
+#### Overview
+QwQ 32B, provided by Alibaba Cloud, is a budget-friendly, open-source model released on 2025-03-05. This comparison will delve into the pricing, performance, and use cases of QwQ 32B against its top competitors: DeepSeek R1, OpenAI o3-mini, and OpenAI o4-mini.
+
+#### Pricing Comparison
+The pricing for each model is as follows:
+* QwQ 32B:
+	+ Input: $0.12 per 1M tokens
+	+ Output: $0.18 per 1M tokens
+* DeepSeek R1:
+	+ Input: $0.55 per 1M tokens
+	+ Output: $2.19 per 1M tokens
+* OpenAI o3-mini and OpenAI o4-mini:
+	+ Input: $1.1 per 1M tokens
+	+ Output: $4.4 per 1M tokens
+
+QwQ 32B is significantly cheaper than its competitors, with input and output costs being 78-90% lower.
+
+#### Performance Comparison
+The performance of each model can be evaluated using the provided benchmarks:
+* QwQ 32B:
+	+ MMLU: 84.8
+	+ HumanEval: 91.0
+	+ LMSYS Arena ELO: 1253
+	+ GSM8K: 97.0
+* DeepSeek R1, OpenAI o3-mini, and OpenAI o4-mini benchmarks are not provided.
+
+While QwQ 32B's performance is not directly comparable to its competitors, its benchmarks suggest strong capabilities in complex reasoning, math, coding, science, and research.
+
+#### Context and Limits
+QwQ 32B has the following context and limits:
+* Context Window: 131,072 tokens
+* Max Output: 8,192 tokens
+* Knowledge Cutoff: 2024-09
+
+These limits are not compared to the competitors, as this information is not provided.
+
+#### Capabilities and Use Cases
+QwQ 32B is best suited for:
+* Complex reasoning
+* Math
+* Coding
+* Science
+* Research
+* Analysis
+
+It is not recommended for:
+* Vision
+* Audio
+* Simple tasks
+* Real-time sub 100ms
+* High volume
+
+#### Cost Examples</div>
+      </div>
+
+      <!-- USE CASES -->
+      <div class="card content-section">
+        <div class="card-title">Best Use Cases</div>
+        <div>### Introduction to QwQ 32B
+The QwQ 32B model, released on 2025-03-05, is a budget-friendly, open-source option provided by Alibaba Cloud. With its impressive benchmarks, including an MMLU score of 84.8 and a HumanEval score of 91.0, this model is well-suited for complex reasoning, math, coding, science, research, and analysis tasks.
+
+### Top 5 Best Use Cases for QwQ 32B
+Given its capabilities and limitations, the following are the top 5 best use cases for QwQ 32B:
+
+1. **Code Generation and Review**: QwQ 32B excels in coding tasks, making it an ideal choice for generating and reviewing code. Its ability to process up to 131,072 tokens in its context window allows for comprehensive code analysis.
+2. **Mathematical Problem Solving**: With its high score in HumanEval, QwQ 32B is well-suited for solving mathematical problems. Its extended thinking capability enables it to tackle complex mathematical concepts.
+3. **Research and Analysis**: QwQ 32B's ability to process large amounts of text and its high score in LMSYS Arena ELO make it an excellent choice for research and analysis tasks, such as summarizing research papers or analyzing large datasets.
+4. **System Prompts and Automation**: QwQ 32B's support for system prompts and streaming capabilities make it an ideal choice for automating tasks, such as data processing and workflow automation.
+5. **Complex Reasoning and Science**: QwQ 32B's high scores in MMLU and GSM8K demonstrate its ability to tackle complex reasoning and science-related tasks, making it a great choice for applications that require in-depth analysis and understanding of scientific concepts.
+
+### Code Integration Example with OpenRouter
+To integrate QwQ 32B with OpenRouter, you can</div>
+      </div>
+
+      <!-- CAPABILITIES -->
+      <div class="card">
+        <div class="card-title">Capabilities</div>
+        <div class="cap-list">
+          <span class="cap-tag">text</span> <span class="cap-tag">streaming</span> <span class="cap-tag">system_prompts</span> <span class="cap-tag">extended_thinking</span>
+        </div>
+      </div>
+
+      <!-- FAQ SECTION -->
+      <div class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        
+      </div>
+
+    </div><!-- end main-content -->
+
+    <!-- RIGHT SIDEBAR -->
+    <aside>
+      <div class="sidebar-card">
+        <div style="font-size:0.8rem;font-weight:600;color:var(--text-muted);margin-bottom:1rem">YOUR PROMO OFFERS</div>
+        <a href="https://m.do.co/c/0c99ee" class="cta-btn" id="cta-get-do-credit" target="_blank" rel="noopener" style="background: linear-gradient(135deg, #0069ff, #0050d2);">
+          🎁 Claim $200 Free Server Credit
+        </a>
+        <a href="https://openrouter.ai/?ref=llmcosts" class="cta-secondary" id="cta-get-api-key" target="_blank" rel="noopener" style="margin-bottom:0.75rem;">
+          ⚡ Get API Key via OpenRouter
+        </a>
+        <a href="/configs" class="cta-secondary" id="cta-download-config">
+          📥 Download Free Config File
+        </a>
+      </div>
+
+      <div class="sidebar-card" style="margin-top:1.25rem">
+        <div style="font-size:0.8rem;font-weight:600;color:var(--text-muted);margin-bottom:1rem">MODEL DETAILS</div>
+        <table style="width:100%;font-size:0.825rem;border-collapse:collapse">
+          <tr style="border-bottom:1px solid var(--border)"><td style="padding:0.5rem 0;color:var(--text-muted)">Provider</td><td style="padding:0.5rem 0;text-align:right;font-weight:500">Alibaba Cloud</td></tr>
+          <tr style="border-bottom:1px solid var(--border)"><td style="padding:0.5rem 0;color:var(--text-muted)">Release Date</td><td style="padding:0.5rem 0;text-align:right">2025-03-05</td></tr>
+          <tr style="border-bottom:1px solid var(--border)"><td style="padding:0.5rem 0;color:var(--text-muted)">Knowledge Cutoff</td><td style="padding:0.5rem 0;text-align:right">2024-09</td></tr>
+          <tr style="border-bottom:1px solid var(--border)"><td style="padding:0.5rem 0;color:var(--text-muted)">Context Window</td><td style="padding:0.5rem 0;text-align:right;font-family:var(--font-mono)">131,072</td></tr>
+          <tr style="border-bottom:1px solid var(--border)"><td style="padding:0.5rem 0;color:var(--text-muted)">Max Output</td><td style="padding:0.5rem 0;text-align:right;font-family:var(--font-mono)">8,192</td></tr>
+          <tr style="border-bottom:1px solid var(--border)"><td style="padding:0.5rem 0;color:var(--text-muted)">Open Source</td><td style="padding:0.5rem 0;text-align:right">Yes [PASS]</td></tr>
+          <tr style="border-bottom:1px solid var(--border)"><td style="padding:0.5rem 0;color:var(--text-muted)">Self-Hostable</td><td style="padding:0.5rem 0;text-align:right">Yes [PASS]</td></tr>
+          <tr><td style="padding:0.5rem 0;color:var(--text-muted)">Price Trend</td><td style="padding:0.5rem 0;text-align:right" class="trend-decreasing">decreasing</td></tr>
+        </table>
+        <div class="verified-row">
+          <span><span class="dot-green">●</span> Verified 2026-04-08</span>
+          <span>medium confidence</span>
+        </div>
+      </div>
+
+      <div class="sidebar-card" style="margin-top:1.25rem">
+        <div style="font-size:0.8rem;font-weight:600;color:var(--text-muted);margin-bottom:0.75rem">EMBED THIS DATA</div>
+        <p style="font-size:0.75rem;color:var(--text-muted);margin-bottom:0.75rem">Add a live pricing widget to your blog</p>
+        <code style="display:block;background:var(--bg-secondary);border:1px solid var(--border);border-radius:6px;padding:0.75rem;font-size:0.7rem;color:var(--accent-green);word-break:break-all;">&lt;iframe src="https://llmcosts.dev/widget/qwq-32b" width="300" height="120" frameborder="0"&gt;&lt;/iframe&gt;</code>
+      </div>
+    </aside>
+
+  </div><!-- end two-col -->
+</div><!-- end page-body -->
+
+<footer>
+  <p>
+    <a href="/">LLMCosts.dev</a> — Open LLM Pricing Registry |
+    Data verified 2026-04-08 |
+    <a href="/llms.txt">llms.txt</a> |
+    <a href="/sitemap.xml">Sitemap</a>
+  </p>
+  <p style="margin-top:0.5rem">
+    Pricing aggregated from OpenRouter & LiteLLM. Found an error?
+    <a href="https://github.com/shadow-nexus-in/llmcosts/issues">Submit an issue</a>.
+  </p>
+</footer>
+
+</body>
+</html>

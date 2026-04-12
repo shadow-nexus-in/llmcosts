@@ -1,6 +1,6 @@
 # LLMCosts.dev — COMPLETE LLM Pricing Registry (Un-Sharded Master)
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-04-11
+> Updated: 2026-04-12
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -12,7 +12,7 @@ CitationTemplate: "{title} — LLMCosts.dev, retrieved from https://llmcosts.dev
 Author: LLMCosts.dev Automated Registry
 License: CC BY 4.0
 
-Total Models: 314 | This file is NOT sharded. For ChatGPT-sized ingestion, use /llms.txt instead.
+Total Models: 318 | This file is NOT sharded. For ChatGPT-sized ingestion, use /llms.txt instead.
 
 | Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
 |-------|----------|----------|---------|---------|---------|-----|------|------|
@@ -330,3 +330,7 @@ Total Models: 314 | This file is NOT sharded. For ChatGPT-sized ingestion, use /
 | [OpenAI: GPT-4 (older v0314)](https://llmcosts.dev/models/openai-gpt-4-0314) | Openai | $30.0 | $60.0 | $None | 8,191 | None | premium | Closed |
 | [OpenAI: GPT-4](https://llmcosts.dev/models/openai-gpt-4) | Openai | $30.0 | $60.0 | $None | 8,191 | None | premium | Closed |
 | [OpenAI: GPT-3.5 Turbo](https://llmcosts.dev/models/openai-gpt-3.5-turbo) | Openai | $0.5 | $1.5 | $None | 16,385 | None | premium | Closed |
+| [Google: Gemma 4 26B A4B  (free)](https://llmcosts.dev/models/google-gemma-4-26b-a4b-it:free) | Google | $0.0 | $0.0 | $None | 262,144 | None | premium | Closed |
+| [Google: Gemma 4 26B A4B ](https://llmcosts.dev/models/google-gemma-4-26b-a4b-it) | Google | $0.12 | $0.4 | $None | 262,144 | None | premium | Closed |
+| [Google: Gemma 4 31B (free)](https://llmcosts.dev/models/google-gemma-4-31b-it:free) | Google | $0.0 | $0.0 | $None | 262,144 | None | premium | Closed |
+| [Google: Gemma 4 31B](https://llmcosts.dev/models/google-gemma-4-31b-it) | Google | $0.14 | $0.4 | $None | 262,144 | None | premium | Closed |
