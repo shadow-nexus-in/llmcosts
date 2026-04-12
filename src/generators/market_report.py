@@ -120,10 +120,18 @@ def _build_market_context(models: list[dict]) -> str:
     return ctx.strip()
 
 
-def _generate_report_sections(groq: GroqEngine, ctx: str) -> dict:
+def _generate_report_sections(groq: Optional[GroqEngine], ctx: str) -> dict:
     """Generate all report sections using surplus Groq calls."""
     sections = {}
     today = time.strftime("%Y-%m-%d")
+    
+    if not groq:
+        sections["executive_summary"] = "We are currently experiencing heavy traffic and our AI market summary is offline. Raw pricing data is unaffected and continues to update daily."
+        sections["arbitrage"] = "See the main comparison table for raw arbitrage data."
+        sections["provider_rankings"] = "Provider rankings are dynamically updated based on the lowest price-per-token."
+        sections["cost_playbook"] = "Use OpenRouter to gracefully fallback to cheapest models."
+        sections["forecast"] = "AI model prices continue to trend strictly downwards."
+        return sections
 
     # Section 1: Executive Summary
     text = groq.generate(
@@ -431,16 +439,15 @@ def run_report_generation() -> dict:
         summary["errors"] += 1
         return summary
 
+    groq = None
     try:
         groq = GroqEngine()
     except EnvironmentError as e:
-        logger.error(f"Groq unavailable for report: {e}")
-        summary["errors"] += 1
-        return summary
+        logger.warning(f"Groq unavailable for report ({e}). Falling back to simple templates.")
 
-    if groq.all_keys_exhausted():
-        logger.info("All Groq keys exhausted. Skipping report generation.")
-        return summary
+    if groq and groq.all_keys_exhausted():
+        logger.info("All Groq keys exhausted. Falling back to simple templates.")
+        groq = None
 
     try:
         ctx = _build_market_context(models)

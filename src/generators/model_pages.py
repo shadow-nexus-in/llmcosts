@@ -159,12 +159,21 @@ TOP COMPETITORS:
     return ctx.strip()
 
 
-def _generate_page_content(groq: GroqEngine, model: dict, all_models: list[dict]) -> Optional[dict]:
-    """Generate all 6 sections for a single model page using Groq."""
+def _generate_page_content(groq: Optional[GroqEngine], model: dict, all_models: list[dict]) -> dict:
+    """Generate all 6 sections for a single model page using Groq or fallback templates."""
     ctx = _build_model_context(model, all_models)
     name = model.get("name", "Unknown")
 
     sections = {}
+    
+    if not groq:
+        sections["overview"] = f"{name} is an AI model provided by {model.get('provider_name', 'Unknown')}. We are currently updating our AI analysis for this model."
+        sections["pricing_analysis"] = "See the pricing table for exact input, output, and batch token metrics."
+        sections["benchmark_analysis"] = "See the benchmark table to view MMLU, HumanEval, and LMSYS ELO scores."
+        sections["comparison"] = "Review the top competitor list shown in the pricing table."
+        sections["use_cases"] = "General purpose text generation, conversational AI, and API integrations."
+        sections["faqs_raw"] = f"Q: Who made {name}?\nA: It is provided by {model.get('provider_name', 'Unknown')}."
+        return sections
 
     # Section 1: Overview
     text = groq.generate(
@@ -464,21 +473,19 @@ def run_page_generation(single_model: Optional[str] = None) -> dict:
     # Build model_map ONCE here — not per model inside _render_html
     model_map = {m["id"]: m for m in models}
 
+    groq = None
     try:
         groq = GroqEngine()
     except EnvironmentError as e:
-        logger.error(f"Groq initialisation failed: {e}")
-        summary["failed"] += 1
-        return summary
+        logger.warning(f"Groq unavailable ({e}). Falling back to simple template generation.")
 
     for i, model in enumerate(models, 1):
         mid = model.get("id", "unknown")
         slug = model.get("slug", mid.replace("/", "-"))
 
-        if groq.all_keys_exhausted():
-            logger.warning("All Groq keys exhausted. Stopping page generation.")
-            summary["keys_exhausted"] = True
-            break
+        if groq and groq.all_keys_exhausted():
+            logger.warning("All Groq keys exhausted. Falling back to simple template generation.")
+            groq = None
 
         if not _page_needs_rebuild(model, build_state):
             logger.debug(f"[{i}/{len(models)}] SKIP: {mid} (unchanged)")

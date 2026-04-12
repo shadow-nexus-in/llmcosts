@@ -122,7 +122,8 @@ def _build_homepage(models: list[dict]) -> str:
     "keywords": ["LLM pricing", "GPT-4 cost", "Claude API price", "AI token cost", "language model comparison"],
     "dateModified": "{today}",
     "publisher": {{"@type": "Organization", "name": "LLMCosts.dev", "url": "{SITE_URL}"}}
-  }}</scrip    <style>
+  }}</script>
+  <style>
     *, *::before, *::after {{ box-sizing: border-box; margin: 0; padding: 0; }}
     :root {{
       --bg-primary: #050508; --bg-secondary: #0d0d14; --bg-card: rgba(20, 20, 30, 0.4);

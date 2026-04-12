@@ -2584,3 +2584,133 @@
 12:55:54 [INFO] build:   Tasks FAIL : 0
 12:55:54 [INFO] build: ============================================================
 12:55:54 [INFO] build: Build report saved -> build_report.json
+20:06:12 [INFO] build: 🚀 GODMODE V8 BUILD PIPELINE STARTING
+20:06:12 [INFO] build:    Date: 2026-04-11 14:36 UTC
+20:06:12 [INFO] build:    Log : logs\build_20260411.log
+20:06:12 [INFO] build: 
+============================================================
+20:06:12 [INFO] build: TASK START: Homepage Generator
+20:06:12 [INFO] build: ============================================================
+20:06:12 [INFO] src.generators.homepage: ============================================================
+20:06:12 [INFO] src.generators.homepage: HOMEPAGE GENERATOR: Building index + compare pages...
+20:06:12 [INFO] src.generators.homepage:   [PASS] dist/index.html
+20:06:12 [INFO] src.generators.homepage:   [PASS] dist/compare/index.html
+20:06:12 [INFO] src.generators.homepage: Homepage generation complete: {'files_written': 2, 'errors': 0}
+20:06:12 [INFO] build: TASK DONE: Homepage Generator — 0.02s — {'files_written': 2, 'errors': 0}
+20:06:12 [INFO] build: Skipping price update (--skip-prices)
+20:06:13 [INFO] build: 
+============================================================
+20:06:13 [INFO] build: TASK START: Page Generator
+20:06:13 [INFO] build: ============================================================
+20:06:13 [INFO] src.generators.model_pages: ============================================================
+20:06:13 [INFO] src.generators.model_pages: PAGE GENERATOR: Starting Mega-Page generation...
+20:06:13 [ERROR] src.generators.model_pages: Groq initialisation failed: No Groq API keys found. Set GROQ_API_KEY_1 through GROQ_API_KEY_4 in .env
+20:06:13 [INFO] build: TASK DONE: Page Generator — 0.02s — {'generated': 0, 'skipped': 0, 'failed': 1, 'keys_exhausted': False}
+20:06:13 [INFO] build: 
+============================================================
+20:06:13 [INFO] build: TASK START: Versus Engine
+20:06:13 [INFO] build: ============================================================
+20:06:13 [INFO] build: TASK DONE: Versus Engine — 0.05s — {'generated': 0, 'skipped_limit': False}
+20:06:13 [INFO] build: 
+============================================================
+20:06:13 [INFO] build: TASK START: LLMs.txt Engine
+20:06:13 [INFO] build: ============================================================
+20:06:13 [INFO] src.generators.llms_txt: ============================================================
+20:06:13 [INFO] src.generators.llms_txt: LLMS.TXT ENGINE: Generating AI citation files...
+20:06:13 [INFO] src.generators.llms_txt:   Master llms.txt: 1 shard(s)
+20:06:13 [INFO] src.generators.llms_txt:   Provider-specific files: 50 providers
+20:06:13 [INFO] src.generators.llms_txt:   Master llms-full.txt (un-sharded) written.
+20:06:13 [INFO] src.generators.llms_txt: LLMs.txt generation complete: 58 files written.
+20:06:13 [INFO] build: TASK DONE: LLMs.txt Engine — 0.15s — {'files_written': 58, 'errors': 0}
+20:06:13 [INFO] build: Skipping config generation (--skip-configs)
+20:06:13 [INFO] build: 
+============================================================
+20:06:13 [INFO] build: TASK START: Report Generator
+20:06:13 [INFO] build: ============================================================
+20:06:13 [INFO] src.generators.market_report: ============================================================
+20:06:13 [INFO] src.generators.market_report: REPORT GENERATOR: Building daily market intelligence...
+20:06:13 [ERROR] src.generators.market_report: Groq unavailable for report: No Groq API keys found. Set GROQ_API_KEY_1 through GROQ_API_KEY_4 in .env
+20:06:13 [INFO] build: TASK DONE: Report Generator — 0.01s — {'report_generated': False, 'errors': 1}
+20:06:13 [INFO] build: 
+============================================================
+20:06:13 [INFO] build: TASK START: Sitemap Builder
+20:06:13 [INFO] build: ============================================================
+20:06:13 [INFO] src.generators.sitemap: ============================================================
+20:06:13 [INFO] src.generators.sitemap: SITEMAP BUILDER: Generating sitemap.xml...
+20:06:13 [INFO] src.generators.sitemap:   [PASS] sitemap.xml with 327 URLs
+20:06:13 [INFO] src.generators.sitemap: No GOOGLE_INDEXING_API_KEY set. Skipping Google pings.
+20:06:13 [INFO] build: TASK DONE: Sitemap Builder — 0.02s — {'urls_in_sitemap': 327, 'google_pings_sent': 0, 'errors': 0}
+20:06:13 [INFO] build:   [PASS] dist/404.html fallback generated
+20:06:13 [INFO] build: Skipping PR infiltrator (--skip-pr or single-model mode)
+20:06:13 [INFO] build: 
+============================================================
+20:06:13 [INFO] build: BUILD COMPLETE — 0.98s
+20:06:13 [INFO] build:   Tasks OK   : 6
+20:06:13 [INFO] build:   Tasks FAIL : 0
+20:06:13 [INFO] build: ============================================================
+20:06:13 [INFO] build: Build report saved -> build_report.json
+21:02:33 [INFO] build: 🚀 GODMODE V8 BUILD PIPELINE STARTING
+21:02:33 [INFO] build:    Date: 2026-04-11 15:32 UTC
+21:02:33 [INFO] build:    Log : logs\build_20260411.log
+21:02:33 [INFO] build: 
+============================================================
+21:02:33 [INFO] build: TASK START: Homepage Generator
+21:02:33 [INFO] build: ============================================================
+21:02:33 [INFO] src.generators.homepage: ============================================================
+21:02:33 [INFO] src.generators.homepage: HOMEPAGE GENERATOR: Building index + compare pages...
+21:02:33 [INFO] src.generators.homepage:   [PASS] dist/index.html
+21:02:33 [INFO] src.generators.homepage:   [PASS] dist/compare/index.html
+21:02:33 [INFO] src.generators.homepage: Homepage generation complete: {'files_written': 2, 'errors': 0}
+21:02:33 [INFO] build: TASK DONE: Homepage Generator — 0.06s — {'files_written': 2, 'errors': 0}
+21:02:33 [INFO] build: Skipping price update (--skip-prices)
+21:02:34 [INFO] build: 
+============================================================
+21:02:34 [INFO] build: TASK START: Page Generator
+21:02:34 [INFO] build: ============================================================
+21:02:34 [INFO] src.generators.model_pages: ============================================================
+21:02:34 [INFO] src.generators.model_pages: PAGE GENERATOR: Starting Mega-Page generation...
+21:02:34 [ERROR] src.generators.model_pages: Groq initialisation failed: No Groq API keys found. Set GROQ_API_KEY_1 through GROQ_API_KEY_4 in .env
+21:02:34 [INFO] build: TASK DONE: Page Generator — 0.01s — {'generated': 0, 'skipped': 0, 'failed': 1, 'keys_exhausted': False}
+21:02:34 [INFO] build: 
+============================================================
+21:02:34 [INFO] build: TASK START: Versus Engine
+21:02:34 [INFO] build: ============================================================
+21:02:34 [INFO] build: TASK DONE: Versus Engine — 0.01s — {'generated': 0, 'skipped_limit': False}
+21:02:34 [INFO] build: 
+============================================================
+21:02:34 [INFO] build: TASK START: LLMs.txt Engine
+21:02:34 [INFO] build: ============================================================
+21:02:34 [INFO] src.generators.llms_txt: ============================================================
+21:02:34 [INFO] src.generators.llms_txt: LLMS.TXT ENGINE: Generating AI citation files...
+21:02:34 [INFO] src.generators.llms_txt:   Master llms.txt: 1 shard(s)
+21:02:34 [INFO] src.generators.llms_txt:   Provider-specific files: 50 providers
+21:02:34 [INFO] src.generators.llms_txt:   Master llms-full.txt (un-sharded) written.
+21:02:34 [INFO] src.generators.llms_txt: LLMs.txt generation complete: 58 files written.
+21:02:34 [INFO] build: TASK DONE: LLMs.txt Engine — 0.15s — {'files_written': 58, 'errors': 0}
+21:02:34 [INFO] build: Skipping config generation (--skip-configs)
+21:02:34 [INFO] build: 
+============================================================
+21:02:34 [INFO] build: TASK START: Report Generator
+21:02:34 [INFO] build: ============================================================
+21:02:34 [INFO] src.generators.market_report: ============================================================
+21:02:34 [INFO] src.generators.market_report: REPORT GENERATOR: Building daily market intelligence...
+21:02:34 [ERROR] src.generators.market_report: Groq unavailable for report: No Groq API keys found. Set GROQ_API_KEY_1 through GROQ_API_KEY_4 in .env
+21:02:34 [INFO] build: TASK DONE: Report Generator — 0.01s — {'report_generated': False, 'errors': 1}
+21:02:34 [INFO] build: 
+============================================================
+21:02:34 [INFO] build: TASK START: Sitemap Builder
+21:02:34 [INFO] build: ============================================================
+21:02:34 [INFO] src.generators.sitemap: ============================================================
+21:02:34 [INFO] src.generators.sitemap: SITEMAP BUILDER: Generating sitemap.xml...
+21:02:34 [INFO] src.generators.sitemap:   [PASS] sitemap.xml with 318 URLs
+21:02:34 [INFO] src.generators.sitemap: No GOOGLE_INDEXING_API_KEY set. Skipping Google pings.
+21:02:34 [INFO] build: TASK DONE: Sitemap Builder — 0.02s — {'urls_in_sitemap': 318, 'google_pings_sent': 0, 'errors': 0}
+21:02:34 [INFO] build:   [PASS] dist/404.html fallback generated
+21:02:34 [INFO] build: Skipping PR infiltrator (--skip-pr or single-model mode)
+21:02:34 [INFO] build: 
+============================================================
+21:02:34 [INFO] build: BUILD COMPLETE — 0.88s
+21:02:34 [INFO] build:   Tasks OK   : 6
+21:02:34 [INFO] build:   Tasks FAIL : 0
+21:02:34 [INFO] build: ============================================================
+21:02:34 [INFO] build: Build report saved -> build_report.json

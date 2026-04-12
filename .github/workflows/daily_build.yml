@@ -69,6 +69,36 @@ jobs:
         continue-on-error: true     # Don't fail the workflow if nothing changed
 
 
+      # ── 6.5 Deploy to Cloudflare Pages ───────────────────────────────
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: llmcosts
+          directory: dist/
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+        continue-on-error: true
+
+      # ── 7. Deploy to HuggingFace Spaces (SEO Parasite) ────────────────
+      - name: Sync to HuggingFace Space
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          if [ -z "$HF_TOKEN" ]; then
+            echo "Skipping HuggingFace sync (HF_TOKEN not set)"
+            exit 0
+          fi
+          git clone https://oauth2:${HF_TOKEN}@huggingface.co/spaces/DIVYAPRATAP07/llmcosts
+          cp -r dist/* llmcosts/
+          cd llmcosts
+          git config user.name "LLMCosts Bot"
+          git config user.email "bot@llmcosts.dev"
+          git add .
+          git diff --cached --quiet || git commit -m "Auto-sync from GitHub $(date -u '+%Y-%m-%d')"
+          git push origin main
+        continue-on-error: true
 
       # ── 8. Upload Build Log as Artifact ──────────────────────────────
       - name: Upload build logs
