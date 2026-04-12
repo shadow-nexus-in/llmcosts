@@ -112,6 +112,16 @@ def main() -> int:
     args = parser.parse_args()
 
     build_start = time.monotonic()
+    
+    # ── UNIVERSAL CLOUDFLARE BYPASS ──
+    # If Cloudflare Pages runs this file during a git sync, it will instantly exit.
+    # This forces Cloudflare to deploy the pre-generated static dist/ folder instead of 
+    # attempting a rebuild without Groq API keys and failing the deployment.
+    if os.getenv("CF_PAGES") == "1":
+        logger.info("Detected Cloudflare Pages build environment.")
+        logger.info("Universal Bypass Engaged: Skipping duplicate rebuild. Serving GitHub dist/ directly.")
+        return 0
+
     logger.info("🚀 GODMODE V8 BUILD PIPELINE STARTING")
     logger.info(f"   Date: {time.strftime('%Y-%m-%d %H:%M UTC', time.gmtime())}")
     logger.info(f"   Log : {LOG_FILE}")

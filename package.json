@@ -1,0 +1,6 @@
+{
+  "name": "llmcosts",
+  "scripts": {
+    "build": "echo 'Bypassing Cloudflare build. Deploying pre-generated static dist folder directly...'"
+  }
+}
