@@ -1,6 +1,6 @@
 # LLMCosts.dev — Cognitivecomputations Models Pricing
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-04-11
+> Updated: 2026-04-12
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]

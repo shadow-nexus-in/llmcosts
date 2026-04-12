@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://llmcosts.dev/models/llama-3-2-3b-instruct">
 
   <!-- Schema.org: Dataset -->
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Llama 3.2 3B Instruct API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Llama 3.2 3B Instruct by Meta.", "url": "https://llmcosts.dev/models/llama-3-2-3b-instruct", "keywords": ["Llama 3.2 3B Instruct", "Meta", "open-source", "self-hostable", "ultra-budget", "edge", "meta"], "dateModified": "2026-04-11", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Llama 3.2 3B Instruct API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Llama 3.2 3B Instruct by Meta.", "url": "https://llmcosts.dev/models/llama-3-2-3b-instruct", "keywords": ["Llama 3.2 3B Instruct", "Meta", "open-source", "self-hostable", "ultra-budget", "edge", "meta"], "dateModified": "2026-04-12", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
   <!-- Schema.org: FAQ -->
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
 
@@ -42,25 +42,25 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --bg-primary: #0a0a0f;
-      --bg-secondary: #111118;
-      --bg-card: #16161f;
-      --bg-card-hover: #1d1d2a;
-      --border: #1e1e2e;
-      --border-bright: #2d2d45;
-      --text-primary: #e8e8f0;
-      --text-secondary: #8888aa;
-      --text-muted: #555577;
-      --accent-blue: #5b8af5;
-      --accent-purple: #9b59f5;
-      --accent-green: #3effa0;
-      --accent-orange: #ff9f43;
-      --accent-red: #ff4757;
-      --gradient-hero: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-      --gradient-card: linear-gradient(135deg, rgba(91,138,245,0.1) 0%, rgba(155,89,245,0.05) 100%);
-      --shadow-card: 0 4px 24px rgba(0,0,0,0.4);
-      --radius: 12px;
-      --radius-sm: 8px;
+      --bg-primary: #050508;
+      --bg-secondary: #0d0d14;
+      --bg-card: rgba(20, 20, 30, 0.4);
+      --bg-card-hover: rgba(35, 35, 50, 0.6);
+      --border: rgba(255, 255, 255, 0.08);
+      --border-bright: rgba(255, 255, 255, 0.15);
+      --text-primary: #f8f8fc;
+      --text-secondary: #9a9ab5;
+      --text-muted: #656588;
+      --accent-blue: #6d9efa;
+      --accent-purple: #b37afc;
+      --accent-green: #4effb0;
+      --accent-orange: #ffb15c;
+      --accent-red: #ff5e70;
+      --gradient-hero: radial-gradient(circle at 50% -20%, rgba(109,158,250,0.15), transparent 60%), radial-gradient(circle at 100% 10%, rgba(179,122,252,0.1), transparent 50%), transparent;
+      --gradient-card: linear-gradient(135deg, rgba(109,158,250,0.05) 0%, rgba(179,122,252,0.05) 100%);
+      --shadow-card: 0 8px 32px rgba(0,0,0,0.6);
+      --radius: 16px;
+      --radius-sm: 10px;
       --font-mono: 'JetBrains Mono', monospace;
     }
 
@@ -72,11 +72,11 @@
       min-height: 100vh;
     }
 
-    /* ── Navigation ── */
+    /* ── Navigation (Glassmorphism) ── */
     nav {
       position: sticky; top: 0; z-index: 100;
-      background: rgba(10,10,15,0.9);
-      backdrop-filter: blur(20px);
+      background: rgba(5,5,8,0.7);
+      backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px);
       border-bottom: 1px solid var(--border);
       padding: 0 1.5rem;
     }
@@ -86,17 +86,19 @@
       height: 60px;
     }
     .nav-logo {
-      font-size: 1.1rem; font-weight: 700;
-      background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+      font-size: 1.25rem; font-weight: 800; letter-spacing: -0.02em;
+      background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple), var(--accent-green));
+      background-size: 200% auto; animation: gradientShift 4s linear infinite;
       -webkit-background-clip: text; -webkit-text-fill-color: transparent;
       text-decoration: none;
     }
+    @keyframes gradientShift { 0% {background-position: 0% 50%;} 50% {background-position: 100% 50%;} 100% {background-position: 0% 50%;} }
     .nav-links { display: flex; gap: 1.5rem; }
     .nav-links a {
       color: var(--text-secondary); text-decoration: none; font-size: 0.875rem;
-      transition: color 0.2s;
+      transition: color 0.3s; font-weight: 500;
     }
-    .nav-links a:hover { color: var(--text-primary); }
+    .nav-links a:hover { color: var(--text-primary); text-shadow: 0 0 10px rgba(255,255,255,0.3); }
 
     /* ── Hero ── */
     .hero {
@@ -344,13 +346,13 @@
       <div class="card content-section">
         <div class="card-title">Overview</div>
         <div>### Introduction to Llama 3.2 3B Instruct
-The Llama 3.2 3B Instruct model, released by Meta on 2024-09-25, is a budget-friendly, open-source language model designed for a variety of natural language processing tasks. With its architecture based on the meta-llama/llama-3.2-3b-instruct framework, this model offers a unique blend of affordability and performance. Its main strengths include a large context window of 131,072 tokens, allowing it to process and understand lengthy pieces of text, and a maximum output of 8,192 tokens, enabling it to generate comprehensive responses.
+The Llama 3.2 3B Instruct model, released by Meta on 2024-09-25, is an open-source, budget-friendly language model designed for a variety of applications. With its architecture based on the Llama 3.2 framework, this model boasts a context window of 131,072 tokens and can generate up to 8,192 tokens of output. Its knowledge cutoff is 2023-12, ensuring it has a broad understanding of information up to that point. The model is priced at $0.06 per 1M tokens for both input and output, making it an attractive option for developers looking for cost-effective solutions.
 
-### Technical Specifications and Use Cases
-From a technical standpoint, Llama 3.2 3B Instruct is priced at $0.06 per 1M tokens for both input and output, with no additional costs for cached input or batch input. The model excels in tasks such as edge deployment, simple chatbots, bulk cheap tasks, on-device inference, and simple classification, thanks to its capabilities in text, function calling, streaming, and system prompts. However, it is not recommended for complex reasoning, vision, frontier-quality tasks, long documents, or coding due to its limitations. The model's performance is backed by benchmark scores, including an MMLU score of 87.0, an LMSYS Arena ELO of 1270, and a GSM8K score of 77.7, demonstrating its reliability in specific domains.
+### Technical Capabilities and Use Cases
+Llama 3.2 3B Instruct supports several key capabilities, including text processing, function calling, streaming, and system prompts. These features make it well-suited for applications such as edge deployment, simple chatbots, bulk cheap tasks, on-device inference, and simple classification tasks. The model has demonstrated strong performance in various benchmarks, with scores of 87.0 on MMLU, 77.7 on GSM8K, and an LMSYS Arena ELO of 1270. However, it is not recommended for complex reasoning, vision tasks, frontier-quality applications, long documents, or coding tasks. Developers can leverage this model for tasks that require efficient and affordable language processing, with cost examples including $0.06 for 1,000 calls (avg 500 tokens), $0.6 for 10,000 calls, and $6.0 for 100,000 calls.
 
-### Pricing and Competitiveness
-In terms of pricing, Llama 3.2 3B Instruct offers a competitive edge, with cost examples showing that 1,000 calls (averaging 500 tokens) would cost $0.06, 10,000 calls would cost $0.6, and 100,000 calls would cost $6.0. Compared to its top competitors, such as Llama</div>
+### Comparison and Pricing
+In comparison to its competitors, Llama 3.2 3B Instruct offers competitive pricing, with Llama 3.1 8B Instruct and Phi-4 priced at $0.07/1M input and $</div>
       </div>
 
       <!-- PRICING -->
@@ -391,19 +393,24 @@ In terms of pricing, Llama 3.2 3B Instruct offers a competitive edge, with cost 
 
         <div style="margin-top:1.5rem">### Llama 3.2 3B Instruct Pricing Analysis
 #### Overview
-The Llama 3.2 3B Instruct model, released by Meta on 2024-09-25, is a budget-friendly option with a tier classification of "budget" and is open-source. This analysis will delve into the cost structure, optimal usage scenarios, and cost savings at scale.
+The Llama 3.2 3B Instruct model, released by Meta on 2024-09-25, offers a cost-effective solution for various natural language processing tasks. This analysis will delve into the cost structure, provide guidance on when to utilize cached tokens, discuss batch API savings, and examine the cost at scale for 1,000, 10,000, and 100,000 API calls.
 
 #### Cost Structure
 The pricing for Llama 3.2 3B Instruct is as follows:
 * Input: **$0.06 per 1M tokens**
 * Output: **$0.06 per 1M tokens**
-* Cached Input: **$0.00 per 1M tokens** (free)
-* Batch Input: **$0.00 per 1M tokens** (free)
+* Cached Input: **$None per 1M tokens** (free)
+* Batch Input: **$None per 1M tokens** (free)
 
-#### Optimal Usage Scenarios
-To minimize costs, consider the following strategies:
-* **Use cached tokens**: Since cached input is free, leverage this feature whenever possible to reduce input costs.
-* **Batch API calls**: With batch input being free, grouping multiple requests together can lead to significant cost savings.
+#### Cached Tokens
+Cached input tokens are free, making it an attractive option for applications with repetitive or similar input sequences. Utilize cached tokens when:
+* Input data is repetitive or has a high degree of similarity
+* Applications require frequent queries with minimal input variation
+
+#### Batch API Savings
+Although batch input is free, the primary cost savings come from reduced overhead and increased efficiency. Batch API calls are ideal for:
+* High-volume processing tasks
+* Applications with multiple, similar input sequences
 
 #### Cost at Scale
 The cost of using Llama 3.2 3B Instruct at scale is as follows:
@@ -411,12 +418,10 @@ The cost of using Llama 3.2 3B Instruct at scale is as follows:
 * **10,000 calls**: **$0.6**
 * **100,000 calls**: **$6.0**
 
-These costs are based on the average number of tokens per call and can be used to estimate the total cost of using the model for large-scale applications.
+These costs demonstrate a linear scaling of expenses, with no economies of scale or discounts for large volumes.
 
-#### Comparison to Top Competitors
-Llama 3.2 3B Instruct is priced competitively with other models in the market:
-* **Llama 3.1 8B Instruct**: $0.07/1M input, $0.07/1M output
-* **Phi-4**: $0.07</div>
+#### Comparison to Competitors
+Llama 3.2 3B Instruct is competitively priced compared to other models</div>
       </div>
 
       <!-- BENCHMARKS -->
@@ -427,18 +432,15 @@ Llama 3.2 3B Instruct is priced competitively with other models in the market:
           <div class="stat-cell"><div class="stat-label">HumanEval</div><div class="stat-value">None</div></div>
           <div class="stat-cell"><div class="stat-label">LMSYS ELO</div><div class="stat-value">1270</div></div>
         </div>
-        <div>### Llama 3.2 3B Instruct Benchmark Performance Analysis
-#### Overview
-The Llama 3.2 3B Instruct model, released by Meta on 2024-09-25, is a budget-friendly, open-source option with a context window of 131,072 tokens and a maximum output of 8,192 tokens. This analysis will delve into the model's benchmark performance, focusing on the MMLU, HumanEval, and Arena ELO scores, to understand its capabilities and limitations in real-world applications.
+        <div>### Analysis of Llama 3.2 3B Instruct Benchmark Performance
+The Llama 3.2 3B Instruct model, released by Meta on 2024-09-25, is a budget-friendly, open-source option with a tier classification of "budget". This model is priced at $0.06 per 1M tokens for both input and output.
 
 #### Benchmark Scores
-The model's benchmark scores are as follows:
-* **MMLU: 87.0** - The MMLU (Measuring Massive Multitask Language Understanding) score evaluates a model's ability to understand and generate human-like text across various tasks. A higher score indicates better performance. With a score of 87.0, Llama 3.2 3B Instruct demonstrates strong language understanding capabilities.
-* **HumanEval: None** - HumanEval is a benchmark that assesses a model's ability to write correct and functional code. Unfortunately, no HumanEval score is available for this model, making it difficult to evaluate its coding capabilities.
-* **LMSYS Arena ELO: 1270** - The LMSYS Arena ELO score measures a model's performance in a competitive environment, where it is pitted against other models. An ELO score of 1270 indicates that Llama 3.2 3B Instruct is a relatively strong model, but its performance may vary depending on the specific task and competition.
-
-#### Real-World Implications
-The benchmark scores suggest that Llama 3.2 3</div>
+The model's performance is measured by several benchmark scores:
+* **MMLU (Massive Multitask Language Understanding) Score: 87.0** - This score indicates the model's ability to understand and process natural language across a wide range of tasks. A higher MMLU score suggests better language understanding capabilities.
+* **HumanEval Score: None** - HumanEval is a benchmark that evaluates a model's ability to generate correct code based on human-written prompts. The absence of a HumanEval score for Llama 3.2 3B Instruct may indicate limitations in its coding capabilities.
+* **LMSYS Arena ELO Score: 1270** - The LMSYS Arena ELO score is a measure of a model's performance in a competitive environment, where it is pitted against other models. A higher ELO score indicates better performance. An ELO score of 1270 suggests that Llama 3.2 3B Instruct is a moderately strong model.
+* **GSM8K Score: 77.7** - The GSM8K (Grade School Math) benchmark evaluates a model's ability to solve math problems at a grade school level. A score of 77.7 indicates that Llama 3.2 3B Instruct has reasonable math problem-solving</div>
       </div>
 
       <!-- COMPETITOR TABLE -->
@@ -476,7 +478,7 @@ The benchmark scores suggest that Llama 3.2 3</div>
         </div>
         <div style="margin-top:1.5rem">### Llama 3.2 3B Instruct Comparison
 #### Overview
-The Llama 3.2 3B Instruct model, released by Meta on 2024-09-25, is a budget-friendly, open-source option for various natural language processing tasks. This comparison will examine its pricing, performance, and use cases against its top competitors, Llama 3.1 8B Instruct and Phi-4.
+The Llama 3.2 3B Instruct model, released by Meta on 2024-09-25, is a budget-friendly, open-source option for various natural language processing tasks. This comparison will examine its pricing, performance, and capabilities against its top competitors, Llama 3.1 8B Instruct and Phi-4.
 
 #### Pricing Comparison
 The pricing for each model is as follows:
@@ -490,7 +492,7 @@ The pricing for each model is as follows:
 	+ Input: $0.07 per 1M tokens
 	+ Output: $0.14 per 1M tokens
 
-Llama 3.2 3B Instruct offers the most competitive pricing among the three models, with a 14% reduction in input costs and a 57% reduction in output costs compared to Phi-4.
+The Llama 3.2 3B Instruct model offers the most competitive pricing, with a 14% reduction in input costs and a 57% reduction in output costs compared to Phi-4.
 
 #### Performance Comparison
 The performance of each model can be evaluated using various benchmarks:
@@ -507,26 +509,36 @@ The performance of each model can be evaluated using various benchmarks:
 	+ Llama 3.1 8B Instruct: Not provided
 	+ Phi-4: Not provided
 
-While the performance data for Llama 3.1 8B Instruct and Phi-4 is not provided, Llama 3.2 3B Instruct demonstrates strong performance in the MMLU, LMSYS Arena ELO, and GSM8K benchmarks.
+While the performance data for Llama 3.1 8B Instruct and Phi-4 is not provided, the Llama 3.2 3B Instruct model demonstrates strong performance in the MMLU, LMSYS Arena ELO, and GSM8K benchmarks.
 
-#### Context and Limits
-The context window and output limits</div>
+#### Capabilities and Use Cases
+The Llama 3</div>
       </div>
 
       <!-- USE CASES -->
       <div class="card content-section">
         <div class="card-title">Best Use Cases</div>
         <div>### Introduction to Llama 3.2 3B Instruct
-The Llama 3.2 3B Instruct model, released by Meta on 2024-09-25, is a budget-friendly and open-source option for various natural language processing tasks. With its capabilities in text, function calling, streaming, and system prompts, it's best suited for edge deployment, simple chatbots, bulk cheap tasks, on-device inference, and simple classification.
+The Llama 3.2 3B Instruct model, released by Meta on 2024-09-25, is a budget-friendly and open-source option for various natural language processing tasks. With its capabilities in text, function calling, streaming, and system prompts, it is best suited for edge deployment, simple chatbots, bulk cheap tasks, on-device inference, and simple classification.
 
 ### Top 5 Best Use Cases for Llama 3.2 3B Instruct
-Based on its capabilities and limitations, here are the top 5 best use cases for Llama 3.2 3B Instruct:
+#### 1. Simple Chatbots
+Llama 3.2 3B Instruct is ideal for building simple chatbots that can understand and respond to basic user queries. Its low pricing of $0.06 per 1M tokens for both input and output makes it an attractive option for developers.
 
-1. **Simple Chatbots**: Llama 3.2 3B Instruct is well-suited for simple chatbot applications, such as customer support or basic conversational interfaces. Its ability to understand and respond to user input makes it an ideal choice for this use case.
-2. **Edge Deployment**: With its budget-friendly pricing and open-source nature, Llama 3.2 3B Instruct is a great option for edge deployment scenarios, such as IoT devices or mobile apps, where resources are limited.
-3. **Bulk Cheap Tasks**: For tasks that require processing large amounts of text data, such as data preprocessing or text classification, Llama 3.2 3B Instruct is a cost-effective option. Its pricing of $0.06 per 1M tokens for input and output makes it an attractive choice for bulk tasks.
-4. **On-Device Inference**: Llama 3.2 3B Instruct's ability to perform on-device inference makes it suitable for applications that require real-time processing, such as speech recognition or language translation.
-5. **Simple Classification**: For simple classification tasks, such as spam detection or sentiment analysis, Llama 3.2 3B Instruct is a good choice. Its</div>
+#### 2. Edge Deployment
+The model's ability to perform on-device inference makes it suitable for edge deployment, where data processing needs to occur in real-time. This can be particularly useful in applications such as voice assistants or smart home devices.
+
+#### 3. Bulk Cheap Tasks
+Llama 3.2 3B Instruct is well-suited for bulk tasks that require simple text processing, such as data cleaning or text classification. Its low pricing and ability to handle large volumes of data make it an excellent choice for these types of tasks.
+
+#### 4. Simple Classification
+The model can be used for simple classification tasks, such as spam detection or sentiment analysis. Its capabilities in text processing and low pricing make it an attractive option for developers.
+
+#### 5. On-Device Inference
+Llama 3.2 3B Instruct's ability to perform on-device inference makes it suitable for applications that require real-time data processing, such as language translation or text summarization.
+
+### Code Integration Example with OpenRouter
+To integrate Llama 3.2 3B Instruct with</div>
       </div>
 
       <!-- CAPABILITIES -->

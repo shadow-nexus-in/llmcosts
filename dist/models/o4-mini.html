@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OpenAI o4-mini API Pricing & Analysis 2026 | LLMCosts.dev</title>
+  <meta name="description" content="Complete OpenAI o4-mini pricing, benchmarks, and API cost analysis. Input: $1.1000/1M tokens. Updated daily by LLMCosts.dev.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://llmcosts.dev/models/o4-mini">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="OpenAI o4-mini API Pricing | LLMCosts.dev">
+  <meta property="og:description" content="Input: $1.1000/1M | Output: $4.4000/1M. Full benchmark analysis.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://llmcosts.dev/models/o4-mini">
+
+  <!-- Schema.org: Dataset -->
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "OpenAI o4-mini API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for OpenAI o4-mini by OpenAI.", "url": "https://llmcosts.dev/models/o4-mini", "keywords": ["OpenAI o4-mini", "OpenAI", "reasoning", "coding", "math", "efficient", "openai"], "dateModified": "2026-04-12", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <!-- Schema.org: FAQ -->
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
+
+  <!-- Schema.org: SoftwareApplication (SEO Parasite Trap) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "LLMCosts API Routing Config with $200 DO Promo",
+    "operatingSystem": "All",
+    "applicationCategory": "DeveloperApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "0.00",
+      "priceCurrency": "USD",
+      "url": "https://m.do.co/c/0c99ee"
+    }
+  }
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg-primary: #050508;
+      --bg-secondary: #0d0d14;
+      --bg-card: rgba(20, 20, 30, 0.4);
+      --bg-card-hover: rgba(35, 35, 50, 0.6);
+      --border: rgba(255, 255, 255, 0.08);
+      --border-bright: rgba(255, 255, 255, 0.15);
+      --text-primary: #f8f8fc;
+      --text-secondary: #9a9ab5;
+      --text-muted: #656588;
+      --accent-blue: #6d9efa;
+      --accent-purple: #b37afc;
+      --accent-green: #4effb0;
+      --accent-orange: #ffb15c;
+      --accent-red: #ff5e70;
+      --gradient-hero: radial-gradient(circle at 50% -20%, rgba(109,158,250,0.15), transparent 60%), radial-gradient(circle at 100% 10%, rgba(179,122,252,0.1), transparent 50%), transparent;
+      --gradient-card: linear-gradient(135deg, rgba(109,158,250,0.05) 0%, rgba(179,122,252,0.05) 100%);
+      --shadow-card: 0 8px 32px rgba(0,0,0,0.6);
+      --radius: 16px;
+      --radius-sm: 10px;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    /* ── Navigation (Glassmorphism) ── */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(5,5,8,0.7);
+      backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 1.5rem;
+    }
+    .nav-inner {
+      max-width: 1200px; margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 60px;
+    }
+    .nav-logo {
+      font-size: 1.25rem; font-weight: 800; letter-spacing: -0.02em;
+      background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple), var(--accent-green));
+      background-size: 200% auto; animation: gradientShift 4s linear infinite;
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      text-decoration: none;
+    }
+    @keyframes gradientShift { 0% {background-position: 0% 50%;} 50% {background-position: 100% 50%;} 100% {background-position: 0% 50%;} }
+    .nav-links { display: flex; gap: 1.5rem; }
+    .nav-links a {
+      color: var(--text-secondary); text-decoration: none; font-size: 0.875rem;
+      transition: color 0.3s; font-weight: 500;
+    }
+    .nav-links a:hover { color: var(--text-primary); text-shadow: 0 0 10px rgba(255,255,255,0.3); }
+
+    /* ── Hero ── */
+    .hero {
+      background: var(--gradient-hero);
+      padding: 4rem 1.5rem 3rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .hero-inner { max-width: 1200px; margin: 0 auto; }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      background: rgba(91,138,245,0.15);
+      border: 1px solid rgba(91,138,245,0.3);
+      border-radius: 999px; padding: 0.25rem 0.75rem;
+      font-size: 0.75rem; color: var(--accent-blue);
+      margin-bottom: 1.5rem;
+    }
+    .hero-badge::before { content: "●"; animation: pulse 2s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+    h1 {
+      font-size: clamp(2rem, 5vw, 3rem); font-weight: 700; line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+    h1 span {
+      background: linear-gradient(135deg, var(--accent-blue) 0%, var(--accent-purple) 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .hero-meta {
+      display: flex; flex-wrap: wrap; gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    .meta-pill {
+      display: flex; align-items: center; gap: 0.375rem;
+      background: rgba(255,255,255,0.05); border: 1px solid var(--border-bright);
+      border-radius: var(--radius-sm); padding: 0.375rem 0.75rem;
+      font-size: 0.8rem; color: var(--text-secondary);
+    }
+    .meta-pill strong { color: var(--text-primary); }
+
+    /* ── Layout ── */
+    .page-body { max-width: 1200px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+    .two-col { display: grid; grid-template-columns: 1fr 340px; gap: 2rem; align-items: start; }
+    @media (max-width: 900px) { .two-col { grid-template-columns: 1fr; } }
+
+    /* ── Cards ── */
+    .card {
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 1.75rem;
+      box-shadow: var(--shadow-card);
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .card:hover { border-color: var(--border-bright); transform: translateY(-1px); }
+    .card + .card { margin-top: 1.5rem; }
+    .card-title {
+      font-size: 0.7rem; font-weight: 600; letter-spacing: 0.1em;
+      text-transform: uppercase; color: var(--text-muted);
+      margin-bottom: 1.25rem;
+    }
+
+    /* ── Pricing Table ── */
+    .price-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 1rem; margin-bottom: 1.5rem;
+    }
+    .price-cell {
+      background: var(--gradient-card);
+      border: 1px solid var(--border-bright);
+      border-radius: var(--radius-sm); padding: 1rem; text-align: center;
+    }
+    .price-label { font-size: 0.7rem; color: var(--text-muted); margin-bottom: 0.5rem; }
+    .price-value {
+      font-family: var(--font-mono); font-size: 1.25rem; font-weight: 600;
+      color: var(--accent-green);
+    }
+
+    /* ── Stats Row ── */
+    .stats-row {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+      gap: 0.75rem; margin-bottom: 1.5rem;
+    }
+    .stat-cell {
+      background: var(--bg-secondary); border: 1px solid var(--border);
+      border-radius: var(--radius-sm); padding: 0.875rem; text-align: center;
+    }
+    .stat-label { font-size: 0.65rem; color: var(--text-muted); margin-bottom: 0.25rem; }
+    .stat-value { font-family: var(--font-mono); font-size: 0.9rem; font-weight: 600; color: var(--accent-blue); }
+
+    /* ── Cost Examples ── */
+    .cost-table { width: 100%; border-collapse: collapse; font-size: 0.875rem; }
+    .cost-table th, .cost-table td {
+      padding: 0.75rem 1rem; text-align: left;
+      border-bottom: 1px solid var(--border);
+    }
+    .cost-table th { color: var(--text-muted); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; }
+    .cost-table tr:last-child td { border-bottom: none; }
+    .cost-table td:last-child { font-family: var(--font-mono); color: var(--accent-green); text-align: right; }
+
+    /* ── Data Table ── */
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.875rem; overflow-x: auto; display: block; }
+    .data-table th, .data-table td {
+      padding: 0.75rem 1rem; text-align: left;
+      border-bottom: 1px solid var(--border); white-space: nowrap;
+    }
+    .data-table th { color: var(--text-muted); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; background: var(--bg-secondary); }
+    .data-table tr:hover td { background: var(--bg-card-hover); }
+    .data-table a { color: var(--accent-blue); text-decoration: none; }
+    .data-table a:hover { text-decoration: underline; }
+
+    /* ── Content Sections ── */
+    .content-section { margin-bottom: 2rem; }
+    .content-section h2 {
+      font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem;
+      color: var(--text-primary);
+      padding-bottom: 0.5rem; border-bottom: 1px solid var(--border);
+    }
+    .content-section p { color: var(--text-secondary); margin-bottom: 0.75rem; font-size: 0.9375rem; }
+
+    /* ── FAQ Section ── */
+    .faq-section { margin-top: 2.5rem; }
+    .faq-section h2 { font-size: 1.5rem; font-weight: 700; margin-bottom: 1.5rem; }
+    .faq-item {
+      border-bottom: 1px solid var(--border); padding: 1.25rem 0;
+    }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-question { font-size: 1rem; font-weight: 600; color: var(--text-primary); margin-bottom: 0.5rem; }
+    .faq-answer { font-size: 0.9rem; color: var(--text-secondary); }
+
+    /* ── Sidebar ── */
+    .sidebar-card {
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 1.5rem;
+      box-shadow: var(--shadow-card);
+    }
+    .sidebar-card + .sidebar-card { margin-top: 1.25rem; }
+
+    /* ── CTA Button ── */
+    .cta-btn {
+      display: block; width: 100%; padding: 0.875rem 1.5rem;
+      background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+      color: #fff; font-weight: 600; font-size: 0.9rem;
+      text-align: center; text-decoration: none;
+      border-radius: var(--radius-sm); border: none; cursor: pointer;
+      transition: opacity 0.2s, transform 0.15s;
+      margin-bottom: 0.75rem;
+    }
+    .cta-btn:hover { opacity: 0.88; transform: translateY(-1px); }
+    .cta-secondary {
+      display: block; width: 100%; padding: 0.75rem 1.5rem;
+      background: transparent;
+      border: 1px solid var(--border-bright);
+      color: var(--text-secondary); font-size: 0.875rem;
+      text-align: center; text-decoration: none;
+      border-radius: var(--radius-sm);
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .cta-secondary:hover { border-color: var(--accent-blue); color: var(--text-primary); }
+
+    /* ── Badges ── */
+    .badge {
+      display: inline-block; padding: 0.2rem 0.5rem;
+      border-radius: 4px; font-size: 0.7rem; font-weight: 600;
+    }
+    .badge-green { background: rgba(62,255,160,0.15); color: var(--accent-green); }
+    .badge-blue { background: rgba(91,138,245,0.15); color: var(--accent-blue); }
+    .badge-orange { background: rgba(255,159,67,0.15); color: var(--accent-orange); }
+    .badge-red { background: rgba(255,71,87,0.15); color: var(--accent-red); }
+
+    /* ── Capabilities ── */
+    .cap-list { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .cap-tag {
+      background: rgba(91,138,245,0.1); border: 1px solid rgba(91,138,245,0.2);
+      border-radius: 999px; padding: 0.25rem 0.625rem;
+      font-size: 0.7rem; color: var(--accent-blue);
+    }
+
+    /* ── Verified Badge ── */
+    .verified-row {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 0.5rem; font-size: 0.75rem; color: var(--text-muted);
+      margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border);
+    }
+    .verified-row .dot-green { color: var(--accent-green); }
+
+    /* ── Footer ── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 2rem 1.5rem; text-align: center;
+      color: var(--text-muted); font-size: 0.8rem;
+    }
+    footer a { color: var(--text-secondary); text-decoration: none; }
+    footer a:hover { color: var(--text-primary); }
+
+    /* ── Trend Arrow ── */
+    .trend-down { color: var(--accent-green); }
+    .trend-up { color: var(--accent-red); }
+    .trend-stable { color: var(--text-muted); }
+
+    /* ── Responsive ── */
+    @media (max-width: 640px) {
+      .price-grid { grid-template-columns: 1fr 1fr; }
+      .hero { padding: 2.5rem 1rem 2rem; }
+      .page-body { padding: 1.5rem 1rem 3rem; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">⚡ LLMCosts.dev</a>
+    <div class="nav-links">
+      <a href="/compare">Compare</a>
+      <a href="/configs">Configs</a>
+      <a href="/daily-report">Market Report</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-inner">
+    <div class="hero-badge">Live Pricing · Updated 2026-04-09</div>
+    <h1>OpenAI o4-mini <span>API Pricing</span></h1>
+    <p style="color:var(--text-secondary); font-size:1.0625rem; max-width:600px;">
+      Complete pricing breakdown, benchmark analysis, and competitor comparison for
+      OpenAI o4-mini by OpenAI. Confidence: medium.
+    </p>
+    <div class="hero-meta">
+      <div class="meta-pill">Input <strong>$1.1000/1M</strong></div>
+      <div class="meta-pill">Output <strong>$4.4000/1M</strong></div>
+      <div class="meta-pill">Context <strong>200,000 tokens</strong></div>
+      <div class="meta-pill">ELO <strong>1320</strong></div>
+      <div class="meta-pill">Tier <strong>standard</strong></div>
+    </div>
+  </div>
+</div>
+
+<!-- PAGE BODY -->
+<div class="page-body">
+  <div class="two-col">
+
+    <!-- LEFT COLUMN -->
+    <div class="main-content">
+
+      <!-- OVERVIEW -->
+      <div class="card content-section">
+        <div class="card-title">Overview</div>
+        <div>### Introduction to OpenAI o4-mini
+The OpenAI o4-mini model, released on 2025-04-16, is a standard-tier language model provided by OpenAI. This model is not open-source. From an architectural standpoint, the o4-mini is designed to handle complex tasks with its 200,000 token context window and ability to generate up to 100,000 tokens as output. Its knowledge cutoff is 2025-01, ensuring it has a robust understanding of information up to that point.
+
+### Strengths and Use Cases
+OpenAI o4-mini demonstrates strong capabilities in areas such as complex reasoning, coding, math, science, and function calling, as evidenced by its high benchmark scores: MMLU at 85.3, HumanEval at 93.7, LMSYS Arena ELO at 1320, and GSM8K at 97.4. These strengths make it particularly suited for tasks that require in-depth analysis, problem-solving, and the ability to understand and generate structured outputs. The model supports various features like text processing, function calling, JSON mode, and streaming, making it versatile for developers looking to integrate advanced language processing into their applications.
+
+### Pricing and Cost Considerations
+The pricing for OpenAI o4-mini is structured as follows: $1.1 per 1M tokens for input, $4.4 per 1M tokens for output, with discounted rates of $0.55 per 1M tokens for both cached input and batch input. For example, 1,000 calls averaging 500 tokens each would cost approximately $2.75. In comparison to its competitors, such as OpenAI o3-mini and Gemini 2.5 Pro, the o4-mini offers competitive pricing, especially considering its capabilities and performance benchmarks. However, it's not recommended for simple tasks, vision-related tasks, or applications requiring real-time responses under 100ms or bulk processing at the cheapest rates possible.</div>
+      </div>
+
+      <!-- PRICING -->
+      <div class="card">
+        <div class="card-title">Pricing Breakdown</div>
+        <div class="price-grid">
+          <div class="price-cell">
+            <div class="price-label">Input</div>
+            <div class="price-value">$1.1000</div>
+            <div style="font-size:0.65rem;color:var(--text-muted);margin-top:0.25rem">per 1M tokens</div>
+          </div>
+          <div class="price-cell">
+            <div class="price-label">Output</div>
+            <div class="price-value">$4.4000</div>
+            <div style="font-size:0.65rem;color:var(--text-muted);margin-top:0.25rem">per 1M tokens</div>
+          </div>
+          <div class="price-cell">
+            <div class="price-label">Cached Input</div>
+            <div class="price-value" style="color:var(--accent-purple)">$0.5500</div>
+            <div style="font-size:0.65rem;color:var(--text-muted);margin-top:0.25rem">per 1M tokens</div>
+          </div>
+          <div class="price-cell">
+            <div class="price-label">Batch Input</div>
+            <div class="price-value" style="color:var(--accent-orange)">$0.5500</div>
+            <div style="font-size:0.65rem;color:var(--text-muted);margin-top:0.25rem">per 1M tokens</div>
+          </div>
+        </div>
+
+        <div class="card-title" style="margin-top:1.5rem">Cost at Scale</div>
+        <table class="cost-table">
+          <thead><tr><th>Volume</th><th>Avg 500 tokens/call</th><th>Total Cost</th></tr></thead>
+          <tbody>
+            <tr><td>1,000 API calls</td><td>500K tokens</td><td>$2.75</td></tr>
+            <tr><td>10,000 API calls</td><td>5M tokens</td><td>$27.5</td></tr>
+            <tr><td>100,000 API calls</td><td>50M tokens</td><td>$275.0</td></tr>
+          </tbody>
+        </table>
+
+        <div style="margin-top:1.5rem">### Pricing Analysis for OpenAI o4-mini
+#### Overview
+The OpenAI o4-mini model, released on 2025-04-16, is a standard, non-open-source model provided by OpenAI. This analysis will delve into the cost structure, optimal usage scenarios, and cost savings at scale for the o4-mini model.
+
+#### Cost Structure
+The pricing for OpenAI o4-mini is as follows:
+* Input: **$1.1 per 1M tokens**
+* Output: **$4.4 per 1M tokens**
+* Cached Input: **$0.55 per 1M tokens**
+* Batch Input: **$0.55 per 1M tokens**
+
+#### Optimal Usage Scenarios
+To minimize costs, consider the following scenarios:
+* **Cached Tokens**: Use cached input tokens when possible, as they offer a significant discount of **50%** compared to regular input tokens (**$0.55 per 1M tokens** vs **$1.1 per 1M tokens**).
+* **Batch API Calls**: Utilize batch input for API calls, as it also offers a **50%** discount compared to regular input tokens (**$0.55 per 1M tokens** vs **$1.1 per 1M tokens**).
+
+#### Cost at Scale
+The cost of using OpenAI o4-mini at scale is as follows:
+* **1,000 calls** (avg 500 tokens): **$2.75**
+* **10,000 calls**: **$27.5**
+* **100,000 calls**: **$275.0**
+
+These costs demonstrate a linear scaling of expenses with the number of API calls.
+
+#### Comparison to Competitors
+OpenAI o4-mini's pricing is competitive with other models in the market:
+* **OpenAI o3-mini**: $1.1/1M input, $4.4/1M output ( identical to o4-mini)
+* **</div>
+      </div>
+
+      <!-- BENCHMARKS -->
+      <div class="card">
+        <div class="card-title">Benchmarks</div>
+        <div class="stats-row">
+          <div class="stat-cell"><div class="stat-label">MMLU</div><div class="stat-value">85.3</div></div>
+          <div class="stat-cell"><div class="stat-label">HumanEval</div><div class="stat-value">93.7</div></div>
+          <div class="stat-cell"><div class="stat-label">LMSYS ELO</div><div class="stat-value">1320</div></div>
+        </div>
+        <div>### Analysis of OpenAI o4-mini Benchmark Performance
+The OpenAI o4-mini model, released on 2025-04-16, is a standard, non-open-source model provided by OpenAI. To understand its performance and suitability for real-world applications, we'll examine its benchmark scores and pricing.
+
+#### Benchmark Scores
+The model's performance is measured by the following benchmarks:
+* **MMLU (Massive Multitask Language Understanding)**: 85.3 - This score indicates the model's ability to understand and process natural language across a wide range of tasks. A higher score suggests better performance in tasks that require language understanding.
+* **HumanEval**: 93.7 - This score evaluates the model's ability to generate human-like code and perform programming tasks. A higher score indicates better coding capabilities.
+* **LMSYS Arena ELO**: 1320 - This score measures the model's performance in a competitive arena, where it is pitted against other models in various tasks. A higher ELO score suggests better overall performance and competitiveness.
+* **GSM8K**: 97.4 - This score assesses the model's ability to solve math problems, particularly those related to grade school mathematics.
+
+#### Real-World Implications
+These benchmark scores have significant implications for real-world use:
+* The high HumanEval score (93.7) suggests that OpenAI o4-mini is well-suited for coding and programming tasks, making it a good choice for applications that require code generation or programming assistance.
+* The high GSM8K score (97.4) indicates that the model is proficient in solving math problems, particularly those related to grade school mathematics.
+* The moderate MMLU score (85.3</div>
+      </div>
+
+      <!-- COMPETITOR TABLE -->
+      <div class="card">
+        <div class="card-title">Competitor Comparison</div>
+        <div style="overflow-x:auto;">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Model</th>
+                <th>Input/1M</th>
+                <th>Output/1M</th>
+                <th>ELO</th>
+                <th>Tier</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="background:rgba(91,138,245,0.08)">
+                <td><strong>OpenAI o4-mini</strong> <span class="badge badge-blue">This Model</span></td>
+                <td style="font-family:var(--font-mono);color:var(--accent-green)">$1.1000</td>
+                <td style="font-family:var(--font-mono);color:var(--accent-green)">$4.4000</td>
+                <td>1320</td>
+                <td>standard</td>
+              </tr>
+              
+            <tr>
+                <td><a href="/models/o3-mini">OpenAI o3-mini</a></td>
+                <td>$1.1000</td>
+                <td>$4.4000</td>
+                <td>1305</td>
+                <td>standard</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+        <div style="margin-top:1.5rem">### Comparison of OpenAI o4-mini with Top Competitors
+#### Overview
+The OpenAI o4-mini model is a standard, non-open-source model released by OpenAI on 2025-04-16. It offers a range of capabilities, including text, function calling, JSON mode, structured outputs, streaming, batch processing, system prompts, and extended thinking. In this comparison, we will evaluate the OpenAI o4-mini model against its top competitors, OpenAI o3-mini and Gemini 2.5 Pro, in terms of pricing, performance, and use cases.
+
+#### Pricing Comparison
+The pricing for each model is as follows:
+* OpenAI o4-mini:
+	+ Input: $1.1 per 1M tokens
+	+ Output: $4.4 per 1M tokens
+	+ Cached Input: $0.55 per 1M tokens
+	+ Batch Input: $0.55 per 1M tokens
+* OpenAI o3-mini:
+	+ Input: $1.1 per 1M tokens
+	+ Output: $4.4 per 1M tokens
+* Gemini 2.5 Pro:
+	+ Input: $1.25 per 1M tokens
+	+ Output: $10.0 per 1M tokens
+
+#### Performance Comparison
+The performance of each model is measured using various benchmarks:
+* OpenAI o4-mini:
+	+ MMLU: 85.3
+	+ HumanEval: 93.7
+	+ LMSYS Arena ELO: 1320
+	+ GSM8K: 97.4
+* OpenAI o3-mini: Not provided
+* Gemini 2.5 Pro: Not provided
+
+#### Capabilities and Use Cases
+The OpenAI o4-mini model is best suited for complex reasoning, coding, math, science, agents, function calling, and analysis. It is not recommended for simple tasks, vision, bulk cheap tasks, or real-time tasks with latency below 100ms.
+
+#### Cost Examples
+The estimated costs for using the OpenAI o4-mini model are:
+* 1,000 calls (avg 500 tokens): $2.75
+* 10,000 calls: $27.5
+* 100,000 calls: $275.0
+
+#### Comparison Summary
+The OpenAI o4-mini model offers competitive pricing and performance compared to its top competitors. The key differences are</div>
+      </div>
+
+      <!-- USE CASES -->
+      <div class="card content-section">
+        <div class="card-title">Best Use Cases</div>
+        <div>### Introduction to OpenAI o4-mini
+The OpenAI o4-mini model, released on 2025-04-16, is a standard, non-open-source model provided by OpenAI. With its impressive benchmarks, including an MMLU score of 85.3 and a HumanEval score of 93.7, this model is well-suited for complex tasks such as coding, math, and science.
+
+### Top 5 Best Use Cases for OpenAI o4-mini
+Based on its capabilities and pricing, the top 5 best use cases for OpenAI o4-mini are:
+
+1. **Complex Coding Tasks**: With its high HumanEval score and support for function calling, OpenAI o4-mini is ideal for complex coding tasks, such as code review and generation.
+2. **Math and Science Problem Solving**: The model's ability to perform complex reasoning and its high GSM8K score make it well-suited for math and science problem solving.
+3. **Agent Development**: OpenAI o4-mini's support for system prompts and extended thinking capabilities make it a good choice for developing agents that can interact with users and perform complex tasks.
+4. **Data Analysis**: With its ability to process large amounts of data and perform complex reasoning, OpenAI o4-mini is a good choice for data analysis tasks, such as data visualization and insights generation.
+5. **Automated Reasoning and Decision Making**: The model's high LMSYS Arena ELO score and support for structured outputs make it well-suited for automated reasoning and decision making tasks.
+
+### Code Integration Examples with OpenRouter
+To integrate OpenAI o4-mini with OpenRouter, you can use the following code example:
+```python
+import openrouter
+
+# Initialize the OpenRouter client
+client = openrouter.Client(api_key="YOUR_API_KEY")
+
+# Define the input prompt
+prompt = "Write a Python function to calculate the area of a circle."
+
+# Define the model and parameters
+model = "</div>
+      </div>
+
+      <!-- CAPABILITIES -->
+      <div class="card">
+        <div class="card-title">Capabilities</div>
+        <div class="cap-list">
+          <span class="cap-tag">text</span> <span class="cap-tag">function_calling</span> <span class="cap-tag">json_mode</span> <span class="cap-tag">structured_outputs</span> <span class="cap-tag">streaming</span> <span class="cap-tag">batch_processing</span> <span class="cap-tag">system_prompts</span> <span class="cap-tag">extended_thinking</span>
+        </div>
+      </div>
+
+      <!-- FAQ SECTION -->
+      <div class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        
+      </div>
+
+    </div><!-- end main-content -->
+
+    <!-- RIGHT SIDEBAR -->
+    <aside>
+      <div class="sidebar-card">
+        <div style="font-size:0.8rem;font-weight:600;color:var(--text-muted);margin-bottom:1rem">YOUR PROMO OFFERS</div>
+        <a href="https://m.do.co/c/0c99ee" class="cta-btn" id="cta-get-do-credit" target="_blank" rel="noopener" style="background: linear-gradient(135deg, #0069ff, #0050d2);">
+          🎁 Claim $200 Free Server Credit
+        </a>
+        <a href="https://openrouter.ai/?ref=llmcosts" class="cta-secondary" id="cta-get-api-key" target="_blank" rel="noopener" style="margin-bottom:0.75rem;">
+          ⚡ Get API Key via OpenRouter
+        </a>
+        <a href="/configs" class="cta-secondary" id="cta-download-config">
+          📥 Download Free Config File
+        </a>
+      </div>
+
+      <div class="sidebar-card" style="margin-top:1.25rem">
+        <div style="font-size:0.8rem;font-weight:600;color:var(--text-muted);margin-bottom:1rem">MODEL DETAILS</div>
+        <table style="width:100%;font-size:0.825rem;border-collapse:collapse">
+          <tr style="border-bottom:1px solid var(--border)"><td style="padding:0.5rem 0;color:var(--text-muted)">Provider</td><td style="padding:0.5rem 0;text-align:right;font-weight:500">OpenAI</td></tr>
+          <tr style="border-bottom:1px solid var(--border)"><td style="padding:0.5rem 0;color:var(--text-muted)">Release Date</td><td style="padding:0.5rem 0;text-align:right">2025-04-16</td></tr>
+          <tr style="border-bottom:1px solid var(--border)"><td style="padding:0.5rem 0;color:var(--text-muted)">Knowledge Cutoff</td><td style="padding:0.5rem 0;text-align:right">2025-01</td></tr>
+          <tr style="border-bottom:1px solid var(--border)"><td style="padding:0.5rem 0;color:var(--text-muted)">Context Window</td><td style="padding:0.5rem 0;text-align:right;font-family:var(--font-mono)">200,000</td></tr>
+          <tr style="border-bottom:1px solid var(--border)"><td style="padding:0.5rem 0;color:var(--text-muted)">Max Output</td><td style="padding:0.5rem 0;text-align:right;font-family:var(--font-mono)">100,000</td></tr>
+          <tr style="border-bottom:1px solid var(--border)"><td style="padding:0.5rem 0;color:var(--text-muted)">Open Source</td><td style="padding:0.5rem 0;text-align:right">No [FAIL]</td></tr>
+          <tr style="border-bottom:1px solid var(--border)"><td style="padding:0.5rem 0;color:var(--text-muted)">Self-Hostable</td><td style="padding:0.5rem 0;text-align:right">No [FAIL]</td></tr>
+          <tr><td style="padding:0.5rem 0;color:var(--text-muted)">Price Trend</td><td style="padding:0.5rem 0;text-align:right" class="trend-stable">stable</td></tr>
+        </table>
+        <div class="verified-row">
+          <span><span class="dot-green">●</span> Verified 2026-04-09</span>
+          <span>medium confidence</span>
+        </div>
+      </div>
+
+      <div class="sidebar-card" style="margin-top:1.25rem">
+        <div style="font-size:0.8rem;font-weight:600;color:var(--text-muted);margin-bottom:0.75rem">EMBED THIS DATA</div>
+        <p style="font-size:0.75rem;color:var(--text-muted);margin-bottom:0.75rem">Add a live pricing widget to your blog</p>
+        <code style="display:block;background:var(--bg-secondary);border:1px solid var(--border);border-radius:6px;padding:0.75rem;font-size:0.7rem;color:var(--accent-green);word-break:break-all;">&lt;iframe src="https://llmcosts.dev/widget/o4-mini" width="300" height="120" frameborder="0"&gt;&lt;/iframe&gt;</code>
+      </div>
+    </aside>
+
+  </div><!-- end two-col -->
+</div><!-- end page-body -->
+
+<footer>
+  <p>
+    <a href="/">LLMCosts.dev</a> — Open LLM Pricing Registry |
+    Data verified 2026-04-09 |
+    <a href="/llms.txt">llms.txt</a> |
+    <a href="/sitemap.xml">Sitemap</a>
+  </p>
+  <p style="margin-top:0.5rem">
+    Pricing aggregated from OpenRouter & LiteLLM. Found an error?
+    <a href="https://github.com/shadow-nexus-in/llmcosts/issues">Submit an issue</a>.
+  </p>
+</footer>
+
+</body>
+</html>
