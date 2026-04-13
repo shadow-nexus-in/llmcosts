@@ -1,0 +1,45 @@
+# LiquidAI: LFM2.5-1.2B-Thinking (free) API Pricing & Analysis | LLMCosts.dev
+
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-04-13
+> Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
+
+## Overview
+LiquidAI: LFM2.5-1.2B-Thinking (free) is an AI model provided by Liquid. We are currently updating our AI analysis for this model.
+
+## Pricing (USD per 1M tokens)
+| Metric | Price |
+|--------|-------|
+| Input | $0.0 |
+| Output | $0.0 |
+| Cached Input | $None |
+| Batch Input | $None |
+| Batch Output | $None |
+
+## Pricing Analysis
+See the pricing table for exact input, output, and batch token metrics.
+
+## Benchmarks
+| Benchmark | Score |
+|-----------|-------|
+| MMLU | 80.0 |
+| HumanEval | None |
+| LMSYS Arena ELO | 1200 |
+| ARC | None |
+
+## Benchmark Analysis
+See the benchmark table to view MMLU, HumanEval, and LMSYS ELO scores.
+
+## Competitor Comparison
+Review the top competitor list shown in the pricing table.
+
+## Best Use Cases
+General purpose text generation, conversational AI, and API integrations.
+
+## Frequently Asked Questions
+**Q: Who made LiquidAI: LFM2.5-1.2B-Thinking (free)?**
+A: It is provided by Liquid.
+
+
+---
+*Data verified: 2026-04-08 | Confidence: estimated*
+*[Get API Access via OpenRouter](https://openrouter.ai/?ref=llmcosts)*

@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qwen: Qwen3.5-35B-A3B API Pricing & Analysis 2026 | LLMCosts.dev</title>
+  <meta name="description" content="Complete Qwen: Qwen3.5-35B-A3B pricing, benchmarks, and API cost analysis. Input: $0.1625/1M tokens. Updated daily by LLMCosts.dev.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://llmcosts.dev/models/qwen3.5-35b-a3b">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Qwen: Qwen3.5-35B-A3B API Pricing | LLMCosts.dev">
+  <meta property="og:description" content="Input: $0.1625/1M | Output: $1.3000/1M. Full benchmark analysis.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://llmcosts.dev/models/qwen3.5-35b-a3b">
+
+  <!-- Schema.org: Dataset -->
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Qwen: Qwen3.5-35B-A3B API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Qwen: Qwen3.5-35B-A3B by Qwen.", "url": "https://llmcosts.dev/models/qwen3.5-35b-a3b", "keywords": ["Qwen: Qwen3.5-35B-A3B", "Qwen", "llm", "api"], "dateModified": "2026-04-13", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <!-- Schema.org: FAQ -->
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
+
+  <!-- Schema.org: SoftwareApplication (SEO Parasite Trap) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "LLMCosts API Routing Config with $200 DO Promo",
+    "operatingSystem": "All",
+    "applicationCategory": "DeveloperApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "0.00",
+      "priceCurrency": "USD",
+      "url": "https://m.do.co/c/0c99ee"
+    }
+  }
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg-primary: #050508;
+      --bg-secondary: #0d0d14;
+      --bg-card: rgba(20, 20, 30, 0.4);
+      --bg-card-hover: rgba(35, 35, 50, 0.6);
+      --border: rgba(255, 255, 255, 0.08);
+      --border-bright: rgba(255, 255, 255, 0.15);
+      --text-primary: #f8f8fc;
+      --text-secondary: #9a9ab5;
+      --text-muted: #656588;
+      --accent-blue: #6d9efa;
+      --accent-purple: #b37afc;
+      --accent-green: #4effb0;
+      --accent-orange: #ffb15c;
+      --accent-red: #ff5e70;
+      --gradient-hero: radial-gradient(circle at 50% -20%, rgba(109,158,250,0.15), transparent 60%), radial-gradient(circle at 100% 10%, rgba(179,122,252,0.1), transparent 50%), transparent;
+      --gradient-card: linear-gradient(135deg, rgba(109,158,250,0.05) 0%, rgba(179,122,252,0.05) 100%);
+      --shadow-card: 0 8px 32px rgba(0,0,0,0.6);
+      --radius: 16px;
+      --radius-sm: 10px;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    /* ── Navigation (Glassmorphism) ── */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(5,5,8,0.7);
+      backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 1.5rem;
+    }
+    .nav-inner {
+      max-width: 1200px; margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 60px;
+    }
+    .nav-logo {
+      font-size: 1.25rem; font-weight: 800; letter-spacing: -0.02em;
+      background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple), var(--accent-green));
+      background-size: 200% auto; animation: gradientShift 4s linear infinite;
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      text-decoration: none;
+    }
+    @keyframes gradientShift { 0% {background-position: 0% 50%;} 50% {background-position: 100% 50%;} 100% {background-position: 0% 50%;} }
+    .nav-links { display: flex; gap: 1.5rem; }
+    .nav-links a {
+      color: var(--text-secondary); text-decoration: none; font-size: 0.875rem;
+      transition: color 0.3s; font-weight: 500;
+    }
+    .nav-links a:hover { color: var(--text-primary); text-shadow: 0 0 10px rgba(255,255,255,0.3); }
+
+    /* ── Hero ── */
+    .hero {
+      background: var(--gradient-hero);
+      padding: 4rem 1.5rem 3rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .hero-inner { max-width: 1200px; margin: 0 auto; }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      background: rgba(91,138,245,0.15);
+      border: 1px solid rgba(91,138,245,0.3);
+      border-radius: 999px; padding: 0.25rem 0.75rem;
+      font-size: 0.75rem; color: var(--accent-blue);
+      margin-bottom: 1.5rem;
+    }
+    .hero-badge::before { content: "●"; animation: pulse 2s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+    h1 {
+      font-size: clamp(2rem, 5vw, 3rem); font-weight: 700; line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+    h1 span {
+      background: linear-gradient(135deg, var(--accent-blue) 0%, var(--accent-purple) 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .hero-meta {
+      display: flex; flex-wrap: wrap; gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    .meta-pill {
+      display: flex; align-items: center; gap: 0.375rem;
+      background: rgba(255,255,255,0.05); border: 1px solid var(--border-bright);
+      border-radius: var(--radius-sm); padding: 0.375rem 0.75rem;
+      font-size: 0.8rem; color: var(--text-secondary);
+    }
+    .meta-pill strong { color: var(--text-primary); }
+
+    /* ── Layout ── */
+    .page-body { max-width: 1200px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+    .two-col { display: grid; grid-template-columns: 1fr 340px; gap: 2rem; align-items: start; }
+    @media (max-width: 900px) { .two-col { grid-template-columns: 1fr; } }
+
+    /* ── Cards ── */
+    .card {
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 1.75rem;
+      box-shadow: var(--shadow-card);
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .card:hover { border-color: var(--border-bright); transform: translateY(-1px); }
+    .card + .card { margin-top: 1.5rem; }
+    .card-title {
+      font-size: 0.7rem; font-weight: 600; letter-spacing: 0.1em;
+      text-transform: uppercase; color: var(--text-muted);
+      margin-bottom: 1.25rem;
+    }
+
+    /* ── Pricing Table ── */
+    .price-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 1rem; margin-bottom: 1.5rem;
+    }
+    .price-cell {
+      background: var(--gradient-card);
+      border: 1px solid var(--border-bright);
+      border-radius: var(--radius-sm); padding: 1rem; text-align: center;
+    }
+    .price-label { font-size: 0.7rem; color: var(--text-muted); margin-bottom: 0.5rem; }
+    .price-value {
+      font-family: var(--font-mono); font-size: 1.25rem; font-weight: 600;
+      color: var(--accent-green);
+    }
+
+    /* ── Stats Row ── */
+    .stats-row {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+      gap: 0.75rem; margin-bottom: 1.5rem;
+    }
+    .stat-cell {
+      background: var(--bg-secondary); border: 1px solid var(--border);
+      border-radius: var(--radius-sm); padding: 0.875rem; text-align: center;
+    }
+    .stat-label { font-size: 0.65rem; color: var(--text-muted); margin-bottom: 0.25rem; }
+    .stat-value { font-family: var(--font-mono); font-size: 0.9rem; font-weight: 600; color: var(--accent-blue); }
+
+    /* ── Cost Examples ── */
+    .cost-table { width: 100%; border-collapse: collapse; font-size: 0.875rem; }
+    .cost-table th, .cost-table td {
+      padding: 0.75rem 1rem; text-align: left;
+      border-bottom: 1px solid var(--border);
+    }
+    .cost-table th { color: var(--text-muted); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; }
+    .cost-table tr:last-child td { border-bottom: none; }
+    .cost-table td:last-child { font-family: var(--font-mono); color: var(--accent-green); text-align: right; }
+
+    /* ── Data Table ── */
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.875rem; overflow-x: auto; display: block; }
+    .data-table th, .data-table td {
+      padding: 0.75rem 1rem; text-align: left;
+      border-bottom: 1px solid var(--border); white-space: nowrap;
+    }
+    .data-table th { color: var(--text-muted); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; background: var(--bg-secondary); }
+    .data-table tr:hover td { background: var(--bg-card-hover); }
+    .data-table a { color: var(--accent-blue); text-decoration: none; }
+    .data-table a:hover { text-decoration: underline; }
+
+    /* ── Content Sections ── */
+    .content-section { margin-bottom: 2rem; }
+    .content-section h2 {
+      font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem;
+      color: var(--text-primary);
+      padding-bottom: 0.5rem; border-bottom: 1px solid var(--border);
+    }
+    .content-section p { color: var(--text-secondary); margin-bottom: 0.75rem; font-size: 0.9375rem; }
+
+    /* ── FAQ Section ── */
+    .faq-section { margin-top: 2.5rem; }
+    .faq-section h2 { font-size: 1.5rem; font-weight: 700; margin-bottom: 1.5rem; }
+    .faq-item {
+      border-bottom: 1px solid var(--border); padding: 1.25rem 0;
+    }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-question { font-size: 1rem; font-weight: 600; color: var(--text-primary); margin-bottom: 0.5rem; }
+    .faq-answer { font-size: 0.9rem; color: var(--text-secondary); }
+
+    /* ── Sidebar ── */
+    .sidebar-card {
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 1.5rem;
+      box-shadow: var(--shadow-card);
+    }
+    .sidebar-card + .sidebar-card { margin-top: 1.25rem; }
+
+    /* ── CTA Button ── */
+    .cta-btn {
+      display: block; width: 100%; padding: 0.875rem 1.5rem;
+      background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+      color: #fff; font-weight: 600; font-size: 0.9rem;
+      text-align: center; text-decoration: none;
+      border-radius: var(--radius-sm); border: none; cursor: pointer;
+      transition: opacity 0.2s, transform 0.15s;
+      margin-bottom: 0.75rem;
+    }
+    .cta-btn:hover { opacity: 0.88; transform: translateY(-1px); }
+    .cta-secondary {
+      display: block; width: 100%; padding: 0.75rem 1.5rem;
+      background: transparent;
+      border: 1px solid var(--border-bright);
+      color: var(--text-secondary); font-size: 0.875rem;
+      text-align: center; text-decoration: none;
+      border-radius: var(--radius-sm);
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .cta-secondary:hover { border-color: var(--accent-blue); color: var(--text-primary); }
+
+    /* ── Badges ── */
+    .badge {
+      display: inline-block; padding: 0.2rem 0.5rem;
+      border-radius: 4px; font-size: 0.7rem; font-weight: 600;
+    }
+    .badge-green { background: rgba(62,255,160,0.15); color: var(--accent-green); }
+    .badge-blue { background: rgba(91,138,245,0.15); color: var(--accent-blue); }
+    .badge-orange { background: rgba(255,159,67,0.15); color: var(--accent-orange); }
+    .badge-red { background: rgba(255,71,87,0.15); color: var(--accent-red); }
+
+    /* ── Capabilities ── */
+    .cap-list { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .cap-tag {
+      background: rgba(91,138,245,0.1); border: 1px solid rgba(91,138,245,0.2);
+      border-radius: 999px; padding: 0.25rem 0.625rem;
+      font-size: 0.7rem; color: var(--accent-blue);
+    }
+
+    /* ── Verified Badge ── */
+    .verified-row {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 0.5rem; font-size: 0.75rem; color: var(--text-muted);
+      margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border);
+    }
+    .verified-row .dot-green { color: var(--accent-green); }
+
+    /* ── Footer ── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 2rem 1.5rem; text-align: center;
+      color: var(--text-muted); font-size: 0.8rem;
+    }
+    footer a { color: var(--text-secondary); text-decoration: none; }
+    footer a:hover { color: var(--text-primary); }
+
+    /* ── Trend Arrow ── */
+    .trend-down { color: var(--accent-green); }
+    .trend-up { color: var(--accent-red); }
+    .trend-stable { color: var(--text-muted); }
+
+    /* ── Responsive ── */
+    @media (max-width: 640px) {
+      .price-grid { grid-template-columns: 1fr 1fr; }
+      .hero { padding: 2.5rem 1rem 2rem; }
+      .page-body { padding: 1.5rem 1rem 3rem; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">⚡ LLMCosts.dev</a>
+    <div class="nav-links">
+      <a href="/compare">Compare</a>
+      <a href="/configs">Configs</a>
+      <a href="/daily-report">Market Report</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-inner">
+    <div class="hero-badge">Live Pricing · Updated 2026-04-08</div>
+    <h1>Qwen: Qwen3.5-35B-A3B <span>API Pricing</span></h1>
+    <p style="color:var(--text-secondary); font-size:1.0625rem; max-width:600px;">
+      Complete pricing breakdown, benchmark analysis, and competitor comparison for
+      Qwen: Qwen3.5-35B-A3B by Qwen. Confidence: medium.
+    </p>
+    <div class="hero-meta">
+      <div class="meta-pill">Input <strong>$0.1625/1M</strong></div>
+      <div class="meta-pill">Output <strong>$1.3000/1M</strong></div>
+      <div class="meta-pill">Context <strong>262,144 tokens</strong></div>
+      <div class="meta-pill">ELO <strong>1270</strong></div>
+      <div class="meta-pill">Tier <strong>standard</strong></div>
+    </div>
+  </div>
+</div>
+
+<!-- PAGE BODY -->
+<div class="page-body">
+  <div class="two-col">
+
+    <!-- LEFT COLUMN -->
+    <div class="main-content">
+
+      <!-- OVERVIEW -->
+      <div class="card content-section">
+        <div class="card-title">Overview</div>
+        <div>### Technical Overview of Qwen: Qwen3.5-35B-A3B
+Qwen: Qwen3.5-35B-A3B is a standard-tier model released by Qwen on 2024-01-01. This model is not open source. The architecture of Qwen3.5-35B-A3B is designed to handle a wide range of natural language processing tasks, with a context window of 262,144 tokens and a maximum output of 65,536 tokens. The model's knowledge cutoff is 2023-12, ensuring that it has been trained on a vast amount of data up to that point.
+
+### Strengths and Use Cases
+The main strengths of Qwen: Qwen3.5-35B-A3B lie in its capabilities, which include text, function calling, JSON mode, streaming, and structured outputs. This makes it an ideal choice for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization. The model's performance is reflected in its benchmarks, with an MMLU score of 87.0 and an LMSYS Arena ELO score of 1270. With a pricing structure of $0.1625 per 1M tokens for input and $1.3 per 1M tokens for output, Qwen: Qwen3.5-35B-A3B offers a cost-effective solution for developers looking to integrate advanced language processing capabilities into their applications.
+
+### Pricing and Cost Examples
+The pricing model for Qwen: Qwen3.5-35B-A3B is based on the number of tokens processed, with no additional costs for cached input or batch input. The cost examples provided indicate that the model can be used at a relatively low cost, with 1,000 calls (avg 500 tokens) costing $0.0007, 10,000 calls costing $0.007, and 100,</div>
+      </div>
+
+      <!-- PRICING -->
+      <div class="card">
+        <div class="card-title">Pricing Breakdown</div>
+        <div class="price-grid">
+          <div class="price-cell">
+            <div class="price-label">Input</div>
+            <div class="price-value">$0.1625</div>
+            <div style="font-size:0.65rem;color:var(--text-muted);margin-top:0.25rem">per 1M tokens</div>
+          </div>
+          <div class="price-cell">
+            <div class="price-label">Output</div>
+            <div class="price-value">$1.3000</div>
+            <div style="font-size:0.65rem;color:var(--text-muted);margin-top:0.25rem">per 1M tokens</div>
+          </div>
+          <div class="price-cell">
+            <div class="price-label">Cached Input</div>
+            <div class="price-value" style="color:var(--accent-purple)">N/A</div>
+            <div style="font-size:0.65rem;color:var(--text-muted);margin-top:0.25rem">per 1M tokens</div>
+          </div>
+          <div class="price-cell">
+            <div class="price-label">Batch Input</div>
+            <div class="price-value" style="color:var(--accent-orange)">N/A</div>
+            <div style="font-size:0.65rem;color:var(--text-muted);margin-top:0.25rem">per 1M tokens</div>
+          </div>
+        </div>
+
+        <div class="card-title" style="margin-top:1.5rem">Cost at Scale</div>
+        <table class="cost-table">
+          <thead><tr><th>Volume</th><th>Avg 500 tokens/call</th><th>Total Cost</th></tr></thead>
+          <tbody>
+            <tr><td>1,000 API calls</td><td>500K tokens</td><td>$0.0007</td></tr>
+            <tr><td>10,000 API calls</td><td>5M tokens</td><td>$0.007</td></tr>
+            <tr><td>100,000 API calls</td><td>50M tokens</td><td>$0.06999999999999999</td></tr>
+          </tbody>
+        </table>
+
+        <div style="margin-top:1.5rem">### Qwen: Qwen3.5-35B-A3B Pricing Analysis
+#### Overview
+The Qwen: Qwen3.5-35B-A3B model is a standard, non-open-source model provided by Qwen, released on January 1, 2024. This analysis will delve into the cost structure, usage scenarios, and cost savings of this model.
+
+#### Cost Structure
+The cost structure of Qwen: Qwen3.5-35B-A3B is as follows:
+* **Input**: $0.1625 per 1M tokens
+* **Output**: $1.3 per 1M tokens
+* **Cached Input**: No additional cost ($None per 1M tokens)
+* **Batch Input**: No additional cost ($None per 1M tokens)
+
+#### Usage Scenarios
+To optimize costs, consider the following scenarios:
+* **Cached Tokens**: Since there is no additional cost for cached input, utilize cached tokens whenever possible to minimize input costs.
+* **Batch API Calls**: Although there is no direct cost savings for batch input, batching API calls can reduce the number of requests, resulting in indirect cost savings through reduced overhead.
+
+#### Cost at Scale
+The cost of using Qwen: Qwen3.5-35B-A3B at scale is as follows:
+* **1,000 API Calls** (avg 500 tokens): $0.0007
+* **10,000 API Calls**: $0.007
+* **100,000 API Calls**: $0.06999999999999999
+
+These costs demonstrate a linear increase with the number of API calls, indicating that the cost per call remains relatively constant.
+
+#### Capabilities and Best Use Cases
+Qwen: Qwen3.5-35B-A3B is capable of:
+* Text
+* Function calling
+* JSON mode
+* Streaming
+* Structured outputs
+
+It is best suited for:
+* Chat
+* Text</div>
+      </div>
+
+      <!-- BENCHMARKS -->
+      <div class="card">
+        <div class="card-title">Benchmarks</div>
+        <div class="stats-row">
+          <div class="stat-cell"><div class="stat-label">MMLU</div><div class="stat-value">87.0</div></div>
+          <div class="stat-cell"><div class="stat-label">HumanEval</div><div class="stat-value">None</div></div>
+          <div class="stat-cell"><div class="stat-label">LMSYS ELO</div><div class="stat-value">1270</div></div>
+        </div>
+        <div>### Qwen: Qwen3.5-35B-A3B Benchmark Performance Analysis
+#### Overview
+The Qwen: Qwen3.5-35B-A3B model, released on 2024-01-01, is a standard-tier model provided by Qwen. It is not open source.
+
+#### Pricing
+The pricing for this model is as follows:
+* Input: **$0.1625 per 1M tokens**
+* Output: **$1.3 per 1M tokens**
+* Cached Input: **$None per 1M tokens**
+* Batch Input: **$None per 1M tokens**
+
+#### Context and Limits
+The model has the following context and limits:
+* Context Window: **262,144 tokens**
+* Max Output: **65,536 tokens**
+* Knowledge Cutoff: **2023-12**
+
+#### Benchmarks
+The model's benchmark performance is:
+* MMLU: **87.0**
+* HumanEval: **None**
+* LMSYS Arena ELO: **1270**
+* GSM8K: **None**
+
+The MMLU score of **87.0** indicates the model's ability to understand and generate human-like text. A higher MMLU score generally corresponds to better language understanding and generation capabilities.
+
+The LMSYS Arena ELO score of **1270** is a measure of the model's performance in a competitive environment, where it is pitted against other models. A higher ELO score indicates better performance.
+
+The lack of HumanEval and GSM8K scores means that the model's performance on these specific benchmarks is not available.
+
+#### Capabilities and Use Cases
+The model is capable of:
+* text
+*</div>
+      </div>
+
+      <!-- COMPETITOR TABLE -->
+      <div class="card">
+        <div class="card-title">Competitor Comparison</div>
+        <div style="overflow-x:auto;">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Model</th>
+                <th>Input/1M</th>
+                <th>Output/1M</th>
+                <th>ELO</th>
+                <th>Tier</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="background:rgba(91,138,245,0.08)">
+                <td><strong>Qwen: Qwen3.5-35B-A3B</strong> <span class="badge badge-blue">This Model</span></td>
+                <td style="font-family:var(--font-mono);color:var(--accent-green)">$0.1625</td>
+                <td style="font-family:var(--font-mono);color:var(--accent-green)">$1.3000</td>
+                <td>1270</td>
+                <td>standard</td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+        <div style="margin-top:1.5rem">### Qwen: Qwen3.5-35B-A3B Comparison
+Since there are no direct competitors listed for the Qwen: Qwen3.5-35B-A3B model, we will provide a general overview of its features, pricing, and performance. This will help users understand when to choose this model and what trade-offs to expect.
+
+#### Pricing
+The Qwen: Qwen3.5-35B-A3B model is priced as follows:
+* Input: **$0.1625 per 1M tokens**
+* Output: **$1.3 per 1M tokens**
+* Cached Input: **$None per 1M tokens**
+* Batch Input: **$None per 1M tokens**
+
+#### Performance
+The model's performance is measured by the following benchmarks:
+* MMLU: **87.0**
+* LMSYS Arena ELO: **1270**
+
+The model has a context window of **262,144 tokens** and a maximum output of **65,536 tokens**. The knowledge cutoff is **2023-12**, indicating that the model's training data only goes up to December 2023.
+
+#### Capabilities and Use Cases
+The Qwen: Qwen3.5-35B-A3B model supports the following capabilities:
+* Text
+* Function calling
+* JSON mode
+* Streaming
+* Structured outputs
+
+It is best suited for the following use cases:
+* Chat
+* Text generation
+* Coding
+* Analysis
+* RAG pipelines
+* Summarization
+
+#### Cost Examples
+The cost of using the Qwen: Qwen3.5-35B-A3B model can be estimated as follows:
+* 1,000 calls (avg 500 tokens): **$0.0007**
+* 10,000 calls: **$0.007**
+* 100,000 calls: **$0.06999999999999999**
+
+#### Choosing the Qwen: Qwen3.5-35B-A3B Model
+Given the lack of direct competitors, the Qwen: Qwen3.5-35B-A3B model can be chosen based on its unique features and pricing. Users should consider the following factors:
+* The model's performance on the MMLU and LMSYS Arena ELO benchmarks
+* The context window and maximum output size
+* The supported capabilities and use cases
+* The pricing model</div>
+      </div>
+
+      <!-- USE CASES -->
+      <div class="card content-section">
+        <div class="card-title">Best Use Cases</div>
+        <div>### Introduction to Qwen: Qwen3.5-35B-A3B
+Qwen: Qwen3.5-35B-A3B is a powerful language model provided by Qwen, released on 2024-01-01. With its standard tier and capabilities in text, function calling, JSON mode, streaming, and structured outputs, it's best suited for applications like chat, text generation, coding, analysis, RAG pipelines, and summarization.
+
+### Top 5 Best Use Cases for Qwen: Qwen3.5-35B-A3B
+Given its capabilities and pricing model, here are the top 5 best use cases for Qwen: Qwen3.5-35B-A3B:
+
+1. **Chat and Conversational Systems**: With its strong performance in text generation and understanding, Qwen: Qwen3.5-35B-A3B can be used to build conversational interfaces, such as chatbots, that can engage in meaningful discussions with users.
+2. **Text Generation and Summarization**: The model's ability to generate coherent and context-specific text makes it ideal for applications like text summarization, content generation, and language translation.
+3. **Coding and Analysis**: Qwen: Qwen3.5-35B-A3B's function calling capability allows it to be used for coding tasks, such as code completion, code review, and bug detection. Its analysis capabilities also make it suitable for tasks like data analysis and visualization.
+4. **RAG Pipelines and Information Retrieval**: The model's support for RAG (Retrieve, Augment, Generate) pipelines enables it to be used for complex information retrieval tasks, such as question answering, entity disambiguation, and text classification.
+5. **Streaming and Real-time Applications**: Qwen: Qwen3.5-35B-A3B's streaming capability allows it to process and generate text in real-time, making it</div>
+      </div>
+
+      <!-- CAPABILITIES -->
+      <div class="card">
+        <div class="card-title">Capabilities</div>
+        <div class="cap-list">
+          <span class="cap-tag">text</span> <span class="cap-tag">function_calling</span> <span class="cap-tag">json_mode</span> <span class="cap-tag">streaming</span> <span class="cap-tag">structured_outputs</span>
+        </div>
+      </div>
+
+      <!-- FAQ SECTION -->
+      <div class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        
+      </div>
+
+    </div><!-- end main-content -->
+
+    <!-- RIGHT SIDEBAR -->
+    <aside>
+      <div class="sidebar-card">
+        <div style="font-size:0.8rem;font-weight:600;color:var(--text-muted);margin-bottom:1rem">YOUR PROMO OFFERS</div>
+        <a href="https://m.do.co/c/0c99ee" class="cta-btn" id="cta-get-do-credit" target="_blank" rel="noopener" style="background: linear-gradient(135deg, #0069ff, #0050d2);">
+          🎁 Claim $200 Free Server Credit
+        </a>
+        <a href="https://openrouter.ai/?ref=llmcosts" class="cta-secondary" id="cta-get-api-key" target="_blank" rel="noopener" style="margin-bottom:0.75rem;">
+          ⚡ Get API Key via OpenRouter
+        </a>
+        <a href="/configs" class="cta-secondary" id="cta-download-config">
+          📥 Download Free Config File
+        </a>
+      </div>
+
+      <div class="sidebar-card" style="margin-top:1.25rem">
+        <div style="font-size:0.8rem;font-weight:600;color:var(--text-muted);margin-bottom:1rem">MODEL DETAILS</div>
+        <table style="width:100%;font-size:0.825rem;border-collapse:collapse">
+          <tr style="border-bottom:1px solid var(--border)"><td style="padding:0.5rem 0;color:var(--text-muted)">Provider</td><td style="padding:0.5rem 0;text-align:right;font-weight:500">Qwen</td></tr>
+          <tr style="border-bottom:1px solid var(--border)"><td style="padding:0.5rem 0;color:var(--text-muted)">Release Date</td><td style="padding:0.5rem 0;text-align:right">2024-01-01</td></tr>
+          <tr style="border-bottom:1px solid var(--border)"><td style="padding:0.5rem 0;color:var(--text-muted)">Knowledge Cutoff</td><td style="padding:0.5rem 0;text-align:right">2023-12</td></tr>
+          <tr style="border-bottom:1px solid var(--border)"><td style="padding:0.5rem 0;color:var(--text-muted)">Context Window</td><td style="padding:0.5rem 0;text-align:right;font-family:var(--font-mono)">262,144</td></tr>
+          <tr style="border-bottom:1px solid var(--border)"><td style="padding:0.5rem 0;color:var(--text-muted)">Max Output</td><td style="padding:0.5rem 0;text-align:right;font-family:var(--font-mono)">65,536</td></tr>
+          <tr style="border-bottom:1px solid var(--border)"><td style="padding:0.5rem 0;color:var(--text-muted)">Open Source</td><td style="padding:0.5rem 0;text-align:right">No [FAIL]</td></tr>
+          <tr style="border-bottom:1px solid var(--border)"><td style="padding:0.5rem 0;color:var(--text-muted)">Self-Hostable</td><td style="padding:0.5rem 0;text-align:right">No [FAIL]</td></tr>
+          <tr><td style="padding:0.5rem 0;color:var(--text-muted)">Price Trend</td><td style="padding:0.5rem 0;text-align:right" class="trend-stable">stable</td></tr>
+        </table>
+        <div class="verified-row">
+          <span><span class="dot-green">●</span> Verified 2026-04-08</span>
+          <span>medium confidence</span>
+        </div>
+      </div>
+
+      <div class="sidebar-card" style="margin-top:1.25rem">
+        <div style="font-size:0.8rem;font-weight:600;color:var(--text-muted);margin-bottom:0.75rem">EMBED THIS DATA</div>
+        <p style="font-size:0.75rem;color:var(--text-muted);margin-bottom:0.75rem">Add a live pricing widget to your blog</p>
+        <code style="display:block;background:var(--bg-secondary);border:1px solid var(--border);border-radius:6px;padding:0.75rem;font-size:0.7rem;color:var(--accent-green);word-break:break-all;">&lt;iframe src="https://llmcosts.dev/widget/qwen3.5-35b-a3b" width="300" height="120" frameborder="0"&gt;&lt;/iframe&gt;</code>
+      </div>
+    </aside>
+
+  </div><!-- end two-col -->
+</div><!-- end page-body -->
+
+<footer>
+  <p>
+    <a href="/">LLMCosts.dev</a> — Open LLM Pricing Registry |
+    Data verified 2026-04-08 |
+    <a href="/llms.txt">llms.txt</a> |
+    <a href="/sitemap.xml">Sitemap</a>
+  </p>
+  <p style="margin-top:0.5rem">
+    Pricing aggregated from OpenRouter & LiteLLM. Found an error?
+    <a href="https://github.com/shadow-nexus-in/llmcosts/issues">Submit an issue</a>.
+  </p>
+</footer>
+
+</body>
+</html>

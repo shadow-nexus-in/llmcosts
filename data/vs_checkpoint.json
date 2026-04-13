@@ -1,5 +1,9 @@
 {
   "completed": [
-    "deepseek-deepseek-r1-distill-qwen-32b-vs-qwen-qwen-max"
+    "deepseek-deepseek-r1-distill-qwen-32b-vs-qwen-qwen-max",
+    "deepseek-deepseek-r1-distill-llama-70b-vs-qwen-qwen-max",
+    "deepseek-deepseek-chat-vs-qwen-qwen-max",
+    "cohere-command-r7b-12-2024-vs-qwen-qwen-max",
+    "openai-gpt-4o-2024-11-20-vs-qwen-qwen-max"
   ]
 }

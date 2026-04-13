@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://llmcosts.dev/models/llama-3-2-11b-vision-instruct">
 
   <!-- Schema.org: Dataset -->
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Llama 3.2 11B Vision Instruct API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Llama 3.2 11B Vision Instruct by Meta.", "url": "https://llmcosts.dev/models/llama-3-2-11b-vision-instruct", "keywords": ["Llama 3.2 11B Vision Instruct", "Meta", "open-source", "self-hostable", "vision", "budget", "meta"], "dateModified": "2026-04-12", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Llama 3.2 11B Vision Instruct API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Llama 3.2 11B Vision Instruct by Meta.", "url": "https://llmcosts.dev/models/llama-3-2-11b-vision-instruct", "keywords": ["Llama 3.2 11B Vision Instruct", "Meta", "open-source", "self-hostable", "vision", "budget", "meta"], "dateModified": "2026-04-13", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
   <!-- Schema.org: FAQ -->
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
 
@@ -346,13 +346,13 @@
       <div class="card content-section">
         <div class="card-title">Overview</div>
         <div>### Introduction to Llama 3.2 11B Vision Instruct
-The Llama 3.2 11B Vision Instruct model, released by Meta on 2024-09-25, is a budget-friendly, open-source solution for developers seeking to integrate vision and text capabilities into their applications. This model is part of the meta-llama/llama-3.2-11b-vision-instruct family and is designed to handle tasks such as image captioning, visual QA, and other budget vision tasks. With its architecture supporting text, vision, streaming, and system prompts, it offers a versatile tool for a wide range of applications.
+The Llama 3.2 11B Vision Instruct model, released by Meta on 2024-09-25, is a budget-friendly, open-source solution for developers seeking to integrate vision and text capabilities into their applications. This model is part of the meta-llama/llama-3.2-11b-vision-instruct family and is designed to handle a variety of tasks, including image captioning, visual question answering, and other budget vision tasks. With its architecture supporting text, vision, streaming, and system prompts, it offers a versatile toolset for developers.
 
-### Technical Specifications and Strengths
-Technically, Llama 3.2 11B Vision Instruct boasts a context window of 131,072 tokens and can generate up to 8,192 tokens as output. Its knowledge cutoff is 2023-12, ensuring it is informed up to that point. The model's pricing is competitive, with both input and output costing $0.055 per 1M tokens. Benchmarks show promising performance, with an MMLU score of 87.0, an LMSYS Arena ELO of 1270, and a GSM8K score of 77.7. These specifications and performance metrics highlight the model's main strengths in handling vision and text tasks efficiently and effectively, making it a valuable resource for developers working on budget vision tasks.
+### Technical Specifications and Pricing
+Technically, Llama 3.2 11B Vision Instruct boasts a context window of 131,072 tokens and can generate up to 8,192 tokens as output. Its knowledge cutoff is 2023-12, ensuring it has a broad and up-to-date understanding of the world. The model is priced at $0.055 per 1M tokens for both input and output, with no additional costs for cached input or batch input. This pricing structure makes it an attractive option for developers working on budget-conscious projects. For example, 1,000 calls averaging 500 tokens would cost $0.055, scaling to $5.5 for 100,000 calls. The model's performance is benchmarked with an MMLU score of 87.0, an LMSYS Arena ELO of 1270, and a GSM8K score of 77.7, demonstrating its capabilities in various domains.
 
-### Use Cases and Cost Considerations
-Llama 3.2 11B Vision Instruct is best utilized for tasks such as image captioning, visual QA, and other applications where vision and text integration are crucial. However, it may not be the best fit for frontier reasoning, complex coding, audio processing, or high-precision tasks. The cost of using this model is relatively low, with examples including $0.055 for 1,000 calls (avg 500 tokens), $0</div>
+### Use Cases and Competitors
+Llama 3.2 11B Vision Instruct is best suited for tasks such as image captioning, visual question answering, and other budget vision tasks, where its strengths in text and vision integration can be fully leveraged. However, it may not be the ideal choice for tasks requiring</div>
       </div>
 
       <!-- PRICING -->
@@ -396,24 +396,28 @@ Llama 3.2 11B Vision Instruct is best utilized for tasks such as image captionin
 The Llama 3.2 11B Vision Instruct model, provided by Meta, offers a cost-effective solution for vision-based tasks. With a pricing structure of $0.055 per 1M tokens for both input and output, this model is an attractive option for budget-conscious users.
 
 #### Cost Structure
-The cost structure of Llama 3.2 11B Vision Instruct is as follows:
+The cost structure for Llama 3.2 11B Vision Instruct is as follows:
 * Input: $0.055 per 1M tokens
 * Output: $0.055 per 1M tokens
 * Cached Input: $None per 1M tokens (free)
 * Batch Input: $None per 1M tokens (free)
 
-This structure indicates that users can take advantage of free cached input and batch input, which can significantly reduce costs for repeated or bulk queries.
+This structure indicates that users can take advantage of free cached input and batch input, which can help reduce costs for repeated or bulk queries.
 
 #### When to Use Cached Tokens
-Cached tokens should be utilized when:
-* The same input is repeated multiple times
-* The input data is static and doesn't change frequently
-* The user wants to minimize costs for repeated queries
+Cached tokens can be used to reduce costs when:
+* Repeatedly querying the model with the same input
+* Using batch API calls for multiple similar inputs
+* Optimizing cost for high-volume, low-variety workloads
 
-By using cached tokens, users can avoid incurring additional costs for input tokens, as they are provided free of charge.
+By leveraging cached tokens, users can avoid incurring additional costs for input tokens, making the model even more cost-effective.
 
 #### Batch API Savings
-The batch API feature allows users to process multiple inputs in a single request, which can lead to significant cost savings. Since batch input is free, users can process large volumes of data without incurring additional input costs.
+The batch API allows users to send multiple queries in a single request, which can help reduce costs by:
+* Minimizing the number of API calls
+* Taking advantage of free batch input
+
+By using batch API calls, users can optimize their workload and reduce costs, especially for high-volume use cases.
 
 #### Cost at Scale
 The cost of using Llama 3.2 11B Vision Instruct at scale is as follows:
@@ -421,7 +425,7 @@ The cost of using Llama 3.2 11B Vision Instruct at scale is as follows:
 * 10,000 calls: $0.55
 * 100,000 calls: $5.5
 
-These costs demonstrate the model's affordability, even at large scales. For example, 100,000 API calls would cost $5.5, which</div>
+These costs demonstrate the</div>
       </div>
 
       <!-- BENCHMARKS -->
@@ -434,7 +438,7 @@ These costs demonstrate the model's affordability, even at large scales. For exa
         </div>
         <div>### Llama 3.2 11B Vision Instruct Benchmark Performance Analysis
 #### Model Overview
-The Llama 3.2 11B Vision Instruct model, released by Meta on 2024-09-25, is a budget-friendly, open-source model capable of handling text, vision, streaming, and system prompts.
+The Llama 3.2 11B Vision Instruct model, provided by Meta, is a budget-friendly, open-source option with a release date of 2024-09-25. It supports text, vision, streaming, and system prompts, making it suitable for tasks like image captioning, visual QA, and open-source vision tasks on a budget.
 
 #### Pricing
 The pricing for this model is as follows:
@@ -443,15 +447,15 @@ The pricing for this model is as follows:
 * Cached Input: $None per 1M tokens
 * Batch Input: $None per 1M tokens
 
-#### Benchmark Scores
-The model's performance is measured by the following benchmark scores:
-* **MMLU (Massive Multitask Language Understanding)**: 87.0 - This score indicates the model's ability to understand and process natural language across a wide range of tasks. A higher score suggests better language understanding capabilities.
-* **HumanEval**: None - HumanEval is a benchmark that evaluates a model's ability to write correct and functional code. The absence of a score for this benchmark suggests that the model may not be suitable for complex coding tasks.
-* **LMSYS Arena ELO**: 1270 - The LMSYS Arena ELO score is a measure of the model's performance in a competitive environment, where it is pitted against other models. A higher score indicates better performance in such scenarios.
-* **GSM8K**: 77.7 - The GSM8K score is a measure of the model's ability to reason and solve math problems. A higher score suggests better math reasoning capabilities.
+#### Benchmark Performance
+The model's performance is measured by several benchmarks:
+* **MMLU (Massive Multitask Language Understanding)**: 87.0 - This score indicates the model's ability to understand and perform a wide range of language tasks. A higher score suggests better performance.
+* **HumanEval**: None - This benchmark evaluates a model's ability to write correct and functional code. The absence of a score for Llama 3.2 11B Vision Instruct indicates that its coding capabilities are not well-suited for complex tasks.
+* **LMSYS Arena ELO**: 1270 - This score represents the model's performance in a competitive arena, where it is pitted against other models. A higher ELO score indicates better performance.
+* **GSM8K**: 77.7 - This benchmark assesses the model's math problem-solving abilities.
 
 #### Real-World Implications
-The benchmark scores suggest that the L</div>
+The benchmark scores suggest that Llama</div>
       </div>
 
       <!-- COMPETITOR TABLE -->
@@ -489,55 +493,80 @@ The benchmark scores suggest that the L</div>
         </div>
         <div style="margin-top:1.5rem">### Llama 3.2 11B Vision Instruct Comparison
 #### Overview
-The Llama 3.2 11B Vision Instruct model, provided by Meta, is a budget-friendly, open-source option for vision-related tasks. Released on September 25, 2024, this model offers a unique blend of capabilities, including text, vision, streaming, and system prompts.
+The Llama 3.2 11B Vision Instruct model, provided by Meta, is a budget-friendly option for vision-based tasks, including image captioning and visual QA. Released on September 25, 2024, this open-source model offers a unique blend of affordability and performance.
 
 #### Pricing Comparison
-The following table highlights the pricing differences between Llama 3.2 11B Vision Instruct and its top competitors:
+The pricing structure of Llama 3.2 11B Vision Instruct is as follows:
+* Input: $0.055 per 1M tokens
+* Output: $0.055 per 1M tokens
 
-| Model | Input Price (per 1M tokens) | Output Price (per 1M tokens) |
-| --- | --- | --- |
-| Llama 3.2 11B Vision Instruct | $0.055 | $0.055 |
-| GPT-4o Mini | $0.15 | $0.6 |
-| Claude 3 Haiku | $0.25 | $1.25 |
-
-As shown, Llama 3.2 11B Vision Instruct offers the most competitive pricing, with a significant reduction in costs compared to GPT-4o Mini and Claude 3 Haiku.
+In comparison, its top competitors have the following pricing structures:
+* GPT-4o Mini: $0.15 per 1M input tokens, $0.6 per 1M output tokens
+* Claude 3 Haiku: $0.25 per 1M input tokens, $1.25 per 1M output tokens
 
 #### Performance Trade-offs
-While Llama 3.2 11B Vision Instruct excels in budget-friendly vision tasks, it may not be the best choice for complex coding, frontier reasoning, or high-precision tasks. The model's benchmarks demonstrate its capabilities:
-
+Llama 3.2 11B Vision Instruct has the following performance metrics:
 * MMLU: 87.0
 * LMSYS Arena ELO: 1270
 * GSM8K: 77.7
 
-In contrast, GPT-4o Mini and Claude 3 Haiku may offer better performance in certain areas, but at a higher cost.
+While its performance is respectable, it may not be the best choice for tasks that require frontier reasoning, complex coding, or high-precision tasks.
 
-#### Choosing the Right Model
-Consider the following scenarios to determine which model is best for your needs:
+#### When to Choose Each Model
+* **Llama 3.2 11B Vision Instruct**: Ideal for budget-friendly vision tasks, such as image captioning and visual QA, where high precision is not required.
+* **GPT-4o Mini**: Suitable for tasks that require a balance between performance and cost, such as text-based applications where input and output tokens are relatively balanced.
+* **Claude 3 Haiku**: Best for applications where high-performance output is critical, such as complex text generation tasks, and the increased cost is justified by the improved performance.
 
-* **Budget-friendly vision tasks**: Llama 3.2 11B Vision Instruct is an excellent choice for tasks like image captioning, visual QA, and open-source vision projects.
-* **Complex coding or frontier reasoning**: GPT-4o Mini or Claude 3 Haiku may be more suitable due to their potentially better performance in these areas, despite higher costs.
-* **High-precision tasks**: None of the mentioned models are recommended for high-precision tasks, as Llama 3.2 11B Vision Instruct is not designed for such tasks, and GPT-4o Mini and</div>
+#### Cost Examples
+To illustrate the cost difference, consider the following examples:
+* 1,000 calls (avg 500 tokens): Llama 3.2 11B Vision Instruct ($0.055), GPT-4o Mini ($0.15 + $0.6 = $0.75), Claude 3 Haiku ($0.25 + $1.25 = $1.50)
+* 10,000 calls: Llama 3.2 11</div>
       </div>
 
       <!-- USE CASES -->
       <div class="card content-section">
         <div class="card-title">Best Use Cases</div>
         <div>### Introduction to Llama 3.2 11B Vision Instruct
-The Llama 3.2 11B Vision Instruct model, provided by Meta, is a budget-friendly, open-source option for various vision-related tasks. With its release on 2024-09-25, it offers a compelling alternative to more expensive models, given its pricing structure:
-- Input: $0.055 per 1M tokens
-- Output: $0.055 per 1M tokens
+The Llama 3.2 11B Vision Instruct model, released by Meta on 2024-09-25, is a budget-friendly, open-source model that excels in vision-related tasks. With its capabilities in text, vision, streaming, and system prompts, it is an ideal choice for applications that require image captioning, visual question answering, and other budget vision tasks.
 
 ### Top 5 Best Use Cases for Llama 3.2 11B Vision Instruct
-Given its capabilities and pricing, here are the top use cases for this model:
+#### 1. Image Captioning
+Llama 3.2 11B Vision Instruct can be used to generate captions for images. This can be achieved by passing the image as input to the model and generating a text output.
+```python
+import openrouter
 
-1. **Image Captioning**: With its vision capabilities, Llama 3.2 11B Vision Instruct is well-suited for generating captions for images. This can be particularly useful for applications like social media, where automated image description can enhance accessibility.
-2. **Visual QA**: The model's ability to understand visual content makes it a good fit for visual question-answering tasks. This can be integrated into applications that require users to ask questions about images or videos.
-3. **Budget Vision Tasks**: For developers or businesses on a budget, Llama 3.2 11B Vision Instruct offers a cost-effective solution for basic vision tasks, such as object detection or image classification, without breaking the bank.
-4. **Open-Source Vision Budget**: As an open-source model, it encourages community development and customization for specific vision tasks, making it an attractive option for projects with limited budgets but a need for tailored vision capabilities.
-5. **Streaming Applications**: With its support for streaming, Llama 3.2 11B Vision Instruct can be used in real-time video analysis applications, such as live object detection or real-time captioning for video streams.
+# Initialize the model
+model = openrouter.Model("meta-llama/llama-3.2-11b-vision-instruct")
 
-### Code Integration Example with OpenRouter
-To integrate Llama 3.2 11B Vision In</div>
+# Load the image
+image = openrouter.Image("image.jpg")
+
+# Generate the caption
+caption = model.generate(image)
+
+print(caption)
+```
+#### 2. Visual Question Answering
+The model can be used to answer questions related to images. This can be achieved by passing the image and the question as input to the model and generating a text output.
+```python
+import openrouter
+
+# Initialize the model
+model = openrouter.Model("meta-llama/llama-3.2-11b-vision-instruct")
+
+# Load the image
+image = openrouter.Image("image.jpg")
+
+# Define the question
+question = "What is in the image?"
+
+# Generate the answer
+answer = model.generate(image, question)
+
+print(answer)
+```
+#### 3. Object Detection
+Llama 3.2 11B Vision Instruct can be used to detect objects in images. This can be achieved by passing the image as input to the model</div>
       </div>
 
       <!-- CAPABILITIES -->

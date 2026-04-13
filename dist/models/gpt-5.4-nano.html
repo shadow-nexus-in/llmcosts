@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OpenAI: GPT-5.4 Nano API Pricing & Analysis 2026 | LLMCosts.dev</title>
+  <meta name="description" content="Complete OpenAI: GPT-5.4 Nano pricing, benchmarks, and API cost analysis. Input: $0.2000/1M tokens. Updated daily by LLMCosts.dev.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://llmcosts.dev/models/gpt-5.4-nano">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="OpenAI: GPT-5.4 Nano API Pricing | LLMCosts.dev">
+  <meta property="og:description" content="Input: $0.2000/1M | Output: $1.2500/1M. Full benchmark analysis.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://llmcosts.dev/models/gpt-5.4-nano">
+
+  <!-- Schema.org: Dataset -->
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "OpenAI: GPT-5.4 Nano API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for OpenAI: GPT-5.4 Nano by Openai.", "url": "https://llmcosts.dev/models/gpt-5.4-nano", "keywords": ["OpenAI: GPT-5.4 Nano", "Openai", "llm", "api"], "dateModified": "2026-04-13", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <!-- Schema.org: FAQ -->
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
+
+  <!-- Schema.org: SoftwareApplication (SEO Parasite Trap) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "LLMCosts API Routing Config with $200 DO Promo",
+    "operatingSystem": "All",
+    "applicationCategory": "DeveloperApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "0.00",
+      "priceCurrency": "USD",
+      "url": "https://m.do.co/c/0c99ee"
+    }
+  }
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg-primary: #050508;
+      --bg-secondary: #0d0d14;
+      --bg-card: rgba(20, 20, 30, 0.4);
+      --bg-card-hover: rgba(35, 35, 50, 0.6);
+      --border: rgba(255, 255, 255, 0.08);
+      --border-bright: rgba(255, 255, 255, 0.15);
+      --text-primary: #f8f8fc;
+      --text-secondary: #9a9ab5;
+      --text-muted: #656588;
+      --accent-blue: #6d9efa;
+      --accent-purple: #b37afc;
+      --accent-green: #4effb0;
+      --accent-orange: #ffb15c;
+      --accent-red: #ff5e70;
+      --gradient-hero: radial-gradient(circle at 50% -20%, rgba(109,158,250,0.15), transparent 60%), radial-gradient(circle at 100% 10%, rgba(179,122,252,0.1), transparent 50%), transparent;
+      --gradient-card: linear-gradient(135deg, rgba(109,158,250,0.05) 0%, rgba(179,122,252,0.05) 100%);
+      --shadow-card: 0 8px 32px rgba(0,0,0,0.6);
+      --radius: 16px;
+      --radius-sm: 10px;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    /* ── Navigation (Glassmorphism) ── */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(5,5,8,0.7);
+      backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 1.5rem;
+    }
+    .nav-inner {
+      max-width: 1200px; margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 60px;
+    }
+    .nav-logo {
+      font-size: 1.25rem; font-weight: 800; letter-spacing: -0.02em;
+      background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple), var(--accent-green));
+      background-size: 200% auto; animation: gradientShift 4s linear infinite;
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      text-decoration: none;
+    }
+    @keyframes gradientShift { 0% {background-position: 0% 50%;} 50% {background-position: 100% 50%;} 100% {background-position: 0% 50%;} }
+    .nav-links { display: flex; gap: 1.5rem; }
+    .nav-links a {
+      color: var(--text-secondary); text-decoration: none; font-size: 0.875rem;
+      transition: color 0.3s; font-weight: 500;
+    }
+    .nav-links a:hover { color: var(--text-primary); text-shadow: 0 0 10px rgba(255,255,255,0.3); }
+
+    /* ── Hero ── */
+    .hero {
+      background: var(--gradient-hero);
+      padding: 4rem 1.5rem 3rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .hero-inner { max-width: 1200px; margin: 0 auto; }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      background: rgba(91,138,245,0.15);
+      border: 1px solid rgba(91,138,245,0.3);
+      border-radius: 999px; padding: 0.25rem 0.75rem;
+      font-size: 0.75rem; color: var(--accent-blue);
+      margin-bottom: 1.5rem;
+    }
+    .hero-badge::before { content: "●"; animation: pulse 2s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+    h1 {
+      font-size: clamp(2rem, 5vw, 3rem); font-weight: 700; line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+    h1 span {
+      background: linear-gradient(135deg, var(--accent-blue) 0%, var(--accent-purple) 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .hero-meta {
+      display: flex; flex-wrap: wrap; gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    .meta-pill {
+      display: flex; align-items: center; gap: 0.375rem;
+      background: rgba(255,255,255,0.05); border: 1px solid var(--border-bright);
+      border-radius: var(--radius-sm); padding: 0.375rem 0.75rem;
+      font-size: 0.8rem; color: var(--text-secondary);
+    }
+    .meta-pill strong { color: var(--text-primary); }
+
+    /* ── Layout ── */
+    .page-body { max-width: 1200px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+    .two-col { display: grid; grid-template-columns: 1fr 340px; gap: 2rem; align-items: start; }
+    @media (max-width: 900px) { .two-col { grid-template-columns: 1fr; } }
+
+    /* ── Cards ── */
+    .card {
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 1.75rem;
+      box-shadow: var(--shadow-card);
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .card:hover { border-color: var(--border-bright); transform: translateY(-1px); }
+    .card + .card { margin-top: 1.5rem; }
+    .card-title {
+      font-size: 0.7rem; font-weight: 600; letter-spacing: 0.1em;
+      text-transform: uppercase; color: var(--text-muted);
+      margin-bottom: 1.25rem;
+    }
+
+    /* ── Pricing Table ── */
+    .price-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 1rem; margin-bottom: 1.5rem;
+    }
+    .price-cell {
+      background: var(--gradient-card);
+      border: 1px solid var(--border-bright);
+      border-radius: var(--radius-sm); padding: 1rem; text-align: center;
+    }
+    .price-label { font-size: 0.7rem; color: var(--text-muted); margin-bottom: 0.5rem; }
+    .price-value {
+      font-family: var(--font-mono); font-size: 1.25rem; font-weight: 600;
+      color: var(--accent-green);
+    }
+
+    /* ── Stats Row ── */
+    .stats-row {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+      gap: 0.75rem; margin-bottom: 1.5rem;
+    }
+    .stat-cell {
+      background: var(--bg-secondary); border: 1px solid var(--border);
+      border-radius: var(--radius-sm); padding: 0.875rem; text-align: center;
+    }
+    .stat-label { font-size: 0.65rem; color: var(--text-muted); margin-bottom: 0.25rem; }
+    .stat-value { font-family: var(--font-mono); font-size: 0.9rem; font-weight: 600; color: var(--accent-blue); }
+
+    /* ── Cost Examples ── */
+    .cost-table { width: 100%; border-collapse: collapse; font-size: 0.875rem; }
+    .cost-table th, .cost-table td {
+      padding: 0.75rem 1rem; text-align: left;
+      border-bottom: 1px solid var(--border);
+    }
+    .cost-table th { color: var(--text-muted); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; }
+    .cost-table tr:last-child td { border-bottom: none; }
+    .cost-table td:last-child { font-family: var(--font-mono); color: var(--accent-green); text-align: right; }
+
+    /* ── Data Table ── */
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.875rem; overflow-x: auto; display: block; }
+    .data-table th, .data-table td {
+      padding: 0.75rem 1rem; text-align: left;
+      border-bottom: 1px solid var(--border); white-space: nowrap;
+    }
+    .data-table th { color: var(--text-muted); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; background: var(--bg-secondary); }
+    .data-table tr:hover td { background: var(--bg-card-hover); }
+    .data-table a { color: var(--accent-blue); text-decoration: none; }
+    .data-table a:hover { text-decoration: underline; }
+
+    /* ── Content Sections ── */
+    .content-section { margin-bottom: 2rem; }
+    .content-section h2 {
+      font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem;
+      color: var(--text-primary);
+      padding-bottom: 0.5rem; border-bottom: 1px solid var(--border);
+    }
+    .content-section p { color: var(--text-secondary); margin-bottom: 0.75rem; font-size: 0.9375rem; }
+
+    /* ── FAQ Section ── */
+    .faq-section { margin-top: 2.5rem; }
+    .faq-section h2 { font-size: 1.5rem; font-weight: 700; margin-bottom: 1.5rem; }
+    .faq-item {
+      border-bottom: 1px solid var(--border); padding: 1.25rem 0;
+    }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-question { font-size: 1rem; font-weight: 600; color: var(--text-primary); margin-bottom: 0.5rem; }
+    .faq-answer { font-size: 0.9rem; color: var(--text-secondary); }
+
+    /* ── Sidebar ── */
+    .sidebar-card {
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 1.5rem;
+      box-shadow: var(--shadow-card);
+    }
+    .sidebar-card + .sidebar-card { margin-top: 1.25rem; }
+
+    /* ── CTA Button ── */
+    .cta-btn {
+      display: block; width: 100%; padding: 0.875rem 1.5rem;
+      background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+      color: #fff; font-weight: 600; font-size: 0.9rem;
+      text-align: center; text-decoration: none;
+      border-radius: var(--radius-sm); border: none; cursor: pointer;
+      transition: opacity 0.2s, transform 0.15s;
+      margin-bottom: 0.75rem;
+    }
+    .cta-btn:hover { opacity: 0.88; transform: translateY(-1px); }
+    .cta-secondary {
+      display: block; width: 100%; padding: 0.75rem 1.5rem;
+      background: transparent;
+      border: 1px solid var(--border-bright);
+      color: var(--text-secondary); font-size: 0.875rem;
+      text-align: center; text-decoration: none;
+      border-radius: var(--radius-sm);
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .cta-secondary:hover { border-color: var(--accent-blue); color: var(--text-primary); }
+
+    /* ── Badges ── */
+    .badge {
+      display: inline-block; padding: 0.2rem 0.5rem;
+      border-radius: 4px; font-size: 0.7rem; font-weight: 600;
+    }
+    .badge-green { background: rgba(62,255,160,0.15); color: var(--accent-green); }
+    .badge-blue { background: rgba(91,138,245,0.15); color: var(--accent-blue); }
+    .badge-orange { background: rgba(255,159,67,0.15); color: var(--accent-orange); }
+    .badge-red { background: rgba(255,71,87,0.15); color: var(--accent-red); }
+
+    /* ── Capabilities ── */
+    .cap-list { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .cap-tag {
+      background: rgba(91,138,245,0.1); border: 1px solid rgba(91,138,245,0.2);
+      border-radius: 999px; padding: 0.25rem 0.625rem;
+      font-size: 0.7rem; color: var(--accent-blue);
+    }
+
+    /* ── Verified Badge ── */
+    .verified-row {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 0.5rem; font-size: 0.75rem; color: var(--text-muted);
+      margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border);
+    }
+    .verified-row .dot-green { color: var(--accent-green); }
+
+    /* ── Footer ── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 2rem 1.5rem; text-align: center;
+      color: var(--text-muted); font-size: 0.8rem;
+    }
+    footer a { color: var(--text-secondary); text-decoration: none; }
+    footer a:hover { color: var(--text-primary); }
+
+    /* ── Trend Arrow ── */
+    .trend-down { color: var(--accent-green); }
+    .trend-up { color: var(--accent-red); }
+    .trend-stable { color: var(--text-muted); }
+
+    /* ── Responsive ── */
+    @media (max-width: 640px) {
+      .price-grid { grid-template-columns: 1fr 1fr; }
+      .hero { padding: 2.5rem 1rem 2rem; }
+      .page-body { padding: 1.5rem 1rem 3rem; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">⚡ LLMCosts.dev</a>
+    <div class="nav-links">
+      <a href="/compare">Compare</a>
+      <a href="/configs">Configs</a>
+      <a href="/daily-report">Market Report</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-inner">
+    <div class="hero-badge">Live Pricing · Updated 2026-04-08</div>
+    <h1>OpenAI: GPT-5.4 Nano <span>API Pricing</span></h1>
+    <p style="color:var(--text-secondary); font-size:1.0625rem; max-width:600px;">
+      Complete pricing breakdown, benchmark analysis, and competitor comparison for
+      OpenAI: GPT-5.4 Nano by Openai. Confidence: medium.
+    </p>
+    <div class="hero-meta">
+      <div class="meta-pill">Input <strong>$0.2000/1M</strong></div>
+      <div class="meta-pill">Output <strong>$1.2500/1M</strong></div>
+      <div class="meta-pill">Context <strong>400,000 tokens</strong></div>
+      <div class="meta-pill">ELO <strong>1350</strong></div>
+      <div class="meta-pill">Tier <strong>standard</strong></div>
+    </div>
+  </div>
+</div>
+
+<!-- PAGE BODY -->
+<div class="page-body">
+  <div class="two-col">
+
+    <!-- LEFT COLUMN -->
+    <div class="main-content">
+
+      <!-- OVERVIEW -->
+      <div class="card content-section">
+        <div class="card-title">Overview</div>
+        <div>### Introduction to OpenAI: GPT-5.4 Nano
+The OpenAI: GPT-5.4 Nano model, released on 2024-01-01, is a standard tier language model provided by Openai. This model is not open source. From an architectural standpoint, GPT-5.4 Nano is designed to process and generate human-like text based on the input it receives, leveraging its transformer-based architecture to understand and respond to a wide range of prompts and questions. Its main strengths include a large context window of 400,000 tokens, allowing it to understand and respond to lengthy and complex inputs, and the ability to generate up to 128,000 tokens of output.
+
+### Capabilities and Use Cases
+OpenAI: GPT-5.4 Nano boasts a range of capabilities, including text generation, function calling, JSON mode, streaming, and structured outputs. These capabilities make it well-suited for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization. With a high MMLU benchmark score of 94.0 and an LMSYS Arena ELO rating of 1350, this model demonstrates strong performance in understanding and generating coherent text. However, its limitations, such as a knowledge cutoff of 2023-12, should be considered when selecting use cases. The model's pricing structure, including $0.2 per 1M input tokens and $1.25 per 1M output tokens, makes it a cost-effective option for many applications.
+
+### Pricing and Cost Examples
+The pricing for OpenAI: GPT-5.4 Nano is structured around input and output tokens, with no charges for cached or batch inputs. Cost examples provided by Openai illustrate the model's affordability, with 1,000 calls (avg 500 tokens) costing $0.725, 10,000 calls costing $7.25, and 100,000 calls costing $72.</div>
+      </div>
+
+      <!-- PRICING -->
+      <div class="card">
+        <div class="card-title">Pricing Breakdown</div>
+        <div class="price-grid">
+          <div class="price-cell">
+            <div class="price-label">Input</div>
+            <div class="price-value">$0.2000</div>
+            <div style="font-size:0.65rem;color:var(--text-muted);margin-top:0.25rem">per 1M tokens</div>
+          </div>
+          <div class="price-cell">
+            <div class="price-label">Output</div>
+            <div class="price-value">$1.2500</div>
+            <div style="font-size:0.65rem;color:var(--text-muted);margin-top:0.25rem">per 1M tokens</div>
+          </div>
+          <div class="price-cell">
+            <div class="price-label">Cached Input</div>
+            <div class="price-value" style="color:var(--accent-purple)">N/A</div>
+            <div style="font-size:0.65rem;color:var(--text-muted);margin-top:0.25rem">per 1M tokens</div>
+          </div>
+          <div class="price-cell">
+            <div class="price-label">Batch Input</div>
+            <div class="price-value" style="color:var(--accent-orange)">N/A</div>
+            <div style="font-size:0.65rem;color:var(--text-muted);margin-top:0.25rem">per 1M tokens</div>
+          </div>
+        </div>
+
+        <div class="card-title" style="margin-top:1.5rem">Cost at Scale</div>
+        <table class="cost-table">
+          <thead><tr><th>Volume</th><th>Avg 500 tokens/call</th><th>Total Cost</th></tr></thead>
+          <tbody>
+            <tr><td>1,000 API calls</td><td>500K tokens</td><td>$0.725</td></tr>
+            <tr><td>10,000 API calls</td><td>5M tokens</td><td>$7.25</td></tr>
+            <tr><td>100,000 API calls</td><td>50M tokens</td><td>$72.5</td></tr>
+          </tbody>
+        </table>
+
+        <div style="margin-top:1.5rem">### Pricing Analysis for OpenAI: GPT-5.4 Nano
+#### Overview
+The OpenAI: GPT-5.4 Nano model is a standard, non-open source model released by OpenAI on January 1, 2024. This analysis will delve into the cost structure, usage scenarios, and cost savings opportunities for this model.
+
+#### Cost Structure
+The pricing for OpenAI: GPT-5.4 Nano is as follows:
+* Input: **$0.2 per 1M tokens**
+* Output: **$1.25 per 1M tokens**
+* Cached Input: **$0 per 1M tokens** (free)
+* Batch Input: **$0 per 1M tokens** (free)
+
+#### Cost Savings Opportunities
+##### Cached Tokens
+Using cached input tokens can result in significant cost savings, as they are free. This is ideal for scenarios where the input data does not change frequently, such as:
+* Frequently asked questions (FAQs) with static answers
+* Knowledge-based systems with infrequently updated knowledge graphs
+
+##### Batch API Savings
+While the batch input pricing is listed as free, it is essential to note that this may not always be the case. However, based on the provided data, batch processing can be an effective way to reduce costs. This is particularly useful for high-volume workloads, such as:
+* Text generation for large datasets
+* Automated content creation
+
+#### Cost at Scale
+The cost of using OpenAI: GPT-5.4 Nano at scale is as follows:
+* **1,000 calls (avg 500 tokens)**: **$0.725**
+* **10,000 calls**: **$7.25**
+* **100,000 calls**: **$72.5**
+
+These costs demonstrate a linear scaling of expenses with the number of API calls. This suggests that the cost per call remains relatively constant, making it easier to predict and budget for large-scale deployments.
+
+#### Conclusion</div>
+      </div>
+
+      <!-- BENCHMARKS -->
+      <div class="card">
+        <div class="card-title">Benchmarks</div>
+        <div class="stats-row">
+          <div class="stat-cell"><div class="stat-label">MMLU</div><div class="stat-value">94.0</div></div>
+          <div class="stat-cell"><div class="stat-label">HumanEval</div><div class="stat-value">None</div></div>
+          <div class="stat-cell"><div class="stat-label">LMSYS ELO</div><div class="stat-value">1350</div></div>
+        </div>
+        <div>### Analysis of OpenAI: GPT-5.4 Nano Benchmark Performance
+#### Introduction
+The OpenAI: GPT-5.4 Nano model is a standard, non-open-source model released by OpenAI on January 1, 2024. This analysis will delve into the model's benchmark performance, focusing on the MMLU, HumanEval, and Arena ELO scores, and explain their implications for real-world use.
+
+#### Benchmark Scores
+The model's benchmark scores are as follows:
+* **MMLU (Massive Multitask Language Understanding)**: 94.0
+* **HumanEval**: None
+* **LMSYS Arena ELO**: 1350
+* **GSM8K**: None
+
+The MMLU score of 94.0 indicates that the model has a high level of language understanding, with a score close to the maximum possible value. This suggests that the model is well-suited for tasks that require a deep understanding of language, such as text generation, analysis, and summarization.
+
+The lack of HumanEval and GSM8K scores makes it difficult to assess the model's performance in specific areas, such as coding and mathematical problem-solving. However, the presence of other benchmark scores and the model's capabilities (text, function_calling, json_mode, streaming, structured_outputs) suggest that it may still be effective in these areas.
+
+The LMSYS Arena ELO score of 1350 is a measure of the model's performance in a competitive environment, with higher scores indicating better performance. An ELO score of 1350 is relatively high, suggesting that the model is competitive with other models in the arena.
+
+#### Real-World Implications
+The benchmark scores have</div>
+      </div>
+
+      <!-- COMPETITOR TABLE -->
+      <div class="card">
+        <div class="card-title">Competitor Comparison</div>
+        <div style="overflow-x:auto;">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Model</th>
+                <th>Input/1M</th>
+                <th>Output/1M</th>
+                <th>ELO</th>
+                <th>Tier</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="background:rgba(91,138,245,0.08)">
+                <td><strong>OpenAI: GPT-5.4 Nano</strong> <span class="badge badge-blue">This Model</span></td>
+                <td style="font-family:var(--font-mono);color:var(--accent-green)">$0.2000</td>
+                <td style="font-family:var(--font-mono);color:var(--accent-green)">$1.2500</td>
+                <td>1350</td>
+                <td>standard</td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+        <div style="margin-top:1.5rem">### Comparison of OpenAI: GPT-5.4 Nano with Top Competitors
+Since there are no direct competitors listed for the OpenAI: GPT-5.4 Nano model, we will provide a general overview of the model's features, pricing, and performance. This will help users understand the model's strengths and weaknesses and make informed decisions about when to use it.
+
+#### Model Overview
+The OpenAI: GPT-5.4 Nano model is a standard-tier model released on January 1, 2024. It is not open-source and has the following key features:
+* **Context Window**: 400,000 tokens
+* **Max Output**: 128,000 tokens
+* **Knowledge Cutoff**: 2023-12
+* **Capabilities**: text, function_calling, json_mode, streaming, structured_outputs
+* **Best For**: chat, text_generation, coding, analysis, rag_pipelines, summarization
+
+#### Pricing
+The pricing for the OpenAI: GPT-5.4 Nano model is as follows:
+* **Input**: $0.2 per 1M tokens
+* **Output**: $1.25 per 1M tokens
+* **Cached Input**: $None per 1M tokens
+* **Batch Input**: $None per 1M tokens
+
+#### Cost Examples
+Here are some cost examples for using the OpenAI: GPT-5.4 Nano model:
+* **1,000 calls (avg 500 tokens)**: $0.725
+* **10,000 calls**: $7.25
+* **100,000 calls**: $72.5
+
+#### Performance
+The OpenAI: GPT-5.4 Nano model has the following benchmark scores:
+* **MMLU**: 94.0
+* **LMSYS Arena ELO**: 1350
+
+Since there are no direct competitors listed, we cannot provide a direct comparison with other models. However, the benchmark scores suggest that the OpenAI: GPT-5.4 Nano model has strong performance in certain areas, such as MMLU and LMSYS Arena ELO.
+
+#### When to Choose OpenAI: GPT-5.4 Nano
+Based on the model's features and capabilities, it is well-suited for tasks such as:
+* Chat and text generation
+* Coding and analysis
+* Summarization and rag_pipelines
+
+However, without direct competitors, it is difficult</div>
+      </div>
+
+      <!-- USE CASES -->
+      <div class="card content-section">
+        <div class="card-title">Best Use Cases</div>
+        <div>### Introduction to OpenAI: GPT-5.4 Nano
+The OpenAI: GPT-5.4 Nano model is a powerful tool for various natural language processing tasks, offering capabilities such as text generation, function calling, and structured outputs. With its standard tier and pricing model, it's essential to understand the best use cases for this model to maximize its potential.
+
+### Top 5 Best Use Cases for OpenAI: GPT-5.4 Nano
+Based on the model's capabilities and benchmarks, the top 5 best use cases for OpenAI: GPT-5.4 Nano are:
+
+1. **Chat and Text Generation**: With its high MMLU score of 94.0, this model is well-suited for chat and text generation tasks, such as conversational AI, content creation, and language translation.
+2. **Coding and Analysis**: The model's ability to perform function calling and structured outputs makes it an excellent choice for coding and analysis tasks, such as code completion, code review, and data analysis.
+3. **Summarization**: OpenAI: GPT-5.4 Nano's capabilities in text generation and analysis make it an ideal model for summarization tasks, such as summarizing long documents, articles, or research papers.
+4. **RAG Pipelines**: The model's support for structured outputs and function calling makes it a good fit for RAG (Retrieval-Augmented Generation) pipelines, which involve retrieving information from a knowledge base and generating text based on that information.
+5. **Language Understanding and Inference**: With its high MMLU score and ability to perform text generation and analysis, this model is well-suited for language understanding and inference tasks, such as sentiment analysis, entity recognition, and question answering.
+
+### Code Integration Examples with OpenRouter
+To integrate OpenAI: GPT-5.4 Nano with OpenRouter, you can use the following code example:
+```python
+import openai
+</div>
+      </div>
+
+      <!-- CAPABILITIES -->
+      <div class="card">
+        <div class="card-title">Capabilities</div>
+        <div class="cap-list">
+          <span class="cap-tag">text</span> <span class="cap-tag">function_calling</span> <span class="cap-tag">json_mode</span> <span class="cap-tag">streaming</span> <span class="cap-tag">structured_outputs</span>
+        </div>
+      </div>
+
+      <!-- FAQ SECTION -->
+      <div class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        
+      </div>
+
+    </div><!-- end main-content -->
+
+    <!-- RIGHT SIDEBAR -->
+    <aside>
+      <div class="sidebar-card">
+        <div style="font-size:0.8rem;font-weight:600;color:var(--text-muted);margin-bottom:1rem">YOUR PROMO OFFERS</div>
+        <a href="https://m.do.co/c/0c99ee" class="cta-btn" id="cta-get-do-credit" target="_blank" rel="noopener" style="background: linear-gradient(135deg, #0069ff, #0050d2);">
+          🎁 Claim $200 Free Server Credit
+        </a>
+        <a href="https://openrouter.ai/?ref=llmcosts" class="cta-secondary" id="cta-get-api-key" target="_blank" rel="noopener" style="margin-bottom:0.75rem;">
+          ⚡ Get API Key via OpenRouter
+        </a>
+        <a href="/configs" class="cta-secondary" id="cta-download-config">
+          📥 Download Free Config File
+        </a>
+      </div>
+
+      <div class="sidebar-card" style="margin-top:1.25rem">
+        <div style="font-size:0.8rem;font-weight:600;color:var(--text-muted);margin-bottom:1rem">MODEL DETAILS</div>
+        <table style="width:100%;font-size:0.825rem;border-collapse:collapse">
+          <tr style="border-bottom:1px solid var(--border)"><td style="padding:0.5rem 0;color:var(--text-muted)">Provider</td><td style="padding:0.5rem 0;text-align:right;font-weight:500">Openai</td></tr>
+          <tr style="border-bottom:1px solid var(--border)"><td style="padding:0.5rem 0;color:var(--text-muted)">Release Date</td><td style="padding:0.5rem 0;text-align:right">2024-01-01</td></tr>
+          <tr style="border-bottom:1px solid var(--border)"><td style="padding:0.5rem 0;color:var(--text-muted)">Knowledge Cutoff</td><td style="padding:0.5rem 0;text-align:right">2023-12</td></tr>
+          <tr style="border-bottom:1px solid var(--border)"><td style="padding:0.5rem 0;color:var(--text-muted)">Context Window</td><td style="padding:0.5rem 0;text-align:right;font-family:var(--font-mono)">400,000</td></tr>
+          <tr style="border-bottom:1px solid var(--border)"><td style="padding:0.5rem 0;color:var(--text-muted)">Max Output</td><td style="padding:0.5rem 0;text-align:right;font-family:var(--font-mono)">128,000</td></tr>
+          <tr style="border-bottom:1px solid var(--border)"><td style="padding:0.5rem 0;color:var(--text-muted)">Open Source</td><td style="padding:0.5rem 0;text-align:right">No [FAIL]</td></tr>
+          <tr style="border-bottom:1px solid var(--border)"><td style="padding:0.5rem 0;color:var(--text-muted)">Self-Hostable</td><td style="padding:0.5rem 0;text-align:right">No [FAIL]</td></tr>
+          <tr><td style="padding:0.5rem 0;color:var(--text-muted)">Price Trend</td><td style="padding:0.5rem 0;text-align:right" class="trend-stable">stable</td></tr>
+        </table>
+        <div class="verified-row">
+          <span><span class="dot-green">●</span> Verified 2026-04-08</span>
+          <span>medium confidence</span>
+        </div>
+      </div>
+
+      <div class="sidebar-card" style="margin-top:1.25rem">
+        <div style="font-size:0.8rem;font-weight:600;color:var(--text-muted);margin-bottom:0.75rem">EMBED THIS DATA</div>
+        <p style="font-size:0.75rem;color:var(--text-muted);margin-bottom:0.75rem">Add a live pricing widget to your blog</p>
+        <code style="display:block;background:var(--bg-secondary);border:1px solid var(--border);border-radius:6px;padding:0.75rem;font-size:0.7rem;color:var(--accent-green);word-break:break-all;">&lt;iframe src="https://llmcosts.dev/widget/gpt-5.4-nano" width="300" height="120" frameborder="0"&gt;&lt;/iframe&gt;</code>
+      </div>
+    </aside>
+
+  </div><!-- end two-col -->
+</div><!-- end page-body -->
+
+<footer>
+  <p>
+    <a href="/">LLMCosts.dev</a> — Open LLM Pricing Registry |
+    Data verified 2026-04-08 |
+    <a href="/llms.txt">llms.txt</a> |
+    <a href="/sitemap.xml">Sitemap</a>
+  </p>
+  <p style="margin-top:0.5rem">
+    Pricing aggregated from OpenRouter & LiteLLM. Found an error?
+    <a href="https://github.com/shadow-nexus-in/llmcosts/issues">Submit an issue</a>.
+  </p>
+</footer>
+
+</body>
+</html>
