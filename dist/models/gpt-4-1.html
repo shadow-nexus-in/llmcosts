@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://llmcosts.dev/models/gpt-4-1">
 
   <!-- Schema.org: Dataset -->
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "GPT-4.1 API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for GPT-4.1 by OpenAI.", "url": "https://llmcosts.dev/models/gpt-4-1", "keywords": ["GPT-4.1", "OpenAI", "frontier", "multimodal", "coding", "long-context", "analysis"], "dateModified": "2026-04-13", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "GPT-4.1 API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for GPT-4.1 by OpenAI.", "url": "https://llmcosts.dev/models/gpt-4-1", "keywords": ["GPT-4.1", "OpenAI", "frontier", "multimodal", "coding", "long-context", "analysis"], "dateModified": "2026-04-14", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
   <!-- Schema.org: FAQ -->
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
 
@@ -346,13 +346,13 @@
       <div class="card content-section">
         <div class="card-title">Overview</div>
         <div>### Introduction to GPT-4.1
-GPT-4.1, released by OpenAI on 2025-04-14, is a premium, non-open-source model that boasts an impressive array of capabilities, including text, vision, function calling, and more. With a context window of 1,047,576 tokens and a maximum output of 32,768 tokens, GPT-4.1 is well-suited for complex tasks that require extensive input and output processing. Its knowledge cutoff is 2024-05, ensuring that it has a robust understanding of information up to that point.
+GPT-4.1, released by OpenAI on 2025-04-14, is a premium, non-open-source model that boasts an impressive array of capabilities, including text, vision, function calling, and more. With a context window of 1,047,576 tokens and a maximum output of 32,768 tokens, GPT-4.1 is well-suited for complex tasks such as coding, analysis, and long document analysis. Its architecture is designed to handle a wide range of tasks, from natural language processing to computer vision, making it a versatile tool for developers.
 
-### Technical Strengths and Use Cases
-GPT-4.1's architecture is designed to excel in areas such as coding, analysis, and vision tasks, making it a top choice for developers who need to perform complex operations. Its strengths are reflected in its benchmark scores, including 90.0 on MMLU, 91.4 on HumanEval, 1320 on LMSYS Arena ELO, and 97.0 on GSM8K. With capabilities like function calling, JSON mode, and structured outputs, GPT-4.1 is ideal for tasks that require nuanced and detailed processing. However, it is not recommended for simple classification, embeddings, bulk cheap tasks, or real-time tasks that require sub-100ms response times.
+### Technical Specifications and Pricing
+GPT-4.1's technical specifications are backed by impressive benchmarks, including an MMLU score of 90.0, HumanEval score of 91.4, and an LMSYS Arena ELO rating of 1320. The model's pricing is as follows: $2.0 per 1M tokens for input, $8.0 per 1M tokens for output, $0.5 per 1M tokens for cached input, and $1.0 per 1M tokens for batch input. For example, 1,000 calls with an average of 500 tokens would cost $5.0, while 10,000 calls would cost $50.0, and 100,000 calls would cost $500.0. Compared to its top competitors, such as Claude Sonnet 4 and GPT-4o, GPT-4.1 offers competitive pricing and superior performance.
 
-### Pricing and Cost Considerations
-GPT-4.1's pricing is structured around input and output tokens, with costs of $2.0 per 1M input tokens and $8.0 per 1M output tokens. Cached input and batch input are available at reduced rates of $0.5 per 1M tokens and $1.0 per 1M tokens, respectively. For example, 1,000 calls with an average of 500 tokens would cost $5.0, while 10,000 calls would cost $50.0, and 100,000 calls</div>
+### Use Cases and Best Practices
+GPT-4.1 is best suited for tasks that require complex analysis, coding, and content generation. Its capabilities, including function calling, JSON mode, and structured outputs, make it an ideal choice for developers working on projects that involve natural language processing, computer vision, and machine learning. However, it may not be</div>
       </div>
 
       <!-- PRICING -->
@@ -393,35 +393,34 @@ GPT-4.1's pricing is structured around input and output tokens, with costs of $2
 
         <div style="margin-top:1.5rem">### GPT-4.1 Pricing Analysis
 #### Overview
-GPT-4.1, released by OpenAI on 2025-04-14, is a premium, non-open source model. This analysis will delve into the cost structure, optimal usage scenarios, and cost at scale for this model.
+GPT-4.1 is a premium model provided by OpenAI, released on 2025-04-14. This analysis will break down the cost structure, provide guidance on when to use cached tokens, highlight batch API savings, and estimate costs at scale.
 
 #### Cost Structure
 The cost structure for GPT-4.1 is as follows:
-* Input: $2.0 per 1M tokens
-* Output: $8.0 per 1M tokens
-* Cached Input: $0.5 per 1M tokens
-* Batch Input: $1.0 per 1M tokens
+* Input: **$2.0 per 1M tokens**
+* Output: **$8.0 per 1M tokens**
+* Cached Input: **$0.5 per 1M tokens** (reduced cost for cached input tokens)
+* Batch Input: **$1.0 per 1M tokens** (reduced cost for batch input tokens)
 
 #### When to Use Cached Tokens
-Cached tokens are significantly cheaper than regular input tokens, at $0.5 per 1M tokens compared to $2.0 per 1M tokens. It is recommended to use cached tokens when:
-* The input data is repetitive or has a high degree of similarity.
-* The model is being used for tasks that require frequent re-processing of the same input data.
+Cached tokens are ideal for use cases where the input data is repetitive or has been previously processed. With a significantly reduced cost of **$0.5 per 1M tokens**, cached tokens can lead to substantial savings. This is particularly beneficial for applications with high input token reuse, such as:
+* Text analysis with repetitive input
+* Coding tasks with similar input patterns
+* Long document analysis with overlapping content
 
 #### Batch API Savings
-Batch input tokens are priced at $1.0 per 1M tokens, which is 50% cheaper than regular input tokens. To maximize batch API savings:
-* Batch multiple API calls together to reduce the overall cost.
-* Ensure that the batch size is optimized to minimize the number of API calls required.
+Batch input tokens are priced at **$1.0 per 1M tokens**, offering a **50% reduction** compared to regular input tokens. This makes batch processing an attractive option for large-scale applications, such as:
+* Bulk data analysis
+* Content generation
+* Function calling with multiple inputs
 
 #### Cost at Scale
 The cost of using GPT-4.1 at scale is as follows:
-* 1,000 calls (avg 500 tokens): $5.0
-* 10,000 calls: $50.0
-* 100,000 calls: $500.0
+* **1,000 calls (avg 500 tokens)**: **$5.0**
+* **10,000 calls**: **$50.0**
+* **100,000 calls**: **$500.0**
 
-To put these costs into perspective, the cost per 1M tokens for GPT-4.1 is:
-* Input: $2.0
-* Output: $8.0
-* Total: $10.0 per 1M tokens (input + output</div>
+These estimates are based on the average cost per call, taking into account the input and output</div>
       </div>
 
       <!-- BENCHMARKS -->
@@ -434,7 +433,9 @@ To put these costs into perspective, the cost per 1M tokens for GPT-4.1 is:
         </div>
         <div>### GPT-4.1 Benchmark Performance Analysis
 #### Overview
-GPT-4.1, released by OpenAI on 2025-04-14, is a premium, non-open-source model. Its pricing structure includes:
+GPT-4.1, released by OpenAI on 2025-04-14, is a premium, non-open-source model. Its pricing structure includes input, output, cached input, and batch input costs.
+
+#### Pricing Structure
 * Input: $2.0 per 1M tokens
 * Output: $8.0 per 1M tokens
 * Cached Input: $0.5 per 1M tokens
@@ -442,18 +443,14 @@ GPT-4.1, released by OpenAI on 2025-04-14, is a premium, non-open-source model. 
 
 #### Benchmark Scores
 The model's performance is measured by the following benchmark scores:
-* **MMLU (Massive Multitask Language Understanding)**: 90.0, indicating the model's ability to understand and process multiple tasks and languages.
-* **HumanEval**: 91.4, measuring the model's coding abilities and capacity to generate correct code.
-* **LMSYS Arena ELO**: 1320, reflecting the model's competitive performance in a large-scale language model benchmark.
+* **MMLU (Massive Multitask Language Understanding)**: 90.0 - This score indicates the model's ability to understand and process multiple tasks simultaneously. A higher MMLU score suggests better performance in handling complex, real-world tasks.
+* **HumanEval**: 91.4 - This score evaluates the model's ability to generate code that is correct and functional. A higher HumanEval score indicates better coding capabilities.
+* **LMSYS Arena ELO**: 1320 - This score measures the model's performance in a competitive environment, where it is pitted against other models. A higher ELO score suggests better overall performance and adaptability.
 
 #### Real-World Implications
-These benchmark scores have significant implications for real-world use:
-* **MMLU**: A high MMLU score suggests that GPT-4.1 can effectively handle complex, multi-tasking scenarios, making it suitable for applications requiring broad language understanding.
-* **HumanEval**: The high HumanEval score indicates that GPT-4.1 is capable of generating high-quality code, making it a strong candidate for coding and development tasks.
-* **LMSYS Arena ELO**: The LMSYS Arena ELO score demonstrates GPT-4.1's competitive performance in a large-scale language model benchmark, suggesting its potential for applications requiring advanced language processing capabilities.
-
-#### Capabilities and Use Cases
-</div>
+These benchmark scores have significant implications for real-world use cases:
+* **Coding and Analysis**: GPT-4.1's high HumanEval score (91.4) makes it suitable for coding tasks, such as generating code snippets or entire programs.
+* **Complex Task Handling**: The model's high MMLU score (90.0) indicates its ability to handle multiple</div>
       </div>
 
       <!-- COMPETITOR TABLE -->
@@ -489,9 +486,9 @@ These benchmark scores have significant implications for real-world use:
             </tbody>
           </table>
         </div>
-        <div style="margin-top:1.5rem">### Comparison of GPT-4.1 with Top Competitors
+        <div style="margin-top:1.5rem">### GPT-4.1 Comparison Against Top Competitors
 #### Overview
-GPT-4.1, released by OpenAI on 2025-04-14, is a premium, non-open-source model that offers a range of capabilities, including text, vision, function calling, and more. This comparison will delve into the pricing, performance, and use cases of GPT-4.1 against its top competitors, Claude Sonnet 4 and GPT-4o.
+GPT-4.1, released by OpenAI on 2025-04-14, is a premium, non-open-source model that offers a range of capabilities including text, vision, function calling, and more. This comparison will delve into the pricing, performance, and use cases of GPT-4.1 against its top competitors, Claude Sonnet 4 and GPT-4o.
 
 #### Pricing Comparison
 The pricing models of GPT-4.1 and its competitors are as follows:
@@ -509,60 +506,75 @@ The pricing models of GPT-4.1 and its competitors are as follows:
 	+ Output: $10.0 per 1M tokens (25% more than GPT-4.1)
 
 #### Performance Comparison
-The performance benchmarks of GPT-4.1 are:
-
+GPT-4.1 boasts impressive benchmark scores:
 * MMLU: 90.0
 * HumanEval: 91.4
 * LMSYS Arena ELO: 1320
 * GSM8K: 97.0
 
-While the performance benchmarks of Claude Sonnet 4 and GPT-4o are not provided, GPT-4.1's high scores indicate its strong capabilities in various tasks.
+While the benchmark scores for Claude Sonnet 4 and GPT-4o are not provided, GPT-4.1's scores indicate a high level of performance in various tasks.
 
-#### Use Cases and Recommendations
-GPT-4.1 is best suited for tasks that require:
+#### Context and Limits
+GPT-4.1 has the following context and limits:
+* Context Window: 1,047,576 tokens
+* Max Output: 32,768 tokens
+* Knowledge Cutoff: 2024-05
 
+These limits are not provided for the competitor models, but they are essential considerations when choosing a model for specific tasks.
+
+#### Capabilities and Use Cases
+GPT-4.1 is best suited for:
 * Coding
 * Analysis
-* RAG (Retrieve, Augment, Generate)
-* Agents
-* Long document analysis
-* Vision tasks
-* Function calling
-* Content generation
-
-On the other hand, GPT-4.1 is not recommended for:
-
-* Simple classification
-* Embeddings
-* Bulk cheap tasks
-* Real-time tasks with latency under 100ms</div>
+</div>
       </div>
 
       <!-- USE CASES -->
       <div class="card content-section">
         <div class="card-title">Best Use Cases</div>
-        <div>### Introduction to GPT-4.1
-The GPT-4.1 model, released by OpenAI on 2025-04-14, is a premium, non-open source language model that offers a wide range of capabilities, including text, vision, function calling, and more. With its high performance benchmarks, including an MMLU score of 90.0 and a HumanEval score of 91.4, GPT-4.1 is well-suited for complex tasks such as coding, analysis, and long document analysis.
+        <div>### Practical Advice on Top 5 Use Cases for GPT-4.1
+The GPT-4.1 model, released by OpenAI on 2025-04-14, is a premium, non-open source model that excels in various tasks. Given its capabilities and pricing, here are the top 5 use cases for GPT-4.1, along with specific code integration examples mentioning OpenRouter:
 
-### Top 5 Best Use Cases for GPT-4.1
-Based on its capabilities and performance, the top 5 best use cases for GPT-4.1 are:
-
-1. **Coding and Software Development**: GPT-4.1's high performance on coding tasks, as evidenced by its HumanEval score of 91.4, makes it an ideal model for tasks such as code completion, code review, and code generation. For example, you can use GPT-4.1 to integrate with OpenRouter, a popular open-source routing library, to generate optimized routing code.
-    ```python
+#### 1. **Coding and Analysis**
+GPT-4.1 is well-suited for coding tasks, with a HumanEval score of 91.4. You can use it to generate code snippets, analyze code, and even integrate it with OpenRouter for automated code review.
+```python
 import openrouter
 
-def generate_routing_code(start, end):
-    prompt = f"Generate optimized routing code from {start} to {end} using OpenRouter"
-    response = gpt_4_1(prompt)
-    return response
+# Initialize GPT-4.1 model
+model = openrouter.GPT41()
 
-# Example usage:
-print(generate_routing_code("New York", "Los Angeles"))
+# Define a coding task
+task = "Write a Python function to calculate the area of a circle."
+
+# Generate code using GPT-4.1
+code = model.generate_code(task)
+
+# Print the generated code
+print(code)
 ```
-2. **Analysis and Research**: GPT-4.1's ability to process and analyze large amounts of text data makes it well-suited for tasks such as data analysis, research paper summarization, and text classification. For example, you can use GPT-4.1 to analyze a large corpus of text data and generate a summary of the main findings.
-    ```python
-def analyze_text_data(text):
-    prompt = f"Analyze the text data and</div>
+#### 2. **Long Document Analysis**
+With a context window of 1,047,576 tokens, GPT-4.1 can handle long documents with ease. You can use it to analyze and summarize large documents, such as research papers or books.
+```python
+import openrouter
+
+# Initialize GPT-4.1 model
+model = openrouter.GPT41()
+
+# Load a long document
+document = open("document.txt", "r").read()
+
+# Analyze the document using GPT-4.1
+summary = model.analyze_document(document)
+
+# Print the summary
+print(summary)
+```
+#### 3. **Vision Tasks**
+GPT-4.1 has vision capabilities, making it suitable for tasks like image classification, object detection, and image generation. You can integrate it with OpenRouter to build computer vision applications.
+```python
+import openrouter
+
+</div>
       </div>
 
       <!-- CAPABILITIES -->
