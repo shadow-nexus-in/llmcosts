@@ -6,6 +6,7 @@
     "cohere-command-r7b-12-2024-vs-qwen-qwen-max",
     "openai-gpt-4o-2024-11-20-vs-qwen-qwen-max",
     "cohere-command-r-plus-08-2024-vs-qwen-qwen-max",
-    "cohere-command-r-08-2024-vs-qwen-qwen-max"
+    "cohere-command-r-08-2024-vs-qwen-qwen-max",
+    "openai-gpt-4o-2024-08-06-vs-qwen-qwen-max"
   ]
 }

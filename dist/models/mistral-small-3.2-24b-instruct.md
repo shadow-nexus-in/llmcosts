@@ -1,6 +1,6 @@
 # Mistral: Mistral Small 3.2 24B API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-04-14
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-04-15
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
