@@ -1,17 +1,17 @@
 # Gemini 2.5 Flash API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-04-15
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-04-16
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
-### Technical Overview
-The Gemini 2.5 Flash model, released by Google on 2025-03-25, is a standard-tier language model that boasts an impressive set of capabilities, including text, vision, function calling, and more. Its architecture is designed to handle complex tasks, with a context window of 1,048,576 tokens and a maximum output of 65,536 tokens. The model's knowledge cutoff is 2025-01, ensuring it has a robust understanding of information up to that point. With a pricing structure of $0.3 per 1M tokens for input and $2.5 per 1M tokens for output, Gemini 2.5 Flash offers a competitive solution for developers.
+### Introduction to Gemini 2.5 Flash
+The Gemini 2.5 Flash model, provided by Google, is a standard-tier language model released on 2025-03-25. This model is not open source. From an architectural standpoint, Gemini 2.5 Flash boasts a context window of 1,048,576 tokens and can generate up to 65,536 tokens as output. Its knowledge cutoff is 2025-01, indicating that its training data includes information up to that point. The model's capabilities include text, vision, function calling, JSON mode, streaming, system prompts, extended thinking, and audio processing.
 
-### Strengths and Use-Cases
-Gemini 2.5 Flash excels in various areas, including coding, analysis, and vision tasks, thanks to its advanced capabilities such as extended thinking and function calling. Its high scores in benchmarks like MMLU (89.0), HumanEval (89.0), and GSM8K (97.0) demonstrate its exceptional performance. The model is well-suited for tasks that require complex reasoning, long context understanding, and multi-modal input. However, it may not be the best choice for simple classification, embeddings, or bulk cheap tasks. With its pricing structure, developers can expect to pay $0.375 for 1,000 calls (avg 500 tokens), $3.75 for 10,000 calls, and $37.5 for 100,000 calls.
+### Technical Strengths and Use Cases
+Gemini 2.5 Flash demonstrates its technical prowess through various benchmarks: it achieves an MMLU score of 89.0, a HumanEval score of 89.0, an LMSYS Arena ELO of 1330, and a GSM8K score of 97.0. These scores highlight the model's strengths in coding, analysis, and other complex tasks. The model is best utilized for tasks such as coding, analysis, retrieval-augmented generation (RAG), agents, summarization, vision tasks, long context understanding, and function calling. However, it is not well-suited for simple classification, embeddings, or bulk cheap tasks. Pricing for the model is as follows: $0.3 per 1M tokens for input, $2.5 per 1M tokens for output, and $0.03 per 1M tokens for cached input.
 
-### Comparison and Cost-Effectiveness
-Compared to its top competitors, Gemini 2.5 Flash offers a competitive pricing structure. For example, GPT-4o charges $2.5/1M input and $10.0/1M output, while Claude Sonnet 4 charges $3.0/1M input and $15.0/1M output. In contrast,
+### Pricing and Cost Examples
+To give developers a clearer understanding of the costs involved, consider the following examples: 1,000 calls with an average of 500 tokens per call would cost $0.375, while 10,000 calls would cost $3.75, and 100,000 calls would cost $37.5. In comparison to its top competitors, Gemini 2
 
 ## Pricing (USD per 1M tokens)
 | Metric | Price |
@@ -25,7 +25,7 @@ Compared to its top competitors, Gemini 2.5 Flash offers a competitive pricing s
 ## Pricing Analysis
 ### Gemini 2.5 Flash Pricing Analysis
 #### Overview
-The Gemini 2.5 Flash model, provided by Google, offers a robust set of capabilities including text, vision, function calling, and more. Released on 2025-03-25, this standard-tier model is not open source. This analysis will delve into the cost structure, optimal usage scenarios, and provide a detailed breakdown of costs at various scales.
+The Gemini 2.5 Flash model, provided by Google, offers a robust set of capabilities including text, vision, function calling, and more. Released on 2025-03-25, this model is part of the standard tier and is not open source. This analysis will delve into the cost structure, optimal usage scenarios, and provide a detailed breakdown of costs at various scales.
 
 #### Cost Structure
 The pricing for Gemini 2.5 Flash is as follows:
@@ -35,19 +35,19 @@ The pricing for Gemini 2.5 Flash is as follows:
 - **Batch Input**: No additional cost specified
 
 #### Optimal Usage Scenarios
-- **Cached Tokens**: Using cached tokens can significantly reduce input costs, from $0.3 per 1M tokens to $0.03 per 1M tokens. This represents a 90% reduction in input costs, making it highly beneficial for applications where input data is frequently reused or can be cached.
-- **Batch API Savings**: Although specific batch input pricing is not provided, understanding the cost structure implies that optimizing for batch processing could lead to significant savings, especially considering the lack of additional cost for batch inputs.
+- **Cached Tokens**: Using cached input tokens can significantly reduce costs, with a price of $0.03 per 1M tokens, which is 10% of the regular input cost. This is ideal for applications where the same input data is reused.
+- **Batch API Savings**: Although no specific batch input pricing is provided, understanding the cost structure suggests that batching can help in reducing the overall cost per call by minimizing the number of API requests.
 
 #### Cost at Scale
-To understand the cost implications of using Gemini 2.5 Flash at scale, let's examine the provided cost examples:
+The cost examples provided give insight into the scalability of Gemini 2.5 Flash:
 - **1,000 calls (avg 500 tokens)**: $0.375
 - **10,000 calls**: $3.75
 - **100,000 calls**: $37.5
 
-These examples illustrate a linear scaling of costs with the number of API calls, indicating that the cost per call remains constant regardless of the volume.
+These examples illustrate a linear cost scaling, indicating that the cost per call remains consistent regardless of the volume, assuming an average of 500 tokens per call.
 
 #### Comparison with Competitors
-Gemini 2.5 Flash's pricing is competitive, especially considering its capabilities and performance benchmarks (MMLU: 89.
+Gemini 2.5 Flash's pricing is competitive, especially considering its capabilities and performance benchmarks (MMLU: 89.0, HumanEval: 89.0, LMSYS
 
 ## Benchmarks
 | Benchmark | Score |
@@ -59,30 +59,24 @@ Gemini 2.5 Flash's pricing is competitive, especially considering its capabiliti
 
 ## Benchmark Analysis
 ### Analysis of Gemini 2.5 Flash Benchmark Performance
-The Gemini 2.5 Flash model, released by Google on 2025-03-25, is a standard, non-open-source model with a context window of 1,048,576 tokens and a maximum output of 65,536 tokens. The model's pricing is as follows:
-* Input: $0.3 per 1M tokens
-* Output: $2.5 per 1M tokens
-* Cached Input: $0.03 per 1M tokens
-* Batch Input: $None per 1M tokens
+#### Overview
+The Gemini 2.5 Flash model, provided by Google, demonstrates strong performance across various benchmarks. This analysis will delve into the MMLU, HumanEval, and Arena ELO scores, explaining their implications for real-world use cases.
 
 #### Benchmark Scores
-The model's benchmark performance is measured by the following scores:
-* **MMLU (Massive Multitask Language Understanding)**: 89.0 - This score indicates the model's ability to perform well across a wide range of natural language processing tasks.
-* **HumanEval**: 89.0 - This score measures the model's ability to generate code that is correct and functional, as evaluated by human judges.
-* **LMSYS Arena ELO**: 1330 - This score represents the model's performance in a competitive arena, where it is pitted against other models in a series of tasks and challenges.
-* **GSM8K**: 97.0 - This score is not explicitly defined in the provided data, but it is likely a measure of the model's performance on a specific task or dataset.
+* **MMLU (Massive Multitask Language Understanding) Score: 89.0** - This score indicates the model's ability to understand and generate human-like text across a wide range of tasks and topics. A higher MMLU score suggests better performance in tasks that require a deep understanding of language.
+* **HumanEval Score: 89.0** - HumanEval is a benchmark that evaluates a model's ability to write correct and functional code. A high HumanEval score, such as 89.0, implies that the model is proficient in coding tasks and can generate accurate code snippets.
+* **LMSYS Arena ELO Score: 1330** - The Arena ELO score is a measure of a model's overall performance in a competitive environment. An ELO score of 1330 indicates that the model is a strong competitor in the language model landscape.
 
 #### Real-World Implications
-The benchmark scores suggest that Gemini 2.5 Flash is a highly capable model, suitable for a wide range of tasks, including:
-* Coding and analysis
-* Reasoning and problem-solving
-* Vision tasks and multimodal processing
-* Long
+These benchmark scores have significant implications for real-world use cases:
+* **Coding and Analysis**: With high MMLU and HumanEval scores, Gemini 2.5 Flash is well-suited for coding tasks, such as code completion, code review, and code generation.
+* **Complex Tasks**: The model's high Arena ELO score suggests that it can handle complex tasks that require a deep understanding of language, such as text analysis, summarization, and vision tasks.
+* **Long
 
 ## Competitor Comparison
 ### Comparison of Gemini 2.5 Flash with Top Competitors
 #### Overview
-The Gemini 2.5 Flash model, released by Google on 2025-03-25, is a standard, non-open-source model that offers a unique set of capabilities and pricing. This comparison will examine the Gemini 2.5 Flash model against its top competitors, including GPT-4o, Claude Sonnet 4, and OpenAI o4-mini, in terms of pricing, performance, and use cases.
+The Gemini 2.5 Flash model, released by Google on 2025-03-25, is a standard, non-open-source model with a unique set of capabilities and pricing. This comparison will examine the Gemini 2.5 Flash model against its top competitors, including GPT-4o, Claude Sonnet 4, and OpenAI o4-mini.
 
 #### Pricing Comparison
 The pricing for each model is as follows:
@@ -101,43 +95,38 @@ The pricing for each model is as follows:
 	+ Input: $1.1 per 1M tokens
 	+ Output: $4.4 per 1M tokens
 
-The Gemini 2.5 Flash model offers the lowest input pricing among the four models, making it an attractive option for applications with high input volumes. However, the output pricing is higher than the OpenAI o4-mini model.
+#### Performance Trade-offs
+The Gemini 2.5 Flash model has the following benchmarks:
+* MMLU: 89.0
+* HumanEval: 89.0
+* LMSYS Arena ELO: 1330
+* GSM8K: 97.0
+In comparison, the top competitors have the following pricing and performance characteristics:
+* GPT-4o: Higher input and output prices, but potentially higher performance
+* Claude Sonnet 4: Higher input and output prices, but potentially higher performance
+* OpenAI o4-mini: Lower input and output prices, but potentially lower performance
 
-#### Performance Comparison
-The performance of each model can be evaluated based on the following benchmarks:
-* Gemini 2.5 Flash:
-	+ MMLU: 89.0
-	+ HumanEval: 89.0
-	+ LMSYS Arena ELO: 1330
-	+ GSM8K: 97.0
-* GPT-4o: Not available
-* Claude Sonnet 4: Not available
-* OpenAI o4-mini: Not available
-
-The Gemini 2.5 Flash model demonstrates strong performance across various benchmarks, but a direct comparison with its competitors is not possible due to the lack of available data.
-
-#### Capabilities and Use Cases
-The Gemini 2.5 Flash model offers a wide range of capabilities, including:
-* Text
-* Vision
-* Function calling
-
+#### When to Choose Each Model
+Based on the pricing and performance characteristics, the following guidelines can be used to choose each model:
+* Gemini 2.5 Flash: Best for coding, analysis, RAG, agents, summarization, vision tasks, long context, and function calling. Not suitable for simple classification, embeddings, or bulk cheap tasks.
+* GPT-4o: Suitable for applications that require high performance and are willing to pay a premium for input and output.
+* Claude
 
 ## Best Use Cases
 ### Introduction to Gemini 2.5 Flash
-The Gemini 2.5 Flash model, released by Google on 2025-03-25, is a standard, non-open source model with a unique set of capabilities and pricing. This guide will explore the top 5 best use cases for Gemini 2.5 Flash, including code integration examples with OpenRouter.
+The Gemini 2.5 Flash model, released by Google on 2025-03-25, is a standard, non-open-source model with a wide range of capabilities, including text, vision, function calling, and more. With its competitive pricing and strong performance benchmarks, it's an attractive choice for various use cases.
 
-### Top 5 Use Cases for Gemini 2.5 Flash
-Based on the model's capabilities and benchmarks, the top 5 use cases for Gemini 2.5 Flash are:
+### Top 5 Best Use Cases for Gemini 2.5 Flash
+Based on its capabilities and pricing, here are the top 5 best use cases for Gemini 2.5 Flash:
 
-1. **Coding and Analysis**: With its high MMLU and HumanEval scores, Gemini 2.5 Flash is well-suited for coding and analysis tasks. For example, you can use it to generate code snippets or analyze complex data sets.
-2. **RAG (Retrieve, Augment, Generate) Tasks**: Gemini 2.5 Flash's ability to handle long context windows and its high LMSYS Arena ELO score make it a good fit for RAG tasks. You can use it to retrieve information, augment existing data, and generate new content.
-3. **Summarization and Vision Tasks**: With its high GSM8K score, Gemini 2.5 Flash is capable of summarizing complex information and handling vision tasks. You can use it to summarize long documents or analyze images and videos.
-4. **Function Calling and Agents**: Gemini 2.5 Flash's ability to handle function calling and its high MMLU score make it a good fit for tasks that require interacting with external systems. You can use it to build agents that can interact with APIs or other systems.
-5. **Extended Thinking and Streaming**: With its high LMSYS Arena ELO score, Gemini 2.5 Flash is capable of handling extended thinking and streaming tasks. You can use it to generate long-form content or analyze real-time data streams.
+1. **Coding and Analysis**: With its strong performance on HumanEval (89.0) and GSM8K (97.0) benchmarks, Gemini 2.5 Flash is well-suited for coding and analysis tasks. Its ability to handle long context windows (1,048,576 tokens) and generate high-quality output makes it an excellent choice for tasks like code review and analysis.
+2. **RAG (Retrieve, Augment, Generate) Tasks**: Gemini 2.5 Flash's ability to handle long context windows and generate high-quality output makes it an excellent choice for RAG tasks. Its performance on the LMSYS Arena ELO benchmark (1330) demonstrates its ability to retrieve and generate relevant information.
+3. **Summarization and Vision Tasks**: With its strong performance on the MMLU benchmark (89.0), Gemini 2.5 Flash is well-suited for summarization and vision tasks. Its ability to handle vision tasks and generate high-quality output makes it an excellent choice for tasks like image captioning and summarization.
+4. **Function Calling and API Integration**: Gemini 2.5 Flash's ability to handle function calling and API integration makes it an excellent choice for tasks that require interacting with external systems. For example, you can use Gemini 2.5 Flash to integrate with OpenRouter using the following code:
+```python
+import requests
 
-### Code Integration Examples with OpenRouter
-To integrate Gemini 2
+def call_openrouter
 
 ## Frequently Asked Questions
 
