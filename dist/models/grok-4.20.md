@@ -1,17 +1,17 @@
 # xAI: Grok 4.20 API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-04-16
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-04-17
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
 ### Introduction to xAI: Grok 4.20
-xAI: Grok 4.20 is a standard-tier model provided by X-ai, released on January 1, 2024. This model is not open source. The architecture of xAI: Grok 4.20 is designed to handle a wide range of natural language processing tasks, with capabilities including text, function calling, JSON mode, streaming, and structured outputs. Its primary strengths lie in its ability to process large context windows of up to 2,000,000 tokens and generate outputs of up to 4,096 tokens.
+The xAI: Grok 4.20 model, released by X-ai on 2024-01-01, is a standard-tier language model that operates under a closed-source license. This model is designed to handle a wide range of tasks, including but not limited to chat, text generation, coding, analysis, and summarization. With its robust architecture, xAI: Grok 4.20 is capable of processing large amounts of data, making it an ideal choice for developers seeking a reliable language model for their applications.
 
-### Technical Specifications and Use Cases
-xAI: Grok 4.20 is best utilized for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization. The model's pricing structure is as follows: $2.0 per 1M tokens for input, $6.0 per 1M tokens for output, with no charges for cached input or batch input. The model's performance is benchmarked with an MMLU score of 80.0 and an LMSYS Arena ELO score of 1200. With a knowledge cutoff of December 2023, xAI: Grok 4.20 is well-suited for tasks that require a strong understanding of language and context. However, its limitations and lack of direct competitors mean that developers should carefully evaluate their use cases before selecting this model.
+### Technical Specifications and Strengths
+xAI: Grok 4.20 boasts an impressive context window of 2,000,000 tokens, allowing it to understand and process lengthy inputs with ease. The model's output is capped at 4,096 tokens, which is sufficient for most use cases. In terms of pricing, the model charges $2.0 per 1M tokens for input and $6.0 per 1M tokens for output. The model's capabilities include text processing, function calling, JSON mode, streaming, and structured outputs, making it a versatile tool for various applications. With a benchmark score of 80.0 on the MMLU test and 1200 on the LMSYS Arena ELO, xAI: Grok 4.20 demonstrates its strength in language understanding and generation tasks.
 
-### Pricing and Cost Examples
-The cost of using xAI: Grok 4.20 can be estimated based on the number of calls and tokens processed. For example, 1,000 calls with an average of 500 tokens per call would cost $4.0, while 10,000 calls would cost $40.0, and 100,000 calls would cost $400.0. Developers should consider these costs when designing their applications and budgeting for model usage. By understanding the
+### Use Cases and Cost Considerations
+Developers can leverage xAI: Grok 4.20 for a variety of tasks, including chatbots, text generation, coding assistance, and data analysis. However, it's essential to consider the costs associated with using this model. For example, 1,000 calls with an average of 500 tokens will incur a cost of $4.0, while 10,000 calls will cost $40.0, and 100,000 calls will cost $400.0. With
 
 ## Pricing (USD per 1M tokens)
 | Metric | Price |
@@ -25,7 +25,7 @@ The cost of using xAI: Grok 4.20 can be estimated based on the number of calls a
 ## Pricing Analysis
 ### xAI: Grok 4.20 Pricing Analysis
 #### Overview
-The xAI: Grok 4.20 model, provided by X-ai, is a standard, non-open source model released on January 1, 2024. This analysis will delve into the cost structure, usage scenarios, and scalability of this model.
+The xAI: Grok 4.20 model, provided by X-ai, is a standard, non-open-source model released on January 1, 2024. This analysis will delve into the cost structure, usage scenarios, and scalability of the model.
 
 #### Cost Structure
 The pricing for xAI: Grok 4.20 is as follows:
@@ -36,26 +36,20 @@ The pricing for xAI: Grok 4.20 is as follows:
 
 #### Usage Scenarios
 * **Cached Tokens**: Since cached input tokens are free, it is recommended to use cached tokens whenever possible to minimize costs.
-* **Batch API Savings**: Batch input is also free, which means that batching API calls can lead to significant cost savings, especially for large-scale applications.
+* **Batch API Savings**: Although batch input tokens are free, there is no explicit discount for batch API calls. However, making batch API calls can still reduce the overall cost by minimizing the number of API requests.
 
 #### Cost at Scale
 The cost of using xAI: Grok 4.20 at scale is as follows:
-* **1,000 calls (avg 500 tokens)**: $4.0
-* **10,000 calls**: $40.0
-* **100,000 calls**: $400.0
+* **1,000 API calls** (avg 500 tokens): $4.0
+* **10,000 API calls**: $40.0
+* **100,000 API calls**: $400.0
 
-These costs demonstrate a linear scaling of expenses with the number of API calls, indicating that the cost per call remains constant.
+These costs can be broken down into input and output costs. Assuming an average of 500 tokens per call, the total number of tokens for each scenario would be:
+* 1,000 calls \* 500 tokens/call = 500,000 tokens
+* 10,000 calls \* 500 tokens/call = 5,000,000 tokens
+* 100,000 calls \* 500 tokens/call = 50,000,000 tokens
 
-#### Context and Limits
-It is essential to consider the context and limits of the xAI: Grok 4.20 model when planning usage:
-* **Context Window**: 2,000,000 tokens
-* **Max Output**: 4,096 tokens
-* **Knowledge Cutoff**: 2023-12
-
-These limits may impact the suitability of the model for specific use cases, particularly those requiring longer context windows or more extensive output.
-
-#### Capabilities and Best Use Cases
-The x
+Using the pricing structure, we can estimate the input and output costs
 
 ## Benchmarks
 | Benchmark | Score |
@@ -68,112 +62,110 @@ The x
 ## Benchmark Analysis
 ### xAI: Grok 4.20 Benchmark Performance Analysis
 #### Overview
-The xAI: Grok 4.20 model, released by X-ai on 2024-01-01, is a standard, non-open-source model with a context window of 2,000,000 tokens and a maximum output of 4,096 tokens. The model's pricing is as follows:
-* Input: $2.0 per 1M tokens
-* Output: $6.0 per 1M tokens
+The xAI: Grok 4.20 model, released by X-ai on 2024-01-01, is a standard, non-open-source model with a context window of 2,000,000 tokens and a maximum output of 4,096 tokens. The model's knowledge cutoff is 2023-12.
 
 #### Benchmark Scores
-The model's benchmark performance is measured by the following scores:
-* **MMLU (Massive Multitask Language Understanding)**: 80.0 - This score indicates the model's ability to understand and perform various natural language tasks. A higher MMLU score suggests better performance in tasks such as text classification, sentiment analysis, and question answering.
-* **HumanEval**: None - HumanEval is a benchmark that evaluates a model's ability to write code. The absence of a HumanEval score for xAI: Grok 4.20 suggests that its coding capabilities have not been formally evaluated using this benchmark.
-* **LMSYS Arena ELO**: 1200 - The LMSYS Arena ELO score is a measure of a model's performance in a competitive environment, where it is pitted against other models. An ELO score of 1200 indicates that xAI: Grok 4.20 has a moderate level of performance, but its exact ranking and capabilities in this area are not well-defined.
+The model's performance is measured by the following benchmark scores:
+* **MMLU (Massive Multitask Language Understanding)**: 80.0 - This score indicates the model's ability to understand and perform a wide range of natural language processing tasks. A higher MMLU score suggests better performance in tasks such as text classification, sentiment analysis, and question answering.
+* **HumanEval**: None - HumanEval is a benchmark that evaluates a model's ability to write correct and functional code. The absence of a HumanEval score for xAI: Grok 4.20 makes it difficult to assess its coding capabilities.
+* **LMSYS Arena ELO**: 1200 - The LMSYS Arena ELO score is a measure of a model's performance in a competitive environment, where it is pitted against other models. An ELO score of 1200 indicates that xAI: Grok 4.20 is a moderately strong model, but its exact ranking and capabilities are unclear without more context.
 
 #### Real-World Implications
-The benchmark scores have the following implications for real-world use:
-* The MMLU score of 80.0 suggests
+The benchmark scores suggest that xAI: Grok 4.20 is a capable model for tasks such as:
+* Text generation and analysis
+* Coding and programming
+* Chat and conversation
+* Summarization and knowledge retrieval
+
+
 
 ## Competitor Comparison
 ### xAI: Grok 4.20 Comparison
-Since xAI: Grok 4.20 does not have direct competitors listed, we will provide a general overview of its features, pricing, and performance. This will help users understand when to choose this model and what trade-offs to expect.
+Since there are no direct competitors listed for xAI: Grok 4.20, we will provide a detailed analysis of its features, pricing, and performance. This will help users understand when to choose this model and its potential trade-offs.
+
+#### Model Overview
+* **Provider:** X-ai
+* **Release Date:** 2024-01-01
+* **Tier:** Standard
+* **Open Source:** False
 
 #### Pricing
 The pricing for xAI: Grok 4.20 is as follows:
-* Input: **$2.0 per 1M tokens**
-* Output: **$6.0 per 1M tokens**
-* Cached Input: **$None per 1M tokens** (not available)
-* Batch Input: **$None per 1M tokens** (not available)
+* **Input:** $2.0 per 1M tokens
+* **Output:** $6.0 per 1M tokens
+* **Cached Input:** $None per 1M tokens
+* **Batch Input:** $None per 1M tokens
 
-#### Performance Trade-offs
-The performance of xAI: Grok 4.20 is measured by the following benchmarks:
-* MMLU: **80.0**
-* LMSYS Arena ELO: **1200**
-The model has a large context window of **2,000,000 tokens** and can generate up to **4,096 tokens** of output.
+#### Context and Limits
+* **Context Window:** 2,000,000 tokens
+* **Max Output:** 4,096 tokens
+* **Knowledge Cutoff:** 2023-12
+
+#### Benchmarks
+The model's performance is measured by the following benchmarks:
+* **MMLU:** 80.0
+* **LMSYS Arena ELO:** 1200
 
 #### Capabilities and Use Cases
 xAI: Grok 4.20 supports the following capabilities:
-* text
-* function_calling
-* json_mode
-* streaming
-* structured_outputs
-It is best suited for tasks such as:
-* chat
-* text_generation
-* coding
-* analysis
-* rag_pipelines
-* summarization
+* **Text**
+* **Function calling**
+* **JSON mode**
+* **Streaming**
+* **Structured outputs**
+
+It is best suited for the following use cases:
+* **Chat**
+* **Text generation**
+* **Coding**
+* **Analysis**
+* **RAG pipelines**
+* **Summarization**
 
 #### Cost Examples
-The cost of using xAI: Grok 4.20 can be estimated as follows:
-* 1,000 calls (avg 500 tokens): **$4.0**
-* 10,000 calls: **$40.0**
-* 100,000 calls: **$400.0**
+The estimated costs for using xAI: Grok 4.20 are:
+* **1,000 calls (avg 500 tokens):** $4.0
+* **10,000 calls:** $40.0
+* **100,000 calls:** $400.0
 
 #### Choosing xAI: Grok 4.20
-Given the lack of direct competitors, xAI: Grok 4.20 can be considered a unique offering in the market. Its strengths include:
-* Large context window
-* Support for multiple capabilities
-* Competitive pricing
-However, its limitations include:
-* No cached input or batch input pricing available
-* Limited benchmark data (e.g., no HumanEval or GSM8K scores)
+Since there are no direct competitors listed, xAI: Grok 4.20 can be considered for its unique combination of capabilities, including text, function calling, and structured outputs. Its pricing is based on input and output tokens, with no additional costs for cached or batch inputs.
 
-In conclusion, xAI: Grok 4.20 is a powerful model with a range of capabilities and competitive pricing. While it may not have direct competitors, its unique features and performance make it a strong contender in the market. Users should consider their specific use cases
+When to choose xAI: Grok 4.20:
+* **Large-scale text generation**: With a context window of 2,000,000 tokens, x
 
 ## Best Use Cases
 ### Introduction to xAI: Grok 4.20
-xAI: Grok 4.20 is a standard, non-open-source model provided by X-ai, released on January 1, 2024. This model excels in various tasks, including chat, text generation, coding, analysis, RAG pipelines, and summarization.
+xAI: Grok 4.20 is a powerful model released by X-ai on 2024-01-01, offering a range of capabilities including text, function calling, JSON mode, streaming, and structured outputs. With its standard tier and non-open source status, it's essential to understand its pricing and use cases to maximize its potential.
 
-### Pricing Model
+### Pricing Breakdown
 The pricing for xAI: Grok 4.20 is as follows:
-- **Input**: $2.0 per 1M tokens
-- **Output**: $6.0 per 1M tokens
-- **Cached Input**: $None per 1M tokens
-- **Batch Input**: $None per 1M tokens
+- Input: $2.0 per 1M tokens
+- Output: $6.0 per 1M tokens
+- Cached Input: $None per 1M tokens
+- Batch Input: $None per 1M tokens
 
 ### Top 5 Best Use Cases for xAI: Grok 4.20
-Given its capabilities, here are the top 5 best use cases for xAI: Grok 4.20, along with code integration examples using OpenRouter:
+Given its capabilities, xAI: Grok 4.20 is best suited for:
+1. **Chat**: Utilize Grok 4.20 for conversational AI, leveraging its text and function calling capabilities.
+2. **Text Generation**: With its high context window of 2,000,000 tokens, Grok 4.20 is ideal for generating coherent and lengthy text.
+3. **Coding**: The model's coding capabilities make it suitable for tasks such as code completion and code review.
+4. **Analysis**: Grok 4.20 can be used for in-depth analysis tasks, including data analysis and text analysis.
+5. **Summarization**: Leverage the model's capabilities to summarize large documents and texts.
 
-#### 1. **Chat and Text Generation**
-xAI: Grok 4.20 is well-suited for chat and text generation tasks due to its high performance in text processing. 
+### Code Integration Example with OpenRouter
+To integrate xAI: Grok 4.20 with OpenRouter, you can use the following example:
 ```python
 import openrouter
 
-# Initialize the model
-model = openrouter.load_model("x-ai/grok-4.20")
+# Initialize the OpenRouter client
+client = openrouter.Client()
 
-# Generate text based on a prompt
-prompt = "Write a story about a character who discovers a hidden world."
-response = model.generate_text(prompt)
-print(response)
-```
+# Define the input prompt
+prompt = "Generate a summary of the provided text."
 
-#### 2. **Coding and Function Calling**
-The model's ability to understand and generate code makes it an excellent choice for coding tasks. 
-```python
-import openrouter
-
-# Initialize the model
-model = openrouter.load_model("x-ai/grok-4.20")
-
-# Define a function to be called
-def add(a, b):
-    return a + b
-
-# Call the function using the model
-result = model.call_function(add, 2, 3)
-print
+# Define the input text
+text = "This
 
 ## Frequently Asked Questions
 

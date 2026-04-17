@@ -1,6 +1,6 @@
 # LLMCosts.dev — Premium Tier Models
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-04-16
+> Updated: 2026-04-17
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -50,3 +50,4 @@ License: CC BY 4.0
 | [Google: Gemma 4 26B A4B ](https://llmcosts.dev/models/google-gemma-4-26b-a4b-it) | Google | $0.12 | $0.4 | $None | 262,144 | None | premium | Closed |
 | [Google: Gemma 4 31B (free)](https://llmcosts.dev/models/google-gemma-4-31b-it:free) | Google | $0.0 | $0.0 | $None | 262,144 | None | premium | Closed |
 | [Google: Gemma 4 31B](https://llmcosts.dev/models/google-gemma-4-31b-it) | Google | $0.14 | $0.4 | $None | 262,144 | None | premium | Closed |
+| [Anthropic: Claude Opus 4.7](https://llmcosts.dev/models/anthropic-claude-opus-4.7) | Anthropic | $5.0 | $25.0 | $None | 1,000,000 | None | premium | Closed |

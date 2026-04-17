@@ -1,6 +1,6 @@
 # xAI: Grok 3 Mini Beta API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-04-16
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-04-17
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview

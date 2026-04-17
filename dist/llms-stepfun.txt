@@ -1,6 +1,6 @@
 # LLMCosts.dev — Stepfun Models Pricing
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-04-16
+> Updated: 2026-04-17
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]

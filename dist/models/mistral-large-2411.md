@@ -1,17 +1,17 @@
 # Mistral Large 2411 API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-04-16
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-04-17
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
-### Technical Overview
-The Mistral Large 2411 model, released by Mistral AI on 2024-11-12, is a standard-tier language model that operates under a closed-source license. From an architectural standpoint, this model is designed to handle a wide range of tasks, including but not limited to text processing, vision, function calling, and more. Its capabilities are underscored by its support for features like JSON mode, streaming, and system prompts, making it a versatile tool for developers.
+### Introduction to Mistral Large 2411
+Mistral Large 2411, provided by Mistral AI, is a standard-tier model released on 2024-11-12. This model is not open source. From an architectural standpoint, Mistral Large 2411 is designed to handle a wide range of tasks, including text and vision processing, function calling, and more, thanks to its capabilities in text, vision, function_calling, json_mode, streaming, and system_prompts. Its main strengths lie in its ability to perform complex tasks such as coding, analysis, and content generation, making it a versatile tool for developers.
 
-### Strengths and Use Cases
-Mistral Large 2411 demonstrates its strength through various benchmarks: achieving 84.0 on MMLU, 92.1 on HumanEval, 1251 on LMSYS Arena ELO, and 93.0 on GSM8K. These scores highlight its potential for coding, analysis, function calling, and content generation tasks. The model is best utilized for applications requiring complex text understanding and generation, such as coding assistance, in-depth analysis, and interactive agents. However, it is not recommended for tasks that require embeddings, bulk cheap operations, real-time responses under 100ms, or vision-heavy processing.
+### Technical Specifications and Use Cases
+Mistral Large 2411 boasts a context window of 131,072 tokens and can generate up to 4,096 tokens as output. The model's knowledge cutoff is 2024-06, ensuring it has a broad and up-to-date understanding of the world up to that point. The pricing for using Mistral Large 2411 is $2.0 per 1M tokens for input and $6.0 per 1M tokens for output. The model excels in tasks such as coding, analysis, function calling, and content generation, thanks to its high performance in benchmarks like MMLU (84.0), HumanEval (92.1), LMSYS Arena ELO (1251), and GSM8K (93.0). However, it is not recommended for tasks that require embeddings, bulk cheap tasks, real-time responses under 100ms, or vision-heavy tasks.
 
-### Pricing and Cost Efficiency
-Pricing for Mistral Large 2411 is structured around input and output tokens, with costs set at $2.0 per 1M input tokens and $6.0 per 1M output tokens. For context, this means that 1,000 calls averaging 500 tokens each would cost $4.0, scaling up to $400.0 for 100,000 calls. In comparison to its top competitor, GPT-4o, which charges $2.5/1M input and $10.0/1M output, Mistral Large 2411 offers a competitive pricing model, especially considering its performance benchmarks and the breadth of its capabilities. Developers should weigh these factors when deciding on the most cost-efficient model for their specific use cases.
+### Cost Considerations and Competitors
+For developers considering the cost, Mistral Large 2411 can be evaluated based on the number of calls and tokens used. For example, 1,000 calls with an average of 500 tokens would cost $4.0, scaling up to $400.0 for 100,000 calls. In comparison to its competitors, such as
 
 ## Pricing (USD per 1M tokens)
 | Metric | Price |
@@ -25,7 +25,7 @@ Pricing for Mistral Large 2411 is structured around input and output tokens, wit
 ## Pricing Analysis
 ### Pricing Analysis for Mistral Large 2411
 #### Overview
-Mistral Large 2411 is a standard, non-open-source model provided by Mistral AI, released on 2024-11-12. This analysis will delve into the cost structure, optimal usage scenarios, and cost savings at scale for this model.
+Mistral Large 2411 is a standard, non-open-source model provided by Mistral AI, released on 2024-11-12. This analysis will delve into the cost structure, optimal usage scenarios, and cost-effectiveness at scale.
 
 #### Cost Structure
 The pricing for Mistral Large 2411 is as follows:
@@ -35,24 +35,23 @@ The pricing for Mistral Large 2411 is as follows:
 * Batch Input: **$0 per 1M tokens** (free)
 
 #### Optimal Usage Scenarios
-To minimize costs, consider the following scenarios:
-* **Use cached tokens**: Since cached input tokens are free, utilize them whenever possible to reduce input costs.
-* **Batch API calls**: With batch input tokens being free, batching API calls can significantly reduce costs, especially for large volumes of requests.
+To minimize costs, consider the following strategies:
+* **Use cached tokens**: Since cached input is free, leverage this feature whenever possible to reduce input costs.
+* **Batch API calls**: With batch input being free, batching API requests can lead to significant savings, especially for large workloads.
 
 #### Cost at Scale
-The cost examples provided are as follows:
+The cost of using Mistral Large 2411 at scale is as follows:
 * **1,000 calls (avg 500 tokens)**: **$4.0**
 * **10,000 calls**: **$40.0**
 * **100,000 calls**: **$400.0**
 
-These examples illustrate the linear scaling of costs with the number of API calls. To estimate costs for your specific use case, consider the average number of tokens per call and the total number of calls.
+These costs demonstrate a linear scaling of expenses with the number of API calls.
 
 #### Comparison to Top Competitors
-Mistral Large 2411's pricing is competitive with top competitors like GPT-4o:
-* GPT-4o: **$2.5/1M input**, **$10.0/1M output**
-* Mistral Large 2411: **$2.0/1M input**, **$6.0/1M output**
+Mistral Large 2411's pricing is competitive, especially considering its capabilities and performance benchmarks. For example, GPT-4o charges **$2.5/1M input** and **$10.0/1M output**, making Mistral Large 2411 a more cost-effective option for output-intensive workloads.
 
-Mistral Large 2411 offers a more
+#### Conclusion
+Mistral Large 2411 offers a robust set of capabilities, including text, vision, function calling, and more, making it suitable for tasks like coding, analysis
 
 ## Benchmarks
 | Benchmark | Score |
@@ -64,23 +63,28 @@ Mistral Large 2411 offers a more
 
 ## Benchmark Analysis
 ### Analysis of Mistral Large 2411 Benchmark Performance
-The Mistral Large 2411 model, released by Mistral AI on 2024-11-12, demonstrates strong performance across various benchmarks. This analysis will delve into the meaning of its MMLU, HumanEval, and Arena ELO scores, and their implications for real-world use.
+The Mistral Large 2411 model, released by Mistral AI on 2024-11-12, demonstrates strong performance across various benchmarks. This analysis will delve into the MMLU, HumanEval, and Arena ELO scores, providing insights into their implications for real-world use.
 
 #### Benchmark Scores
-* **MMLU (Massive Multitask Language Understanding) Score: 84.0** - This score indicates the model's ability to understand and generate human-like text across a wide range of tasks and topics. A higher MMLU score suggests better language comprehension and generation capabilities.
-* **HumanEval Score: 92.1** - HumanEval is a benchmark that evaluates a model's ability to generate correct code in response to programming tasks. A high HumanEval score, such as 92.1, demonstrates the model's proficiency in coding and problem-solving.
-* **LMSYS Arena ELO Score: 1251** - The LMSYS Arena ELO score is a measure of a model's performance in a competitive environment, where it is pitted against other models. An ELO score of 1251 indicates that Mistral Large 2411 is a strong competitor in the arena of large language models.
+* **MMLU (Massive Multitask Language Understanding)**: 84.0
+* **HumanEval**: 92.1
+* **LMSYS Arena ELO**: 1251
+* **GSM8K**: 93.0
 
-#### Implications for Real-World Use
-The benchmark scores suggest that Mistral Large 2411 is well-suited for tasks that require:
-* Strong language understanding and generation capabilities (MMLU score: 84.0)
-* Proficient coding and problem-solving skills (HumanEval score: 92.1)
-* Competitive performance in a variety of tasks and environments (LMSYS Arena ELO score: 
+These scores indicate the model's capabilities in various areas:
+* **MMLU**: Measures the model's ability to understand and generate human-like text across a wide range of tasks. A score of 84.0 suggests that Mistral Large 2411 has a strong foundation in language understanding.
+* **HumanEval**: Evaluates the model's ability to write correct and functional code. With a score of 92.1, Mistral Large 2411 demonstrates excellent coding capabilities.
+* **LMSYS Arena ELO**: Assesses the model's performance in a competitive environment, simulating real-world scenarios. An ELO score of 1251 indicates that Mistral Large 2411 is a strong competitor in the language model arena.
+
+#### Real-World Implications
+The benchmark scores have significant implications for real-world use:
+* **Coding and analysis**: Mistral Large 2411's high HumanEval score makes it an excellent choice for coding tasks, such as code completion, code review, and code generation.
+* **Content generation**: The model's strong MMLU score suggests it
 
 ## Competitor Comparison
 ### Comparison of Mistral Large 2411 with Top Competitors
 #### Overview
-Mistral Large 2411 is a standard-tier model offered by Mistral AI, released on 2024-11-12. It is not open-source and has a specific set of capabilities and limitations. In this comparison, we will evaluate Mistral Large 2411 against its top competitor, GPT-4o, in terms of pricing, performance, and use cases.
+Mistral Large 2411, provided by Mistral AI, is a standard-tier model released on 2024-11-12. It offers a range of capabilities, including text, vision, function calling, and more. This comparison will focus on the pricing, performance, and use cases of Mistral Large 2411 against its top competitor, GPT-4o.
 
 #### Pricing Comparison
 The pricing for Mistral Large 2411 and GPT-4o is as follows:
@@ -91,23 +95,27 @@ The pricing for Mistral Large 2411 and GPT-4o is as follows:
 	+ Input: $2.5 per 1M tokens
 	+ Output: $10.0 per 1M tokens
 
-Mistral Large 2411 is cheaper than GPT-4o for both input and output tokens. For example, for 1,000 calls with an average of 500 tokens, the cost would be:
-* Mistral Large 2411: $4.0
-* GPT-4o: $5.0 (input) + $10.0 (output) = $15.0 per 1M tokens, which translates to $7.5 for 1,000 calls (avg 500 tokens)
+Mistral Large 2411 offers a more competitive pricing structure, with a 20% lower input cost and a 40% lower output cost compared to GPT-4o.
 
 #### Performance Comparison
-The performance of Mistral Large 2411 and GPT-4o can be evaluated based on their benchmark scores:
-* Mistral Large 2411:
-	+ MMLU: 84.0
-	+ HumanEval: 92.1
-	+ LMSYS Arena ELO: 1251
-	+ GSM8K: 93.0
-* GPT-4o: Not provided
+The performance of Mistral Large 2411 is measured through various benchmarks:
+* MMLU: 84.0
+* HumanEval: 92.1
+* LMSYS Arena ELO: 1251
+* GSM8K: 93.0
 
-Since the benchmark scores for GPT-4o are not available, we cannot directly compare the performance of the two models. However, based on the provided scores, Mistral Large 2411 seems to have strong performance in various tasks, including coding, analysis, and function calling.
+While the performance data for GPT-4o is not provided, Mistral Large 2411 demonstrates strong capabilities in coding, analysis, and function calling, making it a suitable choice for these tasks.
 
-#### Capabilities and Limitations
-Mistral Large 2411 has the following capabilities:
+#### Context and Limits
+Mistral Large 2411 has the following context and limits:
+* Context Window: 131,072 tokens
+* Max Output: 4,096 tokens
+* Knowledge Cutoff: 2024-06
+
+These limits are not explicitly compared to GPT-4o, but they provide a general understanding of the model's capabilities.
+
+#### Capabilities and Use Cases
+Mistral Large 2411 offers a range of capabilities, including:
 * Text
 * Vision
 * Function calling
@@ -118,48 +126,63 @@ Mistral Large 2411 has the following capabilities:
 It is best suited for tasks such as:
 * Coding
 * Analysis
+* Function calling
+* RAG
+* Agents
+* Content generation
+* Instruction following
+
+However, it is not recommended for:
+* Embeddings
+* Bulk cheap tasks
+* Real-time
 
 ## Best Use Cases
-### Practical Advice for Mistral Large 2411
-Mistral Large 2411 is a powerful model offered by Mistral AI, released on 2024-11-12. With its capabilities in text, vision, function calling, JSON mode, streaming, and system prompts, it's best suited for tasks such as coding, analysis, function calling, and content generation. Here are the top 5 best use cases for Mistral Large 2411, along with specific code integration examples mentioning OpenRouter:
+### Practical Advice on Top 5 Use Cases for Mistral Large 2411
+Mistral Large 2411, a model provided by Mistral AI, offers a range of capabilities including text, vision, function calling, and more. Given its strengths and pricing, here are the top 5 best use cases for this model, along with specific code integration examples mentioning OpenRouter.
 
-#### 1. **Coding and Development**
-Mistral Large 2411 excels in coding tasks, making it an ideal choice for developers. You can use it to generate code snippets, debug existing code, or even create entire programs.
+#### 1. **Coding and Analysis**
+Mistral Large 2411 excels in coding and analysis tasks, making it ideal for applications that require generating or understanding code. Its high scores in HumanEval (92.1) and GSM8K (93.0) benchmarks demonstrate its proficiency in these areas.
+
+**Example Integration with OpenRouter:**
 ```python
 import openrouter
 
 # Initialize Mistral Large 2411 model
-model = openrouter.MistralLarge2411()
+model = openrouter.Model("mistralai/mistral-large-2411")
 
-# Generate code snippet
-input_prompt = "Write a Python function to sort a list of integers"
-output = model.generate(input_prompt)
-print(output)
+# Define a coding task
+task = "Write a Python function to sort a list of integers."
+
+# Use the model to generate code
+response = model.generate(task)
+
+# Print the generated code
+print(response)
 ```
 
-#### 2. **Analysis and Research**
-With its strong analytical capabilities, Mistral Large 2411 can be used for research and analysis tasks. You can use it to summarize long documents, extract key points, or even generate research papers.
+#### 2. **Function Calling and RAG (Retrieval-Augmented Generation)**
+The model's capability in function calling and RAG makes it suitable for tasks that involve retrieving information from external sources and generating text based on that information.
+
+**Example Integration with OpenRouter:**
 ```python
 import openrouter
 
 # Initialize Mistral Large 2411 model
-model = openrouter.MistralLarge2411()
+model = openrouter.Model("mistralai/mistral-large-2411")
 
-# Summarize a document
-input_prompt = "Summarize the article on AI applications in healthcare"
-output = model.generate(input_prompt)
-print(output)
+# Define a function calling task
+task = "Call the Wikipedia API to retrieve information about AI and generate a summary."
+
+# Use the model to call the function and generate text
+response = model.function_call(task)
+
+# Print the generated text
+print(response)
 ```
 
-#### 3. **Function Calling and API Integration**
-Mistral Large 2411 supports function calling, making it easy to integrate with external APIs. You can use it to call APIs, process data, and generate responses.
-```python
-import openrouter
-
-# Initialize Mistral Large 2411 model
-model = openrouter.MistralLarge2411()
-
-# Call
+#### 3. **Content Generation**
+With its high scores in benchmarks like LMSYS Arena ELO (1251), Mist
 
 ## Frequently Asked Questions
 

@@ -10,6 +10,7 @@
     "openai-gpt-4o-2024-08-06-vs-qwen-qwen-max",
     "openai-gpt-4o-2024-05-13-vs-qwen-qwen-max",
     "openai-gpt-4o:extended-vs-qwen-qwen-max",
-    "openai-gpt-4-turbo-vs-qwen-qwen-max"
+    "openai-gpt-4-turbo-vs-qwen-qwen-max",
+    "openai-gpt-4-turbo-preview-vs-qwen-qwen-max"
   ]
 }

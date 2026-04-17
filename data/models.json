@@ -1,7 +1,7 @@
 {
   "version": "6.0",
-  "updated_at": "2026-04-12T05:58:54Z",
-  "total_models": 318,
+  "updated_at": "2026-04-17T06:24:20Z",
+  "total_models": 319,
   "schema_version": "v5",
   "description": "LLMCosts.dev — Open LLM Pricing Registry. Single source of truth for LLM pricing, benchmarks, and performance data. Updated daily by automated pipeline.",
   "data_sources": [
@@ -32710,6 +32710,73 @@
         "multimodal",
         "large model",
         "state-of-the-art"
+      ],
+      "tier": "premium",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "anthropic/claude-opus-4.7",
+      "name": "Anthropic: Claude Opus 4.7",
+      "slug": "anthropic-claude-opus-4.7",
+      "provider": "anthropic",
+      "provider_name": "Anthropic",
+      "version": "",
+      "release_date": "2026-04-17",
+      "pricing": {
+        "input_per_1m": 5.0,
+        "output_per_1m": 25.0,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 1000000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text",
+        "coding",
+        "conversational"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "Complex coding tasks",
+        "Long-form content generation",
+        "Conversational AI agents"
+      ],
+      "not_good_for": [
+        "Real-time vision tasks",
+        "Simple chatbots"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-04-17",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "frontier",
+        "asynchronous",
+        "agentic"
       ],
       "tier": "premium",
       "open_source": false,
