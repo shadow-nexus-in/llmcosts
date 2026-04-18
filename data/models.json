@@ -1,6 +1,6 @@
 {
   "version": "6.0",
-  "updated_at": "2026-04-17T06:24:20Z",
+  "updated_at": "2026-04-18T05:52:54Z",
   "total_models": 319,
   "schema_version": "v5",
   "description": "LLMCosts.dev — Open LLM Pricing Registry. Single source of truth for LLM pricing, benchmarks, and performance data. Updated daily by automated pipeline.",
@@ -13374,8 +13374,8 @@
       "version": "latest",
       "release_date": "2024-01-01",
       "pricing": {
-        "input_per_1m": 0.27,
-        "output_per_1m": 0.39,
+        "input_per_1m": 0.2695,
+        "output_per_1m": 0.41,
         "cached_input_per_1m": 0.028,
         "batch_input_per_1m": null,
         "batch_output_per_1m": null,
@@ -13435,7 +13435,7 @@
         "pricing_page": "",
         "docs_page": ""
       },
-      "last_verified": "2026-04-09",
+      "last_verified": "2026-04-18",
       "last_verified_status": "confirmed",
       "verified_by": "automated_dual_source",
       "data_confidence": "high",
@@ -13459,13 +13459,19 @@
           "input_per_1m": 0.27,
           "output_per_1m": 0.39,
           "note": "Automated dual-source update"
+        },
+        {
+          "date": "2026-04-18",
+          "input_per_1m": 0.2695,
+          "output_per_1m": 0.41,
+          "note": "Automated dual-source update"
         }
       ],
       "cost_examples": {
-        "1k_calls_avg_500_tokens": 0.33,
-        "10k_calls_avg_500_tokens": 3.3,
-        "100k_calls_avg_500_tokens": 33.0,
-        "1m_calls_avg_500_tokens": 330.0
+        "1k_calls_avg_500_tokens": 0.3397,
+        "10k_calls_avg_500_tokens": 3.3975,
+        "100k_calls_avg_500_tokens": 33.975,
+        "1m_calls_avg_500_tokens": 339.75
       },
       "tags": [
         "llm",

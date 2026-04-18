@@ -1,6 +1,6 @@
 # OpenAI: gpt-oss-20b API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-04-17
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-04-18
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview

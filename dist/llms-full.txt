@@ -1,6 +1,6 @@
 # LLMCosts.dev — COMPLETE LLM Pricing Registry (Un-Sharded Master)
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-04-17
+> Updated: 2026-04-18
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -139,7 +139,7 @@ Total Models: 319 | This file is NOT sharded. For ChatGPT-sized ingestion, use /
 | [Arcee AI: Trinity Mini (free)](https://llmcosts.dev/models/trinity-mini:free) | Arcee-ai | $0.0 | $0.0 | $None | 131,072 | 1200 | standard | Closed |
 | [Arcee AI: Trinity Mini](https://llmcosts.dev/models/trinity-mini) | Arcee-ai | $0.045 | $0.15 | $None | 131,072 | 1200 | standard | Closed |
 | [DeepSeek: DeepSeek V3.2 Speciale](https://llmcosts.dev/models/deepseek-v3.2-speciale) | Deepseek | $0.4 | $1.2 | $None | 163,840 | 1200 | standard | Closed |
-| [DeepSeek: DeepSeek V3.2](https://llmcosts.dev/models/deepseek-v3.2) | Deepseek | $0.27 | $0.39 | $0.028 | 163,840 | 1200 | standard | Closed |
+| [DeepSeek: DeepSeek V3.2](https://llmcosts.dev/models/deepseek-v3.2) | Deepseek | $0.2695 | $0.41 | $0.028 | 163,840 | 1200 | standard | Closed |
 | [Prime Intellect: INTELLECT-3](https://llmcosts.dev/models/intellect-3) | Prime-intellect | $0.2 | $1.1 | $None | 131,072 | 1200 | standard | Closed |
 | [Anthropic: Claude Opus 4.5](https://llmcosts.dev/models/claude-opus-4.5) | Anthropic | $5.0 | $25.0 | $None | 200,000 | 1300 | standard | Closed |
 | [AllenAI: Olmo 3 32B Think](https://llmcosts.dev/models/olmo-3-32b-think) | Allenai | $0.15 | $0.5 | $None | 65,536 | 1200 | standard | Closed |

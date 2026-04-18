@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://llmcosts.dev/models/qwen-2-5-coder-32b-instruct">
 
   <!-- Schema.org: Dataset -->
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Qwen2.5 Coder 32B Instruct API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Qwen2.5 Coder 32B Instruct by Alibaba Cloud.", "url": "https://llmcosts.dev/models/qwen-2-5-coder-32b-instruct", "keywords": ["Qwen2.5 Coder 32B Instruct", "Alibaba Cloud", "open-source", "self-hostable", "coding", "budget", "qwen", "alibaba"], "dateModified": "2026-04-17", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Qwen2.5 Coder 32B Instruct API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Qwen2.5 Coder 32B Instruct by Alibaba Cloud.", "url": "https://llmcosts.dev/models/qwen-2-5-coder-32b-instruct", "keywords": ["Qwen2.5 Coder 32B Instruct", "Alibaba Cloud", "open-source", "self-hostable", "coding", "budget", "qwen", "alibaba"], "dateModified": "2026-04-18", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
   <!-- Schema.org: FAQ -->
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
 
@@ -346,13 +346,13 @@
       <div class="card content-section">
         <div class="card-title">Overview</div>
         <div>### Introduction to Qwen2.5 Coder 32B Instruct
-The Qwen2.5 Coder 32B Instruct model, provided by Alibaba Cloud, is a budget-friendly, open-source language model released on 2024-11-12. This model boasts an impressive architecture with a context window of 131,072 tokens and a maximum output of 8,192 tokens. Its knowledge cutoff is 2024-09, ensuring it has a robust understanding of technical concepts up to that point. The Qwen2.5 Coder 32B Instruct model is particularly suited for coding tasks, including code completion, debugging, and code review, thanks to its capabilities in text, function calling, JSON mode, streaming, and system prompts.
+The Qwen2.5 Coder 32B Instruct model, provided by Alibaba Cloud, is a budget-friendly, open-source language model released on 2024-11-12. This model boasts an impressive architecture with a context window of 131,072 tokens and a maximum output of 8,192 tokens. Its knowledge cutoff is 2024-09, ensuring it has a robust understanding of technical concepts up to that point. The Qwen2.5 Coder 32B Instruct model is specifically designed for coding tasks, making it an ideal choice for developers.
 
-### Technical Strengths and Use Cases
-The main strengths of the Qwen2.5 Coder 32B Instruct model lie in its coding capabilities, with benchmark scores of 92.7 on HumanEval, 93.0 on GSM8K, and an MMLU score of 81.0. Its LMSYS Arena ELO score of 1248 further demonstrates its proficiency in coding tasks. This model is best utilized for coding, code completion, debugging, code review, technical documentation, and simple agents. However, it is not recommended for vision, general chat, research tasks, or audio applications. With a pricing structure of $0.07 per 1M input tokens and $0.21 per 1M output tokens, the Qwen2.5 Coder 32B Instruct model offers a cost-effective solution for developers, with estimated costs of $0.14 for 1,000 calls (avg 500 tokens), $1.4 for 10,000 calls, and $14.0 for 100,000 calls.
+### Technical Capabilities and Use-Cases
+The Qwen2.5 Coder 32B Instruct model excels in various coding-related tasks, including code completion, debugging, and code review. It also supports technical documentation and can be used for simple agents. Its capabilities include text processing, function calling, JSON mode, streaming, and system prompts. With a high score of 92.7 on HumanEval and 93.0 on GSM8K, this model demonstrates exceptional coding abilities. However, it is not suitable for tasks such as vision, general chat, research tasks, or audio processing. The pricing for this model is $0.07 per 1M input tokens and $0.21 per 1M output tokens, making it a cost-effective option for developers.
 
-### Pricing and Competitors
-In comparison to its top competitor, GPT-4o, which costs $2.5</div>
+### Pricing and Competitiveness
+The Qwen2.5 Coder 32B Instruct model offers competitive pricing, with an estimated cost of $0.14 for 1,000 calls (avg 500 tokens), $1.4 for 10,000 calls, and $14.0 for 100,000 calls. In comparison to its top competitor, GPT-4o, which costs $2.5/1M input and $10.0/1M output, the Qwen</div>
       </div>
 
       <!-- PRICING -->
@@ -393,31 +393,36 @@ In comparison to its top competitor, GPT-4o, which costs $2.5</div>
 
         <div style="margin-top:1.5rem">### Qwen2.5 Coder 32B Instruct Pricing Analysis
 #### Overview
-The Qwen2.5 Coder 32B Instruct model, provided by Alibaba Cloud, offers a competitive pricing structure for coding and coding-related tasks. Released on 2024-11-12, this model is classified as a budget tier and is open-source.
+The Qwen2.5 Coder 32B Instruct model, provided by Alibaba Cloud, offers a competitive pricing structure for coding and code-related tasks. Released on 2024-11-12, this open-source model is categorized under the budget tier.
 
 #### Cost Structure
 The cost structure for Qwen2.5 Coder 32B Instruct is as follows:
-* Input: **$0.07 per 1M tokens**
-* Output: **$0.21 per 1M tokens**
-* Cached Input: **$0.00 per 1M tokens** (free)
-* Batch Input: **$0.00 per 1M tokens** (free)
+* **Input**: $0.07 per 1M tokens
+* **Output**: $0.21 per 1M tokens
+* **Cached Input**: $0.00 per 1M tokens (free)
+* **Batch Input**: $0.00 per 1M tokens (free)
 
 #### When to Use Cached Tokens
-Cached tokens can be used to reduce costs when the same input is used multiple times. Since cached input is free, it is recommended to use cached tokens whenever possible to minimize costs.
+Cached tokens are free, making them an attractive option for reducing costs. Consider using cached tokens when:
+* You have a high volume of repeated input tokens.
+* Your application can tolerate some latency in token processing.
 
 #### Batch API Savings
-Batching API calls can also help reduce costs. Although the pricing structure does not explicitly state the cost savings for batch API calls, it can be inferred that batching can help reduce the overall cost per call.
+Batching API calls can help reduce costs by minimizing the number of requests made to the model. Since batch input is free, consider batching API calls when:
+* You have a large number of input tokens to process.
+* Your application can handle batch processing without significant performance degradation.
 
 #### Cost at Scale
 The cost of using Qwen2.5 Coder 32B Instruct at scale is as follows:
-* 1,000 calls (avg 500 tokens): **$0.14**
-* 10,000 calls: **$1.4**
-* 100,000 calls: **$14.0**
+* **1,000 API calls** (avg 500 tokens): $0.14
+* **10,000 API calls**: $1.4
+* **100,000 API calls**: $14.0
 
-These costs are significantly lower than those of top competitors, such as GPT-4o, which charges **$2.5/1M input** and **$10.0/1M output**.
+These costs demonstrate a linear scaling of expenses with the number of API calls, making it easy to estimate costs for large-scale applications.
 
-#### Conclusion
-The Qwen2.5 Coder 32B Instruct model offers a competitive pricing structure, making it an attractive option for coding and coding-related tasks.</div>
+#### Comparison to Top Competitors
+Qwen2.5 Coder 32B Instruct is priced competitively compared to top competitors like GPT-4o:
+*</div>
       </div>
 
       <!-- BENCHMARKS -->
@@ -429,22 +434,14 @@ The Qwen2.5 Coder 32B Instruct model offers a competitive pricing structure, mak
           <div class="stat-cell"><div class="stat-label">LMSYS ELO</div><div class="stat-value">1248</div></div>
         </div>
         <div>### Qwen2.5 Coder 32B Instruct Benchmark Performance Analysis
-#### Model Overview
-The Qwen2.5 Coder 32B Instruct model, provided by Alibaba Cloud and released on 2024-11-12, is an open-source model with a budget tier. It has a context window of 131,072 tokens and a maximum output of 8,192 tokens, with a knowledge cutoff of 2024-09.
+The Qwen2.5 Coder 32B Instruct model, provided by Alibaba Cloud, demonstrates impressive benchmark performance with the following scores:
+* **MMLU: 81.0** - The MMLU (Massive Multitask Language Understanding) benchmark evaluates a model's ability to understand and generate text across a wide range of tasks. A higher MMLU score indicates better performance in tasks such as text classification, sentiment analysis, and question answering. With a score of 81.0, Qwen2.5 Coder 32B Instruct shows strong language understanding capabilities.
+* **HumanEval: 92.7** - The HumanEval benchmark assesses a model's ability to generate correct and functional code in response to programming tasks. A higher HumanEval score indicates better performance in coding tasks, such as code completion and code review. With a score of 92.7, Qwen2.5 Coder 32B Instruct demonstrates excellent coding capabilities.
+* **LMSYS Arena ELO: 1248** - The LMSYS Arena ELO benchmark evaluates a model's performance in a competitive coding environment, where models are pitted against each other to solve programming tasks. A higher ELO score indicates better performance in competitive coding scenarios. With a score of 1248, Qwen2.5 Coder 32B Instruct shows strong competitive coding capabilities.
 
-#### Pricing
-The pricing for this model is as follows:
-* Input: **$0.07 per 1M tokens**
-* Output: **$0.21 per 1M tokens**
-* Cached Input: **$None per 1M tokens**
-* Batch Input: **$None per 1M tokens**
-
-#### Benchmark Performance
-The model's benchmark performance is measured by the following metrics:
-* **MMLU: 81.0** - The MMLU (Massive Multitask Language Understanding) benchmark evaluates a model's ability to perform a wide range of natural language processing tasks. A higher MMLU score indicates better performance.
-* **HumanEval: 92.7** - The HumanEval benchmark assesses a model's ability to generate code that is correct and functional. A higher HumanEval score indicates better code generation capabilities.
-* **LMSYS Arena ELO: 1248** - The LMSYS Arena ELO benchmark measures a model's performance in a competitive coding environment. A higher ELO score indicates better performance in coding tasks.
-* **GSM8K: 93.0** - The GSM8K benchmark evaluates a model's ability to solve math problems. A higher GSM8K score indicates better</div>
+### Real-World Use Implications
+The benchmark performance of Qwen2.5 Coder 32B Instruct has significant implications for real-world use:
+* **Coding and code completion**: With a high HumanEval score, Q</div>
       </div>
 
       <!-- COMPETITOR TABLE -->
@@ -482,32 +479,32 @@ The model's benchmark performance is measured by the following metrics:
         </div>
         <div style="margin-top:1.5rem">### Comparison of Qwen2.5 Coder 32B Instruct with Top Competitors
 #### Overview
-The Qwen2.5 Coder 32B Instruct model, provided by Alibaba Cloud, is a budget-friendly option with a tier classification of "budget" and open-source availability. Released on 2024-11-12, this model offers competitive pricing and performance. This comparison will delve into the pricing differences, performance trade-offs, and use cases for Qwen2.5 Coder 32B Instruct against its top competitors, specifically GPT-4o.
+The Qwen2.5 Coder 32B Instruct model, provided by Alibaba Cloud, is a budget-friendly option with open-source availability. Released on 2024-11-12, it offers a unique set of capabilities and pricing. This comparison will delve into the details of Qwen2.5 Coder 32B Instruct and its top competitor, GPT-4o, highlighting price differences, performance trade-offs, and use cases for each model.
 
 #### Pricing Comparison
-The pricing model for Qwen2.5 Coder 32B Instruct is as follows:
-* Input: $0.07 per 1M tokens
-* Output: $0.21 per 1M tokens
-In contrast, GPT-4o is priced at:
-* Input: $2.5 per 1M tokens
-* Output: $10.0 per 1M tokens
+| Model | Input Price (per 1M tokens) | Output Price (per 1M tokens) |
+| --- | --- | --- |
+| Qwen2.5 Coder 32B Instruct | $0.07 | $0.21 |
+| GPT-4o | $2.5 | $10.0 |
 
-This represents a significant price difference, with Qwen2.5 Coder 32B Instruct being substantially cheaper for both input and output tokens.
+The Qwen2.5 Coder 32B Instruct model is significantly more cost-effective than GPT-4o, with input and output prices being approximately 1/35 and 1/48 of GPT-4o's prices, respectively.
 
-#### Performance Trade-offs
-Qwen2.5 Coder 32B Instruct boasts impressive benchmark scores:
+#### Performance Comparison
+The performance of Qwen2.5 Coder 32B Instruct is measured through various benchmarks:
 * MMLU: 81.0
 * HumanEval: 92.7
 * LMSYS Arena ELO: 1248
 * GSM8K: 93.0
-While the benchmark scores for GPT-4o are not provided, the significant price difference between the two models implies that GPT-4o may offer superior performance or additional capabilities.
+
+While the performance of GPT-4o is not provided, the benchmarks suggest that Qwen2.5 Coder 32B Instruct is a capable model, especially in coding-related tasks.
 
 #### Context and Limits
 Qwen2.5 Coder 32B Instruct has the following context and limits:
 * Context Window: 131,072 tokens
 * Max Output: 8,192 tokens
 * Knowledge Cutoff: 2024-09
-These constraints are essential to consider when choosing a model, as they may impact the suitability of the model for specific tasks.
+
+These limits are essential to consider when choosing a model, as they may impact the suitability of the model for specific tasks.
 
 #### Capabilities and Use Cases
 Qwen2.5 Coder 32B Instruct supports the following capabilities:
@@ -516,47 +513,51 @@ Qwen2.5 Coder 32B Instruct supports the following capabilities:
 * json_mode
 * streaming
 * system_prompts
+
 It is best suited for tasks such as:
 * coding
 * code_completion
 * debugging
 * code_review
-* technical_documentation
-* simple_agents
-However, it is not recommended for</div>
+*</div>
       </div>
 
       <!-- USE CASES -->
       <div class="card content-section">
         <div class="card-title">Best Use Cases</div>
         <div>### Introduction to Qwen2.5 Coder 32B Instruct
-The Qwen2.5 Coder 32B Instruct model, provided by Alibaba Cloud, is a budget-friendly and open-source solution for various coding tasks. Released on 2024-11-12, this model excels in coding, code completion, debugging, code review, and technical documentation. With its capabilities in text, function calling, JSON mode, streaming, and system prompts, it's an ideal choice for developers and technical writers.
+The Qwen2.5 Coder 32B Instruct model, provided by Alibaba Cloud, is a budget-friendly and open-source solution for coding, code completion, debugging, and technical documentation tasks. Released on 2024-11-12, this model offers a unique blend of capabilities, including text, function calling, JSON mode, streaming, and system prompts.
 
 ### Top 5 Best Use Cases for Qwen2.5 Coder 32B Instruct
-1. **Code Completion**: Qwen2.5 Coder 32B Instruct can be used to complete partially written code, reducing development time and increasing productivity. For example, when using OpenRouter, you can integrate Qwen2.5 Coder 32B Instruct to suggest the next lines of code:
+Based on its capabilities and benchmarks, the top 5 best use cases for Qwen2.5 Coder 32B Instruct are:
+
+1. **Code Completion**: With a HumanEval score of 92.7, Qwen2.5 Coder 32B Instruct is well-suited for code completion tasks. For example, you can use it to complete a function in OpenRouter:
    ```python
 import openrouter
 
-# Initialize Qwen2.5 Coder 32B Instruct model
-model = qwen.qwen_2_5_coder_32b_instruct()
+# Define a function
+def calculate_route(route_id):
+    # Use Qwen2.5 Coder 32B Instruct to complete the function
+    completion = qwen_model.complete_code(f"return openrouter.get_route({route_id})")
+    return completion
 
-# Define a partial code snippet
-partial_code = "def greet(name):"
-
-# Use Qwen2.5 Coder 32B Instruct to complete the code
-completed_code = model.complete_code(partial_code)
-
-print(completed_code)
+# Call the function
+route_id = 123
+result = calculate_route(route_id)
+print(result)
 ```
-2. **Debugging**: This model can help identify and fix errors in code by analyzing the code and providing suggestions for improvement. For instance, you can use Qwen2.5 Coder 32B Instruct to analyze a code snippet and provide feedback:
+2. **Debugging**: Qwen2.5 Coder 32B Instruct's function calling capability makes it an excellent choice for debugging tasks. You can use it to identify and fix errors in your code:
    ```python
-# Define a code snippet with an error
-error_code = "def add(a, b): return a - b"
+import openrouter
 
-# Use Qwen2.5 Coder 32B Instruct to analyze and provide feedback
-feedback = model.analyze_code(error_code)
-
-print(feedback</div>
+# Define a function
+def get_route(route_id):
+    try:
+        # Use Qwen2.5 Coder 32B Instruct to debug the function
+        debug_output = qwen_model.debug_code(f"openrouter.get_route({route_id})")
+        return debug_output
+    except Exception as e:
+        return str</div>
       </div>
 
       <!-- CAPABILITIES -->
