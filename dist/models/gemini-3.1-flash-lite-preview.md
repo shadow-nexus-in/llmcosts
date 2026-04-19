@@ -1,17 +1,17 @@
 # Google: Gemini 3.1 Flash Lite Preview API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-04-18
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-04-19
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
 ### Introduction to Google: Gemini 3.1 Flash Lite Preview
-The Google: Gemini 3.1 Flash Lite Preview, released on 2024-01-01, is a standard-tier model provided by Google. This model is not open source. From an architectural standpoint, the Gemini 3.1 Flash Lite Preview is designed to handle a wide range of natural language processing tasks with its capabilities including text, function calling, JSON mode, streaming, and structured outputs. Its primary strengths lie in its ability to process large amounts of data efficiently, with a context window of up to 1,048,576 tokens and a maximum output of 65,536 tokens.
+The Google: Gemini 3.1 Flash Lite Preview is a standard-tier model released by Google on 2024-01-01. This model is not open source, providing developers with a robust tool for various natural language processing tasks. The architecture of Gemini 3.1 Flash Lite Preview is designed to handle large context windows of up to 1,048,576 tokens and generate outputs of up to 65,536 tokens. With a knowledge cutoff of 2023-12, this model is well-suited for applications requiring extensive text understanding and generation capabilities.
 
-### Technical Specifications and Use Cases
-The Gemini 3.1 Flash Lite Preview is best suited for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization. Its technical specifications include a knowledge cutoff of 2023-12, indicating that its training data is current up to December 2023. The model's performance is benchmarked with an MMLU score of 80.0 and an LMSYS Arena ELO of 1200. In terms of pricing, the model charges $0.25 per 1M tokens for input and $1.5 per 1M tokens for output. For example, 1,000 calls with an average of 500 tokens would cost approximately $0.0009. The model's capabilities and pricing make it an attractive option for developers looking to integrate advanced language processing capabilities into their applications.
+### Strengths and Use Cases
+The primary strengths of the Google: Gemini 3.1 Flash Lite Preview model lie in its capabilities, which include text, function calling, JSON mode, streaming, and structured outputs. These features make it an ideal choice for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization. The model's pricing structure, with input costs at $0.25 per 1M tokens and output costs at $1.5 per 1M tokens, provides a cost-effective solution for developers. The benchmarks, including an MMLU score of 80.0 and an LMSYS Arena ELO of 1200, demonstrate the model's performance and potential for various use cases.
 
-### Pricing and Cost Considerations
-The pricing model for the Gemini 3.1 Flash Lite Preview is based on the number of tokens processed, with no charges for cached input or batch input. The cost examples provided indicate that the model's pricing scales linearly with the number of calls, with 10,000 calls costing $0.009 and 100,000 calls costing $0.09. With no direct competitors
+### Technical Specifications and Cost Examples
+From a technical standpoint, the Google: Gemini 3.1 Flash Lite Preview model has a context window of 1,048,576 tokens and a maximum output of 65,536 tokens. The pricing examples provided indicate that the cost of using this model can be relatively low, with 1,000 calls (avg 500 tokens) costing $0.0009, 10,000 calls costing $0.009, and 100,000 calls costing $0.09. With its robust capabilities and competitive pricing, the Google: Gemini 
 
 ## Pricing (USD per 1M tokens)
 | Metric | Price |
@@ -25,31 +25,39 @@ The pricing model for the Gemini 3.1 Flash Lite Preview is based on the number o
 ## Pricing Analysis
 ### Pricing Analysis for Google: Gemini 3.1 Flash Lite Preview
 #### Overview
-The Google: Gemini 3.1 Flash Lite Preview is a standard, non-open source model released by Google on 2024-01-01. This analysis will delve into the cost structure, optimal usage scenarios, and cost savings at scale for this model.
+The Google: Gemini 3.1 Flash Lite Preview is a standard, non-open source model released by Google on 2024-01-01. This analysis will delve into the cost structure, optimal usage scenarios, and cost at scale for this model.
 
 #### Cost Structure
-The pricing for Google: Gemini 3.1 Flash Lite Preview is as follows:
+The pricing for the Google: Gemini 3.1 Flash Lite Preview model is as follows:
 * **Input**: $0.25 per 1M tokens
 * **Output**: $1.5 per 1M tokens
 * **Cached Input**: $None per 1M tokens (free)
 * **Batch Input**: $None per 1M tokens (free)
 
-#### When to Use Cached Tokens
-Given that cached input tokens are free, it is highly recommended to utilize cached tokens whenever possible to minimize costs. This can be particularly beneficial for applications with repetitive or similar input sequences.
-
-#### Batch API Savings
-Although batch input is listed as free, the actual cost savings come from reducing the number of API calls. By batching inputs, users can significantly lower their overall costs. For example, making 1,000 calls with an average of 500 tokens each costs $0.0009, whereas making 10,000 calls costs $0.009, and 100,000 calls cost $0.09.
+#### Optimal Usage Scenarios
+To minimize costs, consider the following strategies:
+* **Use cached tokens**: Since cached input tokens are free, utilize them whenever possible to reduce input costs.
+* **Batch API calls**: Batch input is also free, so batching API calls can help reduce overall costs.
 
 #### Cost at Scale
-The cost of using Google: Gemini 3.1 Flash Lite Preview at scale is as follows:
-* **1,000 calls** (avg 500 tokens): $0.0009
+The cost of using the Google: Gemini 3.1 Flash Lite Preview model at scale is as follows:
+* **1,000 calls (avg 500 tokens)**: $0.0009
 * **10,000 calls**: $0.009
 * **100,000 calls**: $0.09
 
-As the number of API calls increases, the cost per call decreases. This suggests that users who require a large volume of API calls can benefit from economies of scale.
+These costs are significantly lower than the individual input and output costs, indicating that the model is designed to be cost-effective at scale.
 
-#### Conclusion
-The Google: Gemini 3.1 Flash Lite Preview offers a competitive pricing structure
+#### Context and Limits
+The model has the following context and limits:
+* **Context Window**: 1,048,576 tokens
+* **Max Output**: 65,536 tokens
+* **Knowledge Cutoff**: 2023-12
+
+These limits should be considered when designing applications that utilize the Google: Gemini 3.1 Flash Lite Preview model.
+
+#### Capabilities and Best Use Cases
+The model has the following capabilities:
+* **Text**: text
 
 ## Benchmarks
 | Benchmark | Score |
@@ -62,29 +70,27 @@ The Google: Gemini 3.1 Flash Lite Preview offers a competitive pricing structure
 ## Benchmark Analysis
 ### Analysis of Google: Gemini 3.1 Flash Lite Preview
 #### Overview
-The Google: Gemini 3.1 Flash Lite Preview is a standard, non-open-source model released by Google on 2024-01-01. This model has a context window of 1,048,576 tokens and a maximum output of 65,536 tokens, with a knowledge cutoff of 2023-12.
+The Google: Gemini 3.1 Flash Lite Preview is a standard-tier model released by Google on 2024-01-01. It is not open-source and has a specific pricing structure for input and output tokens.
 
-#### Pricing
+#### Pricing Structure
 The pricing for this model is as follows:
-* Input: $0.25 per 1M tokens
-* Output: $1.5 per 1M tokens
-* Cached Input: $None per 1M tokens
-* Batch Input: $None per 1M tokens
+* Input: **$0.25 per 1M tokens**
+* Output: **$1.5 per 1M tokens**
+* Cached Input: **$None per 1M tokens**
+* Batch Input: **$None per 1M tokens**
+
+#### Context and Limits
+The model has the following context and limits:
+* Context Window: **1,048,576 tokens**
+* Max Output: **65,536 tokens**
+* Knowledge Cutoff: **2023-12**
 
 #### Benchmarks
 The model's performance is measured by the following benchmarks:
-* **MMLU (Massive Multitask Language Understanding)**: 80.0 - This score indicates the model's ability to understand and perform a wide range of natural language tasks. A higher score suggests better performance.
-* **HumanEval**: None - This benchmark measures the model's ability to write correct and functional code. Unfortunately, no data is available for this model.
-* **LMSYS Arena ELO**: 1200 - This score represents the model's performance in a competitive arena, where it is pitted against other models. A higher score indicates better performance.
-* **GSM8K**: None - This benchmark measures the model's ability to solve math problems. No data is available for this model.
+* **MMLU: 80.0** - The MMLU (Massive Multitask Language Understanding) benchmark measures a model's ability to perform a wide range of natural language processing tasks. A higher score indicates better performance.
+* **HumanEval: None** - The HumanEval benchmark evaluates a model's ability to generate code that is correct and functional. The lack of a score for this benchmark indicates that the model's coding capabilities are not well-established.
+* **LMSYS Arena ELO: 1200** - The LMSYS Arena ELO benchmark measures a model's performance in a competitive environment, where it is pitted against other models. An ELO score of 1200 indicates that the model is a strong competitor, but not necessarily the best.
 
-#### Capabilities and Use Cases
-The Google: Gemini 3.1 Flash Lite Preview model is capable of:
-* Text processing
-* Function calling
-* JSON mode
-* Streaming
-* Structured outputs
 
 ## Competitor Comparison
 ### Comparison of Google: Gemini 3.1 Flash Lite Preview with Top Competitors
@@ -106,68 +112,61 @@ The pricing for the Google: Gemini 3.1 Flash Lite Preview is as follows:
 * **Batch Input**: $None per 1M tokens
 
 #### Cost Examples
-To give users a better understanding of the costs involved, here are some examples:
+To give users an idea of the costs involved, here are some examples:
 * 1,000 calls (avg 500 tokens): $0.0009
 * 10,000 calls: $0.009
 * 100,000 calls: $0.09
 
-#### Performance
-The model's performance is measured by the following benchmarks:
+#### Performance Trade-offs
+The Google: Gemini 3.1 Flash Lite Preview has the following benchmark scores:
 * **MMLU**: 80.0
 * **LMSYS Arena ELO**: 1200
 
-#### Choosing the Google: Gemini 3.1 Flash Lite Preview
-Given the lack of direct competitors, the Google: Gemini 3.1 Flash Lite Preview can be considered for a wide range of applications, including:
-* Chat and text generation
-* Coding and analysis
-* RAG pipelines and summarization
+These scores indicate that the model has a good performance on certain tasks, but the lack of direct competitors makes it difficult to compare its performance directly.
 
-However, users should be aware of the following:
-* The model's knowledge cutoff is 2023-12, which may limit its ability to provide up-to-date information.
-* The model's performance on certain benchmarks, such as HumanEval and GSM8K, is not available.
+#### When to Choose This Model
+Based on its features and capabilities, the Google: Gemini 3.1 Flash Lite Preview is a good choice for:
+* Chat and text generation applications
+* Coding and analysis tasks
+* RAG pipelines and summarization tasks
 
-In conclusion, the Google: Gemini 3.1 Flash Lite Preview is a
+However, without direct competitors, it is difficult to provide a detailed comparison of the pros and cons of this model versus others. Users should consider their specific use cases and evaluate the model's performance and pricing accordingly.
+
+### Conclusion
+The Google
 
 ## Best Use Cases
 ### Introduction to Google: Gemini 3.1 Flash Lite Preview
-The Google: Gemini 3.1 Flash Lite Preview is a powerful language model released by Google on 2024-01-01. With its standard tier and closed-source architecture, it offers a range of capabilities, including text generation, function calling, and structured outputs. In this guide, we will explore the top 5 best use cases for this model, along with practical advice and code integration examples using OpenRouter.
+The Google: Gemini 3.1 Flash Lite Preview is a powerful language model released by Google on 2024-01-01. This model is part of the standard tier and is not open source. In this guide, we will explore the top 5 best use cases for this model, along with code integration examples using OpenRouter.
 
-### Top 5 Use Cases for Google: Gemini 3.1 Flash Lite Preview
-#### 1. **Chat and Conversational Interfaces**
-The Google: Gemini 3.1 Flash Lite Preview is well-suited for chat and conversational interfaces due to its text generation capabilities and large context window of 1,048,576 tokens. You can use it to build conversational AI models that can engage with users in a more human-like way.
+### Top 5 Best Use Cases
+Based on the capabilities and benchmarks of the Google: Gemini 3.1 Flash Lite Preview, the top 5 best use cases are:
 
+1. **Chat**: The model's high MMLU score of 80.0 and large context window of 1,048,576 tokens make it well-suited for chat applications.
+2. **Text Generation**: The model's ability to generate high-quality text and its support for structured outputs make it a good choice for text generation tasks.
+3. **Coding**: The model's support for function calling and JSON mode make it a good choice for coding tasks, such as code completion and code review.
+4. **Analysis**: The model's ability to analyze large amounts of text data and its support for streaming make it a good choice for analysis tasks, such as sentiment analysis and topic modeling.
+5. **Summarization**: The model's ability to generate concise summaries of large documents and its support for structured outputs make it a good choice for summarization tasks.
+
+### Code Integration Examples
+Here are some code integration examples using OpenRouter:
 ```python
 import openrouter
 
-# Initialize the Gemini model
+# Initialize the model
 model = openrouter.Model("google/gemini-3.1-flash-lite-preview")
 
-# Define a chat function
+# Chat example
 def chat(input_text):
-    response = model.generate_text(input_text, max_length=65_536)
-    return response
+    output = model.generate(text=input_text, max_length=65_536)
+    return output
 
-# Test the chat function
-input_text = "Hello, how are you?"
-response = chat(input_text)
-print(response)
-```
+# Text generation example
+def generate_text(prompt):
+    output = model.generate(text=prompt, max_length=65_536)
+    return output
 
-#### 2. **Text Generation and Summarization**
-The model's text generation capabilities make it an excellent choice for text summarization tasks. You can use it to summarize long documents, articles, or even entire books.
-
-```python
-import openrouter
-
-# Initialize the Gemini model
-model = openrouter.Model("google/gemini-3.1-flash-lite-preview")
-
-# Define a summarization function
-def summarize(input_text):
-    summary = model.generate_text(input_text, max_length=65_536, prompt="Summarize the following text:")
-    return summary
-
-# Test the summar
+# Coding example
 
 ## Frequently Asked Questions
 
