@@ -16,6 +16,8 @@
     "openai-gpt-4-1106-preview-vs-qwen-qwen-max",
     "openai-gpt-3.5-turbo-instruct-vs-qwen-qwen-max",
     "openai-gpt-3.5-turbo-16k-vs-qwen-qwen-max",
-    "openai-gpt-4-0314-vs-qwen-qwen-max"
+    "openai-gpt-4-0314-vs-qwen-qwen-max",
+    "openai-gpt-4-vs-qwen-qwen-max",
+    "openai-gpt-3.5-turbo-vs-qwen-qwen-max"
   ]
 }

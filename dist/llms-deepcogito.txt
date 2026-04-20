@@ -1,6 +1,6 @@
 # LLMCosts.dev — Deepcogito Models Pricing
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-04-19
+> Updated: 2026-04-20
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]

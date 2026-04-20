@@ -1,6 +1,6 @@
 # AllenAI: Olmo 2 32B Instruct API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-04-19
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-04-20
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
