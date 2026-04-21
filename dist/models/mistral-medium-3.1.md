@@ -1,6 +1,6 @@
 # Mistral: Mistral Medium 3.1 API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-04-20
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-04-21
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
