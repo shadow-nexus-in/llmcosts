@@ -1,6 +1,6 @@
 # LLMCosts.dev — Cheapest LLM APIs (Under $0.20/1M Tokens)
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-04-21
+> Updated: 2026-04-22
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]

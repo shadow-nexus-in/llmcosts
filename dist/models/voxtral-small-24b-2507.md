@@ -1,6 +1,6 @@
 # Mistral: Voxtral Small 24B 2507 API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-04-21
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-04-22
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview

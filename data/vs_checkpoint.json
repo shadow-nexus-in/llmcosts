@@ -19,6 +19,8 @@
     "openai-gpt-4-0314-vs-qwen-qwen-max",
     "openai-gpt-4-vs-qwen-qwen-max",
     "openai-gpt-3.5-turbo-vs-qwen-qwen-max",
-    "google-gemma-4-26b-a4b-it:free-vs-qwen-qwen-max"
+    "google-gemma-4-26b-a4b-it:free-vs-qwen-qwen-max",
+    "google-gemma-4-26b-a4b-it-vs-qwen-qwen-max",
+    "google-gemma-4-31b-it:free-vs-qwen-qwen-max"
   ]
 }

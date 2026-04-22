@@ -1,6 +1,6 @@
 # LLMCosts.dev — Openai Models Pricing
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-04-21
+> Updated: 2026-04-22
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -78,3 +78,4 @@ License: CC BY 4.0
 | [OpenAI: GPT-4 (older v0314)](https://llmcosts.dev/models/openai-gpt-4-0314) | Openai | $30.0 | $60.0 | $None | 8,191 | None | premium | Closed |
 | [OpenAI: GPT-4](https://llmcosts.dev/models/openai-gpt-4) | Openai | $30.0 | $60.0 | $None | 8,191 | None | premium | Closed |
 | [OpenAI: GPT-3.5 Turbo](https://llmcosts.dev/models/openai-gpt-3.5-turbo) | Openai | $0.5 | $1.5 | $None | 16,385 | None | premium | Closed |
+| [OpenAI: GPT-5.4 Image 2](https://llmcosts.dev/models/openai-gpt-5.4-image-2) | Openai | $8.0 | $15.0 | $None | 272,000 | None | premium | Closed |
