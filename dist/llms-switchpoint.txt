@@ -1,6 +1,6 @@
 # LLMCosts.dev — Switchpoint Models Pricing
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-04-22
+> Updated: 2026-04-23
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
