@@ -1,6 +1,6 @@
 # LLMCosts.dev — Cheapest LLM APIs (Under $0.20/1M Tokens)
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-04-23
+> Updated: 2026-04-24
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -122,6 +122,7 @@ License: CC BY 4.0
 | [Baidu: ERNIE 4.5 VL 28B A3B](https://llmcosts.dev/models/ernie-4.5-vl-28b-a3b) | Baidu | $0.14 | $0.56 | $None | 30,000 | 1200 | standard | Closed |
 | [Tencent: Hunyuan A13B Instruct](https://llmcosts.dev/models/hunyuan-a13b-instruct) | Tencent | $0.14 | $0.57 | $None | 131,072 | 1200 | standard | Closed |
 | [Google: Gemma 4 31B](https://llmcosts.dev/models/google-gemma-4-31b-it) | Google | $0.14 | $0.4 | $None | 262,144 | None | premium | Closed |
+| [DeepSeek: DeepSeek V4 Flash](https://llmcosts.dev/models/deepseek-deepseek-v4-flash) | Deepseek | $0.14 | $0.28 | $None | 1,048,576 | None | standard | Closed |
 | [Qwen: Qwen3 235B A22B Thinking 2507](https://llmcosts.dev/models/qwen3-235b-a22b-thinking-2507) | Qwen | $0.1495 | $1.495 | $None | 131,072 | 1270 | standard | Closed |
 | [GPT-4o Mini](https://llmcosts.dev/models/gpt-4o-mini) | OpenAI | $0.15 | $0.6 | $0.075 | 128,000 | 1218 | budget | Closed |
 | [Mistral Nemo](https://llmcosts.dev/models/mistral-nemo) | Mistral AI | $0.15 | $0.15 | $None | 128,000 | 1090 | budget | Open |

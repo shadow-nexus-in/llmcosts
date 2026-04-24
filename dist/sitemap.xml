@@ -2,2089 +2,2113 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://llmcosts.dev</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/compare</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/configs</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/daily-report</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-4o</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-4o-mini</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/o1</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/o3-mini</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/claude-3-5-haiku</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/claude-3-haiku</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/llama-3-1-70b-instruct</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/llama-3-1-8b-instruct</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/mistral-large-2407</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/mixtral-8x7b-instruct</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/llama-3-2-11b-vision-instruct</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/llama-3-3-70b-instruct</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/llama-3-2-3b-instruct</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/deepseek-r1</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/mistral-nemo</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/phi-4</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen-2-5-72b-instruct</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gemma-2-27b-it</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/claude-opus-4</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/claude-sonnet-4</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/o3</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-4-1</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-4-1-mini</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gemini-2-5-pro</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/o4-mini</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-4-1-nano</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gemini-2-5-flash</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/mistral-large-2411</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/command-a</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/llama-3-2-1b-instruct</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen-2-5-coder-32b-instruct</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/llama-3-1-nemotron-70b-instruct</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gemma-3-27b-it</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwq-32b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen-2-5-7b-instruct</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gemma-2-9b-it</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/mistral-medium-3</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gemma-3-4b-it</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/o1-pro</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/llama-guard-3-8b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen-2.5-coder-32b-instruct</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/claude-opus-4.6-fast</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/glm-5.1</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3.6-plus</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/trinity-large-thinking</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/grok-4.20-multi-agent</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/grok-4.20</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/lyria-3-pro-preview</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/lyria-3-clip-preview</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/kat-coder-pro-v2</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/reka-edge</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/mimo-v2-omni</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/minimax-m2.7</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-5.4-nano</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-5.4-mini</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/mistral-small-2603</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/nemotron-3-super-120b-a12b:free</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/nemotron-3-super-120b-a12b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/seed-2.0-lite</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3.5-9b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-5.4-pro</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-5.4</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/mercury-2</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-5.3-chat</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gemini-3.1-flash-lite-preview</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/seed-2.0-mini</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gemini-3.1-flash-image-preview</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3.5-35b-a3b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3.5-27b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3.5-122b-a10b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3.5-flash-02-23</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/lfm-2-24b-a2b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gemini-3.1-pro-preview-customtools</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-5.3-codex</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/aion-2.0</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gemini-3.1-pro-preview</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/claude-sonnet-4.6</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3.5-plus-02-15</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3.5-397b-a17b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/minimax-m2.5:free</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/minimax-m2.5</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/glm-5</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3-max-thinking</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/claude-opus-4.6</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3-coder-next</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/free</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/step-3.5-flash:free</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/step-3.5-flash</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/trinity-large-preview:free</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/kimi-k2.5</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/solar-pro-3</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/minimax-m2-her</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/palmyra-x5</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/lfm-2.5-1.2b-thinking:free</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/lfm-2.5-1.2b-instruct:free</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-audio</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-audio-mini</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-5.2-codex</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/olmo-3.1-32b-instruct</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/seed-1.6-flash</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/seed-1.6</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/minimax-m2.1</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gemini-3-flash-preview</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/mistral-small-creative</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/nemotron-3-nano-30b-a3b:free</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/nemotron-3-nano-30b-a3b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-5.2-chat</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-5.2-pro</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-5.2</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/devstral-2512</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/relace-search</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/glm-4.6v</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/deepseek-v3.1-nex-n1</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/rnj-1-instruct</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-5.1-codex-max</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/nova-2-lite-v1</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/ministral-14b-2512</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/ministral-8b-2512</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/ministral-3b-2512</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/mistral-large-2512</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/trinity-mini:free</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/trinity-mini</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/deepseek-v3.2-speciale</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/deepseek-v3.2</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/intellect-3</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/claude-opus-4.5</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/olmo-3-32b-think</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gemini-3-pro-image-preview</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/grok-4.1-fast</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/cogito-v2.1-671b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-5.1</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-5.1-chat</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-5.1-codex</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-5.1-codex-mini</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/kimi-k2-thinking</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/nova-premier-v1</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/sonar-pro-search</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/voxtral-small-24b-2507</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-oss-safeguard-20b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/nemotron-nano-12b-v2-vl:free</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/nemotron-nano-12b-v2-vl</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/minimax-m2</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3-vl-32b-instruct</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/granite-4.0-h-micro</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-5-image-mini</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/claude-haiku-4.5</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3-vl-8b-thinking</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3-vl-8b-instruct</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-5-image</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/o3-deep-research</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/o4-mini-deep-research</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/llama-3.3-nemotron-super-49b-v1.5</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/ernie-4.5-21b-a3b-thinking</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gemini-2.5-flash-image</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3-vl-30b-a3b-thinking</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3-vl-30b-a3b-instruct</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-5-pro</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/glm-4.6</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/claude-sonnet-4.5</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/deepseek-v3.2-exp</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/cydonia-24b-v4.1</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/relace-apply-3</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gemini-2.5-flash-lite-preview-09-2025</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3-vl-235b-a22b-thinking</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3-vl-235b-a22b-instruct</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3-max</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3-coder-plus</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-5-codex</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/deepseek-v3.1-terminus</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/grok-4-fast</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/tongyi-deepresearch-30b-a3b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3-coder-flash</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3-next-80b-a3b-thinking</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3-next-80b-a3b-instruct:free</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3-next-80b-a3b-instruct</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/longcat-flash-chat</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen-plus-2025-07-28:thinking</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen-plus-2025-07-28</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/nemotron-nano-9b-v2:free</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/nemotron-nano-9b-v2</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/kimi-k2-0905</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3-30b-a3b-thinking-2507</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/grok-code-fast-1</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/hermes-4-70b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/hermes-4-405b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/deepseek-chat-v3.1</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-4o-audio-preview</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/mistral-medium-3.1</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/ernie-4.5-21b-a3b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/ernie-4.5-vl-28b-a3b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/glm-4.5v</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/jamba-large-1.7</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-5-chat</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-5</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-5-mini</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-5-nano</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-oss-120b:free</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-oss-120b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-oss-20b:free</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-oss-20b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/claude-opus-4.1</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/codestral-2508</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3-coder-30b-a3b-instruct</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3-30b-a3b-instruct-2507</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/glm-4.5</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/glm-4.5-air</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3-235b-a22b-thinking-2507</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/glm-4-32b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3-coder:free</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3-coder</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/ui-tars-1.5-7b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gemini-2.5-flash-lite</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3-235b-a22b-2507</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/router</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/kimi-k2</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/devstral-medium</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/devstral-small</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/dolphin-mistral-24b-venice-edition:free</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/grok-4</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gemma-3n-e2b-it:free</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/hunyuan-a13b-instruct</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/deepseek-r1t2-chimera</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/morph-v3-large</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/morph-v3-fast</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/ernie-4.5-vl-424b-a47b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/ernie-4.5-300b-a47b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/mercury</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/mistral-small-3.2-24b-instruct</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/minimax-m1</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/o3-pro</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/grok-3-mini</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/grok-3</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gemini-2.5-pro-preview</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/deepseek-r1-0528</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gemma-3n-e4b-it:free</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gemma-3n-e4b-it</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gemini-2.5-pro-preview-05-06</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/spotlight</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/maestro-reasoning</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/virtuoso-large</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/coder-large</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/mercury-coder</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/llama-guard-4-12b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3-30b-a3b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3-8b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3-14b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3-32b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen3-235b-a22b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/o4-mini-high</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen2.5-coder-7b-instruct</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/llemma_7b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/codellama-7b-instruct-solidity</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/grok-3-mini-beta</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/grok-3-beta</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/llama-3.1-nemotron-ultra-253b-v1</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen2.5-vl-32b-instruct</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/deepseek-chat-v3-0324</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/mistral-small-3.1-24b-instruct</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/olmo-2-0325-32b-instruct</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gemma-3-4b-it:free</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gemma-3-12b-it:free</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gemma-3-12b-it</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-4o-mini-search-preview</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gpt-4o-search-preview</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/reka-flash-3</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gemma-3-27b-it:free</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/skyfall-36b-v2</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/sonar-reasoning-pro</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/sonar-pro</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/sonar-deep-research</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gemini-2.0-flash-lite-001</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/claude-3.7-sonnet</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/claude-3.7-sonnet:thinking</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/mistral-saba</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/o3-mini-high</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gemini-2.0-flash-001</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen-vl-plus</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/aion-rp-llama-3.1-8b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen-vl-max</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen2.5-vl-72b-instruct</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/mistral-large-3</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/command-r-plus-2025</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/llama-33-70b-instruct</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/gemini-20-flash</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/codestral-2025</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/nova-pro</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/nova-lite</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/deepseek-r2</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/mistral-small-3</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/llama-31-405b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/mistral-nemo-2025</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen-qwen-turbo</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen-qwen-plus</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/qwen-qwen-max</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/deepseek-deepseek-r1-distill-qwen-32b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/deepseek-deepseek-r1-distill-llama-70b</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/deepseek-deepseek-chat</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/cohere-command-r7b-12-2024</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/openai-gpt-4o-2024-11-20</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/cohere-command-r-plus-08-2024</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/cohere-command-r-08-2024</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/openai-gpt-4o-2024-08-06</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/openai-gpt-4o-mini-2024-07-18</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/openai-gpt-4o-2024-05-13</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/openai-gpt-4o:extended</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/openai-gpt-4-turbo</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/openai-gpt-4-turbo-preview</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/openai-gpt-3.5-turbo-0613</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/openai-gpt-4-1106-preview</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/openai-gpt-3.5-turbo-instruct</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/openai-gpt-3.5-turbo-16k</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/openai-gpt-4-0314</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/openai-gpt-4</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/openai-gpt-3.5-turbo</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/google-gemma-4-26b-a4b-it:free</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/google-gemma-4-26b-a4b-it</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/google-gemma-4-31b-it:free</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/google-gemma-4-31b-it</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/anthropic-claude-opus-4.7</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/models/openai-gpt-5.4-image-2</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://llmcosts.dev/models/deepseek-deepseek-v4-pro</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://llmcosts.dev/models/deepseek-deepseek-v4-flash</loc>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/compare/deepseek-deepseek-r1-distill-qwen-32b-vs-qwen-qwen-max</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/compare/deepseek-deepseek-r1-distill-llama-70b-vs-qwen-qwen-max</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/compare/deepseek-deepseek-chat-vs-qwen-qwen-max</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/compare/cohere-command-r7b-12-2024-vs-qwen-qwen-max</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/compare/openai-gpt-4o-2024-11-20-vs-qwen-qwen-max</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/compare/cohere-command-r-plus-08-2024-vs-qwen-qwen-max</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/compare/cohere-command-r-08-2024-vs-qwen-qwen-max</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/compare/openai-gpt-4o-2024-08-06-vs-qwen-qwen-max</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/compare/openai-gpt-4o-2024-05-13-vs-qwen-qwen-max</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/compare/openai-gpt-4o:extended-vs-qwen-qwen-max</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/compare/openai-gpt-4-turbo-vs-qwen-qwen-max</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/compare/openai-gpt-4-turbo-preview-vs-qwen-qwen-max</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/compare/openai-gpt-3.5-turbo-0613-vs-qwen-qwen-max</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/compare/openai-gpt-4-1106-preview-vs-qwen-qwen-max</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/compare/openai-gpt-3.5-turbo-instruct-vs-qwen-qwen-max</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/compare/openai-gpt-3.5-turbo-16k-vs-qwen-qwen-max</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/compare/openai-gpt-4-0314-vs-qwen-qwen-max</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/compare/openai-gpt-4-vs-qwen-qwen-max</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/compare/openai-gpt-3.5-turbo-vs-qwen-qwen-max</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/compare/google-gemma-4-26b-a4b-it:free-vs-qwen-qwen-max</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/compare/google-gemma-4-26b-a4b-it-vs-qwen-qwen-max</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/compare/google-gemma-4-31b-it:free-vs-qwen-qwen-max</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/compare/google-gemma-4-31b-it-vs-qwen-qwen-max</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://llmcosts.dev/compare/anthropic-claude-opus-4.7-vs-qwen-qwen-max</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://llmcosts.dev/compare/openai-gpt-5.4-image-2-vs-qwen-qwen-max</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://llmcosts.dev/compare/deepseek-deepseek-v4-pro-vs-qwen-qwen-max</loc>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

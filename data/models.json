@@ -1,7 +1,7 @@
 {
   "version": "6.0",
-  "updated_at": "2026-04-22T06:24:09Z",
-  "total_models": 320,
+  "updated_at": "2026-04-24T06:30:18Z",
+  "total_models": 322,
   "schema_version": "v5",
   "description": "LLMCosts.dev — Open LLM Pricing Registry. Single source of truth for LLM pricing, benchmarks, and performance data. Updated daily by automated pipeline.",
   "data_sources": [
@@ -32852,6 +32852,140 @@
         "openai"
       ],
       "tier": "premium",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "deepseek/deepseek-v4-pro",
+      "name": "DeepSeek: DeepSeek V4 Pro",
+      "slug": "deepseek-deepseek-v4-pro",
+      "provider": "deepseek",
+      "provider_name": "Deepseek",
+      "version": "",
+      "release_date": "2026-04-24",
+      "pricing": {
+        "input_per_1m": 1.74,
+        "output_per_1m": 3.48,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 1048576,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text",
+        "coding",
+        "reasoning"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "Advanced coding tasks",
+        "Complex reasoning and problem-solving",
+        "Large-scale text analysis"
+      ],
+      "not_good_for": [
+        "Real-time applications",
+        "Low-resource devices"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-04-24",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "large-scale",
+        "high-performance",
+        "Mixture-of-Experts"
+      ],
+      "tier": "premium",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash",
+      "name": "DeepSeek: DeepSeek V4 Flash",
+      "slug": "deepseek-deepseek-v4-flash",
+      "provider": "deepseek",
+      "provider_name": "Deepseek",
+      "version": "",
+      "release_date": "2026-04-24",
+      "pricing": {
+        "input_per_1m": 0.14,
+        "output_per_1m": 0.28,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 1048576,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text",
+        "conversational",
+        "coding"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "Complex question answering",
+        "Long-form content generation",
+        "Advanced text analysis"
+      ],
+      "not_good_for": [
+        "Real-time vision tasks",
+        "Multimodal understanding"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-04-24",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "frontier",
+        "fast",
+        "large-model"
+      ],
+      "tier": "standard",
       "open_source": false,
       "self_hostable": false
     }

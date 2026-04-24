@@ -1,6 +1,6 @@
 # LLMCosts.dev — Relace Models Pricing
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-04-23
+> Updated: 2026-04-24
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
