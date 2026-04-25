@@ -1,6 +1,6 @@
 # LLMCosts.dev — Qwen Models Pricing
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-04-24
+> Updated: 2026-04-25
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]

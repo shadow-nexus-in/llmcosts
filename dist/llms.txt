@@ -1,6 +1,6 @@
 # LLMCosts.dev — Complete LLM Pricing Registry (All Models)
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-04-24
+> Updated: 2026-04-25
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -338,3 +338,5 @@ License: CC BY 4.0
 | [OpenAI: GPT-5.4 Image 2](https://llmcosts.dev/models/openai-gpt-5.4-image-2) | Openai | $8.0 | $15.0 | $None | 272,000 | None | premium | Closed |
 | [DeepSeek: DeepSeek V4 Pro](https://llmcosts.dev/models/deepseek-deepseek-v4-pro) | Deepseek | $1.74 | $3.48 | $None | 1,048,576 | None | premium | Closed |
 | [DeepSeek: DeepSeek V4 Flash](https://llmcosts.dev/models/deepseek-deepseek-v4-flash) | Deepseek | $0.14 | $0.28 | $None | 1,048,576 | None | standard | Closed |
+| [OpenAI: GPT-5.5 Pro](https://llmcosts.dev/models/openai-gpt-5.5-pro) | Openai | $30.0 | $180.0 | $None | 1,050,000 | None | premium | Closed |
+| [OpenAI: GPT-5.5](https://llmcosts.dev/models/openai-gpt-5.5) | Openai | $5.0 | $30.0 | $None | 1,050,000 | None | premium | Closed |

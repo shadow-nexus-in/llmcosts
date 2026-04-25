@@ -25,6 +25,7 @@
     "google-gemma-4-31b-it-vs-qwen-qwen-max",
     "anthropic-claude-opus-4.7-vs-qwen-qwen-max",
     "openai-gpt-5.4-image-2-vs-qwen-qwen-max",
-    "deepseek-deepseek-v4-pro-vs-qwen-qwen-max"
+    "deepseek-deepseek-v4-pro-vs-qwen-qwen-max",
+    "google-gemma-4-26b-a4b-it-vs-google-gemma-4-26b-a4b-it:free"
   ]
 }
