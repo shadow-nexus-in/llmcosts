@@ -1,6 +1,6 @@
 # Baidu: ERNIE 4.5 21B A3B Thinking API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-04-25
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-04-26
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview

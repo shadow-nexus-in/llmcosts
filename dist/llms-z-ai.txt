@@ -1,6 +1,6 @@
 # LLMCosts.dev — Z-Ai Models Pricing
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-04-25
+> Updated: 2026-04-26
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
