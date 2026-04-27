@@ -1,6 +1,6 @@
 # LLMCosts.dev — Rekaai Models Pricing
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-04-26
+> Updated: 2026-04-27
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
