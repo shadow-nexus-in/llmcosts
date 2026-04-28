@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://llmcosts.dev/models/gemma-2-9b-it">
 
   <!-- Schema.org: Dataset -->
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Gemma 2 9B Instruct API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Gemma 2 9B Instruct by Google DeepMind.", "url": "https://llmcosts.dev/models/gemma-2-9b-it", "keywords": ["Gemma 2 9B Instruct", "Google DeepMind", "open-source", "self-hostable", "budget", "google", "gemma"], "dateModified": "2026-04-27", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Gemma 2 9B Instruct API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Gemma 2 9B Instruct by Google DeepMind.", "url": "https://llmcosts.dev/models/gemma-2-9b-it", "keywords": ["Gemma 2 9B Instruct", "Google DeepMind", "open-source", "self-hostable", "budget", "google", "gemma"], "dateModified": "2026-04-28", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
   <!-- Schema.org: FAQ -->
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
 
@@ -346,13 +346,13 @@
       <div class="card content-section">
         <div class="card-title">Overview</div>
         <div>### Introduction to Gemma 2 9B Instruct
-Gemma 2 9B Instruct, provided by Google DeepMind, is a budget-friendly, open-source language model released on 2024-06-27. This model boasts a robust architecture, with capabilities including text processing, function calling, streaming, and system prompts. Its primary strengths lie in its ability to handle a wide range of natural language processing tasks, such as chatbots, summarization, classification, and content generation.
+The Gemma 2 9B Instruct model, released by Google DeepMind on 2024-06-27, is a budget-friendly, open-source language model designed to provide a balance between performance and cost. With its architecture tailored for instruction following and generation tasks, Gemma 2 9B Instruct is suited for a variety of applications, including chatbots, text summarization, classification, and content generation. This model is particularly notable for its open-source nature, making it an attractive option for developers looking to integrate AI capabilities into their projects without incurring significant licensing fees.
 
-### Technical Specifications and Use-Cases
-Technically, Gemma 2 9B Instruct operates with a context window of 8,192 tokens and can generate up to 8,192 tokens as output. The model's knowledge cutoff is 2024-02, ensuring it is informed by data up to that point. Benchmark scores indicate strong performance, with 71.3 on MMLU, 40.2 on HumanEval, 1190 on LMSYS Arena ELO, and 68.6 on GSM8K. These capabilities make Gemma 2 9B Instruct best suited for applications requiring text-based interactions, instruction following, and content creation. However, it is not recommended for tasks involving vision, long context understanding, complex reasoning, or frontier coding.
+### Technical Specifications and Strengths
+Gemma 2 9B Instruct boasts a context window of 8,192 tokens and can generate output up to 8,192 tokens, making it capable of handling moderately complex tasks. Its knowledge cutoff is 2024-02, ensuring it has a robust understanding of information up to that point. The model's pricing structure is straightforward, with input and output costing $0.1 per 1M tokens. Benchmarks such as MMLU (71.3), HumanEval (40.2), LMSYS Arena ELO (1190), and GSM8K (68.6) demonstrate its competence across various evaluation metrics. Its capabilities include text processing, function calling, streaming, and system prompts, positioning it as a versatile tool for developers.
 
-### Pricing and Competitiveness
-Pricing for Gemma 2 9B Instruct is competitive, with costs of $0.1 per 1M tokens for both input and output. There are no additional costs for cached input or batch input. Example costs include $0.1 for 1,000 calls averaging 500 tokens, $1.0 for 10,000 calls, and $10.0 for 100,000 calls. In comparison to its competitors, such as Llama 3.1 8B Instruct and Qwen2.5 7B Instruct, Gemma 2 9B Instruct offers a balanced</div>
+### Use Cases and Cost Considerations
+Developers can leverage Gemma 2 9B Instruct for chatbots, summarization tasks, classification, and content generation, among other applications. However, it's not recommended for tasks requiring vision, long context understanding, complex reasoning, or frontier coding. The cost of using Gemma 2 9B Instruct is predictable, with examples including $0.1 for 1,000 calls (avg 500 tokens), $1.0 for 10,</div>
       </div>
 
       <!-- PRICING -->
@@ -402,24 +402,25 @@ The pricing for Gemma 2 9B Instruct is as follows:
 - **Cached Input**: $None per 1M tokens (free)
 - **Batch Input**: $None per 1M tokens (free)
 
-This structure indicates that using cached input and batch processing can significantly reduce costs, as these are provided at no additional charge.
+This indicates that using cached input and batch processing can significantly reduce costs, as these are provided at no additional charge.
 
 #### When to Use Cached Tokens
-Cached tokens should be utilized whenever possible, as they are free. This is particularly beneficial for applications where the input data does not change frequently or for scenarios where the same inputs are processed multiple times.
+Cached tokens should be utilized whenever possible to minimize input costs. Since cached input is free, it's beneficial to use it for repeated or similar inputs, reducing the overall cost of API calls.
 
 #### Batch API Savings
-Batching API calls can lead to substantial savings, as there are no additional costs associated with batch input. This makes Gemma 2 9B Instruct an attractive option for high-volume processing tasks.
+Batching API calls can also lead to cost savings, as batch input is free. By grouping multiple requests together, users can avoid incurring additional input costs, making it an efficient way to process large volumes of data.
 
 #### Cost at Scale
-To understand the cost-effectiveness of Gemma 2 9B Instruct at scale, let's examine the provided cost examples:
-- **1,000 calls (avg 500 tokens)**: $0.1
+The cost of using Gemma 2 9B Instruct at scale is as follows:
+- **1,000 calls** (avg 500 tokens): $0.1
 - **10,000 calls**: $1.0
 - **100,000 calls**: $10.0
 
-These examples illustrate a linear cost scaling, where the cost per call remains constant regardless of the volume. This linear scaling makes it easy to predict and manage costs for large-scale applications.
+These costs are based on the average number of tokens per call and demonstrate a linear scaling of costs with the number of API calls.
 
-#### Comparison with Competitors
-Gemma 2 9B Instruct is competitively priced compared to other models like L</div>
+#### Comparison with Top Competitors
+Gemma 2 9B Instruct's pricing is competitive with other models in the market:
+- **Llama 3.1 8B Instruct**: $</div>
       </div>
 
       <!-- BENCHMARKS -->
@@ -431,19 +432,17 @@ Gemma 2 9B Instruct is competitively priced compared to other models like L</div
           <div class="stat-cell"><div class="stat-label">LMSYS ELO</div><div class="stat-value">1190</div></div>
         </div>
         <div>### Analysis of Gemma 2 9B Instruct Benchmark Performance
-#### Model Overview
-The Gemma 2 9B Instruct model, provided by Google DeepMind, is a budget-friendly, open-source option with a release date of 2024-06-27. It offers competitive pricing at $0.1 per 1M tokens for both input and output.
+The Gemma 2 9B Instruct model, released by Google DeepMind on 2024-06-27, demonstrates notable performance in various benchmarks. This analysis will delve into the MMLU, HumanEval, and Arena ELO scores, providing insights into their implications for real-world applications.
 
-#### Benchmark Performance
-The model's performance is evaluated through several benchmarks:
-* **MMLU (Massive Multitask Language Understanding) Score: 71.3** - This score indicates the model's ability to understand and process human language across a wide range of tasks. A higher MMLU score suggests better language comprehension.
-* **HumanEval Score: 40.2** - This benchmark assesses the model's ability to generate correct code in response to programming prompts. A higher HumanEval score reflects stronger coding capabilities.
-* **LMSYS Arena ELO Score: 1190** - The LMSYS Arena ELO score is a measure of the model's overall performance in a competitive arena, where it is pitted against other models. A higher ELO score indicates superior performance.
-* **GSM8K Score: 68.6** - This score evaluates the model's ability to reason and solve math problems, with a higher score indicating stronger math reasoning capabilities.
+#### Benchmark Scores
+- **MMLU (Massive Multitask Language Understanding) Score: 71.3**
+  The MMLU score evaluates a model's ability to understand and generate text across a wide range of tasks and topics. A higher MMLU score indicates better performance in tasks such as text classification, sentiment analysis, and question answering. With a score of 71.3, Gemma 2 9B Instruct shows strong capabilities in handling diverse language understanding tasks.
 
-#### Real-World Implications
-These benchmark scores have significant implications for real-world use cases:
-* **MMLU Score (71.3)**: Gemma 2 9B Instruct's strong MMLU score suggests it is well-suited for tasks that require understanding and processing human language, such as chatbots, summarization, and classification</div>
+- **HumanEval Score: 40.2**
+  HumanEval assesses a model's ability to generate code based on human-written prompts, focusing on the model's coding capabilities and understanding of programming concepts. A score of 40.2 suggests that Gemma 2 9B Instruct has moderate to good performance in coding tasks, which can be useful for applications like code completion, code review, and programming education.
+
+- **LMSYS Arena ELO Score: 1190**
+  The LMSYS Arena ELO score measures a model's competitive performance in a variety of tasks and games, reflecting its overall intelligence and adaptability. An ELO score of 1190 places Gemma 2 9B Instruct in a competitive position, indicating its potential to perform well in dynamic and interactive environments, such as chatbots and strategy</div>
       </div>
 
       <!-- COMPETITOR TABLE -->
@@ -481,57 +480,58 @@ These benchmark scores have significant implications for real-world use cases:
         </div>
         <div style="margin-top:1.5rem">### Comparison of Gemma 2 9B Instruct with Top Competitors
 #### Overview
-Gemma 2 9B Instruct, provided by Google DeepMind, is a budget-friendly, open-source model released on 2024-06-27. This comparison will delve into the pricing, performance, and use cases of Gemma 2 9B Instruct against its top competitors, Llama 3.1 8B Instruct and Qwen2.5 7B Instruct.
+Gemma 2 9B Instruct, provided by Google DeepMind, is a budget-friendly, open-source model released on 2024-06-27. It offers competitive pricing and performance. This comparison will delve into the details of Gemma 2 9B Instruct against its top competitors, Llama 3.1 8B Instruct and Qwen2.5 7B Instruct, focusing on price differences, performance trade-offs, and use cases.
 
 #### Pricing Comparison
-The pricing for each model is as follows:
-* Gemma 2 9B Instruct:
-	+ Input: $0.1 per 1M tokens
-	+ Output: $0.1 per 1M tokens
-* Llama 3.1 8B Instruct:
-	+ Input: $0.07 per 1M tokens
-	+ Output: $0.07 per 1M tokens
-* Qwen2.5 7B Instruct:
-	+ Input: $0.1 per 1M tokens
-	+ Output: $0.2 per 1M tokens
+The pricing models for each are as follows:
+- **Gemma 2 9B Instruct**: $0.1 per 1M tokens for both input and output.
+- **Llama 3.1 8B Instruct**: $0.07 per 1M tokens for both input and output, offering a 30% discount compared to Gemma 2 9B Instruct.
+- **Qwen2.5 7B Instruct**: $0.1 per 1M input tokens and $0.2 per 1M output tokens, making it more expensive for output-intensive applications.
 
-Llama 3.1 8B Instruct is the most cost-effective option, with a 30% reduction in input and output costs compared to Gemma 2 9B Instruct. Qwen2.5 7B Instruct has the same input cost as Gemma 2 9B Instruct but is twice as expensive for output.
+#### Performance Trade-offs
+Performance is measured through various benchmarks:
+- **MMLU**: Gemma 2 9B Instruct scores 71.3, outperforming its competitors.
+- **HumanEval**: With a score of 40.2, Gemma 2 9B Instruct shows strong coding capabilities.
+- **LMSYS Arena ELO**: A score of 1190 indicates good overall performance.
+- **GSM8K**: Scoring 68.6, Gemma 2 9B Instruct demonstrates proficiency in mathematical reasoning.
 
-#### Performance Comparison
-The performance of each model can be evaluated using the following benchmarks:
-* Gemma 2 9B Instruct:
-	+ MMLU: 71.3
-	+ HumanEval: 40.2
-	+ LMSYS Arena ELO: 1190
-	+ GSM8K: 68.6
-* Llama 3.1 8B Instruct: Not provided
-* Qwen2.5 7B Instruct: Not provided
+#### Context and Limits
+- **Context Window**: Gemma 2 9B Instruct has a context window of 8,192 tokens, suitable for most chatbot and summarization tasks.
+- **Max Output**: The maximum output of 8,192 tokens is comparable to its competitors.
+- **Knowledge Cutoff**: Updated until 2024-02, which might be a limitation for applications requiring very recent knowledge.
 
-Without the benchmark data for Llama 3.1 8B Instruct and Qwen2.5 7B Instruct, a direct performance comparison is not possible. However, Gemma 2 9B Instruct's benchmarks indicate its capabilities in various tasks.
-
-#### Capabilities and Use Cases
-Gemma 2 9B Instruct is suitable for:
-* Chatbots
-* Summarization</div>
+#### Capabilities and Best Use Cases
+Gemma 2 9B Instruct is capable of:
+- Text processing
+- Function calling
+- Streaming
+- System prompts
+It is best suited for:
+- Chatbots
+- Sum</div>
       </div>
 
       <!-- USE CASES -->
       <div class="card content-section">
         <div class="card-title">Best Use Cases</div>
         <div>### Introduction to Gemma 2 9B Instruct
-Gemma 2 9B Instruct, provided by Google DeepMind, is a budget-friendly and open-source model released on 2024-06-27. With its capabilities in text processing, function calling, streaming, and system prompts, it is best suited for applications such as chatbots, summarization, classification, and content generation.
+Gemma 2 9B Instruct, provided by Google DeepMind, is a budget-friendly, open-source model released on 2024-06-27. With its capabilities in text, function calling, streaming, and system prompts, it is best suited for applications such as chatbots, summarization, classification, and content generation.
 
 ### Top 5 Best Use Cases for Gemma 2 9B Instruct
-Based on its capabilities and limitations, here are the top 5 best use cases for Gemma 2 9B Instruct:
+Based on its capabilities and benchmarks, here are the top 5 best use cases for Gemma 2 9B Instruct:
 
-1. **Chatbots**: Gemma 2 9B Instruct's ability to understand and respond to user input makes it an ideal choice for building conversational AI models. Its context window of 8,192 tokens allows for engaging and informative conversations.
-2. **Summarization**: With its text processing capabilities, Gemma 2 9B Instruct can effectively summarize long pieces of text into concise and meaningful summaries. This can be particularly useful for news articles, documents, or research papers.
-3. **Classification**: Gemma 2 9B Instruct's classification capabilities make it suitable for tasks such as sentiment analysis, spam detection, or topic modeling. Its high performance on benchmarks like MMLU (71.3) and GSM8K (68.6) demonstrates its potential in these areas.
-4. **Content Generation**: Gemma 2 9B Instruct's ability to generate human-like text makes it an excellent choice for content generation tasks such as writing articles, creating product descriptions, or even composing emails.
-5. **Instruction Following**: With its capability to understand and follow instructions, Gemma 2 9B Instruct can be used to automate tasks such as data entry, bookkeeping, or even simple programming tasks.
+1. **Chatbots**: With its high performance in instruction following and text generation, Gemma 2 9B Instruct is ideal for building conversational AI models. For example, you can use it to generate human-like responses to user queries.
+2. **Summarization**: The model's ability to process and understand large amounts of text makes it suitable for summarization tasks. You can use it to summarize long documents or articles into concise, readable summaries.
+3. **Classification**: Gemma 2 9B Instruct's capabilities in text classification make it a good choice for tasks such as sentiment analysis or spam detection. You can use it to classify text into predefined categories.
+4. **Content Generation**: With its ability to generate coherent and context-specific text, Gemma 2 9B Instruct is well-suited for content generation tasks such as writing articles or creating product descriptions.
+5. **Instruction Following**: The model's high performance in instruction following makes it ideal for tasks that require following specific instructions or guidelines. You can use it to generate text that follows a set of predefined rules or guidelines.
 
-### Code Integration Examples with OpenRouter
-To integrate Gemma 2 9B</div>
+### Code Integration Example with OpenRouter
+To integrate Gemma 2 9B Instruct with OpenRouter, you can use the following code example:
+```python
+import openrouter
+
+# Initialize the Gemma 2 9</div>
       </div>
 
       <!-- CAPABILITIES -->
