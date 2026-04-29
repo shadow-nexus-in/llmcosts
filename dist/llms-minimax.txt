@@ -1,6 +1,6 @@
 # LLMCosts.dev — Minimax Models Pricing
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-04-28
+> Updated: 2026-04-29
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
