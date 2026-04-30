@@ -31,6 +31,7 @@
     "anthropic-claude-opus-4.7-vs-deepseek-deepseek-v4-pro",
     "anthropic-claude-opus-4.7-vs-openai-gpt-5.5-pro",
     "anthropic-claude-opus-4.7-vs-openai-gpt-5.5",
-    "anthropic-claude-opus-4.7-vs-qwen-qwen3.5-plus-20260420"
+    "anthropic-claude-opus-4.7-vs-qwen-qwen3.5-plus-20260420",
+    "anthropic-claude-opus-4.7-vs-qwen-qwen3.6-flash"
   ]
 }

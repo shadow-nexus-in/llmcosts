@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://llmcosts.dev/models/mistral-nemo">
 
   <!-- Schema.org: Dataset -->
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Mistral Nemo API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Mistral Nemo by Mistral AI.", "url": "https://llmcosts.dev/models/mistral-nemo", "keywords": ["Mistral Nemo", "Mistral AI", "open-source", "self-hostable", "budget", "multilingual", "european"], "dateModified": "2026-04-29", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Mistral Nemo API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Mistral Nemo by Mistral AI.", "url": "https://llmcosts.dev/models/mistral-nemo", "keywords": ["Mistral Nemo", "Mistral AI", "open-source", "self-hostable", "budget", "multilingual", "european"], "dateModified": "2026-04-30", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
   <!-- Schema.org: FAQ -->
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
 
@@ -346,13 +346,13 @@
       <div class="card content-section">
         <div class="card-title">Overview</div>
         <div>### Introduction to Mistral Nemo
-Mistral Nemo, developed by Mistral AI, is an open-source language model released on 2024-07-18. This budget-friendly model is designed to cater to a wide range of applications, including text processing, function calling, and JSON mode. With a context window of 128,000 tokens and a maximum output of 4,096 tokens, Mistral Nemo is well-suited for tasks that require processing large amounts of text data. Its knowledge cutoff is 2024-04, ensuring that the model is trained on data up to that point.
+Mistral Nemo, developed by Mistral AI, is an open-source language model released on 2024-07-18. As a budget-friendly option, it offers a competitive pricing structure, with costs of $0.15 per 1M tokens for both input and output. This model is particularly suited for developers seeking an affordable solution for bulk processing, summarization, classification, chatbots, and multilingual applications on a budget.
 
 ### Architecture and Strengths
-The architecture of Mistral Nemo is designed to be efficient and scalable, making it an attractive option for developers who need to process large volumes of text data. The model's main strengths lie in its ability to perform tasks such as bulk processing, summarization, classification, and chatbots, particularly in multilingual settings. With a pricing structure of $0.15 per 1M tokens for both input and output, Mistral Nemo offers a cost-effective solution for developers who need to integrate language processing capabilities into their applications. The model's capabilities are further enhanced by its support for streaming and system prompts, allowing for real-time processing and interaction.
+Mistral Nemo boasts an architecture that supports a context window of 128,000 tokens and a maximum output of 4,096 tokens. Its capabilities include text processing, function calling, JSON mode, streaming, and system prompts. The model has demonstrated its strengths through various benchmarks, achieving scores of 68.0 on MMLU, 62.0 on HumanEval, 1090 on LMSYS Arena ELO, and 68.0 on GSM8K. While it may not be ideal for complex reasoning, vision, or high-end coding tasks, Mistral Nemo's budget-friendly pricing and open-source nature make it an attractive choice for developers with specific use cases.
 
-### Use Cases and Competitors
-Mistral Nemo is best suited for applications that require efficient text processing, such as chatbots, summarization tools, and classification systems. However, it may not be the best choice for tasks that require complex reasoning, vision, or frontier-quality output. In terms of pricing, Mistral Nemo competes with other models such as Llama 3.1 8B Instruct and OpenAI's GPT-3.5 Turbo, which offer similar capabilities at different price points. For example, Llama 3.1 8B Instruct offers input and output pricing of $0.07/1M tokens, while OpenAI</div>
+### Use Cases and Cost Considerations
+Developers can leverage Mistral Nemo for a range of applications, including bulk processing, summarization, and chatbots. The model's pricing structure allows for cost-effective usage, with examples including $0.15 for 1,000 calls (avg 500 tokens), $1.5 for 10,000 calls, and $15.0 for 100,000 calls. In comparison to its top competitors, such as Llama 3.1 8B Instruct and OpenAI's GPT-3.5 Turbo, Mistral Nemo offers a competitive pricing point, making it a viable option for developers seeking a budget-friendly language model solution. With its open-source nature and robust capabilities, Mistral N</div>
       </div>
 
       <!-- PRICING -->
@@ -393,18 +393,18 @@ Mistral Nemo is best suited for applications that require efficient text process
 
         <div style="margin-top:1.5rem">### Mistral Nemo Pricing Analysis
 #### Overview
-Mistral Nemo, provided by Mistral AI, is an open-source model released on 2024-07-18, categorized under the budget tier. This analysis will delve into the cost structure, optimal usage scenarios, and cost-effectiveness at scale.
+Mistral Nemo, provided by Mistral AI, is a budget-friendly, open-source model released on 2024-07-18. This analysis will delve into the cost structure, optimal usage scenarios, and cost-effectiveness at scale.
 
 #### Cost Structure
 The pricing for Mistral Nemo is as follows:
 - **Input**: $0.15 per 1M tokens
 - **Output**: $0.15 per 1M tokens
-- **Cached Input**: $0 per 1M tokens (free)
-- **Batch Input**: $0 per 1M tokens (free)
+- **Cached Input**: $None per 1M tokens (free)
+- **Batch Input**: $None per 1M tokens (free)
 
 #### Optimal Usage Scenarios
-- **Cached Tokens**: Since cached input tokens are free, it is highly beneficial to use cached tokens whenever possible. This can significantly reduce costs, especially for applications with repetitive or similar input patterns.
-- **Batch API Savings**: With batch input being free, batching API calls can lead to substantial cost savings. This makes Mistral Nemo particularly attractive for bulk processing tasks.
+- **Cached Tokens**: Since cached input tokens are free, it's advisable to utilize cached tokens whenever possible to minimize costs.
+- **Batch API Savings**: With batch input being free, batching API calls can significantly reduce costs, especially for large-scale operations.
 
 #### Cost at Scale
 The cost of using Mistral Nemo at different scales is as follows:
@@ -412,14 +412,14 @@ The cost of using Mistral Nemo at different scales is as follows:
 - **10,000 calls**: $1.5
 - **100,000 calls**: $15.0
 
-These costs indicate a linear scaling of expenses with the number of API calls, which is straightforward and predictable for budgeting purposes.
+These costs indicate a linear scaling of expenses with the number of API calls, without any economies of scale. However, by leveraging cached and batch inputs, users can optimize their costs.
 
-#### Competitor Comparison
-Comparing Mistral Nemo's pricing with its top competitors:
+#### Comparison with Competitors
+Mistral Nemo's pricing is competitive, especially considering its open-source nature. For comparison:
 - **Llama 3.1 8B Instruct**: $0.07/1M input, $0.07/1M output
 - **OpenAI GPT-3.5 Turbo**: $0.5/1M input, $1.5/1M output
 
-Mistral Nemo's pricing is competitive, especially considering its open-source</div>
+Mistral Nemo offers a balanced approach, with its pricing sitting between the more expensive OpenAI option and</div>
       </div>
 
       <!-- BENCHMARKS -->
@@ -431,33 +431,17 @@ Mistral Nemo's pricing is competitive, especially considering its open-source</d
           <div class="stat-cell"><div class="stat-label">LMSYS ELO</div><div class="stat-value">1090</div></div>
         </div>
         <div>### Mistral Nemo Benchmark Performance Analysis
-#### Model Overview
-The Mistral Nemo model, provided by Mistral AI, is a budget-friendly, open-source option released on 2024-07-18. It offers a range of capabilities, including text processing, function calling, JSON mode, streaming, and system prompts.
+Mistral Nemo, a budget-friendly and open-source model provided by Mistral AI, exhibits notable performance across various benchmarks. This analysis will delve into the MMLU, HumanEval, and Arena ELO scores, providing insights into their implications for real-world applications.
 
-#### Pricing
-The pricing for Mistral Nemo is as follows:
-* Input: $0.15 per 1M tokens
-* Output: $0.15 per 1M tokens
-* Cached Input: $None per 1M tokens
-* Batch Input: $None per 1M tokens
+#### Benchmark Scores
+* **MMLU (Massive Multitask Language Understanding) Score: 68.0** - This score indicates Mistral Nemo's ability to understand and generate human-like text across a wide range of tasks and topics. A higher MMLU score suggests better performance in tasks that require a broad understanding of language.
+* **HumanEval Score: 62.0** - HumanEval assesses a model's ability to generate code that passes a set of unit tests. Mistral Nemo's HumanEval score of 62.0 signifies its capability to produce functional code, albeit with limitations in complex coding tasks.
+* **LMSYS Arena ELO Score: 1090** - The Arena ELO score measures a model's performance in a competitive environment, where it is pitted against other models. An ELO score of 1090 places Mistral Nemo in a respectable position, indicating its ability to hold its own against other models in various tasks.
 
-#### Context and Limits
-The model has the following context and limits:
-* Context Window: 128,000 tokens
-* Max Output: 4,096 tokens
-* Knowledge Cutoff: 2024-04
-
-#### Benchmark Performance
-The benchmark performance of Mistral Nemo is as follows:
-* MMLU: 68.0
-* HumanEval: 62.0
-* LMSYS Arena ELO: 1090
-* GSM8K: 68.0
-
-These scores indicate the model's performance in various areas:
-* **MMLU (Massive Multitask Language Understanding)**: Measures the model's ability to understand and process natural language. A score of 68.0 indicates that Mistral Nemo has a moderate level of language understanding.
-* **HumanEval**: Evaluates the model's ability to generate human-like text. A score of 62.0 suggests that Mistral Nemo can produce coherent and contextually relevant text, but may struggle with more complex or nuanced language tasks.
-* **LMSYS Arena ELO</div>
+#### Real-World Implications
+These benchmark scores have significant implications for real-world use cases:
+* **Text-based applications**: Mistral Nemo's strong MMLU score makes it suitable for tasks like text summarization, classification, and chatbots, where understanding and generating human-like text is crucial.
+* **Code generation**: While Mistral Nemo's HumanEval score is respectable, its limitations in complex coding tasks mean</div>
       </div>
 
       <!-- COMPETITOR TABLE -->
@@ -493,70 +477,102 @@ These scores indicate the model's performance in various areas:
             </tbody>
           </table>
         </div>
-        <div style="margin-top:1.5rem">### Comparison of Mistral Nemo with Top Competitors
-Mistral Nemo, a budget-friendly and open-source model by Mistral AI, is a strong contender in the LLM market. Here's a detailed comparison of Mistral Nemo with its top competitors, Llama 3.1 8B Instruct and OpenAI's GPT-3.5 Turbo.
+        <div style="margin-top:1.5rem">### Comparison of Mistral Nemo against Top Competitors
+Mistral Nemo, a budget-friendly and open-source model from Mistral AI, is compared against its top competitors, Llama 3.1 8B Instruct and OpenAI's GPT-3.5 Turbo, in terms of pricing, performance, and capabilities.
 
 #### Pricing Comparison
-The pricing for each model is as follows:
-* **Mistral Nemo**: $0.15 per 1M tokens (input and output)
-* **Llama 3.1 8B Instruct**: $0.07 per 1M tokens (input and output)
-* **OpenAI GPT-3.5 Turbo**: $0.5 per 1M input, $1.5 per 1M output
+The pricing models of the three competitors are as follows:
+* **Mistral Nemo**: $0.15 per 1M tokens for both input and output, with no additional costs for cached input or batch input.
+* **Llama 3.1 8B Instruct**: $0.07 per 1M tokens for both input and output.
+* **OpenAI GPT-3.5 Turbo**: $0.5 per 1M input and $1.5 per 1M output.
 
-Mistral Nemo is more expensive than Llama 3.1 8B Instruct but significantly cheaper than OpenAI GPT-3.5 Turbo for output tokens.
+Mistral Nemo is more expensive than Llama 3.1 8B Instruct but significantly cheaper than OpenAI GPT-3.5 Turbo, especially for output tokens.
 
-#### Performance Trade-offs
-The performance of each model can be evaluated using various benchmarks:
+#### Performance Comparison
+The performance benchmarks of the three models are:
 * **Mistral Nemo**:
 	+ MMLU: 68.0
 	+ HumanEval: 62.0
 	+ LMSYS Arena ELO: 1090
 	+ GSM8K: 68.0
-* **Llama 3.1 8B Instruct** and **OpenAI GPT-3.5 Turbo** benchmarks are not provided, but their pricing suggests a potential trade-off between cost and performance.
+* **Llama 3.1 8B Instruct**: Not provided
+* **OpenAI GPT-3.5 Turbo**: Not provided
 
-#### Context and Limits
-Mistral Nemo has the following context and limits:
-* **Context Window**: 128,000 tokens
-* **Max Output**: 4,096 tokens
-* **Knowledge Cutoff**: 2024-04
-
-These limits may affect the model's performance in certain tasks, such as complex reasoning or long-form content generation.
+While the performance benchmarks of Llama 3.1 8B Instruct and OpenAI GPT-3.5 Turbo are not available, Mistral Nemo's benchmarks suggest a strong performance in various tasks.
 
 #### Capabilities and Use Cases
 Mistral Nemo is capable of:
-* **Text**: generation and processing
-* **Function calling**: executing functions and code
-* **JSON mode**: processing JSON data
-* **Streaming**: handling real-time data streams
-* **System prompts**: understanding and responding to system-level prompts
+* Text processing
+* Function calling
+* JSON mode
+* Streaming
+* System prompts
 
-Mistral Nemo is best suited for:
-* **Bulk processing**: large-scale data processing and generation
-* **Summarization**: summarizing long documents and texts
-*</div>
+It is best suited for:
+* Bulk processing
+* Summarization
+* Classification
+* Chatbots
+* Multilingual budget applications
+
+However, it is not recommended for:
+* Complex reasoning
+* Vision tasks
+* Frontier-quality applications
+* Coding tasks that require high complexity
+
+#### Cost Examples
+The cost of using Mistral Nemo can be estimated as follows:
+* 1,000 calls (avg 500 tokens): $0.15
+* 10,000 calls: $1.5</div>
       </div>
 
       <!-- USE CASES -->
       <div class="card content-section">
         <div class="card-title">Best Use Cases</div>
         <div>### Introduction to Mistral Nemo
-Mistral Nemo, released by Mistral AI on 2024-07-18, is a budget-friendly, open-source model that excels in various applications. With its capabilities in text processing, function calling, JSON mode, streaming, and system prompts, it's an ideal choice for bulk processing, summarization, classification, chatbots, and multilingual applications on a budget.
+Mistral Nemo, developed by Mistral AI, is a budget-friendly, open-source model released on 2024-07-18. With its capabilities in text processing, function calling, JSON mode, streaming, and system prompts, it is best suited for applications such as bulk processing, summarization, classification, chatbots, and multilingual tasks on a budget.
 
 ### Top 5 Best Use Cases for Mistral Nemo
-1. **Bulk Processing**: Given its cost-effectiveness ($0.15 per 1M tokens for both input and output), Mistral Nemo is perfect for processing large volumes of text data. This can include data cleaning, text normalization, and data transformation tasks.
-2. **Summarization**: With its strong text processing capabilities, Mistral Nemo can be used to summarize long documents, articles, or even entire books, providing concise and meaningful summaries.
-3. **Classification**: Mistral Nemo's classification capabilities make it suitable for tasks like spam detection, sentiment analysis, and topic modeling. Its performance in benchmarks like MMLU (68.0) and HumanEval (62.0) demonstrates its potential in these areas.
-4. **Chatbots**: The model's ability to handle system prompts and its streaming capability make it an excellent choice for building conversational AI models. It can be integrated with frameworks like OpenRouter for more complex conversational flows.
-5. **Multilingual Applications**: As a budget-friendly option with multilingual capabilities, Mistral Nemo can be used for translating text, generating content in multiple languages, or even building language learning tools.
+Given its strengths and limitations, here are the top 5 use cases for Mistral Nemo, along with practical advice and code integration examples using OpenRouter:
 
-### Code Integration Example with OpenRouter
-To integrate Mistral Nemo with OpenRouter for building a chatbot, you can use the following example:
-```python
-import os
-from openrouter import OpenRouter
-from mistralai import MistralNemo
+1. **Chatbots**: Mistral Nemo's ability to handle text-based inputs and outputs makes it an ideal choice for building chatbots. Its support for system prompts allows for customized interactions.
+   ```python
+   import openrouter
+   from mistralai import MistralNemo
 
-# Initialize Mistral Nemo model
-nemo =</div>
+   # Initialize Mistral Nemo model
+   model = MistralNemo()
+
+   # Define a chatbot function
+   def chatbot(input_text):
+       # Use Mistral Nemo to generate a response
+       response = model.generate_text(input_text)
+       return response
+
+   # Integrate with OpenRouter
+   openrouter.add_endpoint("/chat", chatbot)
+   ```
+
+2. **Text Summarization**: With its capability for text processing, Mistral Nemo can be used for summarizing large documents or articles.
+   ```python
+   import openrouter
+   from mistralai import MistralNemo
+
+   # Initialize Mistral Nemo model
+   model = MistralNemo()
+
+   # Define a summarization function
+   def summarize_text(input_text):
+       # Use Mistral Nemo to summarize the text
+       summary = model.summarize(input_text)
+       return summary
+
+   # Integrate with OpenRouter
+   openrouter.add_endpoint("/summarize", summarize_text)
+   ```
+
+3</div>
       </div>
 
       <!-- CAPABILITIES -->
