@@ -1,6 +1,6 @@
 # LLMCosts.dev — Meituan Models Pricing
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-04-30
+> Updated: 2026-05-01
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
