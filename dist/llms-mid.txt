@@ -1,6 +1,6 @@
 # LLMCosts.dev — Mid Tier Models
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-05-01
+> Updated: 2026-05-02
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]

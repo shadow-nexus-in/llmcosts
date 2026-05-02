@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://llmcosts.dev/models/trinity-large-thinking">
 
   <!-- Schema.org: Dataset -->
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Arcee AI: Trinity Large Thinking API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Arcee AI: Trinity Large Thinking by Arcee-ai.", "url": "https://llmcosts.dev/models/trinity-large-thinking", "keywords": ["Arcee AI: Trinity Large Thinking", "Arcee-ai", "llm", "api"], "dateModified": "2026-05-01", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Arcee AI: Trinity Large Thinking API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Arcee AI: Trinity Large Thinking by Arcee-ai.", "url": "https://llmcosts.dev/models/trinity-large-thinking", "keywords": ["Arcee AI: Trinity Large Thinking", "Arcee-ai", "llm", "api"], "dateModified": "2026-05-02", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
   <!-- Schema.org: FAQ -->
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
 
@@ -346,13 +346,13 @@
       <div class="card content-section">
         <div class="card-title">Overview</div>
         <div>### Introduction to Arcee AI: Trinity Large Thinking
-Arcee AI: Trinity Large Thinking is a standard-tier AI model provided by Arcee-ai, released on January 1, 2024. This model is not open source. The architecture of Arcee AI: Trinity Large Thinking is designed to handle a wide range of natural language processing tasks with its large context window of 262,144 tokens and a maximum output of 262,144 tokens. Its knowledge cutoff is December 2023, ensuring it has access to a vast amount of information up to that point.
+Arcee AI: Trinity Large Thinking is a standard-tier AI model developed by Arcee-ai, released on January 1, 2024. This model is not open source and is designed to provide advanced thinking capabilities for developers. The architecture of Arcee AI: Trinity Large Thinking is not explicitly stated, but its capabilities and strengths suggest a robust and versatile design. With a context window of 262,144 tokens and a maximum output of 262,144 tokens, this model is well-suited for handling complex and lengthy input sequences.
 
 ### Strengths and Use Cases
-The main strengths of Arcee AI: Trinity Large Thinking include its capabilities in text, function calling, JSON mode, streaming, and structured outputs. This makes it best suited for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization. With its pricing structure, developers can expect to pay $0.22 per 1M tokens for input and $0.85 per 1M tokens for output. The model has demonstrated its performance through various benchmarks, including an MMLU score of 80.0 and an LMSYS Arena ELO of 1200. However, it's essential to note the areas where it may not perform as well, although these are not explicitly listed.
+The main strengths of Arcee AI: Trinity Large Thinking lie in its ability to process and generate large amounts of text, making it ideal for applications such as chat, text generation, coding, analysis, and summarization. The model also supports function calling, JSON mode, streaming, and structured outputs, further expanding its range of use cases. With a pricing structure of $0.22 per 1M input tokens and $0.85 per 1M output tokens, this model offers a cost-effective solution for developers. The benchmarks for this model show an MMLU score of 80.0 and an LMSYS Arena ELO score of 1200, demonstrating its capabilities in natural language processing and reasoning.
 
-### Technical and Pricing Considerations
-For developers considering Arcee AI: Trinity Large Thinking, understanding its pricing and technical limits is crucial. The model does not provide pricing for cached input or batch input. Cost examples provided show that 1,000 calls with an average of 500 tokens would cost $0.535, scaling up to $53.5 for 100,000 calls. With no direct competitors listed, Arcee AI: Trinity Large Thinking presents a unique offering in the market. Its technical capabilities, combined with its pricing model, make it an attractive option for developers looking to integrate advanced AI functionalities into their applications, particularly in areas like</div>
+### Technical Specifications and Cost Examples
+Arcee AI: Trinity Large Thinking has a knowledge cutoff of December 2023, ensuring that its training data is up-to-date but not entirely current. The model's capabilities include text, function calling, JSON mode, streaming, and structured outputs, making it a versatile tool for developers. The cost of using this model can be estimated based on the number of calls and tokens processed. For example, 1,000 calls with an average of 500 tokens would cost $0.535, while 10,000 calls would cost $5.35, and 100,000 calls would cost $</div>
       </div>
 
       <!-- PRICING -->
@@ -391,33 +391,39 @@ For developers considering Arcee AI: Trinity Large Thinking, understanding its p
           </tbody>
         </table>
 
-        <div style="margin-top:1.5rem">### Arcee AI: Trinity Large Thinking Pricing Analysis
+        <div style="margin-top:1.5rem">### Pricing Analysis for Arcee AI: Trinity Large Thinking
 #### Overview
-The Arcee AI: Trinity Large Thinking model is a standard, non-open source model provided by Arcee-ai, released on January 1, 2024. This analysis will break down the cost structure, provide guidance on when to use cached tokens, discuss batch API savings, and examine the cost at scale for 1,000, 10,000, and 100,000 API calls.
+Arcee AI: Trinity Large Thinking is a standard, non-open-source model provided by Arcee-ai, released on January 1, 2024. This analysis will delve into the cost structure, usage scenarios, and scalability of this model.
 
 #### Cost Structure
 The pricing for Arcee AI: Trinity Large Thinking is as follows:
-* Input: **$0.22 per 1M tokens**
-* Output: **$0.85 per 1M tokens**
-* Cached Input: **$0.00 per 1M tokens** (free)
-* Batch Input: **$0.00 per 1M tokens** (free)
+* **Input**: $0.22 per 1M tokens
+* **Output**: $0.85 per 1M tokens
+* **Cached Input**: $0 per 1M tokens (free)
+* **Batch Input**: $0 per 1M tokens (free)
 
-#### Cached Tokens
-Cached tokens are free, with a cost of **$0.00 per 1M tokens**. This makes using cached tokens an attractive option when possible, as it can significantly reduce costs.
-
-#### Batch API Savings
-Batch input is also free, with a cost of **$0.00 per 1M tokens**. This means that batching API calls can lead to substantial savings, as the cost per token is reduced.
+#### Usage Scenarios
+* **Cached Tokens**: Since cached input tokens are free, it is recommended to use cached tokens whenever possible to minimize costs.
+* **Batch API Savings**: Although batch input tokens are free, the actual cost savings will depend on the output tokens generated. To maximize batch API savings, optimize your input to generate the minimum required output tokens.
 
 #### Cost at Scale
 The cost of using Arcee AI: Trinity Large Thinking at scale is as follows:
-* 1,000 calls (avg 500 tokens): **$0.535**
-* 10,000 calls: **$5.35**
-* 100,000 calls: **$53.5**
+* **1,000 API calls** (avg 500 tokens): $0.535
+* **10,000 API calls**: $5.35
+* **100,000 API calls**: $53.5
 
-These costs demonstrate a linear relationship between the number of API calls and the total cost.
+These costs are based on the average number of tokens per call and can be used to estimate the total cost of using this model for large-scale applications.
+
+#### Context and Limits
+It is essential to consider the context window and output limits when using Arcee AI: Trinity Large Thinking:
+* **Context Window**: 262,144 tokens
+* **Max Output**: 262,144 tokens
+* **Knowledge Cutoff**: 2023-12
+
+Ensure that your use case is within these limits to avoid additional costs or performance issues.
 
 #### Conclusion
-The Arcee AI: Trinity Large Thinking model offers a cost-effective solution for text-based applications, with a pricing structure that incentivizes the use of cached tokens and batch API calls. By understanding the cost structure and taking advantage of these</div>
+Arcee AI: Trinity Large Thinking offers a competitive</div>
       </div>
 
       <!-- BENCHMARKS -->
@@ -428,29 +434,28 @@ The Arcee AI: Trinity Large Thinking model offers a cost-effective solution for 
           <div class="stat-cell"><div class="stat-label">HumanEval</div><div class="stat-value">None</div></div>
           <div class="stat-cell"><div class="stat-label">LMSYS ELO</div><div class="stat-value">1200</div></div>
         </div>
-        <div>### Analysis of Arcee AI: Trinity Large Thinking Benchmark Performance
-#### Overview
-The Arcee AI: Trinity Large Thinking model is a standard, non-open-source model provided by Arcee-ai, released on January 1, 2024. This analysis focuses on its benchmark performance and what the scores imply for real-world use.
+        <div>### Analysis of Arcee AI: Trinity Large Thinking
+#### Model Overview
+The Arcee AI: Trinity Large Thinking model is a standard, non-open-source model released by Arcee-ai on 2024-01-01. It has a context window of 262,144 tokens and a maximum output of 262,144 tokens, with a knowledge cutoff of 2023-12.
 
-#### Benchmark Scores
-The model has the following benchmark scores:
-* **MMLU (Massive Multitask Language Understanding)**: 80.0
-* **HumanEval**: Not available
-* **LMSYS Arena ELO**: 1200
-* **GSM8K**: Not available
+#### Pricing
+The pricing for this model is as follows:
+* Input: $0.22 per 1M tokens
+* Output: $0.85 per 1M tokens
+* Cached Input: $None per 1M tokens
+* Batch Input: $None per 1M tokens
 
-These scores provide insights into the model's capabilities:
-* **MMLU**: A score of 80.0 indicates the model's ability to understand and generate human-like text across a wide range of tasks and topics. A higher score suggests better performance in multitask language understanding.
-* **LMSYS Arena ELO**: An ELO score of 1200 suggests the model's competitive performance in the LMSYS Arena, a platform for evaluating language models. This score is a measure of the model's overall language understanding and generation capabilities.
+#### Benchmark Performance
+The model's benchmark performance is measured by the following metrics:
+* **MMLU (Massive Multitask Language Understanding)**: 80.0 - This score indicates the model's ability to perform well across a wide range of natural language processing tasks. A higher score generally indicates better performance.
+* **HumanEval**: None - This metric is not available for this model.
+* **LMSYS Arena ELO**: 1200 - This score is a measure of the model's performance in a competitive arena, where it is pitted against other models. A higher score indicates better performance.
+* **GSM8K**: None - This metric is not available for this model.
 
 #### Real-World Implications
 The benchmark scores have the following implications for real-world use:
-* The MMLU score of 80.0 suggests that the model is capable of handling a wide range of natural language processing tasks, such as text generation, chat, and analysis.
-* The LMSYS Arena ELO score of 1200 indicates that the model can perform well in competitive language understanding and generation tasks.
-
-#### Pricing and Cost Examples
-The pricing for the Arcee AI: Trinity Large Thinking model is as follows:
-* **Input**:</div>
+* The MMLU score of 80.0 suggests that the model is capable of performing well across a wide range of tasks, making it a good choice for applications that require general language understanding.
+* The lack of HumanEval and</div>
       </div>
 
       <!-- COMPETITOR TABLE -->
@@ -480,37 +485,35 @@ The pricing for the Arcee AI: Trinity Large Thinking model is as follows:
           </table>
         </div>
         <div style="margin-top:1.5rem">### Arcee AI: Trinity Large Thinking Comparison
-Since there are no direct competitors listed for the Arcee AI: Trinity Large Thinking model, we will provide a general overview of its features, pricing, and performance. This will help users understand the model's capabilities and make informed decisions about its use.
-
-#### Model Overview
-The Arcee AI: Trinity Large Thinking model is a standard-tier model provided by Arcee-ai, released on January 1, 2024. It is not open-source.
+#### Introduction
+Arcee AI: Trinity Large Thinking is a standard-tier model released by Arcee-ai on 2024-01-01. With its unique set of capabilities, it stands out in the market, but lacks direct competitors. This comparison will analyze its pricing, performance, and use cases to help users decide when to choose this model.
 
 #### Pricing
-The pricing for the Arcee AI: Trinity Large Thinking model is as follows:
+The pricing for Arcee AI: Trinity Large Thinking is as follows:
 * Input: $0.22 per 1M tokens
 * Output: $0.85 per 1M tokens
 * Cached Input: $None per 1M tokens
 * Batch Input: $None per 1M tokens
 
-#### Context and Limits
-The model has the following context and limits:
+#### Performance Trade-offs
+The model has the following performance metrics:
+* MMLU: 80.0
+* LMSYS Arena ELO: 1200
 * Context Window: 262,144 tokens
 * Max Output: 262,144 tokens
 * Knowledge Cutoff: 2023-12
 
-#### Benchmarks
-The model's performance is measured by the following benchmarks:
-* MMLU: 80.0
-* LMSYS Arena ELO: 1200
+While there are no direct competitors, we can still analyze the performance trade-offs of this model. The high MMLU score and LMSYS Arena ELO indicate strong language understanding and generation capabilities. However, the lack of HumanEval and GSM8K benchmarks makes it difficult to assess its coding and mathematical reasoning abilities.
 
 #### Capabilities and Use Cases
-The Arcee AI: Trinity Large Thinking model supports the following capabilities:
+Arcee AI: Trinity Large Thinking supports the following capabilities:
 * text
 * function_calling
 * json_mode
 * streaming
 * structured_outputs
-It is best suited for the following use cases:
+
+It is best suited for:
 * chat
 * text_generation
 * coding
@@ -519,34 +522,33 @@ It is best suited for the following use cases:
 * summarization
 
 #### Cost Examples
-The estimated costs for using the Arcee AI: Trinity Large Thinking model are:
+The estimated costs for using this model are:
 * 1,000 calls (avg 500 tokens): $0.535
 * 10,000 calls: $5.35
 * 100,000 calls: $53.5
 
-### Choosing the Arcee AI: Trinity Large Thinking Model
-Since there are no direct competitors listed, the decision to use the Arcee AI: Trinity Large Thinking model depends on the specific requirements of your project. Consider the following factors:
-* **Context window and max output**: If your application requires a large context window and max output, this model may be a good choice.
-* **Pricing**: If you expect a high volume of calls, the cost of using this model may be a significant factor in your decision.
-* **Capabilities and use cases**: If your project requires</div>
+#### Choosing Arcee AI: Trinity Large Thinking
+Given the lack of direct competitors, Arcee AI: Trinity Large Thinking is a unique offering in the market. Users should consider the following factors when deciding to choose this model:
+* **Language understanding and generation**: If strong language understanding and generation capabilities are required, this model may be a good choice.
+* **Coding and analysis**: Although the model supports coding and analysis, the lack of HumanEval and GSM8K benchmarks makes it uncertain how well it will perform</div>
       </div>
 
       <!-- USE CASES -->
       <div class="card content-section">
         <div class="card-title">Best Use Cases</div>
         <div>### Introduction to Arcee AI: Trinity Large Thinking
-Arcee AI: Trinity Large Thinking is a powerful AI model provided by Arcee-ai, released on 2024-01-01. This model is part of the standard tier and is not open source. In this section, we will explore the top 5 best use cases for Arcee AI: Trinity Large Thinking, along with practical advice and code integration examples using OpenRouter.
+Arcee AI: Trinity Large Thinking is a powerful AI model provided by Arcee-ai, released on 2024-01-01. This model is part of the standard tier and is not open source. In this guide, we will explore the top 5 best use cases for Arcee AI: Trinity Large Thinking, along with practical advice and code integration examples using OpenRouter.
 
 ### Top 5 Use Cases for Arcee AI: Trinity Large Thinking
-Based on the capabilities and benchmarks of Arcee AI: Trinity Large Thinking, the top 5 use cases for this model are:
+Based on the capabilities and benchmarks of Arcee AI: Trinity Large Thinking, the following are the top 5 use cases for this model:
 
-1. **Chat and Text Generation**: With its high MMLU score of 80.0, Arcee AI: Trinity Large Thinking is well-suited for chat and text generation applications. Its ability to understand and respond to natural language inputs makes it an ideal choice for building conversational AI systems.
-2. **Coding and Analysis**: The model's function_calling and json_mode capabilities make it a great tool for coding and analysis tasks. It can be used to generate code snippets, analyze data, and provide insights to developers.
-3. **Summarization and RAG Pipelines**: Arcee AI: Trinity Large Thinking's ability to process large amounts of text data and generate concise summaries makes it an excellent choice for summarization tasks. Its rag_pipelines capability also allows it to be used in complex data processing workflows.
-4. **Text Analysis and Understanding**: With its high context window of 262,144 tokens, Arcee AI: Trinity Large Thinking can process and understand large amounts of text data. This makes it an ideal choice for text analysis and understanding tasks, such as sentiment analysis and entity recognition.
-5. **Streaming and Real-time Processing**: The model's streaming capability allows it to process real-time data streams, making it suitable for applications that require immediate processing and response, such as live chat or real-time analytics.
+1. **Chat and Text Generation**: With its high MMLU score of 80.0, Arcee AI: Trinity Large Thinking is well-suited for chat and text generation applications. Its ability to process up to 262,144 tokens in a single context window makes it ideal for generating long-form content.
+2. **Coding and Analysis**: The model's function_calling and structured_outputs capabilities make it a great tool for coding and analysis tasks. It can be used to generate code snippets, analyze data, and provide insights.
+3. **Summarization**: Arcee AI: Trinity Large Thinking can be used for summarization tasks, such as summarizing long documents or articles. Its ability to process large amounts of text and generate concise summaries makes it a valuable tool.
+4. **RAG Pipelines**: The model's support for rag_pipelines makes it a great tool for building robust question-answering systems. It can be used to generate answers to complex questions by retrieving relevant information from a knowledge base.
+5. **Streaming and Real-time Processing**: With its streaming capability, Arcee AI: Trinity Large Thinking can be used for real-time processing of text data. This makes it a great tool for applications such as live chat, sentiment analysis, and real-time text classification.
 
-### Code</div>
+### Code Integration Example with OpenRouter</div>
       </div>
 
       <!-- CAPABILITIES -->
