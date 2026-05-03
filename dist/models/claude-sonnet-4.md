@@ -1,17 +1,17 @@
 # Claude Sonnet 4 API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-05-02
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-05-03
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
 ### Introduction to Claude Sonnet 4
-Claude Sonnet 4, developed by Anthropic, is a premium, non-open-source model released on 2025-05-22. This model boasts an impressive set of capabilities, including text, vision, tool use, JSON mode, streaming, batch processing, system prompts, extended thinking, and computer use. With a context window of 200,000 tokens and a maximum output of 64,000 tokens, Claude Sonnet 4 is well-suited for tasks that require in-depth analysis and generation of lengthy text.
+Claude Sonnet 4, developed by Anthropic, is a premium, non-open-source model released on 2025-05-22. This model boasts an impressive set of capabilities, including text, vision, tool use, JSON mode, streaming, batch processing, system prompts, extended thinking, and computer use. With a context window of 200,000 tokens and a maximum output of 64,000 tokens, Claude Sonnet 4 is well-suited for tasks that require in-depth analysis and generation of lengthy content.
 
 ### Technical Strengths and Use Cases
-Claude Sonnet 4 demonstrates exceptional performance across various benchmarks, achieving scores of 90.5 on MMLU, 93.7 on HumanEval, 1340 on LMSYS Arena ELO, and 98.2 on GSM8K. Its strengths make it an ideal choice for coding, analysis, agents, long document analysis, RAG, computer use, research, and writing tasks. However, it is not recommended for embeddings, real-time sub-100ms tasks, bulk cheap tasks, or image generation. The model's pricing structure includes input costs of $3.0 per 1M tokens, output costs of $15.0 per 1M tokens, cached input costs of $0.3 per 1M tokens, and batch input costs of $1.5 per 1M tokens.
+Claude Sonnet 4 demonstrates exceptional performance across various benchmarks, including MMLU (90.5), HumanEval (93.7), LMSYS Arena ELO (1340), and GSM8K (98.2). Its strengths make it an ideal choice for coding, analysis, agents, long document analysis, RAG, computer use, research, and writing tasks. However, it is not recommended for embeddings, real-time sub-100ms tasks, bulk cheap tasks, or image generation. The model's pricing structure includes input costs of $3.0 per 1M tokens, output costs of $15.0 per 1M tokens, cached input costs of $0.3 per 1M tokens, and batch input costs of $1.5 per 1M tokens.
 
 ### Cost Considerations and Competitors
-To estimate costs, consider that 1,000 calls with an average of 500 tokens would amount to $9.0, while 10,000 calls would cost $90.0, and 100,000 calls would total $900.0. In comparison to its competitors, Claude Sonnet 4 is priced higher than GPT-4o ($2.5/1M input, $10.0/1M output) and DeepSeek R1 ($0
+To estimate costs, consider that 1,000 calls with an average of 500 tokens would amount to $9.0, while 10,000 calls would cost $90.0, and 100,000 calls would total $900.0. In comparison to its competitors, Claude Sonnet 4 is priced higher than GPT-4o ($2.5/1M input, $10.0/1M output) and DeepSeek R1 ($0.55/1M input
 
 ## Pricing (USD per 1M tokens)
 | Metric | Price |
@@ -25,7 +25,7 @@ To estimate costs, consider that 1,000 calls with an average of 500 tokens would
 ## Pricing Analysis
 ### Claude Sonnet 4 Pricing Analysis
 #### Overview
-The Claude Sonnet 4 model, provided by Anthropic, is a premium, non-open-source model released on 2025-05-22. This analysis will delve into the cost structure, optimal usage scenarios, and cost at scale for this model.
+The Claude Sonnet 4 model, provided by Anthropic, is a premium, non-open-source model released on 2025-05-22. This analysis will delve into the cost structure, optimal usage scenarios, and scalability of the model.
 
 #### Cost Structure
 The pricing for Claude Sonnet 4 is as follows:
@@ -36,18 +36,21 @@ The pricing for Claude Sonnet 4 is as follows:
 
 #### Optimal Usage Scenarios
 To minimize costs, consider the following scenarios:
-* **Cached Tokens**: Use cached input tokens when possible, as they are significantly cheaper (**$0.3 per 1M tokens**) compared to regular input tokens (**$3.0 per 1M tokens**). This can be beneficial for applications with repetitive or similar input patterns.
-* **Batch API**: Utilize batch input for large-scale applications, as it offers a discounted rate (**$1.5 per 1M tokens**) compared to regular input tokens.
+* **Cached Tokens**: Use cached input tokens when possible, as they are significantly cheaper (**$0.3 per 1M tokens**). This is ideal for applications with repetitive or similar input patterns.
+* **Batch API Calls**: Utilize batch input for large-scale applications, as it offers a discounted rate (**$1.5 per 1M tokens**).
 
 #### Cost at Scale
-The cost of using Claude Sonnet 4 at scale is as follows:
+The cost of using Claude Sonnet 4 at various scales is as follows:
 * **1,000 calls (avg 500 tokens)**: **$9.0**
 * **10,000 calls**: **$90.0**
 * **100,000 calls**: **$900.0**
 
-To put these costs into perspective, let's calculate the cost per 1M tokens for each scenario:
-* **1,000 calls (avg 500 tokens)**: Assuming an average of 500 tokens per call, this translates to 500,000 tokens. The cost would be **$9.0 / 0.5M tokens = $18.0 per 1M tokens**.
-* **10,000
+To calculate the cost at scale, we can use the following estimates:
+* Average input tokens per call: 500
+* Average output tokens per call: assume 200 (conservative estimate)
+* Total input tokens per 1,000 calls: 500,000
+* Total output tokens per 1,000 calls: 200,000
+* Cost per 1,000 calls: (500,000 input tokens \* $3.0/1M) + (200,000 output tokens \* $15.
 
 ## Benchmarks
 | Benchmark | Score |
@@ -59,85 +62,67 @@ To put these costs into perspective, let's calculate the cost per 1M tokens for 
 
 ## Benchmark Analysis
 ### Claude Sonnet 4 Benchmark Performance Analysis
-#### Model Overview
-The Claude Sonnet 4 model, provided by Anthropic, is a premium, non-open-source model released on 2025-05-22. It offers a range of capabilities, including text, vision, tool use, and more, making it suitable for tasks like coding, analysis, and research.
+#### Overview
+The Claude Sonnet 4 model, developed by Anthropic, is a premium, non-open-source model released on 2025-05-22. This analysis will delve into the model's benchmark performance, focusing on the MMLU, HumanEval, and Arena ELO scores, and their implications for real-world applications.
 
-#### Pricing
-The pricing for Claude Sonnet 4 is as follows:
-* Input: $3.0 per 1M tokens
-* Output: $15.0 per 1M tokens
-* Cached Input: $0.3 per 1M tokens
-* Batch Input: $1.5 per 1M tokens
-
-#### Benchmark Performance
-The model's benchmark performance is measured by the following scores:
-* **MMLU (Massive Multitask Language Understanding)**: 90.5 - This score indicates the model's ability to understand and perform a wide range of natural language tasks. A higher MMLU score suggests better language understanding capabilities.
-* **HumanEval**: 93.7 - This score evaluates the model's ability to write correct and functional code in response to programming prompts. A higher HumanEval score indicates better coding capabilities.
-* **LMSYS Arena ELO**: 1340 - This score measures the model's performance in a competitive arena, where it is pitted against other models in a series of tasks. A higher ELO score suggests better overall performance and competitiveness.
+#### Benchmark Scores
+The Claude Sonnet 4 model has achieved the following benchmark scores:
+* **MMLU: 90.5** - The MMLU (Massive Multitask Language Understanding) benchmark evaluates a model's ability to perform a wide range of natural language processing tasks. A score of 90.5 indicates that Claude Sonnet 4 has a high level of language understanding, making it suitable for tasks that require complex text analysis.
+* **HumanEval: 93.7** - The HumanEval benchmark assesses a model's ability to generate human-like text. A score of 93.7 suggests that Claude Sonnet 4 can produce high-quality, coherent text, which is essential for applications such as writing, content generation, and chatbots.
+* **LMSYS Arena ELO: 1340** - The LMSYS Arena ELO benchmark measures a model's performance in a competitive environment, where models are pitted against each other to complete tasks. An ELO score of 1340 indicates that Claude Sonnet 4 is a strong competitor, capable of outperforming many other models in various tasks.
 
 #### Real-World Implications
-The benchmark scores have the following implications for real-world use:
-* The high MMLU score (90.5) suggests that Claude Sonnet 4 is well-suited for tasks that require a deep
+The benchmark scores of Claude Sonnet 4 have significant implications for real-world applications:
+* **Coding and Analysis**: With high MMLU and Human
 
 ## Competitor Comparison
-### Claude Sonnet 4 Comparison
+### Comparison of Claude Sonnet 4 with Top Competitors
 #### Overview
-Claude Sonnet 4, developed by Anthropic, is a premium, non-open-source model released on 2025-05-22. This comparison will delve into its pricing, performance, and capabilities, contrasting it with its top competitors, GPT-4o and DeepSeek R1.
+Claude Sonnet 4, developed by Anthropic, is a premium language model released on 2025-05-22. It offers a range of capabilities, including text, vision, and tool use, making it suitable for tasks like coding, analysis, and research. This comparison will examine Claude Sonnet 4's pricing, performance, and trade-offs against its top competitors, GPT-4o and DeepSeek R1.
 
 #### Pricing Comparison
-The pricing structure for Claude Sonnet 4 is as follows:
-- Input: $3.0 per 1M tokens
-- Output: $15.0 per 1M tokens
-- Cached Input: $0.3 per 1M tokens
-- Batch Input: $1.5 per 1M tokens
+The pricing models for each competitor are as follows:
 
-In comparison:
-- **GPT-4o**: Offers input at $2.5/1M tokens and output at $10.0/1M tokens, making it cheaper than Claude Sonnet 4 for both input and output.
-- **DeepSeek R1**: Provides the most economical option with input at $0.55/1M tokens and output at $2.19/1M tokens, significantly undercutting both Claude Sonnet 4 and GPT-4o.
+* **Claude Sonnet 4**:
+	+ Input: $3.0 per 1M tokens
+	+ Output: $15.0 per 1M tokens
+	+ Cached Input: $0.3 per 1M tokens
+	+ Batch Input: $1.5 per 1M tokens
+* **GPT-4o**:
+	+ Input: $2.5 per 1M tokens
+	+ Output: $10.0 per 1M tokens
+* **DeepSeek R1**:
+	+ Input: $0.55 per 1M tokens
+	+ Output: $2.19 per 1M tokens
 
-#### Performance Trade-offs
-Claude Sonnet 4 boasts impressive benchmarks:
-- MMLU: 90.5
-- HumanEval: 93.7
-- LMSYS Arena ELO: 1340
-- GSM8K: 98.2
+#### Performance Comparison
+The performance benchmarks for Claude Sonnet 4 are:
 
-These scores indicate high performance across various tasks, suggesting that the premium pricing may be justified by its capabilities. However, the exact performance of GPT-4o and DeepSeek R1 is not provided for a direct comparison.
+* MMLU: 90.5
+* HumanEval: 93.7
+* LMSYS Arena ELO: 1340
+* GSM8K: 98.2
 
-#### Capabilities and Use Cases
-Claude Sonnet 4 supports a wide range of capabilities, including text, vision, tool use, and more, making it suitable for:
-- Coding
-- Analysis
-- Agents
-- Long document analysis
-- RAG
-- Computer use
-- Research
-- Writing
+While the performance benchmarks for GPT-4o and DeepSeek R1 are not provided, we can infer that Claude Sonnet 4 is a high-performance model based on its premium tier and capabilities.
 
-It is not recommended for embeddings, real-time sub-100ms tasks, bulk cheap tasks, or image generation.
+#### Trade-offs and Choosing the Right Model
+When deciding between Claude Sonnet 4, GPT-4o, and DeepSeek R1, consider the following trade-offs:
 
-#### Cost Examples
-For practical consideration, the costs for using Claude Sonnet 4 are:
-- 1,000 calls (avg 500 tokens): $9.0
-- 10,000 calls: $90.0
-- 100,000 calls: $900.0
-
-#### Choosing the Right Model
-- **Cla
+* **Cost vs. Performance**: Claude Sonnet 4 is the most expensive option, but it offers high-performance capabilities and a wide range of features. GPT-4o is moderately priced, while DeepSeek R1 is the most cost-effective option.
+* **Use Cases**: Claude Sonnet 4 is best suited for tasks that require advanced capabilities, such as coding, analysis, and research. GPT-4o and DeepSeek R1 may be more suitable for tasks that require lower latency and cost, such as bulk
 
 ## Best Use Cases
 ### Introduction to Claude Sonnet 4
-Claude Sonnet 4, developed by Anthropic, is a premium, non-open-source model released on 2025-05-22. With its impressive benchmarks, including an MMLU score of 90.5 and a HumanEval score of 93.7, it's well-suited for tasks that require advanced reasoning and analysis.
+Claude Sonnet 4, provided by Anthropic, is a premium model with a wide range of capabilities, including text, vision, tool use, and more. With its high benchmarks and extensive capabilities, it is best suited for tasks such as coding, analysis, and research.
 
 ### Top 5 Best Use Cases for Claude Sonnet 4
-Given its capabilities and pricing, here are the top 5 best use cases for Claude Sonnet 4:
+Based on its capabilities and pricing, here are the top 5 best use cases for Claude Sonnet 4:
 
-1. **Coding and Analysis**: With its high HumanEval score, Claude Sonnet 4 excels in coding tasks. For example, you can use it to analyze code snippets and provide feedback on improvements.
-2. **Long Document Analysis**: Claude Sonnet 4's context window of 200,000 tokens makes it ideal for analyzing long documents. You can use it to summarize documents, extract key points, and provide insights.
-3. **Research and Writing**: Claude Sonnet 4's capabilities in text and computer use make it a great tool for research and writing tasks. You can use it to generate research papers, articles, and other written content.
-4. **Agents and RAG**: Claude Sonnet 4's support for tool use and system prompts makes it well-suited for building agents that can interact with other tools and systems. You can use it to build conversational AI models that can retrieve information from external sources.
-5. **Computer Use and Automation**: With its capabilities in computer use and extended thinking, Claude Sonnet 4 can be used to automate tasks, such as data processing and analysis.
+1. **Coding and Software Development**: Claude Sonnet 4 excels in coding tasks, with a high HumanEval score of 93.7. It can be used for code review, code generation, and debugging.
+2. **Long Document Analysis**: With a context window of 200,000 tokens, Claude Sonnet 4 is well-suited for analyzing long documents, such as research papers, books, and reports.
+3. **Research and Writing**: Claude Sonnet 4's capabilities in text and computer use make it an ideal model for research and writing tasks, such as generating research papers, articles, and blog posts.
+4. **Agent-Based Systems**: Claude Sonnet 4's support for tool use and system prompts makes it a good fit for building agent-based systems, such as chatbots and virtual assistants.
+5. **Data Analysis**: With its high MMLU score of 90.5, Claude Sonnet 4 can be used for data analysis tasks, such as data visualization, data mining, and statistical analysis.
 
 ### Code Integration Examples with OpenRouter
 To integrate Claude Sonnet 4 with OpenRouter, you can use the following code example:
@@ -145,10 +130,12 @@ To integrate Claude Sonnet 4 with OpenRouter, you can use the following code exa
 import os
 import openrouter
 
-# Set up OpenRouter client
-client = openrouter.Client(api_key="YOUR_API_KEY")
+# Set up OpenRouter API credentials
+openrouter_api_key = os.environ["OPENROUTER_API_KEY"]
+openrouter_api_secret = os.environ["OPENROUTER_API_SECRET"]
 
-# Define
+# Create an OpenRouter client
+client = openrouter.Client
 
 ## Frequently Asked Questions
 

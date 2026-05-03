@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://llmcosts.dev/models/o3">
 
   <!-- Schema.org: Dataset -->
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "OpenAI o3 API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for OpenAI o3 by OpenAI.", "url": "https://llmcosts.dev/models/o3", "keywords": ["OpenAI o3", "OpenAI", "reasoning", "frontier", "math", "science", "coding"], "dateModified": "2026-05-02", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "OpenAI o3 API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for OpenAI o3 by OpenAI.", "url": "https://llmcosts.dev/models/o3", "keywords": ["OpenAI o3", "OpenAI", "reasoning", "frontier", "math", "science", "coding"], "dateModified": "2026-05-03", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
   <!-- Schema.org: FAQ -->
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
 
@@ -346,13 +346,13 @@
       <div class="card content-section">
         <div class="card-title">Overview</div>
         <div>### Introduction to OpenAI o3
-The OpenAI o3 model, released on 2025-04-16, is a premium offering from OpenAI, providing a robust and feature-rich platform for developers. This model boasts an impressive architecture, with capabilities including text, vision, function calling, structured outputs, streaming, batch processing, and extended thinking. With a context window of 200,000 tokens and a maximum output of 100,000 tokens, OpenAI o3 is well-suited for complex tasks that require in-depth analysis and reasoning.
+The OpenAI o3 model, released on 2025-04-16, is a premium, non-open-source language model developed by OpenAI. This model boasts a robust architecture, with a context window of 200,000 tokens and a maximum output of 100,000 tokens. The knowledge cutoff for this model is 2024-05, ensuring that it has been trained on a vast amount of data up to that point. With its capabilities in text, vision, function calling, structured outputs, streaming, batch processing, and extended thinking, OpenAI o3 is a powerful tool for developers.
 
-### Technical Strengths and Use-Cases
-OpenAI o3 excels in various areas, including complex reasoning, math, science, coding, research, and PhD-level problems. Its strengths are further demonstrated by its benchmark scores: 94.2 on MMLU, 96.7 on HumanEval, 1390 on LMSYS Arena ELO, and 99.7 on GSM8K. These capabilities make OpenAI o3 an ideal choice for applications such as legal analysis, financial modeling, and other tasks that require advanced cognitive abilities. However, it may not be the best fit for simple tasks, high-volume requests, low-latency applications, or budget-conscious projects.
+### Strengths and Use-Cases
+OpenAI o3 excels in complex reasoning, math, science, coding, research, PhD-level problems, legal analysis, and financial modeling. Its strengths are reflected in its benchmark scores, including 94.2 on MMLU, 96.7 on HumanEval, 1390 on LMSYS Arena ELO, and 99.7 on GSM8K. However, it is not suitable for simple tasks, high-volume applications, low-latency requirements, or budget-conscious projects, particularly those that are vision-heavy. The pricing model for OpenAI o3 includes $2.0 per 1M input tokens, $8.0 per 1M output tokens, $1.0 per 1M cached input tokens, and $1.0 per 1M batch input tokens. For example, 1,000 calls with an average of 500 tokens would cost $25.0, while 10,000 calls would cost $250.0, and 100,000 calls would cost $2500.0.
 
-### Pricing and Cost Considerations
-The pricing for OpenAI o3 is as follows: $2.0 per 1M input tokens, $8.0 per 1M output tokens, $1.0 per 1M cached input tokens, and $1.0 per 1M batch input tokens. To put these costs into perspective, 1,000 calls with an average of 500 tokens would cost $25.0, while 10,000 calls would cost $250.0, and 100,000 calls would cost $2500.0. In comparison to its top competitors, such as Claude Opus 4 and DeepSeek R1, OpenAI o3 offers a unique blend of capabilities</div>
+### Pricing and Competitors
+In comparison to its competitors, OpenAI o3 is priced at a premium, with Claude Opus 4 offering similar functionality at $15.0/1M input and $75.0/1M</div>
       </div>
 
       <!-- PRICING -->
@@ -393,29 +393,30 @@ The pricing for OpenAI o3 is as follows: $2.0 per 1M input tokens, $8.0 per 1M o
 
         <div style="margin-top:1.5rem">### OpenAI o3 Pricing Analysis
 #### Overview
-The OpenAI o3 model, released on 2025-04-16, is a premium, non-open-source model offered by OpenAI. This analysis will delve into the cost structure, optimal usage scenarios, and cost savings at scale for the OpenAI o3 model.
+The OpenAI o3 model is a premium, non-open-source language model released on 2025-04-16. It offers a range of capabilities, including text, vision, function calling, structured outputs, streaming, batch processing, and extended thinking. This analysis will delve into the cost structure, usage scenarios, and cost savings opportunities for the OpenAI o3 model.
 
 #### Cost Structure
 The pricing for OpenAI o3 is as follows:
-* Input: $2.0 per 1M tokens
-* Output: $8.0 per 1M tokens
-* Cached Input: $1.0 per 1M tokens
-* Batch Input: $1.0 per 1M tokens
+* Input: **$2.0 per 1M tokens**
+* Output: **$8.0 per 1M tokens**
+* Cached Input: **$1.0 per 1M tokens**
+* Batch Input: **$1.0 per 1M tokens**
 
-#### Optimal Usage Scenarios
-To minimize costs, consider the following scenarios:
-* **Cached Tokens**: Use cached input tokens when possible, as they offer a 50% discount compared to regular input tokens ($1.0 per 1M tokens vs $2.0 per 1M tokens).
-* **Batch API**: Utilize batch input for multiple requests, as it also offers a 50% discount compared to regular input tokens ($1.0 per 1M tokens vs $2.0 per 1M tokens).
+#### When to Use Cached Tokens
+Cached tokens can be used to reduce costs when the same input is repeated multiple times. By using cached input, the cost can be reduced from **$2.0 per 1M tokens** to **$1.0 per 1M tokens**, resulting in a **50% cost savings**.
+
+#### Batch API Savings
+Batch processing can also lead to cost savings. By using batch input, the cost can be reduced from **$2.0 per 1M tokens** to **$1.0 per 1M tokens**, resulting in a **50% cost savings**.
 
 #### Cost at Scale
 The cost of using OpenAI o3 at scale is as follows:
-* **1,000 calls (avg 500 tokens)**: $25.0
-* **10,000 calls**: $250.0
-* **100,000 calls**: $2500.0
+* 1,000 calls (avg 500 tokens): **$25.0**
+* 10,000 calls: **$250.0**
+* 100,000 calls: **$2500.0**
 
-To estimate the cost at scale, we can calculate the cost per call based on the average number of tokens per call. Assuming an average of 500 tokens per call, the cost per call would be:
-* **Input**: 500 tokens / 1,000,000 tokens per $2.0 = $0.001 per token * 500 tokens = $0.005 per call (input only)
-* **Output**: 500 tokens / 1,</div>
+To calculate the cost per call, we can divide the total cost by the number of calls:
+* 1,000 calls: **$25.0 / 1,000 = $0.025 per call**
+* 10,000 calls</div>
       </div>
 
       <!-- BENCHMARKS -->
@@ -428,7 +429,7 @@ To estimate the cost at scale, we can calculate the cost per call based on the a
         </div>
         <div>### OpenAI o3 Benchmark Performance Analysis
 #### Model Overview
-The OpenAI o3 model, released on 2025-04-16, is a premium, non-open-source model provided by OpenAI. It boasts a range of capabilities, including text, vision, function calling, structured outputs, streaming, batch processing, and extended thinking.
+The OpenAI o3 model, released on 2025-04-16, is a premium, non-open-source model provided by OpenAI. It boasts an impressive set of capabilities, including text, vision, function calling, structured outputs, streaming, batch processing, and extended thinking.
 
 #### Pricing
 The pricing for OpenAI o3 is as follows:
@@ -440,11 +441,12 @@ The pricing for OpenAI o3 is as follows:
 #### Context and Limits
 The model has a context window of 200,000 tokens, a maximum output of 100,000 tokens, and a knowledge cutoff of 2024-05.
 
-#### Benchmark Performance
+#### Benchmarks
 The OpenAI o3 model has achieved the following benchmark scores:
-* **MMLU (Massive Multitask Language Understanding)**: 94.2 - This score indicates the model's ability to understand and generate human-like text across a wide range of tasks and topics. A higher MMLU score suggests better performance in tasks that require a deep understanding of language.
-* **HumanEval**: 96.7 - This score evaluates the model's ability to generate correct and functional code in response to programming prompts. A higher HumanEval score indicates better performance in coding and programming tasks.
-* **LMSYS Arena ELO**: 1390 - This score measures the model's performance in a competitive arena, where it is pitted against other models in a range of tasks. A higher ELO score indicates better overall performance and a higher</div>
+* **MMLU (Massive Multitask Language Understanding)**: 94.2 - This score indicates the model's ability to understand and perform a wide range of natural language processing tasks. A higher score suggests better performance in tasks such as text classification, sentiment analysis, and question answering.
+* **HumanEval**: 96.7 - This score evaluates the model's ability to generate human-like code and solve programming tasks. A higher score indicates better performance in coding and programming-related tasks.
+* **LMSYS Arena ELO**: 1390 - This score measures the model's performance in a competitive arena, where it is pitted against other models in a variety of tasks. A higher ELO score indicates better overall performance and adaptability.
+* **G</div>
       </div>
 
       <!-- COMPETITOR TABLE -->
@@ -481,68 +483,80 @@ The OpenAI o3 model has achieved the following benchmark scores:
           </table>
         </div>
         <div style="margin-top:1.5rem">### Comparison of OpenAI o3 with Top Competitors
-#### Introduction
-OpenAI o3 is a premium language model released by OpenAI on 2025-04-16. It offers a range of capabilities, including text, vision, function calling, and structured outputs. In this comparison, we will evaluate OpenAI o3 against its top competitors, Claude Opus 4 and DeepSeek R1, in terms of pricing, performance, and use cases.
+#### Overview
+OpenAI o3 is a premium, non-open-source model released by OpenAI on 2025-04-16. It offers a range of capabilities, including text, vision, function calling, and structured outputs. In this comparison, we will evaluate OpenAI o3 against its top competitors, Claude Opus 4 and DeepSeek R1, in terms of pricing, performance, and use cases.
 
 #### Pricing Comparison
-The pricing models of the three language models are as follows:
+The pricing models for each competitor are as follows:
 
-* OpenAI o3:
+* **OpenAI o3**:
 	+ Input: $2.0 per 1M tokens
 	+ Output: $8.0 per 1M tokens
 	+ Cached Input: $1.0 per 1M tokens
 	+ Batch Input: $1.0 per 1M tokens
-* Claude Opus 4:
+* **Claude Opus 4**:
 	+ Input: $15.0 per 1M tokens
 	+ Output: $75.0 per 1M tokens
-* DeepSeek R1:
+* **DeepSeek R1**:
 	+ Input: $0.55 per 1M tokens
 	+ Output: $2.19 per 1M tokens
 
 #### Performance Comparison
-The performance of the three language models can be evaluated based on their benchmark scores:
+The performance benchmarks for OpenAI o3 are:
 
-* OpenAI o3:
-	+ MMLU: 94.2
-	+ HumanEval: 96.7
-	+ LMSYS Arena ELO: 1390
-	+ GSM8K: 99.7
-* Claude Opus 4: Not available
-* DeepSeek R1: Not available
+* MMLU: 94.2
+* HumanEval: 96.7
+* LMSYS Arena ELO: 1390
+* GSM8K: 99.7
+
+While the performance benchmarks for Claude Opus 4 and DeepSeek R1 are not provided, we can infer that OpenAI o3 is a high-performance model based on its premium pricing and capabilities.
 
 #### Use Case Comparison
-The three language models have different strengths and weaknesses:
+OpenAI o3 is best suited for complex tasks that require advanced reasoning, math, science, coding, and research capabilities. It is ideal for PhD-level problems, legal analysis, and financial modeling. However, it is not suitable for simple tasks, high-volume applications, low-latency requirements, or budget-conscious use cases.
 
-* OpenAI o3:
-	+ Best for: complex reasoning, math, science, coding, research, PhD-level problems, legal analysis, financial modeling
-	+ Not good for: simple tasks, high volume, low latency, budget-conscious, vision-heavy
-* Claude Opus 4: Not available
-* DeepSeek R1: Not available
+In contrast, Claude Opus 4 and DeepSeek R1 may be more suitable for specific use cases based on their pricing models. For example:
 
-#### Cost Examples
-The cost of using each language model can be estimated based on the number of calls and tokens:
-
-* OpenAI o3:
-	+ 1,000 calls (avg 500 tokens): $25.0
-	+ 10,000 calls: $250.0
-	+ 100,000 calls: $2500.0
-* Claude Opus 4</div>
+* **Claude Opus 4**: May be suitable for high-end applications that require advanced capabilities and are willing to pay a premium for input and output tokens.
+* **DeepSeek R1**: May be suitable for budget-conscious applications that require high-volume processing and can</div>
       </div>
 
       <!-- USE CASES -->
       <div class="card content-section">
         <div class="card-title">Best Use Cases</div>
         <div>### Introduction to OpenAI o3
-The OpenAI o3 model, released on 2025-04-16, is a premium, non-open-source model that excels in complex reasoning, math, science, coding, research, and PhD-level problems. With its capabilities in text, vision, function calling, structured outputs, streaming, batch processing, and extended thinking, it is an ideal choice for tasks that require in-depth analysis and critical thinking.
+The OpenAI o3 model, released on 2025-04-16, is a premium, non-open-source model offered by OpenAI. With its advanced capabilities in complex reasoning, math, science, coding, research, and more, it is best suited for tackling PhD-level problems, legal analysis, and financial modeling.
 
 ### Top 5 Best Use Cases for OpenAI o3
-Based on its capabilities and benchmarks, the top 5 best use cases for OpenAI o3 are:
+Given its strengths, the top 5 best use cases for OpenAI o3 are:
 
-1. **Math and Science Problem Solving**: With a high score of 99.7 on the GSM8K benchmark, OpenAI o3 is well-suited for solving complex math and science problems. Its ability to reason and think critically makes it an ideal choice for tasks that require in-depth mathematical and scientific analysis.
-2. **Coding and Software Development**: OpenAI o3's high score of 96.7 on the HumanEval benchmark demonstrates its proficiency in coding and software development. Its ability to understand and generate code makes it an ideal choice for tasks such as code review, code completion, and bug fixing.
-3. **Research and Academic Writing**: With its ability to reason and think critically, OpenAI o3 is well-suited for research and academic writing tasks. Its high score of 94.2 on the MMLU benchmark demonstrates its proficiency in understanding and generating complex text.
-4. **Legal Analysis and Financial Modeling**: OpenAI o3's ability to reason and think critically makes it an ideal choice for legal analysis and financial modeling tasks. Its high score of 1390 on the LMSYS Arena ELO benchmark demonstrates its proficiency in complex reasoning and analysis.
-5. **Complex Reasoning and Problem Solving**: OpenAI o3's ability to reason and think critically makes it an ideal choice for complex reasoning and problem-solving tasks.</div>
+1. **Advanced Research Assistance**: OpenAI o3 can assist researchers in understanding complex topics, generating hypotheses, and even drafting research papers.
+2. **Complex Coding Tasks**: With its function_calling and structured_outputs capabilities, OpenAI o3 can help developers with complex coding tasks, such as debugging, optimizing, and generating code.
+3. **Financial Modeling and Analysis**: OpenAI o3's advanced reasoning capabilities make it an excellent tool for financial modeling, forecasting, and analysis.
+4. **Legal Document Analysis**: OpenAI o3 can assist lawyers and legal professionals in analyzing complex legal documents, contracts, and cases.
+5. **Math and Science Education**: OpenAI o3 can help students and educators with complex math and science problems, generating explanations, and creating interactive learning materials.
+
+### Code Integration Example with OpenRouter
+To integrate OpenAI o3 with OpenRouter, you can use the following example:
+```python
+import openrouter
+
+# Initialize OpenRouter with OpenAI o3
+router = openrouter.OpenRouter(model="openai/o3")
+
+# Define a function to call OpenAI o3
+def call_o3(prompt):
+    response = router.call(prompt)
+    return response
+
+# Test the function
+prompt = "Explain the concept of quantum entanglement"
+response = call_o3(prompt)
+print(response)
+```
+Note that this example assumes you have the OpenRouter library installed and configured properly.
+
+### Pricing and Cost Considerations
+When</div>
       </div>
 
       <!-- CAPABILITIES -->

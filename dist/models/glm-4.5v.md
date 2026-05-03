@@ -1,6 +1,6 @@
 # Z.ai: GLM 4.5V API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-05-02
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-05-03
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview

@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://llmcosts.dev/models/o3-mini">
 
   <!-- Schema.org: Dataset -->
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "OpenAI o3-mini API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for OpenAI o3-mini by OpenAI.", "url": "https://llmcosts.dev/models/o3-mini", "keywords": ["OpenAI o3-mini", "OpenAI", "reasoning", "coding", "math", "efficient", "frontier"], "dateModified": "2026-05-02", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "OpenAI o3-mini API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for OpenAI o3-mini by OpenAI.", "url": "https://llmcosts.dev/models/o3-mini", "keywords": ["OpenAI o3-mini", "OpenAI", "reasoning", "coding", "math", "efficient", "frontier"], "dateModified": "2026-05-03", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
   <!-- Schema.org: FAQ -->
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
 
@@ -346,13 +346,13 @@
       <div class="card content-section">
         <div class="card-title">Overview</div>
         <div>### Introduction to OpenAI o3-mini
-The OpenAI o3-mini model, released on 2025-01-31, is a standard-tier language model provided by OpenAI. This non-open-source model is designed to handle a wide range of tasks, including coding, math, science, and reasoning tasks. With its robust architecture, o3-mini boasts a context window of 200,000 tokens and can generate up to 100,000 tokens as output. The model's knowledge cutoff is 2023-10, ensuring it is well-versed in information up to that date.
+The OpenAI o3-mini model, released by OpenAI on 2025-01-31, is a standard-tier language model that is not open source. This model is part of the o3 series and is positioned as a more affordable alternative to other models in the OpenAI lineup. With a context window of 200,000 tokens and a maximum output of 100,000 tokens, o3-mini is designed to handle complex tasks that require a deep understanding of the input context. The model's knowledge cutoff is 2023-10, indicating that it was trained on data up to that point.
 
-### Technical Capabilities and Pricing
-OpenAI o3-mini demonstrates impressive capabilities, including text processing, function calling, structured outputs, streaming, batch processing, and extended thinking. Its technical strengths are reflected in its benchmark scores: MMLU (87.3), HumanEval (94.1), LMSYS Arena ELO (1305), and GSM8K (99.1). In terms of pricing, the model costs $1.1 per 1M input tokens, $4.4 per 1M output tokens, $0.55 per 1M cached input tokens, and $0.55 per 1M batch input tokens. For example, 1,000 calls with an average of 500 tokens would cost $2.75, while 10,000 calls would cost $27.5, and 100,000 calls would cost $275.0. Compared to its top competitor, OpenAI o1, which costs $15.0/1M input and $60.0/1M output, o3-mini offers a more affordable option for developers.
+### Architecture and Strengths
+The OpenAI o3-mini model boasts an impressive set of capabilities, including text generation, function calling, structured outputs, streaming, batch processing, and extended thinking. These capabilities make it well-suited for tasks such as coding, math, science, reasoning tasks, STEM problems, and agentic tasks. The model's strengths are reflected in its benchmark scores, which include an MMLU score of 87.3, a HumanEval score of 94.1, an LMSYS Arena ELO score of 1305, and a GSM8K score of 99.1. With pricing set at $1.1 per 1M input tokens, $4.4 per 1M output tokens, $0.55 per 1M cached input tokens, and $0.55 per 1M batch input tokens, o3-mini offers a cost-effective solution for developers who need to perform complex language tasks.
 
-### Use Cases and Competitiveness
-OpenAI o3-mini is best suited for tasks that require complex reasoning, such as coding, math, science, and stem problems. Its capabilities make it an ideal choice for agentic tasks that demand advanced language understanding. However, it may</div>
+### Use Cases and Cost Examples
+Given its capabilities and pricing, the OpenAI o3-mini model is best suited for applications that require advanced language understanding and generation capabilities. It is not recommended for vision tasks, simple tasks, creative writing, or high-volume cheap applications. For developers who need to perform complex tasks, the cost of using o3-mini can be estimated</div>
       </div>
 
       <!-- PRICING -->
@@ -393,7 +393,7 @@ OpenAI o3-mini is best suited for tasks that require complex reasoning, such as 
 
         <div style="margin-top:1.5rem">### Pricing Analysis for OpenAI o3-mini
 #### Overview
-The OpenAI o3-mini model is a standard, non-open-source model released on 2025-01-31. It offers a range of capabilities, including text, function calling, structured outputs, streaming, batch processing, and extended thinking. This analysis will delve into the cost structure, optimal usage scenarios, and cost savings at scale.
+The OpenAI o3-mini model is a standard, non-open-source model released on 2025-01-31. This analysis will delve into the cost structure, optimal usage scenarios, and cost savings at scale for this model.
 
 #### Cost Structure
 The pricing for OpenAI o3-mini is as follows:
@@ -404,22 +404,19 @@ The pricing for OpenAI o3-mini is as follows:
 
 #### Optimal Usage Scenarios
 To minimize costs, consider the following scenarios:
-* **Cached Tokens**: Use cached input tokens when possible, as they offer a significant discount (**50%** of regular input tokens).
-* **Batch API Calls**: Utilize batch input for multiple API calls, as it provides the same discount as cached input tokens (**50%** of regular input tokens).
+* **Cached Tokens**: Use cached input tokens when possible, as they are significantly cheaper (**$0.55 per 1M tokens**) compared to regular input tokens (**$1.1 per 1M tokens**). This can be beneficial for applications with repetitive or similar input patterns.
+* **Batch API Calls**: Utilize batch input for multiple API calls, as it offers the same discounted rate as cached input (**$0.55 per 1M tokens**). This is ideal for applications that require processing large volumes of data in parallel.
 
 #### Cost at Scale
 The cost of using OpenAI o3-mini at scale is as follows:
-* **1,000 calls** (avg 500 tokens): **$2.75**
+* **1,000 calls (avg 500 tokens)**: **$2.75**
 * **10,000 calls**: **$27.5**
 * **100,000 calls**: **$275.0**
 
-These costs demonstrate a linear scaling of expenses with the number of API calls.
+These costs demonstrate a linear scaling of expenses with the number of API calls. However, by leveraging cached input tokens and batch API calls, you can significantly reduce the overall cost.
 
 #### Comparison to Top Competitors
-OpenAI o3-mini is priced competitively compared to other models. For example, OpenAI o1 costs **$15.0/1M input** and **$60.0/1M output**, which is significantly more expensive than OpenAI o3-mini.
-
-#### Conclusion
-OpenAI o3-mini offers a cost-effective solution for various tasks, including coding, math, science, and</div>
+OpenAI o3-mini is priced competitively compared to other models like OpenAI o1, which costs **$15.0/1M input** and **</div>
       </div>
 
       <!-- BENCHMARKS -->
@@ -430,21 +427,28 @@ OpenAI o3-mini offers a cost-effective solution for various tasks, including cod
           <div class="stat-cell"><div class="stat-label">HumanEval</div><div class="stat-value">94.1</div></div>
           <div class="stat-cell"><div class="stat-label">LMSYS ELO</div><div class="stat-value">1305</div></div>
         </div>
-        <div>### Analysis of OpenAI o3-mini Benchmark Performance
-The OpenAI o3-mini model, released on 2025-01-31, is a standard, non-open-source model provided by OpenAI. Its benchmark performance is as follows:
+        <div>### OpenAI o3-mini Benchmark Performance Analysis
+#### Model Overview
+The OpenAI o3-mini model, released on 2025-01-31, is a standard, non-open-source model provided by OpenAI. It has a context window of 200,000 tokens and a maximum output of 100,000 tokens, with a knowledge cutoff of 2023-10.
 
-#### Benchmark Scores
-* **MMLU (Massive Multitask Language Understanding)**: 87.3 - This score indicates the model's ability to understand and perform a wide range of natural language processing tasks. A higher MMLU score suggests better performance in tasks such as text classification, sentiment analysis, and question answering.
-* **HumanEval**: 94.1 - This score evaluates the model's ability to generate human-like code and perform programming tasks. A higher HumanEval score indicates better performance in coding and programming-related tasks.
-* **LMSYS Arena ELO**: 1305 - This score measures the model's performance in a competitive arena, where it is pitted against other models in a variety of tasks. A higher ELO score suggests better overall performance and adaptability.
+#### Pricing
+The pricing for OpenAI o3-mini is as follows:
+* Input: **$1.1 per 1M tokens**
+* Output: **$4.4 per 1M tokens**
+* Cached Input: **$0.55 per 1M tokens**
+* Batch Input: **$0.55 per 1M tokens**
+
+#### Benchmark Performance
+The model's benchmark performance is measured by the following scores:
+* **MMLU (Massive Multitask Language Understanding)**: 87.3 - This score indicates the model's ability to understand and generate human-like language across a wide range of tasks.
+* **HumanEval**: 94.1 - This score measures the model's ability to evaluate and execute human-written code, indicating its proficiency in coding and programming tasks.
+* **LMSYS Arena ELO**: 1305 - This score represents the model's competitive performance in a large-scale language model benchmark, with higher scores indicating better performance.
+* **GSM8K**: 99.1 - This score measures the model's ability to solve math problems, indicating its proficiency in mathematical reasoning.
 
 #### Real-World Implications
-These benchmark scores have significant implications for real-world use cases:
-* The high MMLU score suggests that OpenAI o3-mini is well-suited for tasks that require a deep understanding of natural language, such as text analysis, sentiment analysis, and question answering.
-* The high HumanEval score indicates that the model is capable of generating high-quality code and performing programming tasks, making it a good choice for coding and programming-related tasks.
-* The moderate LMSYS Arena ELO score suggests that OpenAI o3-mini is a competent model that can perform well in a variety of tasks, but may not be the top performer in every area.
-
-#### Pricing and Cost</div>
+The benchmark scores suggest that OpenAI o3-mini is well-suited for:
+* Coding and programming tasks (HumanEval: 94.1)
+* Math and science</div>
       </div>
 
       <!-- COMPETITOR TABLE -->
@@ -482,7 +486,7 @@ These benchmark scores have significant implications for real-world use cases:
         </div>
         <div style="margin-top:1.5rem">### Comparison of OpenAI o3-mini with Top Competitors
 #### Overview
-OpenAI o3-mini is a standard tier model released by OpenAI on 2025-01-31. It offers a range of capabilities, including text, function calling, structured outputs, streaming, batch processing, and extended thinking. In this comparison, we will evaluate OpenAI o3-mini against its top competitors, focusing on price differences, performance trade-offs, and use cases.
+The OpenAI o3-mini model, released on 2025-01-31, is a standard tier model offered by OpenAI. It is not open source and has a specific set of capabilities and limitations. In this comparison, we will evaluate the OpenAI o3-mini against its top competitors, focusing on price differences, performance trade-offs, and use cases.
 
 #### Pricing Comparison
 The pricing for OpenAI o3-mini is as follows:
@@ -491,70 +495,71 @@ The pricing for OpenAI o3-mini is as follows:
 * Cached Input: $0.55 per 1M tokens
 * Batch Input: $0.55 per 1M tokens
 
-In contrast, OpenAI o1, a top competitor, is priced at:
+In contrast, the top competitor, OpenAI o1, has a significantly higher pricing:
 * Input: $15.0 per 1M tokens
 * Output: $60.0 per 1M tokens
 
-This represents a significant price difference, with OpenAI o3-mini being substantially cheaper than OpenAI o1.
+This represents a **93.3%** reduction in input cost and a **92.7%** reduction in output cost for OpenAI o3-mini compared to OpenAI o1.
 
 #### Performance Trade-offs
-OpenAI o3-mini has a context window of 200,000 tokens, a maximum output of 100,000 tokens, and a knowledge cutoff of 2023-10. Its performance benchmarks are:
+OpenAI o3-mini has the following benchmarks:
 * MMLU: 87.3
 * HumanEval: 94.1
 * LMSYS Arena ELO: 1305
 * GSM8K: 99.1
 
-While the performance of OpenAI o1 is not provided, the significant price difference between the two models suggests that OpenAI o1 may offer superior performance. However, for many use cases, the performance of OpenAI o3-mini may be sufficient, making it a more cost-effective option.
+While the benchmarks for OpenAI o1 are not provided, the significant price difference suggests that OpenAI o1 may offer superior performance. However, for many use cases, the performance of OpenAI o3-mini may be sufficient, making it a more cost-effective option.
 
-#### Use Cases and Recommendations
-OpenAI o3-mini is best suited for:
-* Coding
-* Math
-* Science
-* Reasoning tasks
-* STEM problems
-* Agentic tasks
+#### Context and Limits
+OpenAI o3-mini has the following context and limits:
+* Context Window: 200,000 tokens
+* Max Output: 100,000 tokens
+* Knowledge Cutoff: 2023-10
 
-It is not recommended for:
-* Vision tasks
-* Simple tasks
-* Creative writing
-* High-volume cheap tasks
+These limits may impact the suitability of OpenAI o3-mini for certain applications, such as those requiring longer context windows or more up-to-date knowledge.
 
-In contrast, OpenAI o1 may be a better option for applications that require higher performance, such as:
-* High-stakes decision-making
-* Complex problem-solving
-* Large-scale data analysis
+#### Capabilities and Use Cases
+OpenAI o3-mini has the following capabilities:
+* text
+* function_calling
+* structured_outputs
+* streaming
+* batch_processing
+* extended_thinking
 
-#### Cost Examples
-To illustrate the cost difference between OpenAI o3-mini and OpenAI o1, consider the</div>
+It is best suited for tasks such as:
+* coding
+* math
+* science
+* reasoning_tasks
+* stem_problems
+* ag</div>
       </div>
 
       <!-- USE CASES -->
       <div class="card content-section">
         <div class="card-title">Best Use Cases</div>
         <div>### Introduction to OpenAI o3-mini
-The OpenAI o3-mini model, released on 2025-01-31, is a standard, non-open-source model provided by OpenAI. With its capabilities in text, function calling, structured outputs, streaming, batch processing, and extended thinking, it is best suited for tasks such as coding, math, science, reasoning tasks, STEM problems, and agentic tasks.
+The OpenAI o3-mini model, released on 2025-01-31, is a standard tier model provided by OpenAI. It is not open source. This model is best suited for tasks such as coding, math, science, reasoning tasks, STEM problems, and agentic tasks.
 
 ### Top 5 Best Use Cases for OpenAI o3-mini
 Based on its capabilities and benchmarks, here are the top 5 best use cases for OpenAI o3-mini:
 
-1. **Coding Assistance**: With its high score in HumanEval (94.1), OpenAI o3-mini can be used to assist in coding tasks, such as code completion, code review, and code generation.
-2. **Math and Science Problem Solving**: The model's high score in GSM8K (99.1) and its capabilities in math and science make it an ideal choice for solving math and science problems.
-3. **Reasoning Tasks**: OpenAI o3-mini's high score in MMLU (87.3) and its capabilities in reasoning tasks make it suitable for tasks that require logical reasoning and problem-solving.
-4. **STEM Education**: The model's capabilities in STEM subjects (science, technology, engineering, and math) make it an ideal choice for educational applications, such as tutoring and homework assistance.
-5. **Agentic Tasks**: With its capabilities in agentic tasks, OpenAI o3-mini can be used to simulate human-like conversations, making it suitable for applications such as chatbots and virtual assistants.
+1. **Coding Assistance**: With its high HumanEval score of 94.1, OpenAI o3-mini can be used to assist with coding tasks, such as generating code snippets or debugging existing code.
+2. **Math and Science Problem Solving**: The model's high MMLU score of 87.3 and GSM8K score of 99.1 make it well-suited for solving math and science problems, including complex equations and scientific reasoning tasks.
+3. **Reasoning and Logic Tasks**: OpenAI o3-mini's high LMSYS Arena ELO score of 1305 indicates its ability to perform well on reasoning and logic tasks, making it a good choice for tasks that require critical thinking and problem-solving.
+4. **STEM Education**: The model's capabilities in coding, math, and science make it a valuable tool for STEM education, where it can be used to assist students with homework, projects, and other learning activities.
+5. **Agentic Tasks**: OpenAI o3-mini's ability to perform agentic tasks, such as decision-making and planning, make it a good choice for tasks that require autonomous agents to interact with their environment.
 
 ### Code Integration Examples with OpenRouter
 To integrate OpenAI o3-mini with OpenRouter, you can use the following code example:
 ```python
-import openai
-from openrouter import OpenRouter
+import openrouter
 
-# Initialize OpenAI o3-mini model
-model = openai.Model("openai/o3-mini")
+# Initialize the OpenRouter client
+client = openrouter.Client(api_key="YOUR_API_KEY")
 
-# Initialize OpenRouter</div>
+# Define the input</div>
       </div>
 
       <!-- CAPABILITIES -->
