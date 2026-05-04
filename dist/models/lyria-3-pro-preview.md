@@ -1,17 +1,17 @@
 # Google: Lyria 3 Pro Preview API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-05-03
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-05-04
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
 ### Introduction to Google: Lyria 3 Pro Preview
-The Google: Lyria 3 Pro Preview, released by Google on 2024-01-01, is a standard-tier model that is not open source. This model is identified as `google/lyria-3-pro-preview`. From an architectural standpoint, the specifics of its internal design are not provided, but its capabilities and performance metrics offer insights into its potential applications and strengths. The model is capable of handling a context window of up to 1,048,576 tokens and can generate outputs of up to 65,536 tokens, with a knowledge cutoff of 2023-12.
+The Google: Lyria 3 Pro Preview, released by Google on 2024-01-01, is a standard-tier model that is not open source. This model is part of the Google: Lyria series and is identified as `google/lyria-3-pro-preview`. The architecture of Lyria 3 Pro Preview is designed to handle a wide range of natural language processing tasks, with capabilities including text, function calling, JSON mode, streaming, and structured outputs. Its primary strengths lie in its ability to process large inputs and generate coherent outputs, making it suitable for various applications such as chat, text generation, coding, analysis, and summarization.
 
-### Strengths and Use Cases
-The Google: Lyria 3 Pro Preview model demonstrates its main strengths through its benchmark scores, including an MMLU score of 80.0 and an LMSYS Arena ELO score of 1200. Its capabilities include text generation, function calling, JSON mode, streaming, and structured outputs, making it best suited for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization. The model's pricing structure is currently set at $0.0 per 1M tokens for both input and output, with no additional costs for cached input or batch input, making it an attractive option for developers looking to integrate advanced language processing capabilities into their applications without incurring significant costs.
+### Technical Specifications and Pricing
+From a technical standpoint, the Lyria 3 Pro Preview boasts an impressive context window of 1,048,576 tokens and a maximum output of 65,536 tokens. The model's knowledge cutoff is 2023-12, indicating that its training data is current up to December 2023. In terms of pricing, the model offers a unique pricing structure where both input and output are priced at $0.0 per 1M tokens. This makes it an attractive option for developers looking to integrate advanced NLP capabilities into their applications without incurring significant costs. The cost examples provided show that whether making 1,000 calls or 100,000 calls, with an average of 500 tokens per call, the cost remains $0.0.
 
-### Technical Specifications and Cost Considerations
-From a technical perspective, the Google: Lyria 3 Pro Preview model offers a robust set of features and capabilities, with a large context window and significant output generation capabilities. The model's pricing is currently not a limiting factor, with cost examples showing $0.0 for 1,000 calls (avg 500 tokens), $0.0 for 10,000 calls, and $0.0 for 100,000 calls. With no direct competitors listed, the Google: Lyria 3 Pro Preview is positioned as
+### Use Cases and Competitors
+The Google: Lyria 3 Pro Preview is best suited for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization, thanks to its robust capabilities and large context window. However, its limitations and areas where it is not recommended are not specified. Benchmark scores such as an MMLU score of 80.0 and an LMSYS Arena ELO of 1200 demonstrate its performance
 
 ## Pricing (USD per 1M tokens)
 | Metric | Price |
@@ -25,7 +25,7 @@ From a technical perspective, the Google: Lyria 3 Pro Preview model offers a rob
 ## Pricing Analysis
 ### Pricing Analysis for Google: Lyria 3 Pro Preview
 #### Overview
-The Google: Lyria 3 Pro Preview model is a standard, non-open-source model released by Google on 2024-01-01. This analysis will delve into the cost structure, usage scenarios, and cost savings at scale for this model.
+The Google: Lyria 3 Pro Preview model is a standard, non-open-source model released by Google on 2024-01-01. This analysis will delve into the cost structure, usage scenarios, and cost savings for this model.
 
 #### Cost Structure
 The pricing for Google: Lyria 3 Pro Preview is as follows:
@@ -35,17 +35,20 @@ The pricing for Google: Lyria 3 Pro Preview is as follows:
 * Batch Input: **$None per 1M tokens** (indicating no additional cost for batch inputs)
 
 #### Usage Scenarios
-Given the cost structure, there are no specific scenarios where using cached tokens or batch API calls would result in cost savings, as all input and output costs are **$0.0 per 1M tokens**.
+Given the cost structure, there are no additional costs associated with using cached tokens or batch API calls. Therefore, users can utilize these features without incurring extra expenses.
 
 #### Cost at Scale
 The cost examples provided are:
 * 1,000 calls (avg 500 tokens): **$0.0**
 * 10,000 calls: **$0.0**
 * 100,000 calls: **$0.0**
-As evident, the cost remains **$0.0** regardless of the number of API calls, indicating that this model is currently free to use.
+As evident, the cost remains **$0.0** regardless of the number of API calls, making this model a cost-effective option for users.
+
+#### Batch API Savings
+Since there are no additional costs for batch inputs, users can take advantage of batch API calls to process large volumes of data without incurring extra expenses.
 
 #### Conclusion
-The Google: Lyria 3 Pro Preview model offers a unique cost structure with no input or output costs. This makes it an attractive option for applications that require text, function calling, JSON mode, streaming, and structured outputs, such as chat, text generation, coding, analysis, RAG pipelines, and summarization. However, it is essential to note that this pricing may be subject to change, and users should monitor the pricing registry for updates.
+The Google: Lyria 3 Pro Preview model offers a unique pricing structure with no costs associated with input, output, cached input, or batch input. This makes it an attractive option for users who require a cost-effective solution for their API calls. With a context window of 1,048,576 tokens and capabilities such as text, function calling, and streaming, this model is well-suited for
 
 ## Benchmarks
 | Benchmark | Score |
@@ -58,92 +61,76 @@ The Google: Lyria 3 Pro Preview model offers a unique cost structure with no inp
 ## Benchmark Analysis
 ### Analysis of Google: Lyria 3 Pro Preview Benchmark Performance
 #### Overview
-The Google: Lyria 3 Pro Preview is a standard-tier model released by Google on 2024-01-01. It is not open-source and has a unique set of capabilities and limitations.
+The Google: Lyria 3 Pro Preview model, released by Google on 2024-01-01, is a standard-tier model with a context window of 1,048,576 tokens and a maximum output of 65,536 tokens. The model's pricing is $0.0 per 1M tokens for both input and output.
 
-#### Pricing
-The pricing for this model is as follows:
-* Input: **$0.0 per 1M tokens**
-* Output: **$0.0 per 1M tokens**
-* Cached Input: **$None per 1M tokens**
-* Batch Input: **$None per 1M tokens**
-
-This pricing structure indicates that the model is currently free to use, with no costs associated with input, output, cached input, or batch input.
-
-#### Context and Limits
-The model has the following context and limits:
-* Context Window: **1,048,576 tokens**
-* Max Output: **65,536 tokens**
-* Knowledge Cutoff: **2023-12**
-
-These limits indicate that the model can process a large amount of input data (up to 1,048,576 tokens) and generate relatively long outputs (up to 65,536 tokens). The knowledge cutoff date of 2023-12 means that the model's training data only goes up to December 2023.
-
-#### Benchmarks
+#### Benchmark Performance
 The model's benchmark performance is as follows:
-* MMLU: **80.0**
-* HumanEval: **None**
-* LMSYS Arena ELO: **1200**
-* GSM8K: **None**
+* **MMLU (Massive Multitask Language Understanding) Score**: 80.0
+	+ The MMLU score measures a model's ability to perform a wide range of natural language processing tasks. A higher score indicates better performance. With a score of 80.0, the Google: Lyria 3 Pro Preview model demonstrates strong language understanding capabilities.
+* **HumanEval Score**: None
+	+ The HumanEval score evaluates a model's ability to write correct and functional code. The absence of a HumanEval score for this model means its coding capabilities are not explicitly benchmarked.
+* **LMSYS Arena ELO Score**: 1200
+	+ The LMSYS Arena ELO score measures a model's performance in a competitive environment, where it is pitted against other models. An ELO score of 1200 indicates that the Google: Lyria 3 Pro Preview model has a moderate level of performance in this setting.
 
-The MMLU score of **80.0** indicates the model's performance on a specific set of tasks, with higher scores generally indicating better performance. The LMSYS
+#### Real-World Implications
+The benchmark performance of the Google: Lyria 3 Pro Preview model has the following implications for real-world use:
+* **Strong Language Understanding**: The model's high MMLU score suggests it is well-suited for tasks that require
 
 ## Competitor Comparison
 ### Comparison of Google: Lyria 3 Pro Preview with Top Competitors
-Since there are no direct competitors listed for the Google: Lyria 3 Pro Preview, we will provide a general overview of the model's features, pricing, and performance. This will help users understand when to choose this model and what trade-offs to expect.
+Since there are no direct competitors listed for the Google: Lyria 3 Pro Preview, we will provide a general comparison framework that can be applied to other models in the market. This framework will cover price differences, performance trade-offs, and scenarios where one might choose the Google: Lyria 3 Pro Preview over other models.
 
-#### Model Overview
-The Google: Lyria 3 Pro Preview is a standard-tier model released by Google on 2024-01-01. It is not open-source and has the following key features:
-* **Context Window**: 1,048,576 tokens
-* **Max Output**: 65,536 tokens
-* **Knowledge Cutoff**: 2023-12
-* **Capabilities**: text, function_calling, json_mode, streaming, structured_outputs
-* **Best For**: chat, text_generation, coding, analysis, rag_pipelines, summarization
+#### Pricing Comparison
+The Google: Lyria 3 Pro Preview has the following pricing structure:
+- Input: $0.0 per 1M tokens
+- Output: $0.0 per 1M tokens
+- Cached Input: $None per 1M tokens
+- Batch Input: $None per 1M tokens
 
-#### Pricing
-The pricing for the Google: Lyria 3 Pro Preview is as follows:
-* **Input**: $0.0 per 1M tokens
-* **Output**: $0.0 per 1M tokens
-* **Cached Input**: $None per 1M tokens
-* **Batch Input**: $None per 1M tokens
+Given that the pricing for inputs and outputs is $0.0 per 1M tokens, the Google: Lyria 3 Pro Preview appears to be free of charge for the listed pricing metrics. This makes it highly competitive in terms of cost, as any model with a non-zero cost per token would be more expensive.
 
-The cost examples provided show that the model is free to use, with the following costs:
-* **1,000 calls (avg 500 tokens)**: $0.0
-* **10,000 calls**: $0.0
-* **100,000 calls**: $0.0
+#### Performance Trade-offs
+The performance of the Google: Lyria 3 Pro Preview can be evaluated based on its benchmarks:
+- MMLU: 80.0
+- LMSYS Arena ELO: 1200
 
-#### Performance
-The model's performance is measured by the following benchmarks:
-* **MMLU**: 80.0
-* **LMSYS Arena ELO**: 1200
+Without direct competitors, it's challenging to compare these benchmarks directly. However, in general, when choosing between models, consider the specific tasks you need the model for. If your tasks align with the capabilities of the Google: Lyria 3 Pro Preview (text, function_calling, json_mode, streaming, structured_outputs), and its benchmarks suggest sufficient performance for your needs, it could be a good choice.
 
-#### Comparison with Hypothetical Competitors
-Since there are no direct competitors listed, we will consider hypothetical competitors with different pricing and performance characteristics.
+#### Capabilities and Best Use Cases
+The Google: Lyria 3 Pro Preview is best for:
+- Chat
+- Text generation
+- Coding
+- Analysis
+- RAG pipelines
+- Summarization
 
-* **Competitor A**: A model with similar capabilities and performance to the Google: Lyria 3 Pro Preview, but with a pricing structure of $0.01 per 1M tokens for input and output.
-* **Competitor B**: A model with better performance (e.g., MMLU: 90.0) but higher pricing ($0.05 per 1M tokens for input and output).
+It's not specified what the model is not good for, but generally, when selecting a model, consider whether its capabilities align with your intended use cases.
 
-#### Choosing the Right Model
-Based on the features, pricing, and performance of the Google: Lyria 3 Pro Preview, users should choose this
+#### Cost Examples
+The cost examples provided show that the Google: Lyria 3 Pro Preview remains $0.0 for various numbers of calls, indicating no additional cost based on the number of calls made, assuming the calls are within the context and limits of the model (e.g., context window of 1,048,576 tokens, max output of 65,536 tokens).
+
+### Choosing
 
 ## Best Use Cases
 ### Introduction to Google: Lyria 3 Pro Preview
-The Google: Lyria 3 Pro Preview model, released on 2024-01-01, is a standard, non-open-source model provided by Google. With its impressive capabilities, including text, function calling, JSON mode, streaming, and structured outputs, it is best suited for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization.
+The Google: Lyria 3 Pro Preview model, released on 2024-01-01, is a standard, non-open-source model provided by Google. With its unique capabilities and pricing structure, it offers a compelling solution for various natural language processing (NLP) tasks. This guide will explore the top 5 best use cases for Google: Lyria 3 Pro Preview, along with practical advice and code integration examples using OpenRouter.
 
-### Top 5 Best Use Cases for Google: Lyria 3 Pro Preview
-Based on its capabilities and benchmarks, here are the top 5 best use cases for the Google: Lyria 3 Pro Preview model:
+### Top 5 Use Cases for Google: Lyria 3 Pro Preview
+#### 1. Chat and Conversational Systems
+Google: Lyria 3 Pro Preview excels in chat and conversational systems due to its capabilities in text generation and function calling. Its large context window of 1,048,576 tokens allows for more nuanced and contextually aware conversations.
 
-1. **Text Generation and Summarization**: With its high context window of 1,048,576 tokens and ability to generate up to 65,536 tokens, this model is ideal for generating long-form content, such as articles, reports, and summaries.
-2. **Coding and Analysis**: The model's function calling and structured outputs capabilities make it suitable for coding applications, such as code completion, code review, and analysis.
-3. **Chat and Conversational AI**: The Google: Lyria 3 Pro Preview model's chat capabilities and high context window make it a good fit for conversational AI applications, such as chatbots and virtual assistants.
-4. **RAG Pipelines**: The model's ability to handle structured outputs and its high context window make it suitable for RAG (Retrieve, Augment, Generate) pipelines, which are used in applications such as question answering and text generation.
-5. **Streaming and Real-time Applications**: The model's streaming capability makes it suitable for real-time applications, such as live chat, live text generation, and real-time analysis.
+#### 2. Text Generation and Analysis
+With its text generation capabilities, Google: Lyria 3 Pro Preview is well-suited for tasks such as text summarization, content creation, and analysis. Its ability to handle structured outputs also makes it a great choice for tasks that require more complex output formats.
 
-### Code Integration Examples with OpenRouter
-To integrate the Google: Lyria 3 Pro Preview model with OpenRouter, you can use the following code examples:
-```python
-import openrouter
+#### 3. Coding and Programming Assistance
+Google: Lyria 3 Pro Preview's function calling and JSON mode capabilities make it an excellent choice for coding and programming assistance tasks. It can be used to generate code snippets, provide programming guidance, and even assist with code review.
 
-# Initialize the OpenRouter client
+#### 4. RAG Pipelines and Knowledge Graph Construction
+The model's capabilities in text generation, function calling, and structured outputs make it a great fit for RAG (Retrieve, Augment, Generate) pipelines and knowledge graph construction tasks. Its large context window also allows for more comprehensive knowledge retrieval and generation.
 
+#### 5. Summarization and Information Extraction
+Google: Lyria 3 Pro Preview's text generation and analysis capabilities make it well-suited for summarization and information extraction tasks. Its ability to
 
 ## Frequently Asked Questions
 

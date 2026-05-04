@@ -1,17 +1,17 @@
 # Mistral Medium 3 API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-05-03
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-05-04
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
 ### Introduction to Mistral Medium 3
-Mistral Medium 3, released by Mistral AI on 2025-04-17, is a mid-tier model that offers a robust set of capabilities for developers. With a context window of 131,072 tokens and a maximum output of 16,384 tokens, this model is well-suited for a variety of tasks, including coding, analysis, and content generation. The architecture of Mistral Medium 3 supports multiple capabilities, such as text, vision, function calling, JSON mode, streaming, and system prompts, making it a versatile tool for developers.
+Mistral Medium 3, released by Mistral AI on 2025-04-17, is a mid-tier model that offers a balance between performance and cost. With a context window of 131,072 tokens and a maximum output of 16,384 tokens, this model is well-suited for a variety of tasks, including coding, analysis, and content generation. The model's capabilities include text, vision, function calling, JSON mode, streaming, and system prompts, making it a versatile tool for developers.
 
-### Technical Strengths and Use-Cases
-The main strengths of Mistral Medium 3 lie in its ability to handle complex tasks, such as coding, analysis, and vision tasks, with a high degree of accuracy. The model's performance is reflected in its benchmark scores, including an MMLU score of 80.0, a HumanEval score of 77.5, and an LMSYS Arena ELO score of 1200. However, it is not well-suited for tasks that require frontier reasoning, bulk cheap tasks, simple classification, or real-time responses under 100ms. Developers can use Mistral Medium 3 for tasks such as summarization, content generation, and function calling, taking advantage of its capabilities in text and vision processing.
+### Technical Strengths and Use Cases
+The main strengths of Mistral Medium 3 lie in its ability to handle complex tasks such as coding, analysis, and vision tasks. Its high benchmark scores, including an MMLU score of 80.0 and a HumanEval score of 77.5, demonstrate its capabilities in these areas. Additionally, its support for function calling and JSON mode makes it an attractive choice for developers who need to integrate the model into their applications. However, it is not well-suited for tasks that require frontier reasoning, bulk cheap tasks, simple classification, or real-time responses under 100ms.
 
 ### Pricing and Cost Considerations
-The pricing for Mistral Medium 3 is $0.4 per 1M tokens for input and $2.0 per 1M tokens for output. This translates to a cost of $1.2 for 1,000 calls with an average of 500 tokens, $12.0 for 10,000 calls, and $120.0 for 100,000 calls. Compared to its top competitors, such as Claude 3.5 Haiku and GPT-4o Mini, Mistral Medium 3 offers a competitive pricing model
+The pricing for Mistral Medium 3 is as follows: $0.4 per 1M input tokens and $2.0 per 1M output tokens. This makes it a competitive option for developers who need to process large amounts of data. For example, 1,000 calls with an average of 500 tokens would cost $1.2, while 10,000 calls would cost $12.0. In comparison to its top competitors, such as Claude 3.5 Haiku and GPT-4o Mini, Mistral Medium 3 offers a unique balance of performance and cost. However, developers should carefully consider their specific use cases and budget requirements when choosing a model, as the costs can add up quickly.
 
 ## Pricing (USD per 1M tokens)
 | Metric | Price |
@@ -23,37 +23,36 @@ The pricing for Mistral Medium 3 is $0.4 per 1M tokens for input and $2.0 per 1M
 | Batch Output | $None |
 
 ## Pricing Analysis
-### Mistral Medium 3 Pricing Analysis
+### Pricing Analysis for Mistral Medium 3
 #### Overview
-Mistral Medium 3, a mid-tier model provided by Mistral AI, offers a unique set of capabilities including text, vision, function calling, and more. Released on 2025-04-17, this model is not open source.
+Mistral Medium 3, provided by Mistral AI, is a mid-tier model with a release date of 2025-04-17. This analysis will delve into the cost structure, optimal usage scenarios, and cost-effectiveness at scale.
 
 #### Cost Structure
-The cost structure for Mistral Medium 3 is as follows:
-* **Input**: $0.4 per 1M tokens
-* **Output**: $2.0 per 1M tokens
-* **Cached Input**: $None per 1M tokens (free)
-* **Batch Input**: $None per 1M tokens (free)
+The pricing for Mistral Medium 3 is as follows:
+* Input: **$0.4 per 1M tokens**
+* Output: **$2.0 per 1M tokens**
+* Cached Input: **$0 per 1M tokens** (free)
+* Batch Input: **$0 per 1M tokens** (free)
 
-#### When to Use Cached Tokens
-Cached tokens can be used to reduce costs when the same input is used multiple times. Since cached input is free, it is recommended to use cached tokens whenever possible to minimize costs.
-
-#### Batch API Savings
-Batching API calls can also help reduce costs. However, the pricing data does not provide a specific discount for batch API calls. The cost per call remains the same, but batching can help reduce the overall number of calls needed.
+#### Optimal Usage Scenarios
+To minimize costs, consider the following strategies:
+* **Use cached tokens**: Since cached input tokens are free, utilize them whenever possible to reduce input costs.
+* **Batch API calls**: With batch input being free, batching API calls can help reduce overall costs by minimizing the number of input tokens required.
 
 #### Cost at Scale
-The cost of using Mistral Medium 3 at scale is as follows:
-* **1,000 calls (avg 500 tokens)**: $1.2
-* **10,000 calls**: $12.0
-* **100,000 calls**: $120.0
+The cost of using Mistral Medium 3 at different scales is as follows:
+* **1,000 calls (avg 500 tokens)**: **$1.2**
+* **10,000 calls**: **$12.0**
+* **100,000 calls**: **$120.0**
 
-These costs are based on the average number of tokens per call and the cost per 1M tokens.
+These costs are based on the provided pricing structure and demonstrate a linear increase in cost with the number of API calls.
 
-#### Comparison to Top Competitors
-Mistral Medium 3's pricing is competitive with other top models:
+#### Competitor Comparison
+Mistral Medium 3's pricing is comparable to its top competitors:
 * **Claude 3.5 Haiku**: $0.8/1M input, $4.0/1M output
 * **GPT-4o Mini**: $0.15/1M input, $0.6/1M output
 
-Mistral Medium 3's
+While Mistral Medium 3's input price is higher than GPT-4o Mini, its output price is lower than Claude 3
 
 ## Benchmarks
 | Benchmark | Score |
@@ -70,27 +69,22 @@ The Mistral Medium 3 model, released by Mistral AI on 2025-04-17, is a mid-tier 
 
 #### Pricing
 The pricing for Mistral Medium 3 is as follows:
-* Input: $0.4 per 1M tokens
-* Output: $2.0 per 1M tokens
-* Cached Input: $None per 1M tokens
-* Batch Input: $None per 1M tokens
+* Input: **$0.4 per 1M tokens**
+* Output: **$2.0 per 1M tokens**
+* Cached Input: **$None per 1M tokens**
+* Batch Input: **$None per 1M tokens**
 
 #### Benchmark Performance
-The model's benchmark performance is measured by the following scores:
-* **MMLU (Massive Multitask Language Understanding)**: 80.0 - This score indicates the model's ability to perform a wide range of natural language processing tasks. A higher score suggests better performance.
-* **HumanEval**: 77.5 - This score measures the model's ability to generate human-like code. A higher score indicates better coding capabilities.
-* **LMSYS Arena ELO**: 1200 - This score is a measure of the model's overall performance in a competitive arena. A higher score suggests better performance compared to other models.
+The model's benchmark performance is measured by the following metrics:
+* **MMLU (80.0)**: The MMLU (Massive Multitask Language Understanding) benchmark evaluates a model's ability to perform a wide range of natural language processing tasks. A higher MMLU score indicates better performance. With a score of 80.0, Mistral Medium 3 demonstrates strong language understanding capabilities.
+* **HumanEval (77.5)**: The HumanEval benchmark assesses a model's ability to generate code that is correct and functional. A higher HumanEval score indicates better coding abilities. With a score of 77.5, Mistral Medium 3 shows strong coding capabilities.
+* **LMSYS Arena ELO (1200)**: The LMSYS Arena ELO benchmark measures a model's overall performance in a competitive environment. A higher ELO score indicates better performance. With a score of 1200, Mistral Medium 3 demonstrates moderate to strong overall performance.
 
-#### Real-World Implications
-The benchmark scores suggest that Mistral Medium 3 is a capable model for a variety of tasks, including:
-* Coding: The high HumanEval score indicates that the model is well-suited for coding tasks.
-* Analysis: The model's high MMLU score suggests that it can perform complex analysis tasks.
-* Vision tasks: The model's capabilities include vision
+####
 
 ## Competitor Comparison
 ### Comparison of Mistral Medium 3 with Top Competitors
-#### Overview
-Mistral Medium 3, released by Mistral AI on 2025-04-17, is a mid-tier model with a context window of 131,072 tokens and a maximum output of 16,384 tokens. This comparison will examine the pricing, performance, and capabilities of Mistral Medium 3 against its top competitors, Claude 3.5 Haiku and GPT-4o Mini.
+Mistral Medium 3, released by Mistral AI on 2025-04-17, is a mid-tier model with a unique set of capabilities and pricing. This comparison will delve into the details of Mistral Medium 3 and its top competitors, Claude 3.5 Haiku and GPT-4o Mini, highlighting their price differences, performance trade-offs, and use cases.
 
 #### Pricing Comparison
 The pricing for each model is as follows:
@@ -98,14 +92,16 @@ The pricing for each model is as follows:
 	+ Input: $0.4 per 1M tokens
 	+ Output: $2.0 per 1M tokens
 * Claude 3.5 Haiku:
-	+ Input: $0.8 per 1M tokens (100% more than Mistral Medium 3)
-	+ Output: $4.0 per 1M tokens (100% more than Mistral Medium 3)
+	+ Input: $0.8 per 1M tokens
+	+ Output: $4.0 per 1M tokens
 * GPT-4o Mini:
-	+ Input: $0.15 per 1M tokens (62.5% less than Mistral Medium 3)
-	+ Output: $0.6 per 1M tokens (70% less than Mistral Medium 3)
+	+ Input: $0.15 per 1M tokens
+	+ Output: $0.6 per 1M tokens
+
+Mistral Medium 3 offers a balance between input and output costs, while Claude 3.5 Haiku is more expensive on both fronts. GPT-4o Mini, on the other hand, is significantly cheaper for input but still relatively affordable for output.
 
 #### Performance Trade-offs
-The performance of each model can be evaluated using the provided benchmarks:
+The performance of each model can be evaluated using various benchmarks:
 * Mistral Medium 3:
 	+ MMLU: 80.0
 	+ HumanEval: 77.5
@@ -113,10 +109,10 @@ The performance of each model can be evaluated using the provided benchmarks:
 * Claude 3.5 Haiku: Not provided
 * GPT-4o Mini: Not provided
 
-While the exact performance of Claude 3.5 Haiku and GPT-4o Mini is not available, Mistral Medium 3's benchmarks suggest a strong performance in coding and analysis tasks.
+While the benchmark scores for Claude 3.5 Haiku and GPT-4o Mini are not available, Mistral Medium 3 demonstrates strong performance across multiple metrics.
 
 #### Capabilities and Use Cases
-Mistral Medium 3 supports a range of capabilities, including:
+Mistral Medium 3 supports a wide range of capabilities, including:
 * Text
 * Vision
 * Function calling
@@ -137,33 +133,48 @@ However, it is not recommended for:
 * Frontier reasoning
 * Bulk cheap tasks
 * Simple classification
-* Real-time sub 100ms tasks
+* Real-time sub-100ms tasks
 
 #### Cost Examples
-The cost of
+To illustrate
 
 ## Best Use Cases
-### Introduction to Mistral Medium 3
-Mistral Medium 3, provided by Mistral AI, is a powerful language model released on 2025-04-17. With its mid-tier pricing and extensive capabilities, it's an attractive option for various applications. This guide will explore the top 5 best use cases for Mistral Medium 3, along with code integration examples using OpenRouter.
+### Practical Advice on Top 5 Best Use Cases for Mistral Medium 3
+Mistral Medium 3, a mid-tier model by Mistral AI, offers a balance of performance and cost-effectiveness. With its capabilities in text, vision, function calling, JSON mode, streaming, and system prompts, it is best suited for tasks such as coding, analysis, RAG, summarization, vision tasks, content generation, and function calling.
 
-### Top 5 Use Cases for Mistral Medium 3
-Based on its capabilities and limitations, the top 5 use cases for Mistral Medium 3 are:
-
-1. **Coding and Analysis**: Mistral Medium 3 excels in coding tasks, making it suitable for code review, code generation, and analysis. Its `function_calling` capability allows for seamless integration with external functions.
-2. **Summarization and Content Generation**: With its strong text capabilities, Mistral Medium 3 is ideal for summarizing long documents, generating content, and creating engaging text.
-3. **Vision Tasks**: Mistral Medium 3's `vision` capability enables it to process and understand visual data, making it suitable for image analysis, object detection, and image generation.
-4. **RAG (Retrieval-Augmented Generation)**: Mistral Medium 3's `json_mode` and `streaming` capabilities make it well-suited for RAG tasks, which involve retrieving information from external sources and generating text based on that information.
-5. **System Prompts**: Mistral Medium 3's `system_prompts` capability allows for fine-grained control over the model's behavior, making it suitable for complex, system-level tasks.
-
-### Code Integration Examples with OpenRouter
-To integrate Mistral Medium 3 with OpenRouter, you can use the following code examples:
-```python
+#### Top 5 Best Use Cases
+1. **Coding and Software Development**: Mistral Medium 3's strong performance in coding tasks, as evidenced by its HumanEval score of 77.5, makes it an ideal choice for coding and software development tasks. For example, you can use it to generate code snippets or even entire functions using OpenRouter:
+    ```python
 import openrouter
 
-# Initialize the Mistral Medium 3 model
-model = openrouter.Model("mistralai/mistral-medium-3")
+# Initialize the model
+model = openrouter.MistralMedium3()
 
-# Example 1: Coding
+# Generate a code snippet
+code_snippet = model.generate_code("Create a Python function to calculate the area of a rectangle")
+print(code_snippet)
+```
+2. **Text Analysis and Summarization**: With its high context window of 131,072 tokens, Mistral Medium 3 is well-suited for text analysis and summarization tasks. You can use it to analyze large documents or generate summaries of long pieces of text:
+    ```python
+import openrouter
+
+# Initialize the model
+model = openrouter.MistralMedium3()
+
+# Analyze a large document
+document = "Path to your document"
+analysis = model.analyze_text(document)
+print(analysis)
+```
+3. **Content Generation**: Mistral Medium 3's capabilities in content generation make it an excellent choice for tasks such as writing articles, creating social media posts, or even generating entire books:
+    ```python
+import openrouter
+
+# Initialize the model
+model = openrouter.MistralMedium3()
+
+# Generate a social media post
+post = model.generate
 
 ## Frequently Asked Questions
 

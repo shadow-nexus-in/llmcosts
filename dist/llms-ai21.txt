@@ -1,6 +1,6 @@
 # LLMCosts.dev — Ai21 Models Pricing
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-05-03
+> Updated: 2026-05-04
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
