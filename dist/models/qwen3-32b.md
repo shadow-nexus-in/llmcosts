@@ -1,6 +1,6 @@
 # Qwen: Qwen3 32B API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-05-04
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-05-05
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview

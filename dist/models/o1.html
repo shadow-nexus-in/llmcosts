@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://llmcosts.dev/models/o1">
 
   <!-- Schema.org: Dataset -->
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "OpenAI o1 API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for OpenAI o1 by OpenAI.", "url": "https://llmcosts.dev/models/o1", "keywords": ["OpenAI o1", "OpenAI", "reasoning", "frontier", "math", "science", "coding"], "dateModified": "2026-05-04", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "OpenAI o1 API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for OpenAI o1 by OpenAI.", "url": "https://llmcosts.dev/models/o1", "keywords": ["OpenAI o1", "OpenAI", "reasoning", "frontier", "math", "science", "coding"], "dateModified": "2026-05-05", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
   <!-- Schema.org: FAQ -->
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
 
@@ -346,13 +346,13 @@
       <div class="card content-section">
         <div class="card-title">Overview</div>
         <div>### Introduction to OpenAI o1
-The OpenAI o1 model, released on 2024-12-17, is a premium, non-open-source language model provided by OpenAI. This model boasts an impressive architecture that enables it to handle complex reasoning, math, science, coding, and more, making it a top choice for research, PhD-level problems, legal analysis, and financial modeling. With capabilities such as text, function calling, structured outputs, streaming, batch processing, system prompts, and extended thinking, OpenAI o1 is a powerful tool for developers seeking to integrate advanced language understanding into their applications.
+The OpenAI o1 model, released on 2024-12-17, is a premium, non-open-source language model provided by OpenAI. This model boasts an impressive architecture that supports a wide range of capabilities, including text generation, function calling, structured outputs, streaming, batch processing, system prompts, and extended thinking. With a context window of 200,000 tokens and a maximum output of 100,000 tokens, OpenAI o1 is designed to handle complex tasks that require in-depth reasoning and analysis.
 
-### Technical Specifications and Pricing
-OpenAI o1 has a context window of 200,000 tokens and a maximum output of 100,000 tokens, with a knowledge cutoff of 2023-10. The pricing for this model is as follows: $15.0 per 1M tokens for input, $60.0 per 1M tokens for output, $7.5 per 1M tokens for cached input, and $7.5 per 1M tokens for batch input. To give developers a better understanding of the costs involved, examples are provided: 1,000 calls (avg 500 tokens) cost $37.5, 10,000 calls cost $375.0, and 100,000 calls cost $3750.0. OpenAI o1 has demonstrated strong performance in various benchmarks, including MMLU (92.3), HumanEval (94.4), LMSYS Arena ELO (1330), and GSM8K (99.5), solidifying its position as a premium language model.
+### Strengths and Use Cases
+OpenAI o1 demonstrates exceptional performance across various benchmarks, including MMLU (92.3), HumanEval (94.4), LMSYS Arena ELO (1330), and GSM8K (99.5). Its strengths make it an ideal choice for applications that involve complex reasoning, math, science, coding, research, and PhD-level problems. Additionally, it is well-suited for tasks such as legal analysis and financial modeling. However, it is not recommended for simple tasks, high-volume applications, low-latency requirements, vision tasks, or budget-conscious projects. The pricing model for OpenAI o1 is as follows: $15.0 per 1M tokens for input, $60.0 per 1M tokens for output, $7.5 per 1M tokens for cached input, and $7.5 per 1M tokens for batch input.
 
-### Use Cases and Competitors
-Given its strengths in complex reasoning, math, science, and coding, OpenAI o1 is best suited for applications that require in-depth analysis and understanding. However, it may not be the most cost-effective choice for simple tasks, high-volume requests, low-latency</div>
+### Cost Considerations and Competitors
+To estimate the cost of using OpenAI o1, consider the following examples: 1,000 calls with an average of 500 tokens cost $37.5, while 10,000 calls cost $375.0, and 100,000 calls cost $3750.0. In comparison to its competitors, OpenAI o1 is priced higher than OpenAI o3-mini ($1.1/1M input, $4.4</div>
       </div>
 
       <!-- PRICING -->
@@ -391,9 +391,9 @@ Given its strengths in complex reasoning, math, science, and coding, OpenAI o1 i
           </tbody>
         </table>
 
-        <div style="margin-top:1.5rem">### OpenAI o1 Pricing Analysis
+        <div style="margin-top:1.5rem">### Pricing Analysis for OpenAI o1
 #### Overview
-The OpenAI o1 model, released on 2024-12-17, is a premium, non-open-source model offered by OpenAI. This analysis will delve into the cost structure, optimal usage scenarios, and cost savings opportunities for this model.
+The OpenAI o1 model, released on 2024-12-17, is a premium, non-open-source model offered by OpenAI. This analysis will delve into the cost structure, optimal usage scenarios, and cost savings at scale.
 
 #### Cost Structure
 The pricing for OpenAI o1 is as follows:
@@ -404,18 +404,22 @@ The pricing for OpenAI o1 is as follows:
 
 #### Optimal Usage Scenarios
 To minimize costs, consider the following scenarios:
-* **Cached Tokens**: Use cached input tokens when possible, as they offer a **50% discount** compared to regular input tokens (**$7.5 per 1M tokens** vs **$15.0 per 1M tokens**).
-* **Batch API Calls**: Utilize batch input for multiple API calls, as it also offers a **50% discount** compared to regular input tokens (**$7.5 per 1M tokens** vs **$15.0 per 1M tokens**).
+* **Cached Tokens**: Use cached input tokens when possible, reducing input costs by **50%** ($7.5 per 1M tokens vs $15.0 per 1M tokens).
+* **Batch API**: Utilize batch API calls for input tokens, also reducing costs by **50%** ($7.5 per 1M tokens vs $15.0 per 1M tokens).
 
 #### Cost at Scale
 The cost of using OpenAI o1 at scale is as follows:
-* **1,000 calls (avg 500 tokens)**: **$37.5**
+* **1,000 calls** (avg 500 tokens): **$37.5**
 * **10,000 calls**: **$375.0**
 * **100,000 calls**: **$3750.0**
 
-These costs can be broken down into input and output costs. Assuming an average output of 500 tokens per call, the total output cost for 1,000 calls would be **$30.0** (500 tokens * 1000 calls / 1M tokens * $60.0 per 1M tokens). The remaining **$7.5** would be attributed to input costs.
+These costs can be broken down into input and output costs. Assuming an average output of 500 tokens per call, the total output tokens for each scenario would be:
+* 1,000 calls: 500,000 tokens
+* 10,000 calls: 5,000,000 tokens
+* 100,000 calls: 50,000,000 tokens
 
-</div>
+Using the output pricing of **$60.0 per 1M tokens**, the total output costs would be:
+* 1,</div>
       </div>
 
       <!-- BENCHMARKS -->
@@ -426,19 +430,25 @@ These costs can be broken down into input and output costs. Assuming an average 
           <div class="stat-cell"><div class="stat-label">HumanEval</div><div class="stat-value">94.4</div></div>
           <div class="stat-cell"><div class="stat-label">LMSYS ELO</div><div class="stat-value">1330</div></div>
         </div>
-        <div>### Analysis of OpenAI o1 Benchmark Performance
-The OpenAI o1 model, released on December 17, 2024, is a premium, non-open-source model offered by OpenAI. To understand its performance and suitability for real-world applications, we'll delve into its benchmark scores and what they imply for practical use.
+        <div>### OpenAI o1 Benchmark Performance Analysis
+#### Model Overview
+The OpenAI o1 model, released on 2024-12-17, is a premium, non-open-source model provided by OpenAI. It is designed for complex tasks and has a range of capabilities, including text, function calling, structured outputs, streaming, batch processing, system prompts, and extended thinking.
 
-#### Benchmark Scores
-The model's performance is measured across several benchmarks:
-* **MMLU (Massive Multitask Language Understanding)**: 92.3 - This score indicates the model's ability to understand and generate human-like text across a wide range of tasks and topics. A higher MMLU score suggests better performance in tasks requiring comprehensive language understanding.
-* **HumanEval**: 94.4 - HumanEval is a benchmark that evaluates a model's ability to generate code that passes unit tests. A high HumanEval score, like 94.4, signifies the model's proficiency in coding tasks and its potential to produce functional code.
-* **LMSYS Arena ELO**: 1330 - The LMSYS Arena ELO score is a measure of the model's performance in a competitive environment, where it is pitted against other models. An ELO score of 1330 indicates a high level of competence, suggesting the model can perform well in complex, competitive scenarios.
-* **GSM8K**: 99.5 - This benchmark tests the model's ability to reason mathematically, particularly in solving math problems at an 8th-grade level. A score of 99.5 demonstrates exceptional mathematical reasoning capabilities.
+#### Pricing
+The pricing for OpenAI o1 is as follows:
+* Input: $15.0 per 1M tokens
+* Output: $60.0 per 1M tokens
+* Cached Input: $7.5 per 1M tokens
+* Batch Input: $7.5 per 1M tokens
 
-#### Real-World Implications
-These benchmark scores have significant implications for real-world use:
-- **Complex Reasoning and Coding**: With high scores in HumanEval and</div>
+#### Context and Limits
+The model has a context window of 200,000 tokens, a maximum output of 100,000 tokens, and a knowledge cutoff of 2023-10.
+
+#### Benchmarks
+The OpenAI o1 model has achieved the following benchmark scores:
+* **MMLU (Massive Multitask Language Understanding)**: 92.3 - This score indicates the model's ability to understand and generate human-like text across a wide range of tasks and topics. A higher MMLU score suggests better performance in tasks that require a deep understanding of language.
+* **HumanEval**: 94.4 - This score measures the model's ability to generate code that is correct and functional. A higher HumanEval score indicates better performance in coding tasks.
+* **LMSYS Arena ELO**: 1330 - This score is a measure of the model's overall performance in a competitive environment, where it is pitted against other models. A higher LMSYS Arena ELO score indicates better</div>
       </div>
 
       <!-- COMPETITOR TABLE -->
@@ -476,76 +486,67 @@ These benchmark scores have significant implications for real-world use:
         </div>
         <div style="margin-top:1.5rem">### Comparison of OpenAI o1 with Top Competitors
 #### Overview
-OpenAI o1 is a premium, non-open source model released by OpenAI on 2024-12-17. It offers advanced capabilities such as text, function calling, structured outputs, streaming, batch processing, system prompts, and extended thinking. This comparison will analyze the pricing, performance, and use cases of OpenAI o1 against its top competitors, OpenAI o3-mini and GPT-4o.
+OpenAI o1 is a premium, non-open-source model released by OpenAI on 2024-12-17. It offers advanced capabilities such as text, function calling, structured outputs, streaming, batch processing, system prompts, and extended thinking. The model excels in complex reasoning, math, science, coding, research, PhD-level problems, legal analysis, and financial modeling.
 
 #### Pricing Comparison
-The pricing for each model is as follows:
-* **OpenAI o1**:
-	+ Input: $15.0 per 1M tokens
-	+ Output: $60.0 per 1M tokens
-	+ Cached Input: $7.5 per 1M tokens
-	+ Batch Input: $7.5 per 1M tokens
-* **OpenAI o3-mini**:
-	+ Input: $1.1 per 1M tokens
-	+ Output: $4.4 per 1M tokens
-* **GPT-4o**:
-	+ Input: $2.5 per 1M tokens
-	+ Output: $10.0 per 1M tokens
+The pricing for OpenAI o1 is as follows:
+* Input: $15.0 per 1M tokens
+* Output: $60.0 per 1M tokens
+* Cached Input: $7.5 per 1M tokens
+* Batch Input: $7.5 per 1M tokens
+
+In comparison, the top competitors have the following pricing:
+* OpenAI o3-mini:
+	+ Input: $1.1 per 1M tokens ( **87.3% cheaper** than OpenAI o1)
+	+ Output: $4.4 per 1M tokens ( **92.7% cheaper** than OpenAI o1)
+* GPT-4o:
+	+ Input: $2.5 per 1M tokens ( **83.3% cheaper** than OpenAI o1)
+	+ Output: $10.0 per 1M tokens ( **83.3% cheaper** than OpenAI o1)
 
 #### Performance Trade-offs
-OpenAI o1 has the following benchmarks:
+OpenAI o1 has the following performance benchmarks:
 * MMLU: 92.3
 * HumanEval: 94.4
 * LMSYS Arena ELO: 1330
 * GSM8K: 99.5
-While the performance metrics for OpenAI o3-mini and GPT-4o are not provided, it can be inferred that OpenAI o1 offers superior performance due to its higher pricing tier.
 
-#### Use Cases and Recommendations
-OpenAI o1 is best suited for:
-* Complex reasoning
-* Math
-* Science
-* Coding
-* Research
-* PhD-level problems
-* Legal analysis
-* Financial modeling
-On the other hand, it is not recommended for:
-* Simple tasks
-* High-volume applications
-* Low-latency requirements
-* Vision tasks
-* Budget-conscious projects
+While the performance benchmarks for the top competitors are not provided, the significant price difference suggests that OpenAI o1 may offer superior performance, especially in complex tasks.
 
-#### Cost Examples
-The estimated costs for using OpenAI o1 are:
-* 1,000 calls (avg 500 tokens): $37.5
-* 10,000 calls: $375.0
-* 100,000 calls: $3750.0
+#### Context and Limits
+OpenAI o1 has the following context and limits:
+* Context Window: 200,000 tokens
+* Max Output: 100,000 tokens
+* Knowledge Cutoff: 2023-10
 
-#### Choosing the Right Model
-Based on the pricing and performance trade-offs, here are</div>
+These limits indicate that OpenAI o1 is suitable for tasks that require a large context window and high-quality output, but may not be the best choice for tasks that require real-time knowledge or extremely high-volume processing.
+
+#### When to Choose Each Model
+Based on the pricing and performance trade-offs, here are some guidelines on when to choose each model:
+</div>
       </div>
 
       <!-- USE CASES -->
       <div class="card content-section">
         <div class="card-title">Best Use Cases</div>
         <div>### Introduction to OpenAI o1
-The OpenAI o1 model, released on 2024-12-17, is a premium, non-open-source model provided by OpenAI. With its impressive benchmarks, including an MMLU score of 92.3 and a HumanEval score of 94.4, this model is well-suited for complex tasks such as math, science, coding, and research.
+The OpenAI o1 model, released on 2024-12-17, is a premium, non-open-source model designed for complex tasks. With its capabilities in text, function calling, structured outputs, streaming, batch processing, system prompts, and extended thinking, it is best suited for tasks that require advanced reasoning, such as math, science, coding, research, PhD-level problems, legal analysis, and financial modeling.
 
 ### Top 5 Best Use Cases for OpenAI o1
-Based on its capabilities and pricing, the top 5 best use cases for OpenAI o1 are:
+Based on its capabilities and benchmarks, the top 5 best use cases for OpenAI o1 are:
 
-1. **Complex Reasoning and Problem-Solving**: OpenAI o1 excels in complex reasoning, making it ideal for tasks that require in-depth analysis and critical thinking. With its high MMLU and HumanEval scores, this model can tackle PhD-level problems with ease.
-2. **Math and Science**: The model's exceptional performance in math and science tasks makes it a great choice for applications such as homework assistance, research paper writing, and scientific article summarization.
-3. **Coding and Software Development**: OpenAI o1's ability to understand and generate code, combined with its function calling and structured outputs capabilities, make it an excellent tool for coding tasks, such as code review, code completion, and bug fixing.
-4. **Research and Academic Writing**: With its extensive knowledge cutoff of 2023-10 and ability to understand system prompts, OpenAI o1 is well-suited for research and academic writing tasks, including literature reviews, research paper writing, and thesis drafting.
-5. **Legal Analysis and Financial Modeling**: The model's exceptional performance in complex reasoning and its ability to understand and generate structured outputs make it a great choice for legal analysis and financial modeling tasks, such as contract review, financial forecasting, and risk assessment.
+1. **Complex Reasoning and Problem-Solving**: With its high MMLU score of 92.3 and HumanEval score of 94.4, OpenAI o1 is well-suited for complex reasoning and problem-solving tasks, such as PhD-level problems and research.
+2. **Math and Science**: OpenAI o1's high GSM8K score of 99.5 indicates its proficiency in math and science-related tasks, making it an ideal choice for tasks that require advanced mathematical and scientific knowledge.
+3. **Coding and Software Development**: With its ability to perform function calling and generate structured outputs, OpenAI o1 can be used for coding and software development tasks, such as code completion and code review.
+4. **Legal Analysis and Financial Modeling**: OpenAI o1's capabilities in text analysis and generation make it suitable for legal analysis and financial modeling tasks, such as contract review and financial forecasting.
+5. **Research and Academic Writing**: OpenAI o1's advanced language understanding and generation capabilities make it an ideal choice for research and academic writing tasks, such as literature review and thesis writing.
 
 ### Code Integration Examples with OpenRouter
 To integrate OpenAI o1 with OpenRouter, you can use the following code example:
 ```python
-import open</div>
+import openrouter
+
+# Initialize OpenRouter with OpenAI o1 model
+router = openrouter</div>
       </div>
 
       <!-- CAPABILITIES -->
