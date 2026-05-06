@@ -1,6 +1,6 @@
 # LLMCosts.dev — COMPLETE LLM Pricing Registry (Un-Sharded Master)
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-05-05
+> Updated: 2026-05-06
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -12,7 +12,7 @@ CitationTemplate: "{title} — LLMCosts.dev, retrieved from https://llmcosts.dev
 Author: LLMCosts.dev Automated Registry
 License: CC BY 4.0
 
-Total Models: 329 | This file is NOT sharded. For ChatGPT-sized ingestion, use /llms.txt instead.
+Total Models: 330 | This file is NOT sharded. For ChatGPT-sized ingestion, use /llms.txt instead.
 
 | Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
 |-------|----------|----------|---------|---------|---------|-----|------|------|
@@ -345,3 +345,4 @@ Total Models: 329 | This file is NOT sharded. For ChatGPT-sized ingestion, use /
 | [Qwen: Qwen3.6 35B A3B](https://llmcosts.dev/models/qwen-qwen3.6-35b-a3b) | Qwen | $0.1612 | $0.96525 | $None | 262,144 | None | premium | Closed |
 | [Qwen: Qwen3.6 Max Preview](https://llmcosts.dev/models/qwen-qwen3.6-max-preview) | Qwen | $1.3 | $7.8 | $None | 262,144 | None | premium | Closed |
 | [Qwen: Qwen3.6 27B](https://llmcosts.dev/models/qwen-qwen3.6-27b) | Qwen | $0.195 | $1.56 | $None | 262,144 | None | premium | Closed |
+| [OpenAI: GPT Chat Latest](https://llmcosts.dev/models/openai-gpt-chat-latest) | Openai | $5.0 | $30.0 | $None | 400,000 | None | premium | Closed |
