@@ -1,6 +1,6 @@
 # ByteDance: UI-TARS 7B  API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-05-08
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-05-09
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview

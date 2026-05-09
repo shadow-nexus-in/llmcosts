@@ -1,17 +1,17 @@
 # Gemma 3 4B Instruct API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-05-08
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-05-09
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
 ### Introduction to Gemma 3 4B Instruct
-The Gemma 3 4B Instruct model, released by Google DeepMind on 2025-03-12, is a budget-friendly, open-source language model designed for a variety of applications. Its architecture is geared towards efficiency and versatility, making it suitable for developers looking to integrate AI capabilities into their projects without incurring significant costs. With a context window of 131,072 tokens and a maximum output of 8,192 tokens, Gemma 3 4B Instruct is capable of handling substantial amounts of text data.
+Gemma 3 4B Instruct, developed by Google DeepMind and released on 2025-03-12, is an open-source, budget-tier language model designed to provide efficient and cost-effective solutions for various applications. With its architecture supporting text, vision, streaming, system prompts, and function calling capabilities, Gemma 3 4B Instruct is well-suited for tasks such as on-device inference, edge inference, chatbots, simple coding, classification, and vision tasks. Its open-source nature and budget-friendly pricing make it an attractive option for developers looking to integrate AI capabilities into their projects without incurring significant costs.
 
-### Technical Capabilities and Use Cases
-Gemma 3 4B Instruct boasts an impressive array of capabilities, including text processing, vision tasks, streaming, system prompts, and function calling. Its strengths are reflected in its benchmark scores: 80.0 on MMLU, 36.0 on HumanEval, 1200 on LMSYS Arena ELO, and 38.4 on GSM8K. These capabilities make it an ideal choice for applications such as chatbots, simple coding tasks, classification, and vision tasks, particularly in on-device and edge inference scenarios. The model's pricing structure, with input and output costs set at $0.03 per 1M tokens, makes it an attractive option for developers working on budget-conscious projects. For example, 1,000 calls with an average of 500 tokens would cost $0.03, while 10,000 calls would cost $0.3, and 100,000 calls would cost $3.0.
+### Technical Specifications and Pricing
+Technically, Gemma 3 4B Instruct boasts a context window of 131,072 tokens and can generate up to 8,192 tokens as output. The model's knowledge cutoff is 2024-08, ensuring it is informed by data up to that point. The pricing model for Gemma 3 4B Instruct is straightforward, with input and output both costing $0.03 per 1 million tokens. There are no additional costs for cached input or batch input. This pricing structure, combined with its capabilities, makes Gemma 3 4B Instruct a competitive choice in the market, especially when compared to other models like Llama 3.2 3B Instruct and Qwen2.5 7B Instruct, which have higher input and output costs per 1 million tokens.
 
-### Comparison and Suitability
-While Gemma 3 4B Instruct is not suited for complex reasoning, frontier coding, research tasks, or long document analysis, its budget-friendly pricing and open-source nature make it a compelling choice for developers with specific use cases. In comparison to its competitors, such as Llama 3.2 3B Instruct
+### Use Cases and Competitiveness
+Gemma 3 4B Instruct demonstrates its strengths through various benchmarks, including MMLU (80.0), HumanEval (36.0), LMSYS Arena ELO (1200), and GSM8K (38.4), showcasing its potential for a wide range of applications. However, it is not recommended for tasks requiring complex reasoning
 
 ## Pricing (USD per 1M tokens)
 | Metric | Price |
@@ -25,33 +25,33 @@ While Gemma 3 4B Instruct is not suited for complex reasoning, frontier coding, 
 ## Pricing Analysis
 ### Pricing Analysis for Gemma 3 4B Instruct
 #### Overview
-The Gemma 3 4B Instruct model, provided by Google DeepMind, offers a competitive pricing structure for businesses and developers. Released on 2025-03-12, this model is categorized under the budget tier and is open-source.
+The Gemma 3 4B Instruct model, provided by Google DeepMind, offers a competitive pricing structure for its AI services. Released on 2025-03-12, this model is categorized under the budget tier and is open-source.
 
 #### Cost Structure
 The cost structure for Gemma 3 4B Instruct is as follows:
-* Input: $0.03 per 1M tokens
-* Output: $0.03 per 1M tokens
-* Cached Input: $None per 1M tokens (free)
-* Batch Input: $None per 1M tokens (free)
+* **Input**: $0.03 per 1M tokens
+* **Output**: $0.03 per 1M tokens
+* **Cached Input**: $None per 1M tokens (free)
+* **Batch Input**: $None per 1M tokens (free)
+
+This structure indicates that users can significantly reduce costs by utilizing cached input and batch API calls, as these services are provided at no additional cost.
 
 #### When to Use Cached Tokens
-Cached tokens can be used to reduce costs when the same input tokens are used multiple times. Since cached input tokens are free, it is recommended to use them whenever possible to minimize expenses.
+Cached tokens should be used whenever possible to minimize costs. Since cached input is free, it is beneficial to use cached tokens for repeated or similar input queries. This can be particularly useful in applications where the same or similar data is processed multiple times.
 
 #### Batch API Savings
-Batching API calls can also lead to significant savings. With batch input tokens being free, making batch API calls can help reduce the overall cost per call.
+Batch API calls are also free, making it an attractive option for users who need to process large amounts of data. By batching API calls, users can reduce the overall cost of using the Gemma 3 4B Instruct model.
 
 #### Cost at Scale
 The cost of using Gemma 3 4B Instruct at scale is as follows:
-* 1,000 calls (avg 500 tokens): $0.03
-* 10,000 calls: $0.3
-* 100,000 calls: $3.0
+* **1,000 calls (avg 500 tokens)**: $0.03
+* **10,000 calls**: $0.3
+* **100,000 calls**: $3.0
 
-These costs demonstrate a linear scaling of expenses with the number of API calls, making it easy to predict and budget for large-scale deployments.
+These costs demonstrate a linear scaling of costs with the number of API calls, indicating that the cost per call remains constant regardless of the volume of calls.
 
 #### Comparison with Top Competitors
-Gemma 3 4B Instruct is priced competitively compared to its top competitors:
-* Llama 3.2 3B Instruct: $0.06/1M input, $0.06/1M output
-* Qwen2.5 7B Instruct: $0.1/1M input, $0.2/1M
+Gemma 3 4B Instruct is priced competitively
 
 ## Benchmarks
 | Benchmark | Score |
@@ -62,98 +62,89 @@ Gemma 3 4B Instruct is priced competitively compared to its top competitors:
 | ARC | 75.3 |
 
 ## Benchmark Analysis
-### Analysis of Gemma 3 4B Instruct Benchmark Performance
-#### Model Overview
-The Gemma 3 4B Instruct model, released by Google DeepMind on 2025-03-12, is a budget-friendly, open-source option with a 4B parameter count. This model is priced at $0.03 per 1M tokens for both input and output.
+### Gemma 3 4B Instruct Benchmark Performance Analysis
+The Gemma 3 4B Instruct model, released by Google DeepMind on 2025-03-12, is a budget-friendly, open-source option with a unique set of capabilities and limitations. This analysis will delve into the model's benchmark performance, focusing on the MMLU, HumanEval, and Arena ELO scores, and their implications for real-world use.
 
 #### Benchmark Scores
-The model's performance is measured by the following benchmark scores:
-* **MMLU (Massive Multitask Language Understanding)**: 80.0, indicating the model's ability to understand and process natural language across various tasks.
-* **HumanEval**: 36.0, evaluating the model's coding capabilities and ability to generate correct code based on human-written prompts.
-* **LMSYS Arena ELO**: 1200, measuring the model's overall performance in a competitive arena, with higher scores indicating better performance.
-* **GSM8K**: 38.4, assessing the model's math problem-solving abilities.
+* **MMLU (Massive Multitask Language Understanding) Score: 80.0** - This score indicates the model's ability to understand and generate human-like text across a wide range of tasks. A higher MMLU score suggests better performance in tasks such as text classification, sentiment analysis, and language translation.
+* **HumanEval Score: 36.0** - HumanEval is a benchmark that evaluates a model's ability to generate correct and functional code in response to programming prompts. A higher HumanEval score indicates better performance in coding tasks, such as simple coding and code completion.
+* **LMSYS Arena ELO Score: 1200** - The LMSYS Arena ELO score is a measure of a model's overall performance in a competitive environment, where models are pitted against each other to complete various tasks. A higher ELO score suggests better performance in tasks that require strategic thinking and problem-solving.
 
 #### Real-World Implications
-These benchmark scores have significant implications for real-world use cases:
-* The MMLU score of 80.0 suggests that Gemma 3 4B Instruct is capable of handling a wide range of natural language tasks, making it suitable for applications such as chatbots, text classification, and language translation.
-* The HumanEval score of 36.0 indicates that the model has moderate coding abilities, making it a good fit for simple coding tasks, but may struggle with more complex coding challenges.
-* The LMSYS Arena ELO score of 1200 suggests that the model is a strong competitor in the language model arena, but may not
+The benchmark scores suggest that the Gemma 3 4B Instruct model is well-suited for tasks that require:
+
+* **Text understanding and generation**: With a high MMLU score, this model is suitable for tasks such as text classification, sentiment analysis, and language translation.
+
 
 ## Competitor Comparison
 ### Comparison of Gemma 3 4B Instruct with Top Competitors
 #### Overview
-The Gemma 3 4B Instruct model, released by Google DeepMind on 2025-03-12, is a budget-friendly, open-source option for various applications, including text, vision, and streaming tasks. This comparison will delve into the pricing, performance, and use cases of Gemma 3 4B Instruct against its top competitors, Llama 3.2 3B Instruct and Qwen2.5 7B Instruct.
+Gemma 3 4B Instruct, developed by Google DeepMind, is a budget-friendly, open-source model released on 2025-03-12. This comparison will delve into its pricing, performance, and capabilities, contrasting it with its top competitors, Llama 3.2 3B Instruct and Qwen2.5 7B Instruct.
 
 #### Pricing Comparison
-The pricing structure for each model is as follows:
-* Gemma 3 4B Instruct:
-	+ Input: $0.03 per 1M tokens
-	+ Output: $0.03 per 1M tokens
-* Llama 3.2 3B Instruct:
-	+ Input: $0.06 per 1M tokens
-	+ Output: $0.06 per 1M tokens
-* Qwen2.5 7B Instruct:
-	+ Input: $0.1 per 1M tokens
-	+ Output: $0.2 per 1M tokens
+| Model | Input Price per 1M Tokens | Output Price per 1M Tokens |
+| --- | --- | --- |
+| Gemma 3 4B Instruct | $0.03 | $0.03 |
+| Llama 3.2 3B Instruct | $0.06 | $0.06 |
+| Qwen2.5 7B Instruct | $0.10 | $0.20 |
 
-Gemma 3 4B Instruct offers the most competitive pricing, with a 50% reduction in input and output costs compared to Llama 3.2 3B Instruct, and a 70% reduction compared to Qwen2.5 7B Instruct.
+Gemma 3 4B Instruct offers the most competitive pricing, with both input and output costs at $0.03 per 1M tokens, significantly lower than its competitors.
 
 #### Performance Trade-offs
-The performance of each model can be evaluated using various benchmarks:
-* Gemma 3 4B Instruct:
-	+ MMLU: 80.0
-	+ HumanEval: 36.0
-	+ LMSYS Arena ELO: 1200
-	+ GSM8K: 38.4
-* Llama 3.2 3B Instruct: Not provided
-* Qwen2.5 7B Instruct: Not provided
+Gemma 3 4B Instruct has the following benchmarks:
+- MMLU: 80.0
+- HumanEval: 36.0
+- LMSYS Arena ELO: 1200
+- GSM8K: 38.4
 
-While the exact performance of Llama 3.2 3B Instruct and Qwen2.5 7B Instruct is not available, Gemma 3 4B Instruct's benchmarks suggest it is capable of handling a wide range of tasks, including text and vision applications.
+While specific benchmark comparisons with Llama 3.2 3B Instruct and Qwen2.5 7B Instruct are not provided, generally, higher-priced models tend to perform better on complex tasks. However, for the price, Gemma 3 4B Instruct's performance is notable, especially considering its budget tier and open-source nature.
 
-#### Context and Limits
-The context window and output limits for Gemma 3 4B Instruct are:
-* Context
+#### Capabilities and Use Cases
+Gemma 3 4B Instruct supports:
+- Text
+- Vision
+- Streaming
+- System prompts
+- Function calling
+
+It is best suited for:
+- On-device applications
+- Edge inference
+- Chatbots
+- Simple coding tasks
+- Classification
+- Vision tasks
+
+However, it is not recommended for:
+- Complex reasoning
+- Frontier coding
+- Research tasks
+- Long document analysis
+
+#### Cost Examples
+The cost of using Gemma 3 4B Instruct can be estimated as follows:
+- 1,000 calls (avg 500 tokens): $0.03
+- 10,
 
 ## Best Use Cases
 ### Introduction to Gemma 3 4B Instruct
-The Gemma 3 4B Instruct model, provided by Google DeepMind, is a budget-friendly and open-source option for various applications. With its release on 2025-03-12, it offers a compelling set of capabilities, including text, vision, streaming, system prompts, and function calling. This guide will explore the top 5 best use cases for Gemma 3 4B Instruct, along with code integration examples and mentions of OpenRouter.
+The Gemma 3 4B Instruct model, provided by Google DeepMind, is a budget-friendly and open-source solution for various AI applications. Released on 2025-03-12, this model offers a compelling balance between performance and cost. In this guide, we will explore the top 5 best use cases for Gemma 3 4B Instruct, along with practical advice and code integration examples using OpenRouter.
 
 ### Top 5 Use Cases for Gemma 3 4B Instruct
-#### 1. **Chatbots**
-Gemma 3 4B Instruct is well-suited for chatbot applications due to its capabilities in text processing and generation. With a context window of 131,072 tokens, it can handle extended conversations.
-```python
-import os
-import openrouter
+Based on the model's capabilities and limitations, the following are the top 5 use cases for Gemma 3 4B Instruct:
 
-# Initialize OpenRouter
-router = openrouter.Router()
+1. **Chatbots**: Gemma 3 4B Instruct is well-suited for chatbot applications, thanks to its ability to handle text-based inputs and outputs. With a context window of 131,072 tokens, it can engage in meaningful conversations.
+2. **Simple Coding**: The model's function_calling capability makes it a good fit for simple coding tasks, such as generating code snippets or assisting with basic programming tasks.
+3. **Classification**: Gemma 3 4B Instruct can be used for classification tasks, such as text classification, sentiment analysis, or image classification (using its vision capabilities).
+4. **Edge Inference**: The model's budget-friendly pricing and open-source nature make it an attractive choice for edge inference applications, where computational resources are limited.
+5. **On-Device Applications**: Gemma 3 4B Instruct is suitable for on-device applications, such as mobile apps or embedded systems, where model size and computational resources are constrained.
 
-# Define a chatbot function using Gemma 3 4B Instruct
-def chatbot(input_text):
-    # Set up the model and input
-    model = "google/gemma-3-4b-it"
-    input_ids = router.encode(input_text, return_tensors="pt")
-
-    # Generate a response
-    output = router.generate(model, input_ids, max_length=128)
-
-    # Return the response
-    return router.decode(output[0], skip_special_tokens=True)
-
-# Test the chatbot
-input_text = "Hello, how are you?"
-response = chatbot(input_text)
-print(response)
-```
-
-#### 2. **Simple Coding**
-Gemma 3 4B Instruct can assist with simple coding tasks, such as code completion and bug fixing, thanks to its function calling capabilities.
+### Code Integration Example with OpenRouter
+To integrate Gemma 3 4B Instruct with OpenRouter, you can use the following code example:
 ```python
 import openrouter
 
-# Define a code completion function using Gemma 3 4B Instruct
-def complete_code(input_code):
-    # Set
+# Initialize the Gemma 3 4B Instruct model
 
 ## Frequently Asked Questions
 
