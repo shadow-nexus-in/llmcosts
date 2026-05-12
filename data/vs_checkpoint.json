@@ -51,6 +51,10 @@
     "qwen-qwen3.5-plus-20260420-vs-qwen-qwen3.6-max-preview",
     "qwen-qwen3.5-plus-20260420-vs-qwen-qwen3.6-27b",
     "openai-gpt-chat-latest-vs-qwen-qwen3.5-plus-20260420",
-    "google-gemini-3.1-flash-lite-vs-openai-gpt-chat-latest"
+    "google-gemini-3.1-flash-lite-vs-openai-gpt-chat-latest",
+    "o3-vs-openai-gpt-chat-latest",
+    "claude-opus-4-vs-openai-gpt-chat-latest",
+    "gemini-2-5-pro-vs-openai-gpt-chat-latest",
+    "claude-sonnet-4-vs-openai-gpt-chat-latest"
   ]
 }
