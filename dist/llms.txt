@@ -1,6 +1,6 @@
 # LLMCosts.dev — Complete LLM Pricing Registry (All Models)
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-05-12
+> Updated: 2026-05-13
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -347,3 +347,4 @@ License: CC BY 4.0
 | [Qwen: Qwen3.6 27B](https://llmcosts.dev/models/qwen-qwen3.6-27b) | Qwen | $0.195 | $1.56 | $None | 262,144 | None | premium | Closed |
 | [OpenAI: GPT Chat Latest](https://llmcosts.dev/models/openai-gpt-chat-latest) | Openai | $5.0 | $30.0 | $None | 400,000 | None | premium | Closed |
 | [Google: Gemini 3.1 Flash Lite](https://llmcosts.dev/models/google-gemini-3.1-flash-lite) | Google | $0.25 | $1.5 | $None | 1,048,576 | None | standard | Closed |
+| [Anthropic: Claude Opus 4.7 (Fast)](https://llmcosts.dev/models/anthropic-claude-opus-4.7-fast) | Anthropic | $30.0 | $150.0 | $None | 1,000,000 | None | premium | Closed |
