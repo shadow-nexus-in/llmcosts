@@ -56,6 +56,7 @@
     "claude-opus-4-vs-openai-gpt-chat-latest",
     "gemini-2-5-pro-vs-openai-gpt-chat-latest",
     "claude-sonnet-4-vs-openai-gpt-chat-latest",
-    "anthropic-claude-opus-4.7-fast-vs-openai-gpt-chat-latest"
+    "anthropic-claude-opus-4.7-fast-vs-openai-gpt-chat-latest",
+    "deepseek-deepseek-v4-flash:free-vs-openai-gpt-chat-latest"
   ]
 }

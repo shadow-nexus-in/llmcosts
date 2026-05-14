@@ -1,6 +1,6 @@
 # LLMCosts.dev — Deepseek Models Pricing
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-05-13
+> Updated: 2026-05-14
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -30,3 +30,4 @@ License: CC BY 4.0
 | [DeepSeek: DeepSeek V3](https://llmcosts.dev/models/deepseek-deepseek-chat) | Deepseek | $0.32 | $0.89 | $None | 163,840 | None | premium | Closed |
 | [DeepSeek: DeepSeek V4 Pro](https://llmcosts.dev/models/deepseek-deepseek-v4-pro) | Deepseek | $1.74 | $3.48 | $None | 1,048,576 | None | premium | Closed |
 | [DeepSeek: DeepSeek V4 Flash](https://llmcosts.dev/models/deepseek-deepseek-v4-flash) | Deepseek | $0.14 | $0.28 | $None | 1,048,576 | None | standard | Closed |
+| [DeepSeek: DeepSeek V4 Flash (free)](https://llmcosts.dev/models/deepseek-deepseek-v4-flash:free) | Deepseek | $0.0 | $0.0 | $None | 256,000 | None | standard | Closed |

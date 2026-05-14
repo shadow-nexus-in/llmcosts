@@ -1,7 +1,7 @@
 {
   "version": "6.0",
-  "updated_at": "2026-05-13T03:39:47Z",
-  "total_models": 332,
+  "updated_at": "2026-05-14T03:39:10Z",
+  "total_models": 333,
   "schema_version": "v5",
   "description": "LLMCosts.dev — Open LLM Pricing Registry. Single source of truth for LLM pricing, benchmarks, and performance data. Updated daily by automated pipeline.",
   "data_sources": [
@@ -33655,6 +33655,73 @@
         "closed-source"
       ],
       "tier": "premium",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash:free",
+      "name": "DeepSeek: DeepSeek V4 Flash (free)",
+      "slug": "deepseek-deepseek-v4-flash:free",
+      "provider": "deepseek",
+      "provider_name": "Deepseek",
+      "version": "",
+      "release_date": "2026-05-14",
+      "pricing": {
+        "input_per_1m": 0.0,
+        "output_per_1m": 0.0,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 256000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text",
+        "conversational",
+        "coding"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "long-form text generation",
+        "conversational AI",
+        "code completion"
+      ],
+      "not_good_for": [
+        "real-time vision tasks",
+        "multimodal processing"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-05-14",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "frontier",
+        "fast",
+        "large-model"
+      ],
+      "tier": "standard",
       "open_source": false,
       "self_hostable": false
     }
