@@ -60,6 +60,8 @@
     "deepseek-deepseek-v4-flash:free-vs-openai-gpt-chat-latest",
     "o1-vs-openai-gpt-chat-latest",
     "gpt-4-1-vs-openai-gpt-chat-latest",
-    "gpt-4o-vs-openai-gpt-chat-latest"
+    "gpt-4o-vs-openai-gpt-chat-latest",
+    "mistral-large-2407-vs-openai-gpt-chat-latest",
+    "command-a-vs-openai-gpt-chat-latest"
   ]
 }
