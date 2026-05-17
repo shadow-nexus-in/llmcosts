@@ -1,17 +1,17 @@
 # Qwen: Qwen3.5-35B-A3B API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-05-16
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-05-17
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
 ### Introduction to Qwen: Qwen3.5-35B-A3B
-Qwen: Qwen3.5-35B-A3B is a standard-tier model released by Qwen on 2024-01-01. This model is not open source. The architecture of Qwen3.5-35B-A3B is designed to handle a wide range of natural language processing tasks, with a context window of 262,144 tokens and a maximum output of 65,536 tokens. The model's knowledge cutoff is 2023-12, ensuring that it has been trained on a vast amount of data up to that point.
+Qwen: Qwen3.5-35B-A3B is a standard-tier model provided by Qwen, released on January 1, 2024. This model is not open source. The architecture of Qwen3.5-35B-A3B is designed to handle a wide range of natural language processing (NLP) tasks, with a context window of 262,144 tokens and a maximum output of 65,536 tokens. The model's knowledge cutoff is December 2023, ensuring it has been trained on a vast amount of data up to that point.
 
-### Strengths and Use Cases
-The main strengths of Qwen: Qwen3.5-35B-A3B lie in its capabilities, which include text, function calling, JSON mode, streaming, and structured outputs. These capabilities make it an ideal choice for various use cases such as chat, text generation, coding, analysis, RAG pipelines, and summarization. The model has demonstrated its performance through benchmarks like MMLU (87.0) and LMSYS Arena ELO (1270). With a pricing structure of $0.1625 per 1M tokens for input and $1.3 per 1M tokens for output, Qwen: Qwen3.5-35B-A3B offers a cost-effective solution for developers. For example, 1,000 calls with an average of 500 tokens would cost approximately $0.0007.
+### Technical Capabilities and Pricing
+Qwen: Qwen3.5-35B-A3B boasts an impressive set of capabilities, including text generation, function calling, JSON mode, streaming, and structured outputs. These features make it an ideal choice for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization. The pricing model for Qwen3.5-35B-A3B is based on input and output tokens, with costs of $0.1625 per 1M input tokens and $1.3 per 1M output tokens. For example, 1,000 calls with an average of 500 tokens would cost approximately $0.0007, while 100,000 calls would cost around $0.06999999999999999. The model has achieved notable benchmarks, including an MMLU score of 87.0 and an LMSYS Arena ELO of 1270.
 
-### Technical Specifications and Cost Considerations
-From a technical standpoint, Qwen: Qwen3.5-35B-A3B has a well-defined set of capabilities and limitations. Its context window and maximum output size make it suitable for handling complex and lengthy inputs. The pricing model, which includes input and output costs, allows developers to estimate their expenses accurately. For instance, 10,000 calls would cost around $0
+### Use Cases and Competitors
+Given its capabilities and pricing, Qwen: Qwen3.5-35B-A3B is well-suited for a variety of use cases, including chat, text generation, and coding applications. However, its limitations and lack of direct competitors mean that developers should carefully evaluate their specific needs before
 
 ## Pricing (USD per 1M tokens)
 | Metric | Price |
@@ -25,31 +25,27 @@ From a technical standpoint, Qwen: Qwen3.5-35B-A3B has a well-defined set of cap
 ## Pricing Analysis
 ### Pricing Analysis for Qwen: Qwen3.5-35B-A3B
 #### Overview
-The Qwen: Qwen3.5-35B-A3B model is a standard, non-open-source model provided by Qwen, released on 2024-01-01. This analysis will delve into the cost structure, usage scenarios, and cost savings at scale for this model.
+The Qwen3.5-35B-A3B model, provided by Qwen, is a standard, non-open-source model released on January 1, 2024. This analysis will break down the cost structure, discuss the use of cached tokens, batch API savings, and examine the cost at scale for 1,000, 10,000, and 100,000 API calls.
 
 #### Cost Structure
-The pricing for Qwen: Qwen3.5-35B-A3B is as follows:
-* Input: **$0.1625 per 1M tokens**
-* Output: **$1.3 per 1M tokens**
-* Cached Input: **$None per 1M tokens** (free)
-* Batch Input: **$None per 1M tokens** (free)
+The pricing for Qwen3.5-35B-A3B is as follows:
+- **Input**: $0.1625 per 1 million tokens
+- **Output**: $1.3 per 1 million tokens
+- **Cached Input**: No charge ($None per 1 million tokens)
+- **Batch Input**: No charge ($None per 1 million tokens)
 
-#### When to Use Cached Tokens
-Cached tokens can be used to reduce costs when the same input is used multiple times. Since cached input is free, it is recommended to use cached tokens whenever possible to minimize costs.
+This structure indicates that the primary cost drivers are the input and output token volumes. Cached and batch inputs are not charged, suggesting that optimizing for these can significantly reduce costs.
+
+#### Using Cached Tokens
+Given that cached input tokens incur no charge, it is highly beneficial to utilize cached tokens whenever possible. This can be particularly effective in scenarios where the same or similar inputs are processed multiple times, such as in chat applications or text generation tasks where context is reused.
 
 #### Batch API Savings
-Batch input is also free, which means that making batch API calls can help reduce costs. By batching multiple inputs together, users can take advantage of the free batch input pricing and reduce their overall costs.
+Similar to cached inputs, batch inputs are also not charged. This implies that batching API calls can lead to significant cost savings, especially for applications that can accumulate and process inputs in batches rather than making individual API calls. This strategy can be particularly effective for tasks like analysis, summarization, and coding, where inputs can be collected and then processed in batches.
 
 #### Cost at Scale
-The cost of using Qwen: Qwen3.5-35B-A3B at scale is as follows:
-* 1,000 calls (avg 500 tokens): **$0.0007**
-* 10,000 calls: **$0.007**
-* 100,000 calls: **$0.06999999999999999**
-
-As the number of API calls increases, the cost per call decreases. This makes Qwen: Qwen3.5-35B-A3B a cost-effective option for large-scale applications.
-
-#### Conclusion
-Qwen: Qwen3.5-35B-A3B is a powerful model with a cost-effective pricing
+The provided cost examples give insight into the cost structure at different scales:
+- **1,000 calls (avg 500 tokens)**: $0.0007
+- **10,000 calls**: $0.
 
 ## Benchmarks
 | Benchmark | Score |
@@ -62,82 +58,87 @@ Qwen: Qwen3.5-35B-A3B is a powerful model with a cost-effective pricing
 ## Benchmark Analysis
 ### Qwen: Qwen3.5-35B-A3B Benchmark Performance Analysis
 #### Overview
-The Qwen: Qwen3.5-35B-A3B model is a standard, non-open-source model released by Qwen on 2024-01-01. This analysis will delve into the model's benchmark performance, focusing on the MMLU, HumanEval, and Arena ELO scores, and their implications for real-world use.
+The Qwen: Qwen3.5-35B-A3B model, released on 2024-01-01, is a standard-tier model provided by Qwen. It is not open-source and has a specific pricing structure for input and output tokens.
 
-#### Benchmark Scores
-The model's benchmark scores are as follows:
-* **MMLU: 87.0** - The MMLU (Massive Multitask Language Understanding) benchmark evaluates a model's ability to perform a wide range of natural language processing tasks. A score of 87.0 indicates that Qwen: Qwen3.5-35B-A3B has a strong understanding of language, making it suitable for tasks like text generation, chat, and analysis.
-* **HumanEval: None** - The HumanEval benchmark assesses a model's ability to generate code that is correct and functional. Unfortunately, no HumanEval score is available for this model, making it difficult to evaluate its coding capabilities.
-* **LMSYS Arena ELO: 1270** - The LMSYS Arena ELO benchmark measures a model's performance in a competitive environment, where it is pitted against other models. An ELO score of 1270 indicates that Qwen: Qwen3.5-35B-A3B is a strong competitor, capable of holding its own in a variety of tasks.
+#### Pricing Structure
+The pricing for Qwen: Qwen3.5-35B-A3B is as follows:
+* Input: **$0.1625 per 1M tokens**
+* Output: **$1.3 per 1M tokens**
+* Cached Input: **$None per 1M tokens**
+* Batch Input: **$None per 1M tokens**
 
-#### Real-World Implications
-The benchmark scores suggest that Qwen: Qwen3.5-35B-A3B is well
+#### Context and Limits
+The model has the following context and limits:
+* Context Window: **262,144 tokens**
+* Max Output: **65,536 tokens**
+* Knowledge Cutoff: **2023-12**
+
+#### Benchmarks
+The model's benchmark performance is as follows:
+* MMLU: **87.0**
+* HumanEval: **None**
+* LMSYS Arena ELO: **1270**
+* GSM8K: **None**
+
+The MMLU score of **87.0** indicates the model's performance on a specific set of tasks, with higher scores generally indicating better performance. The LMSYS Arena ELO score of **1270** provides a relative ranking of the model's performance compared to other models, with higher scores indicating better performance.
+
+The lack of HumanEval and GSM8K scores means that the model's performance on these specific benchmarks is not available.
+
+#### Capabilities and Use Cases
+The model has
 
 ## Competitor Comparison
 ### Qwen: Qwen3.5-35B-A3B Model Comparison
 #### Introduction
-The Qwen: Qwen3.5-35B-A3B model, released by Qwen on 2024-01-01, is a standard, non-open-source model with a unique set of capabilities and pricing. Since there are no direct competitors listed, we will provide a general comparison framework and highlight the model's strengths and weaknesses.
+The Qwen: Qwen3.5-35B-A3B model is a standard-tier language model released by Qwen on 2024-01-01. This model is not open source and offers a range of capabilities, including text, function calling, JSON mode, streaming, and structured outputs. In this comparison, we will evaluate the Qwen: Qwen3.5-35B-A3B model against its top competitors, focusing on price differences, performance trade-offs, and use cases.
 
-#### Pricing
-The Qwen: Qwen3.5-35B-A3B model has the following pricing structure:
+#### Pricing Comparison
+The Qwen: Qwen3.5-35B-A3B model pricing is as follows:
 * Input: $0.1625 per 1M tokens
 * Output: $1.3 per 1M tokens
 * Cached Input: $None per 1M tokens
 * Batch Input: $None per 1M tokens
 
-To put this into perspective, here are some cost examples:
+Since there are no direct competitors listed, we will focus on the Qwen: Qwen3.5-35B-A3B model's pricing and provide examples of costs for different usage scenarios:
 * 1,000 calls (avg 500 tokens): $0.0007
 * 10,000 calls: $0.007
 * 100,000 calls: $0.06999999999999999
 
-#### Performance Trade-offs
-The model has a context window of 262,144 tokens and a maximum output of 65,536 tokens. The knowledge cutoff is 2023-12, which may limit its ability to handle very recent events or developments.
-
-The model's performance is measured by the following benchmarks:
+#### Performance Comparison
+The Qwen: Qwen3.5-35B-A3B model has the following benchmark scores:
 * MMLU: 87.0
 * LMSYS Arena ELO: 1270
 
-While there are no direct competitors, these benchmarks can be used as a reference point for evaluating the model's performance.
+Without direct competitors, we cannot compare the Qwen: Qwen3.5-35B-A3B model's performance to other models. However, we can highlight its strengths and weaknesses based on its capabilities and limits:
+* Context Window: 262,144 tokens
+* Max Output: 65,536 tokens
+* Knowledge Cutoff: 2023-12
 
 #### Capabilities and Use Cases
-The Qwen: Qwen3.5-35B-A3B model has the following capabilities:
-* text
-* function_calling
-* json_mode
-* streaming
-* structured_outputs
+The Qwen: Qwen3.5-35B-A3B model is best suited for:
+* Chat
+* Text generation
+* Coding
+* Analysis
+* RAG pipelines
+* Summarization
 
-It is best suited for the following use cases:
-* chat
-* text_generation
-* coding
-* analysis
-* rag_pipelines
-* summarization
+It is not recommended for use cases that are not listed, as its performance may vary.
 
-#### Choosing the Right Model
-When choosing a model, consider the following factors:
-* Pricing: If cost is a primary concern, the Qwen: Qwen3.5-35B-A3B model's pricing structure should be evaluated against other models.
-* Performance: If high performance is required, the model's benchmarks and capabilities should be carefully evaluated.
-* Use case: If the model's capabilities align with the intended use case
+#### Conclusion
+The Qwen: Qwen3.5-35B-A3B model
 
 ## Best Use Cases
 ### Introduction to Qwen: Qwen3.5-35B-A3B
-Qwen: Qwen3.5-35B-A3B is a powerful language model provided by Qwen, released on 2024-01-01. With its standard tier and proprietary licensing, it offers a range of capabilities including text, function calling, JSON mode, streaming, and structured outputs.
+Qwen: Qwen3.5-35B-A3B is a powerful language model provided by Qwen, released on 2024-01-01. This model is part of the standard tier and is not open-source. With its capabilities in text, function calling, JSON mode, streaming, and structured outputs, it's best suited for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization.
 
 ### Top 5 Best Use Cases for Qwen: Qwen3.5-35B-A3B
-Based on its capabilities and benchmarks, the top 5 best use cases for Qwen: Qwen3.5-35B-A3B are:
+Based on its capabilities and benchmarks, here are the top 5 best use cases for Qwen: Qwen3.5-35B-A3B:
 
-1. **Chat and Text Generation**: With its high MMLU score of 87.0 and support for text and structured outputs, Qwen: Qwen3.5-35B-A3B is well-suited for chat and text generation applications.
-2. **Coding and Analysis**: The model's function calling and JSON mode capabilities make it a good fit for coding and analysis tasks, such as code completion and data analysis.
-3. **Summarization and RAG Pipelines**: Qwen: Qwen3.5-35B-A3B's support for summarization and RAG pipelines makes it a good choice for applications that require condensing large amounts of text into concise summaries.
-4. **Streaming and Real-time Applications**: With its streaming capability, Qwen: Qwen3.5-35B-A3B can be used in real-time applications such as live chat, sentiment analysis, and event detection.
-5. **Structured Data Processing**: The model's support for structured outputs and JSON mode makes it well-suited for processing and generating structured data, such as JSON objects and CSV files.
-
-### Code Integration Examples with OpenRouter
-To integrate Qwen: Qwen3.5-35B-A3B with OpenRouter, you can use the following code example:
-```python
-
+1. **Chat and Text Generation**: With its high MMLU score of 87.0 and ability to handle large context windows (262,144 tokens), Qwen: Qwen3.5-35B-A3B is well-suited for chat and text generation applications. It can understand and respond to complex queries, making it an excellent choice for conversational AI systems.
+2. **Coding and Analysis**: The model's ability to perform function calling and handle structured outputs makes it a great tool for coding and analysis tasks. It can be used to generate code snippets, analyze code quality, and even assist in code completion.
+3. **RAG Pipelines**: Qwen: Qwen3.5-35B-A3B's support for RAG (Retrieve, Augment, Generate) pipelines makes it an excellent choice for applications that require retrieving and generating text based on specific queries or prompts.
+4. **Summarization**: With its high context window and ability to handle large outputs (65,536 tokens), Qwen: Qwen3.5-35B-A3B is well-suited for summarization tasks. It can summarize long documents
 
 ## Frequently Asked Questions
 

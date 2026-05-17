@@ -62,6 +62,9 @@
     "gpt-4-1-vs-openai-gpt-chat-latest",
     "gpt-4o-vs-openai-gpt-chat-latest",
     "mistral-large-2407-vs-openai-gpt-chat-latest",
-    "command-a-vs-openai-gpt-chat-latest"
+    "command-a-vs-openai-gpt-chat-latest",
+    "deepseek-r1-vs-openai-gpt-chat-latest",
+    "gpt-5.4-nano-vs-openai-gpt-chat-latest",
+    "gpt-5.4-mini-vs-openai-gpt-chat-latest"
   ]
 }
