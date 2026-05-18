@@ -65,6 +65,7 @@
     "command-a-vs-openai-gpt-chat-latest",
     "deepseek-r1-vs-openai-gpt-chat-latest",
     "gpt-5.4-nano-vs-openai-gpt-chat-latest",
-    "gpt-5.4-mini-vs-openai-gpt-chat-latest"
+    "gpt-5.4-mini-vs-openai-gpt-chat-latest",
+    "gpt-5.4-pro-vs-openai-gpt-chat-latest"
   ]
 }

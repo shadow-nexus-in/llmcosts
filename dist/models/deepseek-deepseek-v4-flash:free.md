@@ -1,6 +1,6 @@
 # DeepSeek: DeepSeek V4 Flash (free) API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-05-17
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-05-18
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
