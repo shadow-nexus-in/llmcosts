@@ -1,6 +1,6 @@
 # LLMCosts.dev — Complete LLM Pricing Registry (All Models)
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-05-19
+> Updated: 2026-05-20
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -349,3 +349,4 @@ License: CC BY 4.0
 | [Google: Gemini 3.1 Flash Lite](https://llmcosts.dev/models/google-gemini-3.1-flash-lite) | Google | $0.25 | $1.5 | $None | 1,048,576 | None | standard | Closed |
 | [Anthropic: Claude Opus 4.7 (Fast)](https://llmcosts.dev/models/anthropic-claude-opus-4.7-fast) | Anthropic | $30.0 | $150.0 | $None | 1,000,000 | None | premium | Closed |
 | [DeepSeek: DeepSeek V4 Flash (free)](https://llmcosts.dev/models/deepseek-deepseek-v4-flash:free) | Deepseek | $0.0 | $0.0 | $None | 256,000 | None | standard | Closed |
+| [Google: Gemini 3.5 Flash](https://llmcosts.dev/models/google-gemini-3.5-flash) | Google | $1.5 | $9.0 | $None | 1,048,576 | None | standard | Closed |

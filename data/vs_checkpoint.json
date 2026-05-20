@@ -67,6 +67,8 @@
     "gpt-5.4-nano-vs-openai-gpt-chat-latest",
     "gpt-5.4-mini-vs-openai-gpt-chat-latest",
     "gpt-5.4-pro-vs-openai-gpt-chat-latest",
-    "gpt-5.4-vs-openai-gpt-chat-latest"
+    "gpt-5.4-vs-openai-gpt-chat-latest",
+    "anthropic-claude-opus-4.7-fast-vs-google-gemini-3.1-flash-lite",
+    "anthropic-claude-opus-4.7-fast-vs-deepseek-deepseek-v4-flash:free"
   ]
 }

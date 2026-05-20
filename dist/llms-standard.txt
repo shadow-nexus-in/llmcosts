@@ -1,6 +1,6 @@
 # LLMCosts.dev — Standard Tier Models
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-05-19
+> Updated: 2026-05-20
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -272,3 +272,4 @@ License: CC BY 4.0
 | [DeepSeek: DeepSeek V4 Flash](https://llmcosts.dev/models/deepseek-deepseek-v4-flash) | Deepseek | $0.14 | $0.28 | $None | 1,048,576 | None | standard | Closed |
 | [Google: Gemini 3.1 Flash Lite](https://llmcosts.dev/models/google-gemini-3.1-flash-lite) | Google | $0.25 | $1.5 | $None | 1,048,576 | None | standard | Closed |
 | [DeepSeek: DeepSeek V4 Flash (free)](https://llmcosts.dev/models/deepseek-deepseek-v4-flash:free) | Deepseek | $0.0 | $0.0 | $None | 256,000 | None | standard | Closed |
+| [Google: Gemini 3.5 Flash](https://llmcosts.dev/models/google-gemini-3.5-flash) | Google | $1.5 | $9.0 | $None | 1,048,576 | None | standard | Closed |
