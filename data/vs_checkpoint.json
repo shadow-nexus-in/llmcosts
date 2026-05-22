@@ -70,6 +70,8 @@
     "gpt-5.4-vs-openai-gpt-chat-latest",
     "anthropic-claude-opus-4.7-fast-vs-google-gemini-3.1-flash-lite",
     "anthropic-claude-opus-4.7-fast-vs-deepseek-deepseek-v4-flash:free",
-    "anthropic-claude-opus-4.7-fast-vs-google-gemini-3.5-flash"
+    "anthropic-claude-opus-4.7-fast-vs-google-gemini-3.5-flash",
+    "anthropic-claude-opus-4.7-fast-vs-qwen-qwen3.7-max",
+    "anthropic-claude-opus-4.7-fast-vs-o3"
   ]
 }
