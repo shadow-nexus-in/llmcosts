@@ -1,17 +1,17 @@
 # Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview) API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-05-22
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-05-23
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
-### Technical Overview
-The Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview) is a standard-tier model developed by Google, released on January 1, 2024. This model is not open-source and is designed to handle a variety of natural language processing tasks. The architecture of the model is not explicitly stated, but its capabilities and benchmarks suggest a transformer-based design. The model has a context window of 65,536 tokens and can generate up to 65,536 tokens as output.
+### Introduction to Google: Nano Banana 2
+The Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview) is a cutting-edge language model developed by Google, released on January 1, 2024. This model is part of the standard tier and is not open-source. Its architecture is designed to handle a wide range of natural language processing tasks, with a context window of 65,536 tokens and a maximum output of 65,536 tokens. The model's knowledge cutoff is December 2023, ensuring it has access to a vast amount of information up to that point.
 
-### Strengths and Use-Cases
-The Google: Nano Banana 2 model excels in tasks such as chat, text generation, coding, analysis, and summarization. Its capabilities include text processing, function calling, JSON mode, streaming, and structured outputs. The model's strengths are reflected in its benchmarks, with an MMLU score of 80.0 and an LMSYS Arena ELO score of 1200. The primary use-cases for this model include applications that require advanced language understanding and generation capabilities. Developers can leverage this model for tasks such as conversational AI, content generation, and data analysis.
+### Technical Strengths and Use-Cases
+The Google: Nano Banana 2 model boasts several key strengths, including its capabilities in text generation, function calling, JSON mode, streaming, and structured outputs. These features make it an ideal choice for various applications, such as chat, text generation, coding, analysis, RAG pipelines, and summarization. The model's pricing is based on input and output tokens, with a cost of $0.5 per 1M tokens for input and $3.0 per 1M tokens for output. With a high MMLU benchmark score of 80.0 and an LMSYS Arena ELO score of 1200, this model demonstrates its potential for handling complex language tasks. Its capabilities are further highlighted by its cost examples, which show that 1,000 calls with an average of 500 tokens would cost $0.0018, making it a competitive option for developers.
 
-### Pricing and Cost Considerations
-The pricing for the Google: Nano Banana 2 model is as follows: $0.5 per 1M tokens for input, $3.0 per 1M tokens for output, with no charges for cached input or batch input. The cost of using this model can be estimated based on the number of calls and tokens processed. For example, 1,000 calls with an average of 500 tokens would cost approximately $0.0018, while 100,000 calls would cost around $0.18. Developers should consider these costs when designing their applications and balance them against the benefits of using this advanced language model. With no direct competitors listed, the Google: Nano Banana 2 model is a unique offering in the market, and its pricing reflects its capabilities and value proposition.
+### Pricing and Competitiveness
+In terms of pricing, the Google: Nano Banana 2 model offers a competitive pricing structure, with no direct competitors listed. The cost of using this model can be estimated based on the number of calls and tokens used. For instance, 10,000 calls would cost $0.018, while 100,000 calls would cost $0.18. The model's pricing is straightforward,
 
 ## Pricing (USD per 1M tokens)
 | Metric | Price |
@@ -25,30 +25,32 @@ The pricing for the Google: Nano Banana 2 model is as follows: $0.5 per 1M token
 ## Pricing Analysis
 ### Pricing Analysis for Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)
 #### Overview
-The Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview) model is a standard, non-open-source model released by Google on 2024-01-01. This analysis will delve into the cost structure, optimal usage scenarios, and cost-effectiveness at scale.
+The Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview) model is a standard, non-open-source model released by Google on January 1, 2024. This analysis will break down the cost structure, provide guidance on when to use cached tokens, discuss batch API savings, and examine the cost at scale for this model.
 
 #### Cost Structure
-The pricing for this model is as follows:
+The cost structure for this model is as follows:
 * **Input**: $0.5 per 1M tokens
 * **Output**: $3.0 per 1M tokens
-* **Cached Input**: $None per 1M tokens (indicating no additional cost for cached input tokens)
-* **Batch Input**: $None per 1M tokens (suggesting no discount for batched input tokens)
+* **Cached Input**: $None per 1M tokens (i.e., using cached input is free)
+* **Batch Input**: $None per 1M tokens (i.e., batch input does not incur additional costs)
 
-#### Optimal Usage Scenarios
-Given the cost structure, it's essential to understand when to utilize cached tokens and batch API calls to minimize costs:
-* **Cached Tokens**: Since there is no additional cost for cached input tokens, it's beneficial to use cached tokens whenever possible to reduce the overall cost.
-* **Batch API Calls**: Although there is no explicit discount for batched input tokens, making batch API calls can still help reduce the overhead costs associated with individual API requests.
+#### Using Cached Tokens
+Since cached input is free, it is always beneficial to use cached tokens when possible. This can significantly reduce costs, especially for applications with repetitive or similar input sequences.
+
+#### Batch API Savings
+The pricing data does not indicate any additional savings for batch API calls. However, the lack of a batch input cost suggests that Google may be encouraging batch processing by not charging extra for it. To maximize savings, consider batching API calls whenever possible.
 
 #### Cost at Scale
-To understand the cost-effectiveness of this model at scale, let's examine the provided cost examples:
+The cost examples provided are:
 * **1,000 calls (avg 500 tokens)**: $0.0018
 * **10,000 calls**: $0.018
 * **100,000 calls**: $0.18
 
-These examples illustrate a linear increase in cost with the number of API calls, indicating that the cost per call remains relatively constant.
+These costs demonstrate a linear scaling of expenses with the number of API calls. To estimate costs for other scales, we can use the provided costs as a reference.
 
-#### Conclusion
-The Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview) model offers a competitive pricing structure, with a cost per 1M input tokens of $0.
+#### Cost Estimation
+To estimate costs for different scales, we can calculate the cost per call based on the provided examples:
+* **Cost per call (1,000 calls)**: $
 
 ## Benchmarks
 | Benchmark | Score |
@@ -61,70 +63,121 @@ The Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview) model offers a compet
 ## Benchmark Analysis
 ### Analysis of Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview) Benchmark Performance
 #### Overview
-The Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview) model is a standard, non-open-source model released by Google on 2024-01-01. This model has a context window of 65,536 tokens and a maximum output of 65,536 tokens, with a knowledge cutoff of 2023-12.
+The Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview) model, released on 2024-01-01, is a standard-tier model provided by Google. It is not open source.
 
-#### Benchmark Scores
-The model's performance is measured by the following benchmark scores:
-* **MMLU (Massive Multitask Language Understanding)**: 80.0 - This score indicates the model's ability to understand and perform a wide range of natural language tasks. A higher MMLU score suggests better performance in tasks such as text classification, sentiment analysis, and question answering.
-* **HumanEval**: None - HumanEval is a benchmark that evaluates a model's ability to write correct and functional code. The absence of a HumanEval score for this model makes it difficult to assess its coding capabilities.
-* **LMSYS Arena ELO**: 1200 - The LMSYS Arena ELO score is a measure of a model's overall performance in a competitive environment. An ELO score of 1200 indicates that the model is a strong competitor, but its exact ranking and capabilities are unclear without more context.
+#### Pricing
+The pricing for this model is as follows:
+* Input: $0.5 per 1M tokens
+* Output: $3.0 per 1M tokens
+* Cached Input: $None per 1M tokens
+* Batch Input: $None per 1M tokens
 
-#### Real-World Implications
-The benchmark scores suggest that the Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview) model is:
-* **Suitable for text-based tasks**: With a high MMLU score, this model is likely to perform well in tasks such as chat, text generation
+#### Context and Limits
+The model has the following context and limits:
+* Context Window: 65,536 tokens
+* Max Output: 65,536 tokens
+* Knowledge Cutoff: 2023-12
+
+#### Benchmarks
+The model's benchmark performance is as follows:
+* MMLU: **80.0**
+* HumanEval: **None**
+* LMSYS Arena ELO: **1200**
+* GSM8K: **None**
+
+#### Capabilities and Use Cases
+The model is capable of:
+* text
+* function_calling
+* json_mode
+* streaming
+* structured_outputs
+It is best suited for:
+* chat
+* text_generation
+* coding
+* analysis
+* rag_pipelines
+* summarization
+
+### Interpretation of Benchmark Scores
+#### MMLU Score (80.0)
+The MMLU (Massive Multitask Language Understanding) score measures a model's ability to perform a wide range of natural language understanding tasks. A higher MMLU score indicates better performance. With a score of 
 
 ## Competitor Comparison
 ### Comparison of Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview) with Top Competitors
 Since there are no direct competitors listed for the Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview) model, we will provide a general overview of its features, pricing, and performance. This will help users understand when to choose this model and what trade-offs to expect.
 
 #### Model Overview
-The Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview) model is a standard, non-open-source model released by Google on 2024-01-01. It has the following key features:
-* **Context Window**: 65,536 tokens
-* **Max Output**: 65,536 tokens
-* **Knowledge Cutoff**: 2023-12
-* **Capabilities**: text, function_calling, json_mode, streaming, structured_outputs
-* **Best For**: chat, text_generation, coding, analysis, rag_pipelines, summarization
+The Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview) model is a standard, non-open source model released by Google on 2024-01-01. It has a context window of 65,536 tokens and a maximum output of 65,536 tokens, with a knowledge cutoff date of 2023-12.
 
 #### Pricing
-The pricing for the Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview) model is as follows:
-* **Input**: $0.5 per 1M tokens
-* **Output**: $3.0 per 1M tokens
-* **Cached Input**: $None per 1M tokens
-* **Batch Input**: $None per 1M tokens
+The pricing for this model is as follows:
+* Input: $0.5 per 1M tokens
+* Output: $3.0 per 1M tokens
+* Cached Input: $None per 1M tokens
+* Batch Input: $None per 1M tokens
+
+#### Performance
+The model's performance is measured by the following benchmarks:
+* MMLU: 80.0
+* LMSYS Arena ELO: 1200
+
+#### Capabilities and Use Cases
+The Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview) model supports the following capabilities:
+* text
+* function_calling
+* json_mode
+* streaming
+* structured_outputs
+
+It is best suited for the following use cases:
+* chat
+* text_generation
+* coding
+* analysis
+* rag_pipelines
+* summarization
 
 #### Cost Examples
-To give users a better idea of the costs involved, here are some examples:
+The cost of using this model can be estimated as follows:
 * 1,000 calls (avg 500 tokens): $0.0018
 * 10,000 calls: $0.018
 * 100,000 calls: $0.18
 
-#### Performance Trade-Offs
-While there are no direct competitors listed, the Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview) model has the following benchmark scores:
-* **MMLU**: 80.0
-* **LMSYS Arena ELO**: 1200
+#### Choosing the Right Model
+Since there are no direct competitors listed, users should consider the following factors when deciding whether to use the Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview) model:
+* Context window and maximum output requirements
+* Knowledge cutoff date and its impact on the use case
+* Pricing and cost estimates
+* Supported capabilities and use cases
 
-These scores indicate that the model has a good balance of performance and capabilities. However, without direct competitors, it's difficult to make a direct comparison.
-
-#### When to Choose This Model
-Based on its features and capabilities, the Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview) model is a good choice for:
-* Chat and text generation applications
-* Coding and analysis tasks
-*
+In general, this model seems to be a good choice for users who require a standard, non-open source model
 
 ## Best Use Cases
 ### Introduction to Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)
-The Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview) model is a powerful tool for various natural language processing tasks. With its capabilities in text, function calling, JSON mode, streaming, and structured outputs, it can be applied to a wide range of use cases.
+The Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview) model is a powerful tool for various natural language processing tasks. With its capabilities in text, function calling, JSON mode, streaming, and structured outputs, it can be applied to a wide range of applications. Here, we will discuss the top 5 best use cases for this model, along with practical advice and code integration examples using OpenRouter.
 
 ### Top 5 Best Use Cases
-Based on the model's capabilities and benchmarks, here are the top 5 best use cases for Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview):
+1. **Chat and Text Generation**: The model excels in generating human-like text, making it suitable for chatbots, virtual assistants, and content generation tasks.
+2. **Coding and Analysis**: With its function calling and JSON mode capabilities, it can be used for coding tasks, such as code completion, code review, and analysis.
+3. **Summarization and RAG Pipelines**: The model can be applied to summarization tasks, extracting key information from large documents, and used in RAG (Retrieve, Augment, Generate) pipelines for more complex tasks.
+4. **Text-Based Data Analysis**: Its capabilities in text processing make it a good fit for text-based data analysis, such as sentiment analysis, entity recognition, and topic modeling.
+5. **Streaming and Real-Time Processing**: With its streaming capability, it can be used for real-time text processing, such as live chat, sentiment analysis, and event detection.
 
-1. **Chat and Text Generation**: With its high MMLU score of 80.0, this model is well-suited for chat and text generation tasks. It can be used to generate human-like responses to user input, making it a great choice for chatbots and virtual assistants.
-2. **Coding and Analysis**: The model's ability to perform function calling and structured outputs makes it a great tool for coding and analysis tasks. It can be used to generate code snippets, analyze code, and even provide code completion suggestions.
-3. **Summarization**: With its high context window of 65,536 tokens, this model can process large amounts of text and provide accurate summaries. It can be used to summarize long documents, articles, and even entire books.
-4. **RAG Pipelines**: The model's ability to perform text and function calling makes it a great choice for RAG (Retrieval-Augmented Generation) pipelines. It can be used to generate text based on retrieved information, making it a great tool for tasks like question answering and text generation.
-5. **Streaming**: With its ability to perform streaming, this model can be used for real-time text processing tasks. It can be used to analyze and generate text in real-time, making it a great choice for applications like live chat and real-time text analysis.
+### Code Integration Example with OpenRouter
+To integrate the Google: Nano Banana 2 model with OpenRouter, you can use the following code example:
+```python
+import openrouter
 
-### Code Integration Examples with Open
+# Initialize the OpenRouter client
+client = openrouter.Client(api_key="YOUR_API_KEY")
+
+# Define the model and input parameters
+model = "google/gemini-3.1-flash-image-preview"
+input_text = "This is a sample input text."
+
+# Send the request to the model
 
 ## Frequently Asked Questions
 
