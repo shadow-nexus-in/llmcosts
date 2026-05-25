@@ -1,17 +1,17 @@
 # OpenAI: GPT-5.4 Nano API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-05-24
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-05-25
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
 ### Introduction to OpenAI: GPT-5.4 Nano
-The OpenAI: GPT-5.4 Nano model, released on 2024-01-01, is a standard tier language model provided by OpenAI. This model is not open source. From an architectural standpoint, GPT-5.4 Nano is designed to handle a wide range of natural language processing tasks with its transformer-based architecture. Its main strengths include a large context window of 400,000 tokens, allowing it to process and understand lengthy inputs, and a maximum output of 128,000 tokens, enabling it to generate extensive and detailed responses.
+The OpenAI: GPT-5.4 Nano model, released on 2024-01-01, is a standard-tier language model provided by OpenAI. This model is not open-source. From an architectural standpoint, while specific details about the model's architecture are not provided, its capabilities suggest a transformer-based design, which is common for large language models. The model's strengths lie in its ability to handle a wide range of tasks, including text generation, coding, analysis, and summarization, thanks to its capabilities such as text, function calling, JSON mode, streaming, and structured outputs.
 
-### Capabilities and Use Cases
-GPT-5.4 Nano boasts an array of capabilities, including text generation, function calling, JSON mode, streaming, and structured outputs. These capabilities make it best suited for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization. With a high MMLU benchmark score of 94.0 and an LMSYS Arena ELO score of 1350, GPT-5.4 Nano demonstrates strong performance in understanding and generating human-like language. Its pricing model, which includes $0.2 per 1M input tokens and $1.25 per 1M output tokens, provides a cost-effective solution for developers looking to integrate advanced language processing into their applications.
+### Technical Specifications and Use Cases
+OpenAI: GPT-5.4 Nano has a context window of 400,000 tokens and can generate up to 128,000 tokens as output. The model's knowledge cutoff is 2023-12, indicating that its training data includes information up to December 2023. The pricing for this model is structured around input and output tokens, with costs of $0.2 per 1M input tokens and $1.25 per 1M output tokens. The model excels in applications like chat, text generation, coding, analysis, and summarization, making it a versatile tool for developers. Its performance is benchmarked with an MMLU score of 94.0 and an LMSYS Arena ELO of 1350, demonstrating its capabilities in understanding and generating human-like text.
 
-### Pricing and Cost Considerations
-For developers considering the integration of GPT-5.4 Nano into their projects, understanding the pricing structure is crucial. The model's pricing is based on input and output tokens, with no charges for cached or batch inputs. Cost examples provided by OpenAI indicate that 1,000 calls with an average of 500 tokens would cost $0.725, while 10,000 calls would amount to $7.25, and 100,000 calls would total $72.5. With no direct competitors listed, GPT-5.4
+### Cost and Competitiveness
+For developers considering the OpenAI: GPT-5.4 Nano, the cost can be estimated based on the number of calls and tokens used. For example, 1,000 calls with an average of 500 tokens would cost $0.725, scaling up to $72.5 for 100,000 calls. While there are no direct competitors listed for this model, its unique combination of capabilities, such as
 
 ## Pricing (USD per 1M tokens)
 | Metric | Price |
@@ -29,27 +29,31 @@ The OpenAI: GPT-5.4 Nano model is a standard, non-open source model released on 
 
 #### Cost Structure
 The cost structure for OpenAI: GPT-5.4 Nano is as follows:
-* Input: $0.2 per 1M tokens
-* Output: $1.25 per 1M tokens
-* Cached Input: $0 per 1M tokens (free)
-* Batch Input: $0 per 1M tokens (free)
+* **Input**: $0.2 per 1M tokens
+* **Output**: $1.25 per 1M tokens
+* **Cached Input**: $None per 1M tokens (free)
+* **Batch Input**: $None per 1M tokens (free)
 
-#### When to Use Cached Tokens
-Cached tokens can be used to reduce costs when the same input is used multiple times. Since cached input is free, it is recommended to use cached tokens whenever possible to minimize costs.
-
-#### Batch API Savings
-Batching API calls can also help reduce costs. Although the pricing data does not provide a specific discount for batch input, the fact that batch input is listed as $0 per 1M tokens suggests that there may be some cost savings associated with batching. However, the exact amount of savings is not specified.
+#### Cost Optimization Strategies
+To minimize costs, consider the following strategies:
+* **Use cached tokens**: Since cached input is free, it is recommended to use cached tokens whenever possible to reduce input costs.
+* **Batch API calls**: Although there is no explicit discount for batch input, making batch API calls can help reduce the overall number of API calls, leading to cost savings.
 
 #### Cost at Scale
 The cost of using OpenAI: GPT-5.4 Nano at scale is as follows:
-* 1,000 calls (avg 500 tokens): $0.725
-* 10,000 calls: $7.25
-* 100,000 calls: $72.5
+* **1,000 calls (avg 500 tokens)**: $0.725
+* **10,000 calls**: $7.25
+* **100,000 calls**: $72.5
 
 These costs demonstrate a linear scaling of costs with the number of API calls, indicating that the cost per call remains constant regardless of the volume.
 
-#### Conclusion
-In conclusion, the OpenAI: GPT-5.4 Nano model offers a range of capabilities and a cost structure that can be
+#### Context and Limits
+The model has the following context and limits:
+* **Context Window**: 400,000 tokens
+* **Max Output**: 128,000 tokens
+* **Knowledge Cutoff**: 2023-12
+
+These limits should be considered when designing applications to ensure that they
 
 ## Benchmarks
 | Benchmark | Score |
@@ -61,83 +65,83 @@ In conclusion, the OpenAI: GPT-5.4 Nano model offers a range of capabilities and
 
 ## Benchmark Analysis
 ### Analysis of OpenAI: GPT-5.4 Nano Benchmark Performance
-#### Overview
-The OpenAI: GPT-5.4 Nano model, released on January 1, 2024, is a standard, non-open-source model provided by OpenAI. This analysis will delve into the model's benchmark performance, focusing on the MMLU, HumanEval, and Arena ELO scores, and their implications for real-world use.
+#### Introduction
+The OpenAI: GPT-5.4 Nano model, released on 2024-01-01, is a standard, non-open-source model provided by OpenAI. This analysis will delve into the model's benchmark performance, focusing on the MMLU, HumanEval, and Arena ELO scores, and their implications for real-world use.
 
 #### Benchmark Scores
 The model's benchmark scores are as follows:
-* **MMLU (Massive Multitask Language Understanding)**: 94.0 - This score indicates the model's ability to understand and perform a wide range of natural language tasks. A higher MMLU score suggests better performance in tasks such as text generation, question answering, and language translation.
-* **HumanEval**: None - HumanEval is a benchmark that evaluates a model's ability to generate code. The lack of a HumanEval score for this model means its code generation capabilities are not explicitly measured.
-* **LMSYS Arena ELO**: 1350 - The LMSYS Arena ELO score is a measure of a model's performance in a competitive arena, where models are pitted against each other to complete tasks. An ELO score of 1350 indicates that the model is a strong competitor, but the exact ranking depends on the scores of other models in the arena.
+* **MMLU (Massive Multitask Language Understanding)**: 94.0
+* **HumanEval**: Not available
+* **LMSYS Arena ELO**: 1350
+* **GSM8K**: Not available
+
+The MMLU score of 94.0 indicates the model's ability to understand and generate human-like text across a wide range of tasks and domains. A higher MMLU score suggests better performance in tasks that require a deep understanding of language.
+
+The LMSYS Arena ELO score of 1350 provides a measure of the model's competitive performance in a controlled environment. ELO scores are commonly used in gaming and other competitive contexts to rank players or models based on their performance. A higher ELO score indicates a stronger performance.
 
 #### Real-World Implications
-The benchmark scores suggest that the OpenAI: GPT-5.4 Nano model is:
-* **Suitable for text-related tasks**: With a high MMLU score, this model is well-suited for tasks such as text generation, chat, and analysis.
-* **Uncertain
+The benchmark scores have significant implications for real-world use:
+* **Text generation and understanding**: The high MMLU score suggests that the model is well-suited for tasks that require generating human-like text, such as chat, text generation, and summarization.
+* **Coding and analysis**: The model's capabilities in function calling, JSON mode, and structured outputs make it a good fit for coding and analysis
 
 ## Competitor Comparison
 ### Comparison of OpenAI: GPT-5.4 Nano with Top Competitors
-Since there are no direct competitors listed for the OpenAI: GPT-5.4 Nano model, we will provide a general overview of its features, pricing, and performance. This will help users understand the model's capabilities and make informed decisions about its adoption.
+Since there are no direct competitors listed for the OpenAI: GPT-5.4 Nano model, we will provide a general comparison framework that can be applied when evaluating this model against other similar language models in the market.
 
-#### Model Overview
-The OpenAI: GPT-5.4 Nano model is a standard-tier model released by OpenAI on 2024-01-01. It is not open-source and has the following key features:
-* **Context Window**: 400,000 tokens
-* **Max Output**: 128,000 tokens
-* **Knowledge Cutoff**: 2023-12
-* **Capabilities**: text, function_calling, json_mode, streaming, structured_outputs
-* **Best For**: chat, text_generation, coding, analysis, rag_pipelines, summarization
+#### Pricing Comparison
+The OpenAI: GPT-5.4 Nano model is priced as follows:
+- Input: $0.2 per 1M tokens
+- Output: $1.25 per 1M tokens
 
-#### Pricing
-The pricing for the OpenAI: GPT-5.4 Nano model is as follows:
-* **Input**: $0.2 per 1M tokens
-* **Output**: $1.25 per 1M tokens
-* **Cached Input**: $None per 1M tokens
-* **Batch Input**: $None per 1M tokens
+To compare, one would need to look at the pricing structures of other models, considering both input and output costs. For example, if a competitor model charges $0.15 per 1M tokens for input but $1.5 per 1M tokens for output, the choice between the two would depend on the specific use case and whether input or output token volumes are higher.
+
+#### Performance Trade-offs
+The performance of the OpenAI: GPT-5.4 Nano is indicated by its benchmarks:
+- MMLU: 94.0
+- LMSYS Arena ELO: 1350
+
+When comparing this model to others, consider the specific benchmarks that are relevant to your use case. For instance, if a competitor model has a higher MMLU score but is more expensive, you must weigh the cost against the performance gain.
+
+#### Context and Limits
+The OpenAI: GPT-5.4 Nano has the following context and limits:
+- Context Window: 400,000 tokens
+- Max Output: 128,000 tokens
+- Knowledge Cutoff: 2023-12
+
+Competitor models may offer larger context windows, higher max output tokens, or more recent knowledge cutoffs, which could be crucial depending on the application. For example, if your use case requires processing very long documents, a model with a larger context window might be preferable.
+
+#### Capabilities and Best Use Cases
+The OpenAI: GPT-5.4 Nano supports:
+- Capabilities: text, function_calling, json_mode, streaming, structured_outputs
+- Best for: chat, text_generation, coding, analysis, rag_pipelines, summarization
+
+When choosing between models, consider which capabilities and use cases are most relevant to your needs. If a competitor model offers additional capabilities or is more suited to your specific application, it might be a better choice despite other factors.
 
 #### Cost Examples
-Here are some cost examples for using the OpenAI: GPT-5.4 Nano model:
-* **1,000 calls (avg 500 tokens)**: $0.725
-* **10,000 calls**: $7.25
-* **100,000 calls**: $72.5
-
-#### Performance
-The OpenAI: GPT-5.4 Nano model has the following benchmark scores:
-* **MMLU**: 94.0
-* **LMSYS Arena ELO**: 1350
-
-Since there are no direct competitors listed, we cannot provide a direct comparison of the OpenAI: GPT-5.4 Nano model with other models. However, we can suggest that users consider the following factors when evaluating the model:
-* **Performance**: Consider the benchmark scores and evaluate whether the model meets your performance requirements.
-* **Pricing**: Evaluate the pricing model and consider whether it fits within your budget.
-* **Capabilities**: Consider the capabilities of the model and evaluate whether they align with your use case.
-
-In general, the OpenAI: GPT-5.4 Nano model appears to be a powerful
+The cost examples
 
 ## Best Use Cases
 ### Introduction to OpenAI: GPT-5.4 Nano
-The OpenAI: GPT-5.4 Nano model is a standard, non-open-source AI model released by OpenAI on 2024-01-01. This model is particularly suited for a variety of tasks including chat, text generation, coding, analysis, and summarization.
+The OpenAI: GPT-5.4 Nano model is a powerful language model released by OpenAI on 2024-01-01. With its standard tier and closed-source architecture, it offers a range of capabilities, including text generation, function calling, and structured outputs. In this guide, we will explore the top 5 best use cases for OpenAI: GPT-5.4 Nano, along with code integration examples using OpenRouter.
 
-### Top 5 Best Use Cases for OpenAI: GPT-5.4 Nano
-Based on the capabilities and benchmarks of the OpenAI: GPT-5.4 Nano model, the following are the top 5 best use cases:
+### Top 5 Use Cases for OpenAI: GPT-5.4 Nano
+#### 1. Chat and Conversational Interfaces
+OpenAI: GPT-5.4 Nano is well-suited for chat and conversational interfaces due to its ability to generate human-like text responses. With a context window of 400,000 tokens, it can understand and respond to complex user queries.
 
-1. **Chat and Text Generation**: With its high MMLU score of 94.0, this model is well-suited for generating human-like text and engaging in conversation.
-2. **Coding and Analysis**: The model's ability to perform function calling and generate structured outputs makes it a great tool for coding and analysis tasks.
-3. **Summarization**: The OpenAI: GPT-5.4 Nano model can be used to summarize long pieces of text into concise, easily digestible summaries.
-4. **RAG Pipelines**: The model's support for RAG (Retrieve, Augment, Generate) pipelines makes it a great choice for tasks that require generating text based on external knowledge.
-5. **Streaming and JSON Mode**: The model's ability to handle streaming input and output, as well as JSON mode, makes it a great choice for real-time applications and data processing tasks.
+#### 2. Text Generation and Summarization
+The model excels in text generation and summarization tasks, making it ideal for applications such as content creation, news summarization, and document analysis.
+
+#### 3. Coding and Function Calling
+OpenAI: GPT-5.4 Nano supports function calling and coding capabilities, allowing developers to integrate it with their applications for tasks such as code completion, code review, and bug detection.
+
+#### 4. Analysis and RAG Pipelines
+The model's ability to process large amounts of text data makes it suitable for analysis and RAG (Retrieve, Augment, Generate) pipelines, which involve retrieving relevant information, augmenting it with external knowledge, and generating text outputs.
+
+#### 5. Structured Outputs and JSON Mode
+OpenAI: GPT-5.4 Nano supports structured outputs and JSON mode, enabling developers to integrate it with their applications for tasks such as data processing, data visualization, and API interactions.
 
 ### Code Integration Examples with OpenRouter
-To integrate the OpenAI: GPT-5.4 Nano model with OpenRouter, you can use the following code example:
-```python
-import openrouter
-
-# Initialize the OpenRouter client
-client = openrouter.Client(api_key="YOUR_API_KEY")
-
-# Define the input prompt
-prompt = "Write a short story about a character who discovers a hidden world."
-
-# Define the model and parameters
-model = "openai/gpt
+To integrate OpenAI: GPT-5
 
 ## Frequently Asked Questions
 

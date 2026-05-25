@@ -78,6 +78,10 @@
     "anthropic-claude-opus-4.7-fast-vs-claude-sonnet-4",
     "anthropic-claude-opus-4.7-fast-vs-o1",
     "anthropic-claude-opus-4.7-fast-vs-gpt-4-1",
-    "anthropic-claude-opus-4.7-fast-vs-gpt-4o"
+    "anthropic-claude-opus-4.7-fast-vs-gpt-4o",
+    "anthropic-claude-opus-4.7-fast-vs-mistral-large-2407",
+    "anthropic-claude-opus-4.7-fast-vs-command-a",
+    "anthropic-claude-opus-4.7-fast-vs-deepseek-r1",
+    "anthropic-claude-opus-4.7-fast-vs-gpt-5.4-nano"
   ]
 }

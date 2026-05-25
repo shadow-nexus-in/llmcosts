@@ -1,17 +1,17 @@
 # Claude 3.5 Haiku API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-05-24
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-05-25
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
 ### Introduction to Claude 3.5 Haiku
-The Claude 3.5 Haiku model, released by Anthropic on 2024-11-04, is a standard-tier language model that boasts an impressive set of capabilities, including text, vision, tool use, JSON mode, streaming, batch processing, and system prompts. With a context window of 200,000 tokens and a maximum output of 8,192 tokens, this model is well-suited for a variety of applications, including chatbots, classification, summarization, and coding assistance. The model's knowledge cutoff is 2024-07, ensuring that it has a robust understanding of information up to that point.
+The Claude 3.5 Haiku model, developed by Anthropic, is a standard-tier language model released on 2024-11-04. This model is not open-source. From an architectural standpoint, Claude 3.5 Haiku boasts a context window of 200,000 tokens and can generate up to 8,192 output tokens. Its knowledge cutoff is 2024-07, indicating that its training data includes information up to July 2024. The model's capabilities include text, vision, tool use, JSON mode, streaming, batch processing, and system prompts.
 
-### Architecture and Strengths
-The Claude 3.5 Haiku model has demonstrated strong performance across several benchmarks, including MMLU (81.4), HumanEval (88.1), LMSYS Arena ELO (1220), and GSM8K (92.0). Its architecture is designed to support high-volume applications, making it an ideal choice for use cases that require rapid and accurate processing of large amounts of data. The model's pricing structure is as follows: $0.8 per 1M tokens for input, $4.0 per 1M tokens for output, $0.08 per 1M tokens for cached input, and $0.4 per 1M tokens for batch input. This pricing model allows developers to optimize their costs based on their specific use case and requirements.
+### Technical Strengths and Use Cases
+Claude 3.5 Haiku demonstrates its strengths through various benchmarks, achieving scores of 81.4 on MMLU, 88.1 on HumanEval, 1220 on LMSYS Arena ELO, and 92.0 on GSM8K. These results suggest the model is well-suited for applications such as chatbots, classification, summarization, RAG, and coding assistance, particularly in high-volume scenarios. However, it may not be the best choice for tasks requiring complex reasoning, frontier coding, embeddings, or bulk cheap tasks. The model's pricing structure includes $0.8 per 1M input tokens, $4.0 per 1M output tokens, $0.08 per 1M cached input tokens, and $0.4 per 1M batch input tokens.
 
-### Use Cases and Cost Considerations
-The Claude 3.5 Haiku model is best suited for applications that require high-volume processing, such as chatbots, classification, and coding assistance. However, it may not be the best choice for complex reasoning, frontier coding, embeddings, or bulk cheap tasks. To give developers a better understanding of the costs involved, the following examples are provided: 1,000 calls (avg 500 tokens) would cost $2
+### Cost Considerations and Competitors
+To understand the cost implications of using Claude 3.5 Haiku, consider the following examples: 1,000 calls with an average of 500 tokens cost $2.4, while 10,000 calls cost $24.0, and 100,000 calls cost $240.0. In comparison to its competitors, Claude 3.5 Haiku's pricing is higher than GPT-4o
 
 ## Pricing (USD per 1M tokens)
 | Metric | Price |
@@ -25,7 +25,7 @@ The Claude 3.5 Haiku model is best suited for applications that require high-vol
 ## Pricing Analysis
 ### Claude 3.5 Haiku Pricing Analysis
 #### Overview
-The Claude 3.5 Haiku model, provided by Anthropic, offers a range of capabilities including text, vision, and batch processing. This analysis will delve into the cost structure, optimal usage scenarios, and cost-effectiveness at scale.
+The Claude 3.5 Haiku model, provided by Anthropic, offers a range of capabilities including text, vision, and tool use. Released on 2024-11-04, this model is part of the standard tier and is not open source.
 
 #### Cost Structure
 The pricing for Claude 3.5 Haiku is as follows:
@@ -35,23 +35,22 @@ The pricing for Claude 3.5 Haiku is as follows:
 * Batch Input: **$0.4 per 1M tokens**
 
 #### When to Use Cached Tokens
-Cached input tokens are significantly cheaper than regular input tokens, with a price difference of **$0.72 per 1M tokens**. It is recommended to use cached tokens when possible, especially for high-volume tasks or applications where input data is frequently reused.
+Cached tokens can significantly reduce costs, with a price of **$0.08 per 1M tokens**, which is 1/10th the cost of regular input tokens (**$0.8 per 1M tokens**). This makes cached tokens an attractive option for applications where input data is repeated or can be cached.
 
 #### Batch API Savings
-Batch input tokens offer a discount of **$0.4 per 1M tokens** compared to regular input tokens. This makes batch processing an attractive option for applications that can process large volumes of data in parallel.
+Batch input tokens are priced at **$0.4 per 1M tokens**, which is half the cost of regular input tokens (**$0.8 per 1M tokens**). This makes batch processing a cost-effective option for high-volume applications.
 
 #### Cost at Scale
 The cost of using Claude 3.5 Haiku at scale is as follows:
-* 1,000 API calls (avg 500 tokens): **$2.4**
-* 10,000 API calls: **$24.0**
-* 100,000 API calls: **$240.0**
+* 1,000 calls (avg 500 tokens): **$2.4**
+* 10,000 calls: **$24.0**
+* 100,000 calls: **$240.0**
 
-These costs demonstrate a linear scaling of expenses with the number of API calls, indicating that the pricing model is straightforward and easy to predict.
+These costs demonstrate a linear scaling of costs with the number of API calls.
 
 #### Comparison to Top Competitors
-Claude 3.5 Haiku's pricing is competitive with other top models:
-* GPT-4o Mini: **$0.15/1M input**, **$0.6/1M output**
-* Llama 3.
+Claude 3.5 Haiku's pricing can be compared to its top competitors:
+* GPT-4o Mini: **$0.15/1M input**, **$0.
 
 ## Benchmarks
 | Benchmark | Score |
@@ -62,29 +61,34 @@ Claude 3.5 Haiku's pricing is competitive with other top models:
 | ARC | 92.0 |
 
 ## Benchmark Analysis
-### Analysis of Claude 3.5 Haiku Benchmark Performance
+### Claude 3.5 Haiku Benchmark Performance Analysis
 #### Overview
-Claude 3.5 Haiku, provided by Anthropic, is a standard-tier model with a release date of 2024-11-04. This analysis will delve into the benchmark performance of Claude 3.5 Haiku, focusing on the MMLU, HumanEval, and Arena ELO scores, and their implications for real-world use.
+The Claude 3.5 Haiku model, released by Anthropic on 2024-11-04, is a standard, non-open-source model with a context window of 200,000 tokens and a maximum output of 8,192 tokens. Its performance is measured by several benchmarks, including MMLU, HumanEval, and Arena ELO scores.
 
 #### Benchmark Scores
-The model's benchmark scores are as follows:
-* **MMLU (Massive Multitask Language Understanding)**: 81.4
-* **HumanEval**: 88.1
-* **LMSYS Arena ELO**: 1220
-* **GSM8K**: 92.0
+* **MMLU (Massive Multitask Language Understanding) Score: 81.4** - This score indicates the model's ability to understand and perform a wide range of natural language processing tasks. A higher score suggests better performance in tasks such as text classification, sentiment analysis, and question answering.
+* **HumanEval Score: 88.1** - This score measures the model's ability to generate human-like text based on a given prompt. A higher score indicates better performance in tasks such as text generation, summarization, and conversation.
+* **LMSYS Arena ELO Score: 1220** - This score is a measure of the model's overall language understanding and generation capabilities, with higher scores indicating better performance.
 
-These scores indicate the model's performance in various areas:
-* **MMLU**: Measures the model's ability to understand and generate human-like text across a wide range of tasks. A score of 81.4 suggests that Claude 3.5 Haiku has a strong understanding of language, but may struggle with more complex or nuanced tasks.
-* **HumanEval**: Evaluates the model's ability to write correct and functional code. A score of 88.1 indicates that Claude 3.5 Haiku is proficient in coding tasks, making it suitable for applications such as coding assistance.
-* **LMSYS Arena ELO**: Assesses the model's performance in a competitive environment, where it is pitted against other models. An ELO score of 1220 suggests that Claude 3.5 Haiku is a strong competitor, but may not be the top-performing model in all scenarios.
+#### Real-World Use Implications
+The benchmark scores suggest that Claude 3.5 Haiku is a capable model for a variety of natural language processing tasks, including:
+* Text generation and summarization
+* Conversation and chatbots
+* Classification and sentiment analysis
+* Coding assistance and programming-related tasks
 
-#### Real-World Implications
-The benchmark scores
+However, the model may not be suitable for tasks that require:
+* Complex reasoning and problem-solving
+* Frontier coding and advanced programming concepts
+* Embeddings and bulk, cheap tasks
+
+#### Pricing and Cost Examples
+The pricing for
 
 ## Competitor Comparison
 ### Claude 3.5 Haiku Comparison
 #### Overview
-The Claude 3.5 Haiku model, released by Anthropic on 2024-11-04, is a standard, non-open-source model with a unique set of capabilities and pricing. This comparison will examine the Claude 3.5 Haiku against its top competitors, GPT-4o Mini and Llama 3.1 70B Instruct, in terms of price, performance, and use cases.
+The Claude 3.5 Haiku model, provided by Anthropic, is a standard-tier model with a release date of 2024-11-04. This model is not open source. In this comparison, we will examine the pricing, performance, and capabilities of Claude 3.5 Haiku against its top competitors, GPT-4o Mini and Llama 3.1 70B Instruct.
 
 #### Pricing Comparison
 The pricing for each model is as follows:
@@ -100,8 +104,6 @@ The pricing for each model is as follows:
 	+ Input: $0.52 per 1M tokens
 	+ Output: $0.75 per 1M tokens
 
-The Claude 3.5 Haiku is significantly more expensive than its competitors, particularly in terms of output pricing.
-
 #### Performance Comparison
 The performance of each model can be evaluated using various benchmarks:
 * Claude 3.5 Haiku:
@@ -109,44 +111,61 @@ The performance of each model can be evaluated using various benchmarks:
 	+ HumanEval: 88.1
 	+ LMSYS Arena ELO: 1220
 	+ GSM8K: 92.0
-* GPT-4o Mini and Llama 3.1 70B Instruct benchmark data is not provided, making direct comparison challenging.
-
-However, based on the available data, the Claude 3.5 Haiku demonstrates strong performance across various tasks.
-
-#### Context and Limits
-The Claude 3.5 Haiku has the following context and limits:
-* Context Window: 200,000 tokens
-* Max Output: 8,192 tokens
-* Knowledge Cutoff: 2024-07
-
-These limits are not directly comparable to the top competitors, as their data is not provided.
+* GPT-4o Mini and Llama 3.1 70B Instruct benchmark scores are not provided.
 
 #### Capabilities and Use Cases
-The Claude 3.5 Haiku is capable of:
+Claude 3.5 Haiku is capable of:
 * Text
 * Vision
 * Tool use
+* JSON mode
+* Streaming
+* Batch processing
+* System prompts
+It is best suited for:
+* Chatbots
+* Classification
+* Summarization
+* RAG
+* Coding assistance
+* High-volume tasks
+However, it is not recommended for:
+* Complex reasoning
+* Frontier coding
+* Embeddings
+* Bulk cheap tasks
+
+#### Cost Examples
+The estimated costs for using Claude 3.5 Haiku are:
+* 1,000 calls (avg 500 tokens): $2.4
+* 10,000 calls: $24.0
+* 
 
 ## Best Use Cases
 ### Introduction to Claude 3.5 Haiku
-The Claude 3.5 Haiku model, provided by Anthropic, is a powerful tool with a wide range of capabilities, including text, vision, and tool use. Released on 2024-11-04, this model is well-suited for applications such as chatbots, classification, summarization, and coding assistance.
+The Claude 3.5 Haiku model, provided by Anthropic, is a standard, non-open-source model released on 2024-11-04. It offers a range of capabilities including text, vision, tool use, JSON mode, streaming, batch processing, and system prompts. This model is best suited for applications such as chatbots, classification, summarization, RAG, and coding assistance, particularly in high-volume scenarios.
 
 ### Top 5 Best Use Cases for Claude 3.5 Haiku
 Based on its capabilities and pricing, the top 5 best use cases for Claude 3.5 Haiku are:
 
-1. **Chatbots**: With its high performance on the MMLU benchmark (81.4) and ability to handle large context windows (200,000 tokens), Claude 3.5 Haiku is an excellent choice for building conversational AI models.
-2. **Classification**: The model's high accuracy on the HumanEval benchmark (88.1) makes it well-suited for classification tasks, such as sentiment analysis or topic modeling.
-3. **Summarization**: Claude 3.5 Haiku's ability to generate concise and accurate summaries, combined with its high performance on the GSM8K benchmark (92.0), make it an excellent choice for summarization tasks.
-4. **Coding Assistance**: With its high performance on the HumanEval benchmark (88.1) and ability to handle code-related tasks, Claude 3.5 Haiku is a great choice for coding assistance applications, such as code completion or code review.
-5. **High-Volume Applications**: Claude 3.5 Haiku's ability to handle large volumes of data, combined with its competitive pricing, make it an excellent choice for high-volume applications, such as data processing or content generation.
+1. **Chatbots**: With its strong performance in text-based applications, Claude 3.5 Haiku is ideal for chatbot development, offering efficient and accurate conversational AI.
+2. **Classification**: The model's capabilities in text analysis make it suitable for classification tasks, such as sentiment analysis or spam detection.
+3. **Summarization**: Claude 3.5 Haiku can effectively summarize long pieces of text, making it useful for applications like news aggregation or document summarization.
+4. **Coding Assistance**: The model's coding assistance capabilities make it a valuable tool for developers, providing help with code completion, debugging, and optimization.
+5. **RAG (Retrieval-Augmented Generation)**: Claude 3.5 Haiku's ability to use external knowledge sources and generate text based on that knowledge makes it well-suited for RAG tasks.
 
 ### Code Integration Example with OpenRouter
-To integrate Claude 3.5 Haiku with OpenRouter, you can use the following code example:
+To integrate Claude 3.5 Haiku with OpenRouter, you can use the following example code:
 ```python
 import os
 import openrouter
 
-# Set up OpenRouter
+# Set up Claude 3.5 Haiku model
+model_name = "anthropic/claude-3.5-haiku"
+model = openrouter.Model(model_name)
+
+# Define a function to process input text
+
 
 ## Frequently Asked Questions
 
