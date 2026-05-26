@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://llmcosts.dev/models/nemotron-3-super-120b-a12b">
 
   <!-- Schema.org: Dataset -->
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "NVIDIA: Nemotron 3 Super API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for NVIDIA: Nemotron 3 Super by Nvidia.", "url": "https://llmcosts.dev/models/nemotron-3-super-120b-a12b", "keywords": ["NVIDIA: Nemotron 3 Super", "Nvidia", "llm", "api"], "dateModified": "2026-05-25", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "NVIDIA: Nemotron 3 Super API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for NVIDIA: Nemotron 3 Super by Nvidia.", "url": "https://llmcosts.dev/models/nemotron-3-super-120b-a12b", "keywords": ["NVIDIA: Nemotron 3 Super", "Nvidia", "llm", "api"], "dateModified": "2026-05-26", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
   <!-- Schema.org: FAQ -->
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
 
@@ -346,13 +346,13 @@
       <div class="card content-section">
         <div class="card-title">Overview</div>
         <div>### Introduction to NVIDIA Nemotron 3 Super
-The NVIDIA Nemotron 3 Super is a powerful language model developed by Nvidia, released on January 1, 2024. This model is part of the standard tier and is not open-source. With its robust architecture, the Nemotron 3 Super is designed to handle a wide range of tasks, including text generation, coding, analysis, and summarization. The model's capabilities include text, function calling, JSON mode, streaming, and structured outputs, making it a versatile tool for developers.
+The NVIDIA Nemotron 3 Super, released on 2024-01-01, is a powerful language model designed for a wide range of applications, including chat, text generation, coding, analysis, and summarization. This model, provided by Nvidia, is part of the standard tier and is not open-source. With its robust architecture, the Nemotron 3 Super boasts a context window of 262,144 tokens and can generate up to 4,096 tokens as output. The model's knowledge cutoff is 2023-12, ensuring it is trained on data up to that point.
 
-### Technical Specifications and Strengths
-The Nemotron 3 Super has a context window of 262,144 tokens and can generate up to 4,096 output tokens. Its knowledge cutoff is December 2023, ensuring that it has been trained on a vast amount of data up to that point. The model's pricing is based on input and output tokens, with costs of $0.1 per 1M input tokens and $0.5 per 1M output tokens. The Nemotron 3 Super has demonstrated impressive performance in various benchmarks, including an MMLU score of 80.0 and an LMSYS Arena ELO rating of 1200. Its strengths lie in its ability to handle complex tasks, such as chat, text generation, and coding, making it an ideal choice for developers working on these applications.
+### Technical Capabilities and Pricing
+The Nemotron 3 Super offers a variety of capabilities, including text processing, function calling, JSON mode, streaming, and structured outputs. Its pricing model is based on input and output tokens, with costs of $0.1 per 1M tokens for input and $0.5 per 1M tokens for output. There are no additional costs for cached input or batch input. The model's performance is benchmarked with an MMLU score of 80.0 and an LMSYS Arena ELO of 1200. Developers can expect to pay $0.3 for 1,000 calls (avg 500 tokens), $3.0 for 10,000 calls, and $30.0 for 100,000 calls. The model's strengths lie in its ability to handle complex tasks and generate high-quality outputs, making it a valuable tool for developers working on applications that require advanced language processing capabilities.
 
-### Use Cases and Cost Examples
-The Nemotron 3 Super is best suited for tasks that require advanced language understanding and generation capabilities, such as chat, text generation, coding, analysis, and summarization. Developers can use this model to build a wide range of applications, from conversational AI to content generation tools. The cost of using the Nemotron 3 Super is relatively affordable, with examples including $0.3 for 1,000 calls (avg 500 tokens), $3.0 for 10,000 calls, and $30.0 for 100,000 calls.</div>
+### Use Cases and Competitors
+The NVIDIA Nemotron 3 Super is best suited for applications such as chat, text generation, coding, analysis, and summarization. It is not recommended for use cases that are not listed as part of its capabilities. Currently, there are no direct competitors listed for the Nemotron 3 Super, making it a unique offering in the</div>
       </div>
 
       <!-- PRICING -->
@@ -393,7 +393,7 @@ The Nemotron 3 Super is best suited for tasks that require advanced language und
 
         <div style="margin-top:1.5rem">### NVIDIA Nemotron 3 Super Pricing Analysis
 #### Overview
-The NVIDIA Nemotron 3 Super is a standard, non-open-source model released by Nvidia on January 1, 2024. This analysis will delve into the cost structure, usage scenarios, and scalability of this model.
+The NVIDIA Nemotron 3 Super is a standard, non-open-source model released by Nvidia on January 1, 2024. This analysis will delve into the cost structure, usage scenarios, and cost savings opportunities for this model.
 
 #### Cost Structure
 The pricing for the NVIDIA Nemotron 3 Super is as follows:
@@ -402,29 +402,21 @@ The pricing for the NVIDIA Nemotron 3 Super is as follows:
 * Cached Input: $None per 1M tokens (free)
 * Batch Input: $None per 1M tokens (free)
 
-#### Usage Scenarios
-Given the cost structure, it is beneficial to use:
-* **Cached Input** whenever possible, as it is free and can significantly reduce costs for repeated input sequences.
-* **Batch Input** for large-scale operations, as it is also free and can help minimize costs for bulk API calls.
+#### Usage Scenarios and Cost Savings
+* **Cached Tokens**: Since cached input is free, it is highly recommended to use cached tokens whenever possible to minimize costs.
+* **Batch API Savings**: Although batch input is free, the actual cost savings come from reducing the number of API calls. By batching input, users can reduce the number of calls, resulting in lower overall costs.
+* **Cost at Scale**:
+	+ 1,000 calls (avg 500 tokens): $0.3
+	+ 10,000 calls: $3.0
+	+ 100,000 calls: $30.0
 
-#### Cost at Scale
-The cost of using the NVIDIA Nemotron 3 Super at different scales is as follows:
-* **1,000 API calls** (avg 500 tokens): $0.3
-* **10,000 API calls**: $3.0
-* **100,000 API calls**: $30.0
+#### Cost Calculation
+To calculate the cost, we need to consider both input and output tokens. Assuming an average output size of 500 tokens (similar to the 1,000 calls example), we can estimate the cost as follows:
+* Input cost: $0.1 per 1M tokens
+* Output cost: $0.5 per 1M tokens
+* Total cost per 1M tokens: $0.1 (input) + $0.5 (output) = $0.6 per 1M tokens
 
-These costs demonstrate a linear scaling of expenses with the number of API calls, indicating that the pricing model is straightforward and easy to predict.
-
-#### Batch API Savings
-Although the batch input is free, the actual cost savings come from the reduced overhead and increased efficiency of processing large batches of API calls. This can lead to significant cost reductions for high-volume users.
-
-#### Context and Limits
-It is essential to consider the context window, max output, and knowledge cutoff when using the NVIDIA Nemotron 3 Super:
-* **Context Window**: 262,144 tokens
-* **Max Output**: 4,096 tokens
-* **Knowledge Cutoff**: 2023-12
-
-These limits can impact</div>
+For 1,000 calls with an average of 500 tokens, the total token count would be 500,000 tokens. Using the estimated cost per</div>
       </div>
 
       <!-- BENCHMARKS -->
@@ -435,21 +427,34 @@ These limits can impact</div>
           <div class="stat-cell"><div class="stat-label">HumanEval</div><div class="stat-value">None</div></div>
           <div class="stat-cell"><div class="stat-label">LMSYS ELO</div><div class="stat-value">1200</div></div>
         </div>
-        <div>### Analysis of NVIDIA Nemotron 3 Super Benchmark Performance
-The NVIDIA Nemotron 3 Super is a standard, non-open-source model released by Nvidia on 2024-01-01. This analysis will delve into its benchmark performance, focusing on the MMLU, HumanEval, and Arena ELO scores, to understand its capabilities and limitations in real-world applications.
+        <div>### NVIDIA Nemotron 3 Super Benchmark Analysis
+#### Overview
+The NVIDIA Nemotron 3 Super is a standard, non-open-source model released by Nvidia on 2024-01-01. This analysis will delve into its benchmark performance, focusing on the MMLU, HumanEval, and Arena ELO scores, and their implications for real-world applications.
 
 #### Benchmark Scores
-- **MMLU (Massive Multitask Language Understanding) Score**: 80.0
-  The MMLU score is a measure of a model's ability to understand and perform a wide range of natural language processing tasks. A score of 80.0 indicates that the NVIDIA Nemotron 3 Super has a strong foundation in language understanding, suggesting it can handle complex tasks with a reasonable level of accuracy.
+The model's benchmark scores are as follows:
+* **MMLU (Massive Multitask Language Understanding)**: 80.0
+* **HumanEval**: None
+* **LMSYS Arena ELO**: 1200
+* **GSM8K**: None
 
-- **HumanEval Score**: None
-  The HumanEval score evaluates a model's ability to generate code that passes human-written tests. The absence of a HumanEval score for the NVIDIA Nemotron 3 Super makes it difficult to assess its coding capabilities directly. However, given its listing under "BEST FOR" as suitable for coding, it implies the model has some level of coding proficiency, even if not quantitatively measured here.
+The MMLU score of 80.0 indicates the model's ability to understand and generate human-like text across a wide range of tasks and domains. A higher MMLU score generally corresponds to better language understanding and generation capabilities.
 
-- **LMSYS Arena ELO Score**: 1200
-  The LMSYS Arena ELO score is a measure of a model's competitive performance in various tasks, with higher scores indicating better performance. An ELO score of 1200 suggests that the NVIDIA Nemotron 3 Super has a moderate level of proficiency in competitive tasks, though the exact implications depend on the context and tasks being evaluated.
+The absence of HumanEval and GSM8K scores limits the understanding of the model's performance in specific areas, such as coding and math problem-solving. However, the LMSYS Arena ELO score of 1200 provides insight into the model's overall language proficiency and competitiveness.
 
-#### Real-World Use Implications
-Given the benchmark scores, the NVIDIA Nem</div>
+#### Real-World Implications
+The benchmark scores suggest that the NVIDIA Nemotron 3 Super is suitable for various natural language processing (NLP) tasks, including:
+* Text generation
+* Chat and conversation
+* Coding and analysis
+* Summarization
+* RAG pipelines
+
+The model's capabilities, such as text, function_calling, json_mode, streaming, and structured_outputs, further support its applicability in these areas.
+
+#### Pricing and Cost Examples
+The pricing model for the NVIDIA Nemotron 3 Super is as follows:
+* Input</div>
       </div>
 
       <!-- COMPETITOR TABLE -->
@@ -479,68 +484,78 @@ Given the benchmark scores, the NVIDIA Nem</div>
           </table>
         </div>
         <div style="margin-top:1.5rem">### NVIDIA Nemotron 3 Super Comparison
-Since there are no direct competitors listed for the NVIDIA Nemotron 3 Super, we will provide a general overview of the model and its characteristics to help users make informed decisions.
-
-#### Model Overview
-The NVIDIA Nemotron 3 Super is a standard-tier model released by Nvidia on 2024-01-01. It is not open-source and has the following key features:
-* **Context Window**: 262,144 tokens
-* **Max Output**: 4,096 tokens
-* **Knowledge Cutoff**: 2023-12
-* **Capabilities**: text, function_calling, json_mode, streaming, structured_outputs
-* **Best For**: chat, text_generation, coding, analysis, rag_pipelines, summarization
+#### Introduction
+The NVIDIA Nemotron 3 Super is a standard-tier model released by Nvidia on 2024-01-01. Since there are no direct competitors listed, we will provide an in-depth analysis of the model's features, pricing, and performance to help users determine when to choose this model.
 
 #### Pricing
-The pricing for the NVIDIA Nemotron 3 Super is as follows:
-* **Input**: $0.1 per 1M tokens
-* **Output**: $0.5 per 1M tokens
-* **Cached Input**: $None per 1M tokens
-* **Batch Input**: $None per 1M tokens
+The NVIDIA Nemotron 3 Super has the following pricing structure:
+* Input: $0.1 per 1M tokens
+* Output: $0.5 per 1M tokens
+* Cached Input: $None per 1M tokens
+* Batch Input: $None per 1M tokens
+
+#### Performance Trade-offs
+The model has a context window of 262,144 tokens and a maximum output of 4,096 tokens. The knowledge cutoff is 2023-12. The benchmarks for the model are:
+* MMLU: 80.0
+* LMSYS Arena ELO: 1200
+
+#### Capabilities and Use Cases
+The NVIDIA Nemotron 3 Super supports the following capabilities:
+* text
+* function_calling
+* json_mode
+* streaming
+* structured_outputs
+It is best suited for:
+* chat
+* text_generation
+* coding
+* analysis
+* rag_pipelines
+* summarization
 
 #### Cost Examples
-To help estimate costs, here are some examples:
+The estimated costs for using the NVIDIA Nemotron 3 Super are:
 * 1,000 calls (avg 500 tokens): $0.3
 * 10,000 calls: $3.0
 * 100,000 calls: $30.0
 
-#### Performance Trade-offs
-While there are no direct competitors, the NVIDIA Nemotron 3 Super has the following benchmark scores:
-* **MMLU**: 80.0
-* **LMSYS Arena ELO**: 1200
-
-These scores indicate the model's performance in various tasks. However, without direct competitors, it is challenging to provide a direct comparison.
-
 #### Choosing the NVIDIA Nemotron 3 Super
-Based on its capabilities and pricing, the NVIDIA Nemotron 3 Super is suitable for applications that require:
-* Large context windows
-* High output limits
-* Advanced capabilities like function_calling and json_mode
-* Streaming and structured outputs
+Given the lack of direct competitors, the NVIDIA Nemotron 3 Super can be considered a viable option for users who require a standard-tier model with a large context window and support for various capabilities. However, users should carefully evaluate their specific use cases and consider the following factors:
+* Input and output token requirements
+* Budget constraints
+* Performance requirements (e.g., MMLU, LMSYS Arena ELO)
 
-If your use case aligns with these features and you are willing to pay the associated costs, the NVIDIA Nemotron 3 Super may be a good choice. However, it is essential to evaluate your specific requirements and consider factors like performance, cost, and compatibility before making a decision.</div>
+In general, the NVIDIA Nemotron 3 Super is a good choice for users who need a reliable and feature-rich model for chat, text generation, coding, and analysis tasks. However, users with more specialized or demanding requirements may need to explore other options or wait for more competitors to enter the market.</div>
       </div>
 
       <!-- USE CASES -->
       <div class="card content-section">
         <div class="card-title">Best Use Cases</div>
-        <div>### Introduction to NVIDIA: Nemotron 3 Super
-The NVIDIA: Nemotron 3 Super is a powerful language model released by Nvidia on 2024-01-01. With its capabilities in text, function calling, JSON mode, streaming, and structured outputs, it is best suited for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization.
+        <div>### Introduction to NVIDIA Nemotron 3 Super
+The NVIDIA Nemotron 3 Super is a powerful language model released by Nvidia on 2024-01-01. With its impressive capabilities, including text generation, function calling, and structured outputs, it is best suited for applications such as chat, text generation, coding, analysis, and summarization.
 
-### Top 5 Best Use Cases for NVIDIA: Nemotron 3 Super
-Based on its capabilities and benchmarks, here are the top 5 best use cases for the NVIDIA: Nemotron 3 Super:
+### Top 5 Best Use Cases for NVIDIA Nemotron 3 Super
+Based on its capabilities and benchmarks, here are the top 5 best use cases for the NVIDIA Nemotron 3 Super:
 
-1. **Text Generation**: With its high MMLU score of 80.0, the Nemotron 3 Super is well-suited for text generation tasks such as writing articles, creating content, and generating chatbot responses.
-2. **Coding and Analysis**: The model's ability to perform function calling and structured outputs makes it an excellent choice for coding and analysis tasks, such as code completion, code review, and data analysis.
-3. **Chat and Conversational AI**: The Nemotron 3 Super's capabilities in text generation and function calling make it an ideal choice for building conversational AI models, such as chatbots and virtual assistants.
-4. **Summarization and RAG Pipelines**: The model's ability to process large amounts of text and generate structured outputs makes it well-suited for summarization tasks and RAG (Retrieve, Augment, Generate) pipelines.
-5. **Streaming and Real-time Applications**: The Nemotron 3 Super's support for streaming and JSON mode makes it an excellent choice for real-time applications, such as live chat, live content generation, and real-time data analysis.
+1. **Chat and Conversational AI**: With its high context window of 262,144 tokens and ability to generate human-like text, the NVIDIA Nemotron 3 Super is ideal for building conversational AI models.
+2. **Text Generation and Summarization**: The model's text generation capabilities make it suitable for applications such as content creation, text summarization, and language translation.
+3. **Coding and Code Completion**: The NVIDIA Nemotron 3 Super's function calling and structured outputs capabilities make it a great tool for coding and code completion tasks.
+4. **Data Analysis and Insights**: With its ability to process large amounts of data and generate structured outputs, the model is well-suited for data analysis and insights applications.
+5. **RAG Pipelines and Knowledge Graphs**: The NVIDIA Nemotron 3 Super's capabilities make it an excellent choice for building RAG pipelines and knowledge graphs.
 
 ### Code Integration Examples with OpenRouter
-To integrate the NVIDIA: Nemotron 3 Super with OpenRouter, you can use the following code examples:
+To integrate the NVIDIA Nemotron 3 Super with OpenRouter, you can use the following code examples:
 ```python
 import openrouter
 
-# Initialize the Nemotron 3 Super model
-model = openrouter.Model("</div>
+# Initialize the NVIDIA Nemotron 3 Super model
+model = openrouter.Model("nvidia/nemotron-3-super-120b-a12b")
+
+# Define a function to generate text using the model
+def generate_text(prompt):
+    input_ids = openrouter.tokenize(prompt)
+    output = model.generate(input_ids, max_length=4096</div>
       </div>
 
       <!-- CAPABILITIES -->
