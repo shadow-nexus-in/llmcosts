@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://llmcosts.dev/models/llama-3-3-70b-instruct">
 
   <!-- Schema.org: Dataset -->
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Llama 3.3 70B Instruct API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Llama 3.3 70B Instruct by Meta.", "url": "https://llmcosts.dev/models/llama-3-3-70b-instruct", "keywords": ["Llama 3.3 70B Instruct", "Meta", "open-source", "self-hostable", "coding", "efficient", "meta"], "dateModified": "2026-05-26", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Llama 3.3 70B Instruct API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Llama 3.3 70B Instruct by Meta.", "url": "https://llmcosts.dev/models/llama-3-3-70b-instruct", "keywords": ["Llama 3.3 70B Instruct", "Meta", "open-source", "self-hostable", "coding", "efficient", "meta"], "dateModified": "2026-05-27", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
   <!-- Schema.org: FAQ -->
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
 
@@ -346,13 +346,13 @@
       <div class="card content-section">
         <div class="card-title">Overview</div>
         <div>### Introduction to Llama 3.3 70B Instruct
-The Llama 3.3 70B Instruct model, released by Meta on 2024-12-06, is a standard, open-source language model designed for a wide range of applications. This model boasts an impressive architecture, with a context window of 131,072 tokens and the ability to generate up to 8,192 tokens of output. Its capabilities include text processing, function calling, JSON mode, streaming, and system prompts, making it a versatile tool for developers. The model's knowledge cutoff is 2023-12, ensuring it has a broad and up-to-date understanding of the world.
+The Llama 3.3 70B Instruct model, released by Meta on 2024-12-06, is a standard, open-source language model designed for a wide range of applications. This model boasts an impressive architecture, with a context window of 131,072 tokens and a maximum output of 8,192 tokens. Its knowledge cutoff is 2023-12, ensuring it has a broad and up-to-date understanding of the world. The model's capabilities include text processing, function calling, JSON mode, streaming, and system prompts, making it suitable for tasks such as coding, analysis, summarization, and chatbots.
 
-### Strengths and Use Cases
-Llama 3.3 70B Instruct demonstrates significant strengths in various benchmarks, including MMLU (86.0), HumanEval (88.0), LMSYS Arena ELO (1248), and GSM8K (95.0). These scores indicate the model's proficiency in coding, analysis, and other tasks. It is best suited for applications such as coding, analysis, summarization, chatbots, and agents, particularly those that involve function calling. However, it is not recommended for tasks that require vision, audio processing, real-time responses under 100ms, or cutting-edge capabilities. With its balanced pricing of $0.59 per 1M input tokens and $0.79 per 1M output tokens, this model offers a cost-effective solution for many use cases.
+### Technical Strengths and Use Cases
+Llama 3.3 70B Instruct demonstrates its technical strengths through its benchmark scores: MMLU (86.0), HumanEval (88.0), LMSYS Arena ELO (1248), and GSM8K (95.0). These scores indicate the model's proficiency in various areas, including coding and mathematical reasoning. Its primary use cases are coding, analysis, RAG (Retrieve, Augment, Generate), summarization, chatbots, and agents, where its function calling capability is particularly valuable. However, it is not recommended for tasks that require vision, audio processing, real-time responses under 100ms, or cutting-edge tasks that are beyond its knowledge cutoff.
 
-### Pricing and Competitors
-The pricing for Llama 3.3 70B Instruct is competitive, with costs calculated based on input and output tokens. For example, 1,000 calls with an average of 500 tokens would cost approximately $0.69, while 10,000 calls would cost $6.9, and 100,000 calls would cost $69.0. In comparison to its competitors,</div>
+### Pricing and Cost Considerations
+The pricing for Llama 3.3 70B Instruct is as follows: $0.59 per 1M input tokens and $0.79 per 1M output tokens. There are no charges for cached input or batch input. To give developers a better idea of the costs involved, some examples are provided: 1,000 calls (averaging 500 tokens) would cost $0.69, 10,000 calls would cost $6.</div>
       </div>
 
       <!-- PRICING -->
@@ -393,32 +393,31 @@ The pricing for Llama 3.3 70B Instruct is competitive, with costs calculated bas
 
         <div style="margin-top:1.5rem">### Llama 3.3 70B Instruct Pricing Analysis
 #### Overview
-The Llama 3.3 70B Instruct model, released by Meta on 2024-12-06, is a standard, open-source model with a tiered pricing structure. This analysis will delve into the cost structure, optimal usage scenarios, and cost savings at scale.
+The Llama 3.3 70B Instruct model, released by Meta on 2024-12-06, is a standard, open-source model with a context window of 131,072 tokens and a maximum output of 8,192 tokens. This analysis will delve into the cost structure, optimal usage scenarios, and cost at scale for this model.
 
 #### Cost Structure
 The pricing for Llama 3.3 70B Instruct is as follows:
 * Input: $0.59 per 1M tokens
 * Output: $0.79 per 1M tokens
-* Cached Input: $0.00 per 1M tokens (free)
-* Batch Input: $0.00 per 1M tokens (free)
+* Cached Input: $None per 1M tokens (free)
+* Batch Input: $None per 1M tokens (free)
 
 #### Optimal Usage Scenarios
-To minimize costs, consider the following scenarios:
-* **Cached Tokens**: Use cached input tokens whenever possible, as they are free. This is ideal for applications with repetitive or similar input prompts.
-* **Batch API**: Utilize batch input for multiple requests, as it is also free. This is suitable for applications that require processing multiple inputs simultaneously.
+To minimize costs, consider the following strategies:
+* **Use cached tokens**: Since cached input is free, leveraging cached tokens can significantly reduce costs, especially for repetitive or similar input sequences.
+* **Batch API calls**: Batch input is also free, making it an attractive option for large-scale API calls. This can lead to substantial cost savings, especially when combined with cached tokens.
 
 #### Cost at Scale
 The cost of using Llama 3.3 70B Instruct at scale is as follows:
-* **1,000 API calls** (avg 500 tokens): $0.69
-* **10,000 API calls**: $6.9
-* **100,000 API calls**: $69.0
+* **1,000 calls (avg 500 tokens)**: $0.69
+* **10,000 calls**: $6.9
+* **100,000 calls**: $69.0
 
-These costs demonstrate a linear scaling of expenses with the number of API calls.
+These costs demonstrate a linear scaling of expenses with the number of API calls, indicating that the cost per call remains relatively consistent.
 
-#### Competitor Comparison
+#### Comparison to Top Competitors
 Llama 3.3 70B Instruct's pricing is competitive with other models in the market:
-* **Llama 3.1 70B Instruct**: $0.52/1M input, $0.75/1M output
-* **Claude 3.5 Haiku**: $0.8/1M input, $4</div>
+* **Llama 3.1 70B Instruct**: $0.52/1M input, $0.75</div>
       </div>
 
       <!-- BENCHMARKS -->
@@ -429,18 +428,20 @@ Llama 3.3 70B Instruct's pricing is competitive with other models in the market:
           <div class="stat-cell"><div class="stat-label">HumanEval</div><div class="stat-value">88.0</div></div>
           <div class="stat-cell"><div class="stat-label">LMSYS ELO</div><div class="stat-value">1248</div></div>
         </div>
-        <div>### Analysis of Llama 3.3 70B Instruct Benchmark Performance
-The Llama 3.3 70B Instruct model, released by Meta on 2024-12-06, is a standard, open-source model with a context window of 131,072 tokens and a maximum output of 8,192 tokens. The model's performance is measured by several benchmarks, including MMLU, HumanEval, and LMSYS Arena ELO.
+        <div>### Llama 3.3 70B Instruct Benchmark Analysis
+The Llama 3.3 70B Instruct model, released by Meta on 2024-12-06, is a standard, open-source model with a context window of 131,072 tokens and a maximum output of 8,192 tokens. 
 
 #### Benchmark Scores
-* **MMLU (Massive Multitask Language Understanding) Score: 86.0** - This score indicates the model's ability to perform a wide range of natural language understanding tasks. A higher score suggests better performance in tasks such as text classification, sentiment analysis, and question answering.
-* **HumanEval Score: 88.0** - This score measures the model's ability to evaluate and execute human-written code. A higher score indicates better performance in tasks such as coding, code completion, and code review.
-* **LMSYS Arena ELO Score: 1248** - This score is a measure of the model's overall language understanding and generation capabilities. A higher score suggests better performance in tasks such as text generation, summarization, and conversation.
+The model's performance is measured by the following benchmark scores:
+* **MMLU (Massive Multitask Language Understanding)**: 86.0 - This score indicates the model's ability to understand and process natural language across a wide range of tasks. A higher MMLU score suggests better language comprehension.
+* **HumanEval**: 88.0 - This score evaluates the model's ability to write correct and functional code in response to programming prompts. A higher HumanEval score indicates better coding capabilities.
+* **LMSYS Arena ELO**: 1248 - This score measures the model's performance in a competitive coding environment, where it is pitted against other models to solve programming challenges. A higher ELO score suggests better coding skills and adaptability.
 
 #### Real-World Implications
-These benchmark scores have significant implications for real-world use cases. For example:
-* **Coding and Analysis**: The model's high HumanEval score (88.0) makes it well-suited for tasks such as code completion, code review, and coding assistance.
-* **Text Generation and Summarization**: The model's high LMSYS Arena ELO score (1248) and MMLU score (86.0)</div>
+These benchmark scores have significant implications for real-world use cases:
+* **Coding and Analysis**: With a high HumanEval score, Llama 3.3 70B Instruct is well-suited for coding tasks, such as generating code snippets, debugging, and code review.
+* **Text-Based Applications**: The model's high MMLU score indicates excellent language understanding, making it a good fit for text-based applications, such as chatbots, summarization, and analysis.
+* **Function Calling and JSON Mode**: The model's support for function calling and JSON mode enables</div>
       </div>
 
       <!-- COMPETITOR TABLE -->
@@ -478,89 +479,92 @@ These benchmark scores have significant implications for real-world use cases. F
         </div>
         <div style="margin-top:1.5rem">### Llama 3.3 70B Instruct Comparison
 #### Overview
-The Llama 3.3 70B Instruct model, released by Meta on 2024-12-06, is a standard, open-source model with a context window of 131,072 tokens and a maximum output of 8,192 tokens. This model is best suited for tasks such as coding, analysis, and chatbots.
+The Llama 3.3 70B Instruct model, released by Meta on 2024-12-06, is a standard, open-source model with a tiered pricing structure. This comparison will examine the model's performance, pricing, and capabilities against its top competitors: Llama 3.1 70B Instruct, Claude 3.5 Haiku, and GPT-4o Mini.
 
 #### Pricing Comparison
-The pricing for Llama 3.3 70B Instruct is as follows:
-* Input: $0.59 per 1M tokens
-* Output: $0.79 per 1M tokens
+The pricing for each model is as follows:
+* Llama 3.3 70B Instruct:
+	+ Input: $0.59 per 1M tokens
+	+ Output: $0.79 per 1M tokens
+* Llama 3.1 70B Instruct:
+	+ Input: $0.52 per 1M tokens
+	+ Output: $0.75 per 1M tokens
+* Claude 3.5 Haiku:
+	+ Input: $0.8 per 1M tokens
+	+ Output: $4.0 per 1M tokens
+* GPT-4o Mini:
+	+ Input: $0.15 per 1M tokens
+	+ Output: $0.6 per 1M tokens
 
-In comparison to its top competitors:
-* Llama 3.1 70B Instruct: $0.52/1M input, $0.75/1M output (7% cheaper for input, 5% cheaper for output)
-* Claude 3.5 Haiku: $0.8/1M input, $4.0/1M output (35% more expensive for input, 405% more expensive for output)
-* GPT-4o Mini: $0.15/1M input, $0.6/1M output (75% cheaper for input, 24% cheaper for output)
-
-#### Performance Comparison
-The performance of Llama 3.3 70B Instruct is measured by the following benchmarks:
+#### Performance Trade-offs
+The Llama 3.3 70B Instruct model has the following benchmark scores:
 * MMLU: 86.0
 * HumanEval: 88.0
 * LMSYS Arena ELO: 1248
 * GSM8K: 95.0
 
-While the performance of the top competitors is not provided, the pricing differences suggest that Llama 3.3 70B Instruct may offer a balance between cost and performance.
+While the exact benchmark scores for the competitor models are not provided, we can infer their relative performance based on their pricing and capabilities.
 
 #### Capabilities and Use Cases
-Llama 3.3 70B Instruct supports the following capabilities:
-* text
-* function_calling
-* json_mode
-* streaming
-* system_prompts
+The Llama 3.3 70B Instruct model is best suited for:
+* Coding
+* Analysis
+* RAG (Retrieve, Augment, Generate)
+* Summarization
+* Chatbots
+* Agents
+* Function calling
 
-It is best suited for tasks such as:
-* coding
-* analysis
-* rag
-* summarization
-* chatbots
-* agents
-* function_calling
-
-However, it is not recommended for tasks that require:
-* vision
-* audio
-* real-time sub 100ms responses
-* cutting-edge tasks
+It is not recommended for:
+* Vision
+* Audio
+* Real-time sub-100ms tasks
+* Cutting-edge tasks
 
 #### Cost Examples
-The estimated costs for using Llama 3.3 70B Instruct are:
-</div>
+The estimated costs for using the Llama 3.3 70B Instruct model are:
+* 1,000 calls (avg 500 tokens): $0.69
+* 10,000 calls: $6.9
+*</div>
       </div>
 
       <!-- USE CASES -->
       <div class="card content-section">
         <div class="card-title">Best Use Cases</div>
         <div>### Introduction to Llama 3.3 70B Instruct
-The Llama 3.3 70B Instruct model, released by Meta on 2024-12-06, is a powerful language model suitable for various applications. With its impressive benchmarks, including an MMLU score of 86.0 and a HumanEval score of 88.0, this model excels in tasks such as coding, analysis, and summarization.
+The Llama 3.3 70B Instruct model, released by Meta on 2024-12-06, is a standard, open-source model with a wide range of capabilities. With its high performance on benchmarks such as MMLU (86.0), HumanEval (88.0), and GSM8K (95.0), it is well-suited for various tasks including coding, analysis, and chatbots.
 
 ### Top 5 Best Use Cases for Llama 3.3 70B Instruct
-Based on its capabilities and benchmarks, the top 5 best use cases for Llama 3.3 70B Instruct are:
+Based on its capabilities and performance, the top 5 best use cases for Llama 3.3 70B Instruct are:
 
-1. **Coding and Function Calling**: With its high HumanEval score, Llama 3.3 70B Instruct is well-suited for coding tasks, including function calling. You can integrate it with OpenRouter to generate code snippets or complete functions.
+1. **Coding and Function Calling**: With its high score on HumanEval (88.0), Llama 3.3 70B Instruct is well-suited for coding tasks, including function calling. It can be integrated with OpenRouter for efficient code generation and execution.
    ```python
 import openrouter
+from meta_llama import Llama
 
-# Initialize the Llama 3.3 70B Instruct model
-model = openrouter.Model("meta-llama/llama-3.3-70b-instruct")
+# Initialize the Llama model
+model = Llama("meta-llama/llama-3.3-70b-instruct")
 
-# Define a function to generate code
+# Define a function to generate code using Llama
 def generate_code(prompt):
-    response = model.generate(prompt, max_tokens=512)
+    response = model(prompt)
     return response
 
-# Test the function
-print(generate_code("Write a Python function to calculate the area of a rectangle"))
+# Use OpenRouter to execute the generated code
+def execute_code(code):
+    output = openrouter.execute(code)
+    return output
+
+# Example usage
+prompt = "Generate a Python function to calculate the sum of two numbers"
+code = generate_code(prompt)
+output = execute_code(code)
+print(output)
 ```
 
-2. **Text Analysis and Summarization**: Llama 3.3 70B Instruct's high MMLU score indicates its ability to understand and analyze text. You can use it to summarize long documents or articles.
+2. **Text Analysis and Summarization**: Llama 3.3 70B Instruct's high performance on MMLU (86.0) and GSM8K (95.0) makes it suitable for text analysis and summarization tasks.
    ```python
-import openrouter
-
-# Initialize the Llama 3.3 70B Instruct model
-model = openrouter.Model("meta-llama/llama-3.3-70b-instruct")
-
-# Define a function to summarize text
-def summarize_text</div>
+</div>
       </div>
 
       <!-- CAPABILITIES -->
