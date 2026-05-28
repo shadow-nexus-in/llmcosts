@@ -1,17 +1,17 @@
 # Mistral: Mistral Small 4 API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-05-27
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-05-28
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
-### Introduction to Mistral: Mistral Small 4
-Mistral: Mistral Small 4, released by Mistralai on 2024-01-01, is a standard-tier language model that operates under a closed-source license. This model is part of the Mistralai family, designed to provide efficient and effective language processing capabilities. With its specific architecture tailored for a variety of tasks, Mistral Small 4 is positioned to serve developers in multiple areas, including but not limited to chat, text generation, coding, and analysis.
+### Introduction to Mistral Small 4
+Mistral Small 4, provided by Mistralai, is a standard-tier language model released on 2024-01-01. This model is not open source. From an architectural standpoint, Mistral Small 4 is designed to handle a variety of natural language processing tasks with its capabilities including text, function calling, JSON mode, streaming, and structured outputs. Its primary strengths lie in its ability to perform well in chat, text generation, coding, analysis, RAG pipelines, and summarization tasks.
 
-### Technical Capabilities and Use Cases
-Technically, Mistral Small 4 boasts a context window of 262,144 tokens and a maximum output of 4,096 tokens, with a knowledge cutoff of 2023-12. It supports multiple capabilities such as text processing, function calling, JSON mode, streaming, and structured outputs. These features make it an ideal choice for applications requiring complex text handling, coding assistance, and data analysis. The model's strengths are reflected in its benchmark scores, including an MMLU score of 80.0 and an LMSYS Arena ELO of 1200. However, its pricing structure, with input costing $0.15 per 1M tokens and output costing $0.6 per 1M tokens, will be a critical factor for developers in determining its cost-effectiveness for their specific use cases.
+### Technical Specifications and Use Cases
+Technically, Mistral Small 4 operates with a context window of 262,144 tokens and can generate up to 4,096 tokens as output. Its knowledge cutoff is 2023-12, indicating that its training data does not include information beyond this date. The model's performance is benchmarked with an MMLU score of 80.0 and an LMSYS Arena ELO of 1200. Given its capabilities, Mistral Small 4 is best utilized for applications such as chatbots, text generation, coding assistance, data analysis, and document summarization. However, specific tasks it is not well-suited for are not listed, suggesting a broad applicability within the NLP domain.
 
 ### Pricing and Cost Considerations
-The pricing model for Mistral Small 4 is straightforward, with costs calculated based on input and output token volumes. For example, 1,000 calls averaging 500 tokens each would cost $0.375, scaling up to $37.5 for 100,000 calls. Given its capabilities and pricing, developers should evaluate how Mistral Small 4 fits into their project budgets, especially considering its suitability for tasks like chat, text generation, and coding, where its strengths can be fully leveraged. With no direct competitors listed
+The pricing for Mistral Small 4 is structured around input and output tokens. Developers are charged $0.15 per 1M input tokens and $0.6 per 1M output tokens. There are no additional costs for cached input or batch input. To illustrate, for 1,000 calls averaging 500 tokens, the cost would be $0.375, scaling to $3.75 for 10,000 calls, and $37.5 for 100,000 calls. With no direct competitors listed, Mistral Small 4 presents a unique offering in the market, balancing performance with a structured pricing model that
 
 ## Pricing (USD per 1M tokens)
 | Metric | Price |
@@ -23,34 +23,38 @@ The pricing model for Mistral Small 4 is straightforward, with costs calculated 
 | Batch Output | $None |
 
 ## Pricing Analysis
-### Pricing Analysis for Mistral Small 4
+### Mistral Small 4 Pricing Analysis
 #### Overview
-Mistral Small 4, provided by Mistralai, is a standard, non-open-source model released on 2024-01-01. This analysis will delve into the cost structure, optimal usage scenarios, and scalability of this model.
+The Mistral Small 4 model, provided by Mistralai, is a standard, non-open-source model released on 2024-01-01. This analysis will delve into the cost structure, usage scenarios, and cost savings of using this model.
 
 #### Cost Structure
 The pricing for Mistral Small 4 is as follows:
-- **Input**: $0.15 per 1M tokens
-- **Output**: $0.6 per 1M tokens
-- **Cached Input**: $None per 1M tokens (free)
-- **Batch Input**: $None per 1M tokens (free)
+* Input: **$0.15 per 1M tokens**
+* Output: **$0.6 per 1M tokens**
+* Cached Input: **$None per 1M tokens** (free)
+* Batch Input: **$None per 1M tokens** (free)
 
-This structure indicates that input and output tokens are the primary cost factors, while cached and batch inputs are not charged.
+#### When to Use Cached Tokens
+Cached tokens can be used to reduce costs when the same input is used multiple times. Since cached input is free, it is recommended to use cached tokens whenever possible to minimize costs.
 
-#### Optimal Usage Scenarios
-- **Cached Tokens**: Since cached input tokens are free, it is highly beneficial to utilize cached tokens whenever possible. This can significantly reduce costs, especially for applications with repetitive or similar input queries.
-- **Batch API Savings**: Although batch input is listed as free, the actual cost savings come from the reduced overhead of making fewer API calls. This can lead to indirect cost savings by minimizing the number of calls and thus the associated input and output token costs.
+#### Batch API Savings
+The batch input pricing is **$None per 1M tokens**, which means that batch API calls are free. This can lead to significant cost savings when making multiple API calls with the same input.
 
 #### Cost at Scale
-The provided cost examples give insight into the scalability of Mistral Small 4:
-- **1,000 calls (avg 500 tokens)**: $0.375
-- **10,000 calls**: $3.75
-- **100,000 calls**: $37.5
+The cost of using Mistral Small 4 at scale is as follows:
+* **1,000 calls (avg 500 tokens)**: **$0.375**
+* **10,000 calls**: **$3.75**
+* **100,000 calls**: **$37.5**
 
-These examples suggest a linear scaling of costs with the number of API calls. To estimate costs for other scenarios, one can use the average cost per call, which is $0.000375 per call (based on the 1,000 calls example).
+These costs are calculated based on the average number of tokens per call and the input and output pricing.
 
-#### Calculating Costs
-Given the average cost per call, you can estimate costs for different numbers of API calls. For instance:
-- **
+#### Conclusion
+The Mistral Small 4 model offers a cost-effective solution for text-based applications, with a pricing structure that incentivizes the use of cached tokens and batch API calls. By understanding the cost structure and using these features effectively, users can minimize their costs and maximize their ROI.
+
+### Recommendations
+* Use cached tokens whenever possible to reduce costs
+* Utilize batch API calls to take advantage of free input pricing
+* Opt
 
 ## Benchmarks
 | Benchmark | Score |
@@ -62,121 +66,94 @@ Given the average cost per call, you can estimate costs for different numbers of
 
 ## Benchmark Analysis
 ### Mistral Small 4 Benchmark Analysis
-#### Overview
-The Mistral Small 4 model, provided by Mistralai, is a standard-tier model with a release date of 2024-01-01. It is not open-source and has a specific pricing structure for input and output tokens.
-
-#### Pricing Structure
-The pricing for Mistral Small 4 is as follows:
-* Input: **$0.15 per 1M tokens**
-* Output: **$0.6 per 1M tokens**
-* Cached Input: **$None per 1M tokens**
-* Batch Input: **$None per 1M tokens**
-
-#### Context and Limits
-The model has the following context and limits:
-* Context Window: **262,144 tokens**
-* Max Output: **4,096 tokens**
-* Knowledge Cutoff: **2023-12**
+#### Model Overview
+The Mistral Small 4 model, provided by Mistralai, is a standard-tier model released on 2024-01-01. It is not open-source and has the following pricing structure:
+* Input: $0.15 per 1M tokens
+* Output: $0.6 per 1M tokens
+* Cached Input: $None per 1M tokens
+* Batch Input: $None per 1M tokens
 
 #### Benchmark Performance
-The benchmark performance of Mistral Small 4 is as follows:
-* MMLU: **80.0**
-* HumanEval: **None**
-* LMSYS Arena ELO: **1200**
-* GSM8K: **None**
-
-The MMLU score of 80.0 indicates the model's performance on a specific set of tasks, with higher scores generally indicating better performance. The LMSYS Arena ELO score of 1200 provides a relative ranking of the model's performance compared to other models, with higher scores indicating better performance.
-
-The lack of HumanEval and GSM8K scores means that the model's performance on these specific benchmarks is unknown.
+The model's benchmark performance is as follows:
+* **MMLU (Massive Multitask Language Understanding) score: 80.0** - This score indicates the model's ability to understand and perform a wide range of natural language tasks. A higher score generally corresponds to better performance.
+* **HumanEval score: None** - HumanEval is a benchmark that evaluates a model's ability to generate code. The lack of a score for this benchmark means that the model's coding capabilities are not well-defined.
+* **LMSYS Arena ELO score: 1200** - The LMSYS Arena ELO score is a measure of a model's performance in a competitive environment. An ELO score of 1200 is relatively moderate, indicating that the model can hold its own in certain tasks but may struggle with more complex or nuanced challenges.
 
 #### Real-World Implications
-For real-world use, the benchmark scores can be interpreted as follows:
-* The MMLU score of 80.0 suggests that
+For real-world use, these benchmark scores have the following implications:
+* The MMLU score of 80.0 suggests that the Mistral Small 4 model is capable of handling a variety of natural language tasks, making it suitable for applications such as chat, text generation, and analysis.
+* The lack of
 
 ## Competitor Comparison
-### Comparison of Mistral Small 4 with Top Competitors
-Since there are no direct competitors listed for Mistral Small 4, we will provide a general overview of the model's features, pricing, and performance. This will help users understand the model's strengths and weaknesses and make informed decisions about when to choose it.
+### Comparison of Mistral: Mistral Small 4 with Top Competitors
+Since there are no direct competitors listed for Mistral: Mistral Small 4, we will create a hypothetical comparison with other models in the standard tier. 
 
 #### Model Overview
-* **Provider:** Mistralai
-* **Release Date:** 2024-01-01
-* **Tier:** Standard
-* **Open Source:** False
+* **Mistral: Mistral Small 4 (mistralai/mistral-small-2603)**
+	+ Provider: Mistralai
+	+ Release Date: 2024-01-01
+	+ Tier: standard
+	+ Open Source: False
+	+ Pricing:
+		- Input: $0.15 per 1M tokens
+		- Output: $0.6 per 1M tokens
+		- Cached Input: $None per 1M tokens
+		- Batch Input: $None per 1M tokens
+	+ Context & Limits:
+		- Context Window: 262,144 tokens
+		- Max Output: 4,096 tokens
+		- Knowledge Cutoff: 2023-12
+	+ Benchmarks:
+		- MMLU: 80.0
+		- LMSYS Arena ELO: 1200
+	+ Capabilities: text, function_calling, json_mode, streaming, structured_outputs
+	+ Best For: chat, text_generation, coding, analysis, rag_pipelines, summarization
 
-#### Pricing
-The pricing for Mistral Small 4 is as follows:
-* **Input:** $0.15 per 1M tokens
-* **Output:** $0.6 per 1M tokens
-* **Cached Input:** $None per 1M tokens
-* **Batch Input:** $None per 1M tokens
+#### Hypothetical Competitors
+For the purpose of this comparison, let's consider two hypothetical models, **Model A** and **Model B**, with the following characteristics:
 
-#### Context and Limits
-* **Context Window:** 262,144 tokens
-* **Max Output:** 4,096 tokens
-* **Knowledge Cutoff:** 2023-12
-
-#### Benchmarks
-The model's performance on various benchmarks is:
-* **MMLU:** 80.0
-* **HumanEval:** None
-* **LMSYS Arena ELO:** 1200
-* **GSM8K:** None
-
-#### Capabilities and Use Cases
-Mistral Small 4 supports the following capabilities:
-* **Text**
-* **Function calling**
-* **JSON mode**
-* **Streaming**
-* **Structured outputs**
-
-It is best suited for the following use cases:
-* **Chat**
-* **Text generation**
-* **Coding**
-* **Analysis**
-* **RAG pipelines**
-* **Summarization**
-
-#### Cost Examples
-Here are some cost examples for using Mistral Small 4:
-* **1,000 calls (avg 500 tokens):** $0.375
-* **10,000 calls:** $3.75
-* **100,000 calls:** $37.5
-
-#### Choosing Mistral Small 4
-Since there are no direct competitors listed, we recommend considering the following factors when deciding whether to use Mistral Small 4:
-* **Performance requirements:** If you need a model with a high MMLU score (80.0) and a moderate LMSYS Arena ELO score (1200), Mistral Small 4 may be a good choice.
-* **Pricing constraints:** If you are looking for a model with a relatively low
+* **Model A**
+	+ Pricing:
+		- Input: $0.10 per 1M tokens
+		- Output: $0.5 per 1M tokens
+	+ Context & Limits:
+		- Context Window: 131,072 tokens
+		- Max Output: 2,048 tokens
+	+ Benchmarks:
+		- MMLU: 70.0
+		- LMSYS Arena ELO: 1000
+* **Model B**
+	+ Pricing:
+		- Input: $0.20 per 1M tokens
+		- Output: $0.8 per 1M tokens
+	+ Context & Limits:
+		- Context Window: 524,288 tokens
+		- Max Output: 8,192 tokens
+	+ Benchmarks:
+		- MML
 
 ## Best Use Cases
 ### Introduction to Mistral Small 4
-Mistral Small 4, provided by Mistralai, is a powerful language model with a wide range of capabilities, including text generation, function calling, and structured outputs. With its standard tier and non-open source status, it offers a unique set of features for various applications.
+Mistral Small 4, provided by Mistralai, is a powerful language model with a wide range of capabilities, including text generation, function calling, and structured outputs. Released on January 1, 2024, this standard-tier model is not open-source and offers a context window of 262,144 tokens and a maximum output of 4,096 tokens.
+
+### Pricing Model
+The pricing for Mistral Small 4 is as follows:
+* Input: $0.15 per 1M tokens
+* Output: $0.6 per 1M tokens
+* Cached Input: $None per 1M tokens
+* Batch Input: $None per 1M tokens
 
 ### Top 5 Best Use Cases for Mistral Small 4
-Based on its capabilities and benchmarks, here are the top 5 best use cases for Mistral Small 4:
+Based on its capabilities, here are the top 5 best use cases for Mistral Small 4:
 
-1. **Chat and Text Generation**: With its high context window of 262,144 tokens and ability to generate up to 4,096 tokens, Mistral Small 4 is well-suited for chat and text generation applications.
-2. **Coding and Analysis**: Its function calling and structured outputs capabilities make it an excellent choice for coding and analysis tasks, such as code completion and data analysis.
-3. **Summarization**: Mistral Small 4's ability to process large amounts of text and generate concise summaries makes it a great fit for summarization tasks.
-4. **RAG Pipelines**: Its support for retrieval-augmented generation (RAG) pipelines enables it to be used in applications that require generating text based on external knowledge sources.
-5. **Streaming**: With its streaming capability, Mistral Small 4 can be used in real-time applications, such as live chat or text-based interfaces.
+1. **Chat and Text Generation**: With its ability to generate human-like text and its large context window, Mistral Small 4 is well-suited for chat applications and text generation tasks.
+2. **Coding and Analysis**: Mistral Small 4's function calling and structured outputs capabilities make it a great choice for coding and analysis tasks, such as code completion and code review.
+3. **Summarization**: The model's ability to generate concise and accurate summaries makes it a great choice for summarization tasks, such as summarizing long documents or articles.
+4. **RAG Pipelines**: Mistral Small 4's support for RAG (Retrieval-Augmented Generation) pipelines makes it a great choice for tasks that require retrieving and generating text based on external knowledge sources.
+5. **Streaming and Real-time Applications**: With its support for streaming and real-time outputs, Mistral Small 4 is well-suited for applications that require real-time text generation, such as live chat or real-time analytics.
 
 ### Code Integration Example with OpenRouter
-To integrate Mistral Small 4 with OpenRouter, you can use the following code example:
-```python
-import openrouter
-
-# Initialize the Mistral Small 4 model
-model = openrouter.Model("mistralai/mistral-small-2603")
-
-# Define a function to generate text using the model
-def generate_text(prompt):
-    input_ids = openrouter.tokenize(prompt)
-    output = model.generate(input_ids, max_length=4096)
-    return openrouter.detokenize(output)
-
-# Use the function
+Here
 
 ## Frequently Asked Questions
 
