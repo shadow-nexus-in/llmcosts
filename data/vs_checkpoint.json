@@ -87,6 +87,7 @@
     "anthropic-claude-opus-4.7-fast-vs-gpt-5.4-pro",
     "deepseek-deepseek-v4-flash:free-vs-qwen-qwen3.7-max",
     "google-gemini-3.5-flash-vs-qwen-qwen3.7-max",
-    "o3-vs-qwen-qwen3.7-max"
+    "o3-vs-qwen-qwen3.7-max",
+    "anthropic-claude-opus-4.8-fast-vs-qwen-qwen3.7-max"
   ]
 }
