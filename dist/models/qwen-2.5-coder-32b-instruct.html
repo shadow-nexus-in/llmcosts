@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://llmcosts.dev/models/qwen-2.5-coder-32b-instruct">
 
   <!-- Schema.org: Dataset -->
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Qwen 2.5 Coder 32B API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Qwen 2.5 Coder 32B by Alibaba Cloud.", "url": "https://llmcosts.dev/models/qwen-2.5-coder-32b-instruct", "keywords": ["Qwen 2.5 Coder 32B", "Alibaba Cloud", "open-source", "coding", "qwen", "alibaba", "software"], "dateModified": "2026-05-30", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Qwen 2.5 Coder 32B API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Qwen 2.5 Coder 32B by Alibaba Cloud.", "url": "https://llmcosts.dev/models/qwen-2.5-coder-32b-instruct", "keywords": ["Qwen 2.5 Coder 32B", "Alibaba Cloud", "open-source", "coding", "qwen", "alibaba", "software"], "dateModified": "2026-05-31", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
   <!-- Schema.org: FAQ -->
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
 
@@ -346,13 +346,13 @@
       <div class="card content-section">
         <div class="card-title">Overview</div>
         <div>### Introduction to Qwen 2.5 Coder 32B
-The Qwen 2.5 Coder 32B model, released by Alibaba Cloud on 2024-11-11, is a mid-tier, open-source language model designed specifically for coding and software engineering tasks. With its architecture based on the `qwen/qwen-2.5-coder-32b-instruct` model, it boasts a context window of 32,768 tokens and can generate outputs of up to 8,192 tokens. This model is particularly suited for tasks that require a deep understanding of code, such as coding, code review, and debugging.
+The Qwen 2.5 Coder 32B model, released by Alibaba Cloud on 2024-11-11, is a mid-tier, open-source language model designed specifically for coding and software engineering tasks. With its architecture based on the `qwen/qwen-2.5-coder-32b-instruct` model, it is optimized for tasks such as coding, code review, debugging, and agentic workflows. The model's capabilities include text, code, streaming, system prompts, and function calling, making it a versatile tool for developers.
 
-### Technical Capabilities and Pricing
-Qwen 2.5 Coder 32B offers a range of capabilities, including text and code generation, streaming, system prompts, and function calling. Its technical strengths are reflected in its benchmark scores, with an MMLU score of 83.2, HumanEval score of 92.7, LMSYS Arena ELO of 1210, and GSM8K score of 91.6. In terms of pricing, the model costs $0.8 per 1M input tokens and $1.5 per 1M output tokens, with no additional costs for cached or batch input. For example, 1,000 calls with an average of 500 tokens would cost $0.575, while 100,000 calls would cost $57.5. Compared to its top competitor, GPT-4o, which costs $2.5/1M input and $10.0/1M output, Qwen 2.5 Coder 32B offers a more affordable solution for developers.
+### Technical Specifications and Pricing
+The Qwen 2.5 Coder 32B model has a context window of 32,768 tokens and a maximum output of 8,192 tokens, with a knowledge cutoff of 2024-05. The pricing for this model is as follows: $0.8 per 1M input tokens and $1.5 per 1M output tokens. There are no additional costs for cached input or batch input. The model's performance is backed by impressive benchmarks, including an MMLU score of 83.2, HumanEval score of 92.7, LMSYS Arena ELO of 1210, and GSM8K score of 91.6. With a cost of $0.575 for 1,000 calls (avg 500 tokens), $5.75 for 10,000 calls, and $57.5 for 100,000 calls, the Qwen 2.5 Coder 32B model offers a competitive pricing structure compared to its top competitor, GPT-4o, which costs $2.5/1M input and $10.0/1M output.
 
-### Use Cases and Limitations
-Qwen 2.5 Coder 32B is best suited for tasks such as coding, code review, software engineering, debugging, and agentic workflows. However, it is not recommended for tasks</div>
+### Use Cases and Best Practices
+The Qwen 2.5 Coder 32B model is best suited for tasks such as coding, code</div>
       </div>
 
       <!-- PRICING -->
@@ -391,35 +391,37 @@ Qwen 2.5 Coder 32B is best suited for tasks such as coding, code review, softwar
           </tbody>
         </table>
 
-        <div style="margin-top:1.5rem">### Pricing Analysis for Qwen 2.5 Coder 32B
+        <div style="margin-top:1.5rem">### Qwen 2.5 Coder 32B Pricing Analysis
 #### Overview
-The Qwen 2.5 Coder 32B model, provided by Alibaba Cloud, offers a competitive pricing structure for its capabilities in coding, code review, software engineering, debugging, and agentic workflows. This analysis will delve into the cost structure, the benefits of using cached tokens, batch API savings, and the cost at scale for various numbers of API calls.
+The Qwen 2.5 Coder 32B model, released on 2024-11-11, is a mid-tier, open-source model provided by Alibaba Cloud. This analysis will delve into the cost structure, optimal usage scenarios, and cost savings at scale.
 
 #### Cost Structure
 The pricing for Qwen 2.5 Coder 32B is as follows:
-- **Input**: $0.8 per 1M tokens
-- **Output**: $1.5 per 1M tokens
-- **Cached Input**: $None per 1M tokens (free)
-- **Batch Input**: $None per 1M tokens (free)
+* Input: **$0.8 per 1M tokens**
+* Output: **$1.5 per 1M tokens**
+* Cached Input: **$0 per 1M tokens** (free)
+* Batch Input: **$0 per 1M tokens** (free)
 
-This structure indicates that the model incentivizes the use of cached inputs and batch processing for cost savings.
-
-#### Using Cached Tokens
-Given that cached input tokens are free, it is highly beneficial to utilize cached tokens whenever possible. This can significantly reduce costs, especially for applications that involve repetitive or similar inputs.
-
-#### Batch API Savings
-Similar to cached inputs, batch inputs are also free. This means that processing inputs in batches can lead to substantial cost savings. By batching API calls, users can avoid the per-token charges associated with regular input and output.
+#### Optimal Usage Scenarios
+To minimize costs, consider the following strategies:
+* **Use cached tokens**: Since cached input tokens are free, utilize them whenever possible to reduce input costs.
+* **Batch API calls**: With batch input tokens being free, batching API calls can lead to significant cost savings.
 
 #### Cost at Scale
-The cost examples provided give insight into the cost at scale for using the Qwen 2.5 Coder 32B model:
-- **1,000 calls (avg 500 tokens)**: $0.575
-- **10,000 calls**: $5.75
-- **100,000 calls**: $57.5
+The cost examples provided are as follows:
+* **1,000 calls (avg 500 tokens)**: **$0.575**
+* **10,000 calls**: **$5.75**
+* **100,000 calls**: **$57.5**
 
-These examples illustrate a linear scaling of costs with the number of API calls, indicating that the cost per call remains consistent regardless of the scale.
+To estimate costs at scale, we can calculate the cost per call:
+* **1,000 calls**: $0.575 / 1,000 calls = **$0.000575 per call**
+* **10,000 calls**: $5.75 / 10,000 calls = **$0.000575 per call**
+* **100,000 calls**: $57.5 / 100,000 calls = **$0.000575 per call**
 
-#### Comparison with Top Competitors
-In comparison to top competitors like GPT</div>
+The cost per call remains constant at **$0.000575**, indicating a linear cost structure.
+
+#### Comparison to Top Competitors
+The top competitor</div>
       </div>
 
       <!-- BENCHMARKS -->
@@ -431,20 +433,18 @@ In comparison to top competitors like GPT</div>
           <div class="stat-cell"><div class="stat-label">LMSYS ELO</div><div class="stat-value">1210</div></div>
         </div>
         <div>### Analysis of Qwen 2.5 Coder 32B Benchmark Performance
-The Qwen 2.5 Coder 32B model, released on 2024-11-11, is a mid-tier open-source model provided by Alibaba Cloud. To understand its performance and potential applications, we'll delve into its benchmark scores and what they imply for real-world use.
+The Qwen 2.5 Coder 32B model, released on 2024-11-11, is a mid-tier, open-source model provided by Alibaba Cloud. To understand its performance and suitability for real-world applications, we'll delve into its benchmark scores and what they imply.
 
 #### Benchmark Scores
-- **MMLU (Massive Multitask Language Understanding)**: 83.2
-  This score indicates the model's ability to understand and perform a wide range of tasks. An MMLU score of 83.2 suggests that Qwen 2.5 Coder 32B has a strong foundation in language understanding, which is beneficial for coding, code review, and software engineering tasks.
+The model's performance is measured across several benchmarks:
+* **MMLU (Massive Multitask Language Understanding)**: A score of **83.2** indicates the model's ability to understand and process a wide range of natural language tasks. A higher MMLU score suggests better performance in tasks that require a broad understanding of language.
+* **HumanEval**: With a score of **92.7**, the model demonstrates its capability in evaluating and executing human-written code. This score is crucial for coding, code review, and software engineering tasks, indicating the model's ability to understand and work with code effectively.
+* **LMSYS Arena ELO**: An ELO score of **1210** reflects the model's competitive performance in a variety of tasks and its ability to adapt to different scenarios. A higher ELO score suggests better overall performance and adaptability.
+* **GSM8K**: A score of **91.6** on the GSM8K benchmark, which focuses on math problem-solving, further underscores the model's strengths in coding and logical reasoning tasks.
 
-- **HumanEval**: 92.7
-  HumanEval measures a model's ability to evaluate and execute Python code. A high score of 92.7 signifies that Qwen 2.5 Coder 32B is proficient in understanding and generating correct Python code, making it suitable for tasks like coding and debugging.
-
-- **LMSYS Arena ELO**: 1210
-  The LMSYS Arena ELO score reflects a model's performance in a competitive environment, evaluating its ability to generate coherent and relevant text. An ELO score of 1210 places Qwen 2.5 Coder 32B in a competitive position, indicating its capability to produce high-quality text and code.
-
-- **GSM8K**: 91.6
-  GSM8K evaluates a model's math problem-solving skills. A score of 91.6 demonstrates that Qwen 2.5 Coder</div>
+#### Real-World Implications
+These benchmark scores have significant implications for real-world use:
+* **Coding and Software Engineering**: The high HumanEval score makes Qwen 2.5 Coder 32B particularly suitable for tasks involving coding, code review,</div>
       </div>
 
       <!-- COMPETITOR TABLE -->
@@ -482,27 +482,25 @@ The Qwen 2.5 Coder 32B model, released on 2024-11-11, is a mid-tier open-source 
         </div>
         <div style="margin-top:1.5rem">### Qwen 2.5 Coder 32B Comparison
 #### Overview
-The Qwen 2.5 Coder 32B model, provided by Alibaba Cloud, is a mid-tier open-source model released on 2024-11-11. It offers a unique combination of capabilities, including text, code, streaming, system prompts, and function calling. This comparison will examine the Qwen 2.5 Coder 32B against its top competitors, focusing on price differences, performance trade-offs, and use case scenarios.
+The Qwen 2.5 Coder 32B model, provided by Alibaba Cloud, is a mid-tier, open-source model released on 2024-11-11. It offers competitive pricing and performance, making it a viable option for coding, code review, software engineering, debugging, and agentic workflows.
 
 #### Pricing Comparison
 The Qwen 2.5 Coder 32B model is priced at:
-* $0.8 per 1M input tokens
-* $1.5 per 1M output tokens
+* $0.8 per 1M tokens for input
+* $1.5 per 1M tokens for output
 
-In comparison, the top competitor GPT-4o is priced at:
-* $2.5 per 1M input tokens
-* $10.0 per 1M output tokens
+In comparison, its top competitor, GPT-4o, is priced at:
+* $2.5 per 1M tokens for input ( **3.125x** more expensive than Qwen 2.5 Coder 32B)
+* $10.0 per 1M tokens for output ( **6.67x** more expensive than Qwen 2.5 Coder 32B)
 
-This represents a significant price difference, with Qwen 2.5 Coder 32B being **68% cheaper** for input tokens and **85% cheaper** for output tokens.
-
-#### Performance Comparison
-The Qwen 2.5 Coder 32B model has achieved the following benchmark scores:
+#### Performance Trade-offs
+The Qwen 2.5 Coder 32B model has the following performance metrics:
 * MMLU: 83.2
 * HumanEval: 92.7
 * LMSYS Arena ELO: 1210
 * GSM8K: 91.6
 
-While the benchmark scores for GPT-4o are not provided, the significant price difference between the two models suggests that Qwen 2.5 Coder 32B may offer a more cost-effective solution for certain use cases.
+While the performance metrics of GPT-4o are not provided, the significant price difference between the two models suggests that Qwen 2.5 Coder 32B may offer a more cost-effective solution for coding and software engineering tasks.
 
 #### Context and Limits
 The Qwen 2.5 Coder 32B model has the following context and limits:
@@ -510,44 +508,54 @@ The Qwen 2.5 Coder 32B model has the following context and limits:
 * Max Output: 8,192 tokens
 * Knowledge Cutoff: 2024-05
 
-These limits are important to consider when choosing a model, as they may impact the performance and effectiveness of the model in certain scenarios.
+These limits suggest that the model is suitable for tasks that require a moderate amount of context and output, but may not be suitable for tasks that require very large context windows or output.
 
 #### Capabilities and Use Cases
-The Qwen 2.5 Coder 32B model is best suited for:
-* Coding
-* Code review
-* Software engineering
-* Debugging
-* Agentic workflows
+The Qwen 2.5 Coder 32B model has the following capabilities:
+* text
+* code
+* streaming
+* system_prompts
+* function_calling
 
-It is not recommended for:
-* Vision
-* Creative writing
-* Long document analysis
+It is best suited for tasks such as:
+* coding
+* code review
+* software engineering
+* debugging
+* agentic workflows
 
-#### Cost Examples
-The cost of using the Qwen</div>
+However, it is not suitable for tasks</div>
       </div>
 
       <!-- USE CASES -->
       <div class="card content-section">
         <div class="card-title">Best Use Cases</div>
         <div>### Introduction to Qwen 2.5 Coder 32B
-The Qwen 2.5 Coder 32B model, released by Alibaba Cloud on 2024-11-11, is a mid-tier, open-source model that excels in coding, code review, software engineering, debugging, and agentic workflows. With its competitive pricing and robust capabilities, it's an attractive choice for developers and businesses alike.
+The Qwen 2.5 Coder 32B model, released by Alibaba Cloud on 2024-11-11, is a mid-tier, open-source model that excels in coding, code review, software engineering, debugging, and agentic workflows. With its competitive pricing and robust capabilities, it's an attractive option for developers and businesses alike.
 
 ### Top 5 Best Use Cases for Qwen 2.5 Coder 32B
 Based on its capabilities and benchmarks, here are the top 5 best use cases for Qwen 2.5 Coder 32B:
 
-1. **Code Generation and Review**: With a HumanEval score of 92.7, Qwen 2.5 Coder 32B is well-suited for generating and reviewing code. Its ability to understand and process code makes it an excellent tool for automating code reviews and suggesting improvements.
-2. **Software Engineering**: The model's high MMLU score of 83.2 and LMSYS Arena ELO of 1210 demonstrate its proficiency in software engineering tasks, such as designing and implementing software systems.
-3. **Debugging and Troubleshooting**: Qwen 2.5 Coder 32B's capabilities in code analysis and understanding make it an effective tool for debugging and troubleshooting code issues.
-4. **Agentic Workflows**: The model's support for system prompts and function calling enables it to integrate with various systems and workflows, making it suitable for automating tasks and workflows.
-5. **Code Optimization and Refactoring**: With its ability to analyze and understand code, Qwen 2.5 Coder 32B can suggest optimizations and refactorings to improve code quality and performance.
+1. **Automated Code Review**: Qwen 2.5 Coder 32B can be integrated with OpenRouter to review and provide feedback on code quality, syntax, and best practices. For example, you can use the following code to integrate Qwen 2.5 Coder 32B with OpenRouter:
+   ```python
+import openrouter
+from qwen import QwenCoder
 
-### Code Integration Examples with OpenRouter
-To integrate Qwen 2.5 Coder 32B with OpenRouter, you can use the following code example:
-```python
-</div>
+# Initialize Qwen 2.5 Coder 32B model
+model = QwenCoder("qwen/qwen-2.5-coder-32b-instruct")
+
+# Define a function to review code using Qwen 2.5 Coder 32B
+def review_code(code):
+    # Use Qwen 2.5 Coder 32B to review the code
+    review = model(code)
+    return review
+
+# Integrate with OpenRouter
+openrouter.add_review_function(review_code)
+```
+2. **Code Generation**: Qwen 2.5 Coder 32B can generate high-quality code snippets based on user input. Its HumanEval benchmark score of 92.7 indicates its ability to generate correct and readable code.
+3. **Debugging Assistance**: With its strong debugging capabilities, Qwen 2.5 Coder 32B can</div>
       </div>
 
       <!-- CAPABILITIES -->

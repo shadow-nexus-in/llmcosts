@@ -1,10 +1,17 @@
 # LiquidAI: LFM2-24B-A2B API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-05-30
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-05-31
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
-LiquidAI: LFM2-24B-A2B is an AI model provided by Liquid. We are currently updating our AI analysis for this model.
+### Introduction to LiquidAI: LFM2-24B-A2B
+The LiquidAI: LFM2-24B-A2B model, released by Liquid on 2024-01-01, is a standard-tier, non-open-source language model. This model boasts a context window of 32,768 tokens and can generate outputs of up to 4,096 tokens. With a knowledge cutoff of 2023-12, it is well-suited for a variety of applications, including chat, text generation, coding, analysis, and summarization. The model's capabilities include text, function calling, JSON mode, streaming, and structured outputs.
+
+### Architecture and Strengths
+The LiquidAI: LFM2-24B-A2B model's architecture is designed to support a range of use cases, with a focus on text-based applications. Its main strengths lie in its ability to handle large context windows and generate high-quality text outputs. The model has achieved a score of 80.0 on the MMLU benchmark and 1200 on the LMSYS Arena ELO benchmark, demonstrating its capabilities in natural language processing tasks. With pricing set at $0.03 per 1M input tokens and $0.12 per 1M output tokens, the model offers a cost-effective solution for developers looking to integrate advanced language capabilities into their applications.
+
+### Use Cases and Cost Examples
+The LiquidAI: LFM2-24B-A2B model is best suited for applications such as chat, text generation, coding, analysis, and summarization. It is not recommended for use cases that are not listed as "best for". In terms of cost, the model's pricing structure is as follows: $0.03 per 1M input tokens and $0.12 per 1M output tokens. For example, 1,000 calls with an average of 500 tokens would cost $0.0001, while 10,000 calls
 
 ## Pricing (USD per 1M tokens)
 | Metric | Price |
@@ -16,7 +23,7 @@ LiquidAI: LFM2-24B-A2B is an AI model provided by Liquid. We are currently updat
 | Batch Output | $None |
 
 ## Pricing Analysis
-See the pricing table for exact input, output, and batch token metrics.
+See pricing table above for detailed costs.
 
 ## Benchmarks
 | Benchmark | Score |
@@ -27,17 +34,15 @@ See the pricing table for exact input, output, and batch token metrics.
 | ARC | None |
 
 ## Benchmark Analysis
-See the benchmark table to view MMLU, HumanEval, and LMSYS ELO scores.
+
 
 ## Competitor Comparison
-Review the top competitor list shown in the pricing table.
+
 
 ## Best Use Cases
-General purpose text generation, conversational AI, and API integrations.
+
 
 ## Frequently Asked Questions
-**Q: Who made LiquidAI: LFM2-24B-A2B?**
-A: It is provided by Liquid.
 
 
 ---
