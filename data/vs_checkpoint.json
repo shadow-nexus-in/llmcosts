@@ -93,6 +93,8 @@
     "claude-opus-4-vs-qwen-qwen3.7-max",
     "gemini-2-5-pro-vs-qwen-qwen3.7-max",
     "claude-sonnet-4-vs-qwen-qwen3.7-max",
-    "o1-vs-qwen-qwen3.7-max"
+    "o1-vs-qwen-qwen3.7-max",
+    "gpt-4-1-vs-qwen-qwen3.7-max",
+    "gpt-4o-vs-qwen-qwen3.7-max"
   ]
 }

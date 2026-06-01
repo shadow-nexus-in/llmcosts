@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://llmcosts.dev/models/minimax-m2.7">
 
   <!-- Schema.org: Dataset -->
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "MiniMax: MiniMax M2.7 API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for MiniMax: MiniMax M2.7 by Minimax.", "url": "https://llmcosts.dev/models/minimax-m2.7", "keywords": ["MiniMax: MiniMax M2.7", "Minimax", "llm", "api"], "dateModified": "2026-05-31", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "MiniMax: MiniMax M2.7 API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for MiniMax: MiniMax M2.7 by Minimax.", "url": "https://llmcosts.dev/models/minimax-m2.7", "keywords": ["MiniMax: MiniMax M2.7", "Minimax", "llm", "api"], "dateModified": "2026-06-01", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
   <!-- Schema.org: FAQ -->
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
 
@@ -346,13 +346,13 @@
       <div class="card content-section">
         <div class="card-title">Overview</div>
         <div>### Introduction to MiniMax M2.7
-The MiniMax M2.7 model, released by Minimax on 2024-01-01, is a standard, non-open-source language model designed for a variety of tasks. Its architecture is tailored to handle large context windows of up to 204,800 tokens and generate outputs of up to 131,072 tokens. With a knowledge cutoff of 2023-12, this model is well-suited for applications requiring extensive text understanding and generation capabilities.
+The MiniMax M2.7 model, released by Minimax on 2024-01-01, is a standard, non-open-source language model designed for a variety of natural language processing tasks. With a context window of 204,800 tokens and a maximum output of 131,072 tokens, this model is capable of handling complex and lengthy inputs. The knowledge cutoff for this model is 2023-12, indicating that its training data includes information up to December 2023.
 
-### Technical Capabilities and Pricing
-MiniMax M2.7 boasts an impressive array of capabilities, including text generation, function calling, JSON mode, streaming, and structured outputs. Its strengths are reflected in its benchmark scores, with an MMLU score of 80.0 and an LMSYS Arena ELO score of 1200. The model is priced at $0.3 per 1M tokens for input and $1.2 per 1M tokens for output, with no additional costs for cached or batch inputs. For example, 1,000 calls averaging 500 tokens would cost $0.75, while 10,000 calls would cost $7.5, and 100,000 calls would cost $75.0.
+### Architecture and Strengths
+The MiniMax M2.7 model boasts several key strengths, including its ability to handle text, function calling, JSON mode, streaming, and structured outputs. Its capabilities make it well-suited for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization. In terms of pricing, the model costs $0.3 per 1M tokens for input and $1.2 per 1M tokens for output. The model's performance is measured by several benchmarks, including an MMLU score of 80.0 and an LMSYS Arena ELO score of 1200. With a tier classification of standard, the MiniMax M2.7 model offers a balance of performance and cost-effectiveness.
 
-### Use Cases and Competitors
-The MiniMax M2.7 model is best suited for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization. Its versatility and performance make it an attractive choice for developers seeking a reliable language model. While there are no direct competitors listed, the model's unique combination of capabilities and pricing makes it a compelling option for a wide range of use cases. With its robust architecture and extensive feature set, the MiniMax M2.7 is poised to deliver high-quality results in a variety of applications, from conversational AI to complex data analysis and generation tasks.</div>
+### Use Cases and Cost Considerations
+Developers can leverage the MiniMax M2.7 model for a range of use cases, from chat and text generation to coding and analysis. However, its limitations and pricing structure should be carefully considered. For example, 1,000 calls with an average of 500 tokens would cost $0.75, while 100,000 calls would cost $75.0. With no direct competitors listed, the MiniMax M2.7 model offers a unique set of capabilities and pricing. As with any language model, it is essential to evaluate the model's strengths and weaknesses in the context of specific project requirements to</div>
       </div>
 
       <!-- PRICING -->
@@ -393,43 +393,33 @@ The MiniMax M2.7 model is best suited for applications such as chat, text genera
 
         <div style="margin-top:1.5rem">### MiniMax M2.7 Pricing Analysis
 #### Overview
-The MiniMax M2.7 model, provided by Minimax, is a standard, non-open-source model released on 2024-01-01. This analysis will delve into the cost structure, optimal usage scenarios, and cost savings at scale.
+The MiniMax M2.7 model, provided by Minimax, is a standard, non-open-source model released on January 1, 2024. This analysis will delve into the cost structure, usage scenarios, and scalability of the MiniMax M2.7 model.
 
 #### Cost Structure
 The pricing for MiniMax M2.7 is as follows:
-* Input: **$0.3 per 1M tokens**
-* Output: **$1.2 per 1M tokens**
-* Cached Input: **$0 per 1M tokens** (free)
-* Batch Input: **$0 per 1M tokens** (free)
+* **Input**: $0.3 per 1M tokens
+* **Output**: $1.2 per 1M tokens
+* **Cached Input**: $0 per 1M tokens (free)
+* **Batch Input**: $0 per 1M tokens (free)
 
-#### Optimal Usage Scenarios
-To minimize costs, consider the following strategies:
-* **Use cached tokens**: Since cached input is free, utilize this feature whenever possible to reduce input costs.
-* **Batch API calls**: With batch input being free, batching API calls can help reduce overall costs by minimizing the number of input tokens required.
+#### Usage Scenarios
+* **Cached Tokens**: Since cached input tokens are free, it is recommended to use cached tokens whenever possible to minimize costs.
+* **Batch API Savings**: Although batch input tokens are free, there is no specified discount for batch API calls. However, making batch API calls can still reduce the overall cost by minimizing the number of API requests.
 
 #### Cost at Scale
 The cost of using MiniMax M2.7 at scale is as follows:
-* **1,000 API calls** (avg 500 tokens): **$0.75**
-* **10,000 API calls**: **$7.5**
-* **100,000 API calls**: **$75.0**
+* **1,000 API calls** (avg 500 tokens): $0.75
+* **10,000 API calls**: $7.5
+* **100,000 API calls**: $75.0
 
-These costs demonstrate a linear scaling of expenses with the number of API calls, indicating that the cost per call remains constant.
+These costs can be broken down into input and output costs. Assuming an average of 500 tokens per call, the total number of tokens for each scenario would be:
+* 1,000 calls \* 500 tokens = 500,000 tokens
+* 10,000 calls \* 500 tokens = 5,000,000 tokens
+* 100,000 calls \* 500 tokens = 50,000,000 tokens
 
-#### Context and Limits
-When using MiniMax M2.7, keep in mind the following context and limits:
-* **Context Window**: 204,800 tokens
-* **Max Output**: 131,072 tokens
-* **Knowledge Cutoff**: 2023-12
-
-#### Capabilities and Best Use Cases
-MiniMax M2.7 is capable of:
-* text
-* function_calling
-* json_mode
-* streaming
-* structured_outputs
-
-It is best suited for</div>
+Using the pricing structure, we can estimate the input and output costs:
+* **1,000 API calls**:
+	+ Input</div>
       </div>
 
       <!-- BENCHMARKS -->
@@ -442,17 +432,26 @@ It is best suited for</div>
         </div>
         <div>### MiniMax M2.7 Benchmark Performance Analysis
 #### Overview
-The MiniMax M2.7 model, released by Minimax on 2024-01-01, is a standard, non-open-source model with a unique set of capabilities and pricing structure. This analysis will delve into the model's benchmark performance, focusing on the MMLU, HumanEval, and Arena ELO scores, and their implications for real-world use.
+The MiniMax M2.7 model, released by Minimax on 2024-01-01, is a standard, non-open-source model. This analysis will delve into its benchmark performance, focusing on the MMLU, HumanEval, and Arena ELO scores, to understand its capabilities and limitations for real-world use.
 
-#### Benchmark Scores
-The MiniMax M2.7 model has achieved the following benchmark scores:
-* **MMLU: 80.0** - The MMLU (Massive Multitask Language Understanding) benchmark evaluates a model's ability to perform a wide range of natural language processing tasks. A score of 80.0 indicates that the MiniMax M2.7 model has a moderate to high level of language understanding capabilities.
-* **HumanEval: None** - The HumanEval benchmark assesses a model's ability to generate code that is both correct and readable. Unfortunately, no HumanEval score is available for the MiniMax M2.7 model, making it difficult to evaluate its code generation capabilities.
-* **LMSYS Arena ELO: 1200** - The LMSYS Arena ELO benchmark measures a model's performance in a competitive environment, where models are pitted against each other to complete tasks. An ELO score of 1200 indicates that the MiniMax M2.7 model has a moderate level of performance in this setting.
+#### Pricing
+The pricing for MiniMax M2.7 is as follows:
+- Input: **$0.3 per 1M tokens**
+- Output: **$1.2 per 1M tokens**
+- Cached Input: **$None per 1M tokens**
+- Batch Input: **$None per 1M tokens**
 
-#### Real-World Implications
-The benchmark scores suggest that the MiniMax M2.7 model is suitable for a variety of real-world applications, including:
-* **Text generation**: With an MMLU score of</div>
+#### Context and Limits
+The model has the following context and limits:
+- Context Window: **204,800 tokens**
+- Max Output: **131,072 tokens**
+- Knowledge Cutoff: **2023-12**
+
+#### Benchmarks
+The benchmark performance of MiniMax M2.7 is:
+- **MMLU: 80.0**: The MMLU (Massive Multitask Language Understanding) benchmark measures a model's ability to perform a wide range of natural language processing tasks. A score of 80.0 indicates that MiniMax M2.7 has a strong foundation in language understanding.
+- **HumanEval: None**: The HumanEval benchmark evaluates a model's ability to write code based on human-written tests. Unfortunately, no HumanEval score is available for MiniMax M2.7, making it difficult to assess its coding capabilities.
+- **LMSYS Arena ELO: 1200**: The LMSYS Arena ELO score measures a model</div>
       </div>
 
       <!-- COMPETITOR TABLE -->
@@ -481,71 +480,79 @@ The benchmark scores suggest that the MiniMax M2.7 model is suitable for a varie
             </tbody>
           </table>
         </div>
-        <div style="margin-top:1.5rem">### MiniMax M2.7 Comparison
-Since there are no direct competitors listed for the MiniMax M2.7 model, we will provide a general overview of the model's features, pricing, and performance. This will help users understand the model's strengths and weaknesses, and make informed decisions about when to choose this model.
+        <div style="margin-top:1.5rem">### Comparison of MiniMax M2.7 with Top Competitors
+Since there are no direct competitors listed for the MiniMax M2.7, we will provide a general comparison framework that can be applied when evaluating this model against other similar models in the market.
 
-#### Model Overview
-The MiniMax M2.7 model is a standard-tier model provided by Minimax, released on January 1, 2024. It is not open-source.
+#### Pricing Comparison
+The MiniMax M2.7 pricing is as follows:
+- Input: $0.3 per 1M tokens
+- Output: $1.2 per 1M tokens
 
-#### Pricing
-The pricing for the MiniMax M2.7 model is as follows:
-* Input: $0.3 per 1M tokens
-* Output: $1.2 per 1M tokens
-* Cached Input: $None per 1M tokens
-* Batch Input: $None per 1M tokens
+To compare, consider the pricing of other models:
+| Model | Input Price per 1M tokens | Output Price per 1M tokens |
+| --- | --- | --- |
+| MiniMax M2.7 | $0.3 | $1.2 |
+| Competitor Model | *Competitor Input Price* | *Competitor Output Price* |
 
-#### Performance
-The MiniMax M2.7 model has the following performance characteristics:
-* Context Window: 204,800 tokens
-* Max Output: 131,072 tokens
-* Knowledge Cutoff: 2023-12
-* MMLU: 80.0
-* LMSYS Arena ELO: 1200
+#### Performance Trade-offs
+The performance of the MiniMax M2.7 is measured by the following benchmarks:
+- MMLU: 80.0
+- LMSYS Arena ELO: 1200
+
+When comparing with other models, consider their benchmark scores:
+| Model | MMLU | LMSYS Arena ELO |
+| --- | --- | --- |
+| MiniMax M2.7 | 80.0 | 1200 |
+| Competitor Model | *Competitor MMLU Score* | *Competitor LMSYS Arena ELO Score* |
+
+#### Context and Limits
+The MiniMax M2.7 has the following context and limits:
+- Context Window: 204,800 tokens
+- Max Output: 131,072 tokens
+- Knowledge Cutoff: 2023-12
+
+Compare these with the context and limits of other models:
+| Model | Context Window | Max Output | Knowledge Cutoff |
+| --- | --- | --- | --- |
+| MiniMax M2.7 | 204,800 tokens | 131,072 tokens | 2023-12 |
+| Competitor Model | *Competitor Context Window* | *Competitor Max Output* | *Competitor Knowledge Cutoff* |
 
 #### Capabilities and Use Cases
-The MiniMax M2.7 model supports the following capabilities:
-* text
-* function_calling
-* json_mode
-* streaming
-* structured_outputs
-It is best suited for the following use cases:
-* chat
-* text_generation
-* coding
-* analysis
-* rag_pipelines
-* summarization
+The MiniMax M2.7 supports the following capabilities:
+- text
+- function_calling
+- json_mode
+- streaming
+- structured_outputs
 
-#### Cost Examples
-The cost of using the MiniMax M2.7 model can be estimated as follows:
-* 1,000 calls (avg 500 tokens): $0.75
-* 10,000 calls: $7.5
-* 100,000 calls: $75.0
+It is best suited for:
+- chat
+- text_generation
+- coding
+- analysis
+- rag_pipelines
+- summarization
 
-#### Choosing the MiniMax M2.7 Model
-Since there are no direct competitors listed, the decision to choose the MiniMax M2.7 model will depend on the specific requirements of the project. Users should consider the model's pricing, performance, and capabilities when deciding whether to use this model. If the model's features and pricing align with the project's needs, the MiniMax M2.7 model may be a good choice.
-
-In general, users may want to consider the following factors when choosing a model:
-* The type of task they want to perform (e.g. text generation, coding, analysis</div>
+When to choose the MiniMax M2.7:
+</div>
       </div>
 
       <!-- USE CASES -->
       <div class="card content-section">
         <div class="card-title">Best Use Cases</div>
         <div>### Introduction to MiniMax M2.7
-The MiniMax M2.7 model, provided by Minimax, is a powerful tool with a wide range of capabilities, including text generation, function calling, and structured outputs. Released on January 1, 2024, this standard-tier model is not open-source and offers a unique set of features that make it suitable for various applications.
+The MiniMax M2.7 model, provided by Minimax, is a powerful tool with a wide range of capabilities, including text generation, function calling, and structured outputs. Released on 2024-01-01, this standard-tier model is not open-source. In this guide, we will explore the top 5 best use cases for MiniMax M2.7, along with code integration examples using OpenRouter.
 
-### Top 5 Best Use Cases for MiniMax M2.7
-Based on its capabilities and benchmarks, here are the top 5 best use cases for MiniMax M2.7:
+### Top 5 Use Cases for MiniMax M2.7
+Based on the model's capabilities, the top 5 use cases for MiniMax M2.7 are:
 
 1. **Chat and Text Generation**: With its high context window of 204,800 tokens and ability to generate up to 131,072 tokens, MiniMax M2.7 is well-suited for chat and text generation applications.
-2. **Coding and Analysis**: The model's function calling and structured outputs capabilities make it an excellent choice for coding and analysis tasks, such as code completion and data analysis.
+2. **Coding and Analysis**: The model's function calling and structured outputs capabilities make it a great tool for coding and analysis tasks, such as code completion and data analysis.
 3. **Summarization**: MiniMax M2.7's ability to process large amounts of text and generate concise summaries makes it a great tool for summarization tasks.
-4. **RAG Pipelines**: The model's support for Retrieval-Augmented Generation (RAG) pipelines makes it an excellent choice for applications that require generating text based on external knowledge sources.
-5. **Streaming**: With its streaming capability, MiniMax M2.7 can be used for real-time text generation and analysis applications, such as live chatbots or sentiment analysis.
+4. **RAG Pipelines**: The model's support for Retrieval-Augmented Generation (RAG) pipelines makes it a great tool for tasks that require generating text based on external knowledge sources.
+5. **Streaming**: With its support for streaming, MiniMax M2.7 can be used for real-time text generation and analysis applications.
 
-### Code Integration Example with OpenRouter
+### Code Integration Examples with OpenRouter
 To integrate MiniMax M2.7 with OpenRouter, you can use the following code example:
 ```python
 import openrouter
@@ -555,8 +562,7 @@ model = openrouter.Model("minimax/minimax-m2.7")
 
 # Define a function to generate text using the model
 def generate_text(prompt):
-    inputs = {"prompt": prompt}
-    outputs</div>
+    input_ids =</div>
       </div>
 
       <!-- CAPABILITIES -->
