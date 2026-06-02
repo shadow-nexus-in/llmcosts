@@ -1,17 +1,17 @@
 # Xiaomi: MiMo-V2-Omni API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-01
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-02
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
 ### Introduction to Xiaomi: MiMo-V2-Omni
-The Xiaomi: MiMo-V2-Omni model, released by Xiaomi on 2024-01-01, is a standard-tier, non-open-source language model designed for a variety of tasks. Its architecture is not explicitly detailed, but its capabilities and benchmarks provide insight into its strengths. With a context window of 262,144 tokens and a maximum output of 65,536 tokens, this model is well-suited for tasks that require understanding and generating lengthy texts.
+The Xiaomi: MiMo-V2-Omni model, released by Xiaomi on 2024-01-01, is a standard tier language model that is not open source. This model boasts an impressive architecture that supports various capabilities such as text, function calling, JSON mode, streaming, and structured outputs. With a context window of 262,144 tokens and a maximum output of 65,536 tokens, the MiMo-V2-Omni is well-suited for a range of applications, including chat, text generation, coding, analysis, and summarization.
 
-### Technical Capabilities and Use-Cases
-Xiaomi: MiMo-V2-Omni boasts an impressive array of capabilities, including text generation, function calling, JSON mode, streaming, and structured outputs. These features make it an ideal choice for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization. The model's performance is reflected in its benchmarks, with an MMLU score of 80.0 and an LMSYS Arena ELO rating of 1200. However, its limitations are noted in the absence of HumanEval and GSM8K benchmarks. The pricing model for this service is based on input and output tokens, with costs of $0.4 per 1M input tokens and $2.0 per 1M output tokens.
+### Technical Strengths and Use Cases
+The MiMo-V2-Omni model demonstrates its strengths through its benchmark scores, including an MMLU score of 80.0 and an LMSYS Arena ELO score of 1200. While it does not have scores for HumanEval and GSM8K, its capabilities and best use cases suggest it is particularly adept at handling complex text-based tasks. Its primary use cases include chat, text generation, coding, analysis, and summarization, making it a versatile tool for developers. However, its pricing structure, with input costs at $0.4 per 1M tokens and output costs at $2.0 per 1M tokens, should be carefully considered when planning applications.
 
 ### Pricing and Cost Considerations
-Developers considering the Xiaomi: MiMo-V2-Omni model should be aware of its pricing structure and how it may impact their applications. The cost examples provided indicate that 1,000 calls with an average of 500 tokens would cost $1.2, while 10,000 calls would cost $12.0, and 100,000 calls would cost $120.0. With no direct competitors listed, Xiaomi: MiMo-V2-Omni presents a unique option for developers seeking a robust language model for their projects. Its strengths in text generation, coding, and analysis make it
+To effectively utilize the Xiaomi: MiMo-V2-Omni model, developers should be aware of its pricing structure and how it applies to their specific use cases. For example, 1,000 calls with an average of 500 tokens would cost $1.2, while 10,000 calls would cost $12.0, and 100,000 calls would cost $120.0. Understanding these costs and the model's capabilities will help developers make informed decisions about when to use the MiMo-V2-Omni and how to optimize their applications for the best
 
 ## Pricing (USD per 1M tokens)
 | Metric | Price |
@@ -25,33 +25,33 @@ Developers considering the Xiaomi: MiMo-V2-Omni model should be aware of its pri
 ## Pricing Analysis
 ### Pricing Analysis for Xiaomi: MiMo-V2-Omni
 #### Overview
-The Xiaomi: MiMo-V2-Omni model is a standard, non-open source model released by Xiaomi on 2024-01-01. This analysis will delve into the cost structure, optimal usage scenarios, and cost savings at scale.
+The Xiaomi: MiMo-V2-Omni model is a standard, non-open source model released by Xiaomi on 2024-01-01. This analysis will delve into the cost structure, optimal usage scenarios, and cost projections at various scales.
 
 #### Cost Structure
 The pricing for Xiaomi: MiMo-V2-Omni is as follows:
-* Input: **$0.4 per 1M tokens**
-* Output: **$2.0 per 1M tokens**
-* Cached Input: **$0 per 1M tokens** (free)
-* Batch Input: **$0 per 1M tokens** (free)
+* **Input**: $0.4 per 1M tokens
+* **Output**: $2.0 per 1M tokens
+* **Cached Input**: $None per 1M tokens (free)
+* **Batch Input**: $None per 1M tokens (free)
 
 #### Optimal Usage Scenarios
-To minimize costs, consider the following strategies:
-* **Use cached tokens**: Since cached input tokens are free, utilize them whenever possible to reduce input costs.
-* **Batch API calls**: With batch input tokens being free, batching API calls can lead to significant cost savings.
+* **Cached Tokens**: Since cached input tokens are free, it is highly recommended to utilize cached tokens whenever possible to minimize costs.
+* **Batch API Savings**: Although batch input is free, there is no explicit discount for batch API calls. However, making batch API calls can still reduce the overall cost by minimizing the number of API requests.
 
-#### Cost at Scale
-The cost of using Xiaomi: MiMo-V2-Omni at scale is as follows:
-* **1,000 calls (avg 500 tokens)**: **$1.2**
-* **10,000 calls**: **$12.0**
-* **100,000 calls**: **$120.0**
+#### Cost Projections
+The cost of using Xiaomi: MiMo-V2-Omni at various scales is as follows:
+* **1,000 calls (avg 500 tokens)**: $1.2
+* **10,000 calls**: $12.0
+* **100,000 calls**: $120.0
 
-These costs can be broken down into input and output costs. Assuming an average of 500 tokens per call, the total tokens required for each scenario would be:
-* 1,000 calls: 500,000 tokens
-* 10,000 calls: 5,000,000 tokens
-* 100,000 calls: 50,000,000 tokens
+These costs can be broken down into input and output costs. Assuming an average of 500 tokens per call, the total number of tokens for each scenario would be:
+* **1,000 calls**: 500,000 tokens
+* **10,000 calls**: 5,000,000 tokens
+* **100,000 calls**: 50,000,000 tokens
 
-Using the pricing structure, we can estimate the input and output costs:
-* 1,000 calls: (500,000 tokens / 1,000,000 tokens) \* $0.4 = $0.2 (input
+Using the input and output pricing, we can estimate the costs as follows:
+* **1,000 calls**:
+	+ Input: 500,000 tokens / 1,
 
 ## Benchmarks
 | Benchmark | Score |
@@ -64,74 +64,64 @@ Using the pricing structure, we can estimate the input and output costs:
 ## Benchmark Analysis
 ### Analysis of Xiaomi: MiMo-V2-Omni Benchmark Performance
 #### Overview
-The Xiaomi: MiMo-V2-Omni model, released on 2024-01-01, is a standard-tier model provided by Xiaomi. It is not open-source and has specific pricing for input and output tokens.
+The Xiaomi: MiMo-V2-Omni model, released on 2024-01-01, is a standard, non-open-source model provided by Xiaomi. It has a context window of 262,144 tokens and a maximum output of 65,536 tokens, with a knowledge cutoff of 2023-12.
 
-#### Pricing
-The pricing for this model is as follows:
-* Input: $0.4 per 1M tokens
-* Output: $2.0 per 1M tokens
-* Cached Input: $None per 1M tokens
-* Batch Input: $None per 1M tokens
+#### Benchmark Scores
+The model's performance is measured by the following benchmark scores:
+* **MMLU (Massive Multitask Language Understanding)**: 80.0 - This score indicates the model's ability to understand and perform a wide range of natural language tasks. A higher score suggests better performance.
+* **HumanEval**: None - This benchmark evaluates a model's ability to generate code that passes a set of unit tests. The absence of a score for this benchmark suggests that the model's coding capabilities may not be well-established or tested.
+* **LMSYS Arena ELO**: 1200 - This score represents the model's performance in a competitive arena, where it is pitted against other models. A higher ELO score indicates better performance relative to other models.
 
-#### Context and Limits
-The model has the following context and limits:
-* Context Window: 262,144 tokens
-* Max Output: 65,536 tokens
-* Knowledge Cutoff: 2023-12
-
-#### Benchmarks
-The model's benchmark performance is as follows:
-* MMLU: 80.0
-* HumanEval: None
-* LMSYS Arena ELO: 1200
-* GSM8K: None
-
-The **MMLU (Massive Multitask Language Understanding) score** of 80.0 indicates the model's ability to perform well across a wide range of natural language processing tasks. A higher MMLU score generally suggests better performance in understanding and generating human-like language.
-
-The **LMSYS Arena ELO score** of 1200 is a measure of the model's performance in a competitive environment, where it is pitted against other models. A higher ELO score indicates better performance and a higher ranking.
-
-The absence of **HumanEval** and **GSM8K** scores means that the model's performance in these specific areas
+#### Real-World Implications
+The benchmark scores have the following implications for real-world use:
+* The MMLU score of 80.0 suggests that the model is capable of performing a wide range of natural language tasks with reasonable accuracy.
+* The absence of a HumanEval score may indicate that the model is not well-suited for coding tasks or may require additional testing to establish its coding capabilities.
+* The LMSYS Arena ELO score of 1200 suggests that the model is a mid-tier performer in a competitive arena,
 
 ## Competitor Comparison
 ### Comparison of Xiaomi: MiMo-V2-Omni with Top Competitors
-Since there are no direct competitors listed for the Xiaomi: MiMo-V2-Omni, we will provide a general overview of the model's features, pricing, and performance. This will help users understand when to choose this model and what trade-offs to expect.
-
-#### Model Overview
-The Xiaomi: MiMo-V2-Omni is a standard-tier model released by Xiaomi on 2024-01-01. It is not open-source. The model has the following key features:
-* Context Window: 262,144 tokens
-* Max Output: 65,536 tokens
-* Knowledge Cutoff: 2023-12
-* Capabilities: text, function_calling, json_mode, streaming, structured_outputs
-* Best for: chat, text_generation, coding, analysis, rag_pipelines, summarization
+Since there are no direct competitors listed for the Xiaomi: MiMo-V2-Omni, we will provide a general overview of its features, pricing, and performance. This will help users understand when to choose this model and what trade-offs to expect.
 
 #### Pricing
-The pricing for the Xiaomi: MiMo-V2-Omni is as follows:
+The Xiaomi: MiMo-V2-Omni pricing is as follows:
 * Input: $0.4 per 1M tokens
 * Output: $2.0 per 1M tokens
 * Cached Input: $None per 1M tokens
 * Batch Input: $None per 1M tokens
 
+#### Performance
+The model's performance is measured by the following benchmarks:
+* MMLU: 80.0
+* LMSYS Arena ELO: 1200
+
+#### Capabilities and Best Use Cases
+The Xiaomi: MiMo-V2-Omni supports the following capabilities:
+* text
+* function_calling
+* json_mode
+* streaming
+* structured_outputs
+
+It is best suited for the following use cases:
+* chat
+* text_generation
+* coding
+* analysis
+* rag_pipelines
+* summarization
+
 #### Cost Examples
-The cost of using the Xiaomi: MiMo-V2-Omni can be estimated as follows:
+The estimated costs for using the Xiaomi: MiMo-V2-Omni are:
 * 1,000 calls (avg 500 tokens): $1.2
 * 10,000 calls: $12.0
 * 100,000 calls: $120.0
 
-#### Performance
-The performance of the Xiaomi: MiMo-V2-Omni is measured by the following benchmarks:
-* MMLU: 80.0
-* LMSYS Arena ELO: 1200
-
 #### Choosing the Xiaomi: MiMo-V2-Omni
-Since there are no direct competitors listed, the Xiaomi: MiMo-V2-Omni can be considered for a wide range of applications, including:
-* Chat and text generation
-* Coding and analysis
-* RAG pipelines and summarization
-
-However, users should be aware of the following trade-offs:
-* The model is not open-source, which may limit customization and transparency.
-* The knowledge cutoff is 2023-12, which may affect the model's ability to handle very recent events or developments.
-* The pricing is based on input and output tokens, which may vary depending on the specific use case.
+Since there are no direct competitors, the decision to choose the Xiaomi: MiMo-V2-Omni depends on the specific requirements of your project. Consider the following factors:
+* **Context Window**: If your application requires a large context window (up to 262,144 tokens), the Xiaomi: MiMo-V2-Omni may be a good choice.
+* **Output Size**: If your application requires generating large outputs (up to 65,536 tokens), the Xiaomi: MiMo-V2-Omni may be suitable.
+* **Pricing**: If your budget is limited, the Xiaomi: MiMo-V2-Omni's pricing may be competitive, especially for smaller workloads.
+* **Capabilities**: If your application requires advanced capabilities like function_calling, json_mode, or structured_outputs, the Xiaomi: MiMo-V2-Omni may be a good fit.
 
 
 
@@ -140,32 +130,30 @@ However, users should be aware of the following trade-offs:
 The Xiaomi: MiMo-V2-Omni model, released by Xiaomi on 2024-01-01, is a standard, non-open-source model with a unique set of capabilities and pricing. This guide will explore the top 5 best use cases for this model, along with practical advice and code integration examples using OpenRouter.
 
 ### Top 5 Best Use Cases
-Based on the model's capabilities and benchmarks, the top 5 best use cases for Xiaomi: MiMo-V2-Omni are:
+Based on the model's capabilities, the top 5 best use cases for Xiaomi: MiMo-V2-Omni are:
 
-1. **Chat and Text Generation**: With its high context window and ability to generate text, this model is well-suited for chat applications and text generation tasks.
-2. **Coding and Analysis**: The model's function_calling and structured_outputs capabilities make it a good fit for coding and analysis tasks, such as code completion and data analysis.
-3. **Summarization**: Xiaomi: MiMo-V2-Omni's ability to process large amounts of text and generate concise summaries makes it a good choice for summarization tasks.
-4. **RAG Pipelines**: The model's support for rag_pipelines makes it a good fit for tasks that require retrieving and generating text based on external knowledge.
-5. **Streaming**: With its streaming capability, Xiaomi: MiMo-V2-Omni can be used for real-time text processing and generation tasks.
+1. **Chat**: With its text generation capabilities, this model is well-suited for chat applications, such as customer support or conversational AI.
+2. **Text Generation**: The model's ability to generate human-like text makes it ideal for content creation, such as writing articles or generating product descriptions.
+3. **Coding**: Xiaomi: MiMo-V2-Omni's function_calling capability makes it useful for coding tasks, such as generating code snippets or completing partial code.
+4. **Analysis**: The model's capabilities in text analysis and structured outputs make it suitable for data analysis tasks, such as summarizing large datasets or generating insights.
+5. **Summarization**: With its ability to generate concise summaries, this model is well-suited for summarization tasks, such as summarizing long documents or articles.
 
 ### Code Integration Examples with OpenRouter
-To integrate Xiaomi: MiMo-V2-Omni with OpenRouter, you can use the following code examples:
+To integrate Xiaomi: MiMo-V2-Omni with OpenRouter, you can use the following code example:
 ```python
 import openrouter
 
-# Initialize the model
-model = openrouter.Model("xiaomi/mimo-v2-omni")
+# Initialize the OpenRouter client
+client = openrouter.Client("xiaomi/mimo-v2-omni")
 
-# Text generation example
-input_text = "Hello, world!"
-output = model.generate_text(input_text, max_length=100)
-print(output)
+# Define a function to generate text using the model
+def generate_text(prompt):
+    response = client.generate_text(prompt, max_tokens=512)
+    return response
 
-# Function calling example
-def add(a, b):
-    return a + b
-
-output = model.function_calling
+# Define a function to analyze text using the model
+def analyze_text(text):
+    response = client.analyze_text(text, output
 
 ## Frequently Asked Questions
 

@@ -95,6 +95,7 @@
     "claude-sonnet-4-vs-qwen-qwen3.7-max",
     "o1-vs-qwen-qwen3.7-max",
     "gpt-4-1-vs-qwen-qwen3.7-max",
-    "gpt-4o-vs-qwen-qwen3.7-max"
+    "gpt-4o-vs-qwen-qwen3.7-max",
+    "mistral-large-2407-vs-qwen-qwen3.7-max"
   ]
 }

@@ -1,17 +1,17 @@
 # Reka Edge API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-01
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-02
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
 ### Introduction to Reka Edge
-Reka Edge, developed by Rekaai, is a standard-tier model released on 2024-01-01. This proprietary model is not open source. From an architectural standpoint, Reka Edge is designed to handle a variety of natural language processing (NLP) tasks with its robust capabilities, including text generation, function calling, JSON mode, streaming, and structured outputs. Its primary strengths lie in its ability to process large inputs and outputs, with a context window of up to 16,384 tokens and a maximum output of 16,384 tokens.
+Reka Edge, provided by Rekaai, is a standard-tier model released on 2024-01-01. This model is not open source. From an architectural standpoint, Reka Edge is designed to handle a variety of tasks with its capabilities including text, function calling, JSON mode, streaming, and structured outputs. Its primary strengths lie in its ability to process large amounts of data efficiently, with a context window of up to 16,384 tokens and a maximum output of 16,384 tokens.
 
 ### Technical Specifications and Use Cases
-Reka Edge is best utilized for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization. Its capabilities are backed by a pricing model that charges $0.1 per 1M tokens for both input and output, with no additional costs for cached or batch inputs. The model's performance is benchmarked with an MMLU score of 80.0 and an LMSYS Arena ELO of 1200. With its knowledge cutoff at 2023-12, Reka Edge is well-suited for tasks that require a strong understanding of language and context. Developers can leverage Reka Edge for building conversational AI, generating text, or analyzing large datasets.
+Reka Edge is best suited for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization. Its technical specifications include a knowledge cutoff of 2023-12, indicating that its training data is current up to this point. The model's performance is benchmarked with an MMLU score of 80.0 and an LMSYS Arena ELO of 1200. In terms of pricing, Reka Edge costs $0.1 per 1M tokens for both input and output, with no additional costs for cached input or batch input. This pricing model makes it a cost-effective solution for developers, with examples including $0.1 for 1,000 calls (avg 500 tokens), $1.0 for 10,000 calls, and $10.0 for 100,000 calls.
 
-### Cost and Competitiveness
-In terms of cost, Reka Edge offers a straightforward pricing model. For example, 1,000 calls with an average of 500 tokens would cost $0.1, while 10,000 calls would cost $1.0, and 100,000 calls would cost $10.0. With no direct competitors listed, Reka Edge occupies a unique position in the market. However, its limitations, such as the lack of benchmark scores for HumanEval and GSM8K, should be considered when evaluating its suitability for specific use cases. Overall, Reka Edge is a powerful tool for developers
+### Development and Integration
+For developers looking to integrate Reka Edge into their applications, it's essential to consider its capabilities and limitations. With its support for text, function calling, and structured outputs, Reka Edge can be used to build a wide range of applications, from chatbots and text generation tools to coding assistants and analysis platforms. However, its limitations, such as the context window and knowledge cutoff, should be taken into account when designing and deploying applications. As Reka Edge has no direct competitors listed, it presents a unique opportunity for
 
 ## Pricing (USD per 1M tokens)
 | Metric | Price |
@@ -25,33 +25,31 @@ In terms of cost, Reka Edge offers a straightforward pricing model. For example,
 ## Pricing Analysis
 ### Reka Edge Pricing Analysis
 #### Overview
-Reka Edge, a standard tier model provided by Rekaai, offers a unique pricing structure that can help optimize costs for various use cases. This analysis will delve into the cost structure, explore scenarios where cached tokens can be utilized, discuss batch API savings, and examine the cost at scale for 1,000, 10,000, and 100,000 API calls.
+Reka Edge, a standard-tier model provided by Rekaai, offers a unique pricing structure that can significantly impact the cost of API calls depending on the usage scenario. This analysis will delve into the cost structure, optimal usage scenarios, and provide examples of costs at scale.
 
 #### Cost Structure
 The pricing for Reka Edge is as follows:
-* Input: **$0.1 per 1M tokens**
-* Output: **$0.1 per 1M tokens**
-* Cached Input: **$0 per 1M tokens** (free)
-* Batch Input: **$0 per 1M tokens** (free)
+- **Input**: $0.1 per 1M tokens
+- **Output**: $0.1 per 1M tokens
+- **Cached Input**: $None per 1M tokens (free)
+- **Batch Input**: $None per 1M tokens (free)
 
-This structure indicates that using cached input or batch input can significantly reduce costs, as they are provided at no additional charge.
+This structure suggests that using cached inputs and batch processing can significantly reduce costs, as these are provided at no additional charge.
 
-#### Using Cached Tokens
-Cached tokens can be utilized to minimize costs when the same input is processed multiple times. Since cached input is free, it is advisable to use cached tokens whenever possible, especially in scenarios where the input data does not change frequently.
-
-#### Batch API Savings
-Batch input is also free, which means that processing multiple inputs in a single API call can help reduce costs. By batching inputs, users can take advantage of the free batch input pricing, leading to significant savings, especially for large-scale applications.
+#### Optimal Usage Scenarios
+- **Cached Tokens**: When the input data is repetitive or can be cached, Reka Edge offers free cached input tokens. This can be particularly beneficial for applications where the same or similar inputs are processed multiple times, such as in chatbots or text generation tasks where initial prompts may be reused.
+- **Batch API Savings**: Similar to cached inputs, batch processing inputs are also free. This makes Reka Edge highly cost-effective for bulk processing tasks, such as analyzing large datasets or generating text in bulk.
 
 #### Cost at Scale
-The cost examples provided illustrate the pricing for different numbers of API calls:
-* **1,000 calls (avg 500 tokens)**: **$0.1**
-* **10,000 calls**: **$1.0**
-* **100,000 calls**: **$10.0**
+The cost of using Reka Edge at different scales is as follows:
+- **1,000 calls (avg 500 tokens)**: $0.1
+- **10,000 calls**: $1.0
+- **100,000 calls**: $10.0
 
-These examples demonstrate a linear increase in cost with the number of API calls. However, it is essential to consider the use of cached tokens and batch input to optimize costs.
+These costs indicate a linear scaling of expenses with the number of API calls, suggesting that the cost per call remains constant regardless of the volume.
 
-#### Optimization Strategies
-To minimize costs when using Reka Edge, consider
+#### Conclusion
+Reka Edge offers a competitive pricing model, especially for applications that can leverage cached inputs and batch processing. The lack of additional charges for these features makes it an attractive option for high-volume text processing
 
 ## Benchmarks
 | Benchmark | Score |
@@ -64,119 +62,99 @@ To minimize costs when using Reka Edge, consider
 ## Benchmark Analysis
 ### Reka Edge Benchmark Performance Analysis
 #### Overview
-Reka Edge, a standard-tier model provided by Rekaai, boasts a unique set of capabilities and performance metrics. Released on 2024-01-01, this model is not open source.
+Reka Edge, a standard-tier model provided by Rekaai, offers a range of capabilities including text, function calling, JSON mode, streaming, and structured outputs. This analysis will delve into the benchmark performance of Reka Edge, exploring what the MMLU, HumanEval, and Arena ELO scores imply for real-world applications.
+
+#### Benchmark Scores
+- **MMLU (Massive Multitask Language Understanding)**: 80.0
+  The MMLU score is a measure of a model's ability to understand and perform a wide range of natural language processing tasks. A score of 80.0 indicates that Reka Edge has a strong foundation in multitask language understanding, suggesting it can handle diverse text-based tasks with a reasonable level of proficiency.
+- **HumanEval**: None
+  HumanEval is a benchmark that evaluates a model's ability to generate code based on human-written prompts. The absence of a HumanEval score for Reka Edge means we cannot directly assess its coding capabilities against other models using this specific metric.
+- **LMSYS Arena ELO**: 1200
+  The LMSYS Arena ELO score is a measure of a model's performance in a competitive environment, often involving tasks that require strategic thinking and problem-solving. An ELO score of 1200 suggests that Reka Edge has a moderate level of competence in such tasks, though it may not outperform models with significantly higher ELO scores.
+
+#### Real-World Implications
+Given its benchmark scores, Reka Edge appears to be a versatile model suitable for a variety of applications, including:
+- **Chat and Text Generation**: With a strong MMLU score,
+
+## Competitor Comparison
+### Reka Edge Comparison
+Since there are no direct competitors listed for Reka Edge, we will provide a general overview of its features, pricing, and capabilities. This will help users understand when to choose Reka Edge and what to expect from its performance.
 
 #### Pricing
-The pricing structure for Reka Edge is as follows:
+Reka Edge pricing is as follows:
 * Input: **$0.1 per 1M tokens**
 * Output: **$0.1 per 1M tokens**
 * Cached Input: **$None per 1M tokens**
 * Batch Input: **$None per 1M tokens**
 
-#### Context and Limits
-Reka Edge operates within the following constraints:
+#### Performance Trade-offs
+Reka Edge has the following performance characteristics:
 * Context Window: **16,384 tokens**
 * Max Output: **16,384 tokens**
 * Knowledge Cutoff: **2023-12**
-
-#### Benchmarks
-The model's performance is measured by the following benchmarks:
-* **MMLU: 80.0** - The MMLU (Massive Multitask Language Understanding) benchmark evaluates a model's ability to perform a wide range of natural language processing tasks. A score of 80.0 indicates that Reka Edge has a strong foundation in language understanding.
-* **HumanEval: None** - The HumanEval benchmark assesses a model's ability to generate code that is correct and functional. Unfortunately, Reka Edge's performance on this benchmark is not available.
-* **LMSYS Arena ELO: 1200** - The LMSYS Arena ELO benchmark measures a model's performance in a competitive environment, where models are pitted against each other to complete tasks. An ELO score of 1200 suggests that Reka Edge is a mid-tier model, capable of holding its
-
-## Competitor Comparison
-### Reka Edge Comparison
-Since Reka Edge does not have direct competitors listed, we will create a hypothetical comparison based on the provided data. We will assume two competitors, Model A and Model B, with varying pricing and performance characteristics.
-
-#### Model A (Hypothetical Competitor)
-* Provider: Competitor A
-* Release Date: 2023-06-01
-* Tier: premium
-* Open Source: True
-* Pricing:
-	+ Input: $0.05 per 1M tokens
-	+ Output: $0.15 per 1M tokens
-	+ Cached Input: $0.01 per 1M tokens
-	+ Batch Input: $0.05 per 1M tokens
-* Context & Limits:
-	+ Context Window: 8,192 tokens
-	+ Max Output: 8,192 tokens
-	+ Knowledge Cutoff: 2022-12
 * Benchmarks:
-	+ MMLU: 70.0
-	+ HumanEval: 50.0
-	+ LMSYS Arena ELO: 1000
-	+ GSM8K: 40.0
-* Capabilities: text, function_calling, json_mode
-* Best For: chat, text_generation
-* Not Good For: coding, analysis, rag_pipelines, summarization
+	+ MMLU: **80.0**
+	+ LMSYS Arena ELO: **1200**
 
-#### Model B (Hypothetical Competitor)
-* Provider: Competitor B
-* Release Date: 2024-06-01
-* Tier: enterprise
-* Open Source: False
-* Pricing:
-	+ Input: $0.20 per 1M tokens
-	+ Output: $0.20 per 1M tokens
-	+ Cached Input: $0.10 per 1M tokens
-	+ Batch Input: $0.10 per 1M tokens
-* Context & Limits:
-	+ Context Window: 32,768 tokens
-	+ Max Output: 32,768 tokens
-	+ Knowledge Cutoff: 2024-06
-* Benchmarks:
-	+ MMLU: 90.0
-	+ HumanEval: 80.0
-	+ LMSYS Arena ELO: 1500
-	+ GSM8K: 60.0
-* Capabilities: text, function_calling, json_mode, streaming, structured_outputs
-* Best For: coding, analysis, rag_pipelines, summarization
-*
+#### Capabilities and Use Cases
+Reka Edge supports the following capabilities:
+* text
+* function_calling
+* json_mode
+* streaming
+* structured_outputs
+It is best suited for:
+* chat
+* text_generation
+* coding
+* analysis
+* rag_pipelines
+* summarization
+
+#### Cost Examples
+To give users an idea of the costs involved, here are some examples:
+* 1,000 calls (avg 500 tokens): **$0.1**
+* 10,000 calls: **$1.0**
+* 100,000 calls: **$10.0**
+
+#### Choosing Reka Edge
+Since there are no direct competitors, Reka Edge can be chosen based on its features, pricing, and performance. Users should consider the following factors:
+* Input and output token costs
+* Context window and max output limits
+* Supported capabilities and use cases
+* Benchmark performance
+
+In general, Reka Edge seems to be a capable model with a range of features and use cases. However, without direct competitors, it is difficult to provide a detailed comparison. Users should carefully evaluate their needs and consider Reka Edge's strengths and limitations before making a decision.
 
 ## Best Use Cases
 ### Introduction to Reka Edge
-Reka Edge, provided by Rekaai, is a powerful model released on 2024-01-01, offering a range of capabilities including text, function calling, JSON mode, streaming, and structured outputs. With its standard tier and closed source nature, it's designed for various applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization.
+Reka Edge is a powerful AI model developed by Rekaai, released on 2024-01-01. With its standard tier and proprietary license, it offers a range of capabilities, including text, function calling, JSON mode, streaming, and structured outputs. This guide will explore the top 5 best use cases for Reka Edge, along with practical advice and code integration examples using OpenRouter.
 
-### Top 5 Best Use Cases for Reka Edge
-Given its capabilities, here are the top 5 best use cases for Reka Edge, along with practical advice and code integration examples using OpenRouter:
+### Top 5 Use Cases for Reka Edge
+Based on its capabilities and benchmarks, Reka Edge is well-suited for the following applications:
 
-1. **Chat and Text Generation**: Reka Edge excels in generating human-like text, making it ideal for chatbots and content generation platforms.
-   - **Example**: Using OpenRouter to integrate Reka Edge for chatbot responses.
-   ```python
-   import openrouter
+1. **Chat and Text Generation**: Reka Edge excels in generating human-like text, making it an ideal choice for chatbots, virtual assistants, and content generation platforms.
+2. **Coding and Analysis**: With its function calling and structured outputs capabilities, Reka Edge can be used for code analysis, code completion, and debugging.
+3. **Summarization and RAG Pipelines**: Reka Edge's ability to process large context windows and generate concise summaries makes it suitable for summarization tasks and RAG (Retrieve, Augment, Generate) pipelines.
+4. **Text Analysis and Insights**: Reka Edge can be used to analyze large volumes of text data, providing valuable insights and patterns.
+5. **Streaming and Real-time Processing**: With its streaming capability, Reka Edge can be used for real-time text processing, sentiment analysis, and event detection.
 
-   # Initialize Reka Edge model
-   model = openrouter.RekaEdge()
+### Code Integration Examples with OpenRouter
+To integrate Reka Edge with OpenRouter, you can use the following code examples:
 
-   # Generate chat response
-   user_input = "Hello, how are you?"
-   response = model.generate_text(user_input)
-   print(response)
-   ```
-   Cost for 1,000 chat interactions (avg 500 tokens): **$0.1**
+```python
+import os
+import requests
 
-2. **Coding and Function Calling**: Reka Edge supports function calling, making it suitable for coding assistance and automation tasks.
-   - **Example**: Using Reka Edge with OpenRouter to automate coding tasks.
-   ```python
-   import openrouter
+# Set API endpoint and credentials
+endpoint = "https://api.rekaai.com/reka-edge"
+api_key = "YOUR_API_KEY"
 
-   # Initialize Reka Edge model
-   model = openrouter.RekaEdge()
-
-   # Define a function to automate
-   def automate_coding(task):
-       # Use Reka Edge to generate code
-       code = model.function_calling(task)
-       return code
-
-   # Test the automation function
-   task = "Generate a Python function to sort a list"
-   automated_code = automate_coding(task)
-   print(automated_code)
-   ```
-   Cost
+# Define a function to call Reka Edge using OpenRouter
+def call_reka_edge(input_text):
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "Content-Type": "application
 
 ## Frequently Asked Questions
 
