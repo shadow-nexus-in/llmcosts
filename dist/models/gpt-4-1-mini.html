@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://llmcosts.dev/models/gpt-4-1-mini">
 
   <!-- Schema.org: Dataset -->
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "GPT-4.1 Mini API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for GPT-4.1 Mini by OpenAI.", "url": "https://llmcosts.dev/models/gpt-4-1-mini", "keywords": ["GPT-4.1 Mini", "OpenAI", "efficient", "budget", "multimodal", "long-context", "high-volume"], "dateModified": "2026-06-03", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "GPT-4.1 Mini API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for GPT-4.1 Mini by OpenAI.", "url": "https://llmcosts.dev/models/gpt-4-1-mini", "keywords": ["GPT-4.1 Mini", "OpenAI", "efficient", "budget", "multimodal", "long-context", "high-volume"], "dateModified": "2026-06-04", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
   <!-- Schema.org: FAQ -->
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
 
@@ -346,13 +346,13 @@
       <div class="card content-section">
         <div class="card-title">Overview</div>
         <div>### Introduction to GPT-4.1 Mini
-The GPT-4.1 Mini model, released by OpenAI on 2025-04-14, is a budget-friendly option for developers seeking a robust language model. This model boasts a context window of 1,047,576 tokens and can generate up to 32,768 tokens as output. With a knowledge cutoff of 2024-05, GPT-4.1 Mini is well-suited for a variety of applications, including chatbots, classification, and summarization. Its architecture supports multiple capabilities, such as text and vision processing, function calling, and structured outputs.
+The GPT-4.1 Mini model, released by OpenAI on 2025-04-14, is a budget-friendly option for developers seeking a capable language model without the high costs associated with more advanced versions. This model is not open-source. From an architectural standpoint, GPT-4.1 Mini is designed to balance performance and cost, making it an attractive choice for applications where budget is a concern. Its capabilities include text and vision processing, function calling, JSON mode, structured outputs, streaming, batch processing, and system prompts.
 
-### Technical Specifications and Pricing
-GPT-4.1 Mini's pricing structure is as follows: input costs $0.4 per 1M tokens, output costs $1.6 per 1M tokens, cached input costs $0.1 per 1M tokens, and batch input costs $0.2 per 1M tokens. The model has demonstrated impressive performance on various benchmarks, including MMLU (83.5), HumanEval (85.0), LMSYS Arena ELO (1260), and GSM8K (90.0). With its broad range of capabilities, including text, vision, and function calling, GPT-4.1 Mini is an attractive option for developers working on applications such as bulk processing, simple coding, and content moderation. Example costs for using this model include $1.0 for 1,000 calls (avg 500 tokens), $10.0 for 10,000 calls, and $100.0 for 100,000 calls.
+### Technical Specifications and Use Cases
+GPT-4.1 Mini boasts a context window of 1,047,576 tokens and can generate up to 32,768 tokens as output. Its knowledge cutoff is 2024-05, indicating that it may not be aware of events or developments after this date. The model has demonstrated strong performance in various benchmarks, including MMLU (83.5), HumanEval (85.0), LMSYS Arena ELO (1260), and GSM8K (90.0). It is best suited for applications such as chatbots, classification, summarization, bulk processing, RAG, simple coding, and content moderation. However, it may not be the ideal choice for tasks requiring complex reasoning, frontier coding, research tasks, or cutting-edge quality. Pricing for GPT-4.1 Mini includes $0.4 per 1M tokens for input, $1.6 per 1M tokens for output, $0.1 per 1M tokens for cached input, and $0.2 per 1M tokens for batch input.
 
-### Comparison and Use Cases
-GPT-4.1 Mini is not suitable for complex reasoning, frontier coding, research tasks, or cutting-edge quality applications. However, its strengths make it an excellent choice for chatbots, classification, summarization, and other tasks that require robust language understanding. In comparison to</div>
+### Cost Considerations and Competitors
+To give developers a better understanding of the costs involved, consider that 1,000 calls with an average of 500 tokens each would cost approximately $1.0, scaling up to $10.0 for 10,</div>
       </div>
 
       <!-- PRICING -->
@@ -393,7 +393,7 @@ GPT-4.1 Mini is not suitable for complex reasoning, frontier coding, research ta
 
         <div style="margin-top:1.5rem">### GPT-4.1 Mini Pricing Analysis
 #### Overview
-The GPT-4.1 Mini model, released by OpenAI on 2025-04-14, is a budget-tier language model with a closed-source license. This analysis will delve into the cost structure, optimal usage scenarios, and scalability of the GPT-4.1 Mini model.
+The GPT-4.1 Mini model, released by OpenAI on 2025-04-14, is a budget-tier language model with a closed-source license. This analysis will delve into the cost structure, optimal usage scenarios, and cost savings opportunities for this model.
 
 #### Cost Structure
 The pricing for GPT-4.1 Mini is as follows:
@@ -404,8 +404,8 @@ The pricing for GPT-4.1 Mini is as follows:
 
 #### Optimal Usage Scenarios
 To minimize costs, consider the following scenarios:
-* **Cached Tokens**: Use cached input tokens when possible, as they are **75% cheaper** than regular input tokens ($0.1 vs $0.4 per 1M tokens).
-* **Batch API**: Utilize batch processing for input tokens, which offers a **50% discount** compared to regular input tokens ($0.2 vs $0.4 per 1M tokens).
+* **Cached Tokens**: Use cached input tokens when possible, as they offer a significant discount (**$0.1 per 1M tokens** vs **$0.4 per 1M tokens** for regular input).
+* **Batch API**: Utilize batch processing to take advantage of the reduced input cost (**$0.2 per 1M tokens**).
 
 #### Cost at Scale
 The cost of using GPT-4.1 Mini at scale is as follows:
@@ -413,10 +413,10 @@ The cost of using GPT-4.1 Mini at scale is as follows:
 * **10,000 API calls**: **$10.0**
 * **100,000 API calls**: **$100.0**
 
-These costs can be broken down into input and output costs. Assuming an average output of 500 tokens per call, the total output cost for 1,000 calls would be approximately **$0.8** (500 tokens \* $1.6 per 1M tokens). The remaining cost is attributed to input tokens.
-
-#### Comparison to Competitors
-GPT-4.1 Mini's pricing is competitive</div>
+These costs can be broken down into input and output costs. Assuming an average output size of 500 tokens (similar to the input size), the costs would be:
+* **1,000 API calls**:
+	+ Input: 500 tokens \* (1,000 calls / 1,000,000 tokens) \* $0.4 = $0.20
+	+ Output: 500 tokens \* (1,000 calls / 1</div>
       </div>
 
       <!-- BENCHMARKS -->
@@ -427,17 +427,23 @@ GPT-4.1 Mini's pricing is competitive</div>
           <div class="stat-cell"><div class="stat-label">HumanEval</div><div class="stat-value">85.0</div></div>
           <div class="stat-cell"><div class="stat-label">LMSYS ELO</div><div class="stat-value">1260</div></div>
         </div>
-        <div>### GPT-4.1 Mini Benchmark Analysis
-The GPT-4.1 Mini model, released by OpenAI on 2025-04-14, is a budget-friendly option with a unique set of capabilities and limitations. This analysis will delve into the model's benchmark performance, focusing on the MMLU, HumanEval, and Arena ELO scores, and their implications for real-world use.
+        <div>### Analysis of GPT-4.1 Mini Benchmark Performance
+The GPT-4.1 Mini model, released by OpenAI on 2025-04-14, is a budget-friendly option with a range of capabilities, including text, vision, and function calling. To understand its performance, we'll delve into its benchmark scores and what they mean for real-world use.
 
 #### Benchmark Scores
-The GPT-4.1 Mini model has achieved the following benchmark scores:
-* **MMLU: 83.5** - The MMLU (Massive Multitask Language Understanding) benchmark evaluates a model's ability to perform a wide range of natural language processing tasks. A score of 83.5 indicates that the GPT-4.1 Mini model has a strong foundation in language understanding, making it suitable for tasks like chatbots, classification, and summarization.
-* **HumanEval: 85.0** - The HumanEval benchmark assesses a model's ability to generate code that is correct and functional. A score of 85.0 suggests that the GPT-4.1 Mini model is capable of producing high-quality code, making it a good choice for simple coding tasks.
-* **LMSYS Arena ELO: 1260** - The LMSYS Arena ELO benchmark measures a model's performance in a competitive environment, where it is pitted against other models. An ELO score of 1260 indicates that the GPT-4.1 Mini model is a strong competitor, but may struggle against more advanced models.
+The model's benchmark scores are as follows:
+* **MMLU (Massive Multitask Language Understanding)**: 83.5
+* **HumanEval**: 85.0
+* **LMSYS Arena ELO**: 1260
+* **GSM8K**: 90.0
 
-#### Real-World Implications
-The benchmark scores suggest that the GPT-4.1 Mini model is well-suited</div>
+These scores indicate the model's performance in various areas:
+* **MMLU**: Measures the model's ability to understand and generate human-like language across a wide range of tasks. A score of 83.5 suggests that GPT-4.1 Mini has a strong foundation in language understanding.
+* **HumanEval**: Evaluates the model's ability to write correct and functional code in response to programming prompts. A score of 85.0 indicates that GPT-4.1 Mini is capable of generating high-quality code.
+* **LMSYS Arena ELO**: Assesses the model's performance in a competitive environment, where it is pitted against other models. An ELO score of 1260 suggests that GPT-4.1 Mini is a strong competitor in the arena.
+* **GSM8K**: Measures the model's ability to reason and solve math problems. A score of 90.0 indicates that GPT-4.1 Mini has a strong foundation in mathematical reasoning.
+
+####</div>
       </div>
 
       <!-- COMPETITOR TABLE -->
@@ -475,10 +481,11 @@ The benchmark scores suggest that the GPT-4.1 Mini model is well-suited</div>
         </div>
         <div style="margin-top:1.5rem">### Comparison of GPT-4.1 Mini with Top Competitors
 #### Overview
-The GPT-4.1 Mini, released by OpenAI on 2025-04-14, is a budget-friendly model with a tier classification of "budget" and is not open source. This comparison will delve into the pricing, performance, and capabilities of GPT-4.1 Mini against its top competitors, Gemini 2.0 Flash and GPT-4o Mini.
+The GPT-4.1 Mini, released by OpenAI on 2025-04-14, is a budget-friendly model with a wide range of capabilities, including text, vision, and function calling. This comparison will examine the pricing, performance, and use cases of GPT-4.1 Mini against its top competitors, Gemini 2.0 Flash and GPT-4o Mini.
 
 #### Pricing Comparison
-The pricing for each model is as follows:
+The pricing models of the three competitors are as follows:
+
 * **GPT-4.1 Mini**:
 	+ Input: $0.4 per 1M tokens
 	+ Output: $1.6 per 1M tokens
@@ -491,74 +498,71 @@ The pricing for each model is as follows:
 	+ Input: $0.15 per 1M tokens
 	+ Output: $0.6 per 1M tokens
 
+GPT-4.1 Mini is more expensive than Gemini 2.0 Flash but cheaper than GPT-4o Mini in terms of output costs.
+
 #### Performance Comparison
-The performance benchmarks for GPT-4.1 Mini are:
-* MMLU: 83.5
-* HumanEval: 85.0
-* LMSYS Arena ELO: 1260
-* GSM8K: 90.0
+The performance of the three models can be evaluated based on their benchmark scores:
 
-While the performance benchmarks for Gemini 2.0 Flash and GPT-4o Mini are not provided, we can infer that GPT-4.1 Mini has a strong performance profile based on its benchmark scores.
+* **GPT-4.1 Mini**:
+	+ MMLU: 83.5
+	+ HumanEval: 85.0
+	+ LMSYS Arena ELO: 1260
+	+ GSM8K: 90.0
+* **Gemini 2.0 Flash**: Not available
+* **GPT-4o Mini**: Not available
 
-#### Capabilities and Use Cases
-GPT-4.1 Mini has a wide range of capabilities, including:
-* Text
-* Vision
-* Function calling
-* JSON mode
-* Structured outputs
-* Streaming
-* Batch processing
-* System prompts
+GPT-4.1 Mini has a strong performance profile, with high scores in MMLU, HumanEval, LMSYS Arena ELO, and GSM8K.
 
-It is best suited for applications such as:
-* Chatbots
-* Classification
-* Summarization
-* Bulk processing
-* RAG
-* Simple coding
-* Content moderation
+#### Use Case Comparison
+The three models have different strengths and weaknesses:
 
-However, it is not recommended for tasks that require:
-* Complex reasoning
-* Frontier coding
-* Research tasks
-* Cutting-edge quality
-
-#### Cost Examples
-The estimated costs for using GPT-4.1 Mini are:
-* 1,000</div>
+* **GPT-4.1 Mini**:
+	+ Best for: chatbots, classification, summarization, bulk processing, RAG, simple coding, content moderation
+	+ Not good for: complex reasoning, frontier coding, research tasks, cutting-edge quality
+* **</div>
       </div>
 
       <!-- USE CASES -->
       <div class="card content-section">
         <div class="card-title">Best Use Cases</div>
         <div>### Introduction to GPT-4.1 Mini
-The GPT-4.1 Mini model, released by OpenAI on 2025-04-14, is a budget-friendly option with a tier classification of "budget". Although it is not open source, it offers a range of capabilities including text, vision, function calling, and more. 
+The GPT-4.1 Mini model, released by OpenAI on 2025-04-14, is a budget-friendly option for various natural language processing tasks. With its capabilities in text, vision, function calling, and more, it's an attractive choice for developers. Here, we'll explore the top 5 best use cases for GPT-4.1 Mini, along with code integration examples using OpenRouter.
 
-### Top 5 Best Use Cases for GPT-4.1 Mini
-Based on its capabilities and limitations, here are the top 5 best use cases for GPT-4.1 Mini:
-
-1. **Chatbots**: With its ability to handle text and function calling, GPT-4.1 Mini is well-suited for chatbot applications. It can understand and respond to user input, making it a great option for customer service or support chatbots.
-2. **Classification**: GPT-4.1 Mini's capabilities in text processing make it a good fit for classification tasks such as sentiment analysis, spam detection, or topic modeling.
-3. **Summarization**: The model's ability to process and understand large amounts of text makes it suitable for summarization tasks, such as summarizing long documents or articles.
-4. **Bulk Processing**: With its support for batch processing, GPT-4.1 Mini can handle large volumes of data, making it a good option for bulk processing tasks such as data cleaning, data transformation, or data analysis.
-5. **Content Moderation**: The model's capabilities in text processing and classification make it a good fit for content moderation tasks, such as detecting and filtering out inappropriate content.
-
-### Code Integration Example with OpenRouter
-Here is an example of how to integrate GPT-4.1 Mini with OpenRouter:
+### Top 5 Use Cases for GPT-4.1 Mini
+#### 1. Chatbots
+GPT-4.1 Mini is well-suited for chatbot applications, thanks to its text-based capabilities and reasonable pricing. To integrate GPT-4.1 Mini with OpenRouter, you can use the following code:
 ```python
 import openrouter
 
-# Initialize the OpenRouter client
-client = openrouter.Client()
+# Initialize OpenRouter with GPT-4.1 Mini
+router = openrouter.Router(model="openai/gpt-4.1-mini")
 
-# Define the input prompt
-prompt = "Write a short story about a character who learns to play the guitar."
+# Define a chatbot function
+def chatbot(input_text):
+    response = router.generate_text(input_text, max_tokens=128)
+    return response
 
-# Define the model and parameters
-</div>
+# Test the chatbot
+print(chatbot("Hello, how are you?"))
+```
+#### 2. Classification
+GPT-4.1 Mini can be used for text classification tasks, such as sentiment analysis or spam detection. Here's an example code snippet:
+```python
+import openrouter
+
+# Initialize OpenRouter with GPT-4.1 Mini
+router = openrouter.Router(model="openai/gpt-4.1-mini")
+
+# Define a classification function
+def classify_text(input_text):
+    response = router.classify_text(input_text, labels=["positive", "negative"])
+    return response
+
+# Test the classifier
+print(classify_text("I love this product!"))
+```
+#### 3. Summarization
+GPT-4.1 Mini can summarize long pieces of text into concise</div>
       </div>
 
       <!-- CAPABILITIES -->

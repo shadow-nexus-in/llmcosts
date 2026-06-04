@@ -1,6 +1,6 @@
 # LLMCosts.dev — Budget Tier Models
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-06-03
+> Updated: 2026-06-04
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -40,3 +40,4 @@ License: CC BY 4.0
 | [Mistral Small 3](https://llmcosts.dev/models/mistral-small-3) | Mistral AI | $0.1 | $0.3 | $0.05 | 32,768 | 1195 | budget | Closed |
 | [Mistral NeMo 2025](https://llmcosts.dev/models/mistral-nemo-2025) | Mistral AI | $0.05 | $0.2 | $0.025 | 128,000 | None | budget | Open |
 | [Qwen: Qwen-Turbo](https://llmcosts.dev/models/qwen-qwen-turbo) | Qwen | $0.0325 | $0.13 | $None | 131,072 | None | budget | Closed |
+| [Qwen: Qwen3.7 Plus](https://llmcosts.dev/models/qwen-qwen3.7-plus) | Qwen | $0.4 | $1.6 | $None | 1,000,000 | None | budget | Closed |

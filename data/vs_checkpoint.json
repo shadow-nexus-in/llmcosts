@@ -99,6 +99,8 @@
     "mistral-large-2407-vs-qwen-qwen3.7-max",
     "command-a-vs-qwen-qwen3.7-max",
     "deepseek-r1-vs-qwen-qwen3.7-max",
-    "gpt-5.4-nano-vs-qwen-qwen3.7-max"
+    "gpt-5.4-nano-vs-qwen-qwen3.7-max",
+    "qwen-qwen3.7-max-vs-qwen-qwen3.7-plus",
+    "gpt-5.4-mini-vs-qwen-qwen3.7-max"
   ]
 }
