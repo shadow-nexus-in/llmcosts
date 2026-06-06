@@ -1,17 +1,17 @@
 # Qwen: Qwen3.5-122B-A10B API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-05
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-06
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
 ### Introduction to Qwen: Qwen3.5-122B-A10B
-Qwen: Qwen3.5-122B-A10B is a standard-tier model provided by Qwen, released on January 1, 2024. This model is not open source. From an architectural standpoint, Qwen3.5-122B-A10B boasts a context window of 262,144 tokens and can generate up to 65,536 tokens as output. Its knowledge cutoff is December 2023, ensuring it has a broad and up-to-date understanding of the world up to that point.
+Qwen: Qwen3.5-122B-A10B is a large language model developed by Qwen, released on January 1, 2024. This model is classified as a standard tier model and is not open source. The architecture of Qwen3.5-122B-A10B is designed to handle a wide range of natural language processing tasks, with a context window of 262,144 tokens and a maximum output of 65,536 tokens. The model's knowledge cutoff is December 2023, ensuring it has a broad and up-to-date understanding of the world.
 
-### Technical Strengths and Use Cases
-The main strengths of Qwen: Qwen3.5-122B-A10B lie in its capabilities, which include text processing, function calling, JSON mode, streaming, and structured outputs. These capabilities make it best suited for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization. With a high MMLU benchmark score of 87.0 and an LMSYS Arena ELO of 1270, Qwen3.5-122B-A10B demonstrates strong performance in various linguistic and logical tasks. Its pricing model charges $0.26 per 1M tokens for input and $2.08 per 1M tokens for output, with no charges for cached or batch input.
+### Strengths and Use Cases
+The main strengths of Qwen: Qwen3.5-122B-A10B lie in its capabilities, which include text generation, function calling, JSON mode, streaming, and structured outputs. This makes it well-suited for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization. The model's performance is backed by its benchmark scores, including an MMLU score of 87.0 and an LMSYS Arena ELO score of 1270. With its robust feature set and strong performance, Qwen3.5-122B-A10B is a versatile model that can be applied to a variety of use cases, from generating human-like text to assisting with coding tasks.
 
-### Cost and Competitiveness
-For developers considering Qwen: Qwen3.5-122B-A10B, the cost can be estimated based on the number of calls and tokens processed. For example, 1,000 calls with an average of 500 tokens each would cost approximately $0.0012, while 100,000 calls would amount to $0.12. Notably, Qwen: Qwen3.5-122B-A10B does not have direct competitors listed, suggesting a unique value proposition in the market. However, its suitability
+### Pricing and Cost Examples
+The pricing for Qwen: Qwen3.5-122B-A10B is based on input and output tokens, with costs of $0.26 per 1M input tokens and $2.08 per 1M output tokens. There are no additional costs for cached input or batch input. To give developers an idea of the costs involved, example costs are provided: 1,000 calls with an average of 500 tokens cost $0.0012, while 
 
 ## Pricing (USD per 1M tokens)
 | Metric | Price |
@@ -23,37 +23,32 @@ For developers considering Qwen: Qwen3.5-122B-A10B, the cost can be estimated ba
 | Batch Output | $None |
 
 ## Pricing Analysis
-### Qwen: Qwen3.5-122B-A10B Pricing Analysis
+### Pricing Analysis for Qwen: Qwen3.5-122B-A10B
 #### Overview
-The Qwen: Qwen3.5-122B-A10B model is a standard, non-open source model provided by Qwen, released on 2024-01-01. This analysis will delve into the cost structure, optimal usage scenarios, and cost-effectiveness at scale.
+The Qwen: Qwen3.5-122B-A10B model is a standard, non-open source model provided by Qwen, released on January 1, 2024. This analysis will delve into the cost structure, optimal usage scenarios, and cost-effectiveness at scale.
 
 #### Cost Structure
 The pricing for Qwen: Qwen3.5-122B-A10B is as follows:
-* Input: $0.26 per 1M tokens
-* Output: $2.08 per 1M tokens
-* Cached Input: $0 per 1M tokens (free)
-* Batch Input: $0 per 1M tokens (free)
+* **Input**: $0.26 per 1M tokens
+* **Output**: $2.08 per 1M tokens
+* **Cached Input**: No charge per 1M tokens
+* **Batch Input**: No charge per 1M tokens
 
-#### Optimal Usage Scenarios
+#### Optimizing Costs
 To minimize costs, consider the following strategies:
-* **Use cached tokens**: Since cached input is free, utilize this feature whenever possible to reduce input costs.
-* **Batch API calls**: With batch input being free, batching API requests can significantly reduce overall costs.
+* **Use Cached Tokens**: Since cached input tokens are free, leveraging cached tokens whenever possible can significantly reduce costs. This is particularly effective for applications with repetitive or similar input patterns.
+* **Batch API Calls**: Although there is no direct cost savings listed for batch input, optimizing API calls to minimize the number of requests can still reduce overall costs by decreasing the number of output tokens generated.
 
 #### Cost at Scale
-The cost of using Qwen: Qwen3.5-122B-A10B at different scales is as follows:
+The cost of using Qwen: Qwen3.5-122B-A10B at scale is as follows:
 * **1,000 calls (avg 500 tokens)**: $0.0012
 * **10,000 calls**: $0.011999999999999999
 * **100,000 calls**: $0.12
 
-These costs demonstrate a linear increase with the number of API calls, indicating that the pricing model is based on the number of requests rather than the number of tokens processed.
+These costs demonstrate a linear scaling of expenses with the number of API calls, indicating that the cost per call remains relatively consistent regardless of the scale.
 
-#### Context and Limits
-When using Qwen: Qwen3.5-122B-A10B, keep in mind the following context and limits:
-* **Context Window**: 262,144 tokens
-* **Max Output**: 65,536 tokens
-* **Knowledge Cutoff**: 2023-12
-
-These limits may impact the effectiveness
+#### Conclusion
+Qwen: Qwen3.5-122B-A10B offers a robust set of capabilities, including text, function calling, JSON mode, streaming, and structured outputs, making it suitable for
 
 ## Benchmarks
 | Benchmark | Score |
@@ -64,31 +59,35 @@ These limits may impact the effectiveness
 | ARC | None |
 
 ## Benchmark Analysis
-### Analysis of Qwen: Qwen3.5-122B-A10B Benchmark Performance
-#### Overview
-The Qwen: Qwen3.5-122B-A10B model is a standard, non-open-source model provided by Qwen, released on January 1, 2024. This analysis focuses on its benchmark performance, pricing, and capabilities to understand its suitability for real-world applications.
-
-#### Benchmark Performance
-The model's performance is measured across several benchmarks:
-* **MMLU (Massive Multitask Language Understanding)**: A score of 87.0 indicates the model's ability to understand and generate human-like text across a wide range of tasks and topics. A higher MMLU score suggests better language understanding capabilities.
-* **HumanEval**: No score is provided, which means the model's performance on this benchmark is not available. HumanEval assesses a model's ability to generate correct code snippets given a set of prompts.
-* **LMSYS Arena ELO**: With a score of 1270, the model demonstrates its competitive performance in the LMSYS Arena, a platform for evaluating large language models. The ELO score is a measure of the model's strength relative to other models, with higher scores indicating better performance.
-* **GSM8K**: No score is provided for this benchmark, which evaluates a model's ability to reason and solve math problems.
+### Qwen: Qwen3.5-122B-A10B Analysis
+#### Model Overview
+The Qwen: Qwen3.5-122B-A10B model is a standard, non-open-source model provided by Qwen, released on January 1, 2024. 
 
 #### Pricing
-The pricing for Qwen: Qwen3.5-122B-A10B is as follows:
-* **Input**: $0.26 per 1M tokens
-* **Output**: $2.08 per 1M tokens
-* **Cached Input** and **Batch Input**: Not available
+The pricing for this model is as follows:
+* Input: **$0.26 per 1M tokens**
+* Output: **$2.08 per 1M tokens**
+* Cached Input: **$None per 1M tokens**
+* Batch Input: **$None per 1M tokens**
 
-####
+#### Context and Limits
+The model has the following context and limits:
+* Context Window: **262,144 tokens**
+* Max Output: **65,536 tokens**
+* Knowledge Cutoff: **2023-12**
+
+#### Benchmarks
+The model's benchmark performance is as follows:
+* MMLU: **87.0** - This score indicates the model's performance on a range of natural language understanding tasks. A higher score generally indicates better performance.
+* HumanEval: **None** - This benchmark evaluates a model's ability to generate code that passes a set of unit tests. The lack of a score for this benchmark makes it difficult to assess the model's coding abilities.
+* LMSYS Arena ELO: **1270** - This score represents the model's performance in a competitive arena, where it is pitted against other models. A higher score indicates better performance.
+* GSM8K: **None** - This benchmark evaluates a model's ability to solve math problems. The lack of a score for this benchmark makes it difficult to assess the model's math abilities.
+
+#### Capabilities and
 
 ## Competitor Comparison
 ### Comparison of Qwen: Qwen3.5-122B-A10B with Top Competitors
-Since there are no direct competitors listed for Qwen: Qwen3.5-122B-A10B, we will provide a general overview of the model's features, pricing, and performance. This will help users understand when to choose this model and what trade-offs to expect.
-
-#### Model Overview
-Qwen: Qwen3.5-122B-A10B is a standard, non-open-source model released by Qwen on 2024-01-01. It has a context window of 262,144 tokens, a maximum output of 65,536 tokens, and a knowledge cutoff of 2023-12.
+Since there are no direct competitors listed for Qwen: Qwen3.5-122B-A10B, we will provide a general overview of the model's pricing, performance, and capabilities, highlighting its unique features and potential use cases.
 
 #### Pricing
 The pricing for Qwen: Qwen3.5-122B-A10B is as follows:
@@ -97,20 +96,20 @@ The pricing for Qwen: Qwen3.5-122B-A10B is as follows:
 * Cached Input: $None per 1M tokens
 * Batch Input: $None per 1M tokens
 
-#### Performance
+#### Performance Trade-offs
 The model's performance is measured by the following benchmarks:
 * MMLU: 87.0
 * LMSYS Arena ELO: 1270
+While there are no direct competitors to compare with, these benchmarks indicate that Qwen: Qwen3.5-122B-A10B has a strong performance in certain areas.
 
 #### Capabilities and Use Cases
-Qwen: Qwen3.5-122B-A10B supports the following capabilities:
+Qwen: Qwen3.5-122B-A10B has the following capabilities:
 * text
 * function_calling
 * json_mode
 * streaming
 * structured_outputs
-
-It is best suited for the following use cases:
+It is best suited for:
 * chat
 * text_generation
 * coding
@@ -119,27 +118,41 @@ It is best suited for the following use cases:
 * summarization
 
 #### Cost Examples
-The estimated costs for using Qwen: Qwen3.5-122B-A10B are:
+The cost of using Qwen: Qwen3.5-122B-A10B can be estimated as follows:
 * 1,000 calls (avg 500 tokens): $0.0012
 * 10,000 calls: $0.011999999999999999
 * 100,000 calls: $0.12
 
-#### Choosing Qwen: Qwen3.5-122B-A10B
-Since there are no direct competitors listed, users should consider the following factors when deciding whether to use Qwen: Qwen3.5-122B-A10B:
-* Required capabilities: If the use case requires text, function_calling, json_mode, streaming, or structured_outputs, Qwen: Qwen3.5-122B-A10B may
+### Choosing Qwen: Qwen3.5-122B-A10B
+Given the lack of direct competitors, Qwen: Qwen3.5-122B-A10B can be considered a unique offering in the market. Its strengths in certain benchmarks and capabilities make it a suitable choice for specific use cases, such as chat, text generation, and coding. However, the absence of direct competitors makes it challenging to provide a direct comparison.
+
+When to choose Qwen: Qwen3.5-122B-A10B:
+* When you need a model with strong performance in MMLU and LMSYS Arena ELO benchmarks
+* When
 
 ## Best Use Cases
 ### Introduction to Qwen: Qwen3.5-122B-A10B
-Qwen: Qwen3.5-122B-A10B is a powerful language model released by Qwen on 2024-01-01. With its standard tier and closed-source architecture, it offers a range of capabilities including text generation, function calling, JSON mode, streaming, and structured outputs. This model is best suited for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization.
+The Qwen: Qwen3.5-122B-A10B model, provided by Qwen, is a powerful tool with a wide range of capabilities, including text generation, function calling, and structured outputs. Released on 2024-01-01, this model is part of the standard tier and is not open source.
 
 ### Top 5 Best Use Cases for Qwen: Qwen3.5-122B-A10B
-Based on its capabilities and benchmarks, here are the top 5 best use cases for Qwen: Qwen3.5-122B-A10B:
+Given its capabilities, the Qwen: Qwen3.5-122B-A10B model is best suited for the following use cases:
 
-1. **Chat and Conversational Systems**: With its high MMLU score of 87.0, Qwen: Qwen3.5-122B-A10B is well-suited for chat and conversational systems. Its ability to understand and respond to user input makes it an ideal choice for building conversational interfaces.
-2. **Text Generation and Summarization**: Qwen: Qwen3.5-122B-A10B's text generation capabilities make it an excellent choice for applications such as text summarization, content generation, and language translation.
-3. **Coding and Analysis**: With its function calling and JSON mode capabilities, Qwen: Qwen3.5-122B-A10B can be used for coding and analysis tasks such as code completion, code review, and data analysis.
-4. **RAG Pipelines and Knowledge Graphs**: Qwen: Qwen3.5-122B-A10B's ability to handle structured outputs and RAG pipelines makes it a good fit for applications such as knowledge graph construction and question answering.
-5. **Streaming and Real-time Applications**: Qwen: Qwen3.5-122B-A
+1. **Chat and Text Generation**: With its high MMLU benchmark score of 87.0, this model is well-suited for generating human-like text and engaging in conversation.
+2. **Coding and Analysis**: The model's ability to perform function calling and generate structured outputs makes it a great tool for coding tasks and data analysis.
+3. **Summarization**: The Qwen: Qwen3.5-122B-A10B model can be used to summarize long pieces of text into concise, easily digestible summaries.
+4. **RAG Pipelines**: The model's ability to generate text and perform function calling makes it a great tool for RAG (Retrieve, Augment, Generate) pipelines.
+5. **Streaming**: With its support for streaming, this model can be used for real-time text generation and processing tasks.
+
+### Code Integration Examples with OpenRouter
+To integrate the Qwen: Qwen3.5-122B-A10B model with OpenRouter, you can use the following code example:
+```python
+import openrouter
+
+# Initialize the Qwen model
+model = openrouter.QwenModel(
+    model_name="qwen/qwen3.5-122b-a10b",
+    provider="qwen",
+    input_token_price=0.
 
 ## Frequently Asked Questions
 

@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://llmcosts.dev/models/llama-3-1-8b-instruct">
 
   <!-- Schema.org: Dataset -->
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Llama 3.1 8B Instruct API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Llama 3.1 8B Instruct by Meta.", "url": "https://llmcosts.dev/models/llama-3-1-8b-instruct", "keywords": ["Llama 3.1 8B Instruct", "Meta", "open-source", "budget", "self-hostable", "edge", "local"], "dateModified": "2026-06-05", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Llama 3.1 8B Instruct API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Llama 3.1 8B Instruct by Meta.", "url": "https://llmcosts.dev/models/llama-3-1-8b-instruct", "keywords": ["Llama 3.1 8B Instruct", "Meta", "open-source", "budget", "self-hostable", "edge", "local"], "dateModified": "2026-06-06", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
   <!-- Schema.org: FAQ -->
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
 
@@ -346,13 +346,13 @@
       <div class="card content-section">
         <div class="card-title">Overview</div>
         <div>### Introduction to Llama 3.1 8B Instruct
-The Llama 3.1 8B Instruct model, released by Meta on 2024-07-23, is an open-source, budget-friendly language model designed for a variety of applications. With its 8B parameter architecture, this model is capable of handling complex text-based tasks while maintaining a cost-effective pricing structure. The model's strengths lie in its ability to process large amounts of text data, making it suitable for bulk processing, simple chatbots, and classification tasks.
+The Llama 3.1 8B Instruct model, released by Meta on 2024-07-23, is a budget-friendly, open-source language model designed for a variety of applications. With its 8B parameter architecture, this model is capable of handling complex text-based tasks while maintaining a relatively low cost. The model's strengths include its ability to process large inputs with a context window of 131,072 tokens and generate outputs of up to 8,192 tokens. Its primary use-cases include bulk processing, simple chatbots, classification, and edge deployment, making it an attractive option for developers looking for a cost-effective solution.
 
-### Technical Specifications and Use-Cases
-Llama 3.1 8B Instruct boasts a context window of 131,072 tokens and can generate up to 8,192 tokens as output. Its knowledge cutoff is 2023-12, ensuring that the model's training data is current up to that point. The model supports various capabilities, including text processing, function calling, JSON mode, streaming, and system prompts. Its benchmark scores, such as 73.0 on MMLU and 72.6 on HumanEval, demonstrate its capabilities in natural language understanding and generation. With a pricing structure of $0.07 per 1M tokens for both input and output, this model is an attractive option for developers looking for a cost-effective solution.
+### Technical Specifications and Pricing
+From a technical standpoint, Llama 3.1 8B Instruct boasts impressive capabilities, including text processing, function calling, JSON mode, streaming, and system prompts. The model's pricing is as follows: $0.07 per 1M tokens for both input and output, with no additional costs for cached input or batch input. This makes it a competitive option in the market, especially when compared to other models like OpenAI's GPT-3.5 Turbo, which costs $0.5/1M input and $1.5/1M output, and Claude 3 Haiku, which costs $0.25/1M input and $1.25/1M output. With Llama 3.1 8B Instruct, developers can expect to pay $0.07 for 1,000 calls with an average of 500 tokens, $0.7 for 10,000 calls, and $7.0 for 100,000 calls.
 
-### Pricing and Competitiveness
-The pricing model for Llama 3.1 8B Instruct is straightforward, with costs calculated based on the number of tokens processed. For example, 1,000 calls with an average of 500 tokens would cost $0.07, while 100,000 calls would cost $7.0. Compared to its top competitors, such as OpenAI's GPT-3.5 Turbo and Claude 3 Haiku, Llama 3.1 8B Instruct offers a competitive pricing structure, making it an appealing choice for developers who require a budget-friendly language model for their applications</div>
+### Performance and Limitations
+Llama 3.1 8B Instruct has demonstrated strong performance in various benchmarks, including MMLU (73.0), HumanEval (72.6), L</div>
       </div>
 
       <!-- PRICING -->
@@ -393,38 +393,36 @@ The pricing model for Llama 3.1 8B Instruct is straightforward, with costs calcu
 
         <div style="margin-top:1.5rem">### Llama 3.1 8B Instruct Pricing Analysis
 #### Overview
-The Llama 3.1 8B Instruct model, provided by Meta, offers a cost-effective solution for various natural language processing tasks. With a release date of 2024-07-23, this model is part of the budget tier and is open-source.
+The Llama 3.1 8B Instruct model, released by Meta on 2024-07-23, is a budget-friendly, open-source option for various natural language processing tasks. This analysis will delve into the cost structure, optimal usage scenarios, and cost savings at scale.
 
 #### Cost Structure
 The pricing for Llama 3.1 8B Instruct is as follows:
-* Input: **$0.07 per 1M tokens**
-* Output: **$0.07 per 1M tokens**
-* Cached Input: **$0.00 per 1M tokens** (free)
-* Batch Input: **$0.00 per 1M tokens** (free)
-
-This cost structure indicates that using cached input and batch API calls can significantly reduce costs.
+* **Input**: $0.07 per 1M tokens
+* **Output**: $0.07 per 1M tokens
+* **Cached Input**: $0.00 per 1M tokens (free)
+* **Batch Input**: $0.00 per 1M tokens (free)
 
 #### When to Use Cached Tokens
-Cached tokens are free, making them an attractive option for reducing costs. Use cached tokens when:
-* The input data is repetitive or has a high degree of similarity.
-* The model is being used for tasks that require minimal input variation.
+Cached input tokens are free, making them an attractive option for applications with repetitive or similar input sequences. This can significantly reduce costs for use cases like:
+* Bulk processing with identical or similar input prompts
+* Simple chatbots with frequently asked questions
 
 #### Batch API Savings
-Batch API calls are also free, allowing for significant cost savings when making multiple API calls. Use batch API calls when:
-* Processing large datasets or bulk requests.
-* The model is being used for tasks that require high-volume input processing.
+Batching API calls can also lead to cost savings, as the input tokens are free. This is beneficial for applications that can process multiple inputs simultaneously, such as:
+* Edge deployment with multiple concurrent requests
+* Local inference with batched input sequences
 
 #### Cost at Scale
 The cost of using Llama 3.1 8B Instruct at scale is as follows:
-* **1,000 calls (avg 500 tokens)**: **$0.07**
-* **10,000 calls**: **$0.7**
-* **100,000 calls**: **$7.0**
+* **1,000 calls** (avg 500 tokens): $0.07
+* **10,000 calls**: $0.7
+* **100,000 calls**: $7.0
 
-These costs demonstrate the model's cost-effectiveness, especially when used for large-scale applications.
+These costs demonstrate a linear scaling of expenses with the number of API calls.
 
-#### Comparison to Competitors
-Llama 3.1 8B Instruct's pricing is competitive with other models in the market:
-</div>
+#### Comparison to Top Competitors
+Llama 3.1 8B Instruct is priced competitively with other models in the market:
+* **OpenAI GPT-3.5 Turbo**: $0.</div>
       </div>
 
       <!-- BENCHMARKS -->
@@ -435,19 +433,23 @@ Llama 3.1 8B Instruct's pricing is competitive with other models in the market:
           <div class="stat-cell"><div class="stat-label">HumanEval</div><div class="stat-value">72.6</div></div>
           <div class="stat-cell"><div class="stat-label">LMSYS ELO</div><div class="stat-value">1147</div></div>
         </div>
-        <div>### Llama 3.1 8B Instruct Benchmark Performance Analysis
-#### Introduction
-The Llama 3.1 8B Instruct model, released by Meta on 2024-07-23, is a budget-friendly, open-source language model. This analysis will delve into its benchmark performance, focusing on the MMLU, HumanEval, and Arena ELO scores, and explore their implications for real-world use.
+        <div>### Analysis of Llama 3.1 8B Instruct Benchmark Performance
+The Llama 3.1 8B Instruct model, released by Meta on 2024-07-23, demonstrates notable performance in various benchmarks. To understand its capabilities and limitations, let's dive into the key metrics:
 
 #### Benchmark Scores
-The model's benchmark scores are as follows:
-* **MMLU: 73.0** - The MMLU (Massive Multitask Language Understanding) benchmark evaluates a model's ability to perform a wide range of natural language processing tasks. A score of 73.0 indicates that Llama 3.1 8B Instruct has a strong foundation in language understanding.
-* **HumanEval: 72.6** - The HumanEval benchmark assesses a model's ability to generate code that is both correct and readable. A score of 72.6 suggests that Llama 3.1 8B Instruct is capable of producing high-quality code, but may struggle with more complex tasks.
-* **LMSYS Arena ELO: 1147** - The LMSYS Arena ELO benchmark measures a model's performance in a competitive environment, where it is pitted against other models. An ELO score of 1147 indicates that Llama 3.1 8B Instruct is a strong competitor, but may not be the top-performing model in all scenarios.
+* **MMLU (Massive Multitask Language Understanding) Score: 73.0** - This score indicates the model's ability to perform well across a wide range of natural language processing tasks. A higher score suggests better overall language understanding.
+* **HumanEval Score: 72.6** - HumanEval is a benchmark that evaluates a model's ability to generate correct code in response to programming prompts. The score represents the percentage of correct implementations. Llama 3.1 8B Instruct's score suggests it can generate correct code about 72.6% of the time.
+* **LMSYS Arena ELO Score: 1147** - The LMSYS Arena ELO score is a measure of a model's competitive performance in a variety of tasks, with higher scores indicating better performance. An ELO score of 1147 places Llama 3.1 8B Instruct in a competitive position.
 
 #### Real-World Implications
-These benchmark scores have significant implications for real-world use:
-* **Code generation**: With a HumanEval score of 72</div>
+These benchmark scores imply that Llama 3.1 8B Instruct is suitable for real-world applications that require:
+* General language understanding and generation
+* Code generation for simple to moderately complex tasks
+* Competitive performance in a variety of natural language processing tasks
+
+However, the model may not be the best choice for tasks that require:
+* Complex reasoning or high-precision tasks
+* Vision or multim</div>
       </div>
 
       <!-- COMPETITOR TABLE -->
@@ -485,86 +487,74 @@ These benchmark scores have significant implications for real-world use:
         </div>
         <div style="margin-top:1.5rem">### Llama 3.1 8B Instruct Comparison
 #### Overview
-The Llama 3.1 8B Instruct model, released by Meta on 2024-07-23, is a budget-friendly, open-source option for various natural language processing tasks. This comparison will delve into the pricing, performance, and use cases of Llama 3.1 8B Instruct against its top competitors, OpenAI's GPT-3.5 Turbo and Claude 3 Haiku.
+The Llama 3.1 8B Instruct model, provided by Meta, is a budget-friendly, open-source option for various natural language processing tasks. This comparison will delve into the pricing, performance, and use cases of Llama 3.1 8B Instruct against its top competitors, GPT-3.5 Turbo by OpenAI and Claude 3 Haiku.
 
 #### Pricing Comparison
-The pricing model for each competitor is as follows:
-* Llama 3.1 8B Instruct:
-	+ Input: $0.07 per 1M tokens
-	+ Output: $0.07 per 1M tokens
-* OpenAI GPT-3.5 Turbo:
-	+ Input: $0.5 per 1M tokens
-	+ Output: $1.5 per 1M tokens
-* Claude 3 Haiku:
-	+ Input: $0.25 per 1M tokens
-	+ Output: $1.25 per 1M tokens
+The pricing models for each competitor are as follows:
+* **Llama 3.1 8B Instruct**: $0.07 per 1M tokens for both input and output, with no additional costs for cached input or batch input.
+* **GPT-3.5 Turbo**: $0.5 per 1M input tokens and $1.5 per 1M output tokens.
+* **Claude 3 Haiku**: $0.25 per 1M input tokens and $1.25 per 1M output tokens.
 
-Llama 3.1 8B Instruct offers the most competitive pricing, with significant savings for both input and output tokens.
-
-#### Performance Comparison
-The performance of each model can be evaluated using various benchmarks:
-* Llama 3.1 8B Instruct:
+#### Performance Trade-offs
+The performance of each model can be evaluated based on the provided benchmarks:
+* **Llama 3.1 8B Instruct**:
 	+ MMLU: 73.0
 	+ HumanEval: 72.6
 	+ LMSYS Arena ELO: 1147
 	+ GSM8K: 84.2
-* OpenAI GPT-3.5 Turbo and Claude 3 Haiku benchmark scores are not provided, making direct comparison challenging. However, based on the available data, Llama 3.1 8B Instruct demonstrates strong performance across multiple tasks.
+* **GPT-3.5 Turbo** and **Claude 3 Haiku** benchmarks are not provided, but their pricing suggests they may offer higher performance or more advanced capabilities.
 
-#### Context and Limits
-Llama 3.1 8B Instruct has the following context and limits:
-* Context Window: 131,072 tokens
-* Max Output: 8,192 tokens
-* Knowledge Cutoff: 2023-12
+#### Use Cases and Recommendations
+Based on the capabilities and limitations of Llama 3.1 8B Instruct, it is **best for**:
+* Bulk processing
+* Simple chatbots
+* Classification
+* Edge deployment
+* Cost-near-zero applications
+* Local inference
 
-These specifications indicate that Llama 3.1 8B Instruct is suitable for tasks that require a moderate to large context window and output size.
+However, it is **not good for**:
+* Complex reasoning
+* Vision tasks
+* Precision tasks
+* Frontier-quality applications
 
-#### Capabilities and Use Cases
-Llama 3.1 8B Instruct supports the following capabilities:
-* text
-*</div>
+In contrast, **GPT-3.5 Turbo** and **Claude 3 Haiku** may be more suitable for applications that require higher performance, more advanced capabilities, or larger context windows, despite their higher costs.
+
+#### Cost Examples
+To illustrate the cost differences, consider the following examples:
+* 1,000 calls (avg 500 tokens): Llama 3.1 8B In</div>
       </div>
 
       <!-- USE CASES -->
       <div class="card content-section">
         <div class="card-title">Best Use Cases</div>
-        <div>### Practical Advice on Top 5 Use Cases for Llama 3.1 8B Instruct
-The Llama 3.1 8B Instruct model, released by Meta on 2024-07-23, offers a cost-effective solution for various natural language processing tasks. With its budget-friendly pricing and open-source availability, it's an attractive option for developers. Here are the top 5 best use cases for this model, along with specific code integration examples using OpenRouter:
+        <div>### Practical Advice for Llama 3.1 8B Instruct
+The Llama 3.1 8B Instruct model, released by Meta on 2024-07-23, is a budget-friendly and open-source option for various natural language processing tasks. With its capabilities in text, function calling, JSON mode, streaming, and system prompts, it is best suited for bulk processing, simple chatbots, classification, edge deployment, and cost-near-zero applications.
 
-#### 1. Bulk Processing
-Llama 3.1 8B Instruct is ideal for bulk processing tasks, such as text classification, sentiment analysis, and data preprocessing. Its high context window of 131,072 tokens and max output of 8,192 tokens make it suitable for handling large volumes of data.
-```python
+#### Top 5 Best Use Cases
+1. **Bulk Processing**: Utilize Llama 3.1 8B Instruct for processing large volumes of text data, such as data cleaning, text classification, or sentiment analysis. Its low cost of $0.07 per 1M tokens for input and output makes it an attractive option for bulk processing tasks.
+2. **Simple Chatbots**: Leverage the model's capabilities in text and function calling to build simple chatbots that can handle basic user queries. For example, you can use the following code to integrate Llama 3.1 8B Instruct with OpenRouter:
+    ```python
+import os
 import openrouter
-from meta_llama import Llama3_1_8B_Instruct
 
-# Initialize the model
-model = Llama3_1_8B_Instruct()
+# Initialize the Llama 3.1 8B Instruct model
+model = openrouter.Model("meta-llama/llama-3.1-8b-instruct")
 
-# Define a function to process text data in bulk
-def bulk_process_text(data):
-    inputs = []
-    for text in data:
-        inputs.append({"text": text})
-    outputs = model(inputs)
-    return outputs
+# Define a function to handle user input
+def handle_input(input_text):
+    # Use the model to generate a response
+    response = model.generate(input_text)
+    return response
 
-# Example usage
-data = ["This is a sample text.", "Another text for processing."]
-outputs = bulk_process_text(data)
-print(outputs)
+# Create a simple chatbot
+chatbot = openrouter.Chatbot(handle_input)
+
+# Start the chatbot
+chatbot.start()
 ```
-
-#### 2. Simple Chatbots
-The model's capabilities in text processing and function calling make it a good fit for simple chatbot applications. Its low cost of $0.07 per 1M tokens for input and output makes it an economical option for chatbot development.
-```python
-import openrouter
-from meta_llama import Llama3_1_8B_Instruct
-
-# Initialize the model
-model = Llama3_1_8B_Instruct()
-
-# Define a function to handle chatbot inputs
-def chatbot_input_handler(input_text):
-   </div>
+3. **Classification**: Use Llama 3.1 8B Instruct for text classification tasks, such as spam detection or sentiment analysis. The model's low cost and high performance on benchmarks like GSM8K (84.2) make it a suitable option for</div>
       </div>
 
       <!-- CAPABILITIES -->
