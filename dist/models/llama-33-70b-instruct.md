@@ -1,6 +1,6 @@
 # Llama 3.3 70B Instruct API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-06
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-07
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
