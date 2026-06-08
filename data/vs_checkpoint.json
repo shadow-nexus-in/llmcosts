@@ -105,6 +105,8 @@
     "anthropic-claude-opus-4.8-vs-anthropic-claude-opus-4.8-fast",
     "anthropic-claude-opus-4.8-fast-vs-o3",
     "anthropic-claude-opus-4.8-fast-vs-claude-opus-4",
-    "anthropic-claude-opus-4.8-fast-vs-gemini-2-5-pro"
+    "anthropic-claude-opus-4.8-fast-vs-gemini-2-5-pro",
+    "anthropic-claude-opus-4.8-fast-vs-claude-sonnet-4",
+    "anthropic-claude-opus-4.8-fast-vs-o1"
   ]
 }
