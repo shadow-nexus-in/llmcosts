@@ -1,6 +1,6 @@
 # LLMCosts.dev — COMPLETE LLM Pricing Registry (Un-Sharded Master)
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-06-09
+> Updated: 2026-06-10
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -12,7 +12,7 @@ CitationTemplate: "{title} — LLMCosts.dev, retrieved from https://llmcosts.dev
 Author: LLMCosts.dev Automated Registry
 License: CC BY 4.0
 
-Total Models: 338 | This file is NOT sharded. For ChatGPT-sized ingestion, use /llms.txt instead.
+Total Models: 339 | This file is NOT sharded. For ChatGPT-sized ingestion, use /llms.txt instead.
 
 | Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
 |-------|----------|----------|---------|---------|---------|-----|------|------|
@@ -354,3 +354,4 @@ Total Models: 338 | This file is NOT sharded. For ChatGPT-sized ingestion, use /
 | [Anthropic: Claude Opus 4.8 (Fast)](https://llmcosts.dev/models/anthropic-claude-opus-4.8-fast) | Anthropic | $10.0 | $50.0 | $None | 1,000,000 | None | premium | Closed |
 | [Anthropic: Claude Opus 4.8](https://llmcosts.dev/models/anthropic-claude-opus-4.8) | Anthropic | $5.0 | $25.0 | $None | 1,000,000 | None | premium | Closed |
 | [Qwen: Qwen3.7 Plus](https://llmcosts.dev/models/qwen-qwen3.7-plus) | Qwen | $0.4 | $1.6 | $None | 1,000,000 | None | budget | Closed |
+| [Anthropic: Claude Fable 5](https://llmcosts.dev/models/anthropic-claude-fable-5) | Anthropic | $10.0 | $50.0 | $None | 1,000,000 | None | premium | Closed |

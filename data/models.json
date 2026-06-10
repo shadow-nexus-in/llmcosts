@@ -1,7 +1,7 @@
 {
   "version": "6.0",
-  "updated_at": "2026-06-04T04:17:39Z",
-  "total_models": 338,
+  "updated_at": "2026-06-10T03:58:21Z",
+  "total_models": 339,
   "schema_version": "v5",
   "description": "LLMCosts.dev — Open LLM Pricing Registry. Single source of truth for LLM pricing, benchmarks, and performance data. Updated daily by automated pipeline.",
   "data_sources": [
@@ -34052,6 +34052,74 @@
         "multi-modal input"
       ],
       "tier": "budget",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "anthropic/claude-fable-5",
+      "name": "Anthropic: Claude Fable 5",
+      "slug": "anthropic-claude-fable-5",
+      "provider": "anthropic",
+      "provider_name": "Anthropic",
+      "version": "",
+      "release_date": "2026-06-10",
+      "pricing": {
+        "input_per_1m": 10.0,
+        "output_per_1m": 50.0,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 1000000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text",
+        "vision",
+        "coding",
+        "reasoning"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "autonomous knowledge work",
+        "coding tasks",
+        "complex text analysis"
+      ],
+      "not_good_for": [
+        "real-time applications",
+        "low-resource devices"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-06-10",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "frontier",
+        "Mythos-class",
+        "enterprise"
+      ],
+      "tier": "premium",
       "open_source": false,
       "self_hostable": false
     }

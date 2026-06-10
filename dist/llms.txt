@@ -1,6 +1,6 @@
 # LLMCosts.dev — Complete LLM Pricing Registry (All Models)
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-06-09
+> Updated: 2026-06-10
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -354,3 +354,4 @@ License: CC BY 4.0
 | [Anthropic: Claude Opus 4.8 (Fast)](https://llmcosts.dev/models/anthropic-claude-opus-4.8-fast) | Anthropic | $10.0 | $50.0 | $None | 1,000,000 | None | premium | Closed |
 | [Anthropic: Claude Opus 4.8](https://llmcosts.dev/models/anthropic-claude-opus-4.8) | Anthropic | $5.0 | $25.0 | $None | 1,000,000 | None | premium | Closed |
 | [Qwen: Qwen3.7 Plus](https://llmcosts.dev/models/qwen-qwen3.7-plus) | Qwen | $0.4 | $1.6 | $None | 1,000,000 | None | budget | Closed |
+| [Anthropic: Claude Fable 5](https://llmcosts.dev/models/anthropic-claude-fable-5) | Anthropic | $10.0 | $50.0 | $None | 1,000,000 | None | premium | Closed |
