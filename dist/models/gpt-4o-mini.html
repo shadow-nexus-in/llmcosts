@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://llmcosts.dev/models/gpt-4o-mini">
 
   <!-- Schema.org: Dataset -->
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "GPT-4o Mini API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for GPT-4o Mini by OpenAI.", "url": "https://llmcosts.dev/models/gpt-4o-mini", "keywords": ["GPT-4o Mini", "OpenAI", "efficient", "budget", "multimodal", "high-volume"], "dateModified": "2026-06-10", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "GPT-4o Mini API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for GPT-4o Mini by OpenAI.", "url": "https://llmcosts.dev/models/gpt-4o-mini", "keywords": ["GPT-4o Mini", "OpenAI", "efficient", "budget", "multimodal", "high-volume"], "dateModified": "2026-06-11", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
   <!-- Schema.org: FAQ -->
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
 
@@ -346,13 +346,13 @@
       <div class="card content-section">
         <div class="card-title">Overview</div>
         <div>### Introduction to GPT-4o Mini
-The GPT-4o Mini, released by OpenAI on 2024-07-18, is a budget-tier model that offers a balance between performance and cost. As a non-open source model, it is designed to provide developers with a reliable and efficient solution for various natural language processing tasks. With its architecture, GPT-4o Mini supports a range of capabilities, including text, vision, function calling, JSON mode, structured outputs, streaming, batch processing, and system prompts.
+The GPT-4o Mini, released by OpenAI on 2024-07-18, is a budget-friendly model designed for developers. This model is not open source. In terms of architecture, GPT-4o Mini is part of the GPT series, known for its transformer-based design, which enables it to process and generate human-like text based on the input it receives. Its main strengths include a balance between cost and performance, making it suitable for a variety of applications, especially those requiring large volumes of text processing without the need for cutting-edge capabilities.
 
 ### Technical Specifications and Use Cases
-GPT-4o Mini boasts a context window of 128,000 tokens and a maximum output of 16,384 tokens, with a knowledge cutoff date of 2023-10. Its pricing structure includes input costs of $0.15 per 1M tokens, output costs of $0.6 per 1M tokens, and discounted rates for cached input and batch input at $0.075 per 1M tokens. The model has demonstrated strong performance in various benchmarks, including MMLU (82.0), HumanEval (87.2), LMSYS Arena ELO (1218), and GSM8K (87.0). GPT-4o Mini is best suited for applications such as chatbots, classification, summarization, bulk processing, RAG, simple coding, and content moderation, but may not be ideal for complex reasoning, long document analysis, cutting-edge coding, or research tasks.
+GPT-4o Mini has a context window of 128,000 tokens and can generate up to 16,384 tokens as output. Its knowledge cutoff is 2023-10, meaning it may not have information on events or developments after this date. The model excels in tasks such as chatbots, text classification, summarization, bulk processing, and content moderation. It also supports capabilities like function calling, JSON mode, structured outputs, streaming, and batch processing, making it versatile for different types of applications. However, it's not recommended for complex reasoning, long document analysis, cutting-edge coding, or research tasks. The model's pricing includes $0.15 per 1M tokens for input, $0.6 per 1M tokens for output, with discounts for cached and batch inputs at $0.075 per 1M tokens.
 
 ### Pricing and Competitiveness
-The cost of using GPT-4o Mini can be estimated based on the number of calls and tokens processed. For example, 1,000 calls with an average of 500 tokens would cost $0.375, while 10,000 calls would cost $3.75, and 100,000 calls would cost $37.5. In comparison to its top competitors, such as Claude 3.5 Haiku</div>
+The pricing of GPT-4o Mini is competitive, with costs such as $0.375 for 1,000 calls averaging 500 tokens, $3.75 for 10,000 calls, and $37.5 for 100,000 calls. When compared to its top competitors like Claude 3.5 Haiku and OpenAI's GPT-3.5 Turbo, GPT-4o</div>
       </div>
 
       <!-- PRICING -->
@@ -402,27 +402,21 @@ The pricing for GPT-4o Mini is as follows:
 * Cached Input: **$0.075 per 1M tokens**
 * Batch Input: **$0.075 per 1M tokens**
 
-#### When to Use Cached Tokens
-Cached tokens offer a significant discount of **50%** compared to regular input tokens. This makes them an attractive option when:
-* The same input is used multiple times
-* The input data is static or rarely changes
-* The application can tolerate some delay in updating the input data
-
-By using cached tokens, developers can reduce their input costs from **$0.15 per 1M tokens** to **$0.075 per 1M tokens**.
-
-#### Batch API Savings
-Batching API calls can also lead to cost savings. With a price of **$0.075 per 1M tokens**, batch input is **50%** cheaper than regular input. This makes it suitable for applications that:
-* Process large volumes of data in parallel
-* Can tolerate some delay in processing
-* Require significant computational resources
+#### Optimal Usage Scenarios
+To minimize costs, consider the following scenarios:
+* **Cached Tokens**: Use cached input tokens when possible, as they offer a **50% discount** compared to regular input tokens (**$0.075 per 1M tokens** vs **$0.15 per 1M tokens**).
+* **Batch API Calls**: Utilize batch input for multiple API calls, as it also offers a **50% discount** compared to regular input tokens (**$0.075 per 1M tokens** vs **$0.15 per 1M tokens**).
 
 #### Cost at Scale
-To illustrate the cost implications of using GPT-4o Mini at scale, consider the following examples:
-* **1,000 calls (avg 500 tokens)**: **$0.375**
-* **10,000 calls**: **$3.75**
-* **100,000 calls**: **$37.5**
+The cost of using GPT-4o Mini at scale is as follows:
+* **1,000 API calls** (avg 500 tokens): **$0.375**
+* **10,000 API calls**: **$3.75**
+* **100,000 API calls**: **$37.5**
 
-These estimates demonstrate the linear scaling of costs with the number of API</div>
+#### Comparison to Competitors
+GPT-4o Mini's pricing is competitive with other models in the market:
+* **Claude 3.5 Haiku**: $0.8/1M input, $4.0/1M output
+* **OpenAI GPT-3.5 Turbo**: $0.5/</div>
       </div>
 
       <!-- BENCHMARKS -->
@@ -433,19 +427,27 @@ These estimates demonstrate the linear scaling of costs with the number of API</
           <div class="stat-cell"><div class="stat-label">HumanEval</div><div class="stat-value">87.2</div></div>
           <div class="stat-cell"><div class="stat-label">LMSYS ELO</div><div class="stat-value">1218</div></div>
         </div>
-        <div>### GPT-4o Mini Benchmark Performance Analysis
-#### Overview
-The GPT-4o Mini model, released by OpenAI on 2024-07-18, is a budget-friendly option with a closed-source license. This analysis will delve into the model's benchmark performance, focusing on the MMLU, HumanEval, and Arena ELO scores, and their implications for real-world applications.
+        <div>### Analysis of GPT-4o Mini Benchmark Performance
+The GPT-4o Mini model, released by OpenAI on 2024-07-18, is a budget-friendly option with a tier classification of "budget". This model is not open-source.
+
+#### Pricing
+The pricing for GPT-4o Mini is as follows:
+* Input: **$0.15 per 1M tokens**
+* Output: **$0.6 per 1M tokens**
+* Cached Input: **$0.075 per 1M tokens**
+* Batch Input: **$0.075 per 1M tokens**
 
 #### Benchmark Scores
-The GPT-4o Mini model has achieved the following benchmark scores:
-* **MMLU: 82.0** - The MMLU (Massive Multitask Language Understanding) benchmark evaluates a model's ability to perform a wide range of natural language processing tasks. A score of 82.0 indicates that the GPT-4o Mini model has a strong foundation in language understanding.
-* **HumanEval: 87.2** - The HumanEval benchmark assesses a model's ability to generate code that is both correct and readable. A score of 87.2 suggests that the GPT-4o Mini model is capable of producing high-quality code, making it suitable for tasks like simple coding and code completion.
-* **LMSYS Arena ELO: 1218** - The LMSYS Arena ELO benchmark measures a model's performance in a competitive environment, where models are pitted against each other to complete tasks. An ELO score of 1218 indicates that the GPT-4o Mini model is a strong competitor in the arena, capable of handling a variety of tasks and challenges.
+The model's performance is measured by the following benchmark scores:
+* **MMLU: 82.0** - The MMLU (Massive Multitask Language Understanding) benchmark evaluates a model's ability to perform a wide range of natural language processing tasks. A higher score indicates better performance.
+* **HumanEval: 87.2** - The HumanEval benchmark assesses a model's ability to generate code that is correct and functional. A higher score indicates better coding capabilities.
+* **LMSYS Arena ELO: 1218** - The LMSYS Arena ELO score is a measure of a model's overall performance in a competitive setting, with higher scores indicating better performance.
+* **GSM8K: 87.0** - The GSM8K benchmark evaluates a model's ability to solve math problems.
 
 #### Real-World Implications
-The benchmark scores suggest that the GPT-4o Mini model is well-suited for tasks like:
-* Chatbots: The model</div>
+The benchmark scores indicate that GPT-4o Mini is a capable model for a variety of tasks, including:
+* Text-based applications, such as chatbots and content moderation
+* Simple coding tasks,</div>
       </div>
 
       <!-- COMPETITOR TABLE -->
@@ -481,9 +483,9 @@ The benchmark scores suggest that the GPT-4o Mini model is well-suited for tasks
             </tbody>
           </table>
         </div>
-        <div style="margin-top:1.5rem">### GPT-4o Mini Comparison with Top Competitors
+        <div style="margin-top:1.5rem">### Comparison of GPT-4o Mini with Top Competitors
 #### Overview
-The GPT-4o Mini, released by OpenAI on 2024-07-18, is a budget-friendly model with a unique set of capabilities and limitations. This comparison will delve into the pricing, performance, and use cases of GPT-4o Mini against its top competitors, Claude 3.5 Haiku and OpenAI's GPT-3.5 Turbo.
+GPT-4o Mini is a budget-friendly language model offered by OpenAI, released on 2024-07-18. It is not open source and provides a range of capabilities, including text, vision, function calling, and more. In this comparison, we will evaluate GPT-4o Mini against its top competitors, Claude 3.5 Haiku and OpenAI's GPT-3.5 Turbo, in terms of pricing, performance, and use cases.
 
 #### Pricing Comparison
 The pricing for each model is as follows:
@@ -499,54 +501,41 @@ The pricing for each model is as follows:
 	+ Input: $0.5 per 1M tokens
 	+ Output: $1.5 per 1M tokens
 
-#### Performance Trade-offs
-The GPT-4o Mini has the following benchmarks:
-* MMLU: 82.0
-* HumanEval: 87.2
-* LMSYS Arena ELO: 1218
-* GSM8K: 87.0
-While the performance of Claude 3.5 Haiku and GPT-3.5 Turbo is not provided, we can infer that GPT-4o Mini offers a balance between price and performance.
+GPT-4o Mini offers the most competitive pricing among the three models, with significant discounts for cached and batch inputs.
 
-#### Context and Limits
-The GPT-4o Mini has the following context and limits:
-* Context Window: 128,000 tokens
-* Max Output: 16,384 tokens
-* Knowledge Cutoff: 2023-10
-These limits may affect the model's ability to handle complex tasks or long documents.
+#### Performance Comparison
+The performance of each model can be evaluated based on the following benchmarks:
+* GPT-4o Mini:
+	+ MMLU: 82.0
+	+ HumanEval: 87.2
+	+ LMSYS Arena ELO: 1218
+	+ GSM8K: 87.0
+* Claude 3.5 Haiku: Not provided
+* GPT-3.5 Turbo: Not provided
 
-#### Capabilities and Use Cases
-The GPT-4o Mini is best suited for:
-* Chatbots
-* Classification
-* Summarization
-* Bulk processing
-* RAG (Retrieve, Augment, Generate)
-* Simple coding
-* Content moderation
-However, it is not recommended for:
-* Complex reasoning
-* Long document analysis
-* Cutting-edge coding
-* Research tasks
+While the benchmark scores for Claude 3.5 Haiku and GPT-3.5 Turbo are not available, GPT-4o Mini's scores indicate strong performance in various tasks, including natural language understanding and generation.
 
-#### Cost Examples
-The estimated costs</div>
+#### Use Case Comparison
+Each model is suited for different use cases:
+* GPT-4o Mini:
+	+ Best for: chatbots, classification, summarization, bulk processing, RAG, simple coding, content moderation
+	+ Not good for: complex reasoning, long document analysis, cutting-edge coding, research tasks</div>
       </div>
 
       <!-- USE CASES -->
       <div class="card content-section">
         <div class="card-title">Best Use Cases</div>
         <div>### Introduction to GPT-4o Mini
-The GPT-4o Mini model, released by OpenAI on 2024-07-18, is a budget-friendly option for various natural language processing tasks. With its capabilities in text, vision, function calling, and more, it's an attractive choice for developers looking to integrate AI into their applications.
+The GPT-4o Mini model, released by OpenAI on 2024-07-18, is a budget-friendly option for various natural language processing tasks. With its capabilities in text, vision, function calling, and more, it's an ideal choice for applications such as chatbots, classification, and summarization.
 
 ### Top 5 Best Use Cases for GPT-4o Mini
-Based on the model's capabilities and limitations, here are the top 5 best use cases for GPT-4o Mini:
+Based on its capabilities and limitations, here are the top 5 best use cases for GPT-4o Mini:
 
-1. **Chatbots**: GPT-4o Mini is well-suited for chatbot applications, providing a cost-effective solution for text-based conversations. With its ability to understand and respond to user input, it can be used to build conversational interfaces for customer support, entertainment, and more.
-2. **Classification**: The model's classification capabilities make it an excellent choice for tasks such as sentiment analysis, spam detection, and content moderation. Its high accuracy and efficiency make it a great option for bulk processing and real-time applications.
-3. **Summarization**: GPT-4o Mini can be used to summarize long pieces of text, extracting key points and main ideas. This makes it a great tool for news aggregation, research, and content creation.
-4. **Bulk Processing**: With its ability to handle batch processing and streaming, GPT-4o Mini is ideal for tasks that require processing large amounts of data. This includes data cleaning, data transformation, and data analysis.
-5. **Simple Coding**: The model's function calling and JSON mode capabilities make it a great option for simple coding tasks, such as data processing, API integration, and automation.
+1. **Chatbots**: GPT-4o Mini's ability to understand and respond to user input makes it an excellent choice for building chatbots. Its context window of 128,000 tokens allows for relatively long conversations.
+2. **Classification**: With its high performance on benchmarks like MMLU (82.0) and HumanEval (87.2), GPT-4o Mini is well-suited for classification tasks such as sentiment analysis and spam detection.
+3. **Summarization**: GPT-4o Mini's ability to process and summarize large amounts of text makes it an ideal choice for summarization tasks. Its max output of 16,384 tokens allows for detailed summaries.
+4. **Bulk Processing**: GPT-4o Mini's support for batch processing and its relatively low cost ($0.075 per 1M tokens for batch input) make it a great option for bulk processing tasks such as data preprocessing and content moderation.
+5. **Simple Coding**: GPT-4o Mini's function calling capability and its performance on benchmarks like GSM8K (87.0) make it a good choice for simple coding tasks such as code completion and code review.
 
 ### Code Integration Example with OpenRouter
 To integrate GPT-4o Mini with OpenRouter, you can use the following code example:
@@ -554,7 +543,7 @@ To integrate GPT-4o Mini with OpenRouter, you can use the following code example
 import openrouter
 
 # Initialize the OpenRouter client
-client = openrouter.Client(api_key="YOUR</div>
+client =</div>
       </div>
 
       <!-- CAPABILITIES -->

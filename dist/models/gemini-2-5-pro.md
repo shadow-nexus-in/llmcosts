@@ -1,17 +1,17 @@
 # Gemini 2.5 Pro API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-10
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-11
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
 ### Introduction to Gemini 2.5 Pro
-Gemini 2.5 Pro, released by Google on 2025-03-25, is a premium, non-open-source model designed for developers seeking advanced capabilities in natural language processing, vision, audio, and video understanding. This model boasts a robust architecture, with a context window of 1,048,576 tokens and a maximum output of 65,536 tokens. Its knowledge cutoff is 2025-01, ensuring it is informed by data up to that point.
+Gemini 2.5 Pro, released by Google on 2025-03-25, is a premium, non-open-source model designed to cater to complex and demanding tasks. Its architecture is built to handle a wide range of capabilities, including text, vision, audio, video, function calling, JSON mode, streaming, system prompts, code execution, and extended thinking. With a context window of 1,048,576 tokens and a maximum output of 65,536 tokens, Gemini 2.5 Pro is well-suited for tasks that require in-depth analysis and reasoning.
 
 ### Technical Strengths and Use Cases
-Gemini 2.5 Pro excels in several areas, including long document analysis, complex reasoning, coding, video understanding, audio analysis, and multimodal retrieval-augmented generation (RAG). It supports a wide range of capabilities such as text, vision, audio, video processing, function calling, JSON mode, streaming, system prompts, code execution, and extended thinking. With high benchmark scores (MMLU: 91.5, HumanEval: 92.0, LMSYS Arena ELO: 1376, GSM8K: 97.0), it is well-suited for research and complex tasks. However, it is not recommended for simple tasks, cost-sensitive applications at scale, or real-time applications requiring responses under 100ms.
+The model boasts impressive benchmarks, including an MMLU score of 91.5, HumanEval score of 92.0, LMSYS Arena ELO of 1376, and a GSM8K score of 97.0. These strengths make Gemini 2.5 Pro an ideal choice for tasks such as long document analysis, complex reasoning, coding, video understanding, audio analysis, multimodal RAG, and research. However, it may not be the best fit for simple tasks, cost-sensitive applications at scale, or real-time applications requiring responses under 100ms. The pricing model is based on input and output tokens, with costs of $1.25 per 1M input tokens, $10.0 per 1M output tokens, and $0.125 per 1M cached input tokens.
 
 ### Pricing and Cost Considerations
-The pricing for Gemini 2.5 Pro is as follows: $1.25 per 1M input tokens, $10.0 per 1M output tokens, and $0.125 per 1M cached input tokens. There is no specified pricing for batch input. Cost examples provided indicate that 1,000 calls (avg 500 tokens) would cost $5.625, 10,000 calls would cost $56.25, and 100,000 calls would cost $562.5. Compared to its top competitors, such as Claude Opus 4 and Open
+Developers should be aware of the pricing structure when integrating Gemini 2.5 Pro into their applications. The cost of using the model can add up quickly, with examples including $5.625 for 1,000 calls (avg 500 tokens), $56.25 for 10,000 calls, and $562.5 for 100,000 calls. In comparison to its top competitors, such as Claude Opus 4
 
 ## Pricing (USD per 1M tokens)
 | Metric | Price |
@@ -23,35 +23,34 @@ The pricing for Gemini 2.5 Pro is as follows: $1.25 per 1M input tokens, $10.0 p
 | Batch Output | $None |
 
 ## Pricing Analysis
-### Pricing Analysis for Gemini 2.5 Pro
+### Gemini 2.5 Pro Pricing Analysis
 #### Overview
-The Gemini 2.5 Pro model, provided by Google, is a premium, non-open-source model released on 2025-03-25. This analysis will delve into the cost structure, optimal usage scenarios, and cost-effectiveness at scale.
+The Gemini 2.5 Pro model, provided by Google, is a premium, non-open-source model released on 2025-03-25. It boasts a range of capabilities, including text, vision, audio, video, function calling, and more, making it suitable for complex tasks such as long document analysis, coding, and multimodal reasoning.
 
 #### Cost Structure
 The pricing for Gemini 2.5 Pro is as follows:
-* Input: **$1.25 per 1M tokens**
-* Output: **$10.0 per 1M tokens**
-* Cached Input: **$0.125 per 1M tokens**
-* Batch Input: **No additional cost**
+* **Input**: $1.25 per 1M tokens
+* **Output**: $10.0 per 1M tokens
+* **Cached Input**: $0.125 per 1M tokens
+* **Batch Input**: No additional cost specified
 
-#### Optimal Usage Scenarios
-To minimize costs, consider the following strategies:
-* **Use cached tokens** when possible, as they offer a significant reduction in cost (**$0.125 per 1M tokens**, 90% cheaper than regular input).
-* **Batch API calls** to take advantage of the lack of additional batch input costs.
+#### Cost Optimization Strategies
+To minimize costs when using Gemini 2.5 Pro, consider the following strategies:
+* **Use Cached Tokens**: When possible, utilize cached input tokens to reduce costs. At $0.125 per 1M tokens, this represents a 90% discount compared to regular input tokens.
+* **Batch API Calls**: Although no specific batch input pricing is provided, batching API calls can help reduce the overall number of requests, potentially leading to cost savings through reduced overhead.
 
 #### Cost at Scale
 The cost of using Gemini 2.5 Pro at scale is as follows:
-* **1,000 calls (avg 500 tokens)**: **$5.625**
-* **10,000 calls**: **$56.25**
-* **100,000 calls**: **$562.5**
+* **1,000 calls (avg 500 tokens)**: $5.625
+* **10,000 calls**: $56.25
+* **100,000 calls**: $562.5
 
-These costs demonstrate a linear relationship with the number of API calls, indicating that the cost per call remains constant.
+These costs demonstrate a linear scaling of expenses with the number of API calls, highlighting the importance of optimizing input token usage and exploring batch processing opportunities.
 
-#### Comparison to Competitors
-Gemini 2.5 Pro's pricing is competitive with other premium models:
-* **Claude Opus 4**: $15.0/1M input, $75.0/1M output (more expensive)
-* **OpenAI o3**: $2.0/1M input, $8.0/1M output (cheaper input, cheaper output)
-* **GPT-4.1**: $2.0/1M input, $8.0/1
+#### Competitive Landscape
+Compared to its top competitors:
+* **Claude Opus 4**: $15.0/1M input, $75.0/1M output (significantly more expensive)
+* **OpenAI o3**: $2.0
 
 ## Benchmarks
 | Benchmark | Score |
@@ -62,23 +61,24 @@ Gemini 2.5 Pro's pricing is competitive with other premium models:
 | ARC | None |
 
 ## Benchmark Analysis
-### Gemini 2.5 Pro Benchmark Performance Analysis
-The Gemini 2.5 Pro model, released by Google on 2025-03-25, is a premium, non-open-source model with a unique set of capabilities and pricing structure. This analysis will delve into the model's benchmark performance, explaining the significance of its MMLU, HumanEval, and Arena ELO scores in real-world applications.
+### Gemini 2.5 Pro Benchmark Analysis
+The Gemini 2.5 Pro model, released by Google on 2025-03-25, is a premium, non-open-source model with impressive benchmark performance. This analysis will break down the MMLU, HumanEval, and Arena ELO scores, explaining their significance for real-world use.
 
 #### Benchmark Scores
-The Gemini 2.5 Pro model has achieved the following benchmark scores:
-* **MMLU: 91.5** - The MMLU (Massive Multitask Language Understanding) benchmark evaluates a model's ability to perform a wide range of natural language processing tasks. A score of 91.5 indicates that Gemini 2.5 Pro has excellent language understanding capabilities, making it suitable for complex tasks such as long document analysis and coding.
-* **HumanEval: 92.0** - The HumanEval benchmark assesses a model's ability to evaluate and execute code. A score of 92.0 suggests that Gemini 2.5 Pro has outstanding code execution capabilities, making it an excellent choice for coding and software development tasks.
-* **LMSYS Arena ELO: 1376** - The LMSYS Arena ELO benchmark measures a model's overall performance in a competitive environment. An ELO score of 1376 indicates that Gemini 2.5 Pro is a highly competitive model, capable of performing well in a variety of tasks and scenarios.
+* **MMLU (Massive Multitask Language Understanding) Score: 91.5** - This score indicates the model's ability to understand and perform a wide range of natural language processing tasks. A higher MMLU score suggests better performance in tasks such as text classification, sentiment analysis, and question answering.
+* **HumanEval Score: 92.0** - HumanEval is a benchmark that evaluates a model's ability to generate code that solves specific problems. A high HumanEval score, like 92.0, demonstrates the model's proficiency in coding tasks, making it suitable for applications such as code completion, code review, and programming assistance.
+* **LMSYS Arena ELO Score: 1376** - The Arena ELO score is a measure of a model's overall performance in a competitive environment, where models are pitted against each other to solve various tasks. An ELO score of 1376 indicates that Gemini 2.5 Pro is a highly competitive model, capable of outperforming many other models in a wide range of tasks.
 
 #### Real-World Implications
-The benchmark scores of Gemini 2.5 Pro have significant implications for real-world use cases:
-* **Complex reasoning and coding**: With its high MMLU and HumanEval scores,
+The benchmark scores suggest that Gemini 2.5 Pro is well-suited for tasks that require:
+
+* Advanced natural language understanding (e.g., long document analysis, complex reasoning)
+* Coding and programming assistance (e.g., code completion, code review
 
 ## Competitor Comparison
 ### Comparison of Gemini 2.5 Pro with Top Competitors
 #### Overview
-The Gemini 2.5 Pro, released by Google on 2025-03-25, is a premium, non-open-source model that offers a range of capabilities including text, vision, audio, video, and more. This comparison will delve into the pricing, performance, and use cases of Gemini 2.5 Pro against its top competitors: Claude Opus 4, OpenAI o3, and GPT-4.1.
+The Gemini 2.5 Pro, released by Google on 2025-03-25, is a premium, non-open-source model that offers a unique set of capabilities and pricing. This comparison will delve into the details of Gemini 2.5 Pro's pricing, performance, and trade-offs against its top competitors: Claude Opus 4, OpenAI o3, and GPT-4.1.
 
 #### Pricing Comparison
 The pricing models of these competitors are as follows:
@@ -87,6 +87,7 @@ The pricing models of these competitors are as follows:
 	+ Input: $1.25 per 1M tokens
 	+ Output: $10.0 per 1M tokens
 	+ Cached Input: $0.125 per 1M tokens
+	+ Batch Input: $None per 1M tokens
 * **Claude Opus 4**:
 	+ Input: $15.0 per 1M tokens
 	+ Output: $75.0 per 1M tokens
@@ -97,47 +98,47 @@ The pricing models of these competitors are as follows:
 	+ Input: $2.0 per 1M tokens
 	+ Output: $8.0 per 1M tokens
 
-Gemini 2.5 Pro offers a competitive pricing model, especially for input tokens, making it a more cost-effective option for applications with large input requirements.
+#### Performance Trade-offs
+Gemini 2.5 Pro boasts impressive benchmarks:
+* MMLU: 91.5
+* HumanEval: 92.0
+* LMSYS Arena ELO: 1376
+* GSM8K: 97.0
 
-#### Performance Comparison
-The performance of these models can be evaluated based on their benchmark scores:
+While its competitors may offer similar or different performance metrics, Gemini 2.5 Pro's capabilities, such as text, vision, audio, video, function calling, and code execution, make it an attractive choice for specific use cases.
 
-* **Gemini 2.5 Pro**:
-	+ MMLU: 91.5
-	+ HumanEval: 92.0
-	+ LMSYS Arena ELO: 1376
-	+ GSM8K: 97.0
-* **Claude Opus 4**: Not provided
-* **OpenAI o3**: Not provided
-* **GPT-4.1**: Not provided
+#### Context and Limits
+Gemini 2.5 Pro has the following context and limits:
+* Context Window: 1,048,576 tokens
+* Max Output: 65,536 tokens
+* Knowledge Cutoff: 2025-01
 
-While the benchmark scores for the competitors are not available, Gemini 2.5 Pro's scores indicate its strong performance in various tasks.
+These limits are essential to consider when choosing a model for specific tasks.
 
-#### Capabilities and Use Cases
-Gemini 2.5 Pro offers a wide range of capabilities, including:
+#### When to Choose Each Model
+Based on the pricing, performance, and capabilities, here are some guidelines on when to choose each model:
 
-* Text, vision, audio, video, function calling, JSON mode, streaming, system prompts, code execution,
+* **Gemini 2.5
 
 ## Best Use Cases
 ### Introduction to Gemini 2.5 Pro
-The Gemini 2.5 Pro model, released by Google on 2025-03-25, is a premium, non-open-source model that excels in various complex tasks. With its extensive capabilities, including text, vision, audio, video, function calling, and more, it is best suited for tasks that require long document analysis, complex reasoning, coding, and multimodal understanding.
+The Gemini 2.5 Pro model, released by Google on 2025-03-25, is a premium, non-open-source AI model that excels in various complex tasks. With its impressive benchmarks, including an MMLU score of 91.5 and a HumanEval score of 92.0, this model is ideal for applications requiring advanced reasoning, coding, and multimodal understanding.
 
 ### Top 5 Best Use Cases for Gemini 2.5 Pro
-Based on its capabilities and benchmarks, the top 5 best use cases for Gemini 2.5 Pro are:
+Based on its capabilities and pricing, the top 5 best use cases for Gemini 2.5 Pro are:
 
-1. **Long Document Analysis**: With a context window of 1,048,576 tokens, Gemini 2.5 Pro is ideal for analyzing lengthy documents, extracting insights, and summarizing complex information.
-2. **Complex Reasoning and Coding**: Gemini 2.5 Pro's high scores in HumanEval (92.0) and LMSYS Arena ELO (1376) make it suitable for tasks that require advanced reasoning, coding, and problem-solving.
-3. **Multimodal Understanding**: The model's capabilities in text, vision, audio, and video analysis make it an excellent choice for tasks that involve multimodal data, such as video understanding, audio analysis, and multimodal retrieval.
-4. **Research and Development**: Gemini 2.5 Pro's extensive capabilities and high benchmarks make it an ideal model for research and development tasks, such as exploring new applications, testing hypotheses, and validating results.
-5. **Extended Thinking and Problem-Solving**: The model's ability to engage in extended thinking and problem-solving makes it suitable for tasks that require in-depth analysis, critical thinking, and creative problem-solving.
+1. **Long Document Analysis**: With a context window of 1,048,576 tokens, Gemini 2.5 Pro can analyze lengthy documents, making it perfect for tasks like text summarization, sentiment analysis, and information extraction.
+2. **Complex Reasoning**: The model's high scores in HumanEval and LMSYS Arena ELO demonstrate its ability to perform complex reasoning tasks, such as solving mathematical problems, logical puzzles, and abstract thinking.
+3. **Coding and Code Execution**: Gemini 2.5 Pro's capabilities in code execution and function calling make it an excellent choice for coding tasks, such as code completion, code review, and automated testing.
+4. **Multimodal Understanding**: The model's support for text, vision, audio, and video inputs enables it to understand and process multimodal data, making it suitable for applications like video analysis, audio analysis, and multimodal RAG (Retrieval-Augmented Generation).
+5. **Research**: Gemini 2.5 Pro's advanced capabilities and large context window make it an ideal model for research applications, such as exploring new AI architectures, testing hypotheses, and analyzing large datasets.
 
 ### Code Integration Example with OpenRouter
-To integrate Gemini 2.5 Pro with OpenRouter, you can use the following code example:
+To integrate Gemini 2.5 Pro with OpenRouter, you can use the following code snippet:
 ```python
 import openrouter
 
-# Initialize the Gemini 2.5 Pro model
-
+#
 
 ## Frequently Asked Questions
 
