@@ -1,17 +1,17 @@
 # Qwen: Qwen3.6 Plus API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-11
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-12
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
-### Technical Overview of Qwen: Qwen3.6 Plus
-The Qwen: Qwen3.6 Plus model, released by Qwen on 2024-01-01, is a standard-tier language model that operates under a closed-source license. Its architecture is designed to handle a wide range of natural language processing tasks, with a context window of up to 1,000,000 tokens and a maximum output of 65,536 tokens. This model is particularly suited for applications that require extensive text generation, analysis, and processing, thanks to its capabilities in text, function calling, JSON mode, streaming, and structured outputs.
+### Introduction to Qwen: Qwen3.6 Plus
+Qwen: Qwen3.6 Plus is a standard-tier model provided by Qwen, released on January 1, 2024. This model is not open source. The Qwen3.6 Plus architecture is designed to handle a wide range of tasks, including text generation, coding, analysis, and summarization. With its capabilities in text, function calling, JSON mode, streaming, and structured outputs, it is well-suited for various applications such as chat, text generation, and coding.
 
-### Strengths and Use Cases
-Qwen: Qwen3.6 Plus excels in various use cases, including chat, text generation, coding, analysis, RAG pipelines, and summarization. Its strengths are reflected in its benchmark scores, such as an MMLU score of 87.0 and an LMSYS Arena ELO score of 1270. These metrics indicate the model's proficiency in understanding and generating human-like text. With pricing set at $0.325 per 1M tokens for input and $1.95 per 1M tokens for output, developers can estimate costs based on their specific application needs. For example, 1,000 calls with an average of 500 tokens would cost approximately $1.1375.
+### Technical Strengths and Use Cases
+The Qwen: Qwen3.6 Plus model has several key strengths, including a large context window of 1,000,000 tokens and a maximum output of 65,536 tokens. Its knowledge cutoff is December 2023, ensuring it has access to a vast amount of information up to that point. The model's pricing is based on input and output tokens, with costs of $0.325 per 1M tokens for input and $1.95 per 1M tokens for output. With its strong performance in benchmarks like MMLU (87.0) and LMSYS Arena ELO (1270), Qwen3.6 Plus is best suited for tasks such as chat, text generation, coding, analysis, and summarization.
 
-### Cost Considerations and Competitors
-When considering the use of Qwen: Qwen3.6 Plus, developers should be aware of the pricing structure and how it applies to their specific use case. The model's cost-effectiveness can be evaluated based on the provided cost examples, such as $11.375 for 10,000 calls and $113.75 for 100,000 calls. Currently, there are no direct competitors listed for Qwen: Qwen3.6 Plus, making it a unique offering in the market. However, its capabilities and pricing should
+### Cost and Competitiveness
+In terms of cost, Qwen: Qwen3.6 Plus offers competitive pricing, with examples including $1.1375 for 1,000 calls (avg 500 tokens), $11.375 for 10,000 calls, and $113.75 for 100,000 calls. While there are no direct competitors listed, the model's unique combination of capabilities and strengths make it a strong choice for developers looking for a reliable and efficient language model. With its robust architecture and wide range of applications, Qwen: Qwen3.6 Plus is a
 
 ## Pricing (USD per 1M tokens)
 | Metric | Price |
@@ -23,37 +23,35 @@ When considering the use of Qwen: Qwen3.6 Plus, developers should be aware of th
 | Batch Output | $None |
 
 ## Pricing Analysis
-### Qwen3.6 Plus Pricing Analysis
+### Qwen: Qwen3.6 Plus Pricing Analysis
 #### Overview
-The Qwen3.6 Plus model, provided by Qwen, is a standard tier model released on 2024-01-01. It is not open source and has a specific cost structure based on input and output tokens.
+The Qwen: Qwen3.6 Plus model is a standard, non-open source model released by Qwen on 2024-01-01. This analysis will break down the cost structure, provide guidance on when to use cached tokens, discuss batch API savings, and examine the cost at scale for 1k, 10k, and 100k API calls.
 
 #### Cost Structure
-The cost structure for Qwen3.6 Plus is as follows:
-* **Input**: $0.325 per 1M tokens
-* **Output**: $1.95 per 1M tokens
-* **Cached Input**: $None per 1M tokens (free)
-* **Batch Input**: $None per 1M tokens (free)
+The pricing for Qwen: Qwen3.6 Plus is as follows:
+* Input: **$0.325 per 1M tokens**
+* Output: **$1.95 per 1M tokens**
+* Cached Input: **$0 per 1M tokens** (free)
+* Batch Input: **$0 per 1M tokens** (free)
 
-#### When to Use Cached Tokens
-Cached tokens can be used to reduce costs, as they are free. This can be beneficial when the same input tokens are used multiple times, such as in a chat or text generation application.
+#### Using Cached Tokens
+Cached tokens are free, making them an attractive option for reducing costs. If your application can utilize cached input tokens, it is recommended to do so to minimize expenses.
 
 #### Batch API Savings
-Batching API calls can also help reduce costs, as batch input is free. This can be beneficial when making multiple API calls with the same input tokens.
+Batch input is also free, which means that batching API calls can help reduce the overall cost. However, the pricing structure does not provide a direct discount for batch processing. Instead, it eliminates the cost associated with batch input tokens.
 
 #### Cost at Scale
-The cost of using Qwen3.6 Plus at scale is as follows:
-* **1,000 API calls (avg 500 tokens)**: $1.1375
-* **10,000 API calls**: $11.375
-* **100,000 API calls**: $113.75
+The cost examples provided are:
+* 1,000 calls (avg 500 tokens): **$1.1375**
+* 10,000 calls: **$11.375**
+* 100,000 calls: **$113.75**
 
-These costs demonstrate a linear scaling of costs with the number of API calls, indicating that the cost per call remains constant.
+To put these numbers into perspective, the cost per call is:
+* 1,000 calls: **$0.0011375 per call**
+* 10,000 calls: **$0.0011375 per call**
+* 100,000 calls: **$0.0011375 per call**
 
-#### Conclusion
-The Qwen3.6 Plus model offers a cost-effective solution for text-based applications, with a clear cost structure and opportunities for cost savings through cached and batched input tokens. The costs at scale demonstrate a linear relationship with the number of API calls, making it easy to predict and plan for costs. 
-
-### Recommendations
-Based on the pricing analysis, we recommend using Qwen3.6 Plus for applications where:
-* Input tokens are reused
+The cost per call remains constant, indicating that the pricing structure is linear and does not offer
 
 ## Benchmarks
 | Benchmark | Score |
@@ -64,103 +62,98 @@ Based on the pricing analysis, we recommend using Qwen3.6 Plus for applications 
 | ARC | None |
 
 ## Benchmark Analysis
-### Qwen3.6 Plus Benchmark Performance Analysis
-#### Model Overview
-The Qwen3.6 Plus model, provided by Qwen, is a standard, non-open-source model released on January 1, 2024. 
+### Qwen: Qwen3.6 Plus Benchmark Performance Analysis
+#### Overview
+The Qwen: Qwen3.6 Plus model, released by Qwen on 2024-01-01, is a standard, non-open-source model. This analysis focuses on its benchmark performance, pricing, and capabilities to understand its real-world use cases.
 
-#### Pricing Structure
-The pricing for Qwen3.6 Plus is as follows:
-- Input: **$0.325 per 1M tokens**
-- Output: **$1.95 per 1M tokens**
-- Cached Input: **$None per 1M tokens**
-- Batch Input: **$None per 1M tokens**
+#### Benchmark Scores
+The model's performance is measured by the following benchmark scores:
+* **MMLU (Massive Multitask Language Understanding)**: 87.0 - This score indicates the model's ability to understand and perform a wide range of natural language tasks. A higher MMLU score suggests better performance in tasks like text classification, sentiment analysis, and question answering.
+* **HumanEval**: None - HumanEval is a benchmark that evaluates a model's ability to write correct and functional code. The absence of a HumanEval score makes it difficult to assess the model's coding capabilities.
+* **LMSYS Arena ELO**: 1270 - The LMSYS Arena ELO score measures the model's performance in a competitive environment, where it is pitted against other models. A higher ELO score indicates better performance in tasks like coding, text generation, and conversation.
+
+#### Pricing
+The pricing for Qwen: Qwen3.6 Plus is as follows:
+* **Input**: $0.325 per 1M tokens
+* **Output**: $1.95 per 1M tokens
+* **Cached Input**: $None per 1M tokens
+* **Batch Input**: $None per 1M tokens
 
 #### Context and Limits
 The model has the following context and limits:
-- Context Window: **1,000,000 tokens**
-- Max Output: **65,536 tokens**
-- Knowledge Cutoff: **2023-12**
-
-#### Benchmark Performance
-The model's benchmark performance is as follows:
-- **MMLU (Massive Multitask Language Understanding) Score: 87.0** - This score indicates the model's ability to understand and perform a wide range of natural language processing tasks. A higher score generally corresponds to better performance.
-- **HumanEval Score: None** - HumanEval is a benchmark that evaluates a model's ability to generate correct code. The absence of a score for Qwen3.6 Plus means that its performance on this specific task is not available.
-- **LMSYS Arena ELO Score: 1270** - The LMSYS Arena ELO score is a measure of a model's performance in a competitive environment, where models are pitted against each other to solve various tasks. An ELO score of 1270 suggests that Qwen3.6 Plus has a moderate level of performance
+* **Context Window**: 1,000,000 tokens -
 
 ## Competitor Comparison
 ### Qwen: Qwen3.6 Plus Comparison
 #### Overview
-The Qwen: Qwen3.6 Plus (qwen/qwen3.6-plus) is a standard, non-open-source model released by Qwen on 2024-01-01. This model excels in various capabilities, including text, function calling, JSON mode, streaming, and structured outputs, making it suitable for chat, text generation, coding, analysis, RAG pipelines, and summarization.
+The Qwen: Qwen3.6 Plus (qwen/qwen3.6-plus) is a standard, non-open-source model released by Qwen on 2024-01-01. With its unique capabilities and pricing structure, it's essential to understand its strengths and weaknesses compared to other models.
 
-#### Pricing
-The pricing for Qwen: Qwen3.6 Plus is as follows:
+#### Pricing Structure
+The Qwen: Qwen3.6 Plus pricing is as follows:
 * Input: $0.325 per 1M tokens
 * Output: $1.95 per 1M tokens
 * Cached Input: $None per 1M tokens
 * Batch Input: $None per 1M tokens
 
-#### Context and Limits
-The model has the following context and limits:
-* Context Window: 1,000,000 tokens
-* Max Output: 65,536 tokens
-* Knowledge Cutoff: 2023-12
+#### Performance and Capabilities
+The model boasts:
+* A context window of 1,000,000 tokens
+* A maximum output of 65,536 tokens
+* A knowledge cutoff of 2023-12
+* Support for text, function calling, JSON mode, streaming, and structured outputs
+* Benchmarks:
+	+ MMLU: 87.0
+	+ LMSYS Arena ELO: 1270
 
-#### Benchmarks
-The model's performance is measured by the following benchmarks:
-* MMLU: 87.0
-* LMSYS Arena ELO: 1270
+#### Best Use Cases
+The Qwen: Qwen3.6 Plus is best suited for:
+* Chat
+* Text generation
+* Coding
+* Analysis
+* RAG pipelines
+* Summarization
 
 #### Cost Examples
-The estimated costs for using Qwen: Qwen3.6 Plus are:
+To illustrate the costs associated with using the Qwen: Qwen3.6 Plus, consider the following examples:
 * 1,000 calls (avg 500 tokens): $1.1375
 * 10,000 calls: $11.375
 * 100,000 calls: $113.75
 
 #### Comparison to Top Competitors
-Since there are no direct competitors listed for Qwen: Qwen3.6 Plus, a direct comparison cannot be made. However, when choosing a model, consider the following factors:
-* **Price**: Qwen: Qwen3.6 Plus has a input price of $0.325 per 1M tokens and an output price of $1.95 per 1M tokens.
-* **Performance**: The model's MMLU score is 87.0, and its LMSYS Arena ELO score is 1270.
-* **Capabilities**: Qwen: Qwen3.6 Plus supports text, function calling, JSON mode, streaming, and structured outputs, making it suitable for a wide range of applications.
-* **Context and Limits**: The model's context window is 1,000,000 tokens, and its max output is 65,536 tokens
+Unfortunately, no direct competitors are listed for the Qwen: Qwen3.6 Plus. However, when evaluating alternative models, consider the following factors:
+* Pricing structure: Compare the input and output costs, as well as any additional fees for cached or batch inputs.
+* Performance: Evaluate the benchmarks, such as MMLU and LMSYS Arena ELO, to determine which model best suits your specific use case.
+* Capabilities: Assess the supported features, including text, function calling, JSON mode, streaming, and structured outputs.
+* Context window and maximum output: Ensure the model can handle your required input and output sizes.
+
+#### Choosing the Right Model
+When deciding between the Qwen: Qwen3
 
 ## Best Use Cases
-### Practical Advice on Top 5 Best Use Cases for Qwen: Qwen3.6 Plus
-The Qwen: Qwen3.6 Plus model, released by Qwen on 2024-01-01, is a standard, non-open-source model with a context window of 1,000,000 tokens and a maximum output of 65,536 tokens. Given its capabilities and benchmarks, here are the top 5 best use cases for this model, along with specific code integration examples mentioning OpenRouter:
+### Introduction to Qwen: Qwen3.6 Plus
+The Qwen: Qwen3.6 Plus model, released by Qwen on 2024-01-01, is a standard, non-open-source model with a unique set of capabilities and pricing structure. This guide will outline the top 5 best use cases for Qwen: Qwen3.6 Plus, along with code integration examples using OpenRouter.
 
-#### 1. **Chat and Text Generation**
-Qwen: Qwen3.6 Plus excels in chat and text generation tasks, making it suitable for conversational AI applications. To integrate this model with OpenRouter for chat purposes, you can use the following code example:
+### Top 5 Use Cases for Qwen: Qwen3.6 Plus
+Based on the model's capabilities, the following are the top 5 use cases for Qwen: Qwen3.6 Plus:
+
+1. **Chat and Text Generation**: With its high MMLU benchmark score of 87.0, Qwen: Qwen3.6 Plus is well-suited for chat and text generation applications.
+2. **Coding and Analysis**: The model's ability to perform function calling and structured outputs makes it a good fit for coding and analysis tasks.
+3. **Summarization**: Qwen: Qwen3.6 Plus can be used for summarization tasks, taking advantage of its high context window of 1,000,000 tokens.
+4. **RAG Pipelines**: The model's support for json_mode and streaming capabilities makes it suitable for RAG (Retrieve, Augment, Generate) pipelines.
+5. **Text Analysis**: With its high LMSYS Arena ELO score of 1270, Qwen: Qwen3.6 Plus can be used for text analysis tasks, such as sentiment analysis and entity recognition.
+
+### Code Integration Examples with OpenRouter
+To integrate Qwen: Qwen3.6 Plus with OpenRouter, you can use the following code examples:
+
 ```python
 import openrouter
 
-# Initialize OpenRouter with Qwen: Qwen3.6 Plus
-router = openrouter.Router(model="qwen/qwen3.6-plus")
+# Initialize the Qwen: Qwen3.6 Plus model
+model = openrouter.QwenQwen36Plus()
 
-# Define a chat function
-def chat(input_text):
-    response = router.generate_text(input_text)
-    return response
-
-# Test the chat function
-print(chat("Hello, how are you?"))
-```
-#### 2. **Coding and Analysis**
-With its function_calling and structured_outputs capabilities, Qwen: Qwen3.6 Plus is well-suited for coding and analysis tasks. For example, you can use it to analyze code snippets and provide feedback:
-```python
-import openrouter
-
-# Initialize OpenRouter with Qwen: Qwen3.6 Plus
-router = openrouter.Router(model="qwen/qwen3.6-plus")
-
-# Define a code analysis function
-def analyze_code(code_snippet):
-    response = router.call_function("analyze_code", code_snippet)
-    return response
-
-# Test the code analysis function
-print(analyze_code("def hello_world(): print('Hello, World!')"))
-```
-#### 3. **Summarization**
-
+# Example 1: Text Generation
+input_text = "Generate a short
 
 ## Frequently Asked Questions
 

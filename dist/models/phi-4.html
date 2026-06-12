@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://llmcosts.dev/models/phi-4">
 
   <!-- Schema.org: Dataset -->
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Phi-4 API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Phi-4 by Microsoft.", "url": "https://llmcosts.dev/models/phi-4", "keywords": ["Phi-4", "Microsoft", "open-source", "self-hostable", "edge", "coding", "math", "budget"], "dateModified": "2026-06-11", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Phi-4 API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Phi-4 by Microsoft.", "url": "https://llmcosts.dev/models/phi-4", "keywords": ["Phi-4", "Microsoft", "open-source", "self-hostable", "edge", "coding", "math", "budget"], "dateModified": "2026-06-12", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
   <!-- Schema.org: FAQ -->
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
 
@@ -346,13 +346,13 @@
       <div class="card content-section">
         <div class="card-title">Overview</div>
         <div>### Introduction to Phi-4
-The Phi-4 model, developed by Microsoft and released on 2024-12-12, is a budget-friendly, open-source language model designed for a wide range of applications. With its architecture optimized for cost-effectiveness and performance, Phi-4 is an attractive choice for developers seeking to integrate AI capabilities into their projects without incurring excessive costs. The model's pricing structure is straightforward, with input and output costs set at $0.07 per 1M tokens and $0.14 per 1M tokens, respectively.
+The Phi-4 model, developed by Microsoft, is a budget-friendly and open-source language model released on December 12, 2024. Its architecture is designed to provide a cost-effective solution for various natural language processing tasks, making it an attractive option for developers who require a balance between performance and affordability. With a context window of 16,384 tokens and a maximum output of 4,096 tokens, Phi-4 is capable of handling a wide range of applications, from coding and math to reasoning tasks.
 
-### Technical Capabilities and Use Cases
-Phi-4 boasts an impressive set of capabilities, including text processing, function calling, streaming, and system prompts. Its strengths are particularly evident in coding, math, and reasoning tasks, making it an ideal choice for edge deployment and cost-effective reasoning applications. The model's performance is backed by solid benchmark scores, including 80.0 on MMLU, 82.6 on HumanEval, 1200 on LMSYS Arena ELO, and 91.8 on GSM8K. However, Phi-4 is not suited for tasks that require vision, long context, high volume, frontier reasoning, or the latest knowledge. Its context window is limited to 16,384 tokens, and the maximum output is capped at 4,096 tokens, with a knowledge cutoff date of 2024-06.
+### Strengths and Use-Cases
+Phi-4's main strengths lie in its capabilities, which include text processing, function calling, streaming, and system prompts. It is best suited for tasks such as coding, math, and reasoning tasks, particularly in edge deployment scenarios where cost-effective reasoning is crucial. The model's pricing structure, with input costs at $0.07 per 1M tokens and output costs at $0.14 per 1M tokens, makes it a competitive option in the market. For example, 1,000 calls with an average of 500 tokens would cost $0.105, while 10,000 calls would cost $1.05. Phi-4's benchmarks, including an MMLU score of 80.0, HumanEval score of 82.6, and LMSYS Arena ELO of 1200, demonstrate its capabilities in various areas.
 
-### Pricing and Competitiveness
-Phi-4's pricing is competitive, with cost examples indicating that 1,000 calls (avg 500 tokens) would cost $0.105, while 10,000 calls and 100,000 calls would cost $1.05 and $10.5, respectively. In comparison to its top competitors, such as Llama 3.2 3B Instruct and Llama 3.1 8B Instruct, Phi-4's pricing is on par, with input and output costs</div>
+### Comparison and Limitations
+While Phi-4 is a strong contender in the budget segment, its limitations include a knowledge cutoff of June 2024, which may not be suitable for applications requiring the latest knowledge. Additionally, it is not recommended for tasks involving vision, long context, high volume, or frontier reasoning. In comparison to its top competitors, such as Llama 3.2 3B Instruct and Llama 3.1 8B Instruct, Phi-4's pricing is competitive,</div>
       </div>
 
       <!-- PRICING -->
@@ -393,7 +393,7 @@ Phi-4's pricing is competitive, with cost examples indicating that 1,000 calls (
 
         <div style="margin-top:1.5rem">### Phi-4 Pricing Analysis
 #### Overview
-The Phi-4 model, released by Microsoft on 2024-12-12, is a budget-friendly, open-source option with a unique cost structure. This analysis will delve into the pricing details, including when to utilize cached tokens, batch API savings, and the cost at scale.
+The Phi-4 model, released by Microsoft on 2024-12-12, is a budget-friendly, open-source option with a unique cost structure. This analysis will delve into the pricing details, including the cost structure, the benefits of using cached tokens, batch API savings, and the cost at scale.
 
 #### Cost Structure
 The Phi-4 model has the following pricing structure:
@@ -404,26 +404,21 @@ The Phi-4 model has the following pricing structure:
 
 This structure indicates that using cached input and batch input can significantly reduce costs.
 
-#### When to Use Cached Tokens
-Cached tokens are free, making them an attractive option for repeated input sequences. If your application involves frequent reuse of input tokens, utilizing cached tokens can lead to substantial cost savings.
-
-#### Batch API Savings
-Similar to cached input, batch input is also free. When making multiple API calls with the same input, batching them together can eliminate input costs. However, output costs will still apply.
+#### Cached Tokens and Batch API Savings
+Cached input and batch input are free, which means that if you can utilize these features, you can save substantially on your costs. This is particularly beneficial for applications where the same input is used multiple times or where you can batch your API calls.
 
 #### Cost at Scale
-To illustrate the cost at scale, let's examine the provided cost examples:
+To understand the cost implications at scale, let's examine the provided cost examples:
 * 1,000 calls (avg 500 tokens): $0.105
 * 10,000 calls: $1.05
 * 100,000 calls: $10.5
 
-These examples demonstrate a linear increase in cost with the number of API calls.
+These examples demonstrate a linear cost increase with the number of API calls, indicating that the cost per call remains constant.
 
-#### Comparison to Competitors
-The Phi-4 model's pricing is competitive with other models in the market:
+#### Comparison with Top Competitors
+The Phi-4 model's pricing is competitive with top competitors like Llama 3.2 3B Instruct and Llama 3.1 8B Instruct:
 * Llama 3.2 3B Instruct: $0.06/1M input, $0.06/1M output
-* Llama 3.1 8B Instruct: $0.07/1M input, $0.07/1M output
-
-</div>
+* Llama 3.1 8B Instruct: $0.07/1M input,</div>
       </div>
 
       <!-- BENCHMARKS -->
@@ -436,17 +431,17 @@ The Phi-4 model's pricing is competitive with other models in the market:
         </div>
         <div>### Phi-4 Model Analysis
 #### Overview
-The Phi-4 model, released by Microsoft on 2024-12-12, is a budget-friendly, open-source option with a unique set of capabilities and limitations. This analysis will delve into the model's benchmark performance, focusing on the MMLU, HumanEval, and Arena ELO scores, to understand its real-world applications.
+The Phi-4 model, released by Microsoft on 2024-12-12, is a budget-friendly, open-source option with a unique set of capabilities and limitations. This analysis will delve into the benchmark performance of Phi-4, exploring what the MMLU, HumanEval, and Arena ELO scores mean for real-world use.
 
 #### Benchmark Performance
-The Phi-4 model has achieved the following benchmark scores:
+The Phi-4 model boasts the following benchmark scores:
 * **MMLU: 80.0** - The MMLU (Massive Multitask Language Understanding) benchmark evaluates a model's ability to perform a wide range of natural language processing tasks. A score of 80.0 indicates that Phi-4 has a strong foundation in language understanding, making it suitable for tasks like coding, math, and reasoning tasks.
-* **HumanEval: 82.6** - The HumanEval benchmark assesses a model's ability to evaluate and execute Python code. With a score of 82.6, Phi-4 demonstrates a high level of proficiency in coding tasks, making it a viable option for applications that require code generation and execution.
-* **LMSYS Arena ELO: 1200** - The LMSYS Arena ELO score measures a model's performance in a competitive environment, where it is pitted against other models. An ELO score of 1200 indicates that Phi-4 is a mid-tier model, capable of holding its own in a variety of tasks, but may struggle against more advanced models.
+* **HumanEval: 82.6** - The HumanEval benchmark assesses a model's ability to evaluate and execute code. With a score of 82.6, Phi-4 demonstrates a high level of proficiency in coding tasks, making it an excellent choice for applications that require code generation or execution.
+* **LMSYS Arena ELO: 1200** - The LMSYS Arena ELO benchmark measures a model's overall language understanding and reasoning capabilities. An ELO score of 1200 indicates that Phi-4 has a moderate level of expertise, making it suitable for a wide range of applications, but potentially struggling with highly complex or nuanced tasks.
 
 #### Real-World Implications
 The benchmark scores suggest that Phi-4 is well-suited for:
-* **Coding tasks**: With high scores in HumanEval and MMLU</div>
+* **Coding tasks**: With a high HumanEval score, Phi-4 is an excellent choice for applications that require</div>
       </div>
 
       <!-- COMPETITOR TABLE -->
@@ -482,9 +477,9 @@ The benchmark scores suggest that Phi-4 is well-suited for:
             </tbody>
           </table>
         </div>
-        <div style="margin-top:1.5rem">### Phi-4 Model Comparison
+        <div style="margin-top:1.5rem">### Comparison of Phi-4 against Top Competitors
 #### Overview
-The Phi-4 model, released by Microsoft on 2024-12-12, is a budget-friendly, open-source option for various tasks, including coding, math, and reasoning tasks. This comparison will delve into the price differences, performance trade-offs, and use cases for Phi-4 against its top competitors, Llama 3.2 3B Instruct and Llama 3.1 8B Instruct.
+Phi-4, a budget-friendly model by Microsoft, is an open-source option with a release date of 2024-12-12. This comparison will delve into the pricing, performance, and use cases of Phi-4 against its top competitors, Llama 3.2 3B Instruct and Llama 3.1 8B Instruct.
 
 #### Pricing Comparison
 The pricing for each model is as follows:
@@ -498,62 +493,64 @@ The pricing for each model is as follows:
 	+ Input: $0.07 per 1M tokens
 	+ Output: $0.07 per 1M tokens
 
-#### Performance Trade-Offs
-The performance of each model can be evaluated using various benchmarks:
+Phi-4 is priced competitively with its competitors for input tokens, but its output token price is higher. Llama 3.2 3B Instruct offers the most cost-effective option for both input and output tokens.
+
+#### Performance Trade-offs
+The performance of each model can be evaluated based on the provided benchmarks:
 * Phi-4:
 	+ MMLU: 80.0
 	+ HumanEval: 82.6
 	+ LMSYS Arena ELO: 1200
 	+ GSM8K: 91.8
-* Llama 3.2 3B Instruct and Llama 3.1 8B Instruct benchmarks are not provided, but their pricing suggests they may offer similar or better performance.
+* Llama 3.2 3B Instruct and Llama 3.1 8B Instruct benchmarks are not provided, making a direct comparison challenging.
 
-#### Context and Limits
-The context window and maximum output for Phi-4 are:
-* Context Window: 16,384 tokens
-* Max Output: 4,096 tokens
-* Knowledge Cutoff: 2024-06
+However, based on the capabilities and best use cases, Phi-4 excels in:
+* Coding
+* Math
+* Reasoning tasks
+* Edge deployment
+* Cost-effective reasoning
 
-#### Capabilities and Use Cases
-Phi-4 is suitable for:
-* Text
-* Function calling
-* Streaming
-* System prompts
-* Best for: coding, math, reasoning tasks, edge deployment, cost-effective reasoning
-* Not good for: vision, long context, high volume, frontier reasoning, latest knowledge
+While it is not suitable for:
+* Vision
+* Long context
+* High volume
+* Frontier reasoning
+* Latest knowledge
 
-#### Cost Examples
-The cost of using Phi-4 can be estimated as follows:
-* 1,000 calls (avg 500 tokens): $0.105
-* 10,000 calls: $1.05
-* 100,000</div>
+#### Choosing the Right Model
+When deciding between Phi-4 and its competitors, consider the following:
+* **Cost-sensitive applications**: Llama 3.2 3B Instruct may be the most cost-effective option due to its lower input and output token prices.
+* **Coding and math tasks**: Phi-4 is a strong contender due</div>
       </div>
 
       <!-- USE CASES -->
       <div class="card content-section">
         <div class="card-title">Best Use Cases</div>
         <div>### Introduction to Phi-4
-The Phi-4 model, released by Microsoft on 2024-12-12, is a budget-friendly and open-source language model. With its impressive benchmarks, including an MMLU score of 80.0 and a HumanEval score of 82.6, Phi-4 is well-suited for various applications, particularly those that require coding, math, and reasoning tasks.
+The Phi-4 model, released by Microsoft on 2024-12-12, is a budget-friendly, open-source language model. With its impressive benchmarks, including an MMLU score of 80.0 and a HumanEval score of 82.6, Phi-4 is well-suited for various applications, particularly those that require coding, math, and reasoning tasks.
 
 ### Top 5 Best Use Cases for Phi-4
-Based on its capabilities and limitations, the top 5 best use cases for Phi-4 are:
+Given its capabilities and limitations, here are the top 5 best use cases for Phi-4:
 
-1. **Coding Assistance**: Phi-4's strong performance in coding tasks makes it an excellent choice for coding assistance tools. Its ability to understand and generate code can help developers with tasks such as code completion, code review, and bug fixing.
-2. **Mathematical Reasoning**: With its high score in math-related benchmarks, Phi-4 is well-suited for mathematical reasoning tasks, such as solving mathematical problems, generating mathematical proofs, and providing step-by-step solutions.
-3. **Edge Deployment**: Phi-4's cost-effectiveness and ability to handle streaming data make it an ideal choice for edge deployment scenarios, where real-time processing and low latency are crucial.
-4. **Reasoning Tasks**: Phi-4's strong performance in reasoning tasks, such as GSM8K, makes it suitable for applications that require logical and analytical thinking, such as decision-making systems and expert systems.
-5. **Cost-Effective Reasoning**: Phi-4's budget-friendly pricing and high performance in reasoning tasks make it an attractive choice for applications that require cost-effective reasoning, such as chatbots, virtual assistants, and customer service systems.
+1. **Coding Assistance**: Phi-4 excels in coding tasks, making it an ideal choice for developers who need help with code completion, debugging, or optimization. Its ability to understand and generate code in various programming languages is unparalleled.
+2. **Mathematical Reasoning**: With its strong math capabilities, Phi-4 can be used to solve complex mathematical problems, such as algebra, geometry, and calculus. Its reasoning tasks capabilities make it an excellent choice for students, teachers, and researchers.
+3. **Edge Deployment**: Phi-4's cost-effectiveness and ability to run on edge devices make it an attractive choice for applications that require real-time processing, such as IoT devices, robotics, or autonomous vehicles.
+4. **Reasoning Tasks**: Phi-4's strong reasoning capabilities make it well-suited for tasks that require logical reasoning, such as decision-making, problem-solving, or critical thinking.
+5. **Cost-Effective Reasoning**: Phi-4's budget-friendly pricing makes it an excellent choice for applications that require reasoning tasks but have limited budgets.
 
 ### Code Integration Examples with OpenRouter
 To integrate Phi-4 with OpenRouter, you can use the following code examples:
+
 ```python
 import openrouter
-from microsoft.phi4 import Phi4
 
-# Initialize Phi-4 model
-phi4 = Phi4()
+# Initialize the Phi-4 model
+model = openrouter.load_model("microsoft/phi-4")
 
-# Define a</div>
+# Define a function to generate code
+def generate_code(prompt):
+   </div>
       </div>
 
       <!-- CAPABILITIES -->

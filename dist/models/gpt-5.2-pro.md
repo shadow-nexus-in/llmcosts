@@ -1,6 +1,6 @@
 # OpenAI: GPT-5.2 Pro API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-11
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-12
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
