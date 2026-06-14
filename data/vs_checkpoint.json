@@ -114,6 +114,7 @@
     "anthropic-claude-opus-4.8-fast-vs-mistral-large-2407",
     "anthropic-claude-fable-5-vs-o3",
     "anthropic-claude-fable-5-vs-claude-opus-4",
-    "anthropic-claude-fable-5-vs-gemini-2-5-pro"
+    "anthropic-claude-fable-5-vs-gemini-2-5-pro",
+    "anthropic-claude-fable-5-vs-claude-sonnet-4"
   ]
 }
