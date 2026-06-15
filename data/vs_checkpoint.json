@@ -115,6 +115,8 @@
     "anthropic-claude-fable-5-vs-o3",
     "anthropic-claude-fable-5-vs-claude-opus-4",
     "anthropic-claude-fable-5-vs-gemini-2-5-pro",
-    "anthropic-claude-fable-5-vs-claude-sonnet-4"
+    "anthropic-claude-fable-5-vs-claude-sonnet-4",
+    "anthropic-claude-fable-5-vs-o1",
+    "anthropic-claude-fable-5-vs-gpt-4-1"
   ]
 }
