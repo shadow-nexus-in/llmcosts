@@ -1,6 +1,6 @@
 # IBM: Granite 4.0 Micro API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-15
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-16
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview

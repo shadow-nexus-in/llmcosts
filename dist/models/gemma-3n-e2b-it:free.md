@@ -1,6 +1,6 @@
 # Google: Gemma 3n 2B (free) API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-15
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-16
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
