@@ -120,6 +120,7 @@
     "anthropic-claude-fable-5-vs-gpt-4-1",
     "anthropic-claude-fable-5-vs-gpt-4o",
     "anthropic-claude-fable-5-vs-mistral-large-2407",
-    "anthropic-claude-fable-5-vs-command-a"
+    "anthropic-claude-fable-5-vs-command-a",
+    "anthropic-claude-fable-5-vs-qwen-qwen3.7-plus"
   ]
 }
