@@ -1,6 +1,6 @@
 # LLMCosts.dev — Cohere Models Pricing
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-06-17
+> Updated: 2026-06-18
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -21,3 +21,4 @@ License: CC BY 4.0
 | [Cohere: Command R7B (12-2024)](https://llmcosts.dev/models/cohere-command-r7b-12-2024) | Cohere | $0.0375 | $0.15 | $None | 128,000 | None | premium | Closed |
 | [Cohere: Command R+ (08-2024)](https://llmcosts.dev/models/cohere-command-r-plus-08-2024) | Cohere | $2.5 | $10.0 | $None | 128,000 | None | premium | Closed |
 | [Cohere: Command R (08-2024)](https://llmcosts.dev/models/cohere-command-r-08-2024) | Cohere | $0.15 | $0.6 | $None | 128,000 | None | premium | Closed |
+| [Cohere: North Mini Code (free)](https://llmcosts.dev/models/cohere-north-mini-code:free) | Cohere | $0.0 | $0.0 | $None | 256,000 | None | standard | Closed |

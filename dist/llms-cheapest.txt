@@ -1,6 +1,6 @@
 # LLMCosts.dev — Cheapest LLM APIs (Under $0.20/1M Tokens)
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-06-17
+> Updated: 2026-06-18
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -42,6 +42,7 @@ License: CC BY 4.0
 | [Google: Gemma 4 26B A4B  (free)](https://llmcosts.dev/models/google-gemma-4-26b-a4b-it:free) | Google | $0.0 | $0.0 | $None | 262,144 | None | premium | Closed |
 | [Google: Gemma 4 31B (free)](https://llmcosts.dev/models/google-gemma-4-31b-it:free) | Google | $0.0 | $0.0 | $None | 262,144 | None | premium | Closed |
 | [DeepSeek: DeepSeek V4 Flash (free)](https://llmcosts.dev/models/deepseek-deepseek-v4-flash:free) | Deepseek | $0.0 | $0.0 | $None | 256,000 | None | standard | Closed |
+| [Cohere: North Mini Code (free)](https://llmcosts.dev/models/cohere-north-mini-code:free) | Cohere | $0.0 | $0.0 | $None | 256,000 | None | standard | Closed |
 | [Llama 3.2 1B Instruct](https://llmcosts.dev/models/llama-3-2-1b-instruct) | Meta | $0.01 | $0.01 | $None | 131,072 | 1270 | budget | Open |
 | [IBM: Granite 4.0 Micro](https://llmcosts.dev/models/granite-4.0-h-micro) | Ibm-granite | $0.017 | $0.11 | $None | 131,000 | 1200 | standard | Closed |
 | [Google: Gemma 3n 4B](https://llmcosts.dev/models/gemma-3n-e4b-it) | Google | $0.02 | $0.04 | $None | 32,768 | 1200 | standard | Closed |

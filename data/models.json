@@ -1,7 +1,7 @@
 {
   "version": "6.0",
-  "updated_at": "2026-06-10T03:58:21Z",
-  "total_models": 339,
+  "updated_at": "2026-06-18T04:13:32Z",
+  "total_models": 342,
   "schema_version": "v5",
   "description": "LLMCosts.dev — Open LLM Pricing Registry. Single source of truth for LLM pricing, benchmarks, and performance data. Updated daily by automated pipeline.",
   "data_sources": [
@@ -34120,6 +34120,206 @@
         "enterprise"
       ],
       "tier": "premium",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "google/gemini-3.1-flash-image",
+      "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image)",
+      "slug": "google-gemini-3.1-flash-image",
+      "provider": "google",
+      "provider_name": "Google",
+      "version": "",
+      "release_date": "2026-06-18",
+      "pricing": {
+        "input_per_1m": 0.5,
+        "output_per_1m": 3.0,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 131072,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "vision",
+        "editing",
+        "generation"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "Image Generation",
+        "Professional Editing",
+        "Visual Content Creation"
+      ],
+      "not_good_for": [
+        "Text-based Applications",
+        "Coding Tasks"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-06-18",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "state-of-the-art",
+        "fast",
+        "pro-level"
+      ],
+      "tier": "standard",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "google/gemini-3-pro-image",
+      "name": "Google: Nano Banana Pro (Gemini 3 Pro Image)",
+      "slug": "google-gemini-3-pro-image",
+      "provider": "google",
+      "provider_name": "Google",
+      "version": "",
+      "release_date": "2026-06-18",
+      "pricing": {
+        "input_per_1m": 2.0,
+        "output_per_1m": 12.0,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 65536,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text",
+        "vision",
+        "editing"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "Image Generation",
+        "Image Editing",
+        "Multimodal Reasoning"
+      ],
+      "not_good_for": [
+        "Simple Text-based Tasks",
+        "Resource-constrained Environments"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-06-18",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "frontier",
+        "advanced",
+        "multimodal"
+      ],
+      "tier": "premium",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "cohere/north-mini-code:free",
+      "name": "Cohere: North Mini Code (free)",
+      "slug": "cohere-north-mini-code:free",
+      "provider": "cohere",
+      "provider_name": "Cohere",
+      "version": "",
+      "release_date": "2026-06-18",
+      "pricing": {
+        "input_per_1m": 0.0,
+        "output_per_1m": 0.0,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 256000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text",
+        "coding"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "Code generation",
+        "Code completion",
+        "Code optimization"
+      ],
+      "not_good_for": [
+        "Vision tasks",
+        "Multimodal understanding"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-06-18",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "frontier",
+        "sparse",
+        "mixture-of-experts"
+      ],
+      "tier": "standard",
       "open_source": false,
       "self_hostable": false
     }
