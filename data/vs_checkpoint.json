@@ -123,6 +123,7 @@
     "anthropic-claude-fable-5-vs-command-a",
     "anthropic-claude-fable-5-vs-qwen-qwen3.7-plus",
     "anthropic-claude-fable-5-vs-google-gemini-3-pro-image",
-    "anthropic-claude-fable-5-vs-google-gemini-3.1-flash-image"
+    "anthropic-claude-fable-5-vs-google-gemini-3.1-flash-image",
+    "anthropic-claude-fable-5-vs-cohere-north-mini-code:free"
   ]
 }
