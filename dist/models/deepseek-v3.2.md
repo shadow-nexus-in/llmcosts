@@ -1,6 +1,6 @@
 # DeepSeek: DeepSeek V3.2 API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-20
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-21
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
@@ -41,5 +41,5 @@ A: It is provided by Deepseek.
 
 
 ---
-*Data verified: 2026-04-18 | Confidence: high*
+*Data verified: 2026-04-18 | Confidence: medium*
 *[Get API Access via OpenRouter](https://openrouter.ai/?ref=llmcosts)*

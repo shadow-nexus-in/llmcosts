@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://llmcosts.dev/models/command-a">
 
   <!-- Schema.org: Dataset -->
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Command A API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Command A by Cohere.", "url": "https://llmcosts.dev/models/command-a", "keywords": ["Command A", "Cohere", "enterprise", "rag", "long-context", "agents", "cohere"], "dateModified": "2026-06-20", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Command A API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Command A by Cohere.", "url": "https://llmcosts.dev/models/command-a", "keywords": ["Command A", "Cohere", "enterprise", "rag", "long-context", "agents", "cohere"], "dateModified": "2026-06-21", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
   <!-- Schema.org: FAQ -->
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
 
@@ -346,13 +346,13 @@
       <div class="card content-section">
         <div class="card-title">Overview</div>
         <div>### Introduction to Command A
-Command A, developed by Cohere, is a premium language model released on 2025-03-13. This model is not open source, indicating that its internal workings and training data are proprietary. The architecture of Command A is designed to handle complex tasks, with a context window of 256,000 tokens and a maximum output of 8,000 tokens. This suggests that Command A is well-suited for tasks that require understanding and generating long pieces of text.
+Command A, developed by Cohere, is a premium language model released on 2025-03-13. This model is not open-source, indicating that its internal workings and training data are proprietary. The architecture of Command A is designed to handle complex tasks, including text processing, function calling, and JSON mode, making it a versatile tool for developers. Its capabilities include streaming, system prompts, and RAG native, allowing for advanced use cases such as enterprise RAG, agents, coding, analysis, and long context understanding.
 
-### Strengths and Use Cases
-Command A's main strengths lie in its ability to handle tasks that require advanced language understanding, function calling, and analysis. Its capabilities include text processing, function calling, JSON mode, streaming, system prompts, and RAG native. As a result, Command A is best suited for applications such as enterprise RAG, agents, coding, analysis, and tasks that require long context and function calling. The model's performance is backed by strong benchmark results, including an MMLU score of 81.5, HumanEval score of 80.0, LMSYS Arena ELO of 1220, and GSM8K score of 88.0. However, Command A is not suitable for tasks such as vision, embeddings, simple classification, or bulk cheap tasks.
+### Technical Strengths and Limitations
+The technical strengths of Command A are evident in its benchmark scores: MMLU (81.5), HumanEval (80.0), LMSYS Arena ELO (1220), and GSM8K (88.0). These scores demonstrate the model's ability to understand and generate human-like text, perform mathematical reasoning, and solve complex problems. However, Command A has limitations, including a context window of 256,000 tokens, a maximum output of 8,000 tokens, and a knowledge cutoff of 2024-06. Additionally, it is not suitable for tasks such as vision, embeddings, simple classification, or bulk cheap tasks. The pricing model for Command A is based on input and output tokens, with costs of $2.5 per 1M input tokens and $10.0 per 1M output tokens.
 
-### Pricing and Cost Examples
-The pricing for Command A is as follows: $2.5 per 1M input tokens and $10.0 per 1M output tokens. There are no additional costs for cached input or batch input. To illustrate the cost of using Command A, consider the following examples: 1,000 calls with an average of 500 tokens per call would cost $6.25, while 10,000 calls would cost $62.5, and 100,000 calls would cost $625.0. Compared to its top competitor, GPT-4o, Command A has the same pricing structure, with $2.5 per</div>
+### Use Cases and Cost Considerations
+Command A is best suited for enterprise RAG, agents, coding, analysis, and long context tasks, where its advanced capabilities can be fully utilized. Developers can expect to pay $6.25 for 1,000 calls with an average of 500 tokens, $62.5 for 10,000 calls, and $625.0 for 100,000 calls. In comparison to its top competitor, GPT-4o, Command A has the same pricing structure for input and output</div>
       </div>
 
       <!-- PRICING -->
@@ -393,31 +393,38 @@ The pricing for Command A is as follows: $2.5 per 1M input tokens and $10.0 per 
 
         <div style="margin-top:1.5rem">### Command A Pricing Analysis
 #### Overview
-Command A, a premium model provided by Cohere, offers a robust set of capabilities including text, function calling, JSON mode, streaming, system prompts, and RAG native. This analysis will delve into the cost structure, optimal usage scenarios, and provide a detailed breakdown of costs at scale.
+Command A, a premium model provided by Cohere, offers a range of capabilities including text, function calling, and streaming. With a release date of 2025-03-13, it is a relatively new model in the market. This analysis will delve into the cost structure, usage scenarios, and cost at scale for Command A.
 
 #### Cost Structure
-The pricing for Command A is as follows:
-- **Input**: $2.5 per 1M tokens
-- **Output**: $10.0 per 1M tokens
-- **Cached Input**: $None per 1M tokens (free)
-- **Batch Input**: $None per 1M tokens (free)
+The cost structure for Command A is as follows:
+* **Input**: $2.5 per 1M tokens
+* **Output**: $10.0 per 1M tokens
+* **Cached Input**: $0 per 1M tokens (free)
+* **Batch Input**: $0 per 1M tokens (free)
 
-This structure indicates that input and output tokens are the primary cost drivers. However, utilizing cached input and batch input can significantly reduce costs, as they are provided at no additional charge.
+#### When to Use Cached Tokens
+Cached tokens are free, making them an attractive option for reducing costs. Use cached tokens when:
+* The input data is repetitive or has a high degree of similarity.
+* The model is being used for tasks that require minimal input variation.
 
-#### Optimal Usage Scenarios
-- **Cached Tokens**: When possible, leveraging cached input tokens can eliminate associated costs. This is particularly beneficial for applications where the same input data is reused.
-- **Batch API Savings**: Although the pricing does not specify a direct discount for batch inputs, the fact that batch inputs are free suggests that Cohere encourages batch processing to reduce the overhead of individual API calls. This can lead to significant savings in terms of operational efficiency and reduced costs associated with API call management.
+#### Batch API Savings
+Batch input is also free, which can lead to significant cost savings when making multiple API calls. To maximize batch API savings:
+* Batch similar requests together to minimize the number of API calls.
+* Use batch input for tasks that require processing large amounts of data.
 
 #### Cost at Scale
-To understand the cost implications of using Command A at scale, let's examine the provided cost examples:
-- **1,000 calls (avg 500 tokens)**: $6.25
-- **10,000 calls**: $62.5
-- **100,000 calls**: $625.0
+The cost of using Command A at scale is as follows:
+* **1,000 calls (avg 500 tokens)**: $6.25
+* **10,000 calls**: $62.5
+* **100,000 calls**: $625.0
 
-These examples illustrate a linear scaling of costs with the number of API calls. For applications requiring a large volume of API calls, it's essential to consider these costs and potentially explore optimizations such as caching and batching to minimize expenses.
+These costs are based on the average number of tokens per call and can vary depending on the specific use case.
 
-#### Comparison with Competitors
-Command A's pricing is directly comparable</div>
+#### Comparison to Top Competitors
+Command A's pricing is comparable to its top competitor, GPT-4o, which also charges $2.5/1M input and $10.0/1M output.
+
+#### Conclusion
+Command A offers a range of capabilities and a competitive pricing</div>
       </div>
 
       <!-- BENCHMARKS -->
@@ -429,19 +436,21 @@ Command A's pricing is directly comparable</div>
           <div class="stat-cell"><div class="stat-label">LMSYS ELO</div><div class="stat-value">1220</div></div>
         </div>
         <div>### Analysis of Command A Benchmark Performance
-#### Introduction
-Command A, a premium model provided by Cohere, boasts impressive benchmark scores. This analysis will delve into the meaning of its MMLU, HumanEval, and Arena ELO scores, and their implications for real-world use.
+#### Overview
+Command A, a premium model provided by Cohere, demonstrates strong performance across various benchmarks. Released on 2025-03-13, this model is well-suited for enterprise applications, coding, analysis, and tasks requiring long context and function calling capabilities.
 
 #### Benchmark Scores
-The benchmark scores for Command A are as follows:
-* **MMLU: 81.5** - The MMLU (Massive Multitask Language Understanding) benchmark evaluates a model's ability to perform a wide range of natural language processing tasks. A score of 81.5 indicates that Command A has a high level of language understanding, making it suitable for complex tasks such as text analysis and coding.
-* **HumanEval: 80.0** - The HumanEval benchmark assesses a model's ability to evaluate and execute code. A score of 80.0 suggests that Command A has a strong capability for function calling and coding tasks, making it a good fit for applications that require automated code evaluation and execution.
-* **LMSYS Arena ELO: 1220** - The LMSYS Arena ELO benchmark measures a model's overall performance in a competitive setting. An ELO score of 1220 indicates that Command A has a high level of overall performance, surpassing many other models in the arena.
+The model's performance is measured through the following benchmarks:
+* **MMLU (Massive Multitask Language Understanding)**: A score of 81.5 indicates Command A's ability to understand and process a wide range of language tasks, showcasing its versatility and language comprehension capabilities.
+* **HumanEval**: With a score of 80.0, Command A demonstrates its ability to evaluate and execute human-written code, highlighting its coding and programming capabilities.
+* **LMSYS Arena ELO**: An ELO score of 1220 suggests that Command A performs well in competitive coding and problem-solving tasks, ranking it among the top models in this category.
+* **GSM8K**: A score of 88.0 on the GSM8K benchmark indicates Command A's proficiency in solving math problems, further solidifying its analytical capabilities.
 
 #### Real-World Implications
-The benchmark scores of Command A have significant implications for real-world use:
-* **Text analysis and coding**: With high MMLU and HumanEval scores, Command A is well-suited for tasks that require complex text analysis and automated code evaluation and execution.
-* **Enterprise applications**: Command A's high overall performance (LMSYS Arena ELO score) and</div>
+These benchmark scores have significant implications for real-world use cases:
+* **Coding and Development**: Command A's high HumanEval score makes it an ideal choice for coding tasks, such as code completion, code review, and bug fixing.
+* **Analysis and Problem-Solving**: The model's strong performance on the GSM8K benchmark and its high MMLU score demonstrate its ability to analyze complex problems and provide accurate solutions.
+* **Enterprise Applications**: With its premium tier and strong benchmark performance, Command A is well-suited for enterprise applications</div>
       </div>
 
       <!-- COMPETITOR TABLE -->
@@ -479,7 +488,7 @@ The benchmark scores of Command A have significant implications for real-world u
         </div>
         <div style="margin-top:1.5rem">### Comparison of Command A with Top Competitors
 #### Overview
-Command A, provided by Cohere, is a premium language model released on 2025-03-13. It offers a range of capabilities, including text, function calling, JSON mode, streaming, system prompts, and RAG native. In this comparison, we will evaluate Command A against its top competitor, GPT-4o, focusing on pricing, performance, and use cases.
+Command A, developed by Cohere, is a premium language model released on 2025-03-13. It offers a range of capabilities, including text, function calling, JSON mode, streaming, system prompts, and RAG native. In this comparison, we will evaluate Command A against its top competitor, GPT-4o, in terms of pricing, performance, and use cases.
 
 #### Pricing Comparison
 | Model | Input Price (per 1M tokens) | Output Price (per 1M tokens) |
@@ -487,33 +496,21 @@ Command A, provided by Cohere, is a premium language model released on 2025-03-1
 | Command A | $2.5 | $10.0 |
 | GPT-4o | $2.5 | $10.0 |
 
-Both Command A and GPT-4o have identical pricing structures for input and output tokens. However, it's essential to consider the cost of cached input and batch input, which are not applicable for Command A.
+As shown in the table, both Command A and GPT-4o have the same pricing structure for input and output tokens.
 
-#### Performance Trade-offs
-Command A has a context window of 256,000 tokens and a maximum output of 8,000 tokens. Its performance is measured by the following benchmarks:
+#### Performance Comparison
+Command A has the following benchmark scores:
 * MMLU: 81.5
 * HumanEval: 80.0
 * LMSYS Arena ELO: 1220
 * GSM8K: 88.0
 
-In contrast, GPT-4o's performance is not provided in the given data. Therefore, we cannot directly compare the performance of the two models.
+In contrast, GPT-4o's benchmark scores are not provided. However, we can compare the capabilities and limits of both models to determine their suitability for different use cases.
 
-#### Capabilities and Use Cases
-Command A is best suited for:
-* Enterprise RAG
-* Agents
-* Coding
-* Analysis
-* Long context
-* Function calling
+#### Capabilities and Limits
+Command A has a context window of 256,000 tokens, a maximum output of 8,000 tokens, and a knowledge cutoff of 2024-06. It is best suited for enterprise RAG, agents, coding, analysis, long context, and function calling tasks.
 
-It is not recommended for:
-* Vision
-* Embeddings
-* Simple classification
-* Bulk cheap tasks
-
-GPT-4o's capabilities and use cases are not provided in the given data.
+GPT-4o's capabilities and limits are not provided, but its pricing structure suggests that it may be a suitable alternative to Command A for certain use cases.
 
 #### Cost Examples
 The cost of using Command A can be estimated as follows:
@@ -521,58 +518,54 @@ The cost of using Command A can be estimated as follows:
 * 10,000 calls: $62.5
 * 100,000 calls: $625.0
 
-#### Choosing the Right Model
-Based on the provided data, Command A and GPT-4o have similar pricing structures. However, Command A's performance and capabilities make it a better choice for specific use cases, such as enterprise RAG, coding, and analysis. If your application requires</div>
+Assuming GPT-4o has the same pricing structure, its costs would be similar to those of Command A.
+
+#### Choosing Between Command A and GPT-4o
+Based on the available data, Command A and GPT-4o have similar pricing structures. However, Command A's benchmark scores and capabilities suggest that it may be more suitable for tasks that</div>
       </div>
 
       <!-- USE CASES -->
       <div class="card content-section">
         <div class="card-title">Best Use Cases</div>
-        <div>### Practical Advice on Top 5 Use Cases for Command A
-Command A, a premium model provided by Cohere, is designed for complex tasks that require a deep understanding of context and the ability to perform function calls. Given its capabilities and pricing structure, here are the top 5 best use cases for Command A, along with specific code integration examples mentioning OpenRouter:
+        <div>### Introduction to Command A
+Command A, developed by Cohere, is a premium language model released on 2025-03-13. With its robust capabilities, including text, function calling, JSON mode, streaming, system prompts, and RAG native, it's best suited for enterprise RAG, agents, coding, analysis, long context, and function calling tasks.
 
-#### 1. **Enterprise RAG (Retrieval-Augmented Generation)**
-Command A excels in tasks that require generating text based on a large context window, up to 256,000 tokens. This makes it ideal for enterprise RAG applications where comprehensive understanding and generation of text are critical.
-```python
+### Top 5 Best Use Cases for Command A
+Based on its capabilities and benchmarks, here are the top 5 best use cases for Command A:
+
+1. **Complex Coding Tasks**: With a high HumanEval score of 80.0, Command A is well-suited for complex coding tasks, such as code completion, code review, and code optimization. For example, you can use Command A to integrate with OpenRouter, a popular open-source routing library, to generate optimized routing code.
+   ```python
 import openrouter
 
-# Initialize OpenRouter with Command A
-router = openrouter.Router(model="cohere/command-a")
-
-# Define a function to generate text based on a given context
-def generate_text(context):
-    # Use Command A to generate text
-    response = router.generate_text(context, max_tokens=8000)
+def generate_routing_code(start, end):
+    # Use Command A to generate optimized routing code
+    response = cohere.command_a.generate_text(
+        prompt=f"Generate optimized routing code from {start} to {end}",
+        max_tokens=8000
+    )
     return response
 
-# Example usage
-context = "Your large context here..."
-generated_text = generate_text(context)
-print(generated_text)
+# Example usage:
+routing_code = generate_routing_code("New York", "Los Angeles")
+print(routing_code)
 ```
 
-#### 2. **Agents**
-Command A's ability to understand and respond to complex queries, along with its function calling capability, makes it suitable for building sophisticated agents that can interact with users or other systems.
-```python
-import openrouter
+2. **In-Depth Analysis**: Command A's high MMLU score of 81.5 and large context window of 256,000 tokens make it ideal for in-depth analysis tasks, such as text summarization, sentiment analysis, and entity recognition.
+   ```python
+import cohere
 
-# Initialize OpenRouter with Command A for agent interactions
-agent = openrouter.Agent(model="cohere/command-a")
-
-# Define a function for the agent to respond to user queries
-def respond_to_query(query):
-    # Use Command A to generate a response
-    response = agent.respond(query, max_tokens=8000)
+def analyze_text(text):
+    # Use Command A to analyze the text
+    response = cohere.command_a.generate_text(
+        prompt=f"Analyze the following text: {text}",
+        max_tokens=8000
+    )
     return response
 
-# Example usage
-user_query = "How can I integrate Command A with OpenRouter?"
-response = respond_to_query(user_query)
-print(response)
-```
-
-#### 3. **Coding and Code Analysis**
-With its strong performance in coding tasks,</div>
+# Example usage:
+text = "This is a sample text for analysis."
+analysis = analyze_text(text)
+</div>
       </div>
 
       <!-- CAPABILITIES -->

@@ -1,6 +1,6 @@
 # DeepSeek: DeepSeek V4 Pro API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-20
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-21
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
@@ -9,8 +9,8 @@ DeepSeek: DeepSeek V4 Pro is an AI model provided by Deepseek. We are currently 
 ## Pricing (USD per 1M tokens)
 | Metric | Price |
 |--------|-------|
-| Input | $1.74 |
-| Output | $3.48 |
+| Input | $0.435 |
+| Output | $0.87 |
 | Cached Input | $None |
 | Batch Input | $None |
 | Batch Output | $None |
@@ -41,5 +41,5 @@ A: It is provided by Deepseek.
 
 
 ---
-*Data verified: 2026-04-24 | Confidence: medium*
+*Data verified: 2026-06-21 | Confidence: medium*
 *[Get API Access via OpenRouter](https://openrouter.ai/?ref=llmcosts)*
