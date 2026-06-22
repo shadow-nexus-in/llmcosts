@@ -128,6 +128,8 @@
     "anthropic-claude-fable-5-vs-deepseek-r1",
     "anthropic-claude-fable-5-vs-gpt-5.4-nano",
     "anthropic-claude-fable-5-vs-gpt-5.4-mini",
-    "anthropic-claude-fable-5-vs-gpt-5.4-pro"
+    "anthropic-claude-fable-5-vs-gpt-5.4-pro",
+    "anthropic-claude-fable-5-vs-gpt-5.4",
+    "anthropic-claude-fable-5-vs-gpt-5.3-chat"
   ]
 }

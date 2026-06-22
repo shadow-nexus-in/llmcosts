@@ -1,17 +1,17 @@
 # Anthropic: Claude Opus 4.6 (Fast) API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-21
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-22
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
 ### Introduction to Anthropic: Claude Opus 4.6 (Fast)
-Anthropic: Claude Opus 4.6 (Fast) is a standard-tier model provided by Anthropic, released on 2024-01-01. This model is not open source. The architecture of Claude Opus 4.6 (Fast) is designed to support a wide range of natural language processing tasks, with capabilities including text, function calling, JSON mode, streaming, and structured outputs. Its primary strengths lie in its ability to handle large context windows of up to 1,000,000 tokens and generate outputs of up to 128,000 tokens.
+Anthropic: Claude Opus 4.6 (Fast) is a standard-tier language model developed by Anthropic, released on January 1, 2024. This model is not open-source and is designed to provide fast and efficient processing of natural language inputs. The architecture of Claude Opus 4.6 (Fast) is not explicitly stated, but its capabilities suggest a transformer-based design, which is common in modern language models. With a context window of 1,000,000 tokens and a maximum output of 128,000 tokens, this model is well-suited for a variety of natural language processing tasks.
 
-### Technical Specifications and Use Cases
-The model's pricing is structured around input and output tokens, with costs of $30.0 per 1M input tokens and $150.0 per 1M output tokens. The context window and output limits make it suitable for applications requiring in-depth text analysis and generation. Claude Opus 4.6 (Fast) is best utilized for chat, text generation, coding, analysis, RAG pipelines, and summarization tasks. Its performance is benchmarked with an MMLU score of 88.0 and an LMSYS Arena ELO of 1300, indicating strong language understanding and reasoning capabilities. However, its limitations and lack of direct competitors suggest a unique positioning in the market.
+### Strengths and Use-Cases
+The main strengths of Anthropic: Claude Opus 4.6 (Fast) lie in its ability to handle text-based inputs and outputs, as well as its support for function calling, JSON mode, streaming, and structured outputs. This model is best used for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization. Its high MMLU benchmark score of 88.0 and LMSYS Arena ELO score of 1300 indicate strong performance in these areas. However, its limitations are not explicitly stated in terms of what it is "not good for," suggesting that developers should experiment with the model to determine its boundaries.
 
-### Cost Considerations and Deployment
-For developers planning to integrate Claude Opus 4.6 (Fast) into their applications, cost considerations are crucial. The pricing model implies that the cost scales with the number of calls and the output size. For example, 1,000 calls with an average of 500 tokens would cost $90.0, while 100,000 calls would amount to $9,000.0. Understanding these costs and the model's capabilities is essential for optimizing its deployment in various use cases, from chatbots and text generation tools to coding assistants and analytical
+### Pricing and Cost Examples
+The pricing for Anthropic: Claude Opus 4.6 (Fast) is as follows: $30.0 per 1M input tokens and $150.0 per 1M output tokens. There are no additional costs for cached input or batch input. To give developers an idea of the costs involved, example costs are provided: 1,000 calls with an average of 500 tokens cost $90.0, 10,000 calls cost $900.0, and 100,000 calls cost $900
 
 ## Pricing (USD per 1M tokens)
 | Metric | Price |
@@ -25,29 +25,31 @@ For developers planning to integrate Claude Opus 4.6 (Fast) into their applicati
 ## Pricing Analysis
 ### Pricing Analysis for Anthropic: Claude Opus 4.6 (Fast)
 #### Overview
-The Anthropic: Claude Opus 4.6 (Fast) model is a standard, non-open-source model released by Anthropic on January 1, 2024. This analysis will delve into the cost structure, usage scenarios, and cost savings opportunities for this model.
+The Anthropic: Claude Opus 4.6 (Fast) model is a standard, non-open source model released by Anthropic on 2024-01-01. This analysis will delve into the cost structure, caching strategies, batch API savings, and scalability costs for this model.
 
 #### Cost Structure
-The pricing for Anthropic: Claude Opus 4.6 (Fast) is as follows:
+The cost structure for Anthropic: Claude Opus 4.6 (Fast) is as follows:
 * **Input**: $30.0 per 1M tokens
 * **Output**: $150.0 per 1M tokens
-* **Cached Input**: $None per 1M tokens (indicating no additional cost for cached input tokens)
-* **Batch Input**: $None per 1M tokens (indicating no additional cost for batch input tokens)
+* **Cached Input**: $None per 1M tokens (indicating no additional cost for cached inputs)
+* **Batch Input**: $None per 1M tokens (suggesting no specific discount for batched inputs)
 
-#### Using Cached Tokens
-Since there is no additional cost for cached input tokens, it is recommended to utilize cached tokens whenever possible to minimize input costs. However, the specific scenarios where cached tokens can be used are not explicitly stated in the provided data.
+#### Cached Tokens
+Given that cached input tokens incur no additional cost, it is highly recommended to utilize cached tokens whenever possible to minimize expenses. This can significantly reduce the overall cost, especially for applications with repetitive or similar input patterns.
 
 #### Batch API Savings
-Although the pricing data does not provide a specific discount for batch input, the cost examples suggest that the cost per call decreases as the number of calls increases. For instance:
-* 1,000 calls (avg 500 tokens): $90.0
-* 10,000 calls: $900.0
-* 100,000 calls: $9,000.0
-
-This implies that the cost per call is $0.09 for 1,000 calls, $0.09 for 10,000 calls, and $0.09 for 100,000 calls, indicating no significant batch API savings based on the provided cost examples.
+Although there is no explicit pricing discount for batched inputs, making batch API calls can still lead to cost savings by reducing the overhead associated with individual API calls. However, the exact savings will depend on the specific use case and implementation.
 
 #### Cost at Scale
-To better understand the cost structure, let's calculate the cost per token for different numbers of API calls:
-* **1,000 calls (avg 500 tokens)**:
+The cost of using Anthropic: Claude Opus 4.6 (Fast) at different scales is as follows:
+* **1,000 calls (avg 500 tokens)**: $90.0
+* **10,000 calls**: $900.0
+* **100,000 calls**: $9,000.0
+
+These costs demonstrate a linear scaling of expenses with the number of API calls, indicating that the cost per call remains constant regardless of the volume.
+
+#### Conclusion
+In conclusion, the Anthropic: Claude Opus 4.6 (Fast) model offers a competitive
 
 ## Benchmarks
 | Benchmark | Score |
@@ -59,96 +61,69 @@ To better understand the cost structure, let's calculate the cost per token for 
 
 ## Benchmark Analysis
 ### Analysis of Anthropic: Claude Opus 4.6 (Fast) Benchmark Performance
-#### Introduction
-The Anthropic: Claude Opus 4.6 (Fast) model is a standard, non-open-source model provided by Anthropic, released on 2024-01-01. This analysis will delve into the benchmark performance of this model, focusing on the MMLU, HumanEval, and Arena ELO scores, and their implications for real-world use.
+#### Overview
+The Anthropic: Claude Opus 4.6 (Fast) model, released by Anthropic on 2024-01-01, is a standard, non-open-source model. Its pricing is as follows:
+- Input: $30.0 per 1M tokens
+- Output: $150.0 per 1M tokens
 
-#### Benchmark Scores
-The model's benchmark scores are as follows:
-* **MMLU (Massive Multitask Language Understanding)**: 88.0
-* **HumanEval**: None
-* **LMSYS Arena ELO**: 1300
-* **GSM8K**: None
-
-The MMLU score of 88.0 indicates the model's ability to understand and generate human-like text across a wide range of tasks and domains. A higher MMLU score generally suggests better performance in natural language processing tasks.
-
-The absence of HumanEval and GSM8K scores limits the understanding of the model's performance in specific areas, such as mathematical problem-solving and coding abilities.
-
-The LMSYS Arena ELO score of 1300 provides insight into the model's competitive performance in a controlled environment. ELO scores are used to measure the relative skill levels of players or models in a competitive setting. A higher ELO score indicates better performance.
+#### Benchmark Performance
+The model's benchmark performance is measured by the following scores:
+- **MMLU (Massive Multitask Language Understanding)**: 88.0. This score indicates the model's ability to understand and perform a wide range of natural language tasks. A higher MMLU score suggests better performance in tasks such as text classification, sentiment analysis, and question answering.
+- **HumanEval**: Not available. HumanEval is a benchmark that evaluates a model's ability to write correct and efficient code in response to a given prompt.
+- **LMSYS Arena ELO**: 1300. This score measures the model's performance in a competitive arena, where it is pitted against other models in a series of tasks. A higher ELO score indicates better performance and a higher ranking in the arena.
 
 #### Real-World Implications
 The benchmark scores have the following implications for real-world use:
-* **Text Generation and Understanding**: The model's high MMLU score suggests it is well-suited for tasks that require generating and understanding human-like text, such as chat, text generation, and summar
+- The MMLU score of 88.0 suggests that the model is capable of performing a wide range of natural language tasks with a high degree of accuracy.
+- The lack of HumanEval score makes it difficult to evaluate the model's coding abilities.
+- The LMSYS Arena ELO score of 1300 indicates that the model is a strong competitor in the
 
 ## Competitor Comparison
 ### Comparison of Anthropic: Claude Opus 4.6 (Fast) with Top Competitors
-Since there are no direct competitors listed for Anthropic: Claude Opus 4.6 (Fast), we will provide a general overview of the model's features, pricing, and performance. This will help users understand when to choose this model and what trade-offs to expect.
+Since there are no direct competitors listed for Anthropic: Claude Opus 4.6 (Fast), we will provide a general comparison framework that can be applied when evaluating this model against other similar models in the market.
 
-#### Model Overview
-Anthropic: Claude Opus 4.6 (Fast) is a standard, non-open-source model released by Anthropic on 2024-01-01. It has a context window of 1,000,000 tokens, a maximum output of 128,000 tokens, and a knowledge cutoff of 2023-12.
-
-#### Pricing
+#### Pricing Comparison
 The pricing for Anthropic: Claude Opus 4.6 (Fast) is as follows:
 * Input: $30.0 per 1M tokens
 * Output: $150.0 per 1M tokens
-* Cached Input: $None per 1M tokens
-* Batch Input: $None per 1M tokens
 
-#### Performance
-The model's performance is measured by the following benchmarks:
+When comparing with other models, consider the following:
+* **Input Cost**: If a competitor offers a lower input cost per 1M tokens, it may be more suitable for applications with large input sizes.
+* **Output Cost**: If a competitor offers a lower output cost per 1M tokens, it may be more suitable for applications that require generating large amounts of text.
+
+#### Performance Trade-offs
+The performance of Anthropic: Claude Opus 4.6 (Fast) is measured by the following benchmarks:
 * MMLU: 88.0
 * LMSYS Arena ELO: 1300
 
-#### Capabilities and Use Cases
-Anthropic: Claude Opus 4.6 (Fast) supports the following capabilities:
-* text
-* function_calling
-* json_mode
-* streaming
-* structured_outputs
+When comparing with other models, consider the following:
+* **MMLU Score**: A higher MMLU score indicates better performance on a range of natural language understanding tasks. If a competitor has a higher MMLU score, it may be more suitable for applications that require advanced language understanding.
+* **LMSYS Arena ELO**: A higher LMSYS Arena ELO score indicates better performance in a competitive evaluation framework. If a competitor has a higher LMSYS Arena ELO score, it may be more suitable for applications that require strong language generation capabilities.
 
-It is best suited for the following use cases:
-* chat
-* text_generation
-* coding
-* analysis
-* rag_pipelines
-* summarization
+#### Context and Limits
+The context and limits of Anthropic: Claude Opus 4.6 (Fast) are as follows:
+* Context Window: 1,000,000 tokens
+* Max Output: 128,000 tokens
+* Knowledge Cutoff: 2023-12
 
-#### Cost Examples
-The estimated costs for using Anthropic: Claude Opus 4.6 (Fast) are:
-* 1,000 calls (avg 500 tokens): $90.0
-* 10,000 calls: $900.0
-* 100,000 calls: $9000.0
-
-#### Choosing Anthropic: Claude Opus 4.6 (Fast)
-Since there are no direct competitors listed, users should consider the following factors when deciding whether to use Anthropic: Claude Opus 4.6 (Fast):
-* The model's capabilities and features align with their use case requirements.
-* The pricing is within their budget.
-* The performance benchmarks meet their expectations.
-
-In general, Anthropic: Claude Opus 4.6 (Fast) appears to be a powerful model with
+When comparing with other models, consider the following:
+* **Context Window**: A larger context window allows the model to consider more input text when generating output. If a competitor has a larger context window, it may be more suitable for applications that require processing long documents or conversations.
+* **Max Output**: A higher max output limit allows the model to generate more text in a single response. If a competitor has a higher max output limit
 
 ## Best Use Cases
 ### Introduction to Anthropic: Claude Opus 4.6 (Fast)
-Anthropic's Claude Opus 4.6 (Fast) is a powerful language model released on 2024-01-01, offering a range of capabilities including text generation, function calling, and structured outputs. With its standard tier and non-open source licensing, it's essential to understand its best use cases and integration examples.
+Anthropic: Claude Opus 4.6 (Fast) is a powerful language model released by Anthropic on 2024-01-01. This model is part of the standard tier and is not open source. With its capabilities in text, function calling, JSON mode, streaming, and structured outputs, it is best suited for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization.
 
 ### Top 5 Best Use Cases for Anthropic: Claude Opus 4.6 (Fast)
-Based on its capabilities and benchmarks, the top 5 best use cases for Anthropic: Claude Opus 4.6 (Fast) are:
 
-1. **Chat and Text Generation**: With its high MMLU score of 88.0, Claude Opus 4.6 (Fast) is well-suited for chat and text generation applications, such as conversational AI and content creation.
-2. **Coding and Analysis**: Its function calling and structured outputs capabilities make it an excellent choice for coding and analysis tasks, such as code completion and data analysis.
-3. **Summarization and RAG Pipelines**: Claude Opus 4.6 (Fast) can be used for summarization and RAG (Retrieve, Augment, Generate) pipelines, enabling efficient and accurate information retrieval and generation.
-4. **Streaming and Real-time Applications**: With its streaming capability, Claude Opus 4.6 (Fast) can be integrated into real-time applications, such as live chat support and real-time text analysis.
-5. **JSON Mode and Structured Outputs**: Its JSON mode and structured outputs capabilities make it an excellent choice for applications requiring structured data output, such as data processing and visualization.
+1. **Chat and Conversational Systems**: Claude Opus 4.6 (Fast) can be integrated into chatbots and conversational systems to provide human-like interactions. Its ability to understand and respond to user input makes it an ideal choice for customer service platforms.
+2. **Text Generation and Summarization**: With its text generation capabilities, this model can be used for content creation, such as generating articles, blog posts, or social media content. Additionally, its summarization capabilities make it useful for condensing large pieces of text into concise summaries.
+3. **Coding and Analysis**: Claude Opus 4.6 (Fast) can be used for coding tasks, such as generating code snippets or debugging existing code. Its analysis capabilities also make it useful for data analysis and insights generation.
+4. **RAG Pipelines**: This model can be integrated into RAG (Retrieve, Augment, Generate) pipelines to improve the accuracy and efficiency of information retrieval and generation tasks.
+5. **Streamlined Content Creation**: With its streaming capabilities, Claude Opus 4.6 (Fast) can be used to generate content in real-time, making it ideal for applications such as live blogging or live content generation.
 
-### Code Integration Examples with OpenRouter
-To integrate Claude Opus 4.6 (Fast) with OpenRouter, you can use the following code example:
-```python
-import os
-import openrouter
-
-# Set up OpenRouter client
-client = openrouter
+### Code Integration Example with OpenRouter
+To integrate Claude Opus 4.6 (Fast) with OpenRouter, you can use the following code
 
 ## Frequently Asked Questions
 
