@@ -130,6 +130,8 @@
     "anthropic-claude-fable-5-vs-gpt-5.4-mini",
     "anthropic-claude-fable-5-vs-gpt-5.4-pro",
     "anthropic-claude-fable-5-vs-gpt-5.4",
-    "anthropic-claude-fable-5-vs-gpt-5.3-chat"
+    "anthropic-claude-fable-5-vs-gpt-5.3-chat",
+    "anthropic-claude-fable-5-vs-gpt-5.3-codex",
+    "anthropic-claude-fable-5-vs-gpt-5.2-codex"
   ]
 }

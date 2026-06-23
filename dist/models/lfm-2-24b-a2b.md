@@ -1,6 +1,6 @@
 # LiquidAI: LFM2-24B-A2B API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-22
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-23
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
