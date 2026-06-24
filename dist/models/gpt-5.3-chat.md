@@ -1,17 +1,17 @@
 # OpenAI: GPT-5.3 Chat API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-23
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-24
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
 ### Introduction to OpenAI: GPT-5.3 Chat
-The OpenAI: GPT-5.3 Chat model, released on 2024-01-01, is a standard, non-open-source language model designed for a variety of natural language processing tasks. Its architecture is based on the transformer model, which is particularly well-suited for sequential data like text. With a context window of 128,000 tokens and a maximum output of 16,384 tokens, this model is capable of handling complex and lengthy conversations or text generation tasks.
+The OpenAI: GPT-5.3 Chat model, released on 2024-01-01, is a standard, non-open-source language model designed for a variety of natural language processing tasks. Its architecture is based on the transformer model, which is well-suited for sequential data such as text. The model has a context window of 128,000 tokens, allowing it to consider a large amount of text when generating responses. The maximum output length is 16,384 tokens, making it suitable for generating long-form text.
 
 ### Strengths and Use Cases
-The main strengths of OpenAI: GPT-5.3 Chat include its high performance on benchmarks such as MMLU (94.0) and LMSYS Arena ELO (1350), indicating its ability to understand and generate human-like text. Its capabilities include text generation, function calling, JSON mode, streaming, and structured outputs, making it suitable for a wide range of applications, including chat, text generation, coding, analysis, RAG pipelines, and summarization. With pricing set at $1.75 per 1M input tokens and $14.0 per 1M output tokens, developers can estimate costs based on the number of calls and tokens used, such as $7.875 for 1,000 calls with an average of 500 tokens.
+The OpenAI: GPT-5.3 Chat model has several strengths, including its ability to understand and respond to natural language input, generate text, and perform tasks such as coding, analysis, and summarization. Its capabilities include text, function calling, JSON mode, streaming, and structured outputs. The model is best suited for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization. With a high MMLU benchmark score of 94.0 and an LMSYS Arena ELO score of 1350, the model demonstrates strong performance in various natural language processing tasks. The pricing model is based on input and output tokens, with costs of $1.75 per 1M input tokens and $14.0 per 1M output tokens.
 
-### Technical Details and Cost Considerations
-From a technical standpoint, OpenAI: GPT-5.3 Chat has a knowledge cutoff of 2023-12, meaning it may not have information on events or developments after that date. The model's limitations and capabilities, along with its pricing structure, make it an important consideration for developers looking to integrate advanced language processing into their applications. With no direct competitors listed, OpenAI: GPT-5.3 Chat stands out as a unique offering in the market, suitable for applications where its strengths in text generation, conversation, and analysis can be fully lever
+### Pricing and Cost Examples
+The pricing for the OpenAI: GPT-5.3 Chat model is as follows: input costs $1.75 per 1M tokens, and output costs $14.0 per 1M tokens. There are no costs listed for cached input or batch input. To give developers an idea of the costs involved, some examples are provided: 1,000 calls with an average of 500 tokens would cost $7.875, 10,000 calls would cost $78.75,
 
 ## Pricing (USD per 1M tokens)
 | Metric | Price |
@@ -25,31 +25,31 @@ From a technical standpoint, OpenAI: GPT-5.3 Chat has a knowledge cutoff of 2023
 ## Pricing Analysis
 ### OpenAI: GPT-5.3 Chat Pricing Analysis
 #### Overview
-The OpenAI: GPT-5.3 Chat model is a standard, non-open source model released on January 1, 2024. It offers a range of capabilities, including text, function calling, JSON mode, streaming, and structured outputs, making it suitable for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization.
+The OpenAI: GPT-5.3 Chat model is a standard, non-open source model provided by OpenAI, released on January 1, 2024. This analysis will break down the cost structure, provide guidance on when to use cached tokens, discuss batch API savings, and examine the cost at scale for 1,000, 10,000, and 100,000 API calls.
 
 #### Cost Structure
-The pricing for OpenAI: GPT-5.3 Chat is based on the number of tokens processed. The costs are as follows:
-* Input: **$1.75 per 1M tokens**
-* Output: **$14.0 per 1M tokens**
-* Cached Input: **$0 per 1M tokens** (free)
-* Batch Input: **$0 per 1M tokens** (no additional cost)
+The cost structure for OpenAI: GPT-5.3 Chat is as follows:
+* **Input**: $1.75 per 1 million tokens
+* **Output**: $14.00 per 1 million tokens
+* **Cached Input**: No charge ($0.00 per 1 million tokens)
+* **Batch Input**: No charge ($0.00 per 1 million tokens)
 
 #### Using Cached Tokens
-Cached input tokens are free, which means that if the model can utilize cached input tokens, it can significantly reduce the overall cost. This can be particularly beneficial for applications where the input data is repetitive or has a high degree of overlap.
+Cached tokens can be used to reduce costs. Since there is no charge for cached input tokens, it is recommended to use cached tokens whenever possible to minimize input costs.
 
 #### Batch API Savings
-There is no additional cost for batch input, which means that making API calls in batches does not incur any extra fees. However, the cost savings come from the reduced number of API calls required to process the same amount of data.
+Although there is no direct charge for batch input, using batch API calls can still provide savings by reducing the number of API calls needed. However, the actual cost savings will depend on the output tokens, which are charged at $14.00 per 1 million tokens.
 
 #### Cost at Scale
-The cost of using OpenAI: GPT-5.3 Chat at scale is as follows:
-* **1,000 calls (avg 500 tokens)**: **$7.875**
-* **10,000 calls**: **$78.75**
-* **100,000 calls**: **$787.5**
+The cost at scale for OpenAI: GPT-5.3 Chat is as follows:
+* **1,000 calls (avg 500 tokens)**: $7.875
+* **10,000 calls**: $78.75
+* **100,000 calls**: $787.50
 
-These costs demonstrate a linear relationship between the number of API calls and the total cost, indicating that the cost per call remains constant regardless of the scale.
+These costs demonstrate a linear scaling of costs with the number of API calls.
 
 #### Conclusion
-The OpenAI: GPT-
+The OpenAI: GPT-5.3 Chat model offers a range of capabilities, including text, function calling, JSON mode, streaming, and structured outputs, making it
 
 ## Benchmarks
 | Benchmark | Score |
@@ -61,97 +61,117 @@ The OpenAI: GPT-
 
 ## Benchmark Analysis
 ### Analysis of OpenAI: GPT-5.3 Chat Benchmark Performance
-#### Overview
-The OpenAI: GPT-5.3 Chat model, released on 2024-01-01, is a standard, non-open-source model provided by OpenAI. This analysis will delve into its benchmark performance, focusing on the MMLU, HumanEval, and Arena ELO scores, to understand its capabilities and limitations in real-world applications.
+#### Introduction
+The OpenAI: GPT-5.3 Chat model is a standard, non-open-source model released by OpenAI on January 1, 2024. This analysis will delve into the benchmark performance of the model, focusing on the MMLU, HumanEval, and Arena ELO scores, and their implications for real-world use.
 
-#### Pricing
-The pricing for OpenAI: GPT-5.3 Chat is as follows:
-- Input: **$1.75 per 1M tokens**
-- Output: **$14.0 per 1M tokens**
-- Cached Input: **$None per 1M tokens**
-- Batch Input: **$None per 1M tokens**
+#### Benchmark Scores
+The model's benchmark scores are as follows:
+* **MMLU (Massive Multitask Language Understanding)**: 94.0
+* **HumanEval**: Not available
+* **LMSYS Arena ELO**: 1350
+* **GSM8K**: Not available
 
-#### Context and Limits
-Key context and limit specifications include:
-- Context Window: **128,000 tokens**
-- Max Output: **16,384 tokens**
-- Knowledge Cutoff: **2023-12**
-
-#### Benchmarks
-The model's benchmark performance is highlighted by:
-- **MMLU: 94.0** - The MMLU (Massive Multitask Language Understanding) benchmark evaluates a model's ability to understand and generate text across a wide range of tasks. A score of 94.0 indicates high performance in multitask language understanding, suggesting the model can handle diverse text-based tasks effectively.
-- **HumanEval: None** - HumanEval is a benchmark that assesses a model's ability to generate correct code given a set of unit tests. The absence of a HumanEval score for OpenAI: GPT-5.3 Chat means its coding capabilities, while supported, are not
+#### Interpretation of Benchmark Scores
+* **MMLU Score (94.0)**: The MMLU score measures the model's ability to perform a wide range of natural language processing tasks. A higher score indicates better performance. With a score of 94.0, the OpenAI: GPT-5.3 Chat model demonstrates strong language understanding capabilities.
+* **HumanEval Score**: Unfortunately, the HumanEval score is not available for this model. HumanEval is a benchmark that evaluates a model's ability to generate correct code in response to programming prompts. The lack of this score makes it difficult to assess the model's coding capabilities.
+* **LMSYS Arena ELO Score (1350)**: The LMSYS Arena ELO score is a measure of the model's performance in a competitive environment, where it is pitted against other models. An ELO score of 1350 indicates that the model is a strong competitor, but its exact ranking is unclear without
 
 ## Competitor Comparison
 ### Comparison of OpenAI: GPT-5.3 Chat with Top Competitors
-Since there are no direct competitors listed for OpenAI: GPT-5.3 Chat, we will provide a general overview of the model's features, pricing, and performance. This will serve as a baseline for comparison with other models in the future.
+Since there are no direct competitors listed for OpenAI: GPT-5.3 Chat, we will provide a general overview of the model's features, pricing, and performance. This will help users understand when to choose this model and what trade-offs to expect.
 
 #### Model Overview
-The OpenAI: GPT-5.3 Chat model is a standard, non-open-source model released by OpenAI on January 1, 2024. It has the following key features:
-* **Context Window**: 128,000 tokens
-* **Max Output**: 16,384 tokens
-* **Knowledge Cutoff**: 2023-12
-* **Capabilities**: text, function_calling, json_mode, streaming, structured_outputs
-* **Best For**: chat, text_generation, coding, analysis, rag_pipelines, summarization
+* **Provider:** OpenAI
+* **Release Date:** 2024-01-01
+* **Tier:** Standard
+* **Open Source:** False
 
 #### Pricing
 The pricing for OpenAI: GPT-5.3 Chat is as follows:
-* **Input**: $1.75 per 1M tokens
-* **Output**: $14.0 per 1M tokens
-* **Cached Input**: $None per 1M tokens
-* **Batch Input**: $None per 1M tokens
+* **Input:** $1.75 per 1M tokens
+* **Output:** $14.0 per 1M tokens
+* **Cached Input:** $None per 1M tokens
+* **Batch Input:** $None per 1M tokens
+
+#### Context and Limits
+* **Context Window:** 128,000 tokens
+* **Max Output:** 16,384 tokens
+* **Knowledge Cutoff:** 2023-12
+
+#### Benchmarks
+The model's performance on various benchmarks is:
+* **MMLU:** 94.0
+* **HumanEval:** None
+* **LMSYS Arena ELO:** 1350
+* **GSM8K:** None
+
+#### Capabilities and Use Cases
+OpenAI: GPT-5.3 Chat supports the following capabilities:
+* **Text**
+* **Function calling**
+* **JSON mode**
+* **Streaming**
+* **Structured outputs**
+
+It is best suited for:
+* **Chat**
+* **Text generation**
+* **Coding**
+* **Analysis**
+* **RAG pipelines**
+* **Summarization**
 
 #### Cost Examples
 The estimated costs for using OpenAI: GPT-5.3 Chat are:
-* **1,000 calls (avg 500 tokens)**: $7.875
-* **10,000 calls**: $78.75
-* **100,000 calls**: $787.5
+* **1,000 calls (avg 500 tokens):** $7.875
+* **10,000 calls:** $78.75
+* **100,000 calls:** $787.5
 
-#### Performance
-The performance of OpenAI: GPT-5.3 Chat is measured by the following benchmarks:
-* **MMLU**: 94.0
-* **LMSYS Arena ELO**: 1350
-
-#### Comparison with Future Competitors
-When comparing OpenAI: GPT-5.3 Chat with future competitors, consider the following factors:
-* **Price**: Compare the input and output costs per 1M tokens.
-* **Performance**: Evaluate the benchmarks, such as MMLU and LMSYS Arena ELO.
-* **Capabilities**: Consider the features and capabilities of each model, such as text, function_calling, and streaming.
-* **Context and Limits**: Evaluate the context window, max output, and knowledge cutoff for each model.
-
-By considering these factors, you can make an informed decision about which model to choose for your specific use
+#### Choosing OpenAI: GPT-5.3 Chat
+Since there are no direct competitors listed, OpenAI: GPT-5.3 Chat can be considered a top choice for applications that require its unique combination of capabilities, such as chat, text generation, and coding. However, users should carefully evaluate their specific use case and consider factors such as cost, performance, and context window size before making a
 
 ## Best Use Cases
 ### Introduction to OpenAI: GPT-5.3 Chat
-The OpenAI: GPT-5.3 Chat model is a powerful tool for a variety of natural language processing tasks. Released on 2024-01-01, this model is part of the standard tier and is not open source. In this guide, we will explore the top 5 best use cases for this model, along with code integration examples using OpenRouter.
+The OpenAI: GPT-5.3 Chat model is a powerful tool for various natural language processing tasks. Released on 2024-01-01, this standard model is not open source and is provided by OpenAI. In this guide, we will explore the top 5 best use cases for this model, along with code integration examples using OpenRouter.
+
+### Pricing and Cost Examples
+Before diving into the use cases, it's essential to understand the pricing model:
+* Input: $1.75 per 1M tokens
+* Output: $14.0 per 1M tokens
+* Cached Input: $None per 1M tokens
+* Batch Input: $None per 1M tokens
+
+The cost examples provided are:
+* 1,000 calls (avg 500 tokens): $7.875
+* 10,000 calls: $78.75
+* 100,000 calls: $787.5
 
 ### Top 5 Use Cases for OpenAI: GPT-5.3 Chat
-#### 1. Chat and Text Generation
-The GPT-5.3 Chat model excels at generating human-like text. It can be used to create chatbots, virtual assistants, or content generation tools.
-
-#### 2. Coding and Analysis
-With its `function_calling` and `structured_outputs` capabilities, this model is well-suited for coding tasks, such as code completion, code review, and analysis.
-
-#### 3. Summarization and RAG Pipelines
-The model's ability to process large context windows (up to 128,000 tokens) makes it ideal for summarization tasks and RAG (Retrieve, Augment, Generate) pipelines.
-
-#### 4. Text Analysis and Insight Generation
-GPT-5.3 Chat can be used to analyze text data, extract insights, and generate reports.
-
-#### 5. JSON Mode and Streaming
-The model's `json_mode` and `streaming` capabilities make it suitable for real-time data processing and JSON-based data analysis.
-
-### Code Integration Examples with OpenRouter
-To integrate the OpenAI: GPT-5.3 Chat model with OpenRouter, you can use the following code example:
+#### 1. Chat
+The GPT-5.3 Chat model is well-suited for chat applications, thanks to its capabilities in text generation and function calling. You can use OpenRouter to integrate this model into your chat application:
 ```python
 import openrouter
 
 # Initialize the OpenRouter client
 client = openrouter.Client(api_key="YOUR_API_KEY")
 
-# Define the model and input parameters
-model = "openai/gpt-5.3-chat"
-input_text = "Hello,
+# Define the chat function
+def chat(input_text):
+    response = client.post(
+        "https://api.openai.com/v1/chat/completions",
+        json={
+            "model": "openai/gpt-5.3-chat",
+            "prompt": input_text,
+            "max_tokens": 1024,
+        },
+    )
+    return response.json()["choices"][0]["text"]
+
+# Test the chat function
+print(chat("Hello, how are you?"))
+```
+
+#### 
 
 ## Frequently Asked Questions
 
