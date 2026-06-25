@@ -134,6 +134,7 @@
     "anthropic-claude-fable-5-vs-gpt-5.3-codex",
     "anthropic-claude-fable-5-vs-gpt-5.2-codex",
     "google-gemini-3-pro-image-vs-google-gemini-3.1-flash-image",
-    "cohere-north-mini-code:free-vs-google-gemini-3-pro-image"
+    "cohere-north-mini-code:free-vs-google-gemini-3-pro-image",
+    "google-gemini-3-pro-image-vs-o3"
   ]
 }

@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://llmcosts.dev/models/gemma-2-27b-it">
 
   <!-- Schema.org: Dataset -->
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Gemma 2 27B IT API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Gemma 2 27B IT by Google.", "url": "https://llmcosts.dev/models/gemma-2-27b-it", "keywords": ["Gemma 2 27B IT", "Google", "open-source", "self-hostable", "budget", "google", "efficient"], "dateModified": "2026-06-24", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Gemma 2 27B IT API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Gemma 2 27B IT by Google.", "url": "https://llmcosts.dev/models/gemma-2-27b-it", "keywords": ["Gemma 2 27B IT", "Google", "open-source", "self-hostable", "budget", "google", "efficient"], "dateModified": "2026-06-25", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
   <!-- Schema.org: FAQ -->
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
 
@@ -346,13 +346,13 @@
       <div class="card content-section">
         <div class="card-title">Overview</div>
         <div>### Introduction to Gemma 2 27B IT
-The Gemma 2 27B IT model, released by Google on 2024-07-31, is an open-source, budget-tier language model designed for a variety of natural language processing tasks. With its architecture centered around a 27B parameter configuration, Gemma 2 27B IT offers a balance between performance and cost-effectiveness. Its main strengths include a context window of 8,192 tokens, allowing for the processing of moderately sized input sequences, and a maximum output of 4,096 tokens, suitable for generating substantial responses.
+The Gemma 2 27B IT model, released by Google on 2024-07-31, is an open-source, budget-friendly language model designed for a variety of natural language processing tasks. With its architecture supporting up to 8,192 tokens in its context window and capable of generating up to 4,096 tokens as output, Gemma 2 27B IT is well-suited for applications requiring efficient text processing. Its pricing structure, with both input and output costing $0.27 per 1M tokens, makes it an attractive option for cost-sensitive deployments.
 
 ### Technical Capabilities and Use Cases
-Gemma 2 27B IT boasts a range of capabilities, including text processing, streaming, system prompts, function calling, JSON mode, and structured outputs. These features make it well-suited for applications such as summarization, classification, and the development of simple chatbots. Additionally, its open-source nature and cost-sensitive pricing structure ($0.27 per 1M tokens for both input and output) make it an attractive option for open-source deployment scenarios where budget is a concern. However, it's not recommended for tasks requiring long context understanding, complex reasoning, vision processing, or high-quality coding, as indicated by its benchmarks (MMLU: 75.2, HumanEval: 51.9, LMSYS Arena ELO: 1153, GSM8K: 75.4).
+Gemma 2 27B IT boasts a range of capabilities, including text processing, streaming, system prompts, function calling, JSON mode, and structured outputs. These features make it particularly adept at tasks such as summarization, classification, and powering simple chatbots. Its open-source nature also facilitates custom deployment scenarios. The model's performance is underscored by its benchmark scores: 75.2 on MMLU, 51.9 on HumanEval, 1153 on LMSYS Arena ELO, and 75.4 on GSM8K. However, it's not recommended for applications requiring long context understanding, complex reasoning, vision tasks, or frontier-quality results, as well as challenging coding tasks.
 
-### Pricing and Competitiveness
-The pricing model for Gemma 2 27B IT is straightforward, with costs calculated based on the number of tokens processed. For example, 1,000 calls averaging 500 tokens each would cost $0.27, while 10,000 calls and 100,000 calls would cost $2.7 and $27.0, respectively. In comparison to its top competitors, such as Llama 3.1 8B Instruct ($0</div>
+### Pricing and Competitors
+The pricing of Gemma 2 27B IT is straightforward, with costs calculated based on input and output tokens. For example, 1,000 calls averaging 500 tokens each would cost $0.27, scaling to $2.7 for 10,000 calls and $27.0 for 100,000 calls. In comparison to its competitors, such as Llama 3.1 8B Instruct and Mistral Nemo, which are priced at $0.07/1M input and output and $</div>
       </div>
 
       <!-- PRICING -->
@@ -393,33 +393,34 @@ The pricing model for Gemma 2 27B IT is straightforward, with costs calculated b
 
         <div style="margin-top:1.5rem">### Pricing Analysis for Gemma 2 27B IT
 #### Overview
-The Gemma 2 27B IT model, provided by Google, offers a cost-effective solution for various natural language processing tasks. With a release date of 2024-07-31 and an open-source tier, this model is suitable for applications where budget is a concern.
+The Gemma 2 27B IT model, provided by Google, offers a cost-effective solution for various natural language processing tasks. Released on 2024-07-31, this model is categorized under the budget tier and is open-source.
 
 #### Cost Structure
-The pricing for Gemma 2 27B IT is as follows:
-* Input: $0.27 per 1M tokens
-* Output: $0.27 per 1M tokens
-* Cached Input: $0.00 per 1M tokens (free)
-* Batch Input: $0.00 per 1M tokens (free)
+The cost structure for Gemma 2 27B IT is as follows:
+* **Input**: $0.27 per 1M tokens
+* **Output**: $0.27 per 1M tokens
+* **Cached Input**: $None per 1M tokens (free)
+* **Batch Input**: $None per 1M tokens (free)
 
-This cost structure indicates that using cached tokens and batch API calls can significantly reduce costs, as these are provided at no additional charge.
-
-#### When to Use Cached Tokens
-Cached tokens should be utilized when the same input is used multiple times. Since cached input is free, this can lead to substantial cost savings, especially in applications where the input data is repetitive or has a high degree of overlap.
-
-#### Batch API Savings
-Batching API calls can also result in cost savings. Although the pricing per 1M tokens remains the same, the ability to process multiple inputs in a single call can reduce the overall number of API requests, leading to lower costs in terms of the number of calls made.
+#### Cost Optimization Strategies
+To minimize costs when using Gemma 2 27B IT, consider the following strategies:
+* **Use Cached Tokens**: Since cached input tokens are free, utilize them whenever possible to reduce input costs.
+* **Batch API Calls**: Batch input is also free, so batching API calls can help reduce overall costs.
 
 #### Cost at Scale
-To illustrate the cost-effectiveness of Gemma 2 27B IT at different scales:
-* 1,000 calls (avg 500 tokens): **$0.27**
-* 10,000 calls: **$2.7**
-* 100,000 calls: **$27.0**
+The cost of using Gemma 2 27B IT at scale is as follows:
+* **1,000 calls (avg 500 tokens)**: $0.27
+* **10,000 calls**: $2.7
+* **100,000 calls**: $27.0
 
-These examples demonstrate a linear cost increase with the number of API calls, indicating that the cost per call remains constant regardless of the scale.
+These costs demonstrate a linear scaling of expenses with the number of API calls, indicating that the cost per call remains constant regardless of the volume.
 
 #### Comparison with Top Competitors
-Gemma 2 27B IT's pricing</div>
+Gemma 2 27B IT's pricing is competitive, especially considering its capabilities and performance benchmarks. In comparison:
+* **Llama 3.1 8B Instruct**: $0.07/1M input, $0.07/1M output
+* **Mistral Nemo**: $0.15/1M input, $0.15/1M output
+
+While Gemma 2 </div>
       </div>
 
       <!-- BENCHMARKS -->
@@ -432,7 +433,7 @@ Gemma 2 27B IT's pricing</div>
         </div>
         <div>### Analysis of Gemma 2 27B IT Benchmark Performance
 #### Model Overview
-The Gemma 2 27B IT model, released by Google on 2024-07-31, is a budget-friendly, open-source option. It has a context window of 8,192 tokens and a maximum output of 4,096 tokens, with a knowledge cutoff of 2024-02.
+The Gemma 2 27B IT model, released by Google on 2024-07-31, is a budget-friendly, open-source option with a context window of 8,192 tokens and a maximum output of 4,096 tokens.
 
 #### Pricing
 The pricing for Gemma 2 27B IT is as follows:
@@ -442,15 +443,14 @@ The pricing for Gemma 2 27B IT is as follows:
 * Batch Input: $None per 1M tokens
 
 #### Benchmark Performance
-The model's benchmark performance is measured by the following metrics:
-* **MMLU (Massive Multitask Language Understanding)**: 75.2 - This score indicates the model's ability to understand and perform a wide range of natural language tasks. A higher score represents better performance.
-* **HumanEval**: 51.9 - This score evaluates the model's ability to generate human-like code and understand programming concepts. A higher score represents better performance.
-* **LMSYS Arena ELO**: 1153 - This score measures the model's performance in a competitive arena, where it is pitted against other models. A higher score represents better performance.
-* **GSM8K**: 75.4 - This score evaluates the model's ability to solve math problems.
+The model's benchmark performance is measured by the following scores:
+* **MMLU (Massive Multitask Language Understanding)**: 75.2 - This score indicates the model's ability to perform well across a wide range of natural language processing tasks. A higher MMLU score suggests better overall language understanding.
+* **HumanEval**: 51.9 - This score measures the model's ability to generate human-like code and solve programming tasks. A higher HumanEval score indicates better coding capabilities.
+* **LMSYS Arena ELO**: 1153 - This score is a measure of the model's overall performance in a competitive arena, where it is pitted against other models. A higher ELO score suggests better performance in a variety of tasks.
 
 #### Real-World Implications
-The benchmark scores have the following implications for real-world use:
-* **MMLU**: A score of 75.2 indicates that Gemma 2</div>
+The benchmark scores for Gemma 2 27B IT have the following implications for real-world use:
+* The MMLU score of 75.2 suggests that the model is capable of handling a wide range of natural language processing tasks</div>
       </div>
 
       <!-- COMPETITOR TABLE -->
@@ -486,79 +486,77 @@ The benchmark scores have the following implications for real-world use:
             </tbody>
           </table>
         </div>
-        <div style="margin-top:1.5rem">### Comparison of Gemma 2 27B IT with Top Competitors
+        <div style="margin-top:1.5rem">### Gemma 2 27B IT Comparison
 #### Overview
-Gemma 2 27B IT, provided by Google, is a budget-friendly, open-source model released on 2024-07-31. This comparison will delve into its pricing, performance, and suitable use cases against its top competitors, Llama 3.1 8B Instruct and Mistral Nemo.
+The Gemma 2 27B IT model, released by Google on 2024-07-31, is a budget-friendly, open-source option for various natural language processing tasks. This comparison will delve into its pricing, performance, and trade-offs against its top competitors, Llama 3.1 8B Instruct and Mistral Nemo.
 
 #### Pricing Comparison
-The pricing for each model is as follows:
-- **Gemma 2 27B IT**: $0.27 per 1M tokens for both input and output.
-- **Llama 3.1 8B Instruct**: $0.07 per 1M tokens for both input and output.
-- **Mistral Nemo**: $0.15 per 1M tokens for both input and output.
+| Model | Input Price (per 1M tokens) | Output Price (per 1M tokens) |
+| --- | --- | --- |
+| Gemma 2 27B IT | $0.27 | $0.27 |
+| Llama 3.1 8B Instruct | $0.07 | $0.07 |
+| Mistral Nemo | $0.15 | $0.15 |
 
-#### Performance Trade-offs
-The performance of each model can be evaluated through various benchmarks:
-- **Gemma 2 27B IT**:
-  - MMLU: 75.2
-  - HumanEval: 51.9
-  - LMSYS Arena ELO: 1153
-  - GSM8K: 75.4
-- **Llama 3.1 8B Instruct** and **Mistral Nemo**'s benchmark scores are not provided, making a direct comparison challenging. However, their pricing suggests they might offer different value propositions.
+Gemma 2 27B IT is significantly more expensive than Llama 3.1 8B Instruct, with a price difference of $0.20 per 1M tokens for both input and output. However, it is more competitive with Mistral Nemo, being only $0.12 more expensive per 1M tokens.
 
-#### Context and Limits
-- **Gemma 2 27B IT** has a context window of 8,192 tokens and a max output of 4,096 tokens, with a knowledge cutoff of 2024-02.
-- The context and limits for **Llama 3.1 8B Instruct** and **Mistral Nemo** are not specified, which could be crucial for certain applications.
+#### Performance Comparison
+The performance of these models can be evaluated using various benchmarks:
+
+* MMLU: Gemma 2 27B IT (75.2) vs Llama 3.1 8B Instruct (not provided) vs Mistral Nemo (not provided)
+* HumanEval: Gemma 2 27B IT (51.9) vs Llama 3.1 8B Instruct (not provided) vs Mistral Nemo (not provided)
+* LMSYS Arena ELO: Gemma 2 27B IT (1153) vs Llama 3.1 8B Instruct (not provided) vs Mistral Nemo (not provided)
+* GSM8K: Gemma 2 27B IT (75.4) vs Llama 3.1 8B Instruct (not provided) vs Mistral Nemo (not provided)
+
+Since the benchmark scores for Llama 3.1 8B Instruct and Mistral Nemo are not provided, a direct comparison is not possible. However, Gemma 2 27B IT's scores indicate its capabilities in various tasks.
 
 #### Capabilities and Use Cases
-- **Gemma 2 27B IT** is capable of text, streaming, system prompts, function calling, JSON mode, and structured outputs. It's best for summarization, classification, simple chatbots, open-source deployment, and cost-sensitive applications.
-- **Llama 3.1 8B Instruct** and **Mistral Nemo**'s capabilities and recommended use cases are not detailed, but their pricing might indicate suitability for applications where cost is a lesser concern compared to performance or features.
-
-####</div>
+Gemma</div>
       </div>
 
       <!-- USE CASES -->
       <div class="card content-section">
         <div class="card-title">Best Use Cases</div>
         <div>### Introduction to Gemma 2 27B IT
-The Gemma 2 27B IT model, provided by Google, is a budget-friendly, open-source language model released on 2024-07-31. With its impressive capabilities and affordable pricing, it's an attractive option for various applications. Here, we'll explore the top 5 best use cases for Gemma 2 27B IT, along with specific code integration examples using OpenRouter.
+The Gemma 2 27B IT model, provided by Google, is a budget-friendly and open-source language model released on 2024-07-31. With its capabilities in text, streaming, system prompts, function calling, JSON mode, and structured outputs, it is best suited for applications such as summarization, classification, simple chatbots, and cost-sensitive deployments.
 
-### Top 5 Use Cases for Gemma 2 27B IT
-#### 1. **Summarization**
-Gemma 2 27B IT excels in summarization tasks, making it ideal for condensing large pieces of text into concise, meaningful summaries. To integrate Gemma 2 27B IT with OpenRouter for summarization, you can use the following code example:
-```python
-import openrouter
+### Top 5 Best Use Cases for Gemma 2 27B IT
+Given its strengths and limitations, here are the top 5 best use cases for Gemma 2 27B IT, along with practical advice and code integration examples using OpenRouter:
 
-# Initialize the Gemma 2 27B IT model
-model = openrouter.load_model("google/gemma-2-27b-it")
+1. **Text Summarization**: Gemma 2 27B IT excels in summarization tasks due to its ability to process and understand large amounts of text data.
+   * Example Code:
+   ```python
+   import openrouter
 
-# Define the input text
-input_text = "Your large piece of text here..."
+   # Initialize the Gemma 2 27B IT model
+   model = openrouter.Gemma2_27B_IT()
 
-# Generate a summary
-summary = model.summarize(input_text)
+   # Input text for summarization
+   input_text = "Your text here..."
 
-print(summary)
-```
-#### 2. **Classification**
-Gemma 2 27B IT can be used for text classification tasks, such as sentiment analysis or spam detection. Here's an example of how to use Gemma 2 27B IT with OpenRouter for classification:
-```python
-import openrouter
+   # Generate summary
+   summary = model.summarize(input_text)
 
-# Initialize the Gemma 2 27B IT model
-model = openrouter.load_model("google/gemma-2-27b-it")
+   print(summary)
+   ```
+   * Cost: Approximately $0.27 per 1M tokens for input and output.
 
-# Define the input text
-input_text = "Your text to classify here..."
+2. **Text Classification**: With its strong performance in text-related tasks, Gemma 2 27B IT is suitable for text classification applications.
+   * Example Code:
+   ```python
+   import openrouter
 
-# Define the classification labels
-labels = ["positive", "negative", "neutral"]
+   # Initialize the Gemma 2 27B IT model
+   model = openrouter.Gemma2_27B_IT()
 
-# Generate a classification
-classification = model.classify(input_text, labels)
+   # Input text for classification
+   input_text = "Your text here..."
 
-print(classification)
-```
-#### 3. **Simple Chat</div>
+   # Classify text
+   classification = model.classify(input_text)
+
+   print(classification)
+   ```
+   * Cost: Approximately $0.27 per 1M tokens</div>
       </div>
 
       <!-- CAPABILITIES -->
