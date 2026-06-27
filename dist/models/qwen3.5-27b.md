@@ -1,17 +1,17 @@
 # Qwen: Qwen3.5-27B API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-26
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-27
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
 ### Introduction to Qwen: Qwen3.5-27B
-Qwen: Qwen3.5-27B is a standard-tier model released by Qwen on 2024-01-01. This model is not open source. The architecture of Qwen3.5-27B is designed to handle a wide range of natural language processing tasks, with a context window of 262,144 tokens and a maximum output of 65,536 tokens. The knowledge cutoff for this model is 2023-12, indicating that it was trained on data up to December 2023.
+Qwen: Qwen3.5-27B is a standard, non-open-source model released by Qwen on 2024-01-01. This model boasts an impressive architecture, with a context window of 262,144 tokens and a maximum output of 65,536 tokens. The knowledge cutoff for this model is 2023-12, indicating that it was trained on data up to December 2023. Qwen: Qwen3.5-27B is priced at $0.195 per 1M input tokens and $1.56 per 1M output tokens, with no pricing available for cached input or batch input.
 
-### Strengths and Use Cases
-The main strengths of Qwen: Qwen3.5-27B lie in its capabilities, which include text, function calling, JSON mode, streaming, and structured outputs. This makes it well-suited for tasks such as chat, text generation, coding, analysis, RAG pipelines, and summarization. The model's performance is reflected in its benchmarks, with an MMLU score of 87.0 and an LMSYS Arena ELO of 1270. The pricing for Qwen3.5-27B is $0.195 per 1M tokens for input and $1.56 per 1M tokens for output. With its robust capabilities and competitive pricing, Qwen3.5-27B is a viable option for developers looking to integrate a powerful language model into their applications.
+### Technical Strengths and Use-Cases
+The Qwen: Qwen3.5-27B model excels in various areas, including text generation, function calling, JSON mode, streaming, and structured outputs. Its capabilities make it well-suited for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization. With a high MMLU benchmark score of 87.0 and an LMSYS Arena ELO score of 1270, this model demonstrates strong performance in natural language processing tasks. However, its limitations and areas where it is not recommended for use are not explicitly stated, suggesting that developers should carefully evaluate their specific requirements before selecting this model.
 
-### Cost and Competitiveness
-The cost of using Qwen: Qwen3.5-27B can be estimated based on the number of calls and tokens used. For example, 1,000 calls with an average of 500 tokens would cost $0.0009, while 100,000 calls would cost $0.09. Currently, there are no direct competitors listed for Qwen3.5-27B, making it a unique option in the market. However, developers should consider their
+### Pricing and Cost Considerations
+Developers can estimate the cost of using Qwen: Qwen3.5-27B based on the provided pricing structure. For example, 1,000 calls with an average of 500 tokens would cost approximately $0.0009, while 10,000 calls would cost $0.009, and 100,000 calls would cost $0.09. With no direct competitors listed, Qwen: Qwen3.5-27B appears to occupy a unique position in the market
 
 ## Pricing (USD per 1M tokens)
 | Metric | Price |
@@ -23,30 +23,33 @@ The cost of using Qwen: Qwen3.5-27B can be estimated based on the number of call
 | Batch Output | $None |
 
 ## Pricing Analysis
-### Pricing Analysis for Qwen: Qwen3.5-27B
+### Qwen3.5-27B Pricing Analysis
 #### Overview
-The Qwen: Qwen3.5-27B model is a standard, non-open source model provided by Qwen, released on January 1, 2024. This analysis will delve into the cost structure, optimal usage scenarios, and cost-effectiveness at scale.
+The Qwen3.5-27B model, provided by Qwen, is a standard, non-open-source model released on January 1, 2024. This analysis will delve into the cost structure, optimal usage scenarios, and cost savings at scale for this model.
 
 #### Cost Structure
-The pricing for Qwen: Qwen3.5-27B is as follows:
+The pricing for Qwen3.5-27B is as follows:
 - **Input**: $0.195 per 1M tokens
 - **Output**: $1.56 per 1M tokens
 - **Cached Input**: $None per 1M tokens (free)
 - **Batch Input**: $None per 1M tokens (free)
 
-This structure indicates that the primary cost drivers are input and output token counts. Cached and batch inputs are provided at no additional cost, which can significantly reduce expenses for certain use cases.
+#### When to Use Cached Tokens
+Cached tokens are free, making them an attractive option for reducing costs. It is recommended to use cached tokens whenever possible, especially for repeated or similar input sequences. This can significantly lower the overall cost of using the Qwen3.5-27B model.
 
-#### Optimal Usage Scenarios
-- **Cached Tokens**: Since cached input tokens are free, it is highly beneficial to utilize cached tokens whenever possible. This can be particularly effective for applications with repetitive or similar input patterns.
-- **Batch API Calls**: Although the pricing does not explicitly mention a discount for batch API calls, the fact that batch input is listed as $None per 1M tokens suggests that batching can be an efficient way to reduce costs, especially for high-volume applications.
+#### Batch API Savings
+Batching API calls can also lead to cost savings, as the cost per token decreases with larger batches. Although the exact batch input pricing is not provided, the absence of a cost implies that batch inputs are free, similar to cached inputs. This makes batching a viable strategy for optimizing costs, especially for large-scale applications.
 
 #### Cost at Scale
-To understand the cost-effectiveness of Qwen: Qwen3.5-27B at different scales, let's examine the provided cost examples:
-- **1,000 calls (avg 500 tokens)**: $0.0009 per call
-- **10,000 calls**: $0.009 per call
-- **100,000 calls**: $0.09 per call
+The cost of using Qwen3.5-27B at scale is as follows:
+- **1,000 calls (avg 500 tokens)**: $0.0009
+- **10,000 calls**: $0.009
+- **100,000 calls**: $0.09
 
-These examples illustrate a consistent pricing model where the cost per call increases linearly with the number of calls. However, the cost per token remains
+These examples illustrate the cost-effectiveness of the Qwen3.5-27B model, even at large scales. The cost per call remains relatively low, making it a viable option for applications that require a high volume of API calls.
+
+#### Conclusion
+The Qwen3.5-
 
 ## Benchmarks
 | Benchmark | Score |
@@ -59,77 +62,77 @@ These examples illustrate a consistent pricing model where the cost per call inc
 ## Benchmark Analysis
 ### Qwen: Qwen3.5-27B Benchmark Performance Analysis
 #### Overview
-The Qwen: Qwen3.5-27B model is a standard, non-open-source model provided by Qwen, released on January 1, 2024. This analysis will delve into the model's benchmark performance, focusing on the MMLU, HumanEval, and Arena ELO scores, and explain their implications for real-world use.
+The Qwen3.5-27B model, provided by Qwen, is a standard, non-open-source model released on January 1, 2024. This analysis will delve into the model's benchmark performance, focusing on the MMLU, HumanEval, and Arena ELO scores, and their implications for real-world applications.
 
 #### Benchmark Scores
-* **MMLU (Massive Multitask Language Understanding) Score: 87.0**
-The MMLU score measures a model's ability to perform a wide range of natural language processing tasks. A higher score indicates better performance. With an MMLU score of 87.0, Qwen: Qwen3.5-27B demonstrates strong language understanding capabilities, making it suitable for applications that require comprehensive language comprehension.
-* **HumanEval Score: None**
-The HumanEval score evaluates a model's ability to generate code that passes human-written tests. Unfortunately, Qwen: Qwen3.5-27B does not have a HumanEval score, making it difficult to assess its code generation capabilities.
-* **LMSYS Arena ELO Score: 1270**
-The LMSYS Arena ELO score measures a model's performance in a competitive environment, where it is pitted against other models. An ELO score of 1270 indicates that Qwen: Qwen3.5-27B has a moderate level of competitiveness, suggesting it can hold its own in various NLP tasks but may struggle against more advanced models.
+The model's benchmark scores are as follows:
+* **MMLU (Massive Multitask Language Understanding)**: 87.0
+* **HumanEval**: Not available
+* **LMSYS Arena ELO**: 1270
+* **GSM8K**: Not available
 
-#### Real-World Implications
-The benchmark scores suggest that Qwen: Qwen3.5-
+#### Interpretation of Benchmark Scores
+* **MMLU Score (87.0)**: The MMLU score measures a model's ability to perform a wide range of natural language processing tasks. A higher score indicates better performance. With a score of 87.0, Qwen3.5-27B demonstrates strong language understanding capabilities, making it suitable for applications that require comprehensive language comprehension.
+* **HumanEval Score (Not available)**: HumanEval scores assess a model's ability to generate correct code based on human-written tests. The absence of a HumanEval score for Qwen3.5-27B makes it challenging to evaluate its coding capabilities directly.
+* **LMSYS Arena ELO Score (1270)**: The LMSYS Arena ELO score is a measure of a model's performance in a competitive environment, where models are pitted against each other to solve tasks. An ELO score of 1270 indicates that Qwen3.5-
 
 ## Competitor Comparison
-### Qwen: Qwen3.5-27B Model Comparison
+### Qwen: Qwen3.5-27B Comparison
 #### Introduction
-The Qwen: Qwen3.5-27B model, released by Qwen on 2024-01-01, is a standard-tier model with a unique set of capabilities and pricing. Since there are no direct competitors listed, we will provide a general overview of the model's strengths and weaknesses, as well as its pricing and performance trade-offs.
+Qwen: Qwen3.5-27B is a standard, non-open-source model released by Qwen on 2024-01-01. This model boasts a context window of 262,144 tokens and a maximum output of 65,536 tokens. In this comparison, we will analyze Qwen: Qwen3.5-27B's pricing, performance, and capabilities against its top competitors.
 
 #### Pricing
-The Qwen: Qwen3.5-27B model has the following pricing structure:
-* Input: $0.195 per 1M tokens
-* Output: $1.56 per 1M tokens
-* Cached Input: $None per 1M tokens
-* Batch Input: $None per 1M tokens
-
-The cost of using this model can be estimated using the provided cost examples:
-* 1,000 calls (avg 500 tokens): $0.0009
-* 10,000 calls: $0.009
-* 100,000 calls: $0.09
+The pricing for Qwen: Qwen3.5-27B is as follows:
+* Input: **$0.195 per 1M tokens**
+* Output: **$1.56 per 1M tokens**
+* Cached Input: **$None per 1M tokens**
+* Batch Input: **$None per 1M tokens**
 
 #### Performance Trade-offs
-The Qwen: Qwen3.5-27B model has the following performance characteristics:
-* Context Window: 262,144 tokens
-* Max Output: 65,536 tokens
-* Knowledge Cutoff: 2023-12
-* MMLU: 87.0
-* LMSYS Arena ELO: 1270
+Qwen: Qwen3.5-27B has the following benchmark scores:
+* MMLU: **87.0**
+* LMSYS Arena ELO: **1270**
 
-The model's capabilities include:
-* Text
-* Function calling
-* JSON mode
-* Streaming
-* Structured outputs
+Since there are no direct competitors listed, we will focus on the model's capabilities and cost examples to determine when to choose Qwen: Qwen3.5-27B.
 
-It is best suited for tasks such as:
-* Chat
-* Text generation
-* Coding
-* Analysis
-* RAG pipelines
-* Summarization
+#### Capabilities and Use Cases
+Qwen: Qwen3.5-27B supports the following capabilities:
+* text
+* function_calling
+* json_mode
+* streaming
+* structured_outputs
 
-#### Choosing the Qwen: Qwen3.5-27B Model
-Since there are no direct competitors listed, the decision to use the Qwen: Qwen3.5-27B model will depend on the specific requirements of your project. Consider the following factors:
-* **Pricing**: If your project requires a large number of input or output tokens, the Qwen: Qwen3.5-27B model may be a cost-effective option.
-* **Performance**: If your project requires a high level of performance, as measured by the MMLU or LMSYS Arena ELO benchmarks, the Qwen: Qwen3.5-27B model may be a good choice.
-* **Capabilities
+It is best suited for:
+* chat
+* text_generation
+* coding
+* analysis
+* rag_pipelines
+* summarization
+
+#### Cost Examples
+The cost of using Qwen: Qwen3.5-27B can be estimated as follows:
+* 1,000 calls (avg 500 tokens): **$0.0009**
+* 10,000 calls: **$0.009**
+* 100,000 calls: **$0.09**
+
+#### Conclusion
+Qwen: Qwen3.5-27B is a powerful model with a wide range of capabilities. While there are no direct competitors listed, its pricing and performance make it a viable option for applications that require text generation, coding, and analysis. When choosing Qwen: Qwen3.5-27B, consider the following:
+* If you need a model with a large context window and high maximum output, Qwen: Qwen3.5-27B may be a good
 
 ## Best Use Cases
 ### Introduction to Qwen: Qwen3.5-27B
 Qwen: Qwen3.5-27B is a powerful language model provided by Qwen, released on 2024-01-01. With its standard tier and closed-source nature, it offers a range of capabilities including text, function calling, JSON mode, streaming, and structured outputs. This model is best suited for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization.
 
 ### Top 5 Best Use Cases for Qwen: Qwen3.5-27B
-Based on its capabilities and benchmarks, here are the top 5 best use cases for Qwen: Qwen3.5-27B:
+Given its capabilities and limitations, here are the top 5 best use cases for Qwen: Qwen3.5-27B:
 
-1. **Chat and Text Generation**: With its high MMLU score of 87.0, Qwen: Qwen3.5-27B is well-suited for chat and text generation applications. Its ability to understand and respond to user input makes it an excellent choice for building conversational AI systems.
-2. **Coding and Analysis**: The model's function calling and structured outputs capabilities make it an excellent choice for coding and analysis tasks. It can be used to generate code snippets, analyze code quality, and even provide coding suggestions.
-3. **Summarization and RAG Pipelines**: Qwen: Qwen3.5-27B's ability to process large amounts of text and generate concise summaries makes it an excellent choice for summarization tasks. Its support for RAG pipelines also enables it to be used in more complex information retrieval and question-answering applications.
-4. **Content Generation**: With its text generation capabilities, Qwen: Qwen3.5-27B can be used to generate high-quality content such as articles, blog posts, and social media posts.
-5. **Language Translation and Localization**: Although not explicitly mentioned, Qwen: Qwen3.5-27B's language
+1. **Chat and Text Generation**: With its high context window of 262,144 tokens and ability to generate up to 65,536 tokens of output, Qwen: Qwen3.5-27B is ideal for chatbots and text generation tasks. Its high MMLU benchmark score of 87.0 indicates strong performance in understanding and generating human-like text.
+2. **Coding and Analysis**: The model's function calling capability and support for structured outputs make it suitable for coding tasks such as code completion, code review, and analysis. Its ability to process large inputs and generate detailed outputs is beneficial for complex coding tasks.
+3. **RAG Pipelines and Summarization**: Qwen: Qwen3.5-27B's support for RAG pipelines and summarization tasks makes it a good fit for applications that require extracting relevant information from large documents or generating concise summaries.
+4. **Streaming and Real-time Applications**: With its streaming capability, Qwen: Qwen3.5-27B can be used for real-time applications such as live chat, sentiment analysis, or text classification.
+5. **JSON Mode and Data Processing**: The model's JSON mode capability allows it to process and generate JSON data,
 
 ## Frequently Asked Questions
 
