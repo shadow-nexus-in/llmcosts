@@ -1,6 +1,6 @@
 # Qwen: Qwen3 Coder Plus API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-27
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-28
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview

@@ -1,17 +1,17 @@
 # DeepSeek R1 API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-27
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-28
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
 ### Introduction to DeepSeek R1
-The DeepSeek R1 model, released by DeepSeek on 2025-01-20, is a standard, open-source language model designed to handle complex tasks. Its architecture is geared towards providing robust capabilities in text processing, function calling, streaming, system prompts, and extended thinking. With a context window of 64,000 tokens and a maximum output of 8,192 tokens, DeepSeek R1 is well-suited for tasks that require in-depth analysis and reasoning.
+DeepSeek R1 is a standard-tier, open-source language model developed by DeepSeek, released on January 20, 2025. This model boasts an impressive architecture that supports various capabilities, including text processing, function calling, streaming, system prompts, and extended thinking. With a context window of 64,000 tokens and a maximum output of 8,192 tokens, DeepSeek R1 is designed to handle complex tasks that require in-depth reasoning and analysis.
 
 ### Technical Strengths and Use-Cases
-DeepSeek R1 excels in areas such as complex reasoning, math, coding, science, and research, making it an ideal choice for PhD-level problems. Its benchmark scores, including 90.8 on MMLU, 92.6 on HumanEval, 1358 on LMSYS Arena ELO, and 97.3 on GSM8K, demonstrate its high performance capabilities. However, it may not be the best fit for simple tasks, high-volume requests, low-latency applications, vision-related tasks, or budget-conscious projects. The model's pricing structure, with input costs at $0.55 per 1M tokens and output costs at $2.19 per 1M tokens, reflects its value proposition for complex and demanding tasks.
+DeepSeek R1 excels in tasks that demand complex reasoning, math, coding, science, and research capabilities, making it an ideal choice for PhD-level problems. Its strengths are reflected in its benchmark scores, which include 90.8 on MMLU, 92.6 on HumanEval, 1358 on LMSYS Arena ELO, and 97.3 on GSM8K. However, it may not be the best fit for simple tasks, high-volume applications, low-latency requirements, vision-related tasks, or budget-conscious projects. The model's pricing is competitive, with input costs at $0.55 per 1M tokens and output costs at $2.19 per 1M tokens.
 
 ### Pricing and Cost Considerations
-Developers can estimate the costs of using DeepSeek R1 based on the provided pricing examples: $1.37 for 1,000 calls (avg 500 tokens), $13.7 for 10,000 calls, and $137.0 for 100,000 calls. In comparison to top competitors like OpenAI o1 and OpenAI o3-mini, DeepSeek R1 offers competitive pricing, with input costs significantly lower than OpenAI o1 and output costs comparable to OpenAI o3-mini. By understanding the capabilities, limitations, and pricing of DeepSeek R1, developers can make informed decisions
+To estimate costs, consider the following examples: 1,000 calls with an average of 500 tokens cost $1.37, while 10,000 calls cost $13.7, and 100,000 calls cost $137.0. In comparison to its top competitors, such as OpenAI o1 and OpenAI o3-mini, DeepSeek R1 offers a more affordable option for developers, with significantly lower input and output costs. For instance, OpenAI o1 charges $15.0/1M input and $60.0/1M output, whereas OpenAI o3-mini charges $1.1/1M input and $4
 
 ## Pricing (USD per 1M tokens)
 | Metric | Price |
@@ -25,33 +25,37 @@ Developers can estimate the costs of using DeepSeek R1 based on the provided pri
 ## Pricing Analysis
 ### DeepSeek R1 Pricing Analysis
 #### Overview
-DeepSeek R1 is a standard-tier model released by DeepSeek on 2025-01-20. It is an open-source model with a context window of 64,000 tokens and a maximum output of 8,192 tokens. The model excels in complex reasoning, math, coding, science, research, and PhD-level problems.
+DeepSeek R1 is a standard, open-source model released by DeepSeek on 2025-01-20. This analysis will delve into the cost structure, optimal usage scenarios, and cost-effectiveness at scale.
 
 #### Cost Structure
-The cost structure of DeepSeek R1 is as follows:
-* Input: $0.55 per 1M tokens
-* Output: $2.19 per 1M tokens
-* Cached Input: $0 per 1M tokens (free)
-* Batch Input: $0 per 1M tokens (free)
+The pricing for DeepSeek R1 is as follows:
+* Input: **$0.55 per 1M tokens**
+* Output: **$2.19 per 1M tokens**
+* Cached Input: **$0 per 1M tokens** (free)
+* Batch Input: **$0 per 1M tokens** (free)
 
-#### When to Use Cached Tokens
-Cached tokens can be used to reduce costs when the same input is used multiple times. Since cached input is free, it is recommended to use cached tokens whenever possible to minimize costs.
-
-#### Batch API Savings
-Batch API calls can also help reduce costs. Although the pricing data does not provide a specific discount for batch API calls, the fact that batch input is free suggests that batch processing can lead to significant cost savings.
+#### Optimal Usage Scenarios
+To minimize costs, consider the following strategies:
+* **Use cached tokens**: Since cached input is free, utilize this feature whenever possible to reduce input costs.
+* **Leverage batch API savings**: With batch input being free, batching API calls can significantly reduce overall costs.
 
 #### Cost at Scale
-The cost of using DeepSeek R1 at scale is as follows:
-* 1,000 calls (avg 500 tokens): $1.37
-* 10,000 calls: $13.7
-* 100,000 calls: $137.0
+The cost of using DeepSeek R1 at various scales is as follows:
+* **1,000 calls (avg 500 tokens)**: **$1.37**
+* **10,000 calls**: **$13.7**
+* **100,000 calls**: **$137.0**
 
-These costs are significantly lower than those of top competitors, such as OpenAI o1 and OpenAI o3-mini, which charge $15.0/1M input and $60.0/1M output, and $1.1/1M input and $4.4/1M output, respectively.
+These costs demonstrate a linear scaling of expenses with the number of API calls.
 
-#### Comparison with Top Competitors
-| Model | Input Cost (1M tokens) | Output Cost (1M tokens) |
-| --- | --- | --- |
-|
+#### Comparison to Competitors
+DeepSeek R1's pricing is competitive compared to other models:
+* **OpenAI o1**: $15.0/1M input, $60.0/1M output (significantly more expensive)
+* **OpenAI o3-mini**: $1.1/1M input, $4.4/1M output (comparable input price, but more expensive output)
+
+DeepSeek R1 offers a more affordable option for input tokens, making it an attractive choice for applications with high input volumes.
+
+#### Conclusion
+DeepSeek R1's pricing structure, with free cached input and batch input
 
 ## Benchmarks
 | Benchmark | Score |
@@ -63,91 +67,96 @@ These costs are significantly lower than those of top competitors, such as OpenA
 
 ## Benchmark Analysis
 ### DeepSeek R1 Benchmark Performance Analysis
-#### Overview
-The DeepSeek R1 model, released on 2025-01-20, is a standard, open-source model provided by DeepSeek. This analysis will delve into the benchmark performance of DeepSeek R1, exploring what the MMLU, HumanEval, and Arena ELO scores signify for real-world applications.
+#### Model Overview
+The DeepSeek R1 model, released by DeepSeek on 2025-01-20, is a standard, open-source model with a context window of 64,000 tokens and a maximum output of 8,192 tokens. Its knowledge cutoff is 2024-11.
+
+#### Pricing
+The pricing for DeepSeek R1 is as follows:
+* Input: **$0.55 per 1M tokens**
+* Output: **$2.19 per 1M tokens**
+* Cached Input: **$None per 1M tokens**
+* Batch Input: **$None per 1M tokens**
 
 #### Benchmark Scores
-The model boasts the following benchmark scores:
-* **MMLU: 90.8** - The MMLU (Massive Multitask Language Understanding) benchmark evaluates a model's ability to perform a wide range of natural language processing tasks. A score of 90.8 indicates that DeepSeek R1 has a high level of language understanding, making it suitable for complex tasks.
-* **HumanEval: 92.6** - The HumanEval benchmark assesses a model's ability to generate code that is both correct and readable. A score of 92.6 suggests that DeepSeek R1 is highly proficient in coding tasks, making it an excellent choice for applications involving code generation.
-* **LMSYS Arena ELO: 1358** - The LMSYS Arena ELO benchmark measures a model's overall performance in a competitive environment. An ELO score of 1358 indicates that DeepSeek R1 is a strong competitor, capable of handling a wide range of tasks and challenges.
+The model's performance is measured by the following benchmark scores:
+* **MMLU: 90.8** - The MMLU (Massive Multitask Language Understanding) benchmark evaluates a model's ability to understand and generate human-like language. A higher score indicates better language understanding capabilities.
+* **HumanEval: 92.6** - The HumanEval benchmark assesses a model's ability to generate code that passes human-written tests. A higher score indicates better coding capabilities.
+* **LMSYS Arena ELO: 1358** - The LMSYS Arena ELO score measures a model's performance in a competitive coding environment. A higher score indicates better coding and problem-solving abilities.
+* **GSM8K: 97.3** - The GSM8K benchmark evaluates a model's ability to solve math problems. A higher score indicates better math problem-solving capabilities.
 
 #### Real-World Implications
-These benchmark scores have significant implications for real-world use cases:
-* **Complex Reasoning and Coding**: With high scores in MMLU and HumanEval, DeepSeek R1 is well-suited for tasks that require complex reasoning, math, and coding, such as research, science, and PhD-level
+These benchmark scores indicate that DeepSeek R1 is well-suited for:
+* Complex reasoning and problem
 
 ## Competitor Comparison
-### DeepSeek R1 Comparison Against Top Competitors
+### DeepSeek R1 Comparison with Top Competitors
 #### Overview
-DeepSeek R1 is a standard, open-source model released by DeepSeek on 2025-01-20. It offers competitive pricing and impressive performance benchmarks, making it a viable option for complex reasoning, math, coding, science, research, and PhD-level problems.
+The DeepSeek R1 model, released on 2025-01-20, is a standard, open-source model offered by DeepSeek. This comparison will delve into the pricing, performance, and capabilities of DeepSeek R1 against its top competitors, OpenAI o1 and OpenAI o3-mini.
 
 #### Pricing Comparison
-The pricing model for DeepSeek R1 is as follows:
-* Input: $0.55 per 1M tokens
-* Output: $2.19 per 1M tokens
+The pricing for each model is as follows:
+* DeepSeek R1:
+	+ Input: $0.55 per 1M tokens
+	+ Output: $2.19 per 1M tokens
+* OpenAI o1:
+	+ Input: $15.0 per 1M tokens
+	+ Output: $60.0 per 1M tokens
+* OpenAI o3-mini:
+	+ Input: $1.1 per 1M tokens
+	+ Output: $4.4 per 1M tokens
 
-In comparison, the top competitors have the following pricing:
-* OpenAI o1: $15.0/1M input, $60.0/1M output
-* OpenAI o3-mini: $1.1/1M input, $4.4/1M output
-
-DeepSeek R1 offers significant cost savings, especially for output tokens, with a **93.5% reduction** in output cost compared to OpenAI o1 and a **50.5% reduction** compared to OpenAI o3-mini.
+DeepSeek R1 offers significant cost savings compared to OpenAI o1, with input and output prices being **96.3%** and **96.3%** lower, respectively. In comparison to OpenAI o3-mini, DeepSeek R1 is **50%** cheaper for input and **50.5%** cheaper for output.
 
 #### Performance Trade-offs
-DeepSeek R1 boasts impressive benchmarks:
+DeepSeek R1 has the following benchmarks:
 * MMLU: 90.8
 * HumanEval: 92.6
 * LMSYS Arena ELO: 1358
 * GSM8K: 97.3
 
-While the performance of OpenAI o1 and o3-mini is not provided, DeepSeek R1's benchmarks suggest it is well-suited for complex tasks.
+While the performance of OpenAI o1 and OpenAI o3-mini is not provided, the benchmarks for DeepSeek R1 indicate strong capabilities in complex reasoning, math, coding, science, and research.
 
-#### Context and Limits
-DeepSeek R1 has the following context and limits:
-* Context Window: 64,000 tokens
-* Max Output: 8,192 tokens
-* Knowledge Cutoff: 2024-11
+#### Capabilities and Use Cases
+DeepSeek R1 is best suited for:
+* Complex reasoning
+* Math
+* Coding
+* Science
+* Research
+* PhD-level problems
 
-These limits are suitable for most complex reasoning and research tasks, but may not be ideal for very high-volume or low-latency applications.
-
-#### Capabilities and Best Use Cases
-DeepSeek R1 supports the following capabilities:
-* text
-* function_calling
-* streaming
-* system_prompts
-* extended_thinking
-
-It is best suited for:
-* complex_reasoning
-* math
-* coding
-* science
-* research
-* PhD_level_problems
-
-However, it is not recommended for:
-* simple_tasks
-* high_volume
-* low_latency
-* vision
-* budget_conscious applications (despite being cost-effective, it may not be the cheapest option for very simple tasks)
+It is not recommended for:
+* Simple tasks
+* High-volume applications
+* Low-latency requirements
+* Vision tasks
+* Budget-conscious projects
 
 #### Cost Examples
-To illustrate
+To illustrate the cost-effectiveness of DeepSeek R1, consider the following examples:
+* 1,000 calls (avg 500 tokens): $1.37
+* 10,000 calls: $13.7
+* 100,000 calls: $137.0
+
+#### Choosing the Right Model
+Based on the pricing, performance,
 
 ## Best Use Cases
 ### Introduction to DeepSeek R1
-The DeepSeek R1 model, released by DeepSeek on 2025-01-20, is a standard, open-source model that excels in complex reasoning, math, coding, science, and research, making it ideal for PhD-level problems. With its capabilities in text, function calling, streaming, system prompts, and extended thinking, it offers a wide range of applications. This guide will outline the top 5 best use cases for DeepSeek R1, along with specific code integration examples using OpenRouter.
+The DeepSeek R1 model, released by DeepSeek on 2025-01-20, is a standard, open-source model with a context window of 64,000 tokens and a maximum output of 8,192 tokens. With its capabilities in text, function calling, streaming, system prompts, and extended thinking, it is best suited for complex reasoning, math, coding, science, research, and PhD-level problems.
 
-### Top 5 Use Cases for DeepSeek R1
+### Top 5 Best Use Cases for DeepSeek R1
+Based on its capabilities and benchmarks (MMLU: 90.8, HumanEval: 92.6, LMSYS Arena ELO: 1358, GSM8K: 97.3), the top 5 best use cases for DeepSeek R1 are:
 
-1. **Complex Mathematical Problem Solving**: DeepSeek R1's high scores in benchmarks like GSM8K (97.3) and HumanEval (92.6) demonstrate its proficiency in mathematical reasoning. It can be used to solve complex mathematical problems, such as algebra, calculus, and number theory.
-2. **Code Generation and Review**: With its strong coding capabilities, DeepSeek R1 can generate high-quality code snippets and review existing code for errors and improvements. Its function calling capability allows it to interact with external libraries and frameworks.
-3. **Scientific Research Assistance**: DeepSeek R1's knowledge cutoff of 2024-11 and its ability to understand and generate human-like text make it an excellent tool for scientific research assistance. It can help with tasks such as literature review, data analysis, and hypothesis generation.
-4. **PhD-Level Research Support**: DeepSeek R1's capabilities in extended thinking and complex reasoning make it an ideal model for supporting PhD-level research. It can assist with tasks such as research proposal writing, thesis drafting, and academic paper review.
-5. **Custom AI Model Development**: DeepSeek R1's open-source nature and its compatibility with OpenRouter make it an attractive choice for custom AI model development. Developers can fine-tune the model for specific tasks and integrate it with other AI models and frameworks.
+1. **Math and Science Problem Solving**: DeepSeek R1's high scores in GSM8K (97.3) and HumanEval (92.6) make it an ideal model for solving complex math and science problems.
+2. **Coding and Software Development**: With its function calling and extended thinking capabilities, DeepSeek R1 can assist in coding tasks, such as code completion, debugging, and optimization.
+3. **Research and PhD-Level Problems**: DeepSeek R1's ability to handle complex reasoning and extended thinking makes it suitable for research and PhD-level problems that require in-depth analysis and critical thinking.
+4. **Text Analysis and Generation**: DeepSeek R1's text capabilities can be used for text analysis, summarization, and generation tasks, such as writing articles, reports, and research papers.
+5. **Streaming and System Prompts**: DeepSeek R1's streaming and system prompts capabilities make it suitable for applications that require real-time processing and interaction, such as chatbots, virtual assistants, and interactive systems.
 
-### Code Integration Examples with
+### Code Integration Examples with OpenRouter
+To integrate DeepSeek R1 with OpenRouter, you can use the following code examples:
+
 
 ## Frequently Asked Questions
 
