@@ -1,17 +1,17 @@
 # Google: Lyria 3 Clip Preview API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-28
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-06-29
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
 ### Introduction to Google: Lyria 3 Clip Preview
-The Google: Lyria 3 Clip Preview model, released by Google on 2024-01-01, is a standard-tier, non-open-source language model. This model is part of the Lyria series and is designed to provide a clip preview functionality. The architecture of Google: Lyria 3 Clip Preview is not explicitly stated, but its capabilities suggest a transformer-based model with a context window of 1,048,576 tokens and a maximum output of 65,536 tokens.
+The Google: Lyria 3 Clip Preview model, released by Google on 2024-01-01, is a standard-tier, non-open-source language model designed to provide developers with a robust tool for various natural language processing (NLP) tasks. Its architecture, although not explicitly detailed, is built to handle a context window of up to 1,048,576 tokens and can generate outputs of up to 65,536 tokens. This capability makes it suitable for a wide range of applications, from simple text generation to complex analysis and coding tasks.
 
 ### Strengths and Use Cases
-Google: Lyria 3 Clip Preview excels in various areas, including text generation, coding, analysis, and summarization, making it suitable for applications such as chat, text generation, and RAG pipelines. Its capabilities include text, function calling, JSON mode, streaming, structured outputs, and vision. The model's strengths are reflected in its benchmark scores, with an MMLU score of 80.0 and an LMSYS Arena ELO score of 1200. The pricing model for this service is $0.0 per 1M tokens for both input and output, with no additional costs for cached or batch input.
+Google: Lyria 3 Clip Preview boasts several key strengths, including its ability to handle text, function calling, JSON mode, streaming, structured outputs, and even vision tasks. These capabilities make it an ideal choice for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization. The model's performance is underscored by its benchmark scores, including an MMLU score of 80.0 and an LMSYS Arena ELO of 1200. With its broad range of capabilities and strong performance metrics, developers can leverage this model for a variety of use cases, benefiting from its versatility and reliability.
 
-### Technical Specifications and Cost
-From a technical standpoint, Google: Lyria 3 Clip Preview has a knowledge cutoff of 2023-12, indicating that its training data is current up to that point. The model's pricing is highly competitive, with cost examples showing $0.0 for 1,000, 10,000, and 100,000 calls, assuming an average of 500 tokens per call. With no direct competitors listed, Google: Lyria 3 Clip Preview appears to be a unique offering in the market, providing a powerful tool for developers working on applications that require advanced language understanding and generation capabilities.
+### Pricing and Cost Efficiency
+One of the notable aspects of the Google: Lyria 3 Clip Preview is its pricing model. With input and output costs set at $0.0 per 1M tokens, and no additional charges for cached input or batch input, this model offers a highly cost-efficient solution for developers. Example cost scenarios illustrate the model's affordability, with 1,000 calls (averaging 500 tokens), 10,000 calls, and 100,000 calls all incurring a cost of $0.0. This pricing structure, combined with the model's capabilities and performance, makes the Google: Lyria 3 Clip Preview an attractive option for developers
 
 ## Pricing (USD per 1M tokens)
 | Metric | Price |
@@ -25,31 +25,32 @@ From a technical standpoint, Google: Lyria 3 Clip Preview has a knowledge cutoff
 ## Pricing Analysis
 ### Pricing Analysis for Google: Lyria 3 Clip Preview
 #### Overview
-The Google: Lyria 3 Clip Preview model is a standard, non-open source model released by Google on 2024-01-01. This analysis will delve into the cost structure, usage scenarios, and scalability of this model.
+The Google: Lyria 3 Clip Preview model is a standard, non-open source model released by Google on 2024-01-01. This analysis will delve into the cost structure, usage scenarios, and cost savings for this model.
 
 #### Cost Structure
 The pricing for Google: Lyria 3 Clip Preview is as follows:
-* **Input**: $0.0 per 1M tokens
-* **Output**: $0.0 per 1M tokens
-* **Cached Input**: $None per 1M tokens (indicating no additional cost for cached inputs)
-* **Batch Input**: $None per 1M tokens (suggesting no specific pricing for batched inputs)
+* Input: **$0.0 per 1M tokens**
+* Output: **$0.0 per 1M tokens**
+* Cached Input: **$None per 1M tokens**
+* Batch Input: **$None per 1M tokens**
 
-Given the $0.0 pricing for both input and output, the model's usage does not incur direct costs based on the number of tokens processed.
+Given the pricing structure, there are no costs associated with input, output, cached input, or batch input. This implies that the model is currently free to use, with no costs incurred for any of the mentioned scenarios.
 
 #### Usage Scenarios
-- **Cached Tokens**: Since there's no additional cost for cached inputs, it's always beneficial to use cached tokens when possible, as it does not affect the overall cost.
-- **Batch API Savings**: The pricing structure does not specify savings for batched API calls, implying that the cost remains $0.0 regardless of the batch size.
+Since there are no costs associated with using the model, the decision to use cached tokens or batch API calls does not impact the cost. However, it's essential to consider the context window and max output limits when designing applications:
+* Context Window: **1,048,576 tokens**
+* Max Output: **65,536 tokens**
 
 #### Cost at Scale
-The cost examples provided show that the model's usage cost remains $0.0 across different scales:
-- **1,000 calls (avg 500 tokens)**: $0.0
-- **10,000 calls**: $0.0
-- **100,000 calls**: $0.0
+The cost examples provided demonstrate the cost of using the model at various scales:
+* **1,000 calls (avg 500 tokens)**: **$0.0**
+* **10,000 calls**: **$0.0**
+* **100,000 calls**: **$0.0**
 
-This indicates that the model can be used extensively without incurring costs based on the number of API calls or tokens processed.
+As shown, the cost remains **$0.0** regardless of the number of API calls, making it an attractive option for applications that require a high volume of requests.
 
 #### Conclusion
-The Google: Lyria 3 Clip Preview model offers a unique pricing structure where the cost remains $0.0 for both input and output tokens, regardless of the scale of usage. This makes it an attractive option for applications that
+The Google: Lyria 3 Clip Preview model offers a unique pricing structure with no costs associated with input, output, cached input, or batch input. This makes it an excellent choice for applications that require a high
 
 ## Benchmarks
 | Benchmark | Score |
@@ -88,11 +89,11 @@ The model's benchmark performance is as follows:
 * LMSYS Arena ELO: 1200
 * GSM8K: None
 
-The MMLU score of 80.0 indicates the model's performance on a specific set of tasks, with higher scores indicating better performance. The LMSYS Arena ELO score of 1200 is a measure of the model's overall strength, with higher scores indicating
+The MMLU score of 80.0 indicates the model's performance on a specific set of tasks, with higher scores generally indicating better performance. The LMSYS Arena ELO score of 1200 provides a relative ranking of the model's performance compared to other models
 
 ## Competitor Comparison
 ### Comparison of Google: Lyria 3 Clip Preview with Top Competitors
-Since there are no direct competitors listed for the Google: Lyria 3 Clip Preview model, we will provide a general overview of the model's features, pricing, and performance. This will serve as a baseline for comparison when evaluating other models.
+Since there are no direct competitors listed for the Google: Lyria 3 Clip Preview model, we will provide a general overview of the model's features, pricing, and performance. This will help users understand when to choose this model and what trade-offs to expect.
 
 #### Model Overview
 The Google: Lyria 3 Clip Preview model is a standard-tier model released by Google on 2024-01-01. It is not open-source and has the following key features:
@@ -109,45 +110,33 @@ The pricing for the Google: Lyria 3 Clip Preview model is as follows:
 * **Cached Input**: $None per 1M tokens
 * **Batch Input**: $None per 1M tokens
 
-#### Performance Trade-offs
-The model's performance is measured by the following benchmarks:
-* **MMLU**: 80.0
-* **LMSYS Arena ELO**: 1200
-
-#### Cost Examples
-The cost of using the Google: Lyria 3 Clip Preview model is as follows:
+The cost examples provided are:
 * **1,000 calls (avg 500 tokens)**: $0.0
 * **10,000 calls**: $0.0
 * **100,000 calls**: $0.0
 
+#### Performance
+The performance benchmarks for the Google: Lyria 3 Clip Preview model are:
+* **MMLU**: 80.0
+* **LMSYS Arena ELO**: 1200
+
 #### Choosing the Google: Lyria 3 Clip Preview Model
-Given the lack of direct competitors, the Google: Lyria 3 Clip Preview model can be considered for applications that require its specific capabilities, such as:
-* Chat and text generation
-* Coding and analysis
-* RAG pipelines and summarization
+Since there are no direct competitors listed, the decision to choose the Google: Lyria 3 Clip Preview model depends on the specific use case and requirements. If the model's capabilities and features align with your needs, and you are looking for a standard-tier model with a context window of 1,048,576 tokens and a max output of 65,536 tokens, then this model may be a good choice.
 
-However, without direct competitors, it is essential to evaluate the model's performance and pricing in the context of your specific use case to determine its suitability.
-
-### Future Comparison
-Once direct competitors are listed, a more detailed comparison can be made, including:
-* Price differences
-* Performance trade-offs
-* Specific use cases where one model may be more suitable than the other
-
-
+However, if you are looking for a model with a different set of features or capabilities, you may need to consider other options. Additionally, if you require a model with a more recent knowledge cutoff or a different pricing structure, you may need to
 
 ## Best Use Cases
 ### Introduction to Google: Lyria 3 Clip Preview
-The Google: Lyria 3 Clip Preview model, released on 2024-01-01, is a powerful tool with a wide range of capabilities, including text, function calling, JSON mode, streaming, structured outputs, and vision. This model is particularly well-suited for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization.
+The Google: Lyria 3 Clip Preview model, released on 2024-01-01, is a powerful tool with a wide range of capabilities, including text, function calling, JSON mode, streaming, structured outputs, and vision. This model is best suited for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization.
 
 ### Top 5 Best Use Cases for Google: Lyria 3 Clip Preview
-Given its capabilities and strengths, here are the top 5 best use cases for the Google: Lyria 3 Clip Preview model:
+Given its capabilities and benchmarks, here are the top 5 best use cases for the Google: Lyria 3 Clip Preview model:
 
-1. **Text Generation and Summarization**: With its strong text generation capabilities, this model can be used to generate high-quality text summaries from large documents or to create engaging content.
-2. **Coding and Analysis**: The model's ability to understand and generate code, combined with its analytical capabilities, makes it an excellent choice for coding tasks, such as code completion, code review, and bug detection.
-3. **Chat and Conversational Systems**: Google: Lyria 3 Clip Preview's chat capabilities make it well-suited for building conversational systems, such as chatbots, virtual assistants, and customer support systems.
-4. **RAG Pipelines and Knowledge Graphs**: The model's support for RAG pipelines and knowledge graphs enables it to be used for complex question answering, entity disambiguation, and knowledge retrieval tasks.
-5. **Vision and Multimodal Analysis**: With its vision capabilities, this model can be used for image analysis, object detection, and multimodal understanding, making it a great choice for applications that require both text and image analysis.
+1. **Text Generation and Summarization**: With its high performance in text-related tasks, this model can be used for generating high-quality text summaries from large documents or articles.
+2. **Coding and Analysis**: The model's ability to perform function calling and structured outputs makes it suitable for coding tasks, such as generating code snippets or analyzing code quality.
+3. **Chat and Conversational Systems**: The Google: Lyria 3 Clip Preview model can be used to build conversational systems, such as chatbots, that can understand and respond to user queries.
+4. **RAG Pipelines and Knowledge Graphs**: The model's capabilities in RAG pipelines and knowledge graphs make it suitable for building complex knowledge graphs and performing reasoning tasks.
+5. **Vision and Multimodal Tasks**: With its vision capability, the model can be used for multimodal tasks, such as image-text retrieval or visual question answering.
 
 ### Code Integration Examples with OpenRouter
 To integrate the Google: Lyria 3 Clip Preview model with OpenRouter, you can use the following code examples:
@@ -156,7 +145,13 @@ To integrate the Google: Lyria 3 Clip Preview model with OpenRouter, you can use
 import openrouter
 
 # Initialize the OpenRouter client
-client = openrouter.Client
+client = openrouter.Client()
+
+# Define the model and its parameters
+model_name = "google/lyria-3-clip-preview"
+input_text = "This is an example input text."
+
+
 
 ## Frequently Asked Questions
 
