@@ -1,6 +1,6 @@
 # LLMCosts.dev — Mistralai Models Pricing
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-06-29
+> Updated: 2026-06-30
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
