@@ -1,5 +1,5 @@
 {
-  "build_date": "2026-06-30T04:03:35Z",
+  "build_date": "2026-07-01T04:18:39Z",
   "tasks": {
     "homepage": {
       "status": "ok",
@@ -9,56 +9,56 @@
     },
     "price_update": {
       "status": "ok",
-      "elapsed": 0.31,
+      "elapsed": 0.48,
       "updated": 0,
       "unchanged": 104,
       "unverified": 238,
-      "new_detected": 2650,
+      "new_detected": 2660,
       "errors": 0
     },
     "auto_ingestor": {
       "status": "ok",
-      "elapsed": 0.13,
-      "ingested": 0,
-      "skipped_spam": 76,
+      "elapsed": 6.39,
+      "ingested": 2,
+      "skipped_spam": 74,
       "errors": 0
     },
     "page_generation": {
       "status": "ok",
-      "elapsed": 619.7,
-      "generated": 342,
+      "elapsed": 650.45,
+      "generated": 344,
       "skipped": 0,
       "failed": 0,
       "keys_exhausted": false
     },
     "vs_generation": {
       "status": "ok",
-      "elapsed": 0.29,
+      "elapsed": 0.59,
       "generated": 1,
       "skipped_limit": true
     },
     "llms_txt": {
       "status": "ok",
-      "elapsed": 0.03,
+      "elapsed": 0.04,
       "files_written": 58,
       "errors": 0
     },
     "config_gen": {
       "status": "ok",
-      "elapsed": 1.82,
+      "elapsed": 1.76,
       "configs_written": 4,
       "errors": 0
     },
     "report_gen": {
       "status": "ok",
-      "elapsed": 0.22,
+      "elapsed": 0.58,
       "report_generated": true,
       "errors": 0
     },
     "sitemap": {
       "status": "ok",
       "elapsed": 0.01,
-      "urls_in_sitemap": 489,
+      "urls_in_sitemap": 492,
       "google_pings_sent": 0,
       "errors": 0
     },
