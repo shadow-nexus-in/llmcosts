@@ -143,6 +143,8 @@
     "google-gemini-3-pro-image-vs-gpt-4-1",
     "google-gemini-3-pro-image-vs-gpt-4o",
     "google-gemini-3-pro-image-vs-mistral-large-2407",
-    "anthropic-claude-sonnet-5-vs-google-gemini-3-pro-image"
+    "anthropic-claude-sonnet-5-vs-google-gemini-3-pro-image",
+    "anthropic-claude-sonnet-5-vs-google-gemini-3.1-flash-lite-image",
+    "anthropic-claude-sonnet-5-vs-o3"
   ]
 }
