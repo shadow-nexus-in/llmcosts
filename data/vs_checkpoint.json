@@ -145,6 +145,9 @@
     "google-gemini-3-pro-image-vs-mistral-large-2407",
     "anthropic-claude-sonnet-5-vs-google-gemini-3-pro-image",
     "anthropic-claude-sonnet-5-vs-google-gemini-3.1-flash-lite-image",
-    "anthropic-claude-sonnet-5-vs-o3"
+    "anthropic-claude-sonnet-5-vs-o3",
+    "anthropic-claude-sonnet-5-vs-claude-opus-4",
+    "anthropic-claude-sonnet-5-vs-gemini-2-5-pro",
+    "anthropic-claude-sonnet-5-vs-claude-sonnet-4"
   ]
 }
