@@ -1,6 +1,6 @@
 # Z.ai: GLM 4 32B  API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-07-03
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-07-04
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview

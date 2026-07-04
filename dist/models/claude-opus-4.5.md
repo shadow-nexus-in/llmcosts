@@ -1,6 +1,6 @@
 # Anthropic: Claude Opus 4.5 API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-07-03
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-07-04
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
