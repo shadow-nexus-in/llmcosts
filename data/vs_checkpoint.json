@@ -152,6 +152,10 @@
     "anthropic-claude-sonnet-5-vs-o1",
     "anthropic-claude-sonnet-5-vs-gpt-4-1",
     "anthropic-claude-sonnet-5-vs-gpt-4o",
-    "anthropic-claude-sonnet-5-vs-mistral-large-2407"
+    "anthropic-claude-sonnet-5-vs-mistral-large-2407",
+    "anthropic-claude-sonnet-5-vs-command-a",
+    "anthropic-claude-sonnet-5-vs-deepseek-r1",
+    "anthropic-claude-sonnet-5-vs-gpt-5.4-nano",
+    "anthropic-claude-sonnet-5-vs-gpt-5.4-mini"
   ]
 }
