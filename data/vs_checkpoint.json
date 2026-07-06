@@ -156,6 +156,9 @@
     "anthropic-claude-sonnet-5-vs-command-a",
     "anthropic-claude-sonnet-5-vs-deepseek-r1",
     "anthropic-claude-sonnet-5-vs-gpt-5.4-nano",
-    "anthropic-claude-sonnet-5-vs-gpt-5.4-mini"
+    "anthropic-claude-sonnet-5-vs-gpt-5.4-mini",
+    "anthropic-claude-sonnet-5-vs-gpt-5.4-pro",
+    "anthropic-claude-sonnet-5-vs-gpt-5.4",
+    "anthropic-claude-sonnet-5-vs-gpt-5.3-chat"
   ]
 }
