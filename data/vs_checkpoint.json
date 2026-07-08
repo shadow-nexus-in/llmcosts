@@ -160,6 +160,7 @@
     "anthropic-claude-sonnet-5-vs-gpt-5.4-pro",
     "anthropic-claude-sonnet-5-vs-gpt-5.4",
     "anthropic-claude-sonnet-5-vs-gpt-5.3-chat",
-    "anthropic-claude-sonnet-5-vs-gpt-5.3-codex"
+    "anthropic-claude-sonnet-5-vs-gpt-5.3-codex",
+    "anthropic-claude-sonnet-5-vs-gpt-5.2-codex"
   ]
 }

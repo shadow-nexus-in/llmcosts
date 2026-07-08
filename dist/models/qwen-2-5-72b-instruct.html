@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://llmcosts.dev/models/qwen-2-5-72b-instruct">
 
   <!-- Schema.org: Dataset -->
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Qwen 2.5 72B Instruct API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Qwen 2.5 72B Instruct by Alibaba (Qwen).", "url": "https://llmcosts.dev/models/qwen-2-5-72b-instruct", "keywords": ["Qwen 2.5 72B Instruct", "Alibaba (Qwen)", "open-source", "self-hostable", "multilingual", "coding", "budget", "frontier"], "dateModified": "2026-07-07", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Qwen 2.5 72B Instruct API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Qwen 2.5 72B Instruct by Alibaba (Qwen).", "url": "https://llmcosts.dev/models/qwen-2-5-72b-instruct", "keywords": ["Qwen 2.5 72B Instruct", "Alibaba (Qwen)", "open-source", "self-hostable", "multilingual", "coding", "budget", "frontier"], "dateModified": "2026-07-08", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
   <!-- Schema.org: FAQ -->
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
 
@@ -346,13 +346,13 @@
       <div class="card content-section">
         <div class="card-title">Overview</div>
         <div>### Introduction to Qwen 2.5 72B Instruct
-The Qwen 2.5 72B Instruct model, released by Alibaba on 2024-09-18, is a standard, open-source language model designed for a wide range of natural language processing tasks. With its architecture based on a 72 billion parameter framework, this model is positioned as a cost-effective solution for developers seeking high-performance language understanding and generation capabilities. The Qwen 2.5 72B Instruct model supports various capabilities, including text processing, function calling, JSON mode, streaming, and system prompts, making it versatile for coding, analysis, multilingual tasks, and summarization.
+Qwen 2.5 72B Instruct (qwen/qwen-2.5-72b-instruct) is a standard, open-source model released by Alibaba (Qwen) on 2024-09-18. This model boasts an impressive architecture, with a context window of 131,072 tokens and a maximum output of 8,192 tokens. The knowledge cutoff for this model is 2024-03, ensuring it has a broad and up-to-date understanding of various subjects. Qwen 2.5 72B Instruct supports multiple capabilities, including text, function calling, JSON mode, streaming, and system prompts, making it a versatile tool for developers.
 
-### Technical Specifications and Pricing
-Technically, the Qwen 2.5 72B Instruct model has a context window of 131,072 tokens and can generate up to 8,192 tokens as output. Its knowledge cutoff is 2024-03, ensuring it has a broad and up-to-date understanding of the world up to that point. The model's pricing is competitive, with input costs at $0.35 per 1 million tokens and output costs at $0.40 per 1 million tokens. For developers, this translates to cost-effective usage, especially when considering the examples provided: 1,000 calls averaging 500 tokens cost $0.375, scaling to $3.75 for 10,000 calls and $37.5 for 100,000 calls. In comparison to its top competitors, such as Llama 3.1 70B Instruct and Mistral Large 2, Qwen 2.5 72B Instruct offers a more economical solution without compromising on performance.
+### Technical Strengths and Use Cases
+The main strengths of Qwen 2.5 72B Instruct lie in its coding, analysis, multilingual, RAG, summarization, and cost-effective frontier capabilities. With benchmark scores of 86.0 on MMLU, 87.2 on HumanEval, 1238 on LMSYS Arena ELO, and 92.8 on GSM8K, this model demonstrates its proficiency in handling complex tasks. However, it is not suitable for vision, audio, cutting-edge tasks, or real-time sub-100ms applications. Developers can leverage Qwen 2.5 72B Instruct for a wide range of applications, from coding and analysis to multilingual support and summarization, all while enjoying a cost-effective solution. The pricing model is based on input and output tokens, with costs of $0.35 per 1M input tokens and $0.4 per 1M output tokens.
 
-### Performance and Use Cases
-The Qwen 2.5 72B Instruct model has demonstrated strong performance across various benchmarks, including MMLU (86.0), HumanEval (87.2), LMSYS Arena E</div>
+### Pricing and Cost Examples
+The pricing for Qwen 2.5 72B Instruct is competitive, with costs of $0.35 per 1M input tokens and $0.4 per 1M</div>
       </div>
 
       <!-- PRICING -->
@@ -393,33 +393,30 @@ The Qwen 2.5 72B Instruct model has demonstrated strong performance across vario
 
         <div style="margin-top:1.5rem">### Qwen 2.5 72B Instruct Pricing Analysis
 #### Overview
-The Qwen 2.5 72B Instruct model, provided by Alibaba, offers a competitive pricing structure for natural language processing tasks. Released on September 18, 2024, this model is part of the standard tier and is open-source.
+The Qwen 2.5 72B Instruct model, released by Alibaba on 2024-09-18, offers a competitive pricing structure for its standard tier. This analysis will delve into the cost structure, optimal usage scenarios, and provide a breakdown of costs at scale.
 
 #### Cost Structure
-The cost structure for Qwen 2.5 72B Instruct is as follows:
+The pricing for Qwen 2.5 72B Instruct is as follows:
 * **Input**: $0.35 per 1M tokens
-* **Output**: $0.40 per 1M tokens
+* **Output**: $0.4 per 1M tokens
 * **Cached Input**: $0 per 1M tokens (free)
 * **Batch Input**: $0 per 1M tokens (free)
 
-#### When to Use Cached Tokens
-Cached tokens can be used to reduce costs when the same input is used multiple times. Since cached input is free, it is recommended to use cached tokens whenever possible to minimize costs.
-
-#### Batch API Savings
-Batch API calls can also help reduce costs. With batch input being free, making batch API calls can significantly lower the overall cost of using the Qwen 2.5 72B Instruct model.
+#### Optimizing Costs with Cached Tokens and Batch API
+To minimize costs, utilizing **cached input tokens** is highly recommended when possible, as they are provided at no additional cost. Furthermore, leveraging **batch API** capabilities can lead to significant savings, especially for large-scale applications, although the exact savings per 1M tokens are not specified, the cost examples suggest a discounted rate for bulk calls.
 
 #### Cost at Scale
-The cost of using the Qwen 2.5 72B Instruct model at scale is as follows:
+The costs for Qwen 2.5 72B Instruct at various scales are:
 * **1,000 calls (avg 500 tokens)**: $0.375
 * **10,000 calls**: $3.75
 * **100,000 calls**: $37.5
 
-#### Comparison to Top Competitors
-The Qwen 2.5 72B Instruct model is priced competitively compared to its top competitors:
-* **Llama 3.1 70B Instruct**: $0.52/1M input, $0.75/1M output
-* **Mistral Large 2**: $3.0/1M input, $9.0/1M output
+These costs indicate a linear scaling of expenses with the number of API calls, suggesting that the pricing model is straightforward and predictable.
 
-The</div>
+#### Comparison with Top Competitors
+Qwen 2.5 72B Instruct is priced competitively against its top competitors:
+* **Llama 3.1 70B Instruct**: $0.52/1M input, $0.75/1M output
+* **Mistral Large 2**: $3.0/</div>
       </div>
 
       <!-- BENCHMARKS -->
@@ -430,17 +427,20 @@ The</div>
           <div class="stat-cell"><div class="stat-label">HumanEval</div><div class="stat-value">87.2</div></div>
           <div class="stat-cell"><div class="stat-label">LMSYS ELO</div><div class="stat-value">1238</div></div>
         </div>
-        <div>### Qwen 2.5 72B Instruct Benchmark Performance Analysis
-#### Overview
-The Qwen 2.5 72B Instruct model, released by Alibaba on 2024-09-18, is a standard, open-source model with a context window of 131,072 tokens and a maximum output of 8,192 tokens. This analysis will delve into the model's benchmark performance, focusing on the MMLU, HumanEval, and Arena ELO scores, and their implications for real-world use.
+        <div>### Qwen 2.5 72B Instruct Benchmark Analysis
+The Qwen 2.5 72B Instruct model, released by Alibaba on 2024-09-18, is a standard, open-source model with a context window of 131,072 tokens and a maximum output of 8,192 tokens. 
 
-#### Benchmark Scores
-The Qwen 2.5 72B Instruct model has achieved the following benchmark scores:
-* **MMLU: 86.0** - The MMLU (Massive Multitask Language Understanding) benchmark evaluates a model's ability to perform a wide range of natural language understanding tasks. A score of 86.0 indicates that the model has a strong foundation in language understanding, making it suitable for tasks such as text analysis and summarization.
-* **HumanEval: 87.2** - The HumanEval benchmark assesses a model's ability to generate code that is both correct and readable. A score of 87.2 suggests that the model is capable of producing high-quality code, making it a good choice for coding tasks.
-* **LMSYS Arena ELO: 1238** - The LMSYS Arena ELO benchmark measures a model's performance in a competitive environment, where models are pitted against each other to complete tasks. An ELO score of 1238 indicates that the Qwen 2.5 72B Instruct model is a strong competitor, capable of performing well in a variety of tasks.
+#### Benchmark Performance
+The model's performance is measured by the following benchmarks:
+* **MMLU (Massive Multitask Language Understanding)**: 86.0 - This score indicates the model's ability to understand and generate text across a wide range of tasks and topics. A higher score suggests better performance in tasks that require a broad understanding of language.
+* **HumanEval**: 87.2 - This score measures the model's ability to write correct and functional code in response to programming prompts. A higher score indicates better coding abilities.
+* **LMSYS Arena ELO**: 1238 - This score represents the model's competitive performance in a large-scale language model benchmarking arena. A higher ELO score suggests better overall performance compared to other models.
 
-#### Real-</div>
+#### Real-World Implications
+These benchmark scores have significant implications for real-world use cases:
+* The high MMLU score suggests that Qwen 2.5 72B Instruct is well-suited for tasks that require a broad understanding of language, such as text analysis, summarization, and multilingual applications.
+* The high HumanEval score indicates that the model is capable of generating correct and functional code, making it a good choice for coding tasks and applications that require programming expertise.
+* The LMSYS Arena ELO score suggests that Qwen 2.5 72B Instruct is a competitive model</div>
       </div>
 
       <!-- COMPETITOR TABLE -->
@@ -476,9 +476,9 @@ The Qwen 2.5 72B Instruct model has achieved the following benchmark scores:
             </tbody>
           </table>
         </div>
-        <div style="margin-top:1.5rem">### Qwen 2.5 72B Instruct Comparison
+        <div style="margin-top:1.5rem">### Comparison of Qwen 2.5 72B Instruct with Top Competitors
 #### Overview
-The Qwen 2.5 72B Instruct model, released by Alibaba on 2024-09-18, is a standard, open-source model with a tiered pricing structure. This comparison will examine the Qwen 2.5 72B Instruct model against its top competitors, Llama 3.1 70B Instruct and Mistral Large 2, highlighting price differences, performance trade-offs, and use cases for each model.
+Qwen 2.5 72B Instruct, released by Alibaba on 2024-09-18, is a standard, open-source model that offers competitive pricing and performance. This comparison will delve into the pricing differences, performance trade-offs, and use cases for Qwen 2.5 72B Instruct against its top competitors, Llama 3.1 70B Instruct and Mistral Large 2.
 
 #### Pricing Comparison
 The pricing for each model is as follows:
@@ -486,46 +486,52 @@ The pricing for each model is as follows:
 	+ Input: $0.35 per 1M tokens
 	+ Output: $0.4 per 1M tokens
 * Llama 3.1 70B Instruct:
-	+ Input: $0.52 per 1M tokens (49% more than Qwen)
-	+ Output: $0.75 per 1M tokens (87.5% more than Qwen)
+	+ Input: $0.52 per 1M tokens
+	+ Output: $0.75 per 1M tokens
 * Mistral Large 2:
-	+ Input: $3.0 per 1M tokens (757% more than Qwen)
-	+ Output: $9.0 per 1M tokens (2150% more than Qwen)
+	+ Input: $3.0 per 1M tokens
+	+ Output: $9.0 per 1M tokens
+
+Qwen 2.5 72B Instruct offers the most competitive pricing among the three models, with a significant difference in input and output costs compared to Mistral Large 2.
 
 #### Performance Comparison
-The Qwen 2.5 72B Instruct model has the following benchmark scores:
-* MMLU: 86.0
-* HumanEval: 87.2
-* LMSYS Arena ELO: 1238
-* GSM8K: 92.8
-While the benchmark scores for the competitor models are not provided, the Qwen 2.5 72B Instruct model's scores indicate strong performance in coding, analysis, and multilingual tasks.
+The performance of each model can be evaluated based on the provided benchmarks:
+* Qwen 2.5 72B Instruct:
+	+ MMLU: 86.0
+	+ HumanEval: 87.2
+	+ LMSYS Arena ELO: 1238
+	+ GSM8K: 92.8
+* Llama 3.1 70B Instruct: Not provided
+* Mistral Large 2: Not provided
+
+While the exact performance of Llama 3.1 70B Instruct and Mistral Large 2 is not available, Qwen 2.5 72B Instruct demonstrates strong performance across various benchmarks.
 
 #### Context and Limits
-The Qwen 2.5 72B Instruct model has the following context and limits:
+The context window and maximum output for Qwen 2.5 72B Instruct are:
 * Context Window: 131,072 tokens
 * Max Output: 8,192 tokens
 * Knowledge Cutoff: 2024-03
-These limits are suitable for most coding, analysis, and multilingual tasks, but may not be sufficient for tasks requiring larger context windows or more recent knowledge.
 
-#### Capabilities and Use Cases
-The Qwen 2.5 72B Instruct model has the following capabilities:
-* text
-* function_calling
-* json_mode</div>
+These limits are not provided for Llama 3.1 70B Instruct and Mist</div>
       </div>
 
       <!-- USE CASES -->
       <div class="card content-section">
         <div class="card-title">Best Use Cases</div>
         <div>### Introduction to Qwen 2.5 72B Instruct
-The Qwen 2.5 72B Instruct model, provided by Alibaba, is a powerful tool with a wide range of capabilities, including text analysis, coding, and multilingual support. With its competitive pricing and open-source nature, it presents a compelling option for various applications. This guide will explore the top 5 best use cases for Qwen 2.5 72B Instruct, along with practical advice and code integration examples using OpenRouter.
+The Qwen 2.5 72B Instruct model, provided by Alibaba, is a powerful tool with a wide range of capabilities, including text analysis, function calling, and multilingual support. Released on 2024-09-18, this model is open-source and offers a cost-effective solution for various tasks.
 
-### Top 5 Use Cases for Qwen 2.5 72B Instruct
-1. **Coding and Development**: Qwen 2.5 72B Instruct excels in coding tasks, making it an excellent choice for developers. Its ability to understand and generate code in multiple programming languages can significantly enhance development workflows.
-2. **Text Analysis and Summarization**: With its strong performance in text-based tasks, Qwen 2.5 72B Instruct is well-suited for text analysis, summarization, and information extraction. This can be particularly useful in applications where large volumes of text need to be processed and condensed into actionable insights.
-3. **Multilingual Support**: The model's multilingual capabilities make it an ideal choice for applications requiring support for multiple languages. This can include translation services, multilingual chatbots, or content generation for global audiences.
-4. **Research and Analysis**: Qwen 2.5 72B Instruct's ability to process and analyze large amounts of data makes it a valuable tool for research and analysis tasks. Its performance in benchmarks like MMLU and GSM8K demonstrates its potential in these areas.
-5. **Cost-Effective Content Generation**: For applications where cost-effectiveness is a priority, Qwen 2.5 72B Instruct offers a competitive pricing model. Its ability to generate high-quality content at a lower cost compared to some of its competitors makes</div>
+### Top 5 Best Use Cases for Qwen 2.5 72B Instruct
+Based on its capabilities and benchmarks, the top 5 best use cases for Qwen 2.5 72B Instruct are:
+
+1. **Coding and Development**: With its high scores in HumanEval (87.2) and LMSYS Arena ELO (1238), Qwen 2.5 72B Instruct is well-suited for coding tasks, such as code completion, code review, and code generation.
+2. **Text Analysis and Summarization**: The model's high MMLU score (86.0) and ability to process large context windows (131,072 tokens) make it an excellent choice for text analysis and summarization tasks.
+3. **Multilingual Support**: Qwen 2.5 72B Instruct's multilingual capabilities make it an ideal choice for tasks that require support for multiple languages.
+4. **RAG (Retrieve, Augment, Generate) Tasks**: The model's ability to retrieve and generate text makes it well-suited for RAG tasks, such as question answering and text generation.
+5. **Cost-Effective Frontier**: With its competitive pricing ($0.35 per 1M input tokens and $0.4 per 1M output tokens), Qwen 2.5 72B Instruct is an excellent choice for applications where cost is a primary concern.
+
+### Code Integration Examples with OpenRouter
+To integrate Qwen 2.5 72B Instruct with OpenRouter,</div>
       </div>
 
       <!-- CAPABILITIES -->

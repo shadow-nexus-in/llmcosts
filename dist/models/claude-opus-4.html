@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://llmcosts.dev/models/claude-opus-4">
 
   <!-- Schema.org: Dataset -->
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Claude Opus 4 API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Claude Opus 4 by Anthropic.", "url": "https://llmcosts.dev/models/claude-opus-4", "keywords": ["Claude Opus 4", "Anthropic", "frontier", "coding", "agents", "vision", "computer-use", "anthropic"], "dateModified": "2026-07-07", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Claude Opus 4 API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Claude Opus 4 by Anthropic.", "url": "https://llmcosts.dev/models/claude-opus-4", "keywords": ["Claude Opus 4", "Anthropic", "frontier", "coding", "agents", "vision", "computer-use", "anthropic"], "dateModified": "2026-07-08", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
   <!-- Schema.org: FAQ -->
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
 
@@ -346,13 +346,13 @@
       <div class="card content-section">
         <div class="card-title">Overview</div>
         <div>### Introduction to Claude Opus 4
-Claude Opus 4, developed by Anthropic, is a premium, non-open-source model released on 2025-05-22. This model boasts an impressive set of capabilities, including text, vision, tool use, JSON mode, streaming, batch processing, system prompts, extended thinking, and computer use. Its architecture is designed to handle complex tasks, making it suitable for applications such as complex reasoning, coding, agents, research, legal analysis, financial modeling, long document analysis, and computer use.
+Claude Opus 4, developed by Anthropic, is a premium, non-open-source model released on 2025-05-22. This model boasts an impressive set of capabilities, including text, vision, tool use, JSON mode, streaming, batch processing, system prompts, extended thinking, and computer use. With a context window of 200,000 tokens and a maximum output of 32,000 tokens, Claude Opus 4 is designed to handle complex tasks. Its knowledge cutoff is 2025-03, ensuring it has access to a vast amount of information up to that point.
 
-### Technical Specifications and Pricing
-The model's technical specifications include a context window of 200,000 tokens, a maximum output of 32,000 tokens, and a knowledge cutoff of 2025-03. In terms of pricing, Claude Opus 4 charges $15.0 per 1M tokens for input, $75.0 per 1M tokens for output, $1.5 per 1M tokens for cached input, and $7.5 per 1M tokens for batch input. For example, 1,000 calls with an average of 500 tokens would cost $45.0, while 10,000 calls would cost $450.0, and 100,000 calls would cost $4500.0. The model's performance is backed by strong benchmark scores, including 92.0 on MMLU, 96.2 on HumanEval, 1380 on LMSYS Arena ELO, and 99.0 on GSM8K.
+### Technical Strengths and Use Cases
+Claude Opus 4 demonstrates exceptional performance across various benchmarks, including MMLU (92.0), HumanEval (96.2), LMSYS Arena ELO (1380), and GSM8K (99.0). Its primary strengths lie in complex reasoning, coding, agents, research, legal analysis, financial modeling, long document analysis, and computer use. However, it is not suitable for simple tasks, high-volume applications, budget-conscious projects, or real-time applications requiring sub-100ms responses. The pricing model for Claude Opus 4 includes $15.0 per 1M tokens for input, $75.0 per 1M tokens for output, $1.5 per 1M tokens for cached input, and $7.5 per 1M tokens for batch input. For example, 1,000 calls with an average of 500 tokens would cost $45.0, while 10,000 calls would cost $450.0, and 100,000 calls would cost $4,500.0.
 
-### Comparison and Use Cases
-Claude Opus 4 is positioned as a premium offering, with pricing comparable to other top-tier models. For instance, OpenAI o1 charges $15.0/1M input and $60.0/1M output, while GPT-4o charges $2.5/1M input and $10.0/1M output. However, Claude Op</div>
+### Comparison and Cost Considerations
+When comparing Claude Opus 4 to its top competitors, such as OpenAI o1 and GPT-4o, the pricing differs significantly. OpenAI o1 charges $15</div>
       </div>
 
       <!-- PRICING -->
@@ -391,34 +391,35 @@ Claude Opus 4 is positioned as a premium offering, with pricing comparable to ot
           </tbody>
         </table>
 
-        <div style="margin-top:1.5rem">### Claude Opus 4 Pricing Analysis
+        <div style="margin-top:1.5rem">### Pricing Analysis for Claude Opus 4
 #### Overview
-The Claude Opus 4 model, provided by Anthropic, is a premium, non-open-source model released on 2025-05-22. This analysis will delve into the cost structure, optimal usage scenarios, and cost savings at scale for this model.
+Claude Opus 4, provided by Anthropic, is a premium model released on 2025-05-22. It is not open source. The pricing structure for this model is based on input and output tokens, with additional options for cached input and batch input.
 
 #### Cost Structure
-The pricing for Claude Opus 4 is as follows:
-* Input: **$15.0 per 1M tokens**
-* Output: **$75.0 per 1M tokens**
-* Cached Input: **$1.5 per 1M tokens**
-* Batch Input: **$7.5 per 1M tokens**
+The cost structure for Claude Opus 4 is as follows:
+- **Input**: $15.0 per 1M tokens
+- **Output**: $75.0 per 1M tokens
+- **Cached Input**: $1.5 per 1M tokens
+- **Batch Input**: $7.5 per 1M tokens
 
-#### Optimal Usage Scenarios
-To minimize costs, consider the following scenarios:
-* **Cached Tokens**: Use cached input tokens when possible, as they offer a significant discount (**$1.5 per 1M tokens** compared to **$15.0 per 1M tokens** for regular input).
-* **Batch API**: Utilize batch API calls to reduce input costs (**$7.5 per 1M tokens** compared to **$15.0 per 1M tokens** for regular input).
+#### When to Use Cached Tokens
+Cached tokens are significantly cheaper than regular input tokens, at $1.5 per 1M tokens compared to $15.0 per 1M tokens. This option should be used when the same input is repeated multiple times, as it can lead to substantial cost savings.
+
+#### Batch API Savings
+Batch input is also cheaper than regular input, at $7.5 per 1M tokens. This option should be used when making multiple API calls with different inputs, as it can lead to cost savings compared to making individual API calls.
 
 #### Cost at Scale
 The cost of using Claude Opus 4 at scale is as follows:
-* **1,000 calls (avg 500 tokens)**: **$45.0**
-* **10,000 calls**: **$450.0**
-* **100,000 calls**: **$4500.0**
+- **1,000 calls (avg 500 tokens)**: $45.0
+- **10,000 calls**: $450.0
+- **100,000 calls**: $4500.0
 
-To estimate costs for specific use cases, consider the average number of tokens per call and the frequency of calls.
+These costs are based on the provided examples and can be used to estimate the cost of using Claude Opus 4 for large-scale applications.
 
 #### Comparison to Competitors
-Claude Opus 4's pricing is competitive with other premium models:
-* **OpenAI o1**: $15.0/1M input, $60.0/1M output
-* **GPT-4o**: $2.5/1M input, $10.0/1</div>
+Claude Opus 4 is more expensive than its top competitors:
+- **OpenAI o1**: $15.0/1M input, $60.0/1M output
+- **GPT-</div>
       </div>
 
       <!-- BENCHMARKS -->
@@ -429,24 +430,27 @@ Claude Opus 4's pricing is competitive with other premium models:
           <div class="stat-cell"><div class="stat-label">HumanEval</div><div class="stat-value">96.2</div></div>
           <div class="stat-cell"><div class="stat-label">LMSYS ELO</div><div class="stat-value">1380</div></div>
         </div>
-        <div>### Claude Opus 4 Benchmark Analysis
+        <div>### Claude Opus 4 Benchmark Performance Analysis
 #### Overview
-Claude Opus 4, developed by Anthropic, is a premium, non-open-source model released on 2025-05-22. This analysis will delve into its benchmark performance, focusing on the MMLU, HumanEval, and Arena ELO scores, to understand its capabilities and real-world applications.
+The Claude Opus 4 model, released by Anthropic on 2025-05-22, is a premium, non-open-source model. Its pricing structure includes input, output, cached input, and batch input costs.
 
-#### Benchmark Scores
-The model's benchmark scores are as follows:
-- **MMLU (Massive Multitask Language Understanding)**: 92.0
-- **HumanEval**: 96.2
-- **LMSYS Arena ELO**: 1380
-- **GSM8K**: 99.0
+#### Pricing Structure
+* Input: **$15.0 per 1M tokens**
+* Output: **$75.0 per 1M tokens**
+* Cached Input: **$1.5 per 1M tokens**
+* Batch Input: **$7.5 per 1M tokens**
 
-These scores indicate the model's performance in various tasks:
-- **MMLU**: Measures the model's ability to understand and generate human-like text across a wide range of tasks and topics. A score of 92.0 suggests that Claude Opus 4 has a high level of language understanding, making it suitable for complex tasks that require nuanced comprehension.
-- **HumanEval**: Evaluates the model's coding abilities, specifically its capacity to write correct and functional code. With a score of 96.2, Claude Opus 4 demonstrates exceptional coding skills, which is beneficial for applications involving software development, code review, and automated coding tasks.
-- **LMSYS Arena ELO**: Assesses the model's performance in a competitive environment, where it is pitted against other models in various tasks. An ELO score of 1380 indicates that Claude Opus 4 is a strong competitor, capable of performing well in a wide range of challenges.
+#### Benchmark Performance
+The model's performance is measured through several benchmarks:
+* **MMLU (Massive Multitask Language Understanding)**: 92.0 - This score indicates the model's ability to understand and perform a wide range of natural language tasks. A higher score suggests better performance in tasks such as text classification, sentiment analysis, and question answering.
+* **HumanEval**: 96.2 - This benchmark evaluates the model's ability to generate code that passes a set of unit tests. A higher score indicates better coding abilities, making the model suitable for tasks like coding and software development.
+* **LMSYS Arena ELO**: 1380 - This score represents the model's performance in a competitive environment, where it is pitted against other models. A higher ELO score indicates better performance in tasks that require strategic thinking and problem-solving.
 
 #### Real-World Implications
-The high benchmark scores of Claude</div>
+The benchmark scores suggest that Claude Opus 4 is well-suited for tasks that require:
+* Complex reasoning and problem-solving (MMLU: 92.0)
+* Coding and software development (HumanEval: 96.2)
+</div>
       </div>
 
       <!-- COMPETITOR TABLE -->
@@ -482,29 +486,31 @@ The high benchmark scores of Claude</div>
             </tbody>
           </table>
         </div>
-        <div style="margin-top:1.5rem">### Comparison of Claude Opus 4 with Top Competitors
+        <div style="margin-top:1.5rem">### Claude Opus 4 Comparison
 #### Overview
-Claude Opus 4, developed by Anthropic, is a premium, non-open-source model released on 2025-05-22. It offers a range of capabilities, including text, vision, and tool use, making it suitable for complex tasks such as coding, research, and financial modeling.
+Claude Opus 4, offered by Anthropic, is a premium, non-open-source model released on 2025-05-22. This comparison will delve into the pricing, performance, and use cases of Claude Opus 4 against its top competitors, OpenAI o1 and GPT-4o.
 
 #### Pricing Comparison
-The pricing model of Claude Opus 4 is as follows:
-* Input: $15.0 per 1M tokens
-* Output: $75.0 per 1M tokens
-* Cached Input: $1.5 per 1M tokens
-* Batch Input: $7.5 per 1M tokens
-
-In comparison, the top competitors have the following pricing:
-* OpenAI o1: $15.0/1M input, $60.0/1M output
-* GPT-4o: $2.5/1M input, $10.0/1M output
+The pricing for each model is as follows:
+* **Claude Opus 4**:
+	+ Input: $15.0 per 1M tokens
+	+ Output: $75.0 per 1M tokens
+	+ Cached Input: $1.5 per 1M tokens
+	+ Batch Input: $7.5 per 1M tokens
+* **OpenAI o1**:
+	+ Input: $15.0 per 1M tokens
+	+ Output: $60.0 per 1M tokens
+* **GPT-4o**:
+	+ Input: $2.5 per 1M tokens
+	+ Output: $10.0 per 1M tokens
 
 #### Performance Trade-offs
-Claude Opus 4 has the following benchmarks:
+Claude Opus 4 boasts impressive benchmarks:
 * MMLU: 92.0
 * HumanEval: 96.2
 * LMSYS Arena ELO: 1380
 * GSM8K: 99.0
-
-While the performance benchmarks of the competitors are not provided, the pricing difference suggests that Claude Opus 4 may offer superior performance, but at a higher cost.
+However, its premium pricing may not be suitable for all use cases. In contrast, OpenAI o1 and GPT-4o offer more competitive pricing, but their performance may vary.
 
 #### Context and Limits
 Claude Opus 4 has the following context and limits:
@@ -512,44 +518,51 @@ Claude Opus 4 has the following context and limits:
 * Max Output: 32,000 tokens
 * Knowledge Cutoff: 2025-03
 
-These limits may affect the choice of model, especially for applications that require larger context windows or more recent knowledge.
+#### Capabilities and Use Cases
+Claude Opus 4 is capable of:
+* text
+* vision
+* tool_use
+* json_mode
+* streaming
+* batch_processing
+* system_prompts
+* extended_thinking
+* computer_use
+It is best suited for:
+* complex_reasoning
+* coding
+* agents
+* research
+* legal_analysis
+* financial_modeling
+* long_document_analysis
+* computer_use
+However, it is not recommended for:
+* simple_tasks
+* high_volume
+* budget_conscious
+* real_time_sub_100ms
+* embeddings
 
 #### Cost Examples
-The cost of using Claude Opus 4 can be estimated as follows:
-* 1,000 calls (avg 500 tokens): $45.0
-* 10,000 calls: $450.0
-* 100,000 calls: $4500.0
-
-#### When to Choose Each Model
-Based on the pricing and capabilities, here are some guidelines on when to choose each model:
-* **Claude Opus 4**: Choose for complex tasks that require high performance, such as coding, research, and financial modeling. Be prepared for higher costs.
-* **OpenAI o1**: Choose for applications that</div>
+The</div>
       </div>
 
       <!-- USE CASES -->
       <div class="card content-section">
         <div class="card-title">Best Use Cases</div>
         <div>### Introduction to Claude Opus 4
-Claude Opus 4, developed by Anthropic, is a premium, non-open-source model released on 2025-05-22. With its impressive capabilities in complex reasoning, coding, and long document analysis, it stands out as a powerful tool for various applications. This guide will explore the top 5 best use cases for Claude Opus 4, along with practical advice and code integration examples using OpenRouter.
+Claude Opus 4, developed by Anthropic, is a premium, non-open-source model released on 2025-05-22. It offers advanced capabilities such as text, vision, tool use, JSON mode, streaming, batch processing, system prompts, extended thinking, and computer use. This model is best suited for tasks requiring complex reasoning, coding, agents, research, legal analysis, financial modeling, long document analysis, and computer use.
 
-### Top 5 Use Cases for Claude Opus 4
-#### 1. **Complex Reasoning and Problem-Solving**
-Claude Opus 4 excels in complex reasoning, making it ideal for solving intricate problems that require deep understanding and logical deduction. Its high MMLU score of 92.0 and HumanEval score of 96.2 demonstrate its capability in handling complex tasks.
+### Top 5 Best Use Cases for Claude Opus 4
+Given its capabilities and pricing, here are the top 5 best use cases for Claude Opus 4:
 
-#### 2. **Coding and Software Development**
-With its strong coding capabilities, Claude Opus 4 can assist in software development, code review, and optimization. Its high score in HumanEval (96.2) indicates its proficiency in coding tasks.
-
-#### 3. **Legal Analysis and Document Review**
-Claude Opus 4's ability to analyze long documents and its proficiency in complex reasoning make it suitable for legal analysis and document review. Its extended thinking capability allows for in-depth examination of legal texts.
-
-#### 4. **Financial Modeling and Analysis**
-The model's capabilities in complex reasoning and its ability to handle numerical data make it a good fit for financial modeling and analysis. Its high score in GSM8K (99.0) demonstrates its proficiency in mathematical reasoning.
-
-#### 5. **Research Assistance**
-Claude Opus 4's knowledge cutoff of 2025-03 and its ability to understand and generate human-like text make it an excellent tool for research assistance, including literature review and research paper drafting.
-
-### Code Integration Example with OpenRouter
-To integrate Claude Opus 4 with Open</div>
+1. **Complex Legal Analysis**: Claude Opus 4's ability to handle long document analysis and its high performance in complex reasoning tasks make it an ideal choice for legal analysis. It can process large legal documents and provide insightful summaries or identify key points relevant to a case.
+2. **Advanced Coding and Agents**: With its coding and agent capabilities, Claude Opus 4 can be used for developing sophisticated software agents that can interact with users or other systems. Its high score in HumanEval (96.2) indicates its proficiency in coding tasks.
+3. **Financial Modeling and Analysis**: The model's capability in financial modeling, combined with its ability to process large amounts of data, makes it suitable for complex financial analysis tasks. It can help in forecasting, risk analysis, and portfolio optimization.
+4. **Research Assistance**: Claude Opus 4's extended thinking capability and its high performance in research-oriented benchmarks (e.g., MMLU: 92.0) make it an excellent tool for researchers. It can assist in literature review, hypothesis generation, and even drafting research papers.
+5. **Computer Use and Automation**: Given its computer use capability, Claude Opus 4 can be integrated with systems to automate tasks, provide technical support, or even assist in software development. Its ability to understand and</div>
       </div>
 
       <!-- CAPABILITIES -->
