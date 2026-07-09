@@ -1,17 +1,17 @@
 # Z.ai: GLM 5.1 API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-07-08
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-07-09
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
 ### Introduction to Z.ai: GLM 5.1
-Z.ai: GLM 5.1 is a standard-tier model provided by Z-ai, released on January 1, 2024. This model is not open source. The architecture of Z.ai: GLM 5.1 is designed to handle a wide range of natural language processing tasks, with a context window of 202,752 tokens and a maximum output of 4,096 tokens. The model's knowledge cutoff is December 2023, ensuring it has a broad and up-to-date understanding of the world.
+Z.ai: GLM 5.1 is a standard-tier language model developed by Z-ai, released on January 1, 2024. This model is not open-source. The architecture of GLM 5.1 is designed to handle a wide range of natural language processing tasks, with a context window of up to 202,752 tokens and a maximum output of 4,096 tokens. The model's knowledge cutoff is December 2023, ensuring it has a broad and up-to-date understanding of the world.
 
-### Technical Strengths and Use Cases
-Z.ai: GLM 5.1 boasts several key strengths, including its capabilities in text generation, function calling, JSON mode, streaming, and structured outputs. These capabilities make it well-suited for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization. The model's pricing is based on input and output tokens, with costs of $1.26 per 1M input tokens and $3.96 per 1M output tokens. With a high MMLU benchmark score of 80.0 and an LMSYS Arena ELO score of 1200, Z.ai: GLM 5.1 demonstrates strong performance in various technical evaluations.
+### Strengths and Use-Cases
+The main strengths of Z.ai: GLM 5.1 lie in its capabilities, which include text generation, function calling, JSON mode, streaming, and structured outputs. These features make it particularly suited for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization. With a pricing model that charges $1.26 per 1M tokens for input and $3.96 per 1M tokens for output, developers can estimate costs based on the number of calls and tokens used. For example, 1,000 calls with an average of 500 tokens would cost approximately $2.61.
 
-### Cost and Competitiveness
-In terms of cost, Z.ai: GLM 5.1 offers competitive pricing for developers, with estimated costs of $2.61 for 1,000 calls (averaging 500 tokens), $26.1 for 10,000 calls, and $261.0 for 100,000 calls. While there are no direct competitors listed for this model, its unique combination of capabilities and pricing makes it an attractive option for developers working on a variety of NLP projects. By understanding the strengths, limitations, and costs of Z.ai: GLM 5.1, developers can make informed
+### Technical Benchmarks and Cost Considerations
+Z.ai: GLM 5.1 has been benchmarked with an MMLU score of 80.0 and an LMSYS Arena ELO of 1200, demonstrating its performance capabilities. While it does not have direct competitors listed, its unique combination of features and pricing makes it an attractive option for developers working on specific use-cases. To plan for costs, developers can consider that 10,000 calls would amount to $26.1, and 100,000 calls would cost $261.0. Understanding the model's strengths, limitations, and pricing structure is crucial for integrating Z.ai: GLM 5.1 into applications
 
 ## Pricing (USD per 1M tokens)
 | Metric | Price |
@@ -25,33 +25,31 @@ In terms of cost, Z.ai: GLM 5.1 offers competitive pricing for developers, with 
 ## Pricing Analysis
 ### Z.ai: GLM 5.1 Pricing Analysis
 #### Overview
-The Z.ai: GLM 5.1 model is a standard, non-open source model provided by Z-ai, released on January 1, 2024. This analysis will break down the cost structure, provide guidance on when to use cached tokens and batch API calls, and examine the cost at scale for 1,000, 10,000, and 100,000 API calls.
+The Z.ai: GLM 5.1 model is a standard, non-open-source model provided by Z-ai, released on January 1, 2024. This analysis will break down the cost structure, provide guidance on when to use cached tokens, discuss batch API savings, and examine the cost at scale for 1,000, 10,000, and 100,000 API calls.
 
 #### Cost Structure
 The cost structure for Z.ai: GLM 5.1 is as follows:
 * **Input**: $1.26 per 1M tokens
 * **Output**: $3.96 per 1M tokens
-* **Cached Input**: $0 per 1M tokens (free)
-* **Batch Input**: $0 per 1M tokens (free)
+* **Cached Input**: $None per 1M tokens (free)
+* **Batch Input**: $None per 1M tokens (free)
 
-#### Using Cached Tokens and Batch API Calls
-Given that cached input and batch input are free, it is highly recommended to utilize these features whenever possible to minimize costs. Cached tokens can be used for repeated input queries, while batch API calls can be used for multiple input queries in a single request.
+#### Cached Tokens
+Cached tokens are free, with a cost of $None per 1M tokens. This makes caching an attractive option for reducing costs, especially for frequently accessed or static input data.
+
+#### Batch API Savings
+Batch input is also free, with a cost of $None per 1M tokens. This means that batching API calls can lead to significant cost savings, as the input cost is waived. However, the output cost still applies, at $3.96 per 1M tokens.
 
 #### Cost at Scale
-The cost at scale for Z.ai: GLM 5.1 is as follows:
+The cost of using Z.ai: GLM 5.1 at scale is as follows:
 * **1,000 calls (avg 500 tokens)**: $2.61
 * **10,000 calls**: $26.1
 * **100,000 calls**: $261.0
 
-These costs demonstrate a linear relationship between the number of API calls and the total cost.
+These costs are based on the average number of tokens per call and the input and output costs.
 
 #### Context and Limits
-It is essential to consider the context window and output limits when using Z.ai: GLM 5.1:
-* **Context Window**: 202,752 tokens
-* **Max Output**: 4,096 tokens
-* **Knowledge Cutoff**: 2023-12
-
-These limits can impact the cost and effectiveness of the model, especially for longer input sequences or output requirements
+The context window for Z.ai: GLM 5.1 is 202,752 tokens, with a maximum output of 4,096 tokens
 
 ## Benchmarks
 | Benchmark | Score |
@@ -64,24 +62,52 @@ These limits can impact the cost and effectiveness of the model, especially for 
 ## Benchmark Analysis
 ### Z.ai: GLM 5.1 Benchmark Performance Analysis
 #### Overview
-The Z.ai: GLM 5.1 model, released on 2024-01-01 by Z-ai, is a standard, non-open-source model. Its performance is measured by several benchmarks, including MMLU, HumanEval, and Arena ELO scores.
+The Z.ai: GLM 5.1 model, released by Z-ai on 2024-01-01, is a standard, non-open-source model. This analysis will delve into its benchmark performance, focusing on the MMLU, HumanEval, and Arena ELO scores, and explain their implications for real-world use.
 
-#### Benchmark Scores
-* **MMLU (Massive Multitask Language Understanding) Score: 80.0** - This score indicates the model's ability to understand and perform a wide range of natural language processing tasks. A higher score suggests better performance.
-* **HumanEval Score: None** - HumanEval is a benchmark that evaluates a model's ability to generate correct code. The absence of a score for this benchmark means that the model's coding capabilities are not evaluated in this context.
-* **LMSYS Arena ELO Score: 1200** - The Arena ELO score is a measure of the model's performance in a competitive environment, similar to a chess rating system. A score of 1200 indicates a moderate level of performance, with higher scores indicating better performance.
+#### Pricing
+The pricing for Z.ai: GLM 5.1 is as follows:
+- Input: **$1.26 per 1M tokens**
+- Output: **$3.96 per 1M tokens**
+- Cached Input: **$None per 1M tokens**
+- Batch Input: **$None per 1M tokens**
 
-#### Real-World Implications
-The benchmark scores suggest that Z.ai: GLM 5.1 is a capable model for various natural language processing tasks, as indicated by its MMLU score of 80.0. However, the lack of a HumanEval score means that its coding capabilities are not well-evaluated. The Arena ELO score of 1200 suggests that the model may not be the top performer in competitive environments, but it can still provide useful results.
+#### Context and Limits
+The model has the following context and limits:
+- Context Window: **202,752 tokens**
+- Max Output: **4,096 tokens**
+- Knowledge Cutoff: **2023-12**
 
-#### Pricing and Cost Examples
-The pricing for Z.ai: GLM 5.1
+#### Benchmarks
+The benchmark scores for Z.ai: GLM 5.1 are:
+- MMLU: **80.0**
+- HumanEval: **None**
+- LMSYS Arena ELO: **1200**
+- GSM8K: **None**
+
+#### Capabilities and Use Cases
+Z.ai: GLM 5.1 supports the following capabilities:
+- text
+- function_calling
+- json_mode
+- streaming
+- structured_outputs
+It is best suited for:
+- chat
+- text_generation
+- coding
+- analysis
+- rag_pipelines
+- summarization
+
+#### Benchmark Analysis
+- **MMLU (80.0)**: The MMLU score measures a
 
 ## Competitor Comparison
 ### Comparison of Z.ai: GLM 5.1 with Top Competitors
-Since there are no direct competitors listed for Z.ai: GLM 5.1, we will provide a general overview of the model's features, pricing, and performance. This will help users understand when to choose Z.ai: GLM 5.1 and what trade-offs to expect.
+Since there are no direct competitors listed for Z.ai: GLM 5.1, we will provide a general overview of the model's features, pricing, and performance. This will serve as a baseline for comparison with other models in the future.
 
 #### Model Overview
+* **Model:** Z.ai: GLM 5.1 (z-ai/glm-5.1)
 * **Provider:** Z-ai
 * **Release Date:** 2024-01-01
 * **Tier:** Standard
@@ -95,11 +121,13 @@ The pricing for Z.ai: GLM 5.1 is as follows:
 * **Batch Input:** $None per 1M tokens
 
 #### Context and Limits
+The model has the following context and limits:
 * **Context Window:** 202,752 tokens
 * **Max Output:** 4,096 tokens
 * **Knowledge Cutoff:** 2023-12
 
 #### Benchmarks
+The model's performance on various benchmarks is:
 * **MMLU:** 80.0
 * **HumanEval:** None
 * **LMSYS Arena ELO:** 1200
@@ -107,45 +135,44 @@ The pricing for Z.ai: GLM 5.1 is as follows:
 
 #### Capabilities and Use Cases
 Z.ai: GLM 5.1 supports the following capabilities:
-* text
-* function_calling
-* json_mode
-* streaming
-* structured_outputs
+* **Text**
+* **Function calling**
+* **JSON mode**
+* **Streaming**
+* **Structured outputs**
 
 It is best suited for:
-* chat
-* text_generation
-* coding
-* analysis
-* rag_pipelines
-* summarization
-
-No specific use cases are listed as not suitable for Z.ai: GLM 5.1.
+* **Chat**
+* **Text generation**
+* **Coding**
+* **Analysis**
+* **RAG pipelines**
+* **Summarization**
 
 #### Cost Examples
 The estimated costs for using Z.ai: GLM 5.1 are:
-* 1,000 calls (avg 500 tokens): $2.61
-* 10,000 calls: $26.1
-* 100,000 calls: $261.0
+* **1,000 calls (avg 500 tokens):** $2.61
+* **10,000 calls:** $26.1
+* **100,000 calls:** $261.0
 
-### Choosing Z.ai: GLM 5.1
-Since there are no direct competitors listed, the decision to choose Z.ai: GLM 5.1 depends on the specific requirements of your project. Consider the following factors:
-* **Pricing:** If your project requires a large number of input or output tokens, Z.ai: GLM 5.1 may be a cost-effective option.
+### Comparison with Hypothetical Competitors
+Since there are no direct competitors listed, we will outline the factors to consider when comparing Z.ai: GLM 5.1 with other models:
+
+* **Pricing:** Compare the input and output costs per 1M tokens.
 
 
 ## Best Use Cases
 ### Introduction to Z.ai: GLM 5.1
-Z.ai: GLM 5.1 is a powerful language model released by Z-ai on 2024-01-01. With its standard tier and closed-source architecture, it offers a range of capabilities including text generation, function calling, and structured outputs. This guide will explore the top 5 best use cases for Z.ai: GLM 5.1, along with practical advice and code integration examples using OpenRouter.
+Z.ai: GLM 5.1 is a powerful language model released by Z-ai on 2024-01-01. With its standard tier and closed-source nature, it offers a range of capabilities including text generation, function calling, JSON mode, streaming, and structured outputs. This guide will explore the top 5 best use cases for Z.ai: GLM 5.1, along with practical advice and code integration examples using OpenRouter.
 
 ### Top 5 Use Cases for Z.ai: GLM 5.1
 Based on its capabilities and benchmarks, the top 5 use cases for Z.ai: GLM 5.1 are:
 
-1. **Chat and Text Generation**: With its high MMLU score of 80.0, Z.ai: GLM 5.1 is well-suited for chat and text generation applications.
-2. **Coding and Analysis**: Its ability to perform function calling and generate structured outputs makes it a good fit for coding and analysis tasks.
-3. **Summarization**: Z.ai: GLM 5.1's capabilities in text generation and analysis make it suitable for summarization tasks.
-4. **RAG Pipelines**: Its support for structured outputs and function calling enables its use in RAG (Retrieve, Augment, Generate) pipelines.
-5. **Content Creation**: With its high context window of 202,752 tokens, Z.ai: GLM 5.1 can be used for content creation tasks such as writing articles or generating reports.
+1. **Chat and Text Generation**: With its high context window of 202,752 tokens and max output of 4,096 tokens, Z.ai: GLM 5.1 is well-suited for chat and text generation applications.
+2. **Coding and Analysis**: The model's function calling and structured outputs capabilities make it a good fit for coding and analysis tasks, such as code completion and data analysis.
+3. **Summarization**: Z.ai: GLM 5.1's ability to process large amounts of text and generate concise summaries makes it a good choice for summarization tasks.
+4. **RAG Pipelines**: The model's support for retrieval-augmented generation (RAG) pipelines makes it suitable for tasks that require generating text based on external knowledge sources.
+5. **Streaming**: With its streaming capability, Z.ai: GLM 5.1 can be used for real-time text generation and processing applications.
 
 ### Code Integration Example with OpenRouter
 To integrate Z.ai: GLM 5.1 with OpenRouter, you can use the following code example:
@@ -153,12 +180,10 @@ To integrate Z.ai: GLM 5.1 with OpenRouter, you can use the following code examp
 import openrouter
 
 # Initialize the OpenRouter client
-client = openrouter.Client(api_key="YOUR_API_KEY")
+client = openrouter.Client()
 
 # Define the input prompt
-prompt = "Write a short story about a character who discovers a hidden world."
-
-# Define the Z
+prompt = "Generate
 
 ## Frequently Asked Questions
 
