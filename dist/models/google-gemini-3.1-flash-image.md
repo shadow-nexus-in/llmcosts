@@ -1,6 +1,6 @@
 # Google: Nano Banana 2 (Gemini 3.1 Flash Image) API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-07-10
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-07-11
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
