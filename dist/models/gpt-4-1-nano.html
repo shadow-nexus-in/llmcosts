@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://llmcosts.dev/models/gpt-4-1-nano">
 
   <!-- Schema.org: Dataset -->
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "GPT-4.1 Nano API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for GPT-4.1 Nano by OpenAI.", "url": "https://llmcosts.dev/models/gpt-4-1-nano", "keywords": ["GPT-4.1 Nano", "OpenAI", "budget", "ultra-low-cost", "long-context", "multimodal", "high-volume"], "dateModified": "2026-07-11", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "GPT-4.1 Nano API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for GPT-4.1 Nano by OpenAI.", "url": "https://llmcosts.dev/models/gpt-4-1-nano", "keywords": ["GPT-4.1 Nano", "OpenAI", "budget", "ultra-low-cost", "long-context", "multimodal", "high-volume"], "dateModified": "2026-07-12", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
   <!-- Schema.org: FAQ -->
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
 
@@ -346,13 +346,13 @@
       <div class="card content-section">
         <div class="card-title">Overview</div>
         <div>### Introduction to GPT-4.1 Nano
-The GPT-4.1 Nano model, released by OpenAI on 2025-04-14, is a budget-friendly option for developers seeking to leverage the power of large language models without incurring significant costs. This model is not open-source, indicating that while developers can utilize it for various applications, the underlying architecture and training data are proprietary to OpenAI. GPT-4.1 Nano is designed with a context window of 1,047,576 tokens and can generate up to 32,768 tokens as output, making it suitable for a wide range of text-based applications.
+The GPT-4.1 Nano model, released by OpenAI on 2025-04-14, is a budget-friendly option for developers seeking to integrate AI capabilities into their applications. This model is not open source. From an architectural standpoint, GPT-4.1 Nano is designed to provide a balance between performance and cost, making it an attractive choice for a wide range of use cases, including chatbots, classification, summarization, and bulk processing. With its capabilities extending to text, vision, function calling, and more, it offers versatility in handling various types of data and tasks.
 
-### Technical Capabilities and Pricing
-GPT-4.1 Nano boasts an impressive array of capabilities, including text and vision processing, function calling, JSON mode, structured outputs, streaming, batch processing, and system prompts. Its pricing structure is as follows: $0.1 per 1M tokens for input, $0.4 per 1M tokens for output, $0.025 per 1M tokens for cached input, and $0.05 per 1M tokens for batch input. The model has demonstrated strong performance in various benchmarks, achieving scores of 80.1 on MMLU, 80.5 on HumanEval, 1195 on LMSYS Arena ELO, and 85.0 on GSM8K. These capabilities and pricing make GPT-4.1 Nano an attractive option for applications such as chatbots, classification, summarization, and bulk processing.
+### Technical Specifications and Pricing
+Technically, GPT-4.1 Nano boasts a context window of 1,047,576 tokens and can generate up to 32,768 tokens as output. Its knowledge cutoff is 2025-01, ensuring it has a solid foundation of knowledge up to that point. The pricing model is structured around input and output tokens, with costs set at $0.1 per 1M tokens for input, $0.4 per 1M tokens for output, $0.025 per 1M tokens for cached input, and $0.05 per 1M tokens for batch input. This makes it competitive, especially when compared to other models like GPT-4o Mini and Claude 3.5 Haiku, which charge $0.15/1M input, $0.6/1M output and $0.8/1M input, $4.0/1M output, respectively. The model's performance is underscored by its benchmark scores, including an MMLU score of 80.1, HumanEval score of 80.5, and an LMSYS Arena ELO of 1195.
 
-### Use Cases and Competitors
-GPT-4.1 Nano is best suited for applications that require efficient text processing, such as chatbots, content moderation, and real-time apps. However, it may not be the ideal choice for tasks that demand complex reasoning, long document analysis, cutting-edge coding, or research tasks. In terms of cost, examples include $0.25 for 1,000 calls</div>
+### Use Cases and Cost Considerations
+GPT-4.1 Nano is best suited for applications that require efficient processing</div>
       </div>
 
       <!-- PRICING -->
@@ -393,34 +393,34 @@ GPT-4.1 Nano is best suited for applications that require efficient text process
 
         <div style="margin-top:1.5rem">### GPT-4.1 Nano Pricing Analysis
 #### Overview
-The GPT-4.1 Nano model, released by OpenAI on 2025-04-14, is a budget-friendly option with a tier classification of "budget". This analysis will delve into the cost structure, optimal usage scenarios, and cost savings at scale for this model.
+The GPT-4.1 Nano model, released by OpenAI on 2025-04-14, is a budget-friendly option with a tier classification of "budget". This analysis will delve into the cost structure, optimal usage scenarios, and cost savings at scale.
 
 #### Cost Structure
 The pricing for GPT-4.1 Nano is as follows:
-* Input: **$0.1 per 1M tokens**
-* Output: **$0.4 per 1M tokens**
-* Cached Input: **$0.025 per 1M tokens** (75% discount compared to regular input)
-* Batch Input: **$0.05 per 1M tokens** (50% discount compared to regular input)
+* **Input**: $0.1 per 1M tokens
+* **Output**: $0.4 per 1M tokens
+* **Cached Input**: $0.025 per 1M tokens (75% discount compared to regular input)
+* **Batch Input**: $0.05 per 1M tokens (50% discount compared to regular input)
 
-#### When to Use Cached Tokens
-Cached tokens offer a significant discount of 75% compared to regular input tokens. It is recommended to use cached tokens when:
-* The input data is repetitive or has a high degree of similarity.
-* The application can tolerate slightly stale data (knowledge cutoff: 2025-01).
-
-#### Batch API Savings
-Batch input tokens offer a 50% discount compared to regular input tokens. To maximize batch API savings:
-* Group multiple API calls together to reduce the number of requests.
-* Ensure the batch size is large enough to offset the overhead of batch processing.
+#### Optimal Usage Scenarios
+To minimize costs, consider the following scenarios:
+* **Use cached tokens** when possible, as they offer a significant 75% discount compared to regular input tokens.
+* **Batch API calls** to take advantage of the 50% discount on input tokens.
 
 #### Cost at Scale
 The cost of using GPT-4.1 Nano at scale is as follows:
-* **1,000 calls (avg 500 tokens)**: **$0.25**
-* **10,000 calls**: **$2.5** ( equivalent to $0.00025 per token)
-* **100,000 calls**: **$25.0** (equivalent to $0.00025 per token)
+* **1,000 calls** (avg 500 tokens): $0.25
+* **10,000 calls**: $2.5
+* **100,000 calls**: $25.0
 
-#### Competitor Comparison
-GPT-4.1 Nano is competitively priced compared to other models:
-* GPT-</div>
+These costs demonstrate a linear scaling of expenses with the number of API calls.
+
+#### Comparison to Top Competitors
+GPT-4.1 Nano's pricing is competitive with other models in the market:
+* **GPT-4o Mini**: $0.15/1M input, $0.6/1M output
+* **Claude 3.5 Haiku**: $0.8/1M input, $4.0/1M output
+
+GPT-4.1 Nano offers a more affordable option for input tokens, but its output token</div>
       </div>
 
       <!-- BENCHMARKS -->
@@ -432,16 +432,19 @@ GPT-4.1 Nano is competitively priced compared to other models:
           <div class="stat-cell"><div class="stat-label">LMSYS ELO</div><div class="stat-value">1195</div></div>
         </div>
         <div>### GPT-4.1 Nano Benchmark Performance Analysis
-#### Overview
-The GPT-4.1 Nano model, released by OpenAI on 2025-04-14, is a budget-friendly option with a context window of 1,047,576 tokens and a maximum output of 32,768 tokens. This analysis will delve into the model's benchmark performance, focusing on the MMLU, HumanEval, and Arena ELO scores, and their implications for real-world applications.
+The GPT-4.1 Nano model, released by OpenAI on 2025-04-14, is a budget-friendly option with a unique set of capabilities and limitations. To understand its performance, we'll delve into its benchmark scores and what they mean for real-world applications.
 
 #### Benchmark Scores
-The GPT-4.1 Nano model has achieved the following benchmark scores:
-* **MMLU: 80.1** - The MMLU (Massive Multitask Language Understanding) benchmark evaluates a model's ability to perform a wide range of natural language processing tasks. A score of 80.1 indicates that GPT-4.1 Nano has a strong foundation in language understanding, making it suitable for tasks like chatbots, classification, and summarization.
-* **HumanEval: 80.5** - The HumanEval benchmark assesses a model's ability to generate code that is both correct and readable. A score of 80.5 suggests that GPT-4.1 Nano is capable of producing high-quality code, making it a good fit for simple coding tasks and content moderation.
-* **LMSYS Arena ELO: 1195** - The LMSYS Arena ELO benchmark measures a model's performance in a competitive environment, where it is pitted against other models. An ELO score of 1195 indicates that GPT-4.1 Nano is a strong competitor, capable of holding its own in a variety of tasks and applications.
+The model's performance is measured by the following benchmarks:
+* **MMLU (Massive Multitask Language Understanding)**: 80.1 - This score indicates the model's ability to understand and generate human-like text across a wide range of tasks and topics. A higher score suggests better language understanding and generation capabilities.
+* **HumanEval**: 80.5 - This benchmark evaluates the model's ability to write correct and functional code in response to programming prompts. A higher score implies better coding skills and problem-solving abilities.
+* **LMSYS Arena ELO**: 1195 - This score measures the model's performance in a competitive arena, where it's pitted against other models in various tasks. A higher ELO score indicates better overall performance and adaptability.
 
-#### Real-World</div>
+#### Real-World Implications
+These benchmark scores have significant implications for real-world use cases:
+* **MMLU score of 80.1**: This suggests that GPT-4.1 Nano is capable of understanding and generating coherent text, making it suitable for applications like chatbots, classification, and summarization.
+* **HumanEval score of 80.5**: This indicates that the model can write functional code, albeit with some limitations. It's best suited for simple coding tasks, such as data processing or automation, rather than complex software development.
+* **LMSYS Arena E</div>
       </div>
 
       <!-- COMPETITOR TABLE -->
@@ -478,11 +481,11 @@ The GPT-4.1 Nano model has achieved the following benchmark scores:
           </table>
         </div>
         <div style="margin-top:1.5rem">### Comparison of GPT-4.1 Nano with Top Competitors
-#### Introduction
-GPT-4.1 Nano, released by OpenAI on 2025-04-14, is a budget-friendly model with a unique set of capabilities and pricing. This comparison will delve into the details of GPT-4.1 Nano, its top competitors, GPT-4o Mini and Claude 3.5 Haiku, and provide guidance on when to choose each model.
+#### Overview
+GPT-4.1 Nano, released by OpenAI on 2025-04-14, is a budget-friendly model with a unique set of capabilities and limitations. This comparison will delve into the pricing, performance, and use cases of GPT-4.1 Nano against its top competitors, GPT-4o Mini and Claude 3.5 Haiku.
 
 #### Pricing Comparison
-The pricing models for each of the three competitors are as follows:
+The pricing models of the three competitors are as follows:
 
 * **GPT-4.1 Nano**:
 	+ Input: $0.1 per 1M tokens
@@ -496,32 +499,20 @@ The pricing models for each of the three competitors are as follows:
 	+ Input: $0.8 per 1M tokens
 	+ Output: $4.0 per 1M tokens
 
-GPT-4.1 Nano offers the most competitive pricing, with significant discounts for cached input and batch processing.
+GPT-4.1 Nano offers the most competitive pricing, with significant discounts for cached and batch inputs.
 
 #### Performance Comparison
-The benchmark scores for GPT-4.1 Nano are:
+The performance benchmarks of the three models are:
 
-* MMLU: 80.1
-* HumanEval: 80.5
-* LMSYS Arena ELO: 1195
-* GSM8K: 85.0
+* **GPT-4.1 Nano**:
+	+ MMLU: 80.1
+	+ HumanEval: 80.5
+	+ LMSYS Arena ELO: 1195
+	+ GSM8K: 85.0
+* **GPT-4o Mini** and **Claude 3.5 Haiku** benchmarks are not provided, but their pricing suggests they may offer higher performance or additional capabilities.
 
-While the benchmark scores for GPT-4o Mini and Claude 3.5 Haiku are not provided, GPT-4.1 Nano's scores indicate a strong performance in various tasks.
-
-#### Capabilities and Use Cases
-GPT-4.1 Nano is capable of:
-
-* Text processing
-* Vision tasks
-* Function calling
-* JSON mode
-* Structured outputs
-* Streaming
-* Batch processing
-* System prompts
-
-It is best suited for:
-
+#### Use Cases and Limitations
+GPT-4.1 Nano is best suited for:
 * Chatbots
 * Classification
 * Summarization
@@ -532,28 +523,38 @@ It is best suited for:
 * Real-time applications
 
 However, it is not recommended for:
-
 * Complex reasoning
 * Long document analysis
-* Cutting-edge coding</div>
+* Cutting-edge coding
+* Research tasks
+
+#### Cost Examples
+To illustrate the cost-effectiveness of GPT-4.1 Nano, consider the following examples:
+
+* 1,000 calls</div>
       </div>
 
       <!-- USE CASES -->
       <div class="card content-section">
         <div class="card-title">Best Use Cases</div>
         <div>### Introduction to GPT-4.1 Nano
-The GPT-4.1 Nano model, released by OpenAI on 2025-04-14, is a budget-friendly option with a wide range of capabilities, including text, vision, function calling, and more. With its context window of 1,047,576 tokens and max output of 32,768 tokens, it's suitable for various applications, from chatbots to bulk processing.
+The GPT-4.1 Nano model, released by OpenAI on 2025-04-14, is a budget-friendly option with a tier classification of "budget". Although it is not open-source, it offers a compelling set of capabilities, including text, vision, function calling, and more. This guide will explore the top 5 best use cases for GPT-4.1 Nano, along with practical advice and code integration examples using OpenRouter.
 
-### Top 5 Best Use Cases for GPT-4.1 Nano
-Based on its capabilities and limitations, here are the top 5 best use cases for GPT-4.1 Nano:
+### Top 5 Use Cases for GPT-4.1 Nano
+Based on the model's capabilities and limitations, the following are the top 5 use cases for GPT-4.1 Nano:
 
-1. **Chatbots**: GPT-4.1 Nano's ability to understand and respond to user input makes it an excellent choice for building conversational AI models. With its relatively low pricing of $0.1 per 1M input tokens and $0.4 per 1M output tokens, it's an attractive option for businesses looking to deploy chatbots at scale.
-2. **Classification**: The model's high performance on benchmarks like MMLU (80.1) and GSM8K (85.0) demonstrates its ability to classify text accurately. You can use GPT-4.1 Nano for tasks like sentiment analysis, spam detection, or categorizing user feedback.
-3. **Summarization**: With its ability to process large amounts of text and generate concise summaries, GPT-4.1 Nano is well-suited for summarizing long documents, articles, or user-generated content.
-4. **Bulk Processing**: GPT-4.1 Nano's support for batch processing and its relatively low pricing make it an excellent choice for bulk processing tasks like data preprocessing, text normalization, or data augmentation.
-5. **Content Moderation**: The model's ability to understand and analyze text makes it suitable for content moderation tasks like detecting hate speech, profanity, or spam content.
+1. **Chatbots**: GPT-4.1 Nano is well-suited for chatbot applications, where it can generate human-like responses to user input. With its ability to process text and understand context, it can provide accurate and helpful responses.
+2. **Classification**: The model's capabilities in text processing make it an excellent choice for classification tasks, such as sentiment analysis, spam detection, and topic modeling.
+3. **Summarization**: GPT-4.1 Nano can effectively summarize long pieces of text, extracting key points and main ideas. This makes it useful for applications like news summarization, document summarization, and more.
+4. **Bulk Processing**: With its support for batch processing, GPT-4.1 Nano can handle large volumes of data, making it ideal for tasks like data preprocessing, data cleaning, and data transformation.
+5. **Content Moderation**: The model's ability to understand text and context makes it suitable for content moderation tasks, such as detecting hate speech, profanity, and other forms of objectionable content.
 
-### Code Integration</div>
+### Code Integration Example with OpenRouter
+To integrate GPT-4.1 Nano with OpenRouter, you can use the following code example:
+```python
+import openrouter
+
+# Initialize</div>
       </div>
 
       <!-- CAPABILITIES -->

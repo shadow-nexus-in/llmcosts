@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://llmcosts.dev/models/gpt-5.4-mini">
 
   <!-- Schema.org: Dataset -->
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "OpenAI: GPT-5.4 Mini API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for OpenAI: GPT-5.4 Mini by Openai.", "url": "https://llmcosts.dev/models/gpt-5.4-mini", "keywords": ["OpenAI: GPT-5.4 Mini", "Openai", "llm", "api"], "dateModified": "2026-07-11", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "OpenAI: GPT-5.4 Mini API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for OpenAI: GPT-5.4 Mini by Openai.", "url": "https://llmcosts.dev/models/gpt-5.4-mini", "keywords": ["OpenAI: GPT-5.4 Mini", "Openai", "llm", "api"], "dateModified": "2026-07-12", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
   <!-- Schema.org: FAQ -->
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
 
@@ -346,13 +346,13 @@
       <div class="card content-section">
         <div class="card-title">Overview</div>
         <div>### Introduction to OpenAI: GPT-5.4 Mini
-The OpenAI: GPT-5.4 Mini model, released on 2024-01-01 by OpenAI, is a standard tier language model that is not open source. This model is part of the GPT series, known for its versatility and performance in a wide range of natural language processing tasks. The GPT-5.4 Mini is designed to be a more accessible version of its larger counterparts, offering a balance between capability and cost-effectiveness for developers.
+The OpenAI: GPT-5.4 Mini model, released on 2024-01-01, is a standard tier language model provided by OpenAI. This model is not open source. From an architectural standpoint, while specific details about its internal structure are not provided, GPT-5.4 Mini is part of the GPT series, which typically employs a transformer-based architecture. This architecture is renowned for its effectiveness in natural language processing tasks, leveraging self-attention mechanisms to weigh the importance of different input elements relative to each other.
 
-### Architecture and Capabilities
-The OpenAI: GPT-5.4 Mini boasts an impressive architecture with a context window of 400,000 tokens and a maximum output of 128,000 tokens. Its knowledge cutoff is 2023-12, ensuring that the model's training data includes information up to that point. The model supports various capabilities, including text generation, function calling, JSON mode, streaming, and structured outputs. These features make it suitable for a broad spectrum of applications, such as chat, text generation, coding, analysis, RAG pipelines, and summarization. The model's performance is underscored by its benchmarks, including an MMLU score of 94.0 and an LMSYS Arena ELO of 1350, demonstrating its robust language understanding and generation capabilities.
+### Strengths and Use Cases
+GPT-5.4 Mini boasts several main strengths, including its capabilities in text generation, function calling, JSON mode, streaming, and structured outputs. These capabilities make it particularly suited for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization. With a context window of 400,000 tokens and a maximum output of 128,000 tokens, it can handle complex and lengthy inputs and outputs. Its performance is also underscored by benchmark scores, including an MMLU score of 94.0 and an LMSYS Arena ELO score of 1350. However, its knowledge cutoff is limited to 2023-12, which might affect its performance on tasks requiring more recent information.
 
-### Pricing and Use Cases
-The pricing for the OpenAI: GPT-5.4 Mini is structured around input and output tokens, with costs of $0.75 per 1M input tokens and $4.5 per 1M output tokens. For developers, this translates to specific cost examples: $2.625 for 1,000 calls averaging 500 tokens, $26.25 for 10,000 calls, and $262.5 for 100,000 calls. Given its capabilities and pricing, the GPT-5.4 Mini is best suited for applications that require robust text understanding and</div>
+### Pricing and Cost Considerations
+The pricing for GPT-5.4 Mini is structured around input and output tokens. Developers are charged $0.75 per 1M input tokens and $4.5 per 1M output tokens. There are no specified charges for cached input or batch input. To give developers a clearer picture, example costs include $2.625 for 1,000 calls averaging 500 tokens, $26.25 for 10,000 calls, and $262.5 for 100,000 calls. With no direct competitors listed, GPT</div>
       </div>
 
       <!-- PRICING -->
@@ -393,35 +393,35 @@ The pricing for the OpenAI: GPT-5.4 Mini is structured around input and output t
 
         <div style="margin-top:1.5rem">### Pricing Analysis for OpenAI: GPT-5.4 Mini
 #### Overview
-The OpenAI GPT-5.4 Mini model is a standard, non-open-source model released on January 1, 2024. This analysis will delve into the cost structure, usage scenarios, and scalability of this model.
+The OpenAI: GPT-5.4 Mini model is a standard, non-open source model released on January 1, 2024. This analysis will delve into the cost structure, optimal usage scenarios, and cost savings at scale for this model.
 
 #### Cost Structure
-The pricing for OpenAI GPT-5.4 Mini is as follows:
-* **Input**: $0.75 per 1 million tokens
-* **Output**: $4.5 per 1 million tokens
-* **Cached Input**: No additional cost ($0 per 1 million tokens)
-* **Batch Input**: No additional cost ($0 per 1 million tokens)
+The pricing for OpenAI: GPT-5.4 Mini is as follows:
+* Input: **$0.75 per 1M tokens**
+* Output: **$4.5 per 1M tokens**
+* Cached Input: **$0 per 1M tokens** (free)
+* Batch Input: **$0 per 1M tokens** (free)
 
-#### Usage Scenarios
-* **Cached Tokens**: Since there is no additional cost for cached input tokens, it is recommended to use cached tokens whenever possible to minimize costs.
-* **Batch API Savings**: Although there is no direct cost savings for batch input, utilizing batch API calls can still provide indirect benefits such as reduced overhead and improved efficiency.
+#### Optimal Usage Scenarios
+To minimize costs, consider the following scenarios:
+* **Cached Tokens**: Use cached input tokens whenever possible, as they are **free**. This can significantly reduce costs for repeated or similar input queries.
+* **Batch API Calls**: While batch input is **free**, the cost savings come from reduced overhead and potentially lower output token counts. This can lead to significant cost reductions for large-scale API calls.
 
 #### Cost at Scale
-The cost of using OpenAI GPT-5.4 Mini at scale is as follows:
-* **1,000 API calls** (avg 500 tokens): $2.625
-* **10,000 API calls**: $26.25
-* **100,000 API calls**: $262.5
+The cost of using OpenAI: GPT-5.4 Mini at scale is as follows:
+* **1,000 calls** (avg 500 tokens): **$2.625**
+* **10,000 calls**: **$26.25**
+* **100,000 calls**: **$262.5**
 
-These costs demonstrate a linear scaling of expenses with the number of API calls, indicating that the cost per call remains constant.
+These costs demonstrate a linear scaling of expenses with the number of API calls. To minimize costs, it's essential to optimize input token usage and leverage cached tokens and batch API calls whenever possible.
 
 #### Context and Limits
-It's essential to be aware of the model's context window and output limits to optimize usage and avoid unnecessary costs:
+The model has the following context and limits:
 * **Context Window**: 400,000 tokens
 * **Max Output**: 128,000 tokens
-* **Knowledge Cutoff**: December 2023
+* **Knowledge Cutoff**: 2023-12
 
-#### Conclusion
-OpenAI GPT-5.4 Mini offers a competitive pricing structure, with costs primarily driven by input and output token counts. By leveraging cached tokens</div>
+These limits should be considered when</div>
       </div>
 
       <!-- BENCHMARKS -->
@@ -433,21 +433,36 @@ OpenAI GPT-5.4 Mini offers a competitive pricing structure, with costs primarily
           <div class="stat-cell"><div class="stat-label">LMSYS ELO</div><div class="stat-value">1350</div></div>
         </div>
         <div>### Analysis of OpenAI: GPT-5.4 Mini Benchmark Performance
-#### Overview
-The OpenAI: GPT-5.4 Mini model, released on 2024-01-01, is a standard, non-open-source model provided by OpenAI. This analysis will delve into its benchmark performance, focusing on the MMLU, HumanEval, and Arena ELO scores, and explain their implications for real-world use.
+#### Model Overview
+The OpenAI: GPT-5.4 Mini model, released on 2024-01-01, is a standard, non-open-source model provided by OpenAI. 
 
-#### Benchmark Scores
-- **MMLU (Massive Multitask Language Understanding)**: 94.0
-  The MMLU score is a measure of a model's ability to understand and perform a wide range of natural language tasks. A score of 94.0 indicates that the GPT-5.4 Mini model has a high level of language understanding, making it suitable for tasks that require comprehension and generation of human-like text.
+#### Pricing
+The pricing for this model is as follows:
+* Input: **$0.75 per 1M tokens**
+* Output: **$4.5 per 1M tokens**
+* Cached Input: **$None per 1M tokens**
+* Batch Input: **$None per 1M tokens**
 
-- **HumanEval**: None
-  HumanEval is a benchmark that evaluates a model's ability to generate code based on human-written prompts. The absence of a HumanEval score for the GPT-5.4 Mini model means that its coding capabilities, while listed as a capability, are not quantitatively benchmarked in this dataset.
+#### Context and Limits
+The model has the following context and limits:
+* Context Window: **400,000 tokens**
+* Max Output: **128,000 tokens**
+* Knowledge Cutoff: **2023-12**
 
-- **LMSYS Arena ELO**: 1350
-  The LMSYS Arena ELO score is a measure of a model's performance in a competitive environment, often involving tasks that require strategic thinking and problem-solving. An ELO score of 1350 suggests that the GPT-5.4 Mini model has a moderate level of proficiency in such tasks, indicating potential for applications that require adaptive and strategic responses.
+#### Benchmarks
+The model's benchmark performance is as follows:
+* MMLU: **94.0**
+* HumanEval: **None**
+* LMSYS Arena ELO: **1350**
+* GSM8K: **None**
 
-#### Real-World Implications
-- **Language Understanding and Generation**: With a</div>
+The **MMLU (Massive Multitask Language Understanding) score** of 94.0 indicates the model's ability to perform well across a wide range of natural language processing tasks. A higher MMLU score suggests better performance in understanding and generating human-like text.
+
+The **LMSYS Arena ELO score** of 1350 is a measure of the model's performance in a competitive environment, where it is pitted against other models. A higher ELO score indicates better performance.
+
+The lack of **HumanEval** and **GSM8K** scores means that the model's performance on these specific benchmarks is not available.
+
+#### Cap</div>
       </div>
 
       <!-- COMPETITOR TABLE -->
@@ -477,10 +492,10 @@ The OpenAI: GPT-5.4 Mini model, released on 2024-01-01, is a standard, non-open-
           </table>
         </div>
         <div style="margin-top:1.5rem">### Comparison of OpenAI: GPT-5.4 Mini with Top Competitors
-Since there are no direct competitors listed for the OpenAI: GPT-5.4 Mini model, we will provide a general overview of its features, pricing, and performance. This will help users understand the model's capabilities and limitations, making it easier to decide when to choose this model.
+Since there are no direct competitors listed for the OpenAI: GPT-5.4 Mini model, we will provide a general overview of the model's features, pricing, and performance. This will help users understand the strengths and weaknesses of the model and make informed decisions about its use.
 
 #### Model Overview
-The OpenAI: GPT-5.4 Mini model is a standard-tier model released by OpenAI on 2024-01-01. It is not open-source and has the following key features:
+The OpenAI: GPT-5.4 Mini model is a standard-tier model released by OpenAI on January 1, 2024. It is not open-source and has the following key features:
 * **Context Window**: 400,000 tokens
 * **Max Output**: 128,000 tokens
 * **Knowledge Cutoff**: 2023-12
@@ -495,7 +510,7 @@ The pricing for the OpenAI: GPT-5.4 Mini model is as follows:
 * **Batch Input**: $None per 1M tokens
 
 #### Cost Examples
-To give users a better understanding of the costs involved, here are some examples:
+The estimated costs for using the OpenAI: GPT-5.4 Mini model are:
 * **1,000 calls (avg 500 tokens)**: $2.625
 * **10,000 calls**: $26.25
 * **100,000 calls**: $262.5
@@ -505,49 +520,32 @@ The OpenAI: GPT-5.4 Mini model has the following benchmark scores:
 * **MMLU**: 94.0
 * **LMSYS Arena ELO**: 1350
 
-These scores indicate that the model has strong performance in certain areas, but may have limitations in others. For example, the lack of HumanEval and GSM8K scores may indicate that the model is not optimized for these specific tasks.
+These scores indicate that the model has strong performance in certain areas, but may have limitations in others. For example, the model's high MMLU score suggests that it is well-suited for tasks that require a strong understanding of language and context.
 
-#### Choosing the Right Model
-Since there are no direct competitors listed, users should consider the following factors when deciding whether to choose the OpenAI: GPT-5.4 Mini model:
-* **Task Requirements**: If the task requires strong text generation, coding, or analysis capabilities, this model may be a good choice.
-* **Budget**: If the budget is</div>
+#### When to Choose OpenAI: GPT-5.4 Mini
+The OpenAI: GPT-5.4 Mini model is a good choice for tasks that require:
+* Strong language understanding and context
+* Ability to generate high-quality text
+* Support for function calling, JSON mode, streaming, and structured outputs
+*</div>
       </div>
 
       <!-- USE CASES -->
       <div class="card content-section">
         <div class="card-title">Best Use Cases</div>
         <div>### Introduction to OpenAI: GPT-5.4 Mini
-The OpenAI: GPT-5.4 Mini model is a powerful tool for various natural language processing tasks. Released on 2024-01-01, this standard-tier model is not open-source and is provided by OpenAI. In this guide, we will explore the top 5 best use cases for this model, along with practical advice and code integration examples using OpenRouter.
+The OpenAI: GPT-5.4 Mini model is a powerful tool for various natural language processing tasks, offering capabilities such as text generation, coding, analysis, and summarization. With its standard tier and non-open source status, it provides a reliable choice for applications requiring advanced language understanding and generation.
 
-### Top 5 Use Cases for OpenAI: GPT-5.4 Mini
-Based on the model's capabilities, the top 5 use cases are:
-1. **Chat**: The model excels in generating human-like text, making it ideal for chat applications.
-2. **Text Generation**: With its high MMLU score of 94.0, the model is well-suited for text generation tasks.
-3. **Coding**: The model's ability to perform function calling and generate structured outputs makes it a great tool for coding tasks.
-4. **Analysis**: The model's capabilities in text analysis and summarization make it a great tool for data analysis.
-5. **RAG Pipelines**: The model's ability to handle json_mode and streaming inputs makes it a great tool for RAG (Retrieve, Augment, Generate) pipelines.
+### Top 5 Best Use Cases for OpenAI: GPT-5.4 Mini
+Based on its capabilities and pricing, here are the top 5 best use cases for the OpenAI: GPT-5.4 Mini model:
 
-### Code Integration Examples with OpenRouter
-To integrate the OpenAI: GPT-5.4 Mini model with OpenRouter, you can use the following code example:
-```python
-import openrouter
+1. **Chat and Conversational Systems**: With its ability to understand and generate human-like text, GPT-5.4 Mini is well-suited for chatbots and conversational systems. Its context window of 400,000 tokens allows for extended conversations, making it an ideal choice for customer support and virtual assistants.
+2. **Text Generation and Content Creation**: The model's text generation capabilities make it perfect for content creation tasks such as writing articles, blog posts, and social media content. Its ability to generate coherent and context-specific text can save time and effort for content creators.
+3. **Coding and Programming Assistance**: GPT-5.4 Mini's function_calling capability allows it to assist with coding tasks, such as code completion, debugging, and optimization. Its integration with OpenRouter can facilitate seamless interactions between the model and programming environments.
+4. **Data Analysis and Summarization**: The model's analysis and summarization capabilities make it an excellent choice for data analysis tasks, such as summarizing large documents, extracting key insights, and generating reports.
+5. **RAG Pipelines and Information Retrieval**: GPT-5.4 Mini's support for RAG (Retrieve, Augment, Generate) pipelines enables it to retrieve relevant information from external sources, augment it with generated text, and provide accurate answers to user queries.
 
-# Initialize the OpenRouter client
-client = openrouter.Client(api_key="YOUR_API_KEY")
-
-# Define the model and input parameters
-model = "openai/gpt-5.4-mini"
-input_text = "Write a short story about a character who discovers a hidden world."
-
-# Send the request to the model
-response = client.generate(
-    model=model,
-    input=input_text,
-    max_tokens=128000,
-    context_window=400000
-)
-
-#</div>
+### Code Integration</div>
       </div>
 
       <!-- CAPABILITIES -->

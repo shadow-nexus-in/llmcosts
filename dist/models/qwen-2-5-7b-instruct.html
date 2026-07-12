@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://llmcosts.dev/models/qwen-2-5-7b-instruct">
 
   <!-- Schema.org: Dataset -->
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Qwen2.5 7B Instruct API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Qwen2.5 7B Instruct by Alibaba Cloud.", "url": "https://llmcosts.dev/models/qwen-2-5-7b-instruct", "keywords": ["Qwen2.5 7B Instruct", "Alibaba Cloud", "open-source", "self-hostable", "budget", "qwen", "alibaba"], "dateModified": "2026-07-11", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Qwen2.5 7B Instruct API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Qwen2.5 7B Instruct by Alibaba Cloud.", "url": "https://llmcosts.dev/models/qwen-2-5-7b-instruct", "keywords": ["Qwen2.5 7B Instruct", "Alibaba Cloud", "open-source", "self-hostable", "budget", "qwen", "alibaba"], "dateModified": "2026-07-12", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
   <!-- Schema.org: FAQ -->
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
 
@@ -346,13 +346,13 @@
       <div class="card content-section">
         <div class="card-title">Overview</div>
         <div>### Introduction to Qwen2.5 7B Instruct
-The Qwen2.5 7B Instruct model, provided by Alibaba Cloud, is a budget-friendly and open-source language model released on 2024-09-18. This model is part of the Qwen series, known for its balance between performance and cost. With its architecture designed for instruction following, Qwen2.5 7B Instruct is capable of handling a wide range of natural language processing tasks, including text generation, function calling, and JSON mode, making it a versatile tool for developers.
+The Qwen2.5 7B Instruct model, released on 2024-09-18, is a budget-friendly, open-source language model provided by Alibaba Cloud. With its architecture designed for instruction following, this model excels in tasks that require understanding and generating human-like text based on given prompts. Its main strengths include a large context window of 131,072 tokens and the ability to generate up to 8,192 tokens of output, making it suitable for a variety of natural language processing tasks.
 
 ### Technical Capabilities and Use Cases
-Qwen2.5 7B Instruct boasts a context window of 131,072 tokens and can generate up to 8,192 tokens as output. Its capabilities include text processing, function calling, JSON mode, streaming, and system prompts. This model is best suited for applications such as chatbots, simple coding, summarization, classification, and content generation. However, it may not perform as well in tasks requiring complex reasoning, frontier coding, vision, or research tasks. The model's pricing is based on input and output tokens, with costs of $0.1 per 1M tokens for input and $0.2 per 1M tokens for output. For example, 1,000 calls with an average of 500 tokens would cost approximately $0.15.
+Qwen2.5 7B Instruct boasts a range of capabilities, including text generation, function calling, JSON mode, streaming, and system prompts. These features make it an ideal choice for applications such as chatbots, simple coding tasks, text summarization, classification, and content generation. The model's performance is further underscored by its benchmark scores: 80.0 on MMLU, 84.8 on HumanEval, 1200 on LMSYS Arena ELO, and 91.6 on GSM8K. However, it is not recommended for complex reasoning, frontier coding, vision tasks, or research tasks that require more advanced capabilities.
 
-### Performance and Cost Considerations
-Qwen2.5 7B Instruct has demonstrated strong performance in various benchmarks, including MMLU (80.0), HumanEval (84.8), LMSYS Arena ELO (1200), and GSM8K (91.6). When considering the cost, Qwen2.5 7B Instruct is competitive, especially for developers looking for a budget-friendly option. However, it's worth noting that competitors like Llama 3.1 8B Instruct offer similar performance at</div>
+### Pricing and Cost Considerations
+The pricing for Qwen2.5 7B Instruct is straightforward, with costs of $0.1 per 1M tokens for input and $0.2 per 1M tokens for output. There are no additional costs for cached input or batch input. To give developers a better understanding of the costs involved, example estimates include $0.15 for 1,000 calls (averaging 500 tokens), $1.5 for 10,000 calls, and $15.0 for 100,000 calls. When comparing with top competitors like Llama 3.1 8B Instruct, which offers input</div>
       </div>
 
       <!-- PRICING -->
@@ -393,31 +393,31 @@ Qwen2.5 7B Instruct has demonstrated strong performance in various benchmarks, i
 
         <div style="margin-top:1.5rem">### Qwen2.5 7B Instruct Pricing Analysis
 #### Overview
-Qwen2.5 7B Instruct is a budget-friendly, open-source model provided by Alibaba Cloud, released on 2024-09-18. This analysis will delve into the cost structure, optimal usage scenarios, and cost savings at scale for this model.
+The Qwen2.5 7B Instruct model, provided by Alibaba Cloud, offers a competitive pricing structure for natural language processing tasks. Released on 2024-09-18, this budget-friendly, open-source model is suitable for various applications, including chatbots, simple coding, summarization, classification, and content generation.
 
 #### Cost Structure
 The pricing for Qwen2.5 7B Instruct is as follows:
-* Input: **$0.1 per 1M tokens**
-* Output: **$0.2 per 1M tokens**
-* Cached Input: **$0 per 1M tokens** (free)
-* Batch Input: **$0 per 1M tokens** (free)
+* **Input**: $0.1 per 1M tokens
+* **Output**: $0.2 per 1M tokens
+* **Cached Input**: $0 per 1M tokens (free)
+* **Batch Input**: $0 per 1M tokens (free)
 
-#### Optimizing Costs with Cached Tokens and Batch API
-To minimize costs, it's essential to utilize cached tokens and batch API calls whenever possible. Since cached input and batch input are free, prioritizing these methods can significantly reduce expenses.
+#### When to Use Cached Tokens
+Cached tokens can be utilized to reduce costs when the same input is used multiple times. Since cached input is free, it is recommended to use cached tokens for repetitive tasks or when the input remains the same.
 
-* **Cached Tokens**: Use cached tokens for repeated input sequences to avoid incurring input costs.
-* **Batch API**: Leverage batch API calls to process multiple inputs simultaneously, eliminating input costs for batched requests.
+#### Batch API Savings
+Batching API calls can also help reduce costs. With batch input being free, users can group multiple requests together to minimize the number of API calls, resulting in significant cost savings.
 
 #### Cost at Scale
 The cost of using Qwen2.5 7B Instruct at scale is as follows:
-* **1,000 calls (avg 500 tokens)**: **$0.15**
-* **10,000 calls**: **$1.5**
-* **100,000 calls**: **$15.0**
+* **1,000 calls (avg 500 tokens)**: $0.15
+* **10,000 calls**: $1.5
+* **100,000 calls**: $15.0
 
-These costs demonstrate a linear scaling of expenses with the number of API calls.
+These costs demonstrate a linear scaling of expenses with the number of API calls, making it essential to optimize usage and leverage cached and batch inputs to minimize costs.
 
-#### Comparison to Top Competitors
-Qwen2.5 7B Instruct's pricing is competitive, especially considering its budget-friendly tier and open-source nature. For comparison, Llama 3.1 8B Instruct, a top competitor, charges **$0.07/1M input** and **$0.07/1M</div>
+#### Comparison with Top Competitors
+The Qwen2.5 7B Instruct model is competitively priced compared to other models in the market. For example, the Llama 3.1 8B Instruct model charges $</div>
       </div>
 
       <!-- BENCHMARKS -->
@@ -429,20 +429,25 @@ Qwen2.5 7B Instruct's pricing is competitive, especially considering its budget-
           <div class="stat-cell"><div class="stat-label">LMSYS ELO</div><div class="stat-value">1200</div></div>
         </div>
         <div>### Qwen2.5 7B Instruct Benchmark Performance Analysis
-The Qwen2.5 7B Instruct model, provided by Alibaba Cloud, demonstrates notable performance in various benchmark tests. This analysis will delve into the implications of its MMLU, HumanEval, and Arena ELO scores for real-world applications.
+#### Model Overview
+The Qwen2.5 7B Instruct model, provided by Alibaba Cloud, is a budget-friendly, open-source option released on 2024-09-18. It boasts a context window of 131,072 tokens and a maximum output of 8,192 tokens, with a knowledge cutoff of 2024-09.
+
+#### Pricing
+The pricing structure for Qwen2.5 7B Instruct is as follows:
+* Input: $0.1 per 1M tokens
+* Output: $0.2 per 1M tokens
+* Cached Input: $None per 1M tokens
+* Batch Input: $None per 1M tokens
 
 #### Benchmark Scores
-- **MMLU (Massive Multitask Language Understanding) Score: 80.0**
-  The MMLU score evaluates a model's ability to understand and process a wide range of tasks and topics. A score of 80.0 indicates that Qwen2.5 7B Instruct has a strong foundation in language understanding, capable of handling diverse tasks with a reasonable level of proficiency.
-
-- **HumanEval Score: 84.8**
-  HumanEval assesses a model's coding abilities, specifically its capacity to generate correct and functional code based on given prompts. With a score of 84.8, Qwen2.5 7B Instruct shows a high level of competence in coding tasks, making it suitable for applications that require code generation or simple coding tasks.
-
-- **LMSYS Arena ELO Score: 1200**
-  The Arena ELO score reflects a model's performance in a competitive setting, where models are pitted against each other to solve tasks. An ELO score of 1200 suggests that Qwen2.5 7B Instruct has a moderate to strong performance in competitive benchmarks, indicating its potential for real-world applications where models need to perform under pressure.
+The model's performance is measured by the following benchmark scores:
+* **MMLU (Massive Multitask Language Understanding)**: 80.0 - This score indicates the model's ability to understand and process multiple tasks and languages simultaneously. A higher score suggests better performance in handling diverse linguistic tasks.
+* **HumanEval**: 84.8 - This score evaluates the model's ability to generate human-like code and understand programming concepts. A higher score implies stronger coding capabilities.
+* **LMSYS Arena ELO**: 1200 - This score represents the model's competitive performance in a range of tasks, with higher scores indicating better overall performance.
 
 #### Real-World Implications
-The benchmark scores of Qwen2.5 7B Instruct suggest it is well-suited for applications such</div>
+These benchmark scores have significant implications for real-world use cases:
+* The MMLU score of 80.0 suggests that Qwen2.5 7B Instruct is capable of handling multiple tasks and languages, making it suitable for applications</div>
       </div>
 
       <!-- COMPETITOR TABLE -->
@@ -480,53 +485,71 @@ The benchmark scores of Qwen2.5 7B Instruct suggest it is well-suited for applic
         </div>
         <div style="margin-top:1.5rem">### Qwen2.5 7B Instruct Comparison
 #### Overview
-Qwen2.5 7B Instruct, provided by Alibaba Cloud, is a budget-friendly, open-source model released on 2024-09-18. This model offers a range of capabilities, including text, function calling, JSON mode, streaming, and system prompts, making it suitable for applications such as chatbots, simple coding, summarization, classification, and content generation.
+Qwen2.5 7B Instruct, provided by Alibaba Cloud, is a budget-friendly, open-source model released on 2024-09-18. It offers a unique balance of performance and cost, making it an attractive option for various applications. This comparison will delve into its pricing, performance, and trade-offs against its top competitors, specifically the Llama 3.1 8B Instruct model.
 
 #### Pricing Comparison
-The pricing for Qwen2.5 7B Instruct is as follows:
+The pricing model for Qwen2.5 7B Instruct is as follows:
 - Input: $0.1 per 1M tokens
 - Output: $0.2 per 1M tokens
+- Cached Input: $None per 1M tokens
+- Batch Input: $None per 1M tokens
 
-In comparison, its top competitor, Llama 3.1 8B Instruct, is priced at:
-- Input: $0.07 per 1M tokens
-- Output: $0.07 per 1M tokens
+In contrast, the Llama 3.1 8B Instruct model is priced at:
+- $0.07 per 1M input tokens
+- $0.07 per 1M output tokens
 
-This indicates that Llama 3.1 8B Instruct is approximately 30% cheaper for both input and output compared to Qwen2.5 7B Instruct.
+This indicates that for input tokens, Llama 3.1 8B Instruct is significantly cheaper (by $0.03 per 1M tokens) than Qwen2.5 7B Instruct. However, the output pricing for Qwen2.5 7B Instruct is twice that of its input, potentially making Llama 3.1 8B Instruct a more cost-effective option for applications with large output requirements.
 
 #### Performance Trade-offs
-Qwen2.5 7B Instruct has the following benchmarks:
+Qwen2.5 7B Instruct boasts the following benchmarks:
 - MMLU: 80.0
 - HumanEval: 84.8
 - LMSYS Arena ELO: 1200
 - GSM8K: 91.6
 
-While the benchmarks for Llama 3.1 8B Instruct are not provided, the price difference suggests that Qwen2.5 7B Instruct may offer comparable or slightly lower performance at a higher cost.
+While specific benchmark comparisons against Llama 3.1 8B Instruct are not provided, the performance metrics of Qwen2.5 7B Instruct suggest it is capable in various tasks, including text understanding, function calling, and content generation.
 
-#### Context and Limits
-Qwen2.5 7B Instruct has a context window of 131,072 tokens and a maximum output of 8,192 tokens, with a knowledge cutoff of 2024-09. These limits are not explicitly compared to Llama 3.1 8B Instruct, but they are crucial in determining the suitability of Qwen2.5 7B Instruct for specific applications.
+#### Capabilities and Use Cases
+Qwen2.5 7B Instruct supports:
+- Text
+- Function calling
+- JSON mode
+- Streaming
+- System prompts
 
-#### When to Choose Each Model
-Choose Qwen2.5 7B Instruct for:
-- Applications where its specific capabilities (text, function calling, JSON mode, streaming, system prompts) are well-aligned with the task requirements.
-- Projects that prioritize open-source accessibility and a budget-friendly option, despite slightly higher costs compared to Llama 3.1 8</div>
+It is best suited for applications such as:
+- Chatbots
+- Simple coding
+- Summarization
+- Classification
+- RAG (Retrieval-Augmented Generation)
+- Content</div>
       </div>
 
       <!-- USE CASES -->
       <div class="card content-section">
         <div class="card-title">Best Use Cases</div>
         <div>### Introduction to Qwen2.5 7B Instruct
-The Qwen2.5 7B Instruct model, provided by Alibaba Cloud, is a budget-friendly and open-source option for various natural language processing tasks. Released on 2024-09-18, this model boasts a context window of 131,072 tokens and a maximum output of 8,192 tokens. With its capabilities in text, function calling, JSON mode, streaming, and system prompts, it is best suited for applications such as chatbots, simple coding, summarization, classification, and content generation.
+The Qwen2.5 7B Instruct model, provided by Alibaba Cloud, is a budget-friendly and open-source solution for various natural language processing tasks. With its release on 2024-09-18, this model offers a range of capabilities, including text processing, function calling, JSON mode, streaming, and system prompts.
 
 ### Top 5 Best Use Cases for Qwen2.5 7B Instruct
-Given its strengths and limitations, here are the top 5 best use cases for the Qwen2.5 7B Instruct model:
+Based on the model's capabilities and limitations, here are the top 5 best use cases for Qwen2.5 7B Instruct:
 
-1. **Chatbots**: With its strong performance in text-based tasks, Qwen2.5 7B Instruct is an excellent choice for building conversational AI models. Its ability to understand and respond to user input makes it ideal for customer service chatbots.
-2. **Simple Coding**: The model's capability in function calling and JSON mode makes it suitable for simple coding tasks, such as generating code snippets or assisting with basic programming tasks.
-3. **Summarization**: Qwen2.5 7B Instruct can be used to summarize long pieces of text, extracting key points and main ideas. This makes it useful for applications such as news article summarization or document summarization.
-4. **Classification**: The model's performance in classification tasks makes it a good choice for categorizing text into predefined categories. This can be useful for applications such as spam detection or sentiment analysis.
-5. **Content Generation**: With its ability to generate human-like text, Qwen2.5 7B Instruct can be used for content generation tasks, such as generating product descriptions or creating chatbot responses.
+1. **Chatbots**: Qwen2.5 7B Instruct is well-suited for chatbot applications, given its ability to process text and generate human-like responses. With a context window of 131,072 tokens, it can handle complex conversations.
+2. **Simple Coding**: The model's function calling capability makes it a good fit for simple coding tasks, such as generating code snippets or completing partial code.
+3. **Summarization**: Qwen2.5 7B Instruct can be used for text summarization tasks, leveraging its ability to process and condense large amounts of text into concise summaries.
+4. **Classification**: The model's classification capability makes it suitable for tasks such as sentiment analysis, spam detection, or topic modeling.
+5. **Content Generation**: Qwen2.5 7B Instruct can be used for content generation tasks, such as generating product descriptions, articles, or social media posts.
 
-### Code Integration Examples with OpenRouter</div>
+### Code Integration Example with OpenRouter
+To integrate Qwen2.5 7B Instruct with OpenRouter, you can use the following code example:
+```python
+import openrouter
+
+# Initialize the Qwen2.5 7B Instruct model
+model = openrouter.Model("qwen/qwen-2.5-7b-instruct")
+
+# Define</div>
       </div>
 
       <!-- CAPABILITIES -->
