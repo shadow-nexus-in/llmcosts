@@ -167,6 +167,7 @@
     "anthropic-claude-sonnet-5-vs-openai-gpt-5.6-luna-pro",
     "anthropic-claude-sonnet-5-vs-openai-gpt-5.6-luna",
     "anthropic-claude-sonnet-5-vs-openai-gpt-5.6-terra-pro",
-    "anthropic-claude-sonnet-5-vs-openai-gpt-5.6-terra"
+    "anthropic-claude-sonnet-5-vs-openai-gpt-5.6-terra",
+    "anthropic-claude-sonnet-5-vs-openai-gpt-5.6-sol-pro"
   ]
 }
