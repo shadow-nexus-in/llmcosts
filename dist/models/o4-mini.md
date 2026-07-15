@@ -1,17 +1,17 @@
 # OpenAI o4-mini API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-07-14
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-07-15
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
 ### Introduction to OpenAI o4-mini
-The OpenAI o4-mini model, released on 2025-04-16, is a standard-tier language model provided by OpenAI. This model is not open source. From a technical standpoint, o4-mini boasts an impressive architecture that enables it to handle complex tasks with ease. Its main strengths lie in its ability to perform complex reasoning, coding, math, and science-related tasks, making it a valuable tool for developers working on projects that require in-depth analysis and problem-solving.
+The OpenAI o4-mini model, released on 2025-04-16, is a standard-tier language model provided by OpenAI. This model is not open-source. From an architectural standpoint, while specific details about its architecture are not provided, its capabilities and performance metrics suggest a sophisticated design. OpenAI o4-mini excels in complex reasoning, coding, math, science, and function calling, making it a valuable tool for developers working on projects that require advanced language understanding and generation.
 
-### Technical Specifications and Use Cases
-OpenAI o4-mini has a context window of 200,000 tokens and a maximum output of 100,000 tokens, with a knowledge cutoff date of 2025-01. The model's capabilities include text processing, function calling, JSON mode, structured outputs, streaming, batch processing, system prompts, and extended thinking. Its benchmark scores are notable, with an MMLU score of 85.3, HumanEval score of 93.7, LMSYS Arena ELO of 1320, and GSM8K score of 97.4. These specifications and capabilities make o4-mini best suited for tasks that require complex reasoning, coding, and analysis. However, it is not ideal for simple tasks, vision-related tasks, bulk cheap tasks, or real-time tasks that require sub-100ms response times.
+### Technical Specifications and Pricing
+OpenAI o4-mini has a context window of 200,000 tokens and can generate up to 100,000 tokens as output. The model's knowledge cutoff is 2025-01, indicating it was trained on data up to that point. Pricing for the model is as follows: $1.1 per 1M tokens for input, $4.4 per 1M tokens for output, with discounted rates of $0.55 per 1M tokens for both cached input and batch input. The model's performance is highlighted by its benchmarks: MMLU at 85.3, HumanEval at 93.7, LMSYS Arena ELO at 1320, and GSM8K at 97.4. These metrics demonstrate the model's strength in various linguistic and cognitive tasks.
 
-### Pricing and Cost Considerations
-The pricing for OpenAI o4-mini is as follows: $1.1 per 1M tokens for input, $4.4 per 1M tokens for output, $0.55 per 1M tokens for cached input, and $0.55 per 1M tokens for batch input. To give developers a better understanding of the costs involved, some examples are provided: 1,000 calls with an average of 500 tokens cost $2.75, 10,000 calls cost $27.5, and 
+### Use Cases and Cost Considerations
+OpenAI o4-mini is best utilized for tasks that require complex reasoning, coding, and in-depth analysis. It supports a range of capabilities, including text processing, function calling, JSON mode, structured outputs, streaming, batch processing, system prompts, and extended thinking. However, it is not recommended for simple tasks, vision-related tasks, bulk cheap tasks, or applications requiring real-time responses under 100ms. Cost examples provided show that 1,000 calls (avg 500 tokens) cost $2.75, scaling to $27.5
 
 ## Pricing (USD per 1M tokens)
 | Metric | Price |
@@ -25,34 +25,34 @@ The pricing for OpenAI o4-mini is as follows: $1.1 per 1M tokens for input, $4.4
 ## Pricing Analysis
 ### Pricing Analysis for OpenAI o4-mini
 #### Overview
-The OpenAI o4-mini model is a standard, non-open source model released on 2025-04-16. It offers a range of capabilities, including text, function calling, and batch processing, making it suitable for complex reasoning, coding, math, science, and analysis tasks.
+The OpenAI o4-mini model, released on 2025-04-16, is a standard, non-open-source model provided by OpenAI. This analysis will delve into the cost structure, optimal usage scenarios, and cost savings at scale for this model.
 
 #### Cost Structure
 The pricing for OpenAI o4-mini is as follows:
-* **Input**: $1.1 per 1M tokens
-* **Output**: $4.4 per 1M tokens
-* **Cached Input**: $0.55 per 1M tokens
-* **Batch Input**: $0.55 per 1M tokens
+* Input: **$1.1 per 1M tokens**
+* Output: **$4.4 per 1M tokens**
+* Cached Input: **$0.55 per 1M tokens**
+* Batch Input: **$0.55 per 1M tokens**
 
-#### When to Use Cached Tokens
-Cached tokens can significantly reduce costs, with a price of $0.55 per 1M tokens, which is 50% of the regular input price. It is recommended to use cached tokens when:
-* The input data is repetitive or has a high degree of similarity.
-* The model is being used for tasks that require frequent querying of the same or similar input data.
+This indicates that using cached input or batch input can significantly reduce costs, with a **50% discount** compared to regular input costs.
 
-#### Batch API Savings
-The batch input price is also $0.55 per 1M tokens, which is the same as the cached input price. This offers significant savings when making bulk API calls. To maximize batch API savings:
-* Batch similar requests together to reduce the number of API calls.
-* Use the batch input pricing for large-scale tasks that require processing multiple inputs at once.
+#### Optimal Usage Scenarios
+To minimize costs, consider the following scenarios:
+* **Cached Tokens**: Use cached input when possible, as it reduces costs by **50%**. This is ideal for applications with repetitive or similar input patterns.
+* **Batch API**: Utilize batch input for large-scale processing, as it also offers a **50% discount**. This is suitable for applications that require processing multiple inputs simultaneously.
 
 #### Cost at Scale
 The cost of using OpenAI o4-mini at scale is as follows:
-* **1,000 calls (avg 500 tokens)**: $2.75
-* **10,000 calls**: $27.5
-* **100,000 calls**: $275.0
+* **1,000 calls** (avg 500 tokens): **$2.75**
+* **10,000 calls**: **$27.5**
+* **100,000 calls**: **$275.0**
 
-These costs demonstrate a linear scaling of prices with the number of API calls, indicating that the cost per call remains constant regardless of the scale.
+These costs demonstrate a linear scaling of expenses with the number of API calls.
 
-#### Comparison with Top
+#### Comparison with Competitors
+OpenAI o4-mini's pricing is competitive with other models in the market:
+* **OpenAI o3-mini**: $1.1/1M input, $4.4/1M output ( identical to o4-mini)
+* **Gemini 2.5 Pro**: $1.
 
 ## Benchmarks
 | Benchmark | Score |
@@ -63,25 +63,31 @@ These costs demonstrate a linear scaling of prices with the number of API calls,
 | ARC | 93.5 |
 
 ## Benchmark Analysis
-### OpenAI o4-mini Benchmark Performance Analysis
+### Analysis of OpenAI o4-mini Benchmark Performance
 #### Overview
-The OpenAI o4-mini model, released on 2025-04-16, is a standard, non-open-source model provided by OpenAI. This analysis will delve into the model's benchmark performance, focusing on the MMLU, HumanEval, and Arena ELO scores, and their implications for real-world use.
+The OpenAI o4-mini model, released on 2025-04-16, is a standard, non-open-source model provided by OpenAI. Its pricing structure includes input, output, cached input, and batch input costs.
 
-#### Benchmark Scores
-The OpenAI o4-mini model has achieved the following benchmark scores:
-* **MMLU: 85.3** - The MMLU (Measuring Massive Multitask Language Understanding) benchmark evaluates a model's ability to understand and generate text across a wide range of tasks and domains. A score of 85.3 indicates that the model has a strong understanding of language, but may struggle with highly specialized or nuanced tasks.
-* **HumanEval: 93.7** - The HumanEval benchmark assesses a model's ability to generate code that is both correct and readable. A score of 93.7 suggests that the model is highly proficient in coding tasks, making it suitable for applications such as code completion, code review, and automated programming.
-* **LMSYS Arena ELO: 1320** - The LMSYS Arena ELO benchmark measures a model's ability to engage in conversational dialogue and respond to a wide range of questions and topics. An ELO score of 1320 indicates that the model is a strong conversationalist, capable of holding its own in discussions and debates.
+#### Pricing Structure
+The pricing for OpenAI o4-mini is as follows:
+* Input: **$1.1 per 1M tokens**
+* Output: **$4.4 per 1M tokens**
+* Cached Input: **$0.55 per 1M tokens**
+* Batch Input: **$0.55 per 1M tokens**
+
+#### Benchmark Performance
+The model's performance is measured by several benchmarks:
+* **MMLU (Massive Multitask Language Understanding)**: 85.3 - This score indicates the model's ability to understand and perform a wide range of natural language tasks. A higher score suggests better performance in tasks such as text classification, sentiment analysis, and question answering.
+* **HumanEval**: 93.7 - This benchmark evaluates the model's ability to generate human-like code. A higher score indicates better performance in coding tasks, such as writing functions or completing code snippets.
+* **LMSYS Arena ELO**: 1320 - This score measures the model's performance in a competitive arena, where it is pitted against other models. A higher ELO score indicates better performance and a higher ranking.
+* **GSM8K**: 97.4 - This benchmark evaluates the model's performance in math problem-solving, with a higher score indicating better ability to solve mathematical problems.
 
 #### Real-World Implications
-The benchmark scores suggest that the OpenAI o4-mini model is well-suited for real-world applications that require:
-* Complex reasoning and problem-solving
-* Coding and
+The benchmark scores suggest that OpenAI o4-mini
 
 ## Competitor Comparison
 ### Comparison of OpenAI o4-mini with Top Competitors
 #### Overview
-The OpenAI o4-mini model, released on 2025-04-16, is a standard-tier model offered by OpenAI. It is not open-source and has a specific set of pricing, performance, and capabilities. In this comparison, we will evaluate the OpenAI o4-mini against its top competitors, including OpenAI o3-mini and Gemini 2.5 Pro.
+The OpenAI o4-mini model is a standard, non-open-source model released by OpenAI on 2025-04-16. It offers a range of capabilities, including text, function calling, JSON mode, structured outputs, streaming, batch processing, system prompts, and extended thinking. In this comparison, we will examine the pricing, performance, and use cases of OpenAI o4-mini against its top competitors, OpenAI o3-mini and Gemini 2.5 Pro.
 
 #### Pricing Comparison
 The pricing for each model is as follows:
@@ -97,66 +103,51 @@ The pricing for each model is as follows:
 	+ Input: $1.25 per 1M tokens
 	+ Output: $10.0 per 1M tokens
 
-#### Performance Trade-offs
-The OpenAI o4-mini has the following benchmarks:
-* MMLU: 85.3
-* HumanEval: 93.7
-* LMSYS Arena ELO: 1320
-* GSM8K: 97.4
-
-In comparison, the OpenAI o3-mini and Gemini 2.5 Pro do not have publicly available benchmarks. However, based on the pricing, it can be inferred that the Gemini 2.5 Pro may have better performance due to its higher output cost.
+#### Performance Comparison
+The performance of each model is measured by the following benchmarks:
+* OpenAI o4-mini:
+	+ MMLU: 85.3
+	+ HumanEval: 93.7
+	+ LMSYS Arena ELO: 1320
+	+ GSM8K: 97.4
+* OpenAI o3-mini: Not provided
+* Gemini 2.5 Pro: Not provided
 
 #### Capabilities and Use Cases
-The OpenAI o4-mini has the following capabilities:
-* text
-* function_calling
-* json_mode
-* structured_outputs
-* streaming
-* batch_processing
-* system_prompts
-* extended_thinking
-
-It is best suited for tasks that require:
-* complex_reasoning
-* coding
-* math
-* science
-* agents
-* function_calling
-* analysis
-
-On the other hand, it is not suitable for:
-* simple_tasks
-* vision
-* bulk_cheap_tasks
-* real_time_sub_100ms
+OpenAI o4-mini is best suited for complex reasoning, coding, math, science, agents, function calling, and analysis. It is not recommended for simple tasks, vision, bulk cheap tasks, or real-time tasks with sub-100ms latency.
 
 #### Cost Examples
-The estimated costs for using the OpenAI o4-mini are:
-* 1,000 calls (avg 500 tokens): $
+The estimated costs for using OpenAI o4-mini are:
+* 1,000 calls (avg 500 tokens): $2.75
+* 10,000 calls: $27.5
+* 100,000 calls: $275.0
+
+#### Comparison Summary
+| Model | Input Price (per 1M tokens) | Output Price (per 1M tokens) | Recommended Use Cases |
+| ---
 
 ## Best Use Cases
 ### Introduction to OpenAI o4-mini
-The OpenAI o4-mini model, released on 2025-04-16, is a standard, non-open-source model provided by OpenAI. With its capabilities in complex reasoning, coding, math, science, and function calling, it is best suited for tasks that require in-depth analysis and processing.
+The OpenAI o4-mini model, released on 2025-04-16, is a standard tier model provided by OpenAI. It is not open source. This model excels in complex reasoning, coding, math, science, and function calling, making it a powerful tool for various applications.
+
+### Pricing Model
+The pricing for OpenAI o4-mini is as follows:
+* Input: $1.1 per 1M tokens
+* Output: $4.4 per 1M tokens
+* Cached Input: $0.55 per 1M tokens
+* Batch Input: $0.55 per 1M tokens
 
 ### Top 5 Best Use Cases for OpenAI o4-mini
 Based on its capabilities and benchmarks, here are the top 5 best use cases for OpenAI o4-mini:
 
-1. **Complex Coding Tasks**: With a HumanEval score of 93.7, OpenAI o4-mini is well-suited for complex coding tasks, such as code generation, code completion, and code review.
-2. **Math and Science Problem Solving**: OpenAI o4-mini's high scores in MMLU (85.3) and GSM8K (97.4) make it an ideal model for math and science problem solving, such as solving equations, proving theorems, and explaining scientific concepts.
-3. **Function Calling and API Integration**: OpenAI o4-mini's support for function calling and JSON mode makes it a great choice for integrating with external APIs and services, such as OpenRouter.
-4. **Analysis and Reasoning**: With its high LMSYS Arena ELO score (1320), OpenAI o4-mini is well-suited for complex analysis and reasoning tasks, such as text analysis, sentiment analysis, and decision making.
-5. **Agent-Based Systems**: OpenAI o4-mini's support for system prompts and extended thinking makes it a great choice for building agent-based systems, such as chatbots, virtual assistants, and autonomous agents.
+1. **Complex Coding Tasks**: With its high HumanEval benchmark score of 93.7, OpenAI o4-mini is well-suited for complex coding tasks, such as code review and generation.
+2. **Math and Science Problem Solving**: The model's high GSM8K score of 97.4 indicates its ability to excel in math and science problem solving, making it a great tool for educational applications.
+3. **Function Calling and Analysis**: OpenAI o4-mini's ability to perform function calling and analysis makes it a great tool for data analysis and visualization tasks.
+4. **Agent-Based Systems**: The model's high LMSYS Arena ELO score of 1320 indicates its ability to excel in agent-based systems, making it a great tool for applications such as game development and simulation.
+5. **Extended Thinking and Reasoning**: With its high MMLU score of 85.3, OpenAI o4-mini is well-suited for tasks that require extended thinking and reasoning, such as text analysis and generation.
 
 ### Code Integration Examples with OpenRouter
-Here is an example of how to integrate OpenAI o4-mini with OpenRouter using Python:
-```python
-import openai
-import openrouter
-
-# Initialize OpenAI o4-mini model
-model = openai.Model
+To integrate OpenAI
 
 ## Frequently Asked Questions
 
