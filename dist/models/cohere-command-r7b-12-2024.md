@@ -1,6 +1,6 @@
 # Cohere: Command R7B (12-2024) API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-07-16
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-07-17
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview

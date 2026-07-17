@@ -1,17 +1,17 @@
 # Inception: Mercury 2 API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-07-16
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-07-17
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
 ### Introduction to Inception: Mercury 2
-Inception: Mercury 2 (inception/mercury-2) is a standard-tier model provided by Inception, released on 2024-01-01. This model is not open-source. From an architectural standpoint, Inception: Mercury 2 is designed to handle a variety of tasks, including text generation, function calling, and structured outputs. Its capabilities extend to streaming and JSON mode, making it versatile for different applications.
+Inception: Mercury 2 is a standard-tier model released by Inception on 2024-01-01. This model is not open source, indicating that its internal architecture and training data are proprietary. The architecture of Inception: Mercury 2 is designed to handle a wide range of natural language processing tasks, including text generation, coding, and analysis. With a context window of 128,000 tokens and a maximum output of 50,000 tokens, this model is capable of processing and generating large amounts of text.
 
 ### Strengths and Use-Cases
-The main strengths of Inception: Mercury 2 lie in its ability to process large inputs, with a context window of up to 128,000 tokens, and generate outputs of up to 50,000 tokens. This makes it suitable for tasks such as chat, text generation, coding, analysis, and summarization. The model's performance is benchmarked with an MMLU score of 80.0 and an LMSYS Arena ELO of 1200, indicating its competence in handling complex tasks. With pricing set at $0.25 per 1M input tokens and $0.75 per 1M output tokens, Inception: Mercury 2 offers a cost-effective solution for developers looking to integrate advanced language processing capabilities into their applications.
+The main strengths of Inception: Mercury 2 lie in its capabilities, which include text, function calling, JSON mode, streaming, and structured outputs. These capabilities make it an ideal choice for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization. The model's pricing structure is based on input and output tokens, with costs of $0.25 per 1M input tokens and $0.75 per 1M output tokens. This pricing model makes it a cost-effective option for developers who need to process large amounts of text data. With a high MMLU benchmark score of 80.0 and an LMSYS Arena ELO score of 1200, Inception: Mercury 2 demonstrates strong performance in various natural language processing tasks.
 
-### Pricing and Cost Examples
-The pricing model for Inception: Mercury 2 is straightforward, with costs calculated based on input and output tokens. For example, 1,000 calls with an average of 500 tokens each would cost $0.5, while 10,000 calls would amount to $5.0, and 100,000 calls would cost $50.0. This pricing structure, combined with the model's capabilities and performance benchmarks, makes Inception: Mercury 2 an attractive option for developers working on projects that require advanced text processing and generation capabilities. As there are no direct competitors listed, Inception: Mercury 2 stands out as a unique solution in its
+### Technical Specifications and Cost Examples
+Inception: Mercury 2 has a knowledge cutoff of 2023-12, indicating that its training data is current up to that point. The model's technical specifications and pricing structure make it an attractive option for developers who need to build applications that require advanced natural language processing capabilities. For example, 1,000 calls with an average of 500 tokens would cost $0.5, while 10,000 calls would cost $5.0, and 100,000 calls would cost $50.0. With its
 
 ## Pricing (USD per 1M tokens)
 | Metric | Price |
@@ -23,37 +23,33 @@ The pricing model for Inception: Mercury 2 is straightforward, with costs calcul
 | Batch Output | $None |
 
 ## Pricing Analysis
-### Pricing Analysis for Inception: Mercury 2
+### Inception: Mercury 2 Pricing Analysis
 #### Overview
-Inception: Mercury 2 is a standard, non-open-source model provided by Inception, released on January 1, 2024. This analysis will delve into the cost structure, optimal usage scenarios, and scalability of the model.
+The Inception: Mercury 2 model, released on 2024-01-01, is a standard, non-open-source model provided by Inception. This analysis will delve into the cost structure, optimal usage scenarios, and cost savings at scale for this model.
 
 #### Cost Structure
 The pricing for Inception: Mercury 2 is as follows:
-* **Input**: $0.25 per 1M tokens
-* **Output**: $0.75 per 1M tokens
-* **Cached Input**: $0 per 1M tokens (free)
-* **Batch Input**: $0 per 1M tokens (free)
-
-This structure indicates that using cached input tokens can significantly reduce costs, as they are provided at no additional charge. Similarly, batch inputs are also free, which can lead to substantial savings when making multiple API calls.
+- **Input**: $0.25 per 1M tokens
+- **Output**: $0.75 per 1M tokens
+- **Cached Input**: $0.00 per 1M tokens (free)
+- **Batch Input**: $0.00 per 1M tokens (free)
 
 #### Optimal Usage Scenarios
-To minimize costs, it is recommended to:
-* Use **cached input tokens** whenever possible, as they are free.
-* Utilize **batch API calls** to take advantage of the free batch input pricing.
-* Optimize **input and output token counts** to reduce the number of tokens processed, thereby lowering costs.
+- **Cached Tokens**: Since cached input tokens are free, it is highly recommended to use cached tokens whenever possible to minimize costs.
+- **Batch API Calls**: Batch input is also free, which means batching API calls can significantly reduce costs by minimizing the number of input tokens required.
 
 #### Cost at Scale
-The provided cost examples illustrate the model's pricing at different scales:
-* **1,000 calls (avg 500 tokens)**: $0.5
-* **10,000 calls**: $5.0
-* **100,000 calls**: $50.0
+The cost examples provided are as follows:
+- **1,000 calls (avg 500 tokens)**: $0.5
+- **10,000 calls**: $5.0
+- **100,000 calls**: $50.0
 
-These examples demonstrate a linear increase in cost with the number of API calls. To estimate costs for larger scales, we can extrapolate from these examples.
+To understand the cost structure better, let's calculate the cost per call based on the provided examples:
+- For 1,000 calls, the cost per call is $0.5 / 1,000 = $0.0005 per call.
+- For 10,000 calls, the cost per call is $5.0 / 10,000 = $0.0005 per call.
+- For 100,000 calls, the cost per call is $50.0 / 100,000 = $0.0005 per call.
 
-#### Cost Estimation
-Based on the provided examples, we can estimate the cost per call:
-* $0.5 ÷ 1,000 calls = $0.0005 per call (avg 500 tokens)
-* $5.0 ÷ 10,000 calls = $0
+This indicates a flat cost per call regardless of the volume, suggesting that the pricing model is designed to encourage large volumes
 
 ## Benchmarks
 | Benchmark | Score |
@@ -64,11 +60,11 @@ Based on the provided examples, we can estimate the cost per call:
 | ARC | None |
 
 ## Benchmark Analysis
-### Analysis of Inception: Mercury 2 Benchmark Performance
+### Inception: Mercury 2 Benchmark Analysis
 #### Overview
-Inception: Mercury 2 is a standard-tier model released by Inception on 2024-01-01. It is not open source. This analysis will delve into its benchmark performance, focusing on the MMLU, HumanEval, and Arena ELO scores, and what these mean for real-world applications.
+Inception: Mercury 2 is a standard-tier model released by Inception on 2024-01-01. It is not open source and has a specific pricing structure for input and output tokens.
 
-#### Pricing
+#### Pricing Structure
 The pricing for Inception: Mercury 2 is as follows:
 - **Input**: $0.25 per 1M tokens
 - **Output**: $0.75 per 1M tokens
@@ -76,96 +72,123 @@ The pricing for Inception: Mercury 2 is as follows:
 - **Batch Input**: $None per 1M tokens
 
 #### Context and Limits
-Key context and limit details:
+The model has the following context and limits:
 - **Context Window**: 128,000 tokens
 - **Max Output**: 50,000 tokens
 - **Knowledge Cutoff**: 2023-12
 
 #### Benchmarks
-The model's benchmark performance is:
-- **MMLU**: 80.0
-- **HumanEval**: None
-- **LMSYS Arena ELO**: 1200
-- **GSM8K**: None
+The benchmark performance of Inception: Mercury 2 is:
+- **MMLU**: 80.0, indicating the model's ability to understand and process mathematical and logical concepts.
+- **HumanEval**: Not available, which would have measured the model's ability to evaluate and execute human-written code.
+- **LMSYS Arena ELO**: 1200, representing the model's performance in a competitive arena, with higher scores indicating better performance.
+- **GSM8K**: Not available, which would have evaluated the model's performance on math problems.
 
 #### Capabilities and Use Cases
-Inception: Mercury 2 supports:
-- **Capabilities**: text, function_calling, json_mode, streaming, structured_outputs
-- **Best For**: chat, text_generation, coding, analysis, rag_pipelines, summarization
-- **Not Good For**: Not specified
+Inception: Mercury 2 supports the following capabilities:
+- Text
+- Function calling
+- JSON mode
+- Streaming
+- Structured outputs
 
-#### Cost Examples
-Estimated costs for using Inception: Mercury 2:
-- **1,000 calls (avg 500 tokens)**: $0.5
-- **10,000 calls**: $5
+It is best suited for:
+- Chat
+- Text generation
+- Coding
+- Analysis
+- RAG pipelines
 
 ## Competitor Comparison
 ### Inception: Mercury 2 Comparison
 #### Introduction
-The Inception: Mercury 2 model, released on 2024-01-01, is a standard-tier model provided by Inception. It is not open source. This comparison will analyze the model's pricing, performance, and capabilities against its top competitors. However, since no direct competitors are listed, we will focus on the model's characteristics and provide guidance on when to choose it.
+Inception: Mercury 2 is a standard-tier model released by Inception on 2024-01-01. This model offers a range of capabilities, including text, function calling, JSON mode, streaming, and structured outputs. The following comparison will outline the key features, pricing, and performance trade-offs of Inception: Mercury 2 against its top competitors.
 
 #### Pricing
-The Inception: Mercury 2 model is priced as follows:
-* Input: $0.25 per 1M tokens
-* Output: $0.75 per 1M tokens
-* Cached Input: $None per 1M tokens
-* Batch Input: $None per 1M tokens
+The pricing for Inception: Mercury 2 is as follows:
+* Input: **$0.25 per 1M tokens**
+* Output: **$0.75 per 1M tokens**
+* Cached Input: **$None per 1M tokens**
+* Batch Input: **$None per 1M tokens**
 
-#### Performance Trade-offs
-The model has the following benchmarks:
-* MMLU: 80.0
-* LMSYS Arena ELO: 1200
-The model's performance is notable, with an MMLU score of 80.0 and an LMSYS Arena ELO of 1200. However, the lack of HumanEval and GSM8K benchmarks limits our understanding of its performance in certain areas.
+#### Context and Limits
+Inception: Mercury 2 has the following context and limits:
+* Context Window: **128,000 tokens**
+* Max Output: **50,000 tokens**
+* Knowledge Cutoff: **2023-12**
 
-#### Capabilities and Limits
-The Inception: Mercury 2 model has the following capabilities:
-* text
-* function_calling
-* json_mode
-* streaming
-* structured_outputs
-It is best suited for:
-* chat
-* text_generation
-* coding
-* analysis
-* rag_pipelines
-* summarization
-The model's context window is 128,000 tokens, and its maximum output is 50,000 tokens. The knowledge cutoff is 2023-12.
+#### Benchmarks
+The model's performance is measured by the following benchmarks:
+* MMLU: **80.0**
+* HumanEval: **None**
+* LMSYS Arena ELO: **1200**
+* GSM8K: **None**
+
+#### Capabilities and Use Cases
+Inception: Mercury 2 is best suited for the following tasks:
+* Chat
+* Text generation
+* Coding
+* Analysis
+* RAG pipelines
+* Summarization
 
 #### Cost Examples
-The following cost examples illustrate the model's pricing:
-* 1,000 calls (avg 500 tokens): $0.5
-* 10,000 calls: $5.0
-* 100,000 calls: $50.0
+The estimated costs for using Inception: Mercury 2 are:
+* 1,000 calls (avg 500 tokens): **$0.5**
+* 10,000 calls: **$5.0**
+* 100,000 calls: **$50.0**
 
-#### Choosing the Inception: Mercury 2 Model
-Given the lack of direct competitors, the decision to choose the Inception: Mercury 2 model depends on your specific use case and requirements. Consider the following:
-* If you need a model with a large context window (128,000 tokens) and high output capacity (50,000 tokens), the Inception: Mercury 2 may be a good choice.
-* If you require a model with strong text generation and coding capabilities, the Inception: Mercury
+#### Comparison to Top Competitors
+Since there are no direct competitors listed for Inception: Mercury 2, we will provide general guidance on when to choose this model.
+
+### Choosing Inception: Mercury 2
+Inception: Mercury 2 is a suitable choice when:
+* You require a standard-tier model with a context window of 128,000 tokens and a max output of 50,000 tokens.
+* Your use case involves text, function calling, JSON mode, streaming, or structured outputs.
+* You need a model with a knowledge cutoff of 2023-12.
+* You are looking for a model with a balance of performance and cost, as indicated by its M
 
 ## Best Use Cases
 ### Introduction to Inception: Mercury 2
-Inception: Mercury 2 is a powerful model released by Inception on 2024-01-01, offering a range of capabilities including text generation, function calling, and structured outputs. With its standard tier and proprietary licensing, it's an attractive option for various applications. Here, we'll explore the top 5 best use cases for Inception: Mercury 2, along with code integration examples using OpenRouter.
+Inception: Mercury 2 is a powerful model released by Inception on 2024-01-01, categorized as a standard, non-open-source model. With its impressive capabilities, including text, function calling, JSON mode, streaming, and structured outputs, it's best suited for applications like chat, text generation, coding, analysis, RAG pipelines, and summarization.
 
-### Top 5 Use Cases for Inception: Mercury 2
-#### 1. **Chat and Text Generation**
-Inception: Mercury 2 excels in chat and text generation tasks, making it suitable for conversational AI applications. Its context window of 128,000 tokens allows for engaging and contextually relevant conversations.
+### Top 5 Best Use Cases for Inception: Mercury 2
+Given its capabilities and pricing structure, here are the top 5 best use cases for Inception: Mercury 2, along with specific code integration examples mentioning OpenRouter:
 
-#### 2. **Coding and Analysis**
-With its function calling and structured outputs capabilities, Inception: Mercury 2 is well-suited for coding tasks, such as code completion and analysis. Its ability to process large inputs (up to 128,000 tokens) makes it ideal for complex coding projects.
+1. **Chat and Text Generation**:
+   - **Use Case**: Implementing a chatbot that can engage in meaningful conversations and generate human-like text based on user input.
+   - **Example Code**:
+     ```python
+     import openrouter
 
-#### 3. **Summarization and RAG Pipelines**
-Inception: Mercury 2's text generation capabilities also make it a strong contender for summarization tasks and RAG (Retrieve, Augment, Generate) pipelines. Its ability to generate concise and relevant summaries can be invaluable in various applications.
+     # Initialize OpenRouter with Inception: Mercury 2
+     router = openrouter.Router(model="inception/mercury-2")
 
-#### 4. **Streaming and Real-time Applications**
-Inception: Mercury 2's support for streaming and real-time processing enables its use in applications that require immediate responses, such as live chatbots or real-time text analysis.
+     # Define a function to generate chat responses
+     def generate_response(user_input):
+         response = router.generate_text(user_input)
+         return response
 
-#### 5. **JSON Mode and Structured Outputs**
-The model's JSON mode and structured outputs capabilities make it an excellent choice for applications that require structured data, such as data analysis, reporting, or API integration.
+     # Example usage
+     user_input = "Hello, how are you?"
+     response = generate_response(user_input)
+     print(response)
+     ```
+   - **Cost**: For 1,000 chat interactions (avg 500 tokens), the cost would be approximately $0.5.
 
-### Code Integration Examples with OpenRouter
-To integrate Inception: Mercury 2 with OpenRouter, you can use the following
+2. **Coding and Analysis**:
+   - **Use Case**: Utilizing Inception: Mercury 2 for code analysis, debugging, and suggesting improvements.
+   - **Example Code**:
+     ```python
+     import openrouter
+
+     # Initialize OpenRouter with Inception: Mercury 2
+     router = openrouter.Router(model="inception/mercury-2")
+
+     # Define a function to analyze code
+     def analyze_code(code_snippet):
+        
 
 ## Frequently Asked Questions
 
