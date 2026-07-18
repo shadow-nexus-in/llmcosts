@@ -177,6 +177,7 @@
     "openai-gpt-5.6-luna-pro-vs-openai-gpt-5.6-terra",
     "openai-gpt-5.6-luna-pro-vs-openai-gpt-5.6-sol-pro",
     "openai-gpt-5.6-luna-pro-vs-openai-gpt-5.6-sol",
-    "meta-muse-spark-1.1-vs-openai-gpt-5.6-luna-pro"
+    "meta-muse-spark-1.1-vs-openai-gpt-5.6-luna-pro",
+    "o3-vs-openai-gpt-5.6-luna-pro"
   ]
 }

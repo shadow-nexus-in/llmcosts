@@ -1,10 +1,10 @@
 {
-  "saved_at": "2026-07-17T02:59:24Z",
+  "saved_at": "2026-07-18T02:50:00Z",
   "keys": [
     {
       "index": 0,
-      "requests_today": 2,
-      "tokens_today": 1063,
+      "requests_today": 0,
+      "tokens_today": 0,
       "exhausted": true
     }
   ]
