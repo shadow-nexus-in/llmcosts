@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://llmcosts.dev/models/llama-guard-3-8b">
 
   <!-- Schema.org: Dataset -->
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Llama Guard 3 8B API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Llama Guard 3 8B by Meta.", "url": "https://llmcosts.dev/models/llama-guard-3-8b", "keywords": ["Llama Guard 3 8B", "Meta", "open-source", "safety", "moderation", "meta", "llama-3"], "dateModified": "2026-07-18", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Llama Guard 3 8B API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Llama Guard 3 8B by Meta.", "url": "https://llmcosts.dev/models/llama-guard-3-8b", "keywords": ["Llama Guard 3 8B", "Meta", "open-source", "safety", "moderation", "meta", "llama-3"], "dateModified": "2026-07-19", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
   <!-- Schema.org: FAQ -->
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
 
@@ -346,13 +346,13 @@
       <div class="card content-section">
         <div class="card-title">Overview</div>
         <div>### Introduction to Llama Guard 3 8B
-The Llama Guard 3 8B model, released by Meta on 2024-07-23, is an open-source, budget-tier language model designed for a variety of text-based applications. With its architecture based on the meta-llama/llama-guard-3-8b framework, this model boasts a context window of 8,192 tokens and can generate output up to 8,192 tokens. The knowledge cutoff for this model is 2024-03, ensuring it has a robust understanding of information up to that point.
+The Llama Guard 3 8B model, released by Meta on 2024-07-23, is an open-source, budget-tier language model designed for a variety of applications. With its architecture based on the meta-llama/llama-guard-3-8b framework, this model offers a range of capabilities including text generation, moderation, safety filtering, and function calling. Its primary strengths lie in its ability to handle tasks such as chat, text generation, coding, analysis, and summarization, making it a versatile tool for developers.
 
-### Technical Strengths and Use Cases
-Llama Guard 3 8B excels in several key areas, including text generation, moderation, safety filtering, function calling, and structured outputs. Its capabilities make it well-suited for applications such as chat, text generation, coding, analysis, and summarization. However, it is not recommended for general chat or coding tasks that require complex reasoning. The model's pricing structure, with input and output costs set at $0.2 per 1M tokens, makes it an attractive option for developers looking for a cost-effective solution. With a benchmark score of 80.0 on the MMLU and 1200 on the LMSYS Arena ELO, Llama Guard 3 8B demonstrates its potential for handling a range of tasks.
+### Technical Specifications and Pricing
+Technically, Llama Guard 3 8B operates with a context window of 8,192 tokens and can produce outputs of up to 8,192 tokens. Its knowledge cutoff is 2024-03, ensuring that its training data is current up to that point. In terms of pricing, the model is cost-effective, charging $0.2 per 1M tokens for both input and output, with no additional costs for cached input or batch input. This pricing structure makes it an attractive option for developers looking to integrate a powerful language model into their applications without incurring significant costs. For example, 1,000 calls with an average of 500 tokens would cost approximately $0.1, scaling to $10.0 for 100,000 calls.
 
-### Pricing and Competitiveness
-In terms of pricing, Llama Guard 3 8B offers a competitive edge, with costs starting at $0.1 for 1,000 calls averaging 500 tokens. For larger-scale applications, the cost scales to $1.0 for 10,000 calls and $10.0 for 100,000 calls. Compared to its top competitor, Mistral Nemo, which charges $0.15 per 1M input and output tokens, Llama Guard 3 8B presents a compelling option for</div>
+### Use Cases and Competitors
+Llama Guard 3 8B is best suited for tasks that require text generation, coding assistance, and analysis, among others. However, it may not perform as well in general chat or reasoning tasks. In comparison to its competitors, such as Mistral Nemo, which charges $0.15/1M input and $0.15/1M output, Llama Guard 3 8B offers a similar pricing model but with the added benefit of being open-source. Its benchmark scores, including an M</div>
       </div>
 
       <!-- PRICING -->
@@ -393,33 +393,31 @@ In terms of pricing, Llama Guard 3 8B offers a competitive edge, with costs star
 
         <div style="margin-top:1.5rem">### Llama Guard 3 8B Pricing Analysis
 #### Overview
-The Llama Guard 3 8B model, provided by Meta, offers a competitive pricing structure for businesses and developers. Released on 2024-07-23, this model is part of the budget tier and is open-source.
+The Llama Guard 3 8B model, provided by Meta, offers a cost-effective solution for various applications, including text generation, moderation, and safety filtering. This analysis will delve into the cost structure, cached tokens, batch API savings, and cost at scale for this model.
 
 #### Cost Structure
 The pricing for Llama Guard 3 8B is as follows:
-* **Input**: $0.2 per 1M tokens
-* **Output**: $0.2 per 1M tokens
-* **Cached Input**: $None per 1M tokens (free)
-* **Batch Input**: $None per 1M tokens (free)
+* Input: $0.2 per 1M tokens
+* Output: $0.2 per 1M tokens
+* Cached Input: $None per 1M tokens (free)
+* Batch Input: $None per 1M tokens (free)
 
-This cost structure indicates that using cached input and batch input can significantly reduce costs, as they are provided at no additional charge.
-
-#### When to Use Cached Tokens
-Cached tokens should be utilized whenever possible, as they are free. This is particularly useful for applications where the same input is used multiple times, such as in chatbots or text generation tasks.
+#### Cached Tokens
+Using cached tokens can significantly reduce costs, as they are free. This is ideal for applications where the same input is used multiple times. By leveraging cached tokens, users can minimize their expenses.
 
 #### Batch API Savings
-Batching API calls can also lead to significant cost savings, as the input is free. This is ideal for applications that require processing large amounts of data in parallel, such as data analysis or text moderation tasks.
+Batching API calls can also lead to cost savings, as the input is free. This is particularly beneficial for applications that require processing large volumes of data. By batching API calls, users can reduce their costs and improve efficiency.
 
 #### Cost at Scale
 The cost of using Llama Guard 3 8B at scale is as follows:
-* **1,000 calls (avg 500 tokens)**: $0.1
-* **10,000 calls**: $1.0
-* **100,000 calls**: $10.0
+* 1,000 calls (avg 500 tokens): $0.1
+* 10,000 calls: $1.0
+* 100,000 calls: $10.0
 
-These costs demonstrate a linear scaling of costs with the number of API calls, indicating that the pricing structure is straightforward and easy to predict.
+These costs demonstrate a linear relationship between the number of API calls and the total cost.
 
-#### Comparison to Competitors
-The Llama Guard 3 8B model is competitive with other models in the market, such as Mistral Nemo, which charges $0.15/1M input and $0.15/1M output</div>
+#### Comparison to Top Competitors
+The top competitor, Mistral Nemo, charges $0.15 per 1M input and $0.15 per 1M output. In comparison, Llama Guard 3 8B charges $0.2 per 1M input and $0.2 per 1M output. However, Llama Guard 3 8B offers free</div>
       </div>
 
       <!-- BENCHMARKS -->
@@ -432,7 +430,7 @@ The Llama Guard 3 8B model is competitive with other models in the market, such 
         </div>
         <div>### Analysis of Llama Guard 3 8B Benchmark Performance
 #### Model Overview
-The Llama Guard 3 8B model, provided by Meta, was released on 2024-07-23. It is classified as a budget-tier model and is open-source.
+The Llama Guard 3 8B model, provided by Meta, is an open-source, budget-tier language model released on 2024-07-23. It has a context window of 8,192 tokens and a maximum output of 8,192 tokens, with a knowledge cutoff of 2024-03.
 
 #### Pricing
 The pricing for Llama Guard 3 8B is as follows:
@@ -442,14 +440,14 @@ The pricing for Llama Guard 3 8B is as follows:
 * Batch Input: $None per 1M tokens
 
 #### Benchmark Performance
-The benchmark performance of Llama Guard 3 8B is measured by the following metrics:
-* **MMLU (Massive Multitask Language Understanding)**: 80.0. MMLU is a benchmark that evaluates a model's ability to perform a wide range of natural language processing tasks. A higher MMLU score indicates better performance.
-* **HumanEval**: None. HumanEval is a benchmark that evaluates a model's ability to generate code that passes a set of unit tests. The lack of a HumanEval score for Llama Guard 3 8B makes it difficult to assess its coding capabilities.
-* **LMSYS Arena ELO**: 1200. The LMSYS Arena ELO score is a measure of a model's performance in a competitive setting, where it is pitted against other models. A higher ELO score indicates better performance.
+The model's benchmark performance is measured by the following scores:
+* **MMLU (Massive Multitask Language Understanding)**: 80.0 - This score indicates the model's ability to perform a wide range of natural language processing tasks. A higher score suggests better performance.
+* **HumanEval**: None - This benchmark evaluates a model's ability to generate code that passes a set of unit tests. The lack of a score for Llama Guard 3 8B makes it difficult to assess its coding capabilities.
+* **LMSYS Arena ELO**: 1200 - This score represents the model's performance in a competitive environment, where it is pitted against other models. A higher ELO score indicates better performance.
 
 #### Real-World Implications
-The benchmark performance of Llama Guard 3 8B has the following implications for real-world use:
-* The MMLU score of 80.0 indicates that Llama</div>
+The benchmark scores have the following implications for real-world use:
+* The MMLU score of 80.0 suggests that Llama Guard 3 8B is capable of performing a</div>
       </div>
 
       <!-- COMPETITOR TABLE -->
@@ -487,40 +485,30 @@ The benchmark performance of Llama Guard 3 8B has the following implications for
         </div>
         <div style="margin-top:1.5rem">### Llama Guard 3 8B Comparison
 #### Overview
-The Llama Guard 3 8B model, provided by Meta, is a budget-friendly option with a tier classification of "budget" and open-source availability. Released on 2024-07-23, this model offers a unique set of capabilities and performance trade-offs compared to its top competitors.
+The Llama Guard 3 8B model, provided by Meta, is a budget-friendly, open-source option for various natural language processing tasks. Released on 2024-07-23, it offers a unique set of capabilities and performance trade-offs. This comparison will examine the Llama Guard 3 8B against its top competitor, Mistral Nemo.
 
 #### Pricing Comparison
-The Llama Guard 3 8B model is priced at:
-* $0.2 per 1M tokens for input
-* $0.2 per 1M tokens for output
-* No additional costs for cached input or batch input
+The pricing structure for Llama Guard 3 8B is as follows:
+* Input: $0.2 per 1M tokens
+* Output: $0.2 per 1M tokens
+* Cached Input: $None per 1M tokens
+* Batch Input: $None per 1M tokens
 
-In comparison, the Mistral Nemo model is priced at:
+In contrast, Mistral Nemo is priced at:
 * $0.15 per 1M input tokens
 * $0.15 per 1M output tokens
 
-While the Mistral Nemo model appears to be cheaper, the Llama Guard 3 8B model offers additional capabilities such as text moderation, safety filtering, and function calling, which may justify the slightly higher cost.
+Llama Guard 3 8B is more expensive than Mistral Nemo, with a 33% higher cost per 1M tokens for both input and output.
 
-#### Performance Trade-offs
-The Llama Guard 3 8B model has a context window of 8,192 tokens and a maximum output of 8,192 tokens. Its knowledge cutoff is 2024-03, which may limit its ability to provide information on very recent events.
-
-The model's performance is measured by the following benchmarks:
+#### Performance Trade-Offs
+The performance of Llama Guard 3 8B is measured by the following benchmarks:
 * MMLU: 80.0
 * LMSYS Arena ELO: 1200
 
-These benchmarks indicate that the Llama Guard 3 8B model has strong performance in certain areas, but may not be as effective in others.
+While the HumanEval and GSM8K benchmarks are not available for Llama Guard 3 8B, its MMLU score of 80.0 and LMSYS Arena ELO of 1200 indicate a strong performance in certain tasks.
 
 #### Capabilities and Use Cases
-The Llama Guard 3 8B model is capable of:
-* Text generation
-* Moderation
-* Safety filtering
-* Function calling
-* JSON mode
-* Streaming
-* Structured outputs
-
-It is best suited for applications such as:
+Llama Guard 3 8B is suitable for a range of applications, including:
 * Chat
 * Text generation
 * Coding
@@ -528,55 +516,59 @@ It is best suited for applications such as:
 * RAG pipelines
 * Summarization
 
-However, it is not recommended for:
-* General chat
-* Coding
-* Reasoning
+However, it is not recommended for general chat, coding, or reasoning tasks.
 
 #### Cost Examples
-To illustrate the cost of using the Llama Guard 3 8B model, consider the following examples:
+To illustrate the cost of using Llama Guard 3 8B, consider the following examples:
 * 1,000 calls (avg 500 tokens): $0.1
 * 10,000 calls: $1.0
-* 100,000 calls: $10.0</div>
+* 100,000 calls: $10.0
+
+#### Choosing the Right Model
+When deciding between Llama Guard 3 8B and Mistral Nemo, consider the following factors:
+* **Budget**: If cost is a primary concern, Mistral Nemo may</div>
       </div>
 
       <!-- USE CASES -->
       <div class="card content-section">
         <div class="card-title">Best Use Cases</div>
         <div>### Introduction to Llama Guard 3 8B
-The Llama Guard 3 8B model, released by Meta on 2024-07-23, is a budget-friendly, open-source option for various natural language processing tasks. With its capabilities in text, moderation, safety filtering, function calling, JSON mode, streaming, and structured outputs, it's best suited for applications like chat, text generation, coding, analysis, RAG pipelines, and summarization.
+The Llama Guard 3 8B model, released by Meta on 2024-07-23, is a budget-friendly and open-source option for various natural language processing tasks. With its capabilities in text, moderation, safety filtering, function calling, JSON mode, streaming, and structured outputs, it's best suited for applications like chat, text generation, coding, analysis, RAG pipelines, and summarization.
 
 ### Top 5 Best Use Cases for Llama Guard 3 8B
-Given its strengths and limitations, here are the top 5 use cases for Llama Guard 3 8B, along with practical advice and code integration examples using OpenRouter:
+Given its strengths and limitations, here are the top 5 best use cases for Llama Guard 3 8B, along with specific code integration examples mentioning OpenRouter:
 
-1. **Text Generation and Summarization**: 
-   - **Use Case**: Generate concise summaries of long documents or create engaging content based on a set of keywords.
-   - **Advice**: Utilize the model's text generation capabilities to create summaries. Ensure input texts are within the 8,192 token context window.
-   - **Example**:
-     ```python
-     import openrouter
+1. **Text Generation**: Llama Guard 3 8B can be used for generating human-like text based on a given prompt. Its context window of 8,192 tokens allows for coherent and contextually relevant text generation.
+   ```python
+   import openrouter
+   from meta_llama import LlamaGuard3_8B
 
-     # Initialize the model
-     model = openrouter.Model("meta-llama/llama-guard-3-8b")
+   # Initialize the model
+   model = LlamaGuard3_8B()
 
-     # Function to generate summary
-     def generate_summary(document):
-         # Preprocess the document to fit within the context window
-         input_text = document[:8192]
-         # Generate summary
-         summary = model.generate(input_text, max_length=512)
-         return summary
+   # Define the prompt
+   prompt = "Generate a short story about a character who learns a new skill."
 
-     # Example usage
-     document = "Your long document text here..."
-     summary = generate_summary(document)
-     print(summary)
-     ```
+   # Use OpenRouter to integrate the model
+   response = openrouter.query(model, prompt)
 
-2. **Chat and Conversational Interfaces**:
-   - **Use Case**: Implement conversational interfaces for customer support, feedback collection, or simple Q&A systems.
-   - **Advice**: Leverage the model's chat capabilities. Be mindful of the context window and max output limits.
-</div>
+   # Print the generated text
+   print(response)
+   ```
+
+2. **Chat Applications**: The model's capabilities in text and moderation make it suitable for chat applications where safety filtering is crucial.
+   ```python
+   import openrouter
+   from meta_llama import LlamaGuard3_8B
+
+   # Initialize the model
+   model = LlamaGuard3_8B()
+
+   # Define the user input
+   user_input = "Hello, how are you?"
+
+   # Use OpenRouter to integrate the model for chat responses
+   response = openrouter.query(model, user_input</div>
       </div>
 
       <!-- CAPABILITIES -->
