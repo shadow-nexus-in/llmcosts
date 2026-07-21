@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://llmcosts.dev/models/mistral-large-2407">
 
   <!-- Schema.org: Dataset -->
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Mistral Large 2 API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Mistral Large 2 by Mistral AI.", "url": "https://llmcosts.dev/models/mistral-large-2407", "keywords": ["Mistral Large 2", "Mistral AI", "frontier", "multilingual", "coding", "european"], "dateModified": "2026-07-20", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Mistral Large 2 API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Mistral Large 2 by Mistral AI.", "url": "https://llmcosts.dev/models/mistral-large-2407", "keywords": ["Mistral Large 2", "Mistral AI", "frontier", "multilingual", "coding", "european"], "dateModified": "2026-07-21", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
   <!-- Schema.org: FAQ -->
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
 
@@ -346,13 +346,13 @@
       <div class="card content-section">
         <div class="card-title">Overview</div>
         <div>### Introduction to Mistral Large 2
-Mistral Large 2, released by Mistral AI on 2024-07-24, is a premium, non-open-source model designed to cater to a wide range of applications, particularly in coding, analysis, and multilingual tasks. The model boasts an impressive architecture that supports capabilities such as text and vision processing, function calling, JSON mode, streaming, and system prompts. With a context window of 131,072 tokens and a maximum output of 4,096 tokens, Mistral Large 2 is well-suited for complex and data-intensive tasks.
+Mistral Large 2, released by Mistral AI on 2024-07-24, is a premium, non-open-source model designed to cater to a wide range of applications, particularly in coding, analysis, and multilingual tasks. This model boasts a context window of 131,072 tokens and can generate up to 4,096 tokens as output. With a knowledge cutoff of 2024-07, Mistral Large 2 is well-equipped to handle tasks that require up-to-date information up to its knowledge cutoff date.
 
-### Technical Strengths and Use Cases
-The technical strengths of Mistral Large 2 are evident in its benchmark scores, which include an MMLU score of 84.0, HumanEval score of 92.0, LMSYS Arena ELO of 1225, and a GSM8K score of 93.0. These scores indicate the model's high performance in various evaluation metrics. The model's primary use cases include coding, analysis, retrieval-augmented generation (RAG), agents, multilingual tasks, and function calling. However, it is not recommended for tasks that require embeddings, bulk cheap processing, real-time responses under 100ms, or vision-heavy applications.
+### Architecture and Strengths
+The architecture of Mistral Large 2 supports various capabilities, including text, vision, function calling, JSON mode, streaming, and system prompts. Its strengths are reflected in its benchmark scores: MMLU at 84.0, HumanEval at 92.0, LMSYS Arena ELO at 1225, and GSM8K at 93.0. These scores indicate that Mistral Large 2 excels in coding and analytical tasks, making it a prime choice for developers working on projects that involve complex problem-solving and code generation. Its ability to handle multilingual inputs and function calling further expands its utility in diverse applications.
 
-### Pricing and Cost Considerations
-The pricing for Mistral Large 2 is based on input and output tokens, with costs of $3.0 per 1M input tokens and $9.0 per 1M output tokens. There are no costs associated with cached input or batch input. For example, 1,000 calls with an average of 500 tokens would cost $6.0, while 10,000 calls would cost $60.0, and 100,000 calls would cost $600.0. In comparison to its top competitors, such as GPT-4o, which charges $2.5/1M input and $</div>
+### Pricing and Use Cases
+Mistral Large 2 is priced at $3.0 per 1M input tokens and $9.0 per 1M output tokens, with no charges for cached or batch inputs. This pricing model makes it suitable for applications where the input and output token counts are manageable. For example, 1,000 calls averaging 500 tokens each would cost $6.0, scaling to $60.0 for 10,000 calls and $600.0 for 100,000 calls. While it may not be the most cost-effective option for bulk or real-time applications, its capabilities and performance make it a strong contender for tasks that require precision and advanced functionalities, positioning it</div>
       </div>
 
       <!-- PRICING -->
@@ -391,40 +391,30 @@ The pricing for Mistral Large 2 is based on input and output tokens, with costs 
           </tbody>
         </table>
 
-        <div style="margin-top:1.5rem">### Mistral Large 2 Pricing Analysis
+        <div style="margin-top:1.5rem">### Pricing Analysis for Mistral Large 2
 #### Overview
-Mistral Large 2, a premium model by Mistral AI, offers a range of capabilities including text, vision, function calling, and more. Released on 2024-07-24, this model is not open source. The pricing structure is based on input and output tokens.
+Mistral Large 2, provided by Mistral AI, is a premium model released on 2024-07-24. It offers a range of capabilities including text, vision, function calling, JSON mode, streaming, and system prompts, making it best suited for applications such as coding, analysis, and multilingual tasks.
 
 #### Cost Structure
-The cost of using Mistral Large 2 is as follows:
-* Input: $3.0 per 1M tokens
-* Output: $9.0 per 1M tokens
-* Cached Input: $0 per 1M tokens (free)
-* Batch Input: $0 per 1M tokens (free)
+The cost structure for Mistral Large 2 is as follows:
+- **Input**: $3.0 per 1M tokens
+- **Output**: $9.0 per 1M tokens
+- **Cached Input**: No additional cost ($None per 1M tokens)
+- **Batch Input**: No additional cost ($None per 1M tokens)
 
 #### When to Use Cached Tokens
-Cached tokens are free, making them an attractive option when possible. Use cached tokens when:
-* The input is repetitive or can be reused.
-* The application allows for caching mechanisms.
+Cached tokens can be utilized without incurring any additional cost. This feature is beneficial when the same input tokens are used multiple times, as it eliminates the need to pay for input tokens more than once. However, the specific scenarios where cached tokens can be applied are not detailed in the provided data.
 
 #### Batch API Savings
-Batch input is free, which can lead to significant savings when making multiple API calls. To maximize batch API savings:
-* Group multiple requests together in a single API call.
-* Ensure the batch size is optimized for the application's requirements.
+The pricing data does not specify any cost savings for using batch API calls explicitly. Instead, it indicates that there is no additional cost for batch input ($None per 1M tokens), suggesting that the cost per token remains consistent regardless of the batch size.
 
 #### Cost at Scale
-The cost of using Mistral Large 2 at scale is as follows:
-* 1,000 API calls (avg 500 tokens): $6.0
-* 10,000 API calls: $60.0
-* 100,000 API calls: $600.0
+The cost of using Mistral Large 2 at scale can be estimated based on the provided examples:
+- **1,000 calls (avg 500 tokens)**: $6.0
+- **10,000 calls**: $60.0
+- **100,000 calls**: $600.0
 
-To estimate the cost at scale, consider the average number of tokens per API call and the number of calls required.
-
-#### Comparison to Top Competitors
-Mistral Large 2's pricing is comparable to its top competitors. For example, GPT-4o charges $2.5 per 1M input tokens and $10.0 per 1M output tokens.
-
-#### Conclusion
-Mistral Large 2 offers a premium set of capabilities with a competitive pricing structure. By understanding</div>
+These examples suggest a linear cost scaling with the number of API calls. To estimate the cost per token, we can use the average token count per call. For instance, for 1,000 calls with an average of 500 tokens per call, the total tokens would</div>
       </div>
 
       <!-- BENCHMARKS -->
@@ -437,25 +427,23 @@ Mistral Large 2 offers a premium set of capabilities with a competitive pricing 
         </div>
         <div>### Mistral Large 2 Benchmark Performance Analysis
 #### Model Overview
-The Mistral Large 2 model, released by Mistral AI on 2024-07-24, is a premium, non-open-source model. It is priced at $3.0 per 1M input tokens and $9.0 per 1M output tokens.
+The Mistral Large 2 model, released by Mistral AI on 2024-07-24, is a premium, non-open-source model. It has a context window of 131,072 tokens and a maximum output of 4,096 tokens, with a knowledge cutoff date of 2024-07.
 
-#### Benchmark Scores
-The model's performance is measured by the following benchmark scores:
-* **MMLU (Massive Multitask Language Understanding)**: 84.0, indicating the model's ability to understand and generate human-like text across a wide range of tasks and domains.
-* **HumanEval**: 92.0, measuring the model's ability to write correct and functional code in response to programming prompts.
-* **LMSYS Arena ELO**: 1225, representing the model's competitive performance in a large-scale language model benchmarking arena.
-* **GSM8K**: 93.0, evaluating the model's math problem-solving abilities.
+#### Pricing
+The pricing for Mistral Large 2 is as follows:
+* Input: **$3.0 per 1M tokens**
+* Output: **$9.0 per 1M tokens**
+* Cached Input: **$None per 1M tokens**
+* Batch Input: **$None per 1M tokens**
 
-#### Real-World Implications
-These benchmark scores suggest that Mistral Large 2 is a highly capable model, particularly in:
-* **Coding and analysis**: With a high HumanEval score, the model is well-suited for coding tasks, such as generating code snippets or debugging existing code.
-* **Multilingual support**: The model's high MMLU score implies strong performance across multiple languages.
-* **Function calling and API interactions**: The model's support for function calling and JSON mode makes it a good fit for applications that require interacting with external APIs or services.
+#### Benchmark Performance
+The model's benchmark performance is measured by the following scores:
+* **MMLU: 84.0** - The MMLU (Massive Multitask Language Understanding) benchmark evaluates a model's ability to perform a wide range of natural language processing tasks. A higher MMLU score indicates better performance.
+* **HumanEval: 92.0** - The HumanEval benchmark assesses a model's ability to generate code that is correct and functional. A higher HumanEval score indicates better coding capabilities.
+* **LMSYS Arena ELO: 1225** - The LMSYS Arena ELO score measures a model's performance in a competitive environment, where it is pitted against other models. A higher ELO score indicates better performance.
+* **GSM8K: 93.0** - The GSM8K benchmark evaluates a model's ability to solve math problems. A higher GSM8K score indicates better math problem-solving capabilities.
 
-#### Cost Considerations
-The pricing model for Mistral Large 2 is as follows:
-* Input: $3.0 per 1M tokens
-</div>
+#### Real-</div>
       </div>
 
       <!-- COMPETITOR TABLE -->
@@ -491,100 +479,78 @@ The pricing model for Mistral Large 2 is as follows:
             </tbody>
           </table>
         </div>
-        <div style="margin-top:1.5rem">### Comparison of Mistral Large 2 with Top Competitors
+        <div style="margin-top:1.5rem">### Mistral Large 2 Comparison
 #### Overview
-Mistral Large 2, released by Mistral AI on 2024-07-24, is a premium, non-open-source model. This comparison will focus on its pricing, performance, and use cases against its top competitor, GPT-4o.
+Mistral Large 2, provided by Mistral AI, is a premium, non-open-source model released on 2024-07-24. This comparison will evaluate Mistral Large 2 against its top competitors, focusing on price differences, performance trade-offs, and use case recommendations.
 
 #### Pricing Comparison
-The pricing structure for Mistral Large 2 and GPT-4o is as follows:
-* Mistral Large 2:
-	+ Input: $3.0 per 1M tokens
-	+ Output: $9.0 per 1M tokens
-* GPT-4o:
-	+ Input: $2.5 per 1M tokens
-	+ Output: $10.0 per 1M tokens
+| Model | Input Price (per 1M tokens) | Output Price (per 1M tokens) |
+| --- | --- | --- |
+| Mistral Large 2 | $3.0 | $9.0 |
+| GPT-4o | $2.5 | $10.0 |
 
-Mistral Large 2 is more expensive than GPT-4o in terms of input costs, but slightly cheaper in terms of output costs.
+Mistral Large 2 is priced at $3.0 per 1M input tokens and $9.0 per 1M output tokens. In comparison, GPT-4o is priced at $2.5 per 1M input tokens but $10.0 per 1M output tokens. This indicates that while GPT-4o is cheaper for input, Mistral Large 2 is more cost-effective for output.
 
-#### Performance Trade-offs
-The performance of both models can be evaluated using various benchmarks:
-* Mistral Large 2:
-	+ MMLU: 84.0
-	+ HumanEval: 92.0
-	+ LMSYS Arena ELO: 1225
-	+ GSM8K: 93.0
-* GPT-4o: Benchmark scores are not provided for direct comparison.
+#### Performance Comparison
+Mistral Large 2 boasts impressive benchmark scores:
+- MMLU: 84.0
+- HumanEval: 92.0
+- LMSYS Arena ELO: 1225
+- GSM8K: 93.0
 
-Given the available data, Mistral Large 2 demonstrates strong performance across multiple benchmarks, indicating its suitability for tasks such as coding, analysis, and function calling.
+These scores suggest that Mistral Large 2 excels in various tasks, including coding, analysis, and multilingual capabilities. However, without direct benchmark comparisons to GPT-4o, it's challenging to determine which model performs better in specific areas.
 
-#### Context and Limits
-The context window and output limits for Mistral Large 2 are:
-* Context Window: 131,072 tokens
-* Max Output: 4,096 tokens
-* Knowledge Cutoff: 2024-07
+#### Capabilities and Limitations
+Mistral Large 2 supports a range of capabilities, including:
+- Text
+- Vision
+- Function calling
+- JSON mode
+- Streaming
+- System prompts
 
-These specifications are not provided for GPT-4o, making direct comparison challenging. However, the context window and output limits of Mistral Large 2 suggest it is designed for handling complex, long-form inputs and generating substantial outputs.
+It is best suited for tasks like:
+- Coding
+- Analysis
+- RAG (Retrieval-Augmented Generation)
+- Agents
+- Multilingual
+- Function calling
 
-#### Capabilities and Use Cases
-Mistral Large 2 supports the following capabilities:
-* Text
-* Vision
-* Function calling
-* JSON mode
-* Streaming
-* System prompts
+However, it is not recommended for:
+- Embeddings
+- Bulk cheap processing
+- Real-time sub-100ms applications
+- Vision-heavy tasks
 
-It is best suited for tasks such as:
-* Coding
-* Analysis
-* RAG (Retrieval-Augmented Generation)
-* Agents
-* Multilingual applications
-* Function calling
-
-Conversely, it is not recommended for:
-* Embeddings
-* Bulk</div>
+#### Cost Examples
+The cost of using Mistral Large 2 can be estimated as follows:
+- 1,000 calls (avg 500 tokens): $6.0
+- 10,000 calls: $60.0
+- 100,000 calls: $</div>
       </div>
 
       <!-- USE CASES -->
       <div class="card content-section">
         <div class="card-title">Best Use Cases</div>
         <div>### Introduction to Mistral Large 2
-Mistral Large 2, released by Mistral AI on 2024-07-24, is a premium, non-open-source model that excels in various tasks, including coding, analysis, and function calling. With its impressive benchmarks, such as an MMLU score of 84.0 and a HumanEval score of 92.0, it's a powerful tool for developers and researchers. This guide will explore the top 5 best use cases for Mistral Large 2, along with code integration examples using OpenRouter.
+Mistral Large 2, released by Mistral AI on 2024-07-24, is a premium, non-open-source model with a wide range of capabilities including text, vision, function calling, JSON mode, streaming, and system prompts. It is particularly suited for coding, analysis, RAG (Retrieval-Augmented Generation), agents, multilingual tasks, and function calling.
 
-### Top 5 Use Cases for Mistral Large 2
-#### 1. **Coding Assistance**
-Mistral Large 2 is well-suited for coding tasks, thanks to its high HumanEval score. You can use it to generate code snippets, complete partially written code, or even debug existing code.
-```python
-import openrouter
+### Top 5 Best Use Cases for Mistral Large 2
+Given its capabilities and pricing, here are the top 5 best use cases for Mistral Large 2:
 
-# Initialize Mistral Large 2 model
-model = openrouter.MistralLarge2()
+1. **Advanced Coding Assistance**: With its high HumanEval score of 92.0, Mistral Large 2 is ideal for providing coding assistance, including code completion, code review, and code optimization. Its ability to understand and generate code in multiple programming languages makes it a valuable tool for developers.
 
-# Generate code snippet
-prompt = "Write a Python function to calculate the area of a rectangle."
-response = model.generate(prompt)
-print(response)
-```
+2. **Complex Text Analysis**: Mistral Large 2's high MMLU score of 84.0 indicates its proficiency in understanding and analyzing complex texts. This makes it suitable for tasks such as text summarization, sentiment analysis, and information extraction.
 
-#### 2. **Text Analysis**
-With its high MMLU score, Mistral Large 2 is capable of performing complex text analysis tasks, such as sentiment analysis, entity recognition, and text summarization.
-```python
-import openrouter
+3. **Multilingual Support**: Given its multilingual capabilities, Mistral Large 2 can be used for tasks that require understanding and generating text in multiple languages, such as language translation, cross-lingual information retrieval, and multilingual text analysis.
 
-# Initialize Mistral Large 2 model
-model = openrouter.MistralLarge2()
+4. **RAG and Agents**: With its support for RAG and agents, Mistral Large 2 can be used to build conversational AI models that can retrieve information from external knowledge sources and engage in more informed and context-specific conversations.
 
-# Perform sentiment analysis
-prompt = "Analyze the sentiment of the following text: 'I love using Mistral Large 2 for coding tasks.'"
-response = model.generate(prompt)
-print(response)
-```
+5. **Function Calling and JSON Mode**: Mistral Large 2's ability to call external functions and process JSON data makes it suitable for tasks that require interacting with external APIs, processing structured data, and generating JSON output.
 
-#### 3. **RAG (Retrieve, Augment, Generate) Tasks**
-Mistral Large 2 supports RAG tasks, which involve retrieving information from a knowledge base, augmenting it with additional information, and generating a response.
-```</div>
+### Code Integration Example with OpenRouter
+To integrate Mistral Large 2 with</div>
       </div>
 
       <!-- CAPABILITIES -->
