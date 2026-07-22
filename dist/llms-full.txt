@@ -1,6 +1,6 @@
 # LLMCosts.dev — COMPLETE LLM Pricing Registry (Un-Sharded Master)
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-07-21
+> Updated: 2026-07-22
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -12,7 +12,7 @@ CitationTemplate: "{title} — LLMCosts.dev, retrieved from https://llmcosts.dev
 Author: LLMCosts.dev Automated Registry
 License: CC BY 4.0
 
-Total Models: 351 | This file is NOT sharded. For ChatGPT-sized ingestion, use /llms.txt instead.
+Total Models: 353 | This file is NOT sharded. For ChatGPT-sized ingestion, use /llms.txt instead.
 
 | Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
 |-------|----------|----------|---------|---------|---------|-----|------|------|
@@ -367,3 +367,5 @@ Total Models: 351 | This file is NOT sharded. For ChatGPT-sized ingestion, use /
 | [OpenAI: GPT-5.6 Sol Pro](https://llmcosts.dev/models/openai-gpt-5.6-sol-pro) | Openai | $5.0 | $30.0 | $None | 1,050,000 | None | premium | Closed |
 | [OpenAI: GPT-5.6 Sol](https://llmcosts.dev/models/openai-gpt-5.6-sol) | Openai | $5.0 | $30.0 | $None | 1,050,000 | None | premium | Closed |
 | [Meta: Muse Spark 1.1](https://llmcosts.dev/models/meta-muse-spark-1.1) | Meta | $1.25 | $4.25 | $None | 1,048,576 | None | premium | Closed |
+| [Google: Gemini 3.6 Flash](https://llmcosts.dev/models/google-gemini-3.6-flash) | Google | $1.5 | $7.5 | $None | 1,048,576 | None | standard | Closed |
+| [Google: Gemini 3.5 Flash-Lite](https://llmcosts.dev/models/google-gemini-3.5-flash-lite) | Google | $0.3 | $2.5 | $None | 1,048,576 | None | standard | Closed |
