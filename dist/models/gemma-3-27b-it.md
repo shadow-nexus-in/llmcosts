@@ -1,17 +1,17 @@
 # Gemma 3 27B IT API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-07-22
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-07-23
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
 ### Introduction to Gemma 3 27B IT
-The Gemma 3 27B IT model, released by Google on 2025-03-12, is a budget-friendly, open-source language model designed to cater to a wide range of applications. With its robust architecture, this model boasts a context window of 131,072 tokens and can generate up to 8,192 tokens as output. The knowledge cutoff for this model is 2024-06, ensuring it is well-versed in information up to that point. Gemma 3 27B IT supports multiple capabilities, including text, vision, streaming, system prompts, and function calling, making it a versatile tool for developers.
+The Gemma 3 27B IT model, released by Google on 2025-03-12, is an open-source, budget-tier language model designed for a wide range of applications. With its architecture supporting text, vision, streaming, system prompts, and function calling, Gemma 3 27B IT offers versatility and flexibility for developers. This model is particularly suited for tasks such as chatbots, coding, summarization, vision tasks, classification, and content generation, thanks to its broad capabilities.
 
-### Technical Strengths and Use Cases
-Gemma 3 27B IT demonstrates its strengths through various benchmarks, scoring 77.0 on MMLU, 75.0 on HumanEval, 1190 on LMSYS Arena ELO, and 90.0 on GSM8K. These scores indicate the model's proficiency in handling diverse tasks. It is best suited for applications such as chatbots, coding, summarization, vision tasks, classification, and content generation. However, it may not perform optimally in complex reasoning, frontier coding, research tasks, or real-time applications requiring sub-100ms responses. The pricing model for Gemma 3 27B IT is competitive, with costs of $0.1 per 1M tokens for input and $0.2 per 1M tokens for output, making it an attractive option for developers looking for a cost-effective solution.
+### Technical Specifications and Pricing
+Gemma 3 27B IT boasts a context window of 131,072 tokens and can generate up to 8,192 tokens as output. Its knowledge cutoff is 2024-06, ensuring it is informed by data up to that point. The pricing model for Gemma 3 27B IT is competitive, with input costing $0.1 per 1M tokens and output costing $0.2 per 1M tokens. There are no additional costs for cached input or batch input. This makes it an attractive option for developers looking for a cost-effective solution without compromising on performance. Benchmark scores such as MMLU (77.0), HumanEval (75.0), LMSYS Arena ELO (1190), and GSM8K (90.0) demonstrate its capabilities and potential for various applications.
 
-### Pricing and Competitiveness
-The pricing strategy for Gemma 3 27B IT is designed to be budget-friendly, with example costs including $0.15 for 1,000 calls (averaging 500 tokens), $1.5 for 10,000 calls, and $15.0 for 100,000 calls. In comparison
+### Use Cases and Competitors
+Given its strengths, Gemma 3 27B IT is best utilized for applications that do not require complex reasoning, frontier coding, research tasks, or real-time responses under 100ms. For example, cost estimates show that 1,000 calls (averaging 500 tokens) would cost $0.15, making it a viable option for many use cases. In comparison to its top competitors, such as Llama 3.1 70B Instruct and Qwen 2.
 
 ## Pricing (USD per 1M tokens)
 | Metric | Price |
@@ -25,33 +25,34 @@ The pricing strategy for Gemma 3 27B IT is designed to be budget-friendly, with 
 ## Pricing Analysis
 ### Pricing Analysis for Gemma 3 27B IT
 #### Overview
-The Gemma 3 27B IT model, released by Google on 2025-03-12, is a budget-friendly option with open-source availability. This analysis will delve into the cost structure, optimal usage scenarios, and cost-effectiveness at scale.
+The Gemma 3 27B IT model, released by Google on 2025-03-12, offers a competitive pricing structure for its capabilities in text, vision, streaming, system prompts, and function calling. This analysis will delve into the cost structure, optimal usage scenarios, and cost savings at scale.
 
 #### Cost Structure
 The pricing for Gemma 3 27B IT is as follows:
-* Input: $0.1 per 1M tokens
-* Output: $0.2 per 1M tokens
-* Cached Input: $0 per 1M tokens (free)
-* Batch Input: $0 per 1M tokens (free)
+- **Input**: $0.1 per 1M tokens
+- **Output**: $0.2 per 1M tokens
+- **Cached Input**: $None per 1M tokens (free)
+- **Batch Input**: $None per 1M tokens (free)
+
+This structure indicates that using cached input and batch API calls can significantly reduce costs, as they are provided at no additional charge.
 
 #### When to Use Cached Tokens
-Cached tokens are free, making them an attractive option for repeated input sequences. If your application involves frequent reuse of input tokens, utilizing cached tokens can significantly reduce costs.
+Cached tokens should be utilized whenever possible to minimize input costs. Since cached input is free, it is beneficial to use this feature for repeated or similar queries to avoid incurring input costs.
 
 #### Batch API Savings
-Batch input is also free, which means processing multiple inputs simultaneously can lead to substantial cost savings. By batching API calls, you can minimize the number of input tokens billed, resulting in lower overall costs.
+Batching API calls can also lead to substantial savings, as the input for these calls is free. By grouping multiple requests into a single batch, users can avoid input costs associated with individual calls.
 
 #### Cost at Scale
-To illustrate the cost-effectiveness of Gemma 3 27B IT, let's examine the costs for different numbers of API calls:
-* 1,000 calls (avg 500 tokens): $0.15
-* 10,000 calls: $1.5
-* 100,000 calls: $15.0
+To understand the cost implications of using Gemma 3 27B IT at scale, let's examine the provided cost examples:
+- **1,000 calls (avg 500 tokens)**: $0.15
+- **10,000 calls**: $1.5
+- **100,000 calls**: $15.0
 
-These examples demonstrate a linear cost increase with the number of API calls, indicating that the cost per call remains constant.
+These examples demonstrate a linear cost increase with the number of API calls, indicating that the cost per call remains consistent regardless of the scale.
 
-#### Comparison with Top Competitors
-Gemma 3 27B IT is priced competitively compared to its top competitors:
-* Llama 3.1 70B Instruct: $0.52/1M input, $0.75/1M output
-* Qwen 2.5 72B Instruct: $0.35/1M
+#### Competitor Comparison
+Comparing the pricing of Gemma 3 27B IT to its top competitors:
+- **Llama 3.
 
 ## Benchmarks
 | Benchmark | Score |
@@ -63,96 +64,73 @@ Gemma 3 27B IT is priced competitively compared to its top competitors:
 
 ## Benchmark Analysis
 ### Analysis of Gemma 3 27B IT Benchmark Performance
-The Gemma 3 27B IT model, released by Google on 2025-03-12, is a budget-friendly, open-source option with a tier classification of "budget". This model has been evaluated on several benchmarks to assess its performance.
+#### Model Overview
+The Gemma 3 27B IT model, released by Google on 2025-03-12, is a budget-friendly, open-source option with a context window of 131,072 tokens and a maximum output of 8,192 tokens.
 
-#### Benchmark Scores
-The model's performance can be summarized as follows:
-* **MMLU (Massive Multitask Language Understanding) Score: 77.0** - This score indicates the model's ability to understand and process natural language across a wide range of tasks. A higher score suggests better performance in tasks such as text classification, sentiment analysis, and question answering.
-* **HumanEval Score: 75.0** - This score evaluates the model's ability to generate correct and functional code based on a given prompt. A higher score indicates better coding capabilities, which is essential for applications like coding assistance and automated programming.
-* **LMSYS Arena ELO Score: 1190** - This score is a measure of the model's overall performance in a competitive environment, where it is pitted against other models in various tasks. A higher ELO score suggests better performance and a higher ranking among competing models.
-* **GSM8K Score: 90.0** - This score is not explicitly defined in the provided data, but it is likely related to the model's performance on a specific benchmark or task.
+#### Pricing
+The pricing for Gemma 3 27B IT is as follows:
+* Input: **$0.1 per 1M tokens**
+* Output: **$0.2 per 1M tokens**
+* Cached Input: **$None per 1M tokens**
+* Batch Input: **$None per 1M tokens**
 
-#### Real-World Implications
-The benchmark scores have significant implications for real-world use cases:
-* **Coding and Programming**: With a HumanEval score of 75.0, Gemma 3 27B IT is suitable for coding tasks, such as code completion, code
+#### Benchmark Performance
+The model's benchmark performance is as follows:
+* **MMLU: 77.0** - The MMLU (Massive Multitask Language Understanding) benchmark evaluates a model's ability to perform a wide range of natural language processing tasks. A higher score indicates better performance. With a score of 77.0, Gemma 3 27B IT demonstrates strong language understanding capabilities.
+* **HumanEval: 75.0** - The HumanEval benchmark assesses a model's ability to generate code that is correct and similar to human-written code. A higher score indicates better performance. With a score of 75.0, Gemma 3 27B IT shows promising code generation capabilities.
+* **LMSYS Arena ELO: 1190** - The LMSYS Arena ELO benchmark evaluates a model's overall performance in a competitive environment. A higher score indicates better performance. With a score of 1190, Gemma 3 27B IT demonstrates competitive performance
 
 ## Competitor Comparison
-### Gemma 3 27B IT Comparison
+### Comparison of Gemma 3 27B IT with Top Competitors
 #### Overview
-The Gemma 3 27B IT model, released by Google on 2025-03-12, is a budget-friendly, open-source option for various natural language processing tasks. This comparison will examine its pricing, performance, and capabilities against its top competitors, Llama 3.1 70B Instruct and Qwen 2.5 72B Instruct.
+Gemma 3 27B IT, provided by Google, is a budget-friendly, open-source model released on 2025-03-12. It offers a unique blend of capabilities, including text, vision, streaming, system prompts, and function calling, making it suitable for a variety of applications such as chatbots, coding, summarization, and vision tasks.
 
 #### Pricing Comparison
-The pricing for each model is as follows:
-* Gemma 3 27B IT:
-	+ Input: $0.1 per 1M tokens
-	+ Output: $0.2 per 1M tokens
-* Llama 3.1 70B Instruct:
-	+ Input: $0.52 per 1M tokens
-	+ Output: $0.75 per 1M tokens
-* Qwen 2.5 72B Instruct:
-	+ Input: $0.35 per 1M tokens
-	+ Output: $0.4 per 1M tokens
-
-Gemma 3 27B IT offers significant cost savings, with input and output prices 80.8% and 73.3% lower than Llama 3.1 70B Instruct, respectively. Compared to Qwen 2.5 72B Instruct, Gemma 3 27B IT is 71.4% and 50% cheaper for input and output, respectively.
+The pricing of Gemma 3 27B IT is significantly lower than its top competitors:
+- **Gemma 3 27B IT**:
+  - Input: $0.1 per 1M tokens
+  - Output: $0.2 per 1M tokens
+- **Llama 3.1 70B Instruct**:
+  - Input: $0.52 per 1M tokens (520% more than Gemma 3 27B IT)
+  - Output: $0.75 per 1M tokens (375% more than Gemma 3 27B IT)
+- **Qwen 2.5 72B Instruct**:
+  - Input: $0.35 per 1M tokens (350% more than Gemma 3 27B IT)
+  - Output: $0.4 per 1M tokens (200% more than Gemma 3 27B IT)
 
 #### Performance Trade-offs
-While Gemma 3 27B IT is more budget-friendly, its performance may vary compared to its competitors. The model's benchmarks are:
-* MMLU: 77.0
-* HumanEval: 75.0
-* LMSYS Arena ELO: 1190
-* GSM8K: 90.0
+While Gemma 3 27B IT offers competitive pricing, its performance is also noteworthy:
+- **MMLU**: 77.0 (Gemma 3 27B IT) vs. not provided for competitors
+- **HumanEval**: 75.0 (Gemma 3 27B IT) vs. not provided for competitors
+- **LMSYS Arena ELO**: 1190 (Gemma 3 27B IT) vs. not provided for competitors
+- **GSM8K**: 90.0 (Gemma 3 27B IT) vs. not provided for competitors
 
-These benchmarks indicate that Gemma 3 27B IT may not perform as well as its competitors in certain tasks, particularly those requiring complex reasoning or frontier coding. However, its performance in tasks like chatbots, coding, summarization, and vision tasks is still competitive.
+Given the lack of direct comparison data for the competitors, it's essential to consider the specific use case and requirements when choosing a model.
 
-#### Capabilities and Use Cases
-Gemma 3 27B IT supports a range of capabilities, including:
-* Text
-* Vision
-* Streaming
-* System prompts
-* Function calling
-
-It is best suited for tasks like:
-* Chatbots
-* Coding
-* Summarization
-
+#### Context and Limits
+Gemma 3 27B IT has the following context and limits:
+- **Context Window**: 131,072 tokens
+- **Max Output**: 8,192 tokens
+- **
 
 ## Best Use Cases
 ### Introduction to Gemma 3 27B IT
-The Gemma 3 27B IT model, released by Google on 2025-03-12, is a budget-friendly, open-source option for various natural language processing tasks. With its impressive capabilities in text, vision, streaming, system prompts, and function calling, it's an attractive choice for applications like chatbots, coding, summarization, vision tasks, classification, and content generation.
+The Gemma 3 27B IT model, provided by Google, is a budget-friendly and open-source option for various natural language processing tasks. Released on 2025-03-12, this model offers a compelling balance between cost and performance. Here, we'll explore the top 5 best use cases for Gemma 3 27B IT, along with practical advice and code integration examples using OpenRouter.
 
-### Top 5 Best Use Cases for Gemma 3 27B IT
-Given its strengths and pricing, here are the top 5 best use cases for Gemma 3 27B IT, along with specific code integration examples mentioning OpenRouter:
+### Top 5 Use Cases for Gemma 3 27B IT
+Based on its capabilities and benchmarks, Gemma 3 27B IT excels in the following areas:
 
-1. **Chatbots**: Gemma 3 27B IT's capabilities in text processing make it an excellent choice for chatbot applications. Its ability to understand and respond to user queries can be integrated with OpenRouter for efficient routing of user requests.
-   ```python
-   import openrouter
-   from gemma_3_27b_it import GemmaModel
+1. **Chatbots**: With its high performance in text-based tasks, Gemma 3 27B IT is an excellent choice for building conversational AI models. Its ability to understand and respond to user input makes it ideal for customer support and virtual assistants.
+2. **Coding**: Gemma 3 27B IT's strong coding capabilities, as evidenced by its HumanEval score of 75.0, make it suitable for tasks like code completion, code review, and code generation.
+3. **Summarization**: The model's ability to process and condense large amounts of text into concise summaries makes it a great fit for applications like news article summarization, document summarization, and content aggregation.
+4. **Vision Tasks**: Gemma 3 27B IT's support for vision capabilities enables it to perform tasks like image classification, object detection, and image generation.
+5. **Content Generation**: With its strong performance in text generation, Gemma 3 27B IT can be used for tasks like writing articles, creating social media posts, and generating product descriptions.
 
-   # Initialize Gemma model and OpenRouter
-   model = GemmaModel()
-   router = openrouter.Router()
+### Code Integration Example with OpenRouter
+To integrate Gemma 3 27B IT with OpenRouter, you can use the following code snippet:
+```python
+import openrouter
 
-   # Define a chatbot function
-   def chatbot(query):
-       response = model.generate_text(query)
-       return response
-
-   # Route user queries to the chatbot function
-   router.route("/chat", chatbot)
-   ```
-
-2. **Coding**: With its strong performance in coding tasks, Gemma 3 27B IT can be used for code completion, code review, and code generation. OpenRouter can be used to create a coding assistant that integrates Gemma's capabilities.
-   ```python
-   import openrouter
-   from gemma_3_27b_it import GemmaModel
-
-   # Initialize Gemma model and OpenRouter
-   model = GemmaModel()
-   router = openrouter.Router()
-
-   # Define a coding assistant function
+# Initialize the Gemma 3 
 
 ## Frequently Asked Questions
 

@@ -1,6 +1,6 @@
 # Google: Gemini 3 Flash Preview API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-07-22
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-07-23
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
