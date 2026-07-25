@@ -1,6 +1,6 @@
 # LLMCosts.dev — Complete LLM Pricing Registry (All Models)
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-07-24
+> Updated: 2026-07-25
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -369,3 +369,5 @@ License: CC BY 4.0
 | [Meta: Muse Spark 1.1](https://llmcosts.dev/models/meta-muse-spark-1.1) | Meta | $1.25 | $4.25 | $None | 1,048,576 | None | premium | Closed |
 | [Google: Gemini 3.6 Flash](https://llmcosts.dev/models/google-gemini-3.6-flash) | Google | $1.5 | $7.5 | $None | 1,048,576 | None | standard | Closed |
 | [Google: Gemini 3.5 Flash-Lite](https://llmcosts.dev/models/google-gemini-3.5-flash-lite) | Google | $0.3 | $2.5 | $None | 1,048,576 | None | standard | Closed |
+| [Claude Opus 5 (Fast)](https://llmcosts.dev/models/anthropic-claude-opus-5-fast) | Anthropic | $10.0 | $50.0 | $None | 1,000,000 | None | premium | Closed |
+| [Claude Opus 5](https://llmcosts.dev/models/anthropic-claude-opus-5) | Anthropic | $5.0 | $25.0 | $None | 1,000,000 | None | premium | Closed |
