@@ -1,7 +1,7 @@
 {
   "version": "6.0",
-  "updated_at": "2026-07-25T02:48:54Z",
-  "total_models": 355,
+  "updated_at": "2026-07-28T02:41:20Z",
+  "total_models": 356,
   "schema_version": "v5",
   "description": "LLMCosts.dev — Open LLM Pricing Registry. Single source of truth for LLM pricing, benchmarks, and performance data. Updated daily by automated pipeline.",
   "data_sources": [
@@ -35203,6 +35203,74 @@
         "frontier",
         "fast",
         "agentic"
+      ],
+      "tier": "premium",
+      "open_source": false,
+      "self_hostable": false
+    },
+    {
+      "id": "qwen/qwen3.7-flash",
+      "name": "Qwen: Qwen3.7 Flash",
+      "slug": "qwen-qwen3.7-flash",
+      "provider": "qwen",
+      "provider_name": "Qwen",
+      "version": "",
+      "release_date": "2026-07-28",
+      "pricing": {
+        "input_per_1m": 0.03,
+        "output_per_1m": 0.13,
+        "cached_input_per_1m": null,
+        "batch_input_per_1m": null,
+        "batch_output_per_1m": null,
+        "currency": "USD",
+        "pricing_model": "per_token"
+      },
+      "context_window": 1000000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "Unknown",
+      "capabilities": [
+        "text",
+        "vision",
+        "reasoning",
+        "coding"
+      ],
+      "benchmarks": {
+        "arena_elo": null,
+        "arena_elo_source": null
+      },
+      "performance": {
+        "speed_tokens_per_sec": null,
+        "median_latency_ms": null
+      },
+      "use_cases": [
+        "multimodal agents",
+        "visual search",
+        "computer interaction"
+      ],
+      "not_good_for": [
+        "simple text-based tasks",
+        "low-resource devices"
+      ],
+      "competing_models": [],
+      "price_stability": "unknown",
+      "price_trend": "stable",
+      "links": {
+        "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
+      },
+      "last_verified": "2026-07-28",
+      "last_verified_status": "confirmed",
+      "verified_by": "automated_ingestor",
+      "data_confidence": "medium",
+      "field_confidence": {
+        "pricing": 100,
+        "benchmarks": 0,
+        "performance": 0,
+        "use_cases": 60
+      },
+      "tags": [
+        "frontier",
+        "multimodal",
+        "industrial-grade"
       ],
       "tier": "premium",
       "open_source": false,

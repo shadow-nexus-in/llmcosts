@@ -1,6 +1,6 @@
 # LLMCosts.dev — Cheapest LLM APIs (Under $0.20/1M Tokens)
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-07-27
+> Updated: 2026-07-28
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -51,6 +51,7 @@ License: CC BY 4.0
 | [OpenAI: gpt-oss-20b](https://llmcosts.dev/models/gpt-oss-20b) | Openai | $0.03 | $0.11 | $None | 131,072 | 1200 | standard | Closed |
 | [Qwen: Qwen2.5 Coder 7B Instruct](https://llmcosts.dev/models/qwen2.5-coder-7b-instruct) | Qwen | $0.03 | $0.09 | $None | 32,768 | 1200 | standard | Closed |
 | [Mistral: Mistral Small 3.1 24B](https://llmcosts.dev/models/mistral-small-3.1-24b-instruct) | Mistralai | $0.03 | $0.11 | $None | 131,072 | 1200 | standard | Closed |
+| [Qwen: Qwen3.7 Flash](https://llmcosts.dev/models/qwen-qwen3.7-flash) | Qwen | $0.03 | $0.13 | $None | 1,000,000 | None | premium | Closed |
 | [Qwen: Qwen-Turbo](https://llmcosts.dev/models/qwen-qwen-turbo) | Qwen | $0.0325 | $0.13 | $None | 131,072 | None | budget | Closed |
 | [Cohere: Command R7B (12-2024)](https://llmcosts.dev/models/cohere-command-r7b-12-2024) | Cohere | $0.0375 | $0.15 | $None | 128,000 | None | premium | Closed |
 | [OpenAI: gpt-oss-120b](https://llmcosts.dev/models/gpt-oss-120b) | Openai | $0.039 | $0.19 | $None | 131,072 | 1200 | standard | Closed |

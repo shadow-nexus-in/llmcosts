@@ -196,6 +196,8 @@
     "claude-opus-4-vs-meta-muse-spark-1.1",
     "gemini-2-5-pro-vs-meta-muse-spark-1.1",
     "claude-sonnet-4-vs-meta-muse-spark-1.1",
-    "meta-muse-spark-1.1-vs-o1"
+    "meta-muse-spark-1.1-vs-o1",
+    "meta-muse-spark-1.1-vs-qwen-qwen3.7-flash",
+    "gpt-4-1-vs-meta-muse-spark-1.1"
   ]
 }
