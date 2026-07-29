@@ -1,6 +1,6 @@
 # LLMCosts.dev — Anthropic Models Pricing
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-07-28
+> Updated: 2026-07-29
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -37,3 +37,12 @@ License: CC BY 4.0
 | [Anthropic: Claude Sonnet 5](https://llmcosts.dev/models/anthropic-claude-sonnet-5) | Anthropic | $2.0 | $10.0 | $None | 1,000,000 | None | premium | Closed |
 | [Claude Opus 5 (Fast)](https://llmcosts.dev/models/anthropic-claude-opus-5-fast) | Anthropic | $10.0 | $50.0 | $None | 1,000,000 | None | premium | Closed |
 | [Claude Opus 5](https://llmcosts.dev/models/anthropic-claude-opus-5) | Anthropic | $5.0 | $25.0 | $None | 1,000,000 | None | premium | Closed |
+| [Anthropic: Claude Sonnet 5 (batch)](https://llmcosts.dev/models/anthropic-claude-sonnet-5:batch) | Anthropic | $1.0 | $5.0 | $None | 1,000,000 | None | premium | Closed |
+| [Anthropic: Claude Fable 5 (batch)](https://llmcosts.dev/models/anthropic-claude-fable-5:batch) | Anthropic | $5.0 | $25.0 | $None | 1,000,000 | None | premium | Closed |
+| [Anthropic: Claude Opus 4.8 (batch)](https://llmcosts.dev/models/anthropic-claude-opus-4.8:batch) | Anthropic | $2.5 | $12.5 | $None | 1,000,000 | None | premium | Closed |
+| [Anthropic: Claude Opus 4.7 (batch)](https://llmcosts.dev/models/anthropic-claude-opus-4.7:batch) | Anthropic | $2.5 | $12.5 | $None | 1,000,000 | None | premium | Closed |
+| [Anthropic: Claude Opus 4.6 (batch)](https://llmcosts.dev/models/anthropic-claude-opus-4.6:batch) | Anthropic | $2.5 | $12.5 | $None | 1,000,000 | None | premium | Closed |
+| [Anthropic: Claude Opus 4.5 (batch)](https://llmcosts.dev/models/anthropic-claude-opus-4.5:batch) | Anthropic | $2.5 | $12.5 | $None | 200,000 | None | premium | Closed |
+| [Anthropic: Claude Haiku 4.5 (batch)](https://llmcosts.dev/models/anthropic-claude-haiku-4.5:batch) | Anthropic | $0.5 | $2.5 | $None | 200,000 | None | standard | Closed |
+| [Anthropic: Claude Sonnet 4.5 (batch)](https://llmcosts.dev/models/anthropic-claude-sonnet-4.5:batch) | Anthropic | $1.5 | $7.5 | $None | 1,000,000 | None | premium | Closed |
+| [Anthropic: Claude Opus 4.1 (batch)](https://llmcosts.dev/models/anthropic-claude-opus-4.1:batch) | Anthropic | $7.5 | $37.5 | $None | 200,000 | None | premium | Closed |

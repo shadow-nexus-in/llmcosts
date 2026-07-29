@@ -198,6 +198,9 @@
     "claude-sonnet-4-vs-meta-muse-spark-1.1",
     "meta-muse-spark-1.1-vs-o1",
     "meta-muse-spark-1.1-vs-qwen-qwen3.7-flash",
-    "gpt-4-1-vs-meta-muse-spark-1.1"
+    "gpt-4-1-vs-meta-muse-spark-1.1",
+    "anthropic-claude-sonnet-5:batch-vs-meta-muse-spark-1.1",
+    "anthropic-claude-fable-5:batch-vs-meta-muse-spark-1.1",
+    "anthropic-claude-opus-4.8:batch-vs-meta-muse-spark-1.1"
   ]
 }
