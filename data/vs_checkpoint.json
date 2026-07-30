@@ -201,6 +201,8 @@
     "gpt-4-1-vs-meta-muse-spark-1.1",
     "anthropic-claude-sonnet-5:batch-vs-meta-muse-spark-1.1",
     "anthropic-claude-fable-5:batch-vs-meta-muse-spark-1.1",
-    "anthropic-claude-opus-4.8:batch-vs-meta-muse-spark-1.1"
+    "anthropic-claude-opus-4.8:batch-vs-meta-muse-spark-1.1",
+    "meta-muse-spark-1.1-vs-openai-gpt-5.5:batch",
+    "anthropic-claude-opus-4.7:batch-vs-meta-muse-spark-1.1"
   ]
 }

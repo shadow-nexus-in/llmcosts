@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://llmcosts.dev/models/mixtral-8x7b-instruct">
 
   <!-- Schema.org: Dataset -->
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Mixtral 8x7B Instruct API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Mixtral 8x7B Instruct by Mistral AI.", "url": "https://llmcosts.dev/models/mixtral-8x7b-instruct", "keywords": ["Mixtral 8x7B Instruct", "Mistral AI", "open-source", "self-hostable", "moe", "multilingual", "budget"], "dateModified": "2026-07-29", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "Mixtral 8x7B Instruct API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for Mixtral 8x7B Instruct by Mistral AI.", "url": "https://llmcosts.dev/models/mixtral-8x7b-instruct", "keywords": ["Mixtral 8x7B Instruct", "Mistral AI", "open-source", "self-hostable", "moe", "multilingual", "budget"], "dateModified": "2026-07-30", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
   <!-- Schema.org: FAQ -->
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
 
@@ -346,13 +346,13 @@
       <div class="card content-section">
         <div class="card-title">Overview</div>
         <div>### Introduction to Mixtral 8x7B Instruct
-The Mixtral 8x7B Instruct model, provided by Mistral AI, is a budget-friendly, open-source language model released on 2023-12-11. This model is designed with a specific architecture that allows it to excel in various natural language processing tasks. With its context window of 32,768 tokens and a maximum output of 4,096 tokens, Mixtral 8x7B Instruct is well-suited for handling bulk text processing, summarization, classification, and multilingual tasks.
+The Mixtral 8x7B Instruct model, provided by Mistral AI, is a budget-friendly, open-source language model released on 2023-12-11. This model boasts an impressive architecture, with a context window of 32,768 tokens and a maximum output of 4,096 tokens. Its knowledge cutoff is 2023-12, ensuring it has a broad understanding of information up to that point. With capabilities including text processing, function calling, JSON mode, streaming, and system prompts, Mixtral 8x7B Instruct is versatile and can be applied to various tasks.
 
-### Technical Capabilities and Pricing
-Mixtral 8x7B Instruct boasts a range of capabilities, including text processing, function calling, JSON mode, streaming, and system prompts. Its pricing model is straightforward, with input and output costs set at $0.24 per 1M tokens. There are no additional costs for cached input or batch input. This makes it an attractive option for developers looking for an affordable, open-source alternative for their NLP needs. The model's performance is backed by impressive benchmarks, including an MMLU score of 70.6, HumanEval score of 45.1, LMSYS Arena ELO of 1114, and a GSM8K score of 74.4.
+### Technical Strengths and Use Cases
+Mixtral 8x7B Instruct demonstrates its strengths through several benchmarks: it achieves 70.6 on MMLU, 45.1 on HumanEval, 1114 on LMSYS Arena ELO, and 74.4 on GSM8K. These scores indicate the model's proficiency in understanding and generating human-like text. It is best utilized for bulk text processing, summarization, classification, and multilingual tasks, making it an attractive open-source alternative. However, it may not be ideal for complex coding tasks, vision-related projects, or applications requiring frontier-quality outputs or the processing of long documents. The pricing model is straightforward, with input and output costs set at $0.24 per 1M tokens, offering a cost-effective solution for developers.
 
-### Use Cases and Competitors
-Mixtral 8x7B Instruct is best utilized for tasks such as bulk text processing, summarization, classification, and multilingual applications. However, it may not be the best fit for complex coding tasks, vision-related tasks, or applications requiring frontier-quality outputs or long document processing. In terms of cost, Mixtral 8x7B Instruct is competitively priced, with examples including $0.24 for 1,000 calls (avg 500 tokens), $2.4 for 10,000 calls, and $24.0 for 100,000</div>
+### Pricing and Competitors
+The pricing of Mixtral 8x7B Instruct is competitive, especially when compared to other models like Llama 3.1 70B Instruct, OpenAI's GPT-3.5 Turbo, and Claude 3 Haiku. For example, processing 1,000 calls with an average of 500 tokens would cost $0.24, scaling to $2.4 for 10,</div>
       </div>
 
       <!-- PRICING -->
@@ -391,35 +391,34 @@ Mixtral 8x7B Instruct is best utilized for tasks such as bulk text processing, s
           </tbody>
         </table>
 
-        <div style="margin-top:1.5rem">### Pricing Analysis for Mixtral 8x7B Instruct
+        <div style="margin-top:1.5rem">### Mixtral 8x7B Instruct Pricing Analysis
 #### Overview
-The Mixtral 8x7B Instruct model, provided by Mistral AI, offers a competitive pricing structure for large language model applications. Released on 2023-12-11, this model is classified under the budget tier and is open-source.
+The Mixtral 8x7B Instruct model, provided by Mistral AI, offers a cost-effective solution for various natural language processing tasks. Released on 2023-12-11, this model is categorized under the budget tier and is open-source.
 
 #### Cost Structure
-The cost structure for Mixtral 8x7B Instruct is as follows:
+The pricing for Mixtral 8x7B Instruct is as follows:
 * **Input**: $0.24 per 1M tokens
 * **Output**: $0.24 per 1M tokens
 * **Cached Input**: $0 per 1M tokens (free)
 * **Batch Input**: $0 per 1M tokens (free)
 
-This structure indicates that the model does not charge for cached input or batch input, which can significantly reduce costs for applications that can utilize these features.
-
 #### When to Use Cached Tokens
-Cached tokens should be used whenever possible to minimize costs. Since cached input is free, applications that can leverage this feature can significantly reduce their expenses. This is particularly useful for applications that require processing large amounts of repetitive or similar input data.
+Cached tokens can be utilized when the input data is repetitive or has been previously processed. Since cached input tokens are free, leveraging them can significantly reduce costs, especially for applications with a high volume of repeated or similar inputs.
 
 #### Batch API Savings
-The batch API feature allows for free input, which can lead to substantial cost savings for applications that can process data in batches. By batching API calls, users can avoid paying for input tokens, resulting in significant cost reductions.
+Batching API calls can also lead to cost savings, as the input tokens are free. This makes Mixtral 8x7B Instruct an attractive option for bulk text processing, where large volumes of data need to be processed in batches.
 
 #### Cost at Scale
 The cost of using Mixtral 8x7B Instruct at scale is as follows:
-* **1,000 calls (avg 500 tokens)**: $0.24
-* **10,000 calls**: $2.4
-* **100,000 calls**: $24.0
+* **1,000 API calls** (avg 500 tokens): $0.24
+* **10,000 API calls**: $2.4
+* **100,000 API calls**: $24.0
 
-These costs demonstrate a linear scaling of expenses with the number of API calls, indicating that the model's pricing structure is straightforward and easy to predict.
+These costs demonstrate a linear scaling of expenses with the number of API calls, without any discounts for larger volumes.
 
-#### Comparison to Competitors
-Mixtral 8x7B Instruct's pricing structure is competitive</div>
+#### Comparison with Competitors
+Mixtral 8x7B Instruct is competitively priced compared to other models in the market:
+* **Llama 3.1 70B Instruct**: $0.52/1M input, $</div>
       </div>
 
       <!-- BENCHMARKS -->
@@ -430,24 +429,20 @@ Mixtral 8x7B Instruct's pricing structure is competitive</div>
           <div class="stat-cell"><div class="stat-label">HumanEval</div><div class="stat-value">45.1</div></div>
           <div class="stat-cell"><div class="stat-label">LMSYS ELO</div><div class="stat-value">1114</div></div>
         </div>
-        <div>### Mixtral 8x7B Instruct Benchmark Analysis
-#### Overview
-The Mixtral 8x7B Instruct model, provided by Mistral AI, is a budget-friendly, open-source option for various natural language processing tasks. Released on 2023-12-11, it offers competitive pricing and a robust set of capabilities.
+        <div>### Mixtral 8x7B Instruct Benchmark Performance Analysis
+#### Introduction
+The Mixtral 8x7B Instruct model, provided by Mistral AI, offers a budget-friendly option for various natural language processing tasks. This analysis will delve into the model's benchmark performance, focusing on the MMLU, HumanEval, and Arena ELO scores, to understand its capabilities and limitations in real-world applications.
 
-#### Pricing
-The model's pricing structure is as follows:
-* Input: $0.24 per 1M tokens
-* Output: $0.24 per 1M tokens
-With no additional costs for cached input or batch input, this model is an attractive option for applications with high input/output volumes.
+#### Benchmark Scores
+The model's performance is measured across several benchmarks:
+* **MMLU (Massive Multitask Language Understanding)**: A score of 70.6 indicates the model's ability to understand and process a wide range of language tasks. A higher MMLU score suggests better performance in tasks that require a broad understanding of language.
+* **HumanEval**: With a score of 45.1, the model demonstrates its capability in generating code that passes human evaluation. This score is crucial for applications that involve code generation, such as programming tasks.
+* **LMSYS Arena ELO**: An ELO score of 1114 reflects the model's performance in a competitive environment, where it is pitted against other models. A higher ELO score indicates better performance in tasks that require strategic thinking and adaptability.
 
-#### Context and Limits
-The model has a context window of 32,768 tokens and a maximum output of 4,096 tokens. The knowledge cutoff is 2023-12, ensuring that the model's training data is up to date but may not include very recent information.
-
-#### Benchmarks
-The model's performance is evaluated through several benchmarks:
-* **MMLU (Massive Multitask Language Understanding)**: 70.6 - This score indicates the model's ability to understand and process natural language across a wide range of tasks. A higher score suggests better performance.
-* **HumanEval**: 45.1 - This benchmark assesses the model's ability to generate code that passes unit tests. While not exceptionally high, this score suggests that the model can perform reasonably well in coding tasks, although it may not be the best option for complex coding tasks.
-* **LMSYS Arena ELO**: 1114 - This score represents the model's performance in a competitive environment, where it is pitted against other models. A higher ELO score</div>
+#### Real-World Implications
+These benchmark scores have significant implications for real-world use cases:
+* **MMLU score**: A score of 70.6 suggests that the Mixtral 8x7B Instruct model is suitable for tasks that require a broad understanding of language, such as text classification, sentiment analysis, and language translation.
+* **HumanEval score**: The score of 45.1 indicates that the model can generate code that is functional and</div>
       </div>
 
       <!-- COMPETITOR TABLE -->
@@ -483,57 +478,82 @@ The model's performance is evaluated through several benchmarks:
             </tbody>
           </table>
         </div>
-        <div style="margin-top:1.5rem">### Comparison of Mixtral 8x7B Instruct with Top Competitors
+        <div style="margin-top:1.5rem">### Mixtral 8x7B Instruct Comparison
 #### Overview
-Mixtral 8x7B Instruct, provided by Mistral AI, is a budget-friendly, open-source model released on 2023-12-11. This comparison will delve into the pricing, performance, and use cases of Mixtral 8x7B Instruct against its top competitors: Llama 3.1 70B Instruct, OpenAI's GPT-3.5 Turbo, and Claude 3 Haiku.
+The Mixtral 8x7B Instruct model, provided by Mistral AI, is a budget-friendly, open-source option for various natural language processing tasks. Released on 2023-12-11, this model offers a competitive pricing structure and impressive performance benchmarks.
 
 #### Pricing Comparison
-The pricing for each model is as follows:
-- **Mixtral 8x7B Instruct**: $0.24 per 1M tokens for both input and output.
-- **Llama 3.1 70B Instruct**: $0.52 per 1M input tokens, $0.75 per 1M output tokens.
-- **OpenAI GPT-3.5 Turbo**: $0.5 per 1M input tokens, $1.5 per 1M output tokens.
-- **Claude 3 Haiku**: $0.25 per 1M input tokens, $1.25 per 1M output tokens.
+The pricing for Mixtral 8x7B Instruct is as follows:
+* Input: $0.24 per 1M tokens
+* Output: $0.24 per 1M tokens
+
+In comparison to its top competitors:
+* Llama 3.1 70B Instruct: $0.52/1M input, $0.75/1M output
+* OpenAI: GPT-3.5 Turbo: $0.5/1M input, $1.5/1M output
+* Claude 3 Haiku: $0.25/1M input, $1.25/1M output
+
+Mixtral 8x7B Instruct offers the lowest input and output prices among its competitors.
 
 #### Performance Trade-offs
-Mixtral 8x7B Instruct has the following benchmarks:
-- MMLU: 70.6
-- HumanEval: 45.1
-- LMSYS Arena ELO: 1114
-- GSM8K: 74.4
+The performance of Mixtral 8x7B Instruct is reflected in its benchmarks:
+* MMLU: 70.6
+* HumanEval: 45.1
+* LMSYS Arena ELO: 1114
+* GSM8K: 74.4
 
-While specific benchmark comparisons for the competitors are not provided, the general performance of Mixtral 8x7B Instruct suggests it is capable in various tasks, especially considering its budget tier and open-source nature.
+While its performance is notable, it may not be the best choice for complex coding tasks, vision-related tasks, or applications requiring frontier-quality output.
 
 #### Context and Limits
-- **Context Window**: 32,768 tokens
-- **Max Output**: 4,096 tokens
-- **Knowledge Cutoff**: 2023-12
+The model has the following context and limits:
+* Context Window: 32,768 tokens
+* Max Output: 4,096 tokens
+* Knowledge Cutoff: 2023-12
 
-These specifications indicate that Mixtral 8x7B Instruct is suitable for tasks that do not require extremely long input or output sequences and are based on knowledge up to 2023.
+These limitations should be considered when choosing a model for specific use cases.
 
 #### Capabilities and Use Cases
-Mixtral 8x7B Instruct supports:
-- **Capabilities**: text, function_calling, json_mode, streaming, system_prompts
-- **Best For**: bulk_text_processing, summarization, classification, multilingual, open_source_alternative
--</div>
+Mixtral 8x7B Instruct supports the following capabilities:
+* text
+* function_calling
+* json_mode
+* streaming
+* system_prompts
+
+It is best suited for:
+* bulk_text_processing
+* summarization
+* classification
+* multilingual
+* open_source_alternative
+
+However, it is not recommended for:
+* complex_coding
+* vision
+* frontier_quality
+* long_documents
+
+#### Cost Examples
+The cost of using Mixtral 8x7B Instruct can be</div>
       </div>
 
       <!-- USE CASES -->
       <div class="card content-section">
         <div class="card-title">Best Use Cases</div>
         <div>### Introduction to Mixtral 8x7B Instruct
-The Mixtral 8x7B Instruct model, provided by Mistral AI, is a budget-friendly and open-source solution for various natural language processing tasks. Released on 2023-12-11, this model offers a compelling alternative to more expensive competitors, with pricing set at $0.24 per 1M tokens for both input and output.
+The Mixtral 8x7B Instruct model, provided by Mistral AI, is a budget-friendly, open-source language model released on 2023-12-11. With its capabilities in text processing, function calling, JSON mode, streaming, and system prompts, it is best suited for bulk text processing, summarization, classification, multilingual tasks, and serves as an open-source alternative.
 
 ### Top 5 Best Use Cases for Mixtral 8x7B Instruct
-Given its capabilities and limitations, here are the top 5 best use cases for the Mixtral 8x7B Instruct model:
-
-1. **Bulk Text Processing**: With its ability to handle large volumes of text data and a context window of 32,768 tokens, Mixtral 8x7B Instruct is well-suited for bulk text processing tasks such as data cleaning, preprocessing, and feature extraction.
-2. **Summarization**: The model's capability for text summarization makes it an excellent choice for applications where concise summaries of large documents are required. This can be particularly useful in news aggregation, research paper summarization, and more.
-3. **Classification**: Mixtral 8x7B Instruct can be effectively used for text classification tasks, such as spam detection, sentiment analysis, and topic modeling, thanks to its robust language understanding capabilities.
-4. **Multilingual Support**: As an open-source alternative, this model can be fine-tuned for multilingual support, making it a viable option for applications that require text processing in multiple languages.
-5. **Open-Source Alternative**: For developers and organizations looking for a cost-effective and customizable solution, Mixtral 8x7B Instruct serves as a compelling open-source alternative to proprietary models like Llama 3.1 70B Instruct and GPT-3.5 Turbo.
+1. **Bulk Text Processing**: Given its cost-effectiveness ($0.24 per 1M tokens for both input and output), Mixtral 8x7B Instruct is ideal for processing large volumes of text data, such as data cleaning, normalization, and feature extraction.
+2. **Summarization**: The model's ability to understand and generate human-like text makes it suitable for summarizing long documents or articles into concise, meaningful summaries.
+3. **Classification**: With its strong performance in text classification tasks, Mixtral 8x7B Instruct can be used to classify texts into predefined categories, such as spam vs. non-spam emails or positive vs. negative product reviews.
+4. **Multilingual Support**: As an open-source model, it can be fine-tuned for various languages, making it a valuable resource for multilingual text processing tasks.
+5. **Open-Source Alternative**: For developers and organizations looking for a cost-effective, open-source alternative to proprietary models like Llama 3.1 70B Instruct or GPT-3.5 Turbo, Mixtral 8x7B Instruct offers a viable option.
 
 ### Code Integration Example with OpenRouter
-To integrate Mixtr</div>
+To integrate Mixtral 8x7B Instruct with OpenRouter for bulk text processing, you can use the following Python example:
+```python
+import openrouter
+from mistral</div>
       </div>
 
       <!-- CAPABILITIES -->

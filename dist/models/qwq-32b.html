@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://llmcosts.dev/models/qwq-32b">
 
   <!-- Schema.org: Dataset -->
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "QwQ 32B API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for QwQ 32B by Alibaba Cloud.", "url": "https://llmcosts.dev/models/qwq-32b", "keywords": ["QwQ 32B", "Alibaba Cloud", "open-source", "self-hostable", "reasoning", "math", "budget", "qwen", "alibaba"], "dateModified": "2026-07-29", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "QwQ 32B API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for QwQ 32B by Alibaba Cloud.", "url": "https://llmcosts.dev/models/qwq-32b", "keywords": ["QwQ 32B", "Alibaba Cloud", "open-source", "self-hostable", "reasoning", "math", "budget", "qwen", "alibaba"], "dateModified": "2026-07-30", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
   <!-- Schema.org: FAQ -->
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
 
@@ -346,13 +346,13 @@
       <div class="card content-section">
         <div class="card-title">Overview</div>
         <div>### Introduction to QwQ 32B
-The QwQ 32B model, released by Alibaba Cloud on 2025-03-05, is an open-source, budget-tier language model designed for developers. With its architecture centered around a 32B parameter configuration, QwQ 32B is positioned as a cost-effective solution for a variety of natural language processing tasks. Its main strengths include complex reasoning, math, coding, science, research, and analysis, making it a versatile tool for applications that require in-depth understanding and generation of text.
+The QwQ 32B model, provided by Alibaba Cloud, is an open-source language model released on 2025-03-05. This budget-friendly model is part of the QwQ series and is identified by the model name `qwen/qwq-32b`. With its architecture designed for efficiency and performance, QwQ 32B is well-suited for a variety of tasks, including complex reasoning, math, coding, science, research, and analysis. Its capabilities include handling text and streaming inputs, system prompts, and extended thinking.
 
 ### Technical Specifications and Pricing
-Technically, QwQ 32B boasts a context window of 131,072 tokens and can generate up to 8,192 tokens as output. The model's knowledge cutoff is 2024-09, ensuring it is informed by data up to that point. In terms of pricing, QwQ 32B charges $0.12 per 1M tokens for input and $0.18 per 1M tokens for output. Notably, there are no charges for cached input or batch input, making it an attractive option for applications with these requirements. The model's capabilities include text, streaming, system prompts, and extended thinking, aligning with its strengths in complex tasks. Benchmark scores such as MMLU (84.8), HumanEval (91.0), LMSYS Arena ELO (1253), and GSM8K (97.0) demonstrate its performance.
+QwQ 32B boasts a context window of 131,072 tokens and can generate up to 8,192 tokens as output. The model's knowledge cutoff is 2024-09, ensuring it has a broad and up-to-date understanding of the world. In terms of pricing, QwQ 32B is competitively priced at $0.12 per 1M tokens for input and $0.18 per 1M tokens for output. For example, 1,000 calls with an average of 500 tokens would cost approximately $0.15, while 10,000 calls would cost $1.5, and 100,000 calls would cost $15.0. Compared to its top competitors, such as DeepSeek R1 and OpenAI o3-mini/o4-mini, QwQ 32B offers a more affordable option without sacrificing performance.
 
-### Use Cases and Cost Considerations
-QwQ 32B is best suited for tasks that involve complex reasoning, math, coding, science, research, and analysis, positioning it as a valuable resource for developers working on projects that require deep understanding and text generation capabilities. However, it is not recommended for tasks involving vision, audio, simple tasks, real-time responses under 100ms, or high-volume applications. Cost examples provided indicate that 1,000 calls (averaging</div>
+### Performance and Use Cases
+QwQ 32B has demonstrated impressive performance in various benchmarks, including MMLU (84.8), HumanEval (91.0), LMSYS Arena ELO (1253), and GSM8K (97.0). Its strengths in complex reasoning, math, and coding make it an ideal choice for research, analysis, and science-related applications. However, it is not recommended for tasks</div>
       </div>
 
       <!-- PRICING -->
@@ -393,34 +393,34 @@ QwQ 32B is best suited for tasks that involve complex reasoning, math, coding, s
 
         <div style="margin-top:1.5rem">### QwQ 32B Pricing Analysis
 #### Overview
-The QwQ 32B model, provided by Alibaba Cloud, offers a competitive pricing structure for businesses and individuals looking to leverage its capabilities in complex reasoning, math, coding, science, research, and analysis. Released on 2025-03-05, this open-source model is categorized under the budget tier.
+QwQ 32B, provided by Alibaba Cloud, is a budget-friendly, open-source model released on 2025-03-05. This analysis breaks down the cost structure, optimal usage scenarios, and cost-effectiveness at scale.
 
 #### Cost Structure
 The pricing for QwQ 32B is as follows:
 - **Input**: $0.12 per 1M tokens
 - **Output**: $0.18 per 1M tokens
-- **Cached Input**: No additional cost ($None per 1M tokens)
-- **Batch Input**: No additional cost ($None per 1M tokens)
+- **Cached Input**: $0 (free)
+- **Batch Input**: $0 (free)
 
-This structure indicates that the model incentivizes the use of cached inputs and batch processing for cost savings.
-
-#### Using Cached Tokens
-Cached tokens can be used without incurring any additional cost. This feature is beneficial for applications where the same input data is processed multiple times, as it eliminates the need for repeated input token costs.
-
-#### Batch API Savings
-Similar to cached inputs, batch inputs do not incur additional costs. This makes batch processing an attractive option for large-scale applications, as it can significantly reduce the overall cost of using the QwQ 32B model.
+#### Optimal Usage Scenarios
+- **Cached Tokens**: Utilize cached input tokens when possible, as they are free. This is ideal for applications with repetitive or similar input prompts.
+- **Batch API Calls**: Leverage batch input for multiple API calls, as it is also free. This is beneficial for high-volume applications or batch processing tasks.
 
 #### Cost at Scale
-The cost of using the QwQ 32B model at scale is as follows:
-- **1,000 calls (avg 500 tokens)**: $0.15
-- **10,000 calls**: $1.5
-- **100,000 calls**: $15.0
+The cost of using QwQ 32B at different scales is as follows:
+- **1,000 API Calls** (avg 500 tokens): $0.15
+- **10,000 API Calls**: $1.5
+- **100,000 API Calls**: $15.0
 
-These examples demonstrate a linear scaling of costs with the number of API calls, indicating that the pricing model is straightforward and easy to predict.
+These costs demonstrate a linear scaling of expenses with the number of API calls, indicating that the cost per call remains consistent regardless of the volume.
 
-#### Comparison with Competitors
-QwQ 32B's pricing is competitive compared to its top competitors:
-- **DeepSeek R1**: $0.55/1M input, $2.</div>
+#### Competitor Comparison
+QwQ 32B is significantly more cost-effective than its top competitors:
+- **DeepSeek R1**: $0.55/1M input, $2.19/1M output
+- **OpenAI o3-mini**: $1.1/1M input, $4.4/1M output
+- **OpenAI o4-mini**: $1.1/1M input, $4.4/1M output
+
+In comparison, QwQ 32B offers</div>
       </div>
 
       <!-- BENCHMARKS -->
@@ -432,17 +432,18 @@ QwQ 32B's pricing is competitive compared to its top competitors:
           <div class="stat-cell"><div class="stat-label">LMSYS ELO</div><div class="stat-value">1253</div></div>
         </div>
         <div>### QwQ 32B Benchmark Performance Analysis
-The QwQ 32B model, released on 2025-03-05 by Alibaba Cloud, is a budget-friendly, open-source option with impressive benchmark scores. This analysis will delve into the model's performance metrics, including MMLU, HumanEval, and Arena ELO scores, and explore their implications for real-world use.
+The QwQ 32B model, released by Alibaba Cloud on 2025-03-05, is a budget-friendly, open-source option with impressive benchmark scores. This analysis will delve into the model's performance metrics, including MMLU, HumanEval, and Arena ELO scores, and explore their implications for real-world use.
 
 #### Benchmark Scores
 The QwQ 32B model has achieved the following benchmark scores:
-* **MMLU: 84.8** - The MMLU (Massive Multitask Language Understanding) benchmark evaluates a model's ability to perform a wide range of natural language processing tasks. A score of 84.8 indicates that QwQ 32B has a strong foundation in language understanding, making it suitable for tasks that require complex reasoning and comprehension.
-* **HumanEval: 91.0** - The HumanEval benchmark assesses a model's ability to generate human-like code. With a score of 91.0, QwQ 32B demonstrates exceptional coding capabilities, making it an excellent choice for tasks that involve programming and software development.
-* **LMSYS Arena ELO: 1253** - The LMSYS Arena ELO benchmark measures a model's performance in a competitive environment, where models are pitted against each other to solve problems. An ELO score of 1253 indicates that QwQ 32B is a strong competitor in the arena, capable of handling complex tasks and adapting to new challenges.
+* **MMLU: 84.8** - The MMLU (Massive Multitask Language Understanding) benchmark evaluates a model's ability to perform a wide range of natural language processing tasks. A score of 84.8 indicates that QwQ 32B has strong language understanding capabilities.
+* **HumanEval: 91.0** - The HumanEval benchmark assesses a model's ability to generate human-like code. A score of 91.0 suggests that QwQ 32B is proficient in coding tasks and can generate high-quality code.
+* **LMSYS Arena ELO: 1253** - The LMSYS Arena ELO score measures a model's overall language modeling capabilities. An ELO score of 1253 indicates that QwQ 32B is a strong language model, capable of competing with other top models.
 
 #### Real-World Implications
-The benchmark scores suggest that QwQ 32B is well-suited for tasks that require:
-* Complex reasoning and comprehension (e</div>
+The benchmark scores of QwQ 32B have significant implications for real-world use:
+* **Complex Reasoning**: With a high MMLU score, QwQ 32B is well-suited for complex reasoning tasks, such as math, science, and research.
+* **Coding and Development**: The high HumanEval</div>
       </div>
 
       <!-- COMPETITOR TABLE -->
@@ -478,75 +479,63 @@ The benchmark scores suggest that QwQ 32B is well-suited for tasks that require:
             </tbody>
           </table>
         </div>
-        <div style="margin-top:1.5rem">### QwQ 32B vs Top Competitors: A Detailed Comparison
+        <div style="margin-top:1.5rem">### Comparison of QwQ 32B with Top Competitors
 #### Overview
-QwQ 32B, provided by Alibaba Cloud, is a budget-friendly, open-source model released on 2025-03-05. This comparison will delve into the pricing, performance, and use cases of QwQ 32B against its top competitors: DeepSeek R1, OpenAI o3-mini, and OpenAI o4-mini.
+QwQ 32B, provided by Alibaba Cloud, is a budget-friendly, open-source model released on 2025-03-05. It offers competitive pricing and performance. This comparison will delve into the price differences, performance trade-offs, and use cases for QwQ 32B against its top competitors: DeepSeek R1, OpenAI o3-mini, and OpenAI o4-mini.
 
 #### Pricing Comparison
-The pricing models of QwQ 32B and its competitors are as follows:
-| Model | Input Price (per 1M tokens) | Output Price (per 1M tokens) |
-| --- | --- | --- |
-| QwQ 32B | $0.12 | $0.18 |
-| DeepSeek R1 | $0.55 | $2.19 |
-| OpenAI o3-mini | $1.1 | $4.4 |
-| OpenAI o4-mini | $1.1 | $4.4 |
+The pricing for each model is as follows:
+- **QwQ 32B**:
+  - Input: $0.12 per 1M tokens
+  - Output: $0.18 per 1M tokens
+- **DeepSeek R1**:
+  - Input: $0.55 per 1M tokens
+  - Output: $2.19 per 1M tokens
+- **OpenAI o3-mini** and **OpenAI o4-mini**:
+  - Input: $1.1 per 1M tokens
+  - Output: $4.4 per 1M tokens
 
-QwQ 32B offers significantly lower input and output prices compared to its competitors, making it an attractive option for budget-conscious users.
+QwQ 32B is significantly cheaper than its competitors, with input and output costs being 78-90% lower than DeepSeek R1 and 89-96% lower than OpenAI o3-mini and o4-mini.
 
 #### Performance Trade-offs
-QwQ 32B has the following benchmark scores:
-* MMLU: 84.8
-* HumanEval: 91.0
-* LMSYS Arena ELO: 1253
-* GSM8K: 97.0
+While QwQ 32B offers substantial cost savings, its performance is also noteworthy:
+- **MMLU**: 84.8
+- **HumanEval**: 91.0
+- **LMSYS Arena ELO**: 1253
+- **GSM8K**: 97.0
 
-While QwQ 32B's performance is impressive, its competitors may offer better results in certain areas. However, the significant price difference may justify the potential trade-offs in performance.
+These benchmarks indicate that QwQ 32B is capable of complex reasoning, math, coding, science, and research tasks. However, it may not be the best choice for vision, audio, simple tasks, real-time applications under 100ms, or high-volume requests.
 
 #### Context and Limits
-QwQ 32B has a context window of 131,072 tokens, a maximum output of 8,192 tokens, and a knowledge cutoff of 2024-09. These limits are comparable to its competitors, but users should carefully evaluate their specific use cases to ensure QwQ 32B meets their requirements.
+- **Context Window**: 131,072 tokens
+- **Max Output**: 8,192 tokens
+- **Knowledge Cutoff**: 2024-09
 
-#### Capabilities and Use Cases
-QwQ 32B is best suited for:
-* Complex reasoning
-* Math
-* Coding
-* Science
-* Research
-* Analysis
-
-It is not recommended for:
-* Vision
-* Audio
-* Simple tasks
-* Real-time applications with sub-100ms latency
-* High-volume use cases
+QwQ 32B has a large context window and can handle substantial input and output. However, its knowledge cutoff is September 2024, which might limit its applicability for very recent events or discoveries.
 
 #### Cost Examples
-To illustrate the cost-effectiveness of QwQ 32B, consider the following examples:
-*</div>
+For reference, the costs for using Qw</div>
       </div>
 
       <!-- USE CASES -->
       <div class="card content-section">
         <div class="card-title">Best Use Cases</div>
         <div>### Introduction to QwQ 32B
-The QwQ 32B model, released on 2025-03-05 by Alibaba Cloud, is a budget-friendly, open-source option for various applications. With its impressive benchmarks, including an MMLU score of 84.8 and a HumanEval score of 91.0, this model is best suited for tasks requiring complex reasoning, math, coding, science, research, and analysis.
+The QwQ 32B model, provided by Alibaba Cloud, is a budget-friendly and open-source option for various applications. Released on 2025-03-05, it offers a unique balance of affordability and capability, making it an attractive choice for projects that require complex reasoning, math, coding, science, research, and analysis.
 
 ### Top 5 Best Use Cases for QwQ 32B
-Given its capabilities and limitations, here are the top 5 best use cases for QwQ 32B:
+Given its capabilities and limitations, the QwQ 32B model is best suited for the following use cases:
 
-1. **Complex Coding Tasks**: QwQ 32B excels in coding tasks, making it an ideal choice for applications that require generating or understanding complex code snippets. Its high score on HumanEval (91.0) demonstrates its proficiency in this area.
-2. **Mathematical Problem Solving**: With its strong performance on math-related tasks, QwQ 32B is well-suited for applications that involve solving mathematical problems or generating mathematical explanations.
-3. **Scientific Research and Analysis**: QwQ 32B's capabilities in science and research make it an excellent choice for applications that require analyzing or generating scientific text, such as research paper summaries or scientific article analysis.
-4. **Extended Thinking and Reasoning**: The model's ability to perform extended thinking and reasoning tasks makes it suitable for applications that require generating long-form text or engaging in multi-step reasoning.
-5. **System Prompts and Text Generation**: QwQ 32B's support for system prompts and text generation capabilities make it a good fit for applications that require generating human-like text, such as chatbots or content generation tools.
+1. **Complex Reasoning and Problem-Solving**: With its high MMLU score of 84.8 and HumanEval score of 91.0, QwQ 32B is well-equipped to handle complex reasoning tasks. It can be used to develop applications that require in-depth analysis and problem-solving, such as research assistants or educational tools.
+2. **Math and Science Applications**: The model's strengths in math and science make it an excellent choice for developing educational software, scientific calculators, or research tools that require advanced mathematical computations.
+3. **Coding and Software Development**: QwQ 32B's capabilities in coding and its high score in HumanEval make it suitable for applications such as code completion, code review, and automated coding assistance.
+4. **Research and Analysis**: With its extended thinking capabilities and large context window of 131,072 tokens, QwQ 32B can be used for in-depth research and analysis tasks, such as text analysis, sentiment analysis, or data analysis.
+5. **Streaming and System Prompts**: The model's support for streaming and system prompts makes it a good fit for applications that require real-time text processing, such as chatbots, virtual assistants, or live content generation.
 
 ### Code Integration Example with OpenRouter
 To integrate QwQ 32B with OpenRouter, you can use the following example code:
 ```python
-import openrouter
-
-# Initialize the QwQ 32</div>
+import</div>
       </div>
 
       <!-- CAPABILITIES -->
