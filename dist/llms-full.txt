@@ -1,6 +1,6 @@
 # LLMCosts.dev — COMPLETE LLM Pricing Registry (Un-Sharded Master)
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-07-30
+> Updated: 2026-07-31
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -312,7 +312,7 @@ Total Models: 382 | This file is NOT sharded. For ChatGPT-sized ingestion, use /
 | [Qwen: Qwen-Max ](https://llmcosts.dev/models/qwen-qwen-max) | Qwen | $1.04 | $4.16 | $None | 32,768 | None | premium | Closed |
 | [DeepSeek: R1 Distill Qwen 32B](https://llmcosts.dev/models/deepseek-deepseek-r1-distill-qwen-32b) | Deepseek | $0.29 | $0.29 | $None | 32,768 | None | premium | Closed |
 | [DeepSeek: R1 Distill Llama 70B](https://llmcosts.dev/models/deepseek-deepseek-r1-distill-llama-70b) | Deepseek | $0.7 | $0.8 | $None | 131,072 | None | premium | Closed |
-| [DeepSeek: DeepSeek V3](https://llmcosts.dev/models/deepseek-deepseek-chat) | Deepseek | $0.32 | $0.89 | $None | 163,840 | None | premium | Closed |
+| [DeepSeek: DeepSeek V3](https://llmcosts.dev/models/deepseek-deepseek-chat) | Deepseek | $0.2687 | $1.0287 | $None | 163,840 | None | premium | Closed |
 | [Cohere: Command R7B (12-2024)](https://llmcosts.dev/models/cohere-command-r7b-12-2024) | Cohere | $0.0375 | $0.15 | $None | 128,000 | None | premium | Closed |
 | [OpenAI: GPT-4o (2024-11-20)](https://llmcosts.dev/models/openai-gpt-4o-2024-11-20) | Openai | $2.5 | $10.0 | $None | 128,000 | None | premium | Closed |
 | [Cohere: Command R+ (08-2024)](https://llmcosts.dev/models/cohere-command-r-plus-08-2024) | Cohere | $2.5 | $10.0 | $None | 128,000 | None | premium | Closed |

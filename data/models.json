@@ -1,6 +1,6 @@
 {
   "version": "6.0",
-  "updated_at": "2026-07-29T02:49:23Z",
+  "updated_at": "2026-07-31T03:13:34Z",
   "total_models": 382,
   "schema_version": "v5",
   "description": "LLMCosts.dev — Open LLM Pricing Registry. Single source of truth for LLM pricing, benchmarks, and performance data. Updated daily by automated pipeline.",
@@ -31268,8 +31268,8 @@
       "version": "",
       "release_date": "2026-04-11",
       "pricing": {
-        "input_per_1m": 0.32,
-        "output_per_1m": 0.89,
+        "input_per_1m": 0.2687,
+        "output_per_1m": 1.0287,
         "cached_input_per_1m": null,
         "batch_input_per_1m": null,
         "batch_output_per_1m": null,
@@ -31306,9 +31306,9 @@
       "links": {
         "affiliate_link": "https://openrouter.ai/?ref=llmcosts"
       },
-      "last_verified": "2026-04-11",
+      "last_verified": "2026-07-31",
       "last_verified_status": "confirmed",
-      "verified_by": "automated_ingestor",
+      "verified_by": "automated_dual_source",
       "data_confidence": "medium",
       "field_confidence": {
         "pricing": 100,
@@ -31323,7 +31323,21 @@
       ],
       "tier": "premium",
       "open_source": false,
-      "self_hostable": false
+      "self_hostable": false,
+      "cost_examples": {
+        "1k_calls_avg_500_tokens": 0.6487,
+        "10k_calls_avg_500_tokens": 6.487,
+        "100k_calls_avg_500_tokens": 64.87,
+        "1m_calls_avg_500_tokens": 648.7
+      },
+      "price_history": [
+        {
+          "date": "2026-07-31",
+          "input_per_1m": 0.2687,
+          "output_per_1m": 1.0287,
+          "note": "Automated dual-source update"
+        }
+      ]
     },
     {
       "id": "cohere/command-r7b-12-2024",

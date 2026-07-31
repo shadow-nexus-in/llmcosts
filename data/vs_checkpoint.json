@@ -203,6 +203,8 @@
     "anthropic-claude-fable-5:batch-vs-meta-muse-spark-1.1",
     "anthropic-claude-opus-4.8:batch-vs-meta-muse-spark-1.1",
     "meta-muse-spark-1.1-vs-openai-gpt-5.5:batch",
-    "anthropic-claude-opus-4.7:batch-vs-meta-muse-spark-1.1"
+    "anthropic-claude-opus-4.7:batch-vs-meta-muse-spark-1.1",
+    "anthropic-claude-opus-5-vs-anthropic-claude-opus-5-fast",
+    "anthropic-claude-opus-5-fast-vs-qwen-qwen3.7-flash"
   ]
 }
