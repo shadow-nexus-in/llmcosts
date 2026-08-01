@@ -1,6 +1,6 @@
 # LLMCosts.dev — COMPLETE LLM Pricing Registry (Un-Sharded Master)
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-07-31
+> Updated: 2026-08-01
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -12,7 +12,7 @@ CitationTemplate: "{title} — LLMCosts.dev, retrieved from https://llmcosts.dev
 Author: LLMCosts.dev Automated Registry
 License: CC BY 4.0
 
-Total Models: 382 | This file is NOT sharded. For ChatGPT-sized ingestion, use /llms.txt instead.
+Total Models: 383 | This file is NOT sharded. For ChatGPT-sized ingestion, use /llms.txt instead.
 
 | Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
 |-------|----------|----------|---------|---------|---------|-----|------|------|
@@ -398,3 +398,4 @@ Total Models: 382 | This file is NOT sharded. For ChatGPT-sized ingestion, use /
 | [Google: Gemini 2.5 Flash Lite (batch)](https://llmcosts.dev/models/google-gemini-2.5-flash-lite:batch) | Google | $0.05 | $0.2 | $None | 1,048,576 | None | standard | Closed |
 | [Google: Gemini 2.5 Flash (batch)](https://llmcosts.dev/models/google-gemini-2.5-flash:batch) | Google | $0.15 | $1.25 | $None | 1,048,576 | None | standard | Closed |
 | [Google: Gemini 2.5 Pro (batch)](https://llmcosts.dev/models/google-gemini-2.5-pro:batch) | Google | $0.625 | $5.0 | $None | 1,048,576 | None | premium | Closed |
+| [DeepSeek: DeepSeek V4 Flash 0731](https://llmcosts.dev/models/deepseek-deepseek-v4-flash-0731) | Deepseek | $0.14 | $0.28 | $None | 1,048,576 | None | standard | Closed |
