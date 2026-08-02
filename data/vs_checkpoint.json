@@ -207,6 +207,7 @@
     "anthropic-claude-opus-5-vs-anthropic-claude-opus-5-fast",
     "anthropic-claude-opus-5-fast-vs-qwen-qwen3.7-flash",
     "anthropic-claude-opus-5-fast-vs-anthropic-claude-sonnet-5:batch",
-    "anthropic-claude-fable-5:batch-vs-anthropic-claude-opus-5-fast"
+    "anthropic-claude-fable-5:batch-vs-anthropic-claude-opus-5-fast",
+    "anthropic-claude-opus-4.8:batch-vs-anthropic-claude-opus-5-fast"
   ]
 }

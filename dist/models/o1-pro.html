@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://llmcosts.dev/models/o1-pro">
 
   <!-- Schema.org: Dataset -->
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "OpenAI o1 Pro API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for OpenAI o1 Pro by OpenAI.", "url": "https://llmcosts.dev/models/o1-pro", "keywords": ["OpenAI o1 Pro", "OpenAI", "frontier", "reasoning", "research", "science", "math", "premium"], "dateModified": "2026-08-01", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "OpenAI o1 Pro API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for OpenAI o1 Pro by OpenAI.", "url": "https://llmcosts.dev/models/o1-pro", "keywords": ["OpenAI o1 Pro", "OpenAI", "frontier", "reasoning", "research", "science", "math", "premium"], "dateModified": "2026-08-02", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
   <!-- Schema.org: FAQ -->
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
 
@@ -346,13 +346,13 @@
       <div class="card content-section">
         <div class="card-title">Overview</div>
         <div>### Introduction to OpenAI o1 Pro
-The OpenAI o1 Pro model, released on 2024-12-17, is a cutting-edge ultra-tier language model provided by OpenAI. This non-open-source model boasts an impressive array of capabilities, including text, vision, streaming, system prompts, function calling, and structured outputs. With a context window of 200,000 tokens and a maximum output of 100,000 tokens, OpenAI o1 Pro is well-suited for complex tasks that require in-depth analysis and reasoning.
+The OpenAI o1 Pro model, released on 2024-12-17, is a cutting-edge AI solution provided by OpenAI, categorized under the ultra tier. This model is not open source. From an architectural standpoint, OpenAI o1 Pro is designed to handle complex tasks with its robust capabilities, including text, vision, streaming, system prompts, function calling, and structured outputs. Its primary strengths lie in its ability to perform frontier reasoning, research, complex coding, PhD-level analysis, math olympiad, and scientific tasks.
 
-### Technical Strengths and Use Cases
-OpenAI o1 Pro's technical strengths are reflected in its benchmark scores, including an MMLU score of 88.0 and a HumanEval score of 93.0. Its LMSYS Arena ELO rating of 1300 further underscores its capabilities. The model is best utilized for frontier reasoning, research, complex coding, PhD-level analysis, math olympiad, and scientific tasks. However, it is not recommended for bulk processing, cost-sensitive applications, simple tasks, or real-time applications requiring sub-100ms responses. The pricing structure, with input costs at $150.0 per 1M tokens and output costs at $600.0 per 1M tokens, should be carefully considered when planning to integrate OpenAI o1 Pro into a project.
+### Technical Specifications and Use Cases
+OpenAI o1 Pro boasts a context window of 200,000 tokens and a maximum output of 100,000 tokens, with a knowledge cutoff date of 2024-10. The model's pricing is structured as follows: $150.0 per 1M input tokens and $600.0 per 1M output tokens. It is particularly suited for tasks that require in-depth analysis and reasoning, such as research and complex coding. However, it is not recommended for bulk processing, cost-sensitive applications, simple tasks, real-time responses under 100ms, or chatbots. The model's performance is benchmarked with an MMLU score of 88.0 and a HumanEval score of 93.0, demonstrating its capabilities in handling complex tasks.
 
-### Pricing and Competitor Comparison
-The cost of using OpenAI o1 Pro can be significant, with estimated costs of $375.0 for 1,000 calls (avg 500 tokens), $3750.0 for 10,000 calls, and $37500.0 for 100,000 calls. In comparison to its top competitors, OpenAI o1 Pro is priced higher than Claude Opus 4 ($15.0/1M input, $75.0/1M output), Gemini 2.5 Pro ($1.25/1M input, $10.0/1</div>
+### Cost Considerations and Competitors
+For developers considering the adoption of OpenAI o1 Pro, it's essential to evaluate the cost implications. For instance, 1,000 calls with an average of 500 tokens would cost $375.0, while 10,000 calls would amount to $3,750.0, and 100,000 calls would total $37,500.0. In comparison to its competitors, OpenAI o1 Pro is priced higher than models like Claude Opus 4, Gemini 2.5 Pro, and OpenAI o3,</div>
       </div>
 
       <!-- PRICING -->
@@ -393,32 +393,33 @@ The cost of using OpenAI o1 Pro can be significant, with estimated costs of $375
 
         <div style="margin-top:1.5rem">### OpenAI o1 Pro Pricing Analysis
 #### Overview
-The OpenAI o1 Pro model, released on 2024-12-17, is a premium offering from OpenAI, suitable for complex tasks such as frontier reasoning, research, and PhD-level analysis. This analysis will delve into the cost structure, optimal usage scenarios, and cost savings at scale.
+The OpenAI o1 Pro model is a premium offering from OpenAI, released on 2024-12-17. It is classified as an ultra-tier model, not open-source, and is best suited for complex tasks such as frontier reasoning, research, and PhD-level analysis.
 
 #### Cost Structure
-The pricing for OpenAI o1 Pro is as follows:
-* Input: **$150.0 per 1M tokens**
-* Output: **$600.0 per 1M tokens**
-* Cached Input: **$0 per 1M tokens** (free)
-* Batch Input: **$0 per 1M tokens** (free)
+The cost structure of OpenAI o1 Pro is as follows:
+* **Input**: $150.0 per 1M tokens
+* **Output**: $600.0 per 1M tokens
+* **Cached Input**: $None per 1M tokens (free)
+* **Batch Input**: $None per 1M tokens (free)
 
-#### Optimal Usage Scenarios
+#### Cost Optimization Strategies
 To minimize costs, consider the following strategies:
-* **Use cached tokens**: Since cached input tokens are free, leverage this feature whenever possible to reduce input costs.
-* **Batch API calls**: Although batch input tokens are free, the output cost remains the same. However, batching can help reduce the overall number of API calls, resulting in cost savings.
+* **Use cached tokens**: Since cached input tokens are free, utilize them whenever possible to reduce input costs.
+* **Batch API calls**: Although there is no explicit discount for batch input, it can help reduce the overall number of API calls, leading to cost savings.
 
 #### Cost at Scale
 The cost of using OpenAI o1 Pro at scale is as follows:
-* **1,000 calls (avg 500 tokens)**: **$375.0**
-* **10,000 calls**: **$3,750.0**
-* **100,000 calls**: **$37,500.0**
+* **1,000 calls** (avg 500 tokens): $375.0
+* **10,000 calls**: $3750.0
+* **100,000 calls**: $37500.0
 
-These costs are based on the average number of tokens per call and do not take into account potential savings from caching or batching.
+These costs are based on the average number of tokens per call and can be used as a rough estimate for budgeting purposes.
 
 #### Comparison with Competitors
-OpenAI o1 Pro is a premium model, and its pricing reflects its capabilities. For comparison, the following models offer different pricing structures:
-* **Claude Opus 4**: $15.0/1M input, $75.0/1M output
-* **Gemini 2.5 Pro**: $1.25/1M input,</div>
+OpenAI o1 Pro is a premium model with a high cost structure. In comparison:
+* **Claude Opus 4**: $15.0/1M input, $75.0/1M output ( significantly cheaper)
+* **Gemini 2.5 Pro**: $1.25/1M input, $10.0/1M output ( substantially cheaper)
+* **OpenAI o3**: $2.0/1M</div>
       </div>
 
       <!-- BENCHMARKS -->
@@ -430,16 +431,19 @@ OpenAI o1 Pro is a premium model, and its pricing reflects its capabilities. For
           <div class="stat-cell"><div class="stat-label">LMSYS ELO</div><div class="stat-value">1300</div></div>
         </div>
         <div>### Analysis of OpenAI o1 Pro Benchmark Performance
-The OpenAI o1 Pro model, released on 2024-12-17, is a high-performance AI model with a tier classification of "ultra". This analysis will delve into the benchmark performance of the OpenAI o1 Pro, focusing on its MMLU, HumanEval, and Arena ELO scores, and explain their implications for real-world use.
+The OpenAI o1 Pro model, released on 2024-12-17, is an ultra-tier model provided by OpenAI. It is not open-source. The pricing for this model is as follows:
+* Input: **$150.0 per 1M tokens**
+* Output: **$600.0 per 1M tokens**
 
 #### Benchmark Scores
-The OpenAI o1 Pro has achieved the following benchmark scores:
-* **MMLU: 88.0** - The MMLU (Measuring Massive Multitask Language Understanding) benchmark evaluates a model's ability to understand and generate human-like language across a wide range of tasks. A score of 88.0 indicates that the OpenAI o1 Pro has a high level of language understanding, making it suitable for complex tasks that require nuanced language comprehension.
-* **HumanEval: 93.0** - The HumanEval benchmark assesses a model's ability to generate code that is both correct and readable. A score of 93.0 suggests that the OpenAI o1 Pro is highly proficient in code generation, making it an excellent choice for tasks such as complex coding and math olympiad problems.
-* **LMSYS Arena ELO: 1300** - The LMSYS Arena ELO benchmark measures a model's ability to reason and solve problems in a competitive environment. An ELO score of 1300 indicates that the OpenAI o1 Pro has a high level of reasoning ability, making it well-suited for tasks that require frontier reasoning and scientific tasks.
+The model's performance is measured by several benchmark scores:
+* **MMLU: 88.0** - The MMLU (Massive Multitask Language Understanding) benchmark evaluates a model's ability to understand and generate human-like text across a wide range of tasks and topics. A higher score indicates better performance. An MMLU score of 88.0 suggests that OpenAI o1 Pro has a strong understanding of language and can generate high-quality text.
+* **HumanEval: 93.0** - The HumanEval benchmark assesses a model's ability to generate code that is correct and functional. A higher score indicates better performance. A HumanEval score of 93.0 indicates that OpenAI o1 Pro is highly proficient in generating correct and functional code.
+* **LMSYS Arena ELO: 1300** - The LMSYS Arena ELO benchmark evaluates a model's ability to reason and solve problems. A higher score indicates better performance. An LMSYS Arena ELO score of 1300 suggests that OpenAI o1 Pro has a strong ability to reason and solve complex problems.
 
 #### Real-World Implications
-The benchmark scores of the OpenAI o1 Pro have significant implications</div>
+These benchmark scores have significant implications for real-world use:
+* **Frontier reasoning and research**: OpenAI o1 Pro's high MMLU</div>
       </div>
 
       <!-- COMPETITOR TABLE -->
@@ -477,51 +481,74 @@ The benchmark scores of the OpenAI o1 Pro have significant implications</div>
         </div>
         <div style="margin-top:1.5rem">### Comparison of OpenAI o1 Pro with Top Competitors
 #### Overview
-The OpenAI o1 Pro model, released on 2024-12-17, is a high-end offering from OpenAI, positioned in the ultra tier. This comparison will delve into its pricing, performance, and use cases, contrasting it with its top competitors: Claude Opus 4, Gemini 2.5 Pro, and OpenAI o3.
+The OpenAI o1 Pro model, released on 2024-12-17, is a high-performance ultra-tier model offered by OpenAI. This comparison will delve into the pricing, performance, and use cases of the OpenAI o1 Pro against its top competitors: Claude Opus 4, Gemini 2.5 Pro, and OpenAI o3.
 
 #### Pricing Comparison
 The pricing for each model is as follows:
-- **OpenAI o1 Pro**:
-  - Input: $150.0 per 1M tokens
-  - Output: $600.0 per 1M tokens
-- **Claude Opus 4**:
-  - Input: $15.0 per 1M tokens
-  - Output: $75.0 per 1M tokens
-- **Gemini 2.5 Pro**:
-  - Input: $1.25 per 1M tokens
-  - Output: $10.0 per 1M tokens
-- **OpenAI o3**:
-  - Input: $2.0 per 1M tokens
-  - Output: $8.0 per 1M tokens
+* **OpenAI o1 Pro**:
+	+ Input: $150.0 per 1M tokens
+	+ Output: $600.0 per 1M tokens
+* **Claude Opus 4**:
+	+ Input: $15.0 per 1M tokens
+	+ Output: $75.0 per 1M tokens
+* **Gemini 2.5 Pro**:
+	+ Input: $1.25 per 1M tokens
+	+ Output: $10.0 per 1M tokens
+* **OpenAI o3**:
+	+ Input: $2.0 per 1M tokens
+	+ Output: $8.0 per 1M tokens
 
 #### Performance Trade-offs
-- **OpenAI o1 Pro**: Offers high performance with an MMLU score of 88.0 and a HumanEval score of 93.0. It is best suited for complex tasks such as frontier reasoning, research, and PhD-level analysis.
-- **Claude Opus 4**: Provides a balance between price and performance, making it a viable option for those who need high-quality outputs without the extreme cost of the o1 Pro.
-- **Gemini 2.5 Pro**: This model is the most cost-effective option, with significantly lower input and output costs. However, its performance may not match that of the o1 Pro or Claude Opus 4.
-- **OpenAI o3**: Offers a middle ground in terms of pricing and performance, potentially suitable for applications where the o1 Pro is too expensive but higher quality than Gemini 2.5 Pro is required.
+The OpenAI o1 Pro boasts impressive performance metrics, including:
+* MMLU: 88.0
+* HumanEval: 93.0
+* LMSYS Arena ELO: 1300
+
+In comparison, the performance metrics for the other models are not provided. However, based on the pricing, we can infer that the OpenAI o1 Pro is a high-end model, while the others may offer more affordable alternatives with potential trade-offs in performance.
 
 #### Use Cases and Recommendations
-- **Choose OpenAI o1 Pro** for tasks requiring the highest level of reasoning, complex coding, or scientific tasks where budget is not a primary concern.
-- **Choose Claude Opus 4** for applications needing high-quality outputs at a lower cost than the o1 Pro</div>
+The OpenAI o1 Pro is best suited for:
+* Frontier reasoning
+* Research
+* Complex coding
+* PhD-level analysis
+* Math olympiad
+* Scientific tasks
+
+On the other hand, it is not recommended for:
+* Bulk processing
+* Cost-sensitive applications
+* Simple tasks
+* Real-time applications with sub-100ms latency
+* Chatbots
+
+In contrast, the other models may be more suitable for these use cases due to their lower pricing.
+
+#### Cost Examples
+To illustrate the cost differences, consider the following examples:
+* 1,000 calls (avg 500 tokens): OpenAI o1 Pro ($375.0) vs. Claude Opus 4</div>
       </div>
 
       <!-- USE CASES -->
       <div class="card content-section">
         <div class="card-title">Best Use Cases</div>
         <div>### Introduction to OpenAI o1 Pro
-The OpenAI o1 Pro model, released on 2024-12-17, is a powerful ultra-tier model offered by OpenAI. With its impressive capabilities in text, vision, streaming, system prompts, function calling, and structured outputs, it is best suited for complex tasks such as frontier reasoning, research, complex coding, PhD-level analysis, math olympiad, and scientific tasks.
+The OpenAI o1 Pro model, released on 2024-12-17, is a powerful tool designed for ultra-tier applications, including frontier reasoning, research, complex coding, and scientific tasks. With its capabilities in text, vision, streaming, system prompts, function calling, and structured outputs, it is best suited for tasks that require advanced reasoning and analysis.
 
 ### Top 5 Best Use Cases for OpenAI o1 Pro
-Given its capabilities and limitations, here are the top 5 best use cases for OpenAI o1 Pro:
+Based on its capabilities and benchmarks, the top 5 best use cases for OpenAI o1 Pro are:
 
-1. **Complex Coding and Research**: OpenAI o1 Pro excels in complex coding tasks, making it an ideal choice for researchers and developers working on cutting-edge projects. Its ability to understand and generate high-quality code, coupled with its large context window of 200,000 tokens, allows for in-depth analysis and development of complex software systems.
-2. **PhD-Level Analysis and Math Olympiad**: The model's exceptional performance in PhD-level analysis and math olympiad tasks makes it a valuable tool for students, researchers, and academics. Its ability to reason and provide detailed explanations for complex mathematical concepts is unparalleled.
-3. **Scientific Tasks and Frontier Reasoning**: OpenAI o1 Pro's capabilities in scientific tasks and frontier reasoning make it an excellent choice for scientists and researchers working on groundbreaking projects. Its ability to analyze complex data, identify patterns, and provide insights is invaluable in the scientific community.
-4. **Vision and Streaming Tasks**: The model's capabilities in vision and streaming tasks make it suitable for applications such as image and video analysis, object detection, and real-time data processing.
-5. **System Prompts and Function Calling**: OpenAI o1 Pro's ability to understand and execute system prompts and function calls makes it an ideal choice for automating complex workflows and integrating with other systems.
+1. **PhD-Level Analysis**: With its high MMLU score of 88.0 and HumanEval score of 93.0, OpenAI o1 Pro is well-suited for complex analysis tasks, such as research papers, academic writing, and data analysis.
+2. **Math Olympiad**: The model's ability to handle complex mathematical problems and its high LMSYS Arena ELO score of 1300 make it an ideal tool for math olympiad training and competition.
+3. **Scientific Tasks**: OpenAI o1 Pro's capabilities in text, vision, and streaming make it suitable for a wide range of scientific tasks, such as data analysis, research paper summarization, and scientific writing.
+4. **Complex Coding**: With its ability to handle complex coding tasks and its high HumanEval score, OpenAI o1 Pro is well-suited for tasks such as code review, code generation, and code optimization.
+5. **Research**: The model's ability to handle large context windows (up to 200,000 tokens) and its high MMLU score make it an ideal tool for research tasks, such as literature review, research paper writing, and data analysis.
 
 ### Code Integration Examples with OpenRouter
-To integrate OpenAI</div>
+To integrate OpenAI o1 Pro with OpenRouter, you can use the following code example:
+```python
+import openai
+from openai import Open</div>
       </div>
 
       <!-- CAPABILITIES -->
