@@ -1,17 +1,17 @@
 # GPT-4o API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-08-03
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-08-04
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
 ### Introduction to GPT-4o
-The GPT-4o model, released by OpenAI on 2024-05-13, is a premium, non-open-source language model designed to cater to a wide range of applications, including coding, analysis, and vision tasks. With its robust architecture, GPT-4o boasts a context window of 128,000 tokens and can generate up to 16,384 tokens as output. This model is particularly suited for complex tasks that require in-depth understanding and generation of text, such as content generation, data extraction, and function calling.
+The GPT-4o model, released by OpenAI on 2024-05-13, is a premium, non-open-source language model designed to provide advanced capabilities for developers. With a context window of 128,000 tokens and a maximum output of 16,384 tokens, GPT-4o is well-suited for complex tasks that require extensive input and output processing. Its knowledge cutoff is 2024-04, ensuring that the model's training data is current up to that point.
 
-### Technical Capabilities and Pricing
-GPT-4o offers a multitude of capabilities, including text and vision processing, function calling, JSON mode, structured outputs, streaming, and batch processing. It also supports system prompts, making it highly versatile for various use cases. In terms of pricing, GPT-4o charges $2.5 per 1M tokens for input, $10.0 per 1M tokens for output, and offers discounted rates of $1.25 per 1M tokens for both cached input and batch input. With a knowledge cutoff of 2024-04, GPT-4o has demonstrated impressive benchmarks, including an MMLU score of 88.7, HumanEval score of 90.2, and an LMSYS Arena ELO rating of 1295. For example, 1,000 calls with an average of 500 tokens would cost $6.25, while 10,000 calls would amount to $62.5.
+### Architecture and Strengths
+GPT-4o's architecture supports a wide range of capabilities, including text, vision, function calling, JSON mode, structured outputs, streaming, and batch processing. The model also supports system prompts, making it a versatile tool for various applications. Its strengths are reflected in its benchmark scores, which include an MMLU score of 88.7, a HumanEval score of 90.2, an LMSYS Arena ELO score of 1295, and a GSM8K score of 96.1. These scores indicate that GPT-4o is particularly well-suited for tasks such as coding, analysis, and content generation.
 
-### Use Cases and Competitors
-GPT-4o is best utilized for tasks that require advanced language understanding and generation, such as coding, analysis, and vision tasks. However, it may not be the most cost-effective option for simple classification tasks, embeddings, bulk cheap tasks, or real-time applications requiring sub-100ms response times. In comparison to its competitors, such
+### Pricing and Use Cases
+The pricing for GPT-4o is as follows: $2.5 per 1M tokens for input, $10.0 per 1M tokens for output, $1.25 per 1M tokens for cached input, and $1.25 per 1M tokens for batch input. For example, 1,000 calls with an average of 500 tokens would cost $6.25, while 10,000 calls would cost $62.5, and 100,000 calls would cost $625.0. Compared to its top competitor, OpenAI o1, which costs $15.0/1M input and $60.0/1M output, G
 
 ## Pricing (USD per 1M tokens)
 | Metric | Price |
@@ -25,31 +25,32 @@ GPT-4o is best utilized for tasks that require advanced language understanding a
 ## Pricing Analysis
 ### GPT-4o Pricing Analysis
 #### Overview
-The GPT-4o model, released by OpenAI on 2024-05-13, is a premium, non-open-source model with a unique cost structure. This analysis will delve into the pricing details, including input, output, cached input, and batch input costs, as well as provide examples of cost at scale.
+The GPT-4o model, released by OpenAI on 2024-05-13, is a premium, non-open-source model with a unique pricing structure. This analysis will break down the cost structure, explore the benefits of using cached tokens and batch API calls, and examine the cost at scale.
 
 #### Cost Structure
-The cost structure for GPT-4o is as follows:
-* **Input**: $2.5 per 1M tokens
-* **Output**: $10.0 per 1M tokens
-* **Cached Input**: $1.25 per 1M tokens (50% discount compared to regular input)
-* **Batch Input**: $1.25 per 1M tokens (50% discount compared to regular input)
+The pricing for GPT-4o is as follows:
+* Input: **$2.5 per 1M tokens**
+* Output: **$10.0 per 1M tokens**
+* Cached Input: **$1.25 per 1M tokens** (50% discount compared to regular input)
+* Batch Input: **$1.25 per 1M tokens** (50% discount compared to regular input)
 
 #### When to Use Cached Tokens
-Cached tokens are ideal for use cases where the same input is repeated multiple times. By using cached tokens, you can reduce the cost of input tokens by 50%. This can be particularly useful for applications where the same prompt or query is used repeatedly, such as in chatbots or virtual assistants.
+Cached tokens are ideal for use cases where the input data is repetitive or has a high degree of similarity. By using cached tokens, you can reduce the input cost by 50%, from **$2.5 per 1M tokens** to **$1.25 per 1M tokens**.
 
 #### Batch API Savings
-Batching API calls can also lead to significant cost savings. With a 50% discount on batch input, you can reduce the cost of input tokens. This is particularly useful for applications where multiple requests can be grouped together, such as in data processing or content generation tasks.
+Batching API calls can also lead to significant cost savings. With batch input priced at **$1.25 per 1M tokens**, you can reduce the input cost by 50% compared to regular input. This makes batch processing an attractive option for large-scale applications.
 
 #### Cost at Scale
-The cost of using GPT-4o at scale is as follows:
-* **1,000 calls (avg 500 tokens)**: $6.25
-* **10,000 calls**: $62.5
-* **100,000 calls**: $625.0
+To illustrate the cost at scale, let's examine the provided cost examples:
+* 1,000 calls (avg 500 tokens): **$6.25**
+* 10,000 calls: **$62.5**
+* 100,000 calls: **$625.0**
 
-These costs demonstrate the economies of scale that can be achieved with larger volumes of API calls.
+These examples demonstrate a linear scaling of costs with the number of API calls.
 
 #### Comparison to Top Competitors
-The top competitor to GPT-4o is OpenAI o1, which costs
+The top competitor, OpenAI o1, has a significantly higher pricing structure:
+* Input:
 
 ## Benchmarks
 | Benchmark | Score |
@@ -61,90 +62,115 @@ The top competitor to GPT-4o is OpenAI o1, which costs
 
 ## Benchmark Analysis
 ### GPT-4o Benchmark Performance Analysis
-The GPT-4o model, released by OpenAI on 2024-05-13, is a premium, non-open-source model with a context window of 128,000 tokens and a maximum output of 16,384 tokens. The model's pricing is as follows:
-* Input: **$2.5 per 1M tokens**
-* Output: **$10.0 per 1M tokens**
-* Cached Input: **$1.25 per 1M tokens**
-* Batch Input: **$1.25 per 1M tokens**
+The GPT-4o model, released by OpenAI on 2024-05-13, is a premium, non-open-source language model. Its performance is measured by several benchmarks, including MMLU, HumanEval, and Arena ELO scores.
 
 #### Benchmark Scores
-The model's benchmark performance is measured by the following scores:
-* **MMLU: 88.7** - The MMLU (Massive Multitask Language Understanding) benchmark evaluates a model's ability to perform a wide range of natural language processing tasks. A higher MMLU score indicates better performance.
-* **HumanEval: 90.2** - The HumanEval benchmark assesses a model's ability to generate code that is correct and functional. A higher HumanEval score indicates better coding capabilities.
-* **LMSYS Arena ELO: 1295** - The LMSYS Arena ELO score measures a model's performance in a competitive environment, where it is pitted against other models. A higher ELO score indicates better performance.
-* **GSM8K: 96.1** - The GSM8K benchmark evaluates a model's ability to solve math problems. A higher GSM8K score indicates better math problem-solving capabilities.
+* **MMLU (Massive Multitask Language Understanding) Score: 88.7** - This score indicates the model's ability to perform a wide range of natural language processing tasks. A higher score suggests better performance in understanding and generating human-like language.
+* **HumanEval Score: 90.2** - This score evaluates the model's ability to write correct and functional code in response to programming prompts. A higher score indicates better coding capabilities.
+* **LMSYS Arena ELO Score: 1295** - This score measures the model's performance in a competitive environment, where it is pitted against other models. A higher ELO score suggests better overall performance and adaptability.
 
 #### Real-World Implications
 These benchmark scores have significant implications for real-world use cases:
-* The high MMLU
+* **Coding and Analysis**: With a high HumanEval score, GPT-4o is well-suited for coding tasks, such as code completion, code review, and code generation.
+* **Text and Vision Tasks**: The model's high MMLU score and support for vision capabilities make it a strong candidate for tasks like text analysis, summarization, and vision-based tasks.
+* **Function Calling and Data Extraction**: GPT-4o's high scores and support for function calling and JSON mode make it a good fit for tasks that require extracting data from APIs or databases.
+
+#### Pricing and Cost Examples
 
 ## Competitor Comparison
-### GPT-4o Comparison Against Top Competitors
+### GPT-4o Comparison with Top Competitors
 #### Overview
-GPT-4o, released by OpenAI on 2024-05-13, is a premium, non-open-source model offering a range of capabilities including text, vision, function calling, and more. This comparison will delve into the pricing, performance, and use cases of GPT-4o against its top competitors, highlighting the trade-offs and scenarios where each model is best utilized.
+GPT-4o, released by OpenAI on 2024-05-13, is a premium, non-open-source model that offers a range of capabilities, including text, vision, function calling, and more. This comparison will focus on the pricing, performance, and use cases of GPT-4o against its top competitors.
 
 #### Pricing Comparison
-| Model | Input Price (per 1M tokens) | Output Price (per 1M tokens) |
-| --- | --- | --- |
-| GPT-4o | $2.5 | $10.0 |
-| OpenAI o1 | $15.0 | $60.0 |
+The pricing for GPT-4o is as follows:
+* Input: $2.5 per 1M tokens
+* Output: $10.0 per 1M tokens
+* Cached Input: $1.25 per 1M tokens
+* Batch Input: $1.25 per 1M tokens
 
-GPT-4o offers significantly lower pricing for both input and output compared to OpenAI o1, with input costs being 6 times lower and output costs being 6 times lower as well.
+In comparison, OpenAI o1, a top competitor, is priced at:
+* Input: $15.0 per 1M tokens
+* Output: $60.0 per 1M tokens
 
-#### Performance Benchmarks
-GPT-4o demonstrates strong performance across various benchmarks:
-- MMLU: 88.7
-- HumanEval: 90.2
-- LMSYS Arena ELO: 1295
-- GSM8K: 96.1
+GPT-4o offers a significant cost savings, with input prices 6 times lower and output prices 6 times lower than OpenAI o1.
 
-These benchmarks indicate GPT-4o's capabilities in understanding and generating human-like text, solving mathematical problems, and more.
+#### Performance Comparison
+GPT-4o has demonstrated strong performance on various benchmarks:
+* MMLU: 88.7
+* HumanEval: 90.2
+* LMSYS Arena ELO: 1295
+* GSM8K: 96.1
+
+While the performance of OpenAI o1 is not provided, GPT-4o's benchmarks suggest it is a high-performing model.
 
 #### Context and Limits
-- **Context Window**: 128,000 tokens, allowing for complex and lengthy input sequences.
-- **Max Output**: 16,384 tokens, suitable for generating detailed responses.
-- **Knowledge Cutoff**: 2024-04, ensuring the model's knowledge is current up to this date.
+GPT-4o has the following context and limits:
+* Context Window: 128,000 tokens
+* Max Output: 16,384 tokens
+* Knowledge Cutoff: 2024-04
+
+These limits are not compared to OpenAI o1, as the data is not provided.
 
 #### Capabilities and Use Cases
-GPT-4o is best for:
-- Coding
-- Analysis
-- RAG (Retrieve, Augment, Generate)
-- Agents
-- Summarization
-- Vision tasks
-- Function calling
-- Content generation
-- Data extraction
+GPT-4o offers a range of capabilities, including:
+* Text
+* Vision
+* Function calling
+* JSON mode
+* Structured outputs
+* Streaming
+* Batch processing
+* System prompts
 
-It is not recommended for:
-- Simple classification
-- Embeddings
-- Bulk cheap tasks
-- Real-time tasks requiring sub-100ms response times
+It is best suited for tasks such as:
+* Coding
+* Analysis
+* RAG
+* Agents
+* Summarization
+* Vision tasks
+* Function calling
+* Content generation
+* Data extraction
 
-#### Cost Examples
-The cost of using GPT-4o can be estimated as follows:
-- 1,000 calls (avg 500 tokens): $6.25
-- 10,000 calls: $62.5
-- 100,000 calls: $625.0
-
-#### Choosing
+However, it is not recommended for:
+* Simple classification
+* Embeddings
+* Bulk cheap tasks
+* Real-time sub 100ms
 
 ## Best Use Cases
 ### Introduction to GPT-4o
-The GPT-4o model, released by OpenAI on 2024-05-13, is a premium, non-open-source language model. With its impressive capabilities, including text, vision, function calling, and more, it is best suited for tasks such as coding, analysis, and content generation.
+The GPT-4o model, released by OpenAI on 2024-05-13, is a premium, non-open-source language model that excels in various tasks, including coding, analysis, and vision tasks. With its capabilities in text, vision, function calling, and more, GPT-4o is a powerful tool for developers and businesses.
 
 ### Top 5 Best Use Cases for GPT-4o
-Based on its capabilities and pricing, here are the top 5 best use cases for GPT-4o:
+Based on its capabilities and benchmarks, here are the top 5 best use cases for GPT-4o:
 
-1. **Coding and Software Development**: GPT-4o excels in coding tasks, making it an ideal choice for software development, code review, and code generation. Its ability to understand and generate code in various programming languages can significantly reduce development time and improve code quality.
-2. **Data Analysis and Summarization**: With its strong text analysis capabilities, GPT-4o can be used for data analysis, summarization, and insight generation. It can help extract relevant information from large datasets, identify patterns, and provide concise summaries.
-3. **Content Generation**: GPT-4o's ability to generate high-quality text makes it suitable for content generation tasks, such as writing articles, blog posts, and social media content. Its vision capabilities also enable it to generate text based on images and videos.
-4. **Vision Tasks**: GPT-4o's vision capabilities make it an excellent choice for tasks such as image classification, object detection, and image generation. Its ability to understand and generate text based on visual inputs can be useful in applications such as image captioning and visual question answering.
-5. **Function Calling and API Integration**: GPT-4o's function calling capability allows it to integrate with external APIs and services, making it suitable for tasks such as data extraction, API testing, and automation. For example, it can be used to integrate with OpenRouter to fetch data or perform actions.
+1. **Coding and Development**: GPT-4o's high scores in HumanEval (90.2) and LMSYS Arena ELO (1295) make it an excellent choice for coding tasks, such as code completion, code review, and bug fixing. For example, you can use GPT-4o with OpenRouter to generate code snippets:
+    ```python
+import openrouter
 
-### Code Integration Example with
+# Initialize GPT-4o model
+model = openrouter.GPT4o()
+
+# Generate code snippet
+code_snippet = model.generate_code("Create a Python function to calculate the area of a rectangle")
+print(code_snippet)
+```
+2. **Analysis and Summarization**: GPT-4o's high MMLU score (88.7) and ability to process large context windows (128,000 tokens) make it suitable for complex analysis and summarization tasks. You can use GPT-4o to analyze large documents and generate concise summaries:
+    ```python
+import openrouter
+
+# Initialize GPT-4o model
+model = openrouter.GPT4o()
+
+# Analyze document and generate summary
+document = "Path to large document"
+summary = model.summarize_document(document)
+print(summary)
+```
+3. **Vision Tasks**: GPT-4o's vision capabilities and high GSM8K score (96.1) make
 
 ## Frequently Asked Questions
 
