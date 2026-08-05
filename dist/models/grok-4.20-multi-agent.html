@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://llmcosts.dev/models/grok-4.20-multi-agent">
 
   <!-- Schema.org: Dataset -->
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "xAI: Grok 4.20 Multi-Agent API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for xAI: Grok 4.20 Multi-Agent by X-ai.", "url": "https://llmcosts.dev/models/grok-4.20-multi-agent", "keywords": ["xAI: Grok 4.20 Multi-Agent", "X-ai", "llm", "api"], "dateModified": "2026-08-04", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Dataset", "SoftwareApplication"], "name": "xAI: Grok 4.20 Multi-Agent API Pricing", "description": "Complete pricing, benchmarks and API cost analysis for xAI: Grok 4.20 Multi-Agent by X-ai.", "url": "https://llmcosts.dev/models/grok-4.20-multi-agent", "keywords": ["xAI: Grok 4.20 Multi-Agent", "X-ai", "llm", "api"], "dateModified": "2026-08-05", "publisher": {"@type": "Organization", "name": "LLMCosts.dev"}}</script>
   <!-- Schema.org: FAQ -->
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": []}</script>
 
@@ -346,13 +346,13 @@
       <div class="card content-section">
         <div class="card-title">Overview</div>
         <div>### Introduction to xAI: Grok 4.20 Multi-Agent
-The xAI: Grok 4.20 Multi-Agent model, released by X-ai on 2024-01-01, is a standard, non-open-source AI solution. This model is part of the x-ai/grok-4.20-multi-agent family and is designed to handle a variety of tasks, including text generation, coding, analysis, and more. With a context window of 2,000,000 tokens and a maximum output of 4,096 tokens, this model is well-suited for complex, multi-step tasks.
+The xAI: Grok 4.20 Multi-Agent model, released by X-ai on 2024-01-01, is a standard, non-open-source AI solution. This model boasts a unique architecture that leverages multi-agent technology, enabling it to process and generate human-like text based on the input it receives. With a context window of up to 2,000,000 tokens and a maximum output of 4,096 tokens, the xAI: Grok 4.20 Multi-Agent is capable of handling complex and lengthy conversations or text generation tasks.
 
-### Architecture and Strengths
-The architecture of xAI: Grok 4.20 Multi-Agent is not explicitly detailed, but its capabilities suggest a robust and flexible design. It supports multiple features such as text, function calling, JSON mode, streaming, and structured outputs, making it a versatile tool for developers. The model's strengths are reflected in its benchmark scores, including an MMLU score of 80.0 and an LMSYS Arena ELO of 1200. These metrics indicate the model's ability to understand and generate human-like text, as well as its competitive performance in various AI challenges.
+### Technical Strengths and Use-Cases
+The xAI: Grok 4.20 Multi-Agent model excels in several areas, including text generation, chat, coding, analysis, and summarization, thanks to its capabilities in text, function calling, JSON mode, streaming, and structured outputs. Its strengths are further underscored by its benchmark scores, such as an MMLU score of 80.0 and an LMSYS Arena ELO score of 1200. Developers can utilize this model for a wide range of applications, from chatbots and text generation tools to coding assistants and data analysis platforms. With a pricing structure of $2.0 per 1M input tokens and $6.0 per 1M output tokens, developers can estimate costs based on their specific use cases, such as $4.0 for 1,000 calls averaging 500 tokens.
 
-### Use Cases and Pricing
-xAI: Grok 4.20 Multi-Agent is best suited for applications such as chat, text generation, coding, analysis, and summarization. The pricing model is based on input and output tokens, with costs of $2.0 per 1M input tokens and $6.0 per 1M output tokens. For example, 1,000 calls with an average of 500 tokens would cost $4.0, while 100,000 calls would cost $400.0. With no direct competitors listed, xAI: Grok 4.20 Multi-Agent offers a unique set of capabilities and pricing options for developers looking to integrate advanced AI functionality into their applications.</div>
+### Pricing and Competitiveness
+The pricing model for the xAI: Grok 4.20 Multi-Agent is straightforward, with costs calculated based on input and output tokens. As outlined, the model costs $2.0 per 1M input tokens and $6.0 per 1M output tokens, with no charges for cached or batch inputs. This pricing, combined with the model's capabilities and benchmark performance, positions it</div>
       </div>
 
       <!-- PRICING -->
@@ -399,27 +399,25 @@ The xAI: Grok 4.20 Multi-Agent model is a standard, non-open-source model provid
 The pricing for xAI: Grok 4.20 Multi-Agent is as follows:
 * **Input**: $2.0 per 1M tokens
 * **Output**: $6.0 per 1M tokens
-* **Cached Input**: No additional cost ($None per 1M tokens)
-* **Batch Input**: No additional cost ($None per 1M tokens)
+* **Cached Input**: $None per 1M tokens (free)
+* **Batch Input**: $None per 1M tokens (free)
+
+This structure indicates that the primary cost factors are the input and output token volumes. Cached and batch inputs are not charged, suggesting that optimizing for these can significantly reduce costs.
 
 #### Usage Scenarios
-* **Cached Tokens**: Since there is no additional cost for cached input tokens, it is recommended to use cached tokens whenever possible to minimize costs.
-* **Batch API Savings**: Although there is no explicit discount for batch input, the lack of additional cost per 1M tokens suggests that batch processing can be an efficient way to reduce overall costs.
+* **Cached Tokens**: Since cached input tokens are free, it is highly beneficial to use cached tokens whenever possible. This can be particularly useful in applications where the same or similar inputs are processed multiple times.
+* **Batch API Savings**: Although the pricing does not directly specify savings for batch API calls, the fact that batch input is free implies that batching can help reduce the overall cost by minimizing the number of API calls needed.
 
 #### Cost at Scale
-The cost examples provided are as follows:
+The provided cost examples give insight into the cost at different scales:
 * **1,000 calls (avg 500 tokens)**: $4.0
 * **10,000 calls**: $40.0
 * **100,000 calls**: $400.0
 
-These examples illustrate a linear cost scaling, with no apparent discounts for larger volumes.
+These examples suggest a linear scaling of costs with the number of API calls, which is consistent with the input/output token-based pricing model.
 
-#### Cost Calculation
-To estimate the cost of using xAI: Grok 4.20 Multi-Agent, we can use the following formula:
-`Cost = (Input Tokens / 1,000,000) * $2.0 + (Output Tokens / 1,000,000) * $6.0`
-
-For example, if we have an average input of 500 tokens and an average output of 200 tokens per call, the cost per call would be:
-`Cost</div>
+#### Calculating Costs
+To estimate costs for specific use cases, one needs to calculate the total input and output tokens. Given the context window of 2,000,000</div>
       </div>
 
       <!-- BENCHMARKS -->
@@ -430,25 +428,18 @@ For example, if we have an average input of 500 tokens and an average output of 
           <div class="stat-cell"><div class="stat-label">HumanEval</div><div class="stat-value">None</div></div>
           <div class="stat-cell"><div class="stat-label">LMSYS ELO</div><div class="stat-value">1200</div></div>
         </div>
-        <div>### Benchmark Performance Analysis of xAI: Grok 4.20 Multi-Agent
-The xAI: Grok 4.20 Multi-Agent model, released by X-ai on 2024-01-01, is a standard, non-open-source model. To understand its performance and suitability for real-world applications, we'll delve into its benchmark scores.
+        <div>### xAI: Grok 4.20 Multi-Agent Benchmark Analysis
+#### Overview
+The xAI: Grok 4.20 Multi-Agent model is a standard, non-open-source model provided by X-ai, released on January 1, 2024. This analysis will delve into the model's benchmark performance, focusing on the MMLU, HumanEval, and Arena ELO scores, and their implications for real-world applications.
 
-#### MMLU Score: 80.0
-The MMLU (Massive Multitask Language Understanding) score measures a model's ability to perform a wide range of natural language understanding tasks. A score of 80.0 indicates that xAI: Grok 4.20 Multi-Agent has a strong foundation in language comprehension, making it suitable for tasks like text generation, chat, and analysis.
+#### Benchmark Scores
+The model's benchmark scores are as follows:
+* **MMLU: 80.0** - The MMLU (Massive Multitask Language Understanding) benchmark evaluates a model's ability to perform a wide range of natural language processing tasks. A score of 80.0 indicates that the xAI: Grok 4.20 Multi-Agent model has a strong foundation in language understanding, making it suitable for tasks such as text generation, analysis, and summarization.
+* **HumanEval: None** - The HumanEval benchmark assesses a model's ability to generate code that is correct and functional. Unfortunately, no HumanEval score is provided for this model, making it difficult to evaluate its code generation capabilities.
+* **LMSYS Arena ELO: 1200** - The LMSYS Arena ELO benchmark measures a model's performance in a competitive environment, where it is pitted against other models. An ELO score of 1200 indicates that the xAI: Grok 4.20 Multi-Agent model has a moderate level of competence in this arena, suggesting that it can hold its own in certain tasks, but may struggle against more advanced models.
 
-#### HumanEval Score: None
-The HumanEval score assesses a model's ability to generate code that passes human-written tests. Unfortunately, the HumanEval score is not available for this model, making it difficult to evaluate its coding capabilities directly. However, the model's capabilities list includes `function_calling`, suggesting some level of coding proficiency.
-
-#### LMSYS Arena ELO Score: 1200
-The LMSYS Arena ELO score measures a model's performance in a competitive environment, where it is pitted against other models in various tasks. An ELO score of 1200 indicates that xAI: Grok 4.20 Multi-Agent has a moderate level of competence in these tasks, but may struggle against more advanced models.
-
-### Real-World Implications
-Given its benchmark scores, xAI: Grok 4.20 Multi-Agent is well-suited for tasks like:
-
-* Text generation
-* Chat
-* Analysis
-* Sum</div>
+#### Real-World Implications
+The benchmark scores suggest that the xAI: Gro</div>
       </div>
 
       <!-- COMPETITOR TABLE -->
@@ -478,73 +469,88 @@ Given its benchmark scores, xAI: Grok 4.20 Multi-Agent is well-suited for tasks 
           </table>
         </div>
         <div style="margin-top:1.5rem">### xAI: Grok 4.20 Multi-Agent Comparison
-#### Overview
-The xAI: Grok 4.20 Multi-Agent model, released by X-ai on 2024-01-01, is a standard, non-open-source model. This comparison will highlight its pricing, performance, and capabilities against top competitors, although no direct competitors are listed.
+Since there are no direct competitors listed for the xAI: Grok 4.20 Multi-Agent model, we will provide a general overview of its features, pricing, and performance. This will help users understand the model's strengths and weaknesses, and make informed decisions about when to choose it.
+
+#### Model Overview
+The xAI: Grok 4.20 Multi-Agent model is a standard, non-open-source model released by X-ai on January 1, 2024. It has a context window of 2,000,000 tokens and a maximum output of 4,096 tokens. The model's knowledge cutoff is December 2023.
 
 #### Pricing
-The xAI: Grok 4.20 Multi-Agent model has the following pricing structure:
-* Input: **$2.0 per 1M tokens**
-* Output: **$6.0 per 1M tokens**
-* Cached Input: **$None per 1M tokens** (not available)
-* Batch Input: **$None per 1M tokens** (not available)
+The pricing for the xAI: Grok 4.20 Multi-Agent model is as follows:
+* Input: $2.0 per 1M tokens
+* Output: $6.0 per 1M tokens
+* Cached Input: $None per 1M tokens
+* Batch Input: $None per 1M tokens
 
-#### Performance Trade-offs
+#### Performance
 The model's performance is measured by the following benchmarks:
-* MMLU: **80.0**
-* LMSYS Arena ELO: **1200**
-While the HumanEval and GSM8K benchmarks are not available, the provided metrics indicate a strong performance in certain areas.
+* MMLU: 80.0
+* LMSYS Arena ELO: 1200
 
-#### Capabilities and Use Cases
-The xAI: Grok 4.20 Multi-Agent model supports the following capabilities:
-* text
-* function_calling
-* json_mode
-* streaming
-* structured_outputs
-It is best suited for applications such as:
-* chat
-* text_generation
-* coding
-* analysis
-* rag_pipelines
-* summarization
+The model is capable of performing the following tasks:
+* Text
+* Function calling
+* JSON mode
+* Streaming
+* Structured outputs
+
+It is best suited for the following applications:
+* Chat
+* Text generation
+* Coding
+* Analysis
+* RAG pipelines
+* Summarization
 
 #### Cost Examples
-To illustrate the cost of using the xAI: Grok 4.20 Multi-Agent model, consider the following examples:
-* 1,000 calls (avg 500 tokens): **$4.0**
-* 10,000 calls: **$40.0**
-* 100,000 calls: **$400.0**
+The estimated costs for using the xAI: Grok 4.20 Multi-Agent model are:
+* 1,000 calls (avg 500 tokens): $4.0
+* 10,000 calls: $40.0
+* 100,000 calls: $400.0
 
 #### Choosing the xAI: Grok 4.20 Multi-Agent Model
-Given the lack of direct competitors, the xAI: Grok 4.20 Multi-Agent model should be chosen based on its unique strengths and capabilities. Consider the following factors:
-* **Context Window**: 2,000,000 tokens, suitable for applications requiring large context understanding.
-* **Max Output**: 4,096 tokens, suitable for applications requiring moderate output lengths.
-* **Knowledge Cutoff**: 2023-12, ensuring the model's knowledge is up-to-date until this point.
+Since there are no direct competitors listed, the decision to choose the xAI: Grok 4.20 Multi-Agent model will depend on the specific needs of the user. If the user requires a model with a large context window, high maximum output, and advanced capabilities such as function calling and structured outputs, then the xAI: Grok 4.20 Multi-Agent model may be a good choice.
 
-In conclusion, the xAI: Grok 4.20</div>
+However, users should also consider the following factors:
+* The model's pricing may be higher than other</div>
       </div>
 
       <!-- USE CASES -->
       <div class="card content-section">
         <div class="card-title">Best Use Cases</div>
         <div>### Introduction to xAI: Grok 4.20 Multi-Agent
-The xAI: Grok 4.20 Multi-Agent model, provided by X-ai, is a powerful tool with a wide range of capabilities, including text generation, function calling, and structured outputs. Released on 2024-01-01, this model is part of the standard tier and is not open source. In this guide, we will explore the top 5 best use cases for this model, along with practical advice and code integration examples using OpenRouter.
+The xAI: Grok 4.20 Multi-Agent model, provided by X-ai, is a powerful tool with a wide range of capabilities, including text generation, function calling, and structured outputs. Released on 2024-01-01, this model operates under a standard tier and is not open source. Given its features and pricing, here are the top 5 best use cases for xAI: Grok 4.20 Multi-Agent, along with practical advice and code integration examples using OpenRouter.
 
-### Top 5 Use Cases for xAI: Grok 4.20 Multi-Agent
-#### 1. **Chat and Conversational Systems**
-The xAI: Grok 4.20 Multi-Agent model is well-suited for chat and conversational systems due to its text generation capabilities and large context window of 2,000,000 tokens. This allows for more nuanced and contextually aware conversations.
+### Top 5 Use Cases
+1. **Chat and Text Generation**: With its strong text generation capabilities, xAI: Grok 4.20 Multi-Agent is ideal for chatbots and content generation platforms. 
+    * **Example**: Integrate OpenRouter to route user queries to the xAI model for generating human-like responses.
+    ```python
+    import openrouter
+    from xai_grok import Grok420MultiAgent
 
-#### 2. **Text Generation and Summarization**
-With its ability to generate text and its high MMLU benchmark score of 80.0, this model is ideal for text generation and summarization tasks. It can be used to create content, summarize long documents, or even generate reports.
+    # Initialize OpenRouter and xAI model
+    router = openrouter.Router()
+    model = Grok420MultiAgent()
 
-#### 3. **Coding and Function Calling**
-The model's function calling capability makes it a great tool for coding tasks. It can be used to generate code snippets, complete incomplete code, or even assist in debugging.
+    # Define a route for chat queries
+    @router.route("/chat")
+    def chat(query):
+        response = model.generate_text(query)
+        return response
 
-#### 4. **Analysis and RAG Pipelines**
-The xAI: Grok 4.20 Multi-Agent model's ability to handle structured outputs and its high performance on the LMSYS Arena ELO benchmark (1200) make it well-suited for analysis tasks and RAG (Retrieve, Augment, Generate) pipelines.
+    # Start the router
+    router.start()
+    ```
+2. **Coding and Analysis**: The model's function calling and structured outputs capabilities make it suitable for coding assistance and analysis tasks.
+    * **Example**: Use OpenRouter to create an API endpoint that accepts code snippets, analyzes them using xAI: Grok 4.20 Multi-Agent, and returns suggestions for improvement.
+    ```python
+    import openrouter
+    from xai_grok import Grok420MultiAgent
 
-#### 5. **Streaming and Real-Time Applications**
-With its streaming capability, this model can be used in real-time applications such as live chat support, real</div>
+    # Initialize OpenRouter and xAI model
+    router = openrouter.Router()
+    model = Grok420MultiAgent()
+
+    # Define a route for</div>
       </div>
 
       <!-- CAPABILITIES -->
