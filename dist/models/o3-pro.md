@@ -1,6 +1,6 @@
 # OpenAI: o3 Pro API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-08-05
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-08-06
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview

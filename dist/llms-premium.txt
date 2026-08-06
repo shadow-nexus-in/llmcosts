@@ -1,6 +1,6 @@
 # LLMCosts.dev — Premium Tier Models
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-08-05
+> Updated: 2026-08-06
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -93,3 +93,4 @@ License: CC BY 4.0
 | [Anthropic: Claude Opus 4.1 (batch)](https://llmcosts.dev/models/anthropic-claude-opus-4.1:batch) | Anthropic | $7.5 | $37.5 | $None | 200,000 | None | premium | Closed |
 | [Google: Gemini 2.5 Pro (batch)](https://llmcosts.dev/models/google-gemini-2.5-pro:batch) | Google | $0.625 | $5.0 | $None | 1,048,576 | None | premium | Closed |
 | [Qwen: Qwen3.8 Max](https://llmcosts.dev/models/qwen-qwen3.8-max) | Qwen | $2.0 | $6.0 | $None | 1,000,000 | None | premium | Closed |
+| [Meta: Muse Spark 1.2](https://llmcosts.dev/models/meta-muse-spark-1.2) | Meta | $1.25 | $4.25 | $None | 1,048,576 | None | premium | Closed |
