@@ -1,6 +1,6 @@
 # LLMCosts.dev — Premium Tier Models
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-08-06
+> Updated: 2026-08-07
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -94,3 +94,24 @@ License: CC BY 4.0
 | [Google: Gemini 2.5 Pro (batch)](https://llmcosts.dev/models/google-gemini-2.5-pro:batch) | Google | $0.625 | $5.0 | $None | 1,048,576 | None | premium | Closed |
 | [Qwen: Qwen3.8 Max](https://llmcosts.dev/models/qwen-qwen3.8-max) | Qwen | $2.0 | $6.0 | $None | 1,000,000 | None | premium | Closed |
 | [Meta: Muse Spark 1.2](https://llmcosts.dev/models/meta-muse-spark-1.2) | Meta | $1.25 | $4.25 | $None | 1,048,576 | None | premium | Closed |
+| [Claude Opus 5 (batch)](https://llmcosts.dev/models/anthropic-claude-opus-5:batch) | Anthropic | $2.5 | $12.5 | $None | 1,000,000 | None | premium | Closed |
+| [OpenAI: GPT-5.6 Luna Pro (batch)](https://llmcosts.dev/models/openai-gpt-5.6-luna-pro:batch) | Openai | $0.1 | $0.6 | $None | 1,050,000 | None | premium | Closed |
+| [OpenAI: GPT-5.6 Luna (batch)](https://llmcosts.dev/models/openai-gpt-5.6-luna:batch) | Openai | $0.1 | $0.6 | $None | 1,050,000 | None | premium | Closed |
+| [OpenAI: GPT-5.6 Terra Pro (batch)](https://llmcosts.dev/models/openai-gpt-5.6-terra-pro:batch) | Openai | $1.0 | $6.0 | $None | 1,050,000 | None | premium | Closed |
+| [OpenAI: GPT-5.6 Terra (batch)](https://llmcosts.dev/models/openai-gpt-5.6-terra:batch) | Openai | $1.0 | $6.0 | $None | 1,050,000 | None | premium | Closed |
+| [OpenAI: GPT-5.6 Sol Pro (batch)](https://llmcosts.dev/models/openai-gpt-5.6-sol-pro:batch) | Openai | $2.5 | $15.0 | $None | 1,050,000 | None | premium | Closed |
+| [OpenAI: GPT-5.6 Sol (batch)](https://llmcosts.dev/models/openai-gpt-5.6-sol:batch) | Openai | $2.5 | $15.0 | $None | 1,050,000 | None | premium | Closed |
+| [OpenAI: GPT-5.5 Pro (batch)](https://llmcosts.dev/models/openai-gpt-5.5-pro:batch) | Openai | $15.0 | $90.0 | $None | 1,050,000 | None | premium | Closed |
+| [OpenAI: GPT-5.4 Pro (batch)](https://llmcosts.dev/models/openai-gpt-5.4-pro:batch) | Openai | $15.0 | $90.0 | $None | 1,050,000 | None | premium | Closed |
+| [Anthropic: Claude Sonnet 4.6 (batch)](https://llmcosts.dev/models/anthropic-claude-sonnet-4.6:batch) | Anthropic | $1.5 | $7.5 | $None | 1,000,000 | None | premium | Closed |
+| [OpenAI: GPT-5.2 Pro (batch)](https://llmcosts.dev/models/openai-gpt-5.2-pro:batch) | Openai | $10.5 | $84.0 | $None | 400,000 | None | premium | Closed |
+| [OpenAI: GPT-5 Pro (batch)](https://llmcosts.dev/models/openai-gpt-5-pro:batch) | Openai | $7.5 | $60.0 | $None | 400,000 | None | premium | Closed |
+| [OpenAI: GPT-5 Codex (batch)](https://llmcosts.dev/models/openai-gpt-5-codex:batch) | Openai | $0.625 | $5.0 | $None | 400,000 | None | premium | Closed |
+| [OpenAI: o3 Pro (batch)](https://llmcosts.dev/models/openai-o3-pro:batch) | Openai | $10.0 | $40.0 | $None | 200,000 | None | premium | Closed |
+| [OpenAI: o3 (batch)](https://llmcosts.dev/models/openai-o3:batch) | Openai | $1.0 | $4.0 | $None | 200,000 | None | premium | Closed |
+| [OpenAI: GPT-4.1 (batch)](https://llmcosts.dev/models/openai-gpt-4.1:batch) | Openai | $1.0 | $4.0 | $None | 1,047,576 | None | premium | Closed |
+| [OpenAI: o1-pro (batch)](https://llmcosts.dev/models/openai-o1-pro:batch) | Openai | $75.0 | $300.0 | $None | 200,000 | None | premium | Closed |
+| [OpenAI: o1 (batch)](https://llmcosts.dev/models/openai-o1:batch) | Openai | $7.5 | $30.0 | $None | 200,000 | None | premium | Closed |
+| [OpenAI: GPT-4o (batch)](https://llmcosts.dev/models/openai-gpt-4o:batch) | Openai | $1.25 | $5.0 | $None | 128,000 | None | premium | Closed |
+| [OpenAI: GPT-4 Turbo (batch)](https://llmcosts.dev/models/openai-gpt-4-turbo:batch) | Openai | $5.0 | $15.0 | $None | 128,000 | None | premium | Closed |
+| [OpenAI: GPT-3.5 Turbo (batch)](https://llmcosts.dev/models/openai-gpt-3.5-turbo:batch) | Openai | $0.25 | $0.75 | $None | 16,385 | None | premium | Closed |
