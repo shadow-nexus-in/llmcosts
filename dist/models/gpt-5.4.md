@@ -1,17 +1,17 @@
 # OpenAI: GPT-5.4 API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-08-08
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-08-09
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
 ### Introduction to OpenAI: GPT-5.4
-The OpenAI: GPT-5.4 model, released on 2024-01-01 by Openai, is a standard, non-open-source language model. This model is part of the GPT series, known for its versatility and performance in a wide range of natural language processing tasks. With a context window of 1,050,000 tokens and a maximum output of 128,000 tokens, GPT-5.4 is capable of handling complex and lengthy inputs and outputs. Its knowledge cutoff is 2023-12, indicating that its training data includes information up to December 2023.
+The OpenAI: GPT-5.4 model, released on 2024-01-01, is a standard, non-open-source language model provided by OpenAI. This model boasts a context window of 1,050,000 tokens and a maximum output of 128,000 tokens, with a knowledge cutoff of 2023-12. The GPT-5.4 architecture is designed to handle a wide range of tasks, including text generation, coding, analysis, and summarization, making it a versatile tool for developers.
 
 ### Technical Capabilities and Pricing
-OpenAI: GPT-5.4 boasts an impressive array of capabilities, including text generation, function calling, JSON mode, streaming, and structured outputs. It is best suited for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization. The pricing model for GPT-5.4 is as follows: $2.5 per 1M tokens for input, $15.0 per 1M tokens for output, $1.25 per 1M tokens for cached input, and $1.25 per 1M tokens for batch input. For example, 1,000 calls with an average of 500 tokens would cost $8.75, while 10,000 calls would cost $87.5, and 100,000 calls would cost $875.0. The model's performance is highlighted by its MMLU score of 94.0 and LMSYS Arena ELO score of 1350.
+OpenAI: GPT-5.4 supports various capabilities such as text, function calling, JSON mode, streaming, and structured outputs. Its pricing model is based on input and output tokens, with costs of $2.5 per 1M tokens for input, $15.0 per 1M tokens for output, $1.25 per 1M tokens for cached input, and $1.25 per 1M tokens for batch input. The model's performance is benchmarked with an MMLU score of 94.0 and an LMSYS Arena ELO score of 1350. Developers can expect to pay $8.75 for 1,000 calls with an average of 500 tokens, $87.5 for 10,000 calls, and $875.0 for 100,000 calls.
 
 ### Use Cases and Competitors
-Given its strengths in text generation, coding, and analysis, OpenAI: GPT-5.4 is a powerful tool for developers looking to integrate advanced language capabilities into their applications. Its ability to handle complex inputs and outputs, along with
+The OpenAI: GPT-5.4 model is best suited for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization. However, its limitations and areas where it is not recommended are not explicitly listed. Currently, there are no direct competitors listed for this model, making it a unique offering in the market. With its robust capabilities and flexible pricing, OpenAI: GPT-5.4 is an attractive
 
 ## Pricing (USD per 1M tokens)
 | Metric | Price |
@@ -23,34 +23,33 @@ Given its strengths in text generation, coding, and analysis, OpenAI: GPT-5.4 is
 | Batch Output | $7.5 |
 
 ## Pricing Analysis
-### OpenAI: GPT-5.4 Pricing Analysis
+### OpenAI GPT-5.4 Pricing Analysis
 #### Overview
-The OpenAI: GPT-5.4 model is a standard, non-open source model released on January 1, 2024. This analysis will break down the cost structure, provide guidance on when to use cached tokens, explain batch API savings, and calculate the cost at scale for 1,000, 10,000, and 100,000 API calls.
+The OpenAI GPT-5.4 model is a standard, non-open source model released on January 1, 2024. This analysis will break down the cost structure, provide guidance on when to use cached tokens, discuss batch API savings, and examine the cost at scale for 1,000, 10,000, and 100,000 API calls.
 
 #### Cost Structure
-The pricing for OpenAI: GPT-5.4 is as follows:
-* **Input**: $2.5 per 1M tokens
-* **Output**: $15.0 per 1M tokens
-* **Cached Input**: $1.25 per 1M tokens
-* **Batch Input**: $1.25 per 1M tokens
+The pricing for OpenAI GPT-5.4 is as follows:
+* **Input**: $2.5 per 1 million tokens
+* **Output**: $15.0 per 1 million tokens
+* **Cached Input**: $1.25 per 1 million tokens (50% discount compared to regular input)
+* **Batch Input**: $1.25 per 1 million tokens (50% discount compared to regular input)
 
-#### Using Cached Tokens
-Cached tokens can significantly reduce costs. They are priced at **$1.25 per 1M tokens**, which is 50% of the regular input price. Use cached tokens when:
-* The input data is repetitive or has a high degree of similarity.
-* The model is being used for tasks that do not require fresh, dynamic input.
+#### When to Use Cached Tokens
+Cached tokens are ideal for use cases where the same input is repeated multiple times. By using cached tokens, you can reduce the cost by 50% compared to regular input tokens. This can be particularly beneficial for applications with high volumes of repeated queries.
 
 #### Batch API Savings
-Batching API calls can also lead to cost savings. The batch input price is **$1.25 per 1M tokens**, the same as cached input. Batch API calls when:
-* Making multiple requests with similar input data.
-* The model is being used in a high-volume, low-latency application.
+Batching API calls can also lead to significant cost savings. With a 50% discount on batch input, you can reduce the cost of your API calls. This is especially useful for applications that require processing large volumes of data in parallel.
 
 #### Cost at Scale
-The cost examples provided are:
+The cost of using OpenAI GPT-5.4 at scale is as follows:
 * **1,000 calls (avg 500 tokens)**: $8.75
 * **10,000 calls**: $87.5
 * **100,000 calls**: $875.0
 
-To calculate the cost at scale, we can estimate the total number of tokens processed. Assuming an average of 500 tokens per call, we can calculate the total tokens processed
+To put these numbers into perspective, the cost per call decreases as the volume of calls increases. However, the total cost increases linearly with the number of calls.
+
+#### Example Cost Calculation
+Assuming an
 
 ## Benchmarks
 | Benchmark | Score |
@@ -62,80 +61,90 @@ To calculate the cost at scale, we can estimate the total number of tokens proce
 
 ## Benchmark Analysis
 ### Analysis of OpenAI: GPT-5.4 Benchmark Performance
-The OpenAI: GPT-5.4 model, released on 2024-01-01, is a standard, non-open-source model provided by OpenAI. To understand its performance, we'll dive into the benchmark scores and what they mean for real-world applications.
+#### Overview
+The OpenAI: GPT-5.4 model is a standard, non-open-source model released by OpenAI on 2024-01-01. This analysis will delve into its benchmark performance, focusing on the MMLU, HumanEval, and Arena ELO scores, and their implications for real-world use.
 
 #### Benchmark Scores
-The model has the following benchmark scores:
+The model's benchmark scores are as follows:
 * **MMLU (Massive Multitask Language Understanding)**: 94.0
 * **HumanEval**: None
 * **LMSYS Arena ELO**: 1350
 * **GSM8K**: None
 
-These scores provide insights into the model's capabilities:
-* **MMLU**: A score of 94.0 indicates that the model has a high level of language understanding, making it suitable for tasks that require comprehension and generation of human-like text.
-* **LMSYS Arena ELO**: An ELO score of 1350 suggests that the model has a moderate level of competence in competitive tasks, such as coding and problem-solving.
+These scores provide insight into the model's capabilities:
+* **MMLU**: A score of 94.0 indicates that the model performs well in understanding and generating human-like text across a wide range of tasks and domains. This suggests strong performance in applications such as chat, text generation, and summarization.
+* **HumanEval**: The absence of a HumanEval score makes it difficult to assess the model's ability to evaluate and generate human-like code. However, the model's capabilities include function_calling, which implies some level of coding proficiency.
+* **LMSYS Arena ELO**: An ELO score of 1350 suggests that the model has a moderate level of proficiency in competitive tasks, such as those involving strategy and problem-solving.
 
 #### Real-World Implications
-The benchmark scores imply that the OpenAI: GPT-5.4 model is:
-* Suitable for tasks that require high-level language understanding, such as text generation, chat, and analysis.
-* Moderately competent in competitive tasks, making it a good choice for coding, summarization, and RAG (Retrieve, Augment, Generate) pipelines.
-
-### Pricing and Cost Examples
-The pricing for the OpenAI: GPT-5.4 model is as follows:
-* **Input**: $2.5 per 1M tokens
-* **Output**: $15.0 per 1M tokens
+The benchmark scores have the following implications for real-world use:
+* **Text-based applications**: The high MMLU score indicates that the model is well-suited for text-based applications, such as chat, text generation, and summarization.
 
 
 ## Competitor Comparison
-### Comparison of OpenAI: GPT-5.4 with Top Competitors
-Since there are no direct competitors listed for OpenAI: GPT-5.4, we will provide a general overview of the model's features, pricing, and performance. This will help users understand when to choose OpenAI: GPT-5.4 and what trade-offs to expect.
+### Introduction to OpenAI: GPT-5.4
+The OpenAI: GPT-5.4 model, released by Openai on 2024-01-01, is a standard, non-open-source model. This model is designed for a variety of tasks, including chat, text generation, coding, analysis, and summarization.
 
-#### Model Overview
-OpenAI: GPT-5.4 is a standard-tier model released by OpenAI on 2024-01-01. It is not open-source and has the following key features:
-* **Context Window**: 1,050,000 tokens
-* **Max Output**: 128,000 tokens
-* **Knowledge Cutoff**: 2023-12
-* **Capabilities**: text, function_calling, json_mode, streaming, structured_outputs
-* **Best For**: chat, text_generation, coding, analysis, rag_pipelines, summarization
-
-#### Pricing
+### Pricing Model
 The pricing for OpenAI: GPT-5.4 is as follows:
-* **Input**: $2.5 per 1M tokens
-* **Output**: $15.0 per 1M tokens
-* **Cached Input**: $1.25 per 1M tokens
-* **Batch Input**: $1.25 per 1M tokens
+* Input: **$2.5 per 1M tokens**
+* Output: **$15.0 per 1M tokens**
+* Cached Input: **$1.25 per 1M tokens**
+* Batch Input: **$1.25 per 1M tokens**
 
-#### Cost Examples
-To give users an idea of the costs involved, here are some examples:
-* **1,000 calls (avg 500 tokens)**: $8.75
-* **10,000 calls**: $87.5
-* **100,000 calls**: $875.0
+### Context and Limits
+The model has the following context and limits:
+* Context Window: **1,050,000 tokens**
+* Max Output: **128,000 tokens**
+* Knowledge Cutoff: **2023-12**
 
-#### Performance
-The performance of OpenAI: GPT-5.4 is measured by the following benchmarks:
-* **MMLU**: 94.0
-* **LMSYS Arena ELO**: 1350
+### Benchmarks
+The model's performance is measured by the following benchmarks:
+* MMLU: **94.0**
+* LMSYS Arena ELO: **1350**
 
-#### Choosing OpenAI: GPT-5.4
-OpenAI: GPT-5.4 is a powerful model that excels in a variety of tasks, including chat, text generation, coding, analysis, and summarization. Its large context window and high max output make it suitable for complex tasks that require a deep understanding of the input. However, its high pricing, especially for output, may make it less attractive for applications where cost is a major concern.
+### Capabilities and Best Use Cases
+OpenAI: GPT-5.4 supports the following capabilities:
+* text
+* function_calling
+* json_mode
+* streaming
+* structured_outputs
+It is best suited for tasks such as:
+* chat
+* text_generation
+* coding
+* analysis
+* rag_pipelines
+* summarization
 
-Since there are no direct competitors listed, users should consider the following factors when deciding whether to choose OpenAI: GPT-5.
+### Cost Examples
+The estimated costs for using OpenAI: GPT-5.4 are:
+* 1,000 calls (avg 500 tokens): **$8.75**
+* 10,000 calls: **$87.5**
+* 100,000 calls: **$875.0**
+
+### Comparison to Top Competitors
+Since there are no direct competitors listed for OpenAI: GPT-5.4, a direct comparison cannot be made. However, when choosing a model, consider the following factors:
+* **Pricing**: OpenAI: GPT-5.4 has a unique pricing structure, with separate costs for input, output, cached input, and batch input.
+* **Performance**: The model's performance is measured by its benchmarks, such as MMLU and LMSYS Arena ELO.
+* **Capabilities**: Consider the tasks you need to perform and choose a model that supports the necessary capabilities.
+* **Context and
 
 ## Best Use Cases
 ### Introduction to OpenAI: GPT-5.4
-The OpenAI: GPT-5.4 model, released on 2024-01-01, is a standard, non-open-source model provided by OpenAI. With its impressive capabilities in text, function calling, JSON mode, streaming, and structured outputs, it is best suited for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization.
+OpenAI: GPT-5.4 is a powerful language model released by OpenAI on 2024-01-01. With its standard tier and closed-source model, it offers a range of capabilities including text, function calling, JSON mode, streaming, and structured outputs. This model is best suited for applications such as chat, text generation, coding, analysis, RAG pipelines, and summarization.
 
 ### Top 5 Best Use Cases for OpenAI: GPT-5.4
 Based on its capabilities and benchmarks, here are the top 5 best use cases for OpenAI: GPT-5.4:
 
-1. **Chat and Conversational Systems**: With its high MMLU score of 94.0, OpenAI: GPT-5.4 is well-suited for chat and conversational systems. Its ability to understand and respond to user input makes it an excellent choice for building conversational interfaces.
-2. **Text Generation and Summarization**: OpenAI: GPT-5.4's text generation capabilities make it an excellent choice for applications such as text summarization, content generation, and language translation.
-3. **Coding and Analysis**: With its ability to perform function calling and structured outputs, OpenAI: GPT-5.4 is well-suited for coding and analysis tasks such as code completion, code review, and data analysis.
-4. **RAG Pipelines**: OpenAI: GPT-5.4's support for RAG pipelines makes it an excellent choice for applications that require retrieval and generation of text, such as question answering and text-based dialogue systems.
-5. **Streaming and Real-time Applications**: With its support for streaming, OpenAI: GPT-5.4 is well-suited for real-time applications such as live chat, live text generation, and real-time data analysis.
+1. **Chat and Text Generation**: With its high MMLU score of 94.0, OpenAI: GPT-5.4 is well-suited for generating human-like text and engaging in conversations. You can integrate this model into your chat application using the OpenRouter API.
+2. **Coding and Analysis**: The model's ability to understand and generate code makes it an excellent choice for coding and analysis tasks. You can use OpenAI: GPT-5.4 to generate code snippets, debug code, or analyze code quality.
+3. **Summarization and RAG Pipelines**: OpenAI: GPT-5.4's ability to process and generate structured outputs makes it a great choice for summarization and RAG pipeline tasks. You can use this model to summarize long documents or generate structured data from unstructured text.
+4. **Content Generation**: With its high-quality text generation capabilities, OpenAI: GPT-5.4 is an excellent choice for content generation tasks such as generating articles, blog posts, or social media content.
+5. **Language Translation and Localization**: Although not explicitly mentioned, OpenAI: GPT-5.4's language understanding capabilities make it a potential candidate for language translation and localization tasks.
 
-### Code Integration Examples with OpenRouter
-To integrate OpenAI: GPT
+### Code Integration Examples with
 
 ## Frequently Asked Questions
 
