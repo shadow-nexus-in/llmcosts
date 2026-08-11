@@ -1,6 +1,6 @@
 # LLMCosts.dev — COMPLETE LLM Pricing Registry (Un-Sharded Master)
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-08-10
+> Updated: 2026-08-11
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -12,7 +12,7 @@ CitationTemplate: "{title} — LLMCosts.dev, retrieved from https://llmcosts.dev
 Author: LLMCosts.dev Automated Registry
 License: CC BY 4.0
 
-Total Models: 413 | This file is NOT sharded. For ChatGPT-sized ingestion, use /llms.txt instead.
+Total Models: 414 | This file is NOT sharded. For ChatGPT-sized ingestion, use /llms.txt instead.
 
 | Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
 |-------|----------|----------|---------|---------|---------|-----|------|------|
@@ -429,3 +429,4 @@ Total Models: 413 | This file is NOT sharded. For ChatGPT-sized ingestion, use /
 | [OpenAI: GPT-4o (batch)](https://llmcosts.dev/models/openai-gpt-4o:batch) | Openai | $1.25 | $5.0 | $None | 128,000 | None | premium | Closed |
 | [OpenAI: GPT-4 Turbo (batch)](https://llmcosts.dev/models/openai-gpt-4-turbo:batch) | Openai | $5.0 | $15.0 | $None | 128,000 | None | premium | Closed |
 | [OpenAI: GPT-3.5 Turbo (batch)](https://llmcosts.dev/models/openai-gpt-3.5-turbo:batch) | Openai | $0.25 | $0.75 | $None | 16,385 | None | premium | Closed |
+| [Meta: Muse Glimmer 30B](https://llmcosts.dev/models/meta-muse-glimmer-30b) | Meta | $0.35 | $1.5 | $None | 131,072 | None | premium | Closed |
