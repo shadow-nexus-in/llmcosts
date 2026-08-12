@@ -223,6 +223,7 @@
     "anthropic-claude-opus-4.8:batch-vs-qwen-qwen3.7-flash",
     "openai-gpt-5.5:batch-vs-qwen-qwen3.7-flash",
     "anthropic-claude-opus-4.7:batch-vs-qwen-qwen3.7-flash",
-    "anthropic-claude-fable-5:batch-vs-anthropic-claude-sonnet-5:batch"
+    "anthropic-claude-fable-5:batch-vs-anthropic-claude-sonnet-5:batch",
+    "meta-muse-spark-1.2-vs-qwen-qwen3.8-max"
   ]
 }
