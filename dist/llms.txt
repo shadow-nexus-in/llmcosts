@@ -1,6 +1,6 @@
 # LLMCosts.dev — Complete LLM Pricing Registry (All Models)
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-08-13
+> Updated: 2026-08-14
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -433,3 +433,5 @@ License: CC BY 4.0
 | [LiquidAI: LFM2.5-2.6B (free)](https://llmcosts.dev/models/liquid-lfm-2.5-2.6b:free) | Liquid | $0.0 | $0.0 | $None | 128,000 | None | mid | Closed |
 | [Qwen: Qwen3.8 2.4T A95B](https://llmcosts.dev/models/qwen-qwen3.8-2.4t-a95b) | Qwen | $2.0 | $6.0 | $None | 262,144 | None | premium | Closed |
 | [DeepSeek: DeepSeek V4 Pro 0813](https://llmcosts.dev/models/deepseek-deepseek-v4-pro-0813) | Deepseek | $0.435 | $0.87 | $None | 1,048,576 | None | premium | Closed |
+| [Google: Gemini 3.7 Flash](https://llmcosts.dev/models/google-gemini-3.7-flash) | Google | $0.375 | $1.875 | $None | 1,048,576 | None | standard | Closed |
+| [Google: Gemini 3.7 Flash (batch)](https://llmcosts.dev/models/google-gemini-3.7-flash:batch) | Google | $0.1875 | $0.9375 | $None | 1,048,576 | None | standard | Closed |

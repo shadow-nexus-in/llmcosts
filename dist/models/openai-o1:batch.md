@@ -1,6 +1,6 @@
 # OpenAI: o1 (batch) API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-08-13
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-08-14
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview

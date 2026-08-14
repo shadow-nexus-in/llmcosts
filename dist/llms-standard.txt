@@ -1,6 +1,6 @@
 # LLMCosts.dev — Standard Tier Models
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-08-13
+> Updated: 2026-08-14
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -298,3 +298,5 @@ License: CC BY 4.0
 | [OpenAI: o3 Mini High (batch)](https://llmcosts.dev/models/openai-o3-mini-high:batch) | Openai | $0.55 | $2.2 | $None | 200,000 | None | standard | Closed |
 | [OpenAI: o3 Mini (batch)](https://llmcosts.dev/models/openai-o3-mini:batch) | Openai | $0.55 | $2.2 | $None | 200,000 | None | standard | Closed |
 | [OpenAI: GPT-4o-mini (batch)](https://llmcosts.dev/models/openai-gpt-4o-mini:batch) | Openai | $0.075 | $0.3 | $None | 128,000 | None | standard | Closed |
+| [Google: Gemini 3.7 Flash](https://llmcosts.dev/models/google-gemini-3.7-flash) | Google | $0.375 | $1.875 | $None | 1,048,576 | None | standard | Closed |
+| [Google: Gemini 3.7 Flash (batch)](https://llmcosts.dev/models/google-gemini-3.7-flash:batch) | Google | $0.1875 | $0.9375 | $None | 1,048,576 | None | standard | Closed |
