@@ -230,6 +230,7 @@
     "openai-gpt-5.6-luna:batch-vs-qwen-qwen3.8-max",
     "openai-gpt-5.6-terra-pro:batch-vs-qwen-qwen3.8-max",
     "openai-gpt-5.6-terra:batch-vs-qwen-qwen3.8-max",
-    "openai-gpt-5.6-sol-pro:batch-vs-qwen-qwen3.8-max"
+    "openai-gpt-5.6-sol-pro:batch-vs-qwen-qwen3.8-max",
+    "openai-gpt-5.6-sol:batch-vs-qwen-qwen3.8-max"
   ]
 }
