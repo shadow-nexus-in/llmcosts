@@ -1,6 +1,6 @@
 # LLMCosts.dev — Qwen Models Pricing
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-08-15
+> Updated: 2026-08-16
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -75,3 +75,4 @@ License: CC BY 4.0
 | [Qwen: Qwen3.7 Flash](https://llmcosts.dev/models/qwen-qwen3.7-flash) | Qwen | $0.03 | $0.13 | $None | 1,000,000 | None | premium | Closed |
 | [Qwen: Qwen3.8 Max](https://llmcosts.dev/models/qwen-qwen3.8-max) | Qwen | $2.0 | $6.0 | $None | 1,000,000 | None | premium | Closed |
 | [Qwen: Qwen3.8 2.4T A95B](https://llmcosts.dev/models/qwen-qwen3.8-2.4t-a95b) | Qwen | $2.0 | $6.0 | $None | 262,144 | None | premium | Closed |
+| [Qwen: Qwen3.8 27B](https://llmcosts.dev/models/qwen-qwen3.8-27b) | Qwen | $0.45 | $3.2 | $None | 262,144 | None | premium | Closed |
