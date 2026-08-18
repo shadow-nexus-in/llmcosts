@@ -1,10 +1,10 @@
 # OpenAI: GPT-5 Codex (batch) API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-08-17
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-08-18
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
-OpenAI: GPT-5 Codex (batch) is an AI model provided by Openai. We are currently updating our AI analysis for this model.
+OpenAI: GPT-5 Codex (batch) is an AI language model providing text generation capabilities.
 
 ## Pricing (USD per 1M tokens)
 | Metric | Price |
@@ -16,7 +16,7 @@ OpenAI: GPT-5 Codex (batch) is an AI model provided by Openai. We are currently 
 | Batch Output | $None |
 
 ## Pricing Analysis
-See the pricing table for exact input, output, and batch token metrics.
+See pricing table above for detailed costs.
 
 ## Benchmarks
 | Benchmark | Score |
@@ -27,17 +27,15 @@ See the pricing table for exact input, output, and batch token metrics.
 | ARC | N/A |
 
 ## Benchmark Analysis
-See the benchmark table to view MMLU, HumanEval, and LMSYS ELO scores.
+See benchmark table for scores.
 
 ## Competitor Comparison
-Review the top competitor list shown in the pricing table.
+See comparison table below.
 
 ## Best Use Cases
-General purpose text generation, conversational AI, and API integrations.
+See use cases list below.
 
 ## Frequently Asked Questions
-**Q: Who made OpenAI: GPT-5 Codex (batch)?**
-A: It is provided by Openai.
 
 
 ---
