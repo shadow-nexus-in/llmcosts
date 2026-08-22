@@ -1,6 +1,6 @@
 # LLMCosts.dev — COMPLETE LLM Pricing Registry (Un-Sharded Master)
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-08-21
+> Updated: 2026-08-22
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -12,7 +12,7 @@ CitationTemplate: "{title} — LLMCosts.dev, retrieved from https://llmcosts.dev
 Author: LLMCosts.dev Automated Registry
 License: CC BY 4.0
 
-Total Models: 420 | This file is NOT sharded. For ChatGPT-sized ingestion, use /llms.txt instead.
+Total Models: 422 | This file is NOT sharded. For ChatGPT-sized ingestion, use /llms.txt instead.
 
 | Model | Provider | Input/1M | Output/1M | Cached/1M | Context | ELO | Tier | Type |
 |-------|----------|----------|---------|---------|---------|-----|------|------|
@@ -139,7 +139,7 @@ Total Models: 420 | This file is NOT sharded. For ChatGPT-sized ingestion, use /
 | [Arcee AI: Trinity Mini (free)](https://llmcosts.dev/models/trinity-mini:free) | Arcee-ai | $0.0 | $0.0 | $None | 131,072 | 1200 | standard | Closed |
 | [Arcee AI: Trinity Mini](https://llmcosts.dev/models/trinity-mini) | Arcee-ai | $0.045 | $0.15 | $None | 131,072 | 1200 | standard | Closed |
 | [DeepSeek: DeepSeek V3.2 Speciale](https://llmcosts.dev/models/deepseek-v3.2-speciale) | Deepseek | $0.4 | $1.2 | $None | 163,840 | 1200 | standard | Closed |
-| [DeepSeek: DeepSeek V3.2](https://llmcosts.dev/models/deepseek-v3.2) | Deepseek | $0.2745 | $0.4 | $0.028 | 163,840 | 1200 | standard | Closed |
+| [DeepSeek: DeepSeek V3.2](https://llmcosts.dev/models/deepseek-v3.2) | Deepseek | $0.27 | $0.39 | $0.028 | 163,840 | 1200 | standard | Closed |
 | [Prime Intellect: INTELLECT-3](https://llmcosts.dev/models/intellect-3) | Prime-intellect | $0.2 | $1.1 | $None | 131,072 | 1200 | standard | Closed |
 | [Anthropic: Claude Opus 4.5](https://llmcosts.dev/models/claude-opus-4.5) | Anthropic | $5.0 | $25.0 | $None | 200,000 | 1300 | standard | Closed |
 | [AllenAI: Olmo 3 32B Think](https://llmcosts.dev/models/olmo-3-32b-think) | Allenai | $0.15 | $0.5 | $None | 65,536 | 1200 | standard | Closed |
@@ -436,3 +436,5 @@ Total Models: 420 | This file is NOT sharded. For ChatGPT-sized ingestion, use /
 | [Google: Gemini 3.7 Flash](https://llmcosts.dev/models/google-gemini-3.7-flash) | Google | $0.375 | $1.875 | $None | 1,048,576 | None | standard | Closed |
 | [Google: Gemini 3.7 Flash (batch)](https://llmcosts.dev/models/google-gemini-3.7-flash:batch) | Google | $0.1875 | $0.9375 | $None | 1,048,576 | None | standard | Closed |
 | [Qwen: Qwen3.8 27B](https://llmcosts.dev/models/qwen-qwen3.8-27b) | Qwen | $0.45 | $3.2 | $None | 262,144 | None | premium | Closed |
+| [Meta: Muse Spark 1.2 Contributor](https://llmcosts.dev/models/meta-muse-spark-1.2-contributor) | Meta | $0.1 | $0.2 | $None | 1,048,576 | None | standard | Closed |
+| [DeepSeek: DeepSeek V4 Flash Vision Exp](https://llmcosts.dev/models/deepseek-deepseek-v4-flash-vision-exp) | Deepseek | $0.44 | $1.32 | $None | 1,048,576 | None | standard | Closed |

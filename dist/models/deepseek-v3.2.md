@@ -1,6 +1,6 @@
 # DeepSeek: DeepSeek V3.2 API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-08-21
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-08-22
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
@@ -9,8 +9,8 @@ DeepSeek: DeepSeek V3.2 is an AI language model providing text generation capabi
 ## Pricing (USD per 1M tokens)
 | Metric | Price |
 |--------|-------|
-| Input | $0.2745 |
-| Output | $0.4 |
+| Input | $0.27 |
+| Output | $0.39 |
 | Cached Input | $0.028 |
 | Batch Input | $None |
 | Batch Output | $None |
@@ -39,5 +39,5 @@ See use cases list below.
 
 
 ---
-*Data verified: 2026-08-10 | Confidence: medium*
+*Data verified: 2026-08-22 | Confidence: medium*
 *[Get API Access via OpenRouter](https://openrouter.ai/?ref=llmcosts)*

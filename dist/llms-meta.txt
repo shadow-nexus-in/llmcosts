@@ -1,6 +1,6 @@
 # LLMCosts.dev — Meta Models Pricing
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-08-21
+> Updated: 2026-08-22
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -22,3 +22,4 @@ License: CC BY 4.0
 | [Meta: Muse Spark 1.1](https://llmcosts.dev/models/meta-muse-spark-1.1) | Meta | $1.25 | $4.25 | $None | 1,048,576 | None | premium | Closed |
 | [Meta: Muse Spark 1.2](https://llmcosts.dev/models/meta-muse-spark-1.2) | Meta | $1.25 | $4.25 | $None | 1,048,576 | None | premium | Closed |
 | [Meta: Muse Glimmer 30B](https://llmcosts.dev/models/meta-muse-glimmer-30b) | Meta | $0.35 | $1.5 | $None | 131,072 | None | premium | Closed |
+| [Meta: Muse Spark 1.2 Contributor](https://llmcosts.dev/models/meta-muse-spark-1.2-contributor) | Meta | $0.1 | $0.2 | $None | 1,048,576 | None | standard | Closed |
