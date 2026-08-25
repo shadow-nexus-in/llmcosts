@@ -1,6 +1,6 @@
 # Qwen2.5 Coder 32B Instruct API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-08-24
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-08-25
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
