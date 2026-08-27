@@ -1,6 +1,6 @@
 # LLMCosts.dev — Complete LLM Pricing Registry (All Models)
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-08-26
+> Updated: 2026-08-27
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -438,3 +438,4 @@ License: CC BY 4.0
 | [Qwen: Qwen3.8 27B](https://llmcosts.dev/models/qwen-qwen3.8-27b) | Qwen | $0.45 | $3.2 | $None | 262,144 | None | premium | Closed |
 | [Meta: Muse Spark 1.2 Contributor](https://llmcosts.dev/models/meta-muse-spark-1.2-contributor) | Meta | $0.1 | $0.2 | $None | 1,048,576 | None | standard | Closed |
 | [DeepSeek: DeepSeek V4 Flash Vision Exp](https://llmcosts.dev/models/deepseek-deepseek-v4-flash-vision-exp) | Deepseek | $0.44 | $1.32 | $None | 1,048,576 | None | standard | Closed |
+| [Qwen: Qwen3.8 Flash](https://llmcosts.dev/models/qwen-qwen3.8-flash) | Qwen | $0.15 | $0.47 | $None | 1,000,000 | None | standard | Closed |
