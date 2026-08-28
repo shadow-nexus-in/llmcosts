@@ -1,6 +1,6 @@
 # AI21: Jamba Large 1.7 API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-08-27
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-08-28
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview

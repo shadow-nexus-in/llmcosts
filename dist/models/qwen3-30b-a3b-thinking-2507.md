@@ -1,6 +1,6 @@
 # Qwen: Qwen3 30B A3B Thinking 2507 API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-08-27
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-08-28
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
