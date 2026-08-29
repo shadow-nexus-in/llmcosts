@@ -1,6 +1,6 @@
 # LLMCosts.dev — Deepseek Models Pricing
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-08-28
+> Updated: 2026-08-29
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -18,7 +18,7 @@ License: CC BY 4.0
 |-------|----------|----------|---------|---------|---------|-----|------|------|
 | [DeepSeek R1](https://llmcosts.dev/models/deepseek-r1) | DeepSeek | $0.55 | $2.19 | $None | 64,000 | 1358 | standard | Open |
 | [DeepSeek: DeepSeek V3.2 Speciale](https://llmcosts.dev/models/deepseek-v3.2-speciale) | Deepseek | $0.4 | $1.2 | $None | 163,840 | 1200 | standard | Closed |
-| [DeepSeek: DeepSeek V3.2](https://llmcosts.dev/models/deepseek-v3.2) | Deepseek | $0.2745 | $0.4 | $0.028 | 163,840 | 1200 | standard | Closed |
+| [DeepSeek: DeepSeek V3.2](https://llmcosts.dev/models/deepseek-v3.2) | Deepseek | $0.27 | $0.39 | $0.028 | 163,840 | 1200 | standard | Closed |
 | [DeepSeek: DeepSeek V3.2 Exp](https://llmcosts.dev/models/deepseek-v3.2-exp) | Deepseek | $0.27 | $0.41 | $None | 163,840 | 1200 | standard | Closed |
 | [DeepSeek: DeepSeek V3.1 Terminus](https://llmcosts.dev/models/deepseek-v3.1-terminus) | Deepseek | $0.21 | $0.79 | $None | 163,840 | 1200 | standard | Closed |
 | [DeepSeek: DeepSeek V3.1](https://llmcosts.dev/models/deepseek-chat-v3.1) | Deepseek | $0.15 | $0.75 | $None | 32,768 | 1200 | standard | Closed |
@@ -34,3 +34,5 @@ License: CC BY 4.0
 | [DeepSeek: DeepSeek V4 Flash 0731](https://llmcosts.dev/models/deepseek-deepseek-v4-flash-0731) | Deepseek | $0.14 | $0.28 | $None | 1,048,576 | None | standard | Closed |
 | [DeepSeek: DeepSeek V4 Pro 0813](https://llmcosts.dev/models/deepseek-deepseek-v4-pro-0813) | Deepseek | $0.435 | $0.87 | $None | 1,048,576 | None | premium | Closed |
 | [DeepSeek: DeepSeek V4 Flash Vision Exp](https://llmcosts.dev/models/deepseek-deepseek-v4-flash-vision-exp) | Deepseek | $0.44 | $1.32 | $None | 1,048,576 | None | standard | Closed |
+| [DeepSeek: DeepSeek V4 Pro 0813 (batch)](https://llmcosts.dev/models/deepseek-deepseek-v4-pro-0813:batch) | Deepseek | $1.32 | $3.96 | $None | 1,048,576 | None | standard | Closed |
+| [DeepSeek: DeepSeek V4 Flash 0731 (batch)](https://llmcosts.dev/models/deepseek-deepseek-v4-flash-0731:batch) | Deepseek | $0.14 | $0.28 | $None | 1,048,576 | None | standard | Closed |

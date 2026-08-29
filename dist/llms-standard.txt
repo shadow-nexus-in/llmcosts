@@ -1,6 +1,6 @@
 # LLMCosts.dev — Standard Tier Models
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-08-28
+> Updated: 2026-08-29
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -108,7 +108,7 @@ License: CC BY 4.0
 | [Arcee AI: Trinity Mini (free)](https://llmcosts.dev/models/trinity-mini:free) | Arcee-ai | $0.0 | $0.0 | $None | 131,072 | 1200 | standard | Closed |
 | [Arcee AI: Trinity Mini](https://llmcosts.dev/models/trinity-mini) | Arcee-ai | $0.045 | $0.15 | $None | 131,072 | 1200 | standard | Closed |
 | [DeepSeek: DeepSeek V3.2 Speciale](https://llmcosts.dev/models/deepseek-v3.2-speciale) | Deepseek | $0.4 | $1.2 | $None | 163,840 | 1200 | standard | Closed |
-| [DeepSeek: DeepSeek V3.2](https://llmcosts.dev/models/deepseek-v3.2) | Deepseek | $0.2745 | $0.4 | $0.028 | 163,840 | 1200 | standard | Closed |
+| [DeepSeek: DeepSeek V3.2](https://llmcosts.dev/models/deepseek-v3.2) | Deepseek | $0.27 | $0.39 | $0.028 | 163,840 | 1200 | standard | Closed |
 | [Prime Intellect: INTELLECT-3](https://llmcosts.dev/models/intellect-3) | Prime-intellect | $0.2 | $1.1 | $None | 131,072 | 1200 | standard | Closed |
 | [Anthropic: Claude Opus 4.5](https://llmcosts.dev/models/claude-opus-4.5) | Anthropic | $5.0 | $25.0 | $None | 200,000 | 1300 | standard | Closed |
 | [AllenAI: Olmo 3 32B Think](https://llmcosts.dev/models/olmo-3-32b-think) | Allenai | $0.15 | $0.5 | $None | 65,536 | 1200 | standard | Closed |
@@ -303,3 +303,10 @@ License: CC BY 4.0
 | [Meta: Muse Spark 1.2 Contributor](https://llmcosts.dev/models/meta-muse-spark-1.2-contributor) | Meta | $0.1 | $0.2 | $None | 1,048,576 | None | standard | Closed |
 | [DeepSeek: DeepSeek V4 Flash Vision Exp](https://llmcosts.dev/models/deepseek-deepseek-v4-flash-vision-exp) | Deepseek | $0.44 | $1.32 | $None | 1,048,576 | None | standard | Closed |
 | [Qwen: Qwen3.8 Flash](https://llmcosts.dev/models/qwen-qwen3.8-flash) | Qwen | $0.15 | $0.47 | $None | 1,000,000 | None | standard | Closed |
+| [Qwen: Qwen3.8 2.4T A95B (batch)](https://llmcosts.dev/models/qwen-qwen3.8-2.4t-a95b:batch) | Qwen | $2.5 | $6.25 | $None | 1,010,000 | None | standard | Closed |
+| [DeepSeek: DeepSeek V4 Pro 0813 (batch)](https://llmcosts.dev/models/deepseek-deepseek-v4-pro-0813:batch) | Deepseek | $1.32 | $3.96 | $None | 1,048,576 | None | standard | Closed |
+| [Meta: Muse Glimmer 30B (batch)](https://llmcosts.dev/models/meta-muse-glimmer-30b:batch) | Meta | $0.35 | $1.5 | $None | 131,072 | None | standard | Closed |
+| [DeepSeek: DeepSeek V4 Flash 0731 (batch)](https://llmcosts.dev/models/deepseek-deepseek-v4-flash-0731:batch) | Deepseek | $0.14 | $0.28 | $None | 1,048,576 | None | standard | Closed |
+| [Google: Gemma 4 31B (batch)](https://llmcosts.dev/models/google-gemma-4-31b-it:batch) | Google | $0.39 | $0.97 | $None | 262,144 | None | standard | Closed |
+| [Qwen: Qwen3.5-9B (batch)](https://llmcosts.dev/models/qwen-qwen3.5-9b:batch) | Qwen | $0.17 | $0.25 | $None | 262,144 | None | standard | Closed |
+| [OpenAI: gpt-oss-20b (batch)](https://llmcosts.dev/models/openai-gpt-oss-20b:batch) | Openai | $0.05 | $0.2 | $None | 131,072 | None | standard | Closed |
