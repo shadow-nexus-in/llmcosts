@@ -1,6 +1,6 @@
 # Qwen: Qwen3.8 2.4T A95B API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-08-29
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-08-30
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
