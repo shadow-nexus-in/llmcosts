@@ -1,6 +1,6 @@
 # OpenAI: o3 Deep Research API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-08-30
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-08-31
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
