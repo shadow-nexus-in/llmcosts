@@ -1,6 +1,6 @@
 # LLMCosts.dev — Standard Tier Models
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-09-01
+> Updated: 2026-09-02
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -310,3 +310,4 @@ License: CC BY 4.0
 | [Google: Gemma 4 31B (batch)](https://llmcosts.dev/models/google-gemma-4-31b-it:batch) | Google | $0.39 | $0.97 | $None | 262,144 | None | standard | Closed |
 | [Qwen: Qwen3.5-9B (batch)](https://llmcosts.dev/models/qwen-qwen3.5-9b:batch) | Qwen | $0.17 | $0.25 | $None | 262,144 | None | standard | Closed |
 | [OpenAI: gpt-oss-20b (batch)](https://llmcosts.dev/models/openai-gpt-oss-20b:batch) | Openai | $0.05 | $0.2 | $None | 131,072 | None | standard | Closed |
+| [Anthropic: Claude Fable 5.1](https://llmcosts.dev/models/anthropic-claude-fable-5.1) | Anthropic | $10.0 | $50.0 | $None | 1,000,000 | None | standard | Closed |
