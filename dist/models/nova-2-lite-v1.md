@@ -1,6 +1,6 @@
 # Amazon: Nova 2 Lite API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-09-02
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-09-03
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview

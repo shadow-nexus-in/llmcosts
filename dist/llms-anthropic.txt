@@ -1,6 +1,6 @@
 # LLMCosts.dev — Anthropic Models Pricing
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-09-02
+> Updated: 2026-09-03
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -49,3 +49,4 @@ License: CC BY 4.0
 | [Claude Opus 5 (batch)](https://llmcosts.dev/models/anthropic-claude-opus-5:batch) | Anthropic | $2.5 | $12.5 | $None | 1,000,000 | None | premium | Closed |
 | [Anthropic: Claude Sonnet 4.6 (batch)](https://llmcosts.dev/models/anthropic-claude-sonnet-4.6:batch) | Anthropic | $1.5 | $7.5 | $None | 1,000,000 | None | premium | Closed |
 | [Anthropic: Claude Fable 5.1](https://llmcosts.dev/models/anthropic-claude-fable-5.1) | Anthropic | $10.0 | $50.0 | $None | 1,000,000 | None | standard | Closed |
+| [Anthropic: Claude Fable 5.1 (batch)](https://llmcosts.dev/models/anthropic-claude-fable-5.1:batch) | Anthropic | $5.0 | $25.0 | $None | 1,000,000 | None | standard | Closed |

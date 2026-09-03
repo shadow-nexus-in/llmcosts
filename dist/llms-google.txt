@@ -1,6 +1,6 @@
 # LLMCosts.dev — Google Models Pricing
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-09-02
+> Updated: 2026-09-03
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -68,3 +68,5 @@ License: CC BY 4.0
 | [Google: Gemini 3.7 Flash](https://llmcosts.dev/models/google-gemini-3.7-flash) | Google | $0.375 | $1.875 | $None | 1,048,576 | None | standard | Closed |
 | [Google: Gemini 3.7 Flash (batch)](https://llmcosts.dev/models/google-gemini-3.7-flash:batch) | Google | $0.1875 | $0.9375 | $None | 1,048,576 | None | standard | Closed |
 | [Google: Gemma 4 31B (batch)](https://llmcosts.dev/models/google-gemma-4-31b-it:batch) | Google | $0.39 | $0.97 | $None | 262,144 | None | standard | Closed |
+| [Google: Gemini 3.8 Flash](https://llmcosts.dev/models/google-gemini-3.8-flash) | Google | $0.75 | $3.75 | $None | 1,048,576 | None | standard | Closed |
+| [Google: Gemini 3.8 Flash (batch)](https://llmcosts.dev/models/google-gemini-3.8-flash:batch) | Google | $0.375 | $1.875 | $None | 1,048,576 | None | standard | Closed |
