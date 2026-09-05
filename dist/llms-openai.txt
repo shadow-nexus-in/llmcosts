@@ -1,6 +1,6 @@
 # LLMCosts.dev — Openai Models Pricing
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-09-04
+> Updated: 2026-09-05
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -123,3 +123,7 @@ License: CC BY 4.0
 | [OpenAI: GPT-4 Turbo (batch)](https://llmcosts.dev/models/openai-gpt-4-turbo:batch) | Openai | $5.0 | $15.0 | $None | 128,000 | None | premium | Closed |
 | [OpenAI: GPT-3.5 Turbo (batch)](https://llmcosts.dev/models/openai-gpt-3.5-turbo:batch) | Openai | $0.25 | $0.75 | $None | 16,385 | None | premium | Closed |
 | [OpenAI: gpt-oss-20b (batch)](https://llmcosts.dev/models/openai-gpt-oss-20b:batch) | Openai | $0.05 | $0.2 | $None | 131,072 | None | standard | Closed |
+| [OpenAI: GPT-6 Astra](https://llmcosts.dev/models/openai-gpt-6-astra) | Openai | $10.0 | $50.0 | $None | 1,050,000 | None | standard | Closed |
+| [OpenAI: GPT-6 Astra (batch)](https://llmcosts.dev/models/openai-gpt-6-astra:batch) | Openai | $5.0 | $25.0 | $None | 1,050,000 | None | standard | Closed |
+| [OpenAI: GPT-6 Astra Pro](https://llmcosts.dev/models/openai-gpt-6-astra-pro) | Openai | $10.0 | $50.0 | $None | 1,050,000 | None | standard | Closed |
+| [OpenAI: GPT-6 Astra Pro (batch)](https://llmcosts.dev/models/openai-gpt-6-astra-pro:batch) | Openai | $5.0 | $25.0 | $None | 1,050,000 | None | standard | Closed |

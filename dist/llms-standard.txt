@@ -1,6 +1,6 @@
 # LLMCosts.dev — Standard Tier Models
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-09-04
+> Updated: 2026-09-05
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -316,3 +316,7 @@ License: CC BY 4.0
 | [Google: Gemini 3.8 Flash](https://llmcosts.dev/models/google-gemini-3.8-flash) | Google | $0.75 | $3.75 | $None | 1,048,576 | None | standard | Closed |
 | [Google: Gemini 3.8 Flash (batch)](https://llmcosts.dev/models/google-gemini-3.8-flash:batch) | Google | $0.375 | $1.875 | $None | 1,048,576 | None | standard | Closed |
 | [Anthropic: Claude Fable 5.1 (batch)](https://llmcosts.dev/models/anthropic-claude-fable-5.1:batch) | Anthropic | $5.0 | $25.0 | $None | 1,000,000 | None | standard | Closed |
+| [OpenAI: GPT-6 Astra](https://llmcosts.dev/models/openai-gpt-6-astra) | Openai | $10.0 | $50.0 | $None | 1,050,000 | None | standard | Closed |
+| [OpenAI: GPT-6 Astra (batch)](https://llmcosts.dev/models/openai-gpt-6-astra:batch) | Openai | $5.0 | $25.0 | $None | 1,050,000 | None | standard | Closed |
+| [OpenAI: GPT-6 Astra Pro](https://llmcosts.dev/models/openai-gpt-6-astra-pro) | Openai | $10.0 | $50.0 | $None | 1,050,000 | None | standard | Closed |
+| [OpenAI: GPT-6 Astra Pro (batch)](https://llmcosts.dev/models/openai-gpt-6-astra-pro:batch) | Openai | $5.0 | $25.0 | $None | 1,050,000 | None | standard | Closed |

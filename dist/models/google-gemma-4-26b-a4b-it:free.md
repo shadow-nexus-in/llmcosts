@@ -1,6 +1,6 @@
 # Google: Gemma 4 26B A4B  (free) API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-09-04
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-09-05
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview

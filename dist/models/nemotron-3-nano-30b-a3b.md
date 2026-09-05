@@ -1,6 +1,6 @@
 # NVIDIA: Nemotron 3 Nano 30B A3B API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-09-04
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-09-05
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
