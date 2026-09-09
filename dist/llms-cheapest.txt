@@ -1,6 +1,6 @@
 # LLMCosts.dev — Cheapest LLM APIs (Under $0.20/1M Tokens)
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-09-08
+> Updated: 2026-09-09
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -121,6 +121,7 @@ License: CC BY 4.0
 | [Meta: Muse Spark 1.2 Contributor](https://llmcosts.dev/models/meta-muse-spark-1.2-contributor) | Meta | $0.1 | $0.2 | $None | 1,048,576 | None | standard | Closed |
 | [Meta: Muse Spark 1.3 Contributor](https://llmcosts.dev/models/meta-muse-spark-1.3-contributor) | Meta | $0.1 | $0.2 | $None | 1,048,576 | None | standard | Closed |
 | [Qwen: Qwen3 VL 32B Instruct](https://llmcosts.dev/models/qwen3-vl-32b-instruct) | Qwen | $0.104 | $0.416 | $None | 131,072 | 1270 | standard | Closed |
+| [DeepSeek: DeepSeek V4 Flash Vision Exp (batch)](https://llmcosts.dev/models/deepseek-deepseek-v4-flash-vision-exp:batch) | Deepseek | $0.11 | $0.33 | $None | 1,048,576 | None | standard | Closed |
 | [Qwen: Qwen3 VL 8B Thinking](https://llmcosts.dev/models/qwen3-vl-8b-thinking) | Qwen | $0.117 | $1.365 | $None | 131,072 | 1270 | standard | Closed |
 | [MiniMax: MiniMax M2.5](https://llmcosts.dev/models/minimax-m2.5) | Minimax | $0.118 | $0.99 | $None | 196,608 | 1200 | standard | Closed |
 | [QwQ 32B](https://llmcosts.dev/models/qwq-32b) | Alibaba Cloud | $0.12 | $0.18 | $None | 131,072 | 1253 | budget | Open |

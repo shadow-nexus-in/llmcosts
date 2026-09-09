@@ -1,6 +1,6 @@
 # Llama 3.1 Nemotron 70B Instruct API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-09-08
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-09-09
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
