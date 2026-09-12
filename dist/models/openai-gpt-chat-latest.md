@@ -1,6 +1,6 @@
 # OpenAI: GPT Chat Latest API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-09-11
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-09-12
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
