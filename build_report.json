@@ -1,5 +1,5 @@
 {
-  "build_date": "2026-09-14T04:00:14Z",
+  "build_date": "2026-09-15T03:59:33Z",
   "tasks": {
     "homepage": {
       "status": "ok",
@@ -11,21 +11,21 @@
       "status": "ok",
       "elapsed": 0.31,
       "updated": 0,
-      "unchanged": 203,
-      "unverified": 240,
-      "new_detected": 3632,
+      "unchanged": 205,
+      "unverified": 238,
+      "new_detected": 3667,
       "errors": 0
     },
     "auto_ingestor": {
       "status": "ok",
-      "elapsed": 0.08,
+      "elapsed": 0.07,
       "ingested": 0,
-      "skipped_spam": 124,
+      "skipped_spam": 126,
       "errors": 0
     },
     "page_generation": {
       "status": "ok",
-      "elapsed": 198.76,
+      "elapsed": 195.94,
       "generated": 443,
       "skipped": 0,
       "failed": 0,
@@ -33,8 +33,8 @@
     },
     "vs_generation": {
       "status": "ok",
-      "elapsed": 2.61,
-      "generated": 37,
+      "elapsed": 0.03,
+      "generated": 0,
       "skipped_limit": false
     },
     "llms_txt": {
@@ -51,7 +51,7 @@
     },
     "report_gen": {
       "status": "ok",
-      "elapsed": 0.37,
+      "elapsed": 0.66,
       "report_generated": true,
       "errors": 0
     },
