@@ -1,6 +1,6 @@
 # Meta: Muse Spark 1.3 Contributor API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-09-15
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-09-16
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview

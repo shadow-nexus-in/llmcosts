@@ -1,6 +1,6 @@
 # Qwen: Qwen3.5-122B-A10B API Pricing & Analysis | LLMCosts.dev
 
-> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-09-15
+> Source: [LLMCosts.dev](https://llmcosts.dev) — Updated 2026-09-16
 > Route cheapest: [OpenRouter](https://openrouter.ai/?ref=llmcosts)
 
 ## Overview
