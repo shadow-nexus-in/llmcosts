@@ -1,6 +1,6 @@
 # LLMCosts.dev — Standard Tier Models
 > Source: LLMCosts.dev — https://llmcosts.dev
-> Updated: 2026-09-17
+> Updated: 2026-09-18
 > Route cheaper via OpenRouter: https://openrouter.ai/?ref=llmcosts
 
 > [!IMPORTANT]
@@ -323,3 +323,5 @@ License: CC BY 4.0
 | [Qwen: Qwen3.8 Max (0902)](https://llmcosts.dev/models/qwen-qwen3.8-max-0902) | Qwen | $2.0 | $6.0 | $None | 1,000,000 | None | standard | Closed |
 | [DeepSeek: DeepSeek V4 Flash Vision Exp (batch)](https://llmcosts.dev/models/deepseek-deepseek-v4-flash-vision-exp:batch) | Deepseek | $0.11 | $0.33 | $None | 1,048,576 | None | standard | Closed |
 | [DeepSeek: DeepSeek V4.1 Flash](https://llmcosts.dev/models/deepseek-deepseek-v4.1-flash) | Deepseek | $0.3 | $1.2 | $None | 1,048,576 | None | standard | Closed |
+| [Qwen: Qwen3.8 27B (free)](https://llmcosts.dev/models/qwen-qwen3.8-27b:free) | Qwen | $0.0 | $0.0 | $None | 262,144 | None | standard | Closed |
+| [DeepSeek: DeepSeek V4 Flash 0731 (free)](https://llmcosts.dev/models/deepseek-deepseek-v4-flash-0731:free) | Deepseek | $0.0 | $0.0 | $None | 1,048,576 | None | standard | Closed |
